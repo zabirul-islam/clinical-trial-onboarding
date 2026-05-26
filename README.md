@@ -55,14 +55,24 @@ outputs/phase4/zeroshot_baseline/gens/        114 cases × 2 closed-API
 outputs/tables/selector_signals_cache.csv     Selector telemetry
 ```
 
-## What's NOT here (Zenodo at acceptance)
+## What's NOT here (large corpus → HuggingFace dataset)
 
-- `processed/trial_evidence_passages.parquet` (~692 MB, derived from
+- `processed/trial_evidence_passages.parquet` (~660 MB, derived from
   public ClinicalTrials.gov + TREC CT 2021/2022 corpus)
-- `outputs/tables/bm25_full_text_top100_candidates.csv` (BM25 cache,
-  reproducible from raw corpus + Pyserini)
+  → **HuggingFace dataset:**
+  https://huggingface.co/datasets/zabir1996/clinical-trial-onboarding-corpus
 
-Both are derivable from public sources.
+Download with:
+```bash
+hf download zabir1996/clinical-trial-onboarding-corpus \
+    trial_evidence_passages.parquet --repo-type dataset \
+    --local-dir processed/
+```
+
+The BM25 top-100 candidate cache is small enough to ship in this repo
+(`outputs/tables/bm25_full_text_top100_candidates.csv`).
+Both are derivable from public sources via `scripts/build_retrieval_corpus.py`
++ Pyserini.
 
 ## Reproduce the headline numbers
 
