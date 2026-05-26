@@ -1,0 +1,75 @@
+{
+  "case_id": "case_trec2021_056",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001981",
+  "selected_doc": "NCT02952885",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02952885 | section=eligibility]\nInclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.\n\n[Passage 2 | doc=NCT02952885 | section=eligibility]\nSubjects unwilling or unable to self-administer medication on a daily basis 10. known or suspected alcohol / drug abuse 11. Severe acute or chronic medical or psychiatric condition or laboratory abnormality that could increase the risk associated with trial participation.\n\n[Passage 3 | doc=NCT02952885 | section=summary]\nAcromegaly is a rare, chronic, and debilitating disease, usually caused by a benign tumor on the pituitary gland, which leads to excessive production of growth hormone (GH). GH excess in turn causes overproduction of another hormone called insulin-like growth factor-1 (IGF-1). IGF-1 levels are currently the most widely accepted measure of disease activity. In Canada, medical therapy with a type of medicine called \"somatostatin analogues\" (SSA), such as octreotide and lanreotide, is recommended for treatment of acromegaly. However, studies have shown that a significant number of patients who take SSA medications alone remain with elevated levels of IGF-1 in their blood. Another medication that is used to treat acromegaly is pegvisomant (PEGV), and the investigators plan to study whether strict control of IGF-1, by adding or optimizing the use of PEGV, results in a significant health benefits to patients who still have modestly high levels of IGF-1 in their blood.",
+  "passages": [
+    {
+      "passage_id": "NCT02952885::eligibility::0",
+      "doc_id": "NCT02952885",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02952885::eligibility::1",
+      "doc_id": "NCT02952885",
+      "section": "eligibility",
+      "passage_text": "Subjects unwilling or unable to self-administer medication on a daily basis 10. known or suspected alcohol / drug abuse 11. Severe acute or chronic medical or psychiatric condition or laboratory abnormality that could increase the risk associated with trial participation.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02952885::summary::0",
+      "doc_id": "NCT02952885",
+      "section": "summary",
+      "passage_text": "Acromegaly is a rare, chronic, and debilitating disease, usually caused by a benign tumor on the pituitary gland, which leads to excessive production of growth hormone (GH). GH excess in turn causes overproduction of another hormone called insulin-like growth factor-1 (IGF-1). IGF-1 levels are currently the most widely accepted measure of disease activity. In Canada, medical therapy with a type of medicine called \"somatostatin analogues\" (SSA), such as octreotide and lanreotide, is recommended for treatment of acromegaly. However, studies have shown that a significant number of patients who take SSA medications alone remain with elevated levels of IGF-1 in their blood. Another medication that is used to treat acromegaly is pegvisomant (PEGV), and the investigators plan to study whether strict control of IGF-1, by adding or optimizing the use of PEGV, results in a significant health benefits to patients who still have modestly high levels of IGF-1 in their blood.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.\",\n  \"supported_patient_facts\": [\"41-year-old male\", \"confirmed acromegaly\", \"IGF-1 level of 4.5 ULN\", \"recent brain MRI confirms residual pituitary tumor\", \"past medical history of acromegaly due to pituitary adenoma\", \"taking vitamin D and multivitamins post-surgery\"],\n  \"missing_patient_facts\": [\"Date of last pituitary surgery\", \"Liver function test results\"],\n  \"unresolved_study_requirements\": [\"Time since last pituitary surgery\", \"IGF-1 level range for eligibility\"],\n  \"reasoning_summary\": \"The patient meets the inclusion criteria for age, confirmed acromegaly, and elevated IGF-1 levels. However, the exact time since the last pituitary surgery and the specific IGF-1 level range for eligibility are unclear. Additionally, liver function tests are required to rule out clinically significant hepatic disease.\",\n  \"safety_note\": \"It is important to ensure that all safety criteria are met before proceeding with enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+    "supported_patient_facts": [
+      "41-year-old male",
+      "confirmed acromegaly",
+      "IGF-1 level of 4.5 ULN",
+      "recent brain MRI confirms residual pituitary tumor",
+      "past medical history of acromegaly due to pituitary adenoma",
+      "taking vitamin D and multivitamins post-surgery"
+    ],
+    "missing_patient_facts": [
+      "Date of last pituitary surgery",
+      "Liver function test results"
+    ],
+    "unresolved_study_requirements": [
+      "Time since last pituitary surgery",
+      "IGF-1 level range for eligibility"
+    ],
+    "reasoning_summary": "The patient meets the inclusion criteria for age, confirmed acromegaly, and elevated IGF-1 levels. However, the exact time since the last pituitary surgery and the specific IGF-1 level range for eligibility are unclear. Additionally, liver function tests are required to rule out clinically significant hepatic disease.",
+    "safety_note": "It is important to ensure that all safety criteria are met before proceeding with enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+  "missing_patient_facts": [
+    "Date of last pituitary surgery",
+    "Liver function test results"
+  ],
+  "unresolved_study_requirements": [
+    "Time since last pituitary surgery",
+    "IGF-1 level range for eligibility"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 20.962
+}

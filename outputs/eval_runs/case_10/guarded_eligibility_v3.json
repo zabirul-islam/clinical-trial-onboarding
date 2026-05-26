@@ -1,0 +1,18 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The length of time you'll spend in this research depends on the specific study you're considering. However, based on the information provided, some studies mentioned that the research might last up to 6 months, including follow-ups. Other studies suggest shorter periods, such as 3 weeks or 12 weeks. Your exact timeline will depend on the study you join.",
+  "supported_patient_facts": [
+    "Some studies mention a research period lasting up to 6 months.",
+    "Other studies suggest a shorter period, such as 3 weeks or 12 weeks."
+  ],
+  "missing_patient_facts": [
+    "The specific study you are interested in.",
+    "Your personal health condition and its impact on the study timeline."
+  ],
+  "unresolved_study_requirements": [
+    "The exact duration of each study phase.",
+    "Your eligibility for the study based on your health status and other criteria."
+  ],
+  "reasoning_summary": "The provided information indicates that the research duration can vary significantly depending on the study. Some studies suggest durations up to 6 months, while others mention shorter periods. Missing facts such as the specific study you are interested in and your health status prevent a definitive answer.",
+  "safety_note": "Please consult the safety information provided in the study documents and discuss any concerns with the research team."
+}

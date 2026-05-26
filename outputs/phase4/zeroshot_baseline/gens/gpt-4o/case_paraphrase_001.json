@@ -1,0 +1,66 @@
+{
+  "case_id": "case_paraphrase_001",
+  "backbone": "gpt-4o",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "question": "I am considering a clinical trial. Here is my situation: A 22-year-old Caucasian man came to the Clinic with a history of tremors since a year ago. The tremor was first in his right hand while holding something. Later the tremor became continuous and extended to both hands and legs and even at rest. The Kayser-Fleischer' ring was detected in the ophthalmologic exam. The physical exam revealed jaundice, hepatosplenomegaly and hypotonia of the upper limbs. He had a constant smile on his face, however, he has aggressive behavior according to his parents' explanation. His laboratory study was significant for a low serum caeruloplasmin (0.05 g/l), and a raised 24 hour urine copper excretion (120 \u03bcg/24 h). Wilson disease was confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver). Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=detailed_description]\nForty patients were randomised, 18 patients had a laparoscopic appendectomy and 22 patients had a laparoscopic inspection only. The postoperative pain scores were significantly different favouring appendix removal (p < 0.01). Relative risk calculations indicated a 2.4 fold (95% CI: 1.3 - 4.0) greater chance of improving or becoming pain free after laparoscopic appendectomy. The number needed to treat was 2.2 patients (95% CI: 1.5 - 6.5). There was no significant relation between postoperative pain scores and histopathology findings. Conclusions Chronic or recurrent appendicitis is a realistic clinical entity that can be treated successfully by elective appendectomy leading to significant pain reduction in properly selected cases. Histopathology of the removed appendix does not contribute to the diagnosis.\n\n[Passage 2 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).\n\n[Passage 3 | doc=NCT00413855 | section=summary]\nIt is questionable whether elective appendectomy can effectively reduce pain in persistent or recurrent lower abdominal quadrant pain due to chronic appendicitis. A single centre randomised double-blind sham surgery controlled clinical trial studied the effects of elective laparoscopic appendectomy on postoperative pain perception in patients with persistent or recurrent lower abdominal quadrant pain on abdominal pain at 6 months postoperatively. Secondary outcome was the relation between clinical response and the appendix' histopathology. The analysis was performed on an intention-to-treat basis. Pain scores were compared using a Fisher's exact test.",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::detailed_description::0",
+      "doc_id": "NCT00413855",
+      "section": "detailed_description",
+      "passage_text": "Forty patients were randomised, 18 patients had a laparoscopic appendectomy and 22 patients had a laparoscopic inspection only. The postoperative pain scores were significantly different favouring appendix removal (p < 0.01). Relative risk calculations indicated a 2.4 fold (95% CI: 1.3 - 4.0) greater chance of improving or becoming pain free after laparoscopic appendectomy. The number needed to treat was 2.2 patients (95% CI: 1.5 - 6.5). There was no significant relation between postoperative pain scores and histopathology findings. Conclusions Chronic or recurrent appendicitis is a realistic clinical entity that can be treated successfully by elective appendectomy leading to significant pain reduction in properly selected cases. Histopathology of the removed appendix does not contribute to the diagnosis.",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00413855::summary::0",
+      "doc_id": "NCT00413855",
+      "section": "summary",
+      "passage_text": "It is questionable whether elective appendectomy can effectively reduce pain in persistent or recurrent lower abdominal quadrant pain due to chronic appendicitis. A single centre randomised double-blind sham surgery controlled clinical trial studied the effects of elective laparoscopic appendectomy on postoperative pain perception in patients with persistent or recurrent lower abdominal quadrant pain on abdominal pain at 6 months postoperatively. Secondary outcome was the relation between clinical response and the appendix' histopathology. The analysis was performed on an intention-to-treat basis. Pain scores were compared using a Fisher's exact test.",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"This study is about testing whether removing the appendix can help reduce pain in people with chronic or recurrent lower abdominal pain. It doesn't seem to be related to Wilson disease or the symptoms you described.\",\n  \"supported_patient_facts\": [\n    \"The patient is 22 years old.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient has chronic or recurrent right lower abdominal quadrant pain.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The patient must not have a history of chronic back pain, previous abdominal surgery (except specific types), specific gastrointestinal diseases, or gynecological diseases.\"\n  ],\n  \"reasoning_summary\": \"The study focuses on appendectomy for abdominal pain, which does not align with the patient's Wilson disease diagnosis and symptoms.\",\n  \"safety_note\": \"This information is not a substitute for professional medical advice. Always consult with a healthcare provider.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "This study is about testing whether removing the appendix can help reduce pain in people with chronic or recurrent lower abdominal pain. It doesn't seem to be related to Wilson disease or the symptoms you described.",
+    "supported_patient_facts": [
+      "The patient is 22 years old."
+    ],
+    "missing_patient_facts": [
+      "The patient has chronic or recurrent right lower abdominal quadrant pain."
+    ],
+    "unresolved_study_requirements": [
+      "The patient must not have a history of chronic back pain, previous abdominal surgery (except specific types), specific gastrointestinal diseases, or gynecological diseases."
+    ],
+    "reasoning_summary": "The study focuses on appendectomy for abdominal pain, which does not align with the patient's Wilson disease diagnosis and symptoms.",
+    "safety_note": "This information is not a substitute for professional medical advice. Always consult with a healthcare provider."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "This study is about testing whether removing the appendix can help reduce pain in people with chronic or recurrent lower abdominal pain. It doesn't seem to be related to Wilson disease or the symptoms you described.",
+  "missing_patient_facts": [
+    "The patient has chronic or recurrent right lower abdominal quadrant pain."
+  ],
+  "unresolved_study_requirements": [
+    "The patient must not have a history of chronic back pain, previous abdominal surgery (except specific types), specific gastrointestinal diseases, or gynecological diseases."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 3.222565033007413
+}

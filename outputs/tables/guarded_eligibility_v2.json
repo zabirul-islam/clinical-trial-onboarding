@@ -1,0 +1,14 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "I found information about your situation in the study, but there are some details we need to check.",
+  "supported_facts": [
+    "You are a 55-year-old woman with osteoporosis.",
+    "You have a documented (X-ray) prevalent osteoporotic vertebral fracture."
+  ],
+  "missing_facts": [
+    "You need to have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma).",
+    "The radiographs should be performed according to a standardized protocol."
+  ],
+  "reasoning_summary": "The evidence shows you meet the age requirement and have a documented osteoporotic vertebral fracture. However, we need to confirm the fracture was documented via X-ray and that the radiographs were performed according to a standardized protocol.",
+  "safety_note": "Please ensure your fracture documentation meets the study\u2019s specific requirements."
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "case_01",
+  "backbone": "V2",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00543023",
+  "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "evidence": "[Passage 1 | doc=NCT00543023 | section=eligibility]\nInclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+  "passages": [
+    {
+      "passage_id": "NCT00543023::eligibility::0",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+      "score": 3.8074598
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a single dominant trial context could not be established from the retrieved evidence\nReasoning: Retrieved evidence was split across multiple trials. The top candidate trial was NCT00543023 with weight share 0.368, which was not strong enough for a reliable single-trial answer.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A single study context could not be established from the retrieved evidence.; The system needs one specific trial before it can explain study details safely.\n\nPatient-facing summary (rebuilt): I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Do you want help with one specific trial rather than a general study search?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00543023 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT00543023",
+    "selected_doc_weight_share": 0.367937,
+    "selected_doc_passage_count": 1,
+    "n_unique_docs_in_raw_context": 7,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "doc_scores": [
+      {
+        "doc_id": "NCT00543023",
+        "weighted_score": 1.0,
+        "passage_count": 1,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT00696644",
+        "weighted_score": 0.5,
+        "passage_count": 1,
+        "best_rank": 2
+      },
+      {
+        "doc_id": "NCT01120197",
+        "weighted_score": 0.3666666666666667,
+        "passage_count": 2,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT02489825",
+        "weighted_score": 0.3333333333333333,
+        "passage_count": 1,
+        "best_rank": 3
+      },
+      {
+        "doc_id": "NCT00388908",
+        "weighted_score": 0.25,
+        "passage_count": 1,
+        "best_rank": 4
+      },
+      {
+        "doc_id": "NCT00933036",
+        "weighted_score": 0.14285714285714285,
+        "passage_count": 1,
+        "best_rank": 7
+      },
+      {
+        "doc_id": "NCT00290862",
+        "weighted_score": 0.125,
+        "passage_count": 1,
+        "best_rank": 8
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

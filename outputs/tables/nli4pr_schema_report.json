@@ -1,0 +1,21 @@
+{
+  "source_dataset": "NLI4PR",
+  "columns": [
+    "id",
+    "topic_id",
+    "statement_medical",
+    "statement_pol",
+    "premise",
+    "NCT_title",
+    "NCT_id",
+    "label"
+  ],
+  "field_mapping": {
+    "patient_text_plain": "statement_pol",
+    "patient_text_medical": "statement_medical",
+    "trial_text": "premise",
+    "trial_title": "NCT_title",
+    "trial_id": "NCT_id",
+    "label": "label"
+  }
+}

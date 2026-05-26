@@ -1,0 +1,104 @@
+{
+  "case_id": "case_02",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01482130",
+  "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+  "evidence": "[Passage 1 | doc=NCT01482130 | section=detailed_description]\nBackground: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.\n\n[Passage 2 | doc=NCT01482130 | section=detailed_description]\nPeak bone mass is thought to be attained by the end of the third decade, hence the early adult years might be the final opportunity for its augmentation. It is indicated that optimizing peak bone mass may have long-term effect on bone health. Intervention studies with young women show that high impact exercises may improve BMD in young adults. High intensity strength training also seems to effectively improve BMD and the ratio of bone turnover markers. Furthermore, an explosive execution of movement may be important for obtaining BMD improvements from resistance training. Maximal strength training (MST) is characterized by high mobilization of force, high loads, and few repetitions (3-5 reps.) per set with emphasis on maximal force mobilization in the concentric part of the movement. Recent studies have shown that MST is highly efficient for improving maximal strength (1RM) and rate of force development (RFD). Parameters such as 1RM and RFD are closely related to BMD.\n\n[Passage 3 | doc=NCT01482130 | section=detailed_description]\nIn addition, a recent study from our group showed that 12 weeks of MST training (three times each week) improved bone mass in the hip and spine of postmenopausal women, diagnosed with osteoporosis (article in preparation). In the present study we want to investigate the impact of heavy, explosive strength training on bone mass and bone metabolism in young and healthy woman which have not yet reached peak bone mass. Physical activity and BMD: One of the main factors responsible for the high incidence of osteoporosis is physical inactivity. Several studies have shown that physical activity can lead to an increase in BMD. Resistance- and impact exercises have shown to be most effective. A number of studies performed with sedentary young women performing high impact training has shown significant improvement in BMD at the femoral neck and lumbar spine. A study with postmenopausal women showed that power training is more effective in maintaining BMD in the lumbar spine and total hip than conventional strength training.\n\n[Passage 4 | doc=NCT01482130 | section=detailed_description]\nThe effect of training at the cellular and tissue level can be divided into 3 main factors: - Increased osteoblast activity and bone formation - Reduced osteoclast activity and bone resorption - Increased stability of the bone's architectural structure In terms of prevention of osteoporosis the current exercise guidelines, according to the WHO, is encouragement of a physically active lifestyle. Weight bearing activities, preferably resistance training are recommended for patients with osteoporosis. Peak bone mass is an important factor in determining long-term fracture risk. Therefore, effective strategies to maximize peak bone mass in young adults are essential. Evidence indicates that resistance and high-impact exercise are the most beneficial to maintain and optimize peak bone mass in young adults. However, studies investigating such exercises are not altogether conclusive, and the mode of exercise, regarding type of exercise, intensity and execution, still remains unclear.\n\n[Passage 5 | doc=NCT01482130 | section=detailed_description]\nSince MST exercise may increase bone mass in osteoporotic women, and improves 1RM and RFD (which are closely related to skeletal health) we wish to investigate the potential of MST training to increase bone mass and improve bone metabolism in young female adults, who have not yet reached peak bone mass. Goals of the study: 1. Investigate the effect of heavy, explosive strength training on bone mineral density compared to a control group in young, healthy women over a period of 3 months. 2. Study the effect of this training intervention on bone formation and resorption markers 3. Study the effect on physical capacity measurements.\n\n[Passage 6 | doc=NCT01482130 | section=eligibility]\nInclusion Criteria: - Participants include young and healthy women between the ages of 18-30, who have not engaged in strength training for the last 6 months. Exclusion Criteria: - Subjects will be excluded from the study if they have any condition that preclude them from taking part in the exercise testing procedures or the 24 week exercise program or if they fail to obtain the required amount of training sessions.",
+  "passages": [
+    {
+      "passage_id": "NCT01482130::detailed_description::0",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "Background: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01482130::detailed_description::1",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "Peak bone mass is thought to be attained by the end of the third decade, hence the early adult years might be the final opportunity for its augmentation. It is indicated that optimizing peak bone mass may have long-term effect on bone health. Intervention studies with young women show that high impact exercises may improve BMD in young adults. High intensity strength training also seems to effectively improve BMD and the ratio of bone turnover markers. Furthermore, an explosive execution of movement may be important for obtaining BMD improvements from resistance training. Maximal strength training (MST) is characterized by high mobilization of force, high loads, and few repetitions (3-5 reps.) per set with emphasis on maximal force mobilization in the concentric part of the movement. Recent studies have shown that MST is highly efficient for improving maximal strength (1RM) and rate of force development (RFD). Parameters such as 1RM and RFD are closely related to BMD.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01482130::detailed_description::2",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "In addition, a recent study from our group showed that 12 weeks of MST training (three times each week) improved bone mass in the hip and spine of postmenopausal women, diagnosed with osteoporosis (article in preparation). In the present study we want to investigate the impact of heavy, explosive strength training on bone mass and bone metabolism in young and healthy woman which have not yet reached peak bone mass. Physical activity and BMD: One of the main factors responsible for the high incidence of osteoporosis is physical inactivity. Several studies have shown that physical activity can lead to an increase in BMD. Resistance- and impact exercises have shown to be most effective. A number of studies performed with sedentary young women performing high impact training has shown significant improvement in BMD at the femoral neck and lumbar spine. A study with postmenopausal women showed that power training is more effective in maintaining BMD in the lumbar spine and total hip than conventional strength training.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01482130::detailed_description::3",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "The effect of training at the cellular and tissue level can be divided into 3 main factors: - Increased osteoblast activity and bone formation - Reduced osteoclast activity and bone resorption - Increased stability of the bone's architectural structure In terms of prevention of osteoporosis the current exercise guidelines, according to the WHO, is encouragement of a physically active lifestyle. Weight bearing activities, preferably resistance training are recommended for patients with osteoporosis. Peak bone mass is an important factor in determining long-term fracture risk. Therefore, effective strategies to maximize peak bone mass in young adults are essential. Evidence indicates that resistance and high-impact exercise are the most beneficial to maintain and optimize peak bone mass in young adults. However, studies investigating such exercises are not altogether conclusive, and the mode of exercise, regarding type of exercise, intensity and execution, still remains unclear.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01482130::detailed_description::4",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "Since MST exercise may increase bone mass in osteoporotic women, and improves 1RM and RFD (which are closely related to skeletal health) we wish to investigate the potential of MST training to increase bone mass and improve bone metabolism in young female adults, who have not yet reached peak bone mass. Goals of the study: 1. Investigate the effect of heavy, explosive strength training on bone mineral density compared to a control group in young, healthy women over a period of 3 months. 2. Study the effect of this training intervention on bone formation and resorption markers 3. Study the effect on physical capacity measurements.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01482130::eligibility::0",
+      "doc_id": "NCT01482130",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Participants include young and healthy women between the ages of 18-30, who have not engaged in strength training for the last 6 months. Exclusion Criteria: - Subjects will be excluded from the study if they have any condition that preclude them from taking part in the exercise testing procedures or the 24 week exercise program or if they fail to obtain the required amount of training sessions.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the study information provided, you would unlikely qualify for this particular trial. This study is specifically designed for young, healthy women between ages 18-30 who have not done strength training in the last 6 months. Since you are 63 years old, you fall outside the age range for this study.\\n\\nHowever, it's worth noting that the study description mentions that similar training (maximal strength training) has shown promise in improving bone mass in postmenopausal women with osteoporosis in other research. You may want to ask your healthcare provider about other clinical trials that are specifically designed for postmenopausal women with osteoporosis and prior fragility fractures, as those would be more appropriate for your situation.\",\n  \"supported_patient_facts\": [\n    \"63 years old\",\n    \"Postmenopausal woman\",\n    \"Diagnosis of osteoporosis\",\n    \"History of fragility fracture\"\n  ],\n  \"missing_patient_facts\": [\n    \"Recent strength training history in the last 6 months\",\n    \"Current physical activity level\",\n    \"Other medical conditions that might preclude exercise participation\",\n    \"Specific imaging records availability\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"This study's imaging requirements are not detailed in the provided passages\",\n    \"Specific exclusion criteria beyond exercise limitations are not fully detailed\"\n  ],\n  \"reasoning_summary\": \"The study has a clear inclusion criterion limiting participants to women aged 18-30. The patient is 63 years old, which is well outside this age range. While the patient's condition (postmenopausal osteoporosis with prior fragility fracture) is relevant to the research area, and the study background mentions work with postmenopausal osteoporotic women, this particular trial is focused exclusively on young adults who have not yet reached peak bone mass. The age criterion is definitive and makes this patient ineligible for this specific study.\",\n  \"safety_note\": \"This response is based solely on the study eligibility criteria provided and does not constitute medical advice. The patient should consult with their healthcare provider about appropriate clinical trials and treatment options for osteoporosis management.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the study information provided, you would unlikely qualify for this particular trial. This study is specifically designed for young, healthy women between ages 18-30 who have not done strength training in the last 6 months. Since you are 63 years old, you fall outside the age range for this study.\n\nHowever, it's worth noting that the study description mentions that similar training (maximal strength training) has shown promise in improving bone mass in postmenopausal women with osteoporosis in other research. You may want to ask your healthcare provider about other clinical trials that are specifically designed for postmenopausal women with osteoporosis and prior fragility fractures, as those would be more appropriate for your situation.",
+    "supported_patient_facts": [
+      "63 years old",
+      "Postmenopausal woman",
+      "Diagnosis of osteoporosis",
+      "History of fragility fracture"
+    ],
+    "missing_patient_facts": [
+      "Recent strength training history in the last 6 months",
+      "Current physical activity level",
+      "Other medical conditions that might preclude exercise participation",
+      "Specific imaging records availability"
+    ],
+    "unresolved_study_requirements": [
+      "This study's imaging requirements are not detailed in the provided passages",
+      "Specific exclusion criteria beyond exercise limitations are not fully detailed"
+    ],
+    "reasoning_summary": "The study has a clear inclusion criterion limiting participants to women aged 18-30. The patient is 63 years old, which is well outside this age range. While the patient's condition (postmenopausal osteoporosis with prior fragility fracture) is relevant to the research area, and the study background mentions work with postmenopausal osteoporotic women, this particular trial is focused exclusively on young adults who have not yet reached peak bone mass. The age criterion is definitive and makes this patient ineligible for this specific study.",
+    "safety_note": "This response is based solely on the study eligibility criteria provided and does not constitute medical advice. The patient should consult with their healthcare provider about appropriate clinical trials and treatment options for osteoporosis management."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the study information provided, you would unlikely qualify for this particular trial. This study is specifically designed for young, healthy women between ages 18-30 who have not done strength training in the last 6 months. Since you are 63 years old, you fall outside the age range for this study.\n\nHowever, it's worth noting that the study description mentions that similar training (maximal strength training) has shown promise in improving bone mass in postmenopausal women with osteoporosis in other research. You may want to ask your healthcare provider about other clinical trials that are specifically designed for postmenopausal women with osteoporosis and prior fragility fractures, as those would be more appropriate for your situation.",
+  "missing_patient_facts": [
+    "Recent strength training history in the last 6 months",
+    "Current physical activity level",
+    "Other medical conditions that might preclude exercise participation",
+    "Specific imaging records availability"
+  ],
+  "unresolved_study_requirements": [
+    "This study's imaging requirements are not detailed in the provided passages",
+    "Specific exclusion criteria beyond exercise limitations are not fully detailed"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 11.86125580384396
+}

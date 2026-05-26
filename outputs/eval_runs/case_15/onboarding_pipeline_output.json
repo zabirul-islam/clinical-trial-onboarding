@@ -1,0 +1,81 @@
+{
+  "input_question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to fit the age requirement (older), but we need more details about your bone problems to determine if you qualify for this study. Please share any specific conditions or diagnoses related to your bone issues.",
+    "supported_patient_facts": [
+      "you are older",
+      "you have had some bone problems"
+    ],
+    "missing_patient_facts": [
+      "your exact age",
+      "the nature and specifics of your bone problems"
+    ],
+    "unresolved_study_requirements": [
+      "the nature and specifics of your bone problems"
+    ],
+    "reasoning_summary": "Your age matches the inclusion criteria, but the nature and specifics of your bone problems are unclear. More information is needed to confirm eligibility.",
+    "safety_note": "Please ensure you understand the study's procedures and risks before deciding to participate."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "To join, participants must be between 18-65 years old, have had a traumatic brain injury at least 1 year ago, be able to read and speak English fluently, and have difficulties with learning and memory skills.",
+      "support_passages": [
+        2
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants will have cognitive questionnaires, blood tests, bone joint exams, and self-exams of joints at home. They will also complete questionnaires about their medications and supplements.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "There are no specific risks or burdens mentioned in the provided information.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "time_commitment": {
+      "text": "The study involves about 5 minutes for completing questionnaires and a few phone calls every 2 weeks. There is no mention of a specific time commitment.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study looks at problems with attention or mental fatigue related to treatment. It involves cognitive questionnaires, blood tests, bone joint exams, and self-exams of joints at home. Participants will complete questionnaires about their medications and supplements. There are no specific risks or burdens mentioned.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Who may join: To join, participants must be between 18-65 years old, have had a traumatic brain injury at least 1 year ago, be able to read and speak English fluently, and have difficulties with learning and memory skills. What participation may involve: Participants will have cognitive questionnaires, blood tests, bone joint exams, and self-exams of joints at home. They will also complete questionnaires about their medications and supplements. Risks or burdens: There are no specific risks or burdens mentioned in the provided information. Time commitment: The study involves about 5 minutes for completing questionnaires and a few phone calls every 2 weeks. There is no mention of a specific time commitment.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join this study?",
+      "What kind of information will be collected about you?",
+      "What will happen during the study?"
+    ],
+    "checked_concepts": [
+      "Eligibility criteria",
+      "Information collection methods",
+      "Study procedures"
+    ]
+  }
+}

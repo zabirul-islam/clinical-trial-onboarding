@@ -1,0 +1,107 @@
+{
+  "case_id": "case_07",
+  "backbone": "V1",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04660656",
+  "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+  "evidence": "[Passage 1 | doc=NCT04660656 | section=summary]\nSciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.\n\n[Passage 2 | doc=NCT03093909 | section=summary]\nAny time the words \"you,\" \"your,\" \"I,\" or \"me\" appear, it is meant to apply to the potential participant. The goal of this clinical research study is to find the highest tolerable dose of gemcitabine that can be given by inhalation (breathing it as a mist) to patients with solid tumors that have spread to the lungs from other parts of the body. The safety and side effects of this drug will also be studied. This is an investigational study. Gemcitabine is FDA approved and commercially available for the treatment of pancreatic and lung cancer, and other solid tumors. Its administration by inhalation is investigational. The study doctor can explain how the study drug is designed to work. Up to 44 participants will be enrolled in this study. All will take part at MD Anderson.\n\n[Passage 3 | doc=NCT00502827 | section=detailed_description]\nIf you agree to take part in this study, researchers will first do a test to learn what the CO level of your blood is. To do this test, you will be asked to blow into a cardboard tube. If the test finds that you are ineligible, you will not be able to continue on this study. If you are found to be eligible, you will be enrolled in this study and asked to complete an interview that should last about 1 hour. During this interview, you will be asked basic questions, such as your age, education level, and smoking history. You will also be asked questions about your mood, quality of life, and stress. You will then be asked to complete a short test that involves completing some basic tasks, such as remembering several words and drawing a simple shape. This test, which will take about 2-5 minutes to complete, is used to measure attention and concentration. You will then be randomly assigned (as in the toss of a coin) to one of two treatment groups. There is an equal chance of being assigned to either group. If you are assigned to Group 1, you will receive advice from your physician/provider to stop smoking and written materials designed to help you quit smoking.\n\n[Passage 4 | doc=NCT01906008 | section=summary]\nThe goal of this clinical research study is to learn if minocycline can reduce numbness, pain, and/or loss of motor function in patients with colorectal cancer. In this study, minocycline will be compared to a placebo. The study doctor can explain how the study drug is designed to work. A placebo is not a drug. It looks like the study drug, but it is not designed to treat any disease or illness. It is designed to be compared with a study drug to learn if the study drug has any real effect.\n\n[Passage 5 | doc=NCT00502827 | section=summary]\nThe goal of this research study is to look at treatments that may help individuals who have HIV/AIDS to stop smoking.\n\n[Passage 6 | doc=NCT00909207 | section=summary]\nThe scientific aim of this study is to evaluate patient comprehension of the 77 newly developed items as well as the extent to which the items correspond to the concepts of interest for each patient reported outcome (PRO). A secondary aim of this study is to evaluate the usability of the technology interface for collecting the PRO data of the PRO-CTCAE system once it has been built to accommodate the learning garnered during the cognitive interviews.\n\n[Passage 7 | doc=NCT00909207 | section=detailed_description]\nFor example, you will be asked if the words describing the symptoms were easy to understand or if other words may be more clear. There are no right or wrong answers to any part of this study. Researchers are interested in your thoughts about the words. Filling out the questionnaire will take about 10-15 minutes. The interview will take about 20-30 minutes. Study Data: The interview will be audio-recorded. Only the study staff will hear the recording. The recording will be saved on a password-protected computer that can only be accessed by the study staff. Your responses will be coded without using your name or other personal identifying information. Only the study staff will have access to the code numbers and be able to identify you. Your responses will not be shared with your doctor without your consent. In some of the questions, you will be asked about your feelings (for example, whether you feel unhappy or anxious). If your responses show that you may be having emotional difficulties, you will be given a list of community agencies that provide services for emotional issues. You may also speak to your doctor about your feelings.\n\n[Passage 8 | doc=NCT00352820 | section=detailed_description]\nCaregiver Consent: If you agree to take part in this study, you will be asked to have 1 interview. This will be a face-to-face interview that will take place at M. D. Anderson while you are there for the patient's physician appointment. During this interview, you will be asked to describe what it has been like for you to help care for a person with a primary brain tumor in the past, what it is like to care for a person with a primary brain tumor now, and what you think it might be like in the future. You will be interviewed alone, and your interview will be tape recorded and then written on paper. The information that is gathered (the tape and the written information) will be kept strictly confidential. The tapes and any paperwork will be kept in a locked box during and after this study. The written information will be kept in password-protected computer files. The researcher is the only person who will have access to the tapes. You will also be asked to answer a questionnaire on paper. This questionnaire will ask specific personal information, such as your age, occupation, and relationship to the patient. This questionnaire will take about 5 minutes to complete.",
+  "passages": [
+    {
+      "passage_id": "NCT04660656::summary::0",
+      "doc_id": "NCT04660656",
+      "section": "summary",
+      "text": "Sciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.",
+      "score": -3.843278
+    },
+    {
+      "passage_id": "NCT03093909::summary::0",
+      "doc_id": "NCT03093909",
+      "section": "summary",
+      "text": "Any time the words \"you,\" \"your,\" \"I,\" or \"me\" appear, it is meant to apply to the potential participant. The goal of this clinical research study is to find the highest tolerable dose of gemcitabine that can be given by inhalation (breathing it as a mist) to patients with solid tumors that have spread to the lungs from other parts of the body. The safety and side effects of this drug will also be studied. This is an investigational study. Gemcitabine is FDA approved and commercially available for the treatment of pancreatic and lung cancer, and other solid tumors. Its administration by inhalation is investigational. The study doctor can explain how the study drug is designed to work. Up to 44 participants will be enrolled in this study. All will take part at MD Anderson.",
+      "score": -3.9719496
+    },
+    {
+      "passage_id": "NCT00502827::detailed_description::0",
+      "doc_id": "NCT00502827",
+      "section": "detailed_description",
+      "text": "If you agree to take part in this study, researchers will first do a test to learn what the CO level of your blood is. To do this test, you will be asked to blow into a cardboard tube. If the test finds that you are ineligible, you will not be able to continue on this study. If you are found to be eligible, you will be enrolled in this study and asked to complete an interview that should last about 1 hour. During this interview, you will be asked basic questions, such as your age, education level, and smoking history. You will also be asked questions about your mood, quality of life, and stress. You will then be asked to complete a short test that involves completing some basic tasks, such as remembering several words and drawing a simple shape. This test, which will take about 2-5 minutes to complete, is used to measure attention and concentration. You will then be randomly assigned (as in the toss of a coin) to one of two treatment groups. There is an equal chance of being assigned to either group. If you are assigned to Group 1, you will receive advice from your physician/provider to stop smoking and written materials designed to help you quit smoking.",
+      "score": -4.7815857
+    },
+    {
+      "passage_id": "NCT01906008::summary::0",
+      "doc_id": "NCT01906008",
+      "section": "summary",
+      "text": "The goal of this clinical research study is to learn if minocycline can reduce numbness, pain, and/or loss of motor function in patients with colorectal cancer. In this study, minocycline will be compared to a placebo. The study doctor can explain how the study drug is designed to work. A placebo is not a drug. It looks like the study drug, but it is not designed to treat any disease or illness. It is designed to be compared with a study drug to learn if the study drug has any real effect.",
+      "score": -4.9511724
+    },
+    {
+      "passage_id": "NCT00502827::summary::0",
+      "doc_id": "NCT00502827",
+      "section": "summary",
+      "text": "The goal of this research study is to look at treatments that may help individuals who have HIV/AIDS to stop smoking.",
+      "score": -5.1837187
+    },
+    {
+      "passage_id": "NCT00909207::summary::0",
+      "doc_id": "NCT00909207",
+      "section": "summary",
+      "text": "The scientific aim of this study is to evaluate patient comprehension of the 77 newly developed items as well as the extent to which the items correspond to the concepts of interest for each patient reported outcome (PRO). A secondary aim of this study is to evaluate the usability of the technology interface for collecting the PRO data of the PRO-CTCAE system once it has been built to accommodate the learning garnered during the cognitive interviews.",
+      "score": -5.2823815
+    },
+    {
+      "passage_id": "NCT00909207::detailed_description::1",
+      "doc_id": "NCT00909207",
+      "section": "detailed_description",
+      "text": "For example, you will be asked if the words describing the symptoms were easy to understand or if other words may be more clear. There are no right or wrong answers to any part of this study. Researchers are interested in your thoughts about the words. Filling out the questionnaire will take about 10-15 minutes. The interview will take about 20-30 minutes. Study Data: The interview will be audio-recorded. Only the study staff will hear the recording. The recording will be saved on a password-protected computer that can only be accessed by the study staff. Your responses will be coded without using your name or other personal identifying information. Only the study staff will have access to the code numbers and be able to identify you. Your responses will not be shared with your doctor without your consent. In some of the questions, you will be asked about your feelings (for example, whether you feel unhappy or anxious). If your responses show that you may be having emotional difficulties, you will be given a list of community agencies that provide services for emotional issues. You may also speak to your doctor about your feelings.",
+      "score": -5.307244
+    },
+    {
+      "passage_id": "NCT00352820::detailed_description::0",
+      "doc_id": "NCT00352820",
+      "section": "detailed_description",
+      "text": "Caregiver Consent: If you agree to take part in this study, you will be asked to have 1 interview. This will be a face-to-face interview that will take place at M. D. Anderson while you are there for the patient's physician appointment. During this interview, you will be asked to describe what it has been like for you to help care for a person with a primary brain tumor in the past, what it is like to care for a person with a primary brain tumor now, and what you think it might be like in the future. You will be interviewed alone, and your interview will be tape recorded and then written on paper. The information that is gathered (the tape and the written information) will be kept strictly confidential. The tapes and any paperwork will be kept in a locked box during and after this study. The written information will be kept in password-protected computer files. The researcher is the only person who will have access to the tapes. You will also be asked to answer a questionnaire on paper. This questionnaire will ask specific personal information, such as your age, occupation, and relationship to the patient. This questionnaire will take about 5 minutes to complete.",
+      "score": -5.722803
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: possible_match_insufficient_evidence\nPatient-facing answer: This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.\nSupported facts: the study is about back pain; it involves a test called the 5R-STS; it aims to see if the test can predict surgery outcomes\nMissing patient facts: the exact eligibility criteria; the full details of the 5R-STS test; the expected duration of the study\nUnresolved study requirements: the full inclusion/exclusion criteria; the specific details of the 5R-STS test; the full timeline of the study\nReasoning: The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.\n\n=== Consent-style explanation ===\nstudy_purpose: This study aims to investigate whether the duration of the 5R-STS test predicts the outcome of low back operations after one year. (supports: 1)\nwho_may_join: Anyone affected by sciatica may join this study. (supports: 1)\nprocedures_or_participation: Participants will undergo a 5R-STS test where they stand up and sit down five times from a chair without armrests, counting the number of movements. They will also complete an interview about their age, education level, smoking history, mood, quality of life, and stress. (supports: 1)\nrisks_or_burdens: There are no risks or burdens mentioned in the provided evidence. (supports: 1)\ntime_commitment: The procedures involve a 1-hour interview and a 2-5 minute 5R-STS test. (supports: 1)\nWhat is unclear: Not clearly stated in the retrieved evidence\n\nPatient-facing summary (rebuilt): Study purpose: This study aims to investigate whether the duration of the 5R-STS test predicts the outcome of low back operations after one year. Who may join: Anyone affected by sciatica may join this study. What participation may involve: Participants will undergo a 5R-STS test where they stand up and sit down five times from a chair without armrests, counting the number of movements. They will also complete an interview about their age, education level, smoking history, mood, quality of life, and stress. Risks or burdens: There are no risks or burdens mentioned in the provided evidence. Time commitment: The procedures involve a 1-hour interview and a 2-5 minute 5R-STS test.\n\n=== Teach-back questions ===\n- What is the main goal of the study mentioned in Passage 1?\n- Who can participate in the study described in Passage 2?\n- What does the 5R-STS test measure, and why is it important?",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+    "supported_patient_facts": [
+      "the study is about back pain",
+      "it involves a test called the 5R-STS",
+      "it aims to see if the test can predict surgery outcomes"
+    ],
+    "missing_patient_facts": [
+      "the exact eligibility criteria",
+      "the full details of the 5R-STS test",
+      "the expected duration of the study"
+    ],
+    "unresolved_study_requirements": [
+      "the full inclusion/exclusion criteria",
+      "the specific details of the 5R-STS test",
+      "the full timeline of the study"
+    ],
+    "reasoning_summary": "The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.",
+    "safety_note": "No specific safety concerns are mentioned in the provided passages."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+  "missing_patient_facts": [
+    "the exact eligibility criteria",
+    "the full details of the 5R-STS test",
+    "the expected duration of the study"
+  ],
+  "unresolved_study_requirements": [
+    "the full inclusion/exclusion criteria",
+    "the specific details of the 5R-STS test",
+    "the full timeline of the study"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": null,
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

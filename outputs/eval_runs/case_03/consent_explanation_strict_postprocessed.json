@@ -1,0 +1,41 @@
+{
+  "study_purpose": {
+    "text": "This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy or current treatment.",
+    "support_passages": [
+      6
+    ]
+  },
+  "who_may_join": {
+    "text": "Eligible participants are adults aged 18-64 with non-specific low back pain lasting at least 12 weeks.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "There are no specific risks or burdens mentioned.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "What types of yoga classes will be offered?",
+    "How long will the study last?"
+  ],
+  "patient_facing_summary": {
+    "text": "This study involves adults aged 18-64 with non-specific low back pain lasting at least 12 weeks. Participants will attend yoga classes, complete questionnaires, and undergo imaging tests and blood tests. No specific risks or burdens are mentioned.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

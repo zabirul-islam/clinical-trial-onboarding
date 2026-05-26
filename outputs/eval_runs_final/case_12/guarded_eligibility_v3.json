@@ -1,0 +1,17 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study team still needs to confirm your answers to the eligibility questions.",
+  "supported_patient_facts": [
+    "I am a cancer survivor",
+    "I am the romantic partner of a cancer survivor",
+    "I am not currently undergoing chemotherapy, radiation or surgery",
+    "I am in a committed, romantic relationship",
+    "I have access to a computer or tablet with internet",
+    "I have an email address that I am willing to share with the study team",
+    "I am at least 18 years of age and less than 90 years of age"
+  ],
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "reasoning_summary": "While you have answered 'Yes' to most of the eligibility criteria, there are no missing facts or unresolved requirements. However, the study team needs to verify your answers to ensure they align with the full eligibility profile.",
+  "safety_note": "Please continue to follow any safety guidelines provided by the study team."
+}

@@ -1,0 +1,86 @@
+{
+  "input_question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you may be eligible to participate in the study, but we need to check a few details.",
+    "supported_patient_facts": [
+      "you had fractures in the past",
+      "your doctor mentioned weak bones"
+    ],
+    "missing_patient_facts": [
+      "your current bone mineral density",
+      "the type and severity of your past fractures",
+      "your current vitamin D and calcium levels"
+    ],
+    "unresolved_study_requirements": [
+      "we need to confirm your current bone health status",
+      "we need to check if you have a history of bone fractures in your family",
+      "we need to ensure you are not currently taking medications that could interfere with the study"
+    ],
+    "reasoning_summary": "Your history of fractures and concerns about weak bones suggest you might be eligible, but we need to verify your current bone health and other factors before making a definitive decision.",
+    "safety_note": "We will ensure your safety throughout the study and will monitor your bone health closely."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "The study aims to investigate how vitamin D supplementation during pregnancy affects the response of bone to vibration in children.",
+      "support_passages": [
+        2
+      ]
+    },
+    "who_may_join": {
+      "text": "Children whose mothers participated in the Maternal Vitamin D Osteoporosis Study (MAVIDOS) in Sheffield are eligible for this study.",
+      "support_passages": [
+        2
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants will undergo various tests and procedures, including bone mineral density tests, MRI/CT scans, and blood tests to measure vitamin D, calcium, phosphorus, and PTH levels.",
+      "support_passages": [
+        1,
+        4
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "There are no specific risks or burdens mentioned in the provided evidence.",
+      "support_passages": [
+        1,
+        4
+      ]
+    },
+    "time_commitment": {
+      "text": "The study length is 2 years after completing radiation therapy, with additional follow-ups for up to 5 years.",
+      "support_passages": [
+        1
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study investigates how vitamin D supplementation during pregnancy affects bone health in children. Participants will undergo tests and procedures related to bone health, including bone density tests, scans, and blood tests. The study involves no known risks or burdens.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Study purpose: The study aims to investigate how vitamin D supplementation during pregnancy affects the response of bone to vibration in children. Who may join: Children whose mothers participated in the Maternal Vitamin D Osteoporosis Study (MAVIDOS) in Sheffield are eligible for this study. What participation may involve: Participants will undergo various tests and procedures, including bone mineral density tests, MRI/CT scans, and blood tests to measure vitamin D, calcium, phosphorus, and PTH levels. Risks or burdens: There are no specific risks or burdens mentioned in the provided evidence. Time commitment: The study length is 2 years after completing radiation therapy, with additional follow-ups for up to 5 years.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join this study?",
+      "What tests and procedures will be done before radiation therapy?",
+      "What happens after I complete the study?"
+    ],
+    "checked_concepts": [
+      "Who may join the study",
+      "What the study involves",
+      "Major requirements",
+      "What remains uncertain"
+    ]
+  }
+}

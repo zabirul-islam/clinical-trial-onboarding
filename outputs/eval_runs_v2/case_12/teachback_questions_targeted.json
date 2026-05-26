@@ -1,0 +1,10 @@
+{
+  "teachback_questions": [
+    "Can you share the study title or NCT number you want to ask about?",
+    "Do you want help with one specific trial rather than a general study search?"
+  ],
+  "checked_concepts": [
+    "single-trial identification",
+    "study disambiguation"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "n_total": 50,
+  "filter_non_generic": false,
+  "y_true_variants": {
+    "strict": {
+      "y_true_col": "selected_in_qrels_strict",
+      "n": 50,
+      "base_rate": 0.18,
+      "ece": 0.21230575381820319,
+      "brier": 0.21461089854032622,
+      "brier_naive": 0.1476,
+      "brier_skill_score": -0.4540033776444865
+    },
+    "any": {
+      "y_true_col": "selected_in_qrels_any",
+      "n": 50,
+      "base_rate": 0.42,
+      "ece": 0.15085427673481364,
+      "brier": 0.2687572147612895,
+      "brier_naive": 0.2436,
+      "brier_skill_score": -0.1032726385931424
+    },
+    "gold_nct": {
+      "y_true_col": "selected_matches_gold",
+      "n": 50,
+      "base_rate": 0.0,
+      "ece": 0.38929127521472306,
+      "brier": 0.17403550896025943,
+      "brier_naive": 0.0,
+      "brier_skill_score": NaN
+    }
+  }
+}

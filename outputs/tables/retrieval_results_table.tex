@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Lexical retrieval baselines on TREC Clinical Trials 2021.}
+\label{tab:retrieval_lexical}
+\begin{tabular}{lccccc}
+\hline
+Method & nDCG@10 & nDCG@20 & R@10 & R@20 & R@100 \\
+\hline
+BM25 (eligibility-focused text) & 0.2453 & 0.2587 & 0.1290 & 0.2022 & 0.4176 \\
+BM25 (full trial text) & 0.3186 & 0.3114 & 0.1261 & 0.1811 & 0.4291 \\
+RRF fusion of BM25 runs & 0.2697 & 0.2668 & 0.0951 & 0.1533 & 0.3899 \\
+\hline
+\end{tabular}
+\end{table}

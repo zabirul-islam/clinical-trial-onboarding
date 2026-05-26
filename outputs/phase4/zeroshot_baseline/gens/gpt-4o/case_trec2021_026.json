@@ -1,0 +1,90 @@
+{
+  "case_id": "case_trec2021_026",
+  "backbone": "gpt-4o",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00370344",
+  "selected_doc": "NCT04030741",
+  "question": "I am considering a clinical trial. Here is my situation: A 45-year-old woman was referred to the emergency department with abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. The pain is localized to the epigastric region and radiates to the right upper quadrant. The pain is worsening after eating fatty food. The patient experienced similar pain twice in the past year. Her past medical history is remarkable for hypercholesterolemia and two C/sections. She has 2 children, and she is menopausal. She doesn't smoke, drink alcohol, or use illicit drugs. She is mildly febrile. Her BP is 150/85, HR 115, RR 15, T 38.2, SpO2 98% on RA. On palpation, she experiences epigastric tenderness and tenderness in the right upper quadrant without rebound. Bowel sounds are normal. Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift. The ultrasound revealed several gallstones and biliary sludge. The largest gallstone is 0.7cm. Surgery consultation recommends elective cholecystectomy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04030741 | section=detailed_description]\nAcute appendicitis is one of the most common presenting conditions in pediatric emergencies. It has an estimated lifetime risk of about 8%. Although it commonly occurs in the second decade of life but 11.4% children are diagnosed with acute appendicitis in the pediatric emergency. The rationale of my study is that limited local clinical trial is available regarding the efficacy of non-operative treatment with antibiotics vs operative treatment of acute non-perforated appendicitis in children. All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having pediatric appendicitis score (PAS anexure 1) >7 will be included in the study. All the patients inducted in the study will be randomly divided into two groups: Non-operative treatment (group A) and operative treatment (group B), using computer generated number. Each patient will be evaluated and relevant data according to the predesigned questionnaire will be collected and documented. Age, duration of symptoms, body temperature,C-reactive protein, white blood cell, neutrophil concentrations, Ultrasound findings and PAS score will be noted at the time of admission.\n\n[Passage 2 | doc=NCT04030741 | section=detailed_description]\nChildren in non-operative treatment group will be given intravenous meropenem (10 mg/kg/dose x IV x TDS) and metronidazole (20 mg/kg/day divided into 3 doses) for at least 48 hours. Once the child starts tolerating oral intake and becomes clinically improved, the treatment will be changed to oral ciprofloxacin (20 mg/kg/day divided into 2 divided doses) and metronidazole (20 mg/kg \u00d7 1 per 24 hours) for another 8 days. Supportive care will be given equally to all the patients as protocol of treatment with regular vital monitoring. Improvement or development of complications will be noted. Discharge criteria for both groups will be: afebrile for 24 hours, with or without oral antibiotics, adequate pain relief on oral analgesia assesd by visual analogue scale ( VAS) scale (anexure 2), tolerating a light diet, and mobile. Failure of non-operative treatment will be defined if any one of the following is seen: abscess formation or complex peri-appendiceal fluid collection seen on ultrasonography, the need for surgery (due to worsening of symptoms evaulated by history, physical examination and repeat ultrasonography) within 48 hours, or recurrence of appendicitis within 3 months.\n\n[Passage 3 | doc=NCT04030741 | section=detailed_description]\nPatients with recurrence of symptoms of appendicitis (right iliac fossa pain with pediatric appendicitis score >7) after complete resolution previously with non-operated treatment, will be labeled as Recurrent appendicitis.All the data will be collected on a preformed questionnaire. Discharge criteria for both the groups will be: afebrile for 24 hours, with or without oral antibiotics, adequate pain relief on oral analgesia and tolerating a light diet. Patient will be kept on follow-up in group-A for duration of 3 month to 6 month. Patients will be kept on follow-up in Outdoor patients department once in a week till 3 months in group B. ANNEXURE 1: Pediatric Appendicitis Score (PAS) No Symptoms Score 1. Right iliac fossa tenderness to cough, percussion, or hopping 2 2. Migration of pain to Right iliac fossa 1 3. Anorexia 1 4. Fever (Temperature \u226538.0\u00baC/100.4\u00baF) 1 5. Nausea or vomiting 1 6. Tenderness over right iliac fossa 2 7. Leukocytosis (WBC >10,000 ) 1 8. Left shift (PMN >7,500 ) 1 Acute Appendicitis if score is >7 Anexure 2 Visual Analogue Scale 0 = Relaxed and comfortable 1-3 = Mild discomfort 4-6 =Moderate pain 7-10 =Severe discomfort or pain or both\n\n[Passage 4 | doc=NCT04030741 | section=eligibility]\nInclusion Criteria: \u2022 All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having PAS score >7will be included in the study. Exclusion Criteria: - Patient with suspicion of perforated appendicitis on the basis of generalized peritonitis and abscess formation on ultrasound. - Patients with an appendicular mass, diagnosed by clinical examination and ultrasonography. - Patient with previous non-operative treatment of acute appendicitis (recurrent appendicitis) - Patients with C-reactive proteins > 40 mg/L. - Patients with history of any previous abdominal surgery.\n\n[Passage 5 | doc=NCT04030741 | section=summary]\nGold Standard treatment of appendicitis is appendectomy but non-operative treatment of non-perforated appendicitis with antibiotics is also under trial. Although appendectomy is curative but it is an invasive procedure done under general anesthesia with different risks and complications during and after operation, leading to disturbance of child daily routines and activities. Reported rates of perioperative complications are from 5% - 10%, with serious complications occurring in 1% to 7% of patients. Children presenting with acute (<2 days) right iliac fossa pain with pediatric appendicitis score >7, with none of the following on ultrasonography: abscess formation, or loss of the echogenic sub-mucosal layer of the appendix or presence of an appendicolith or periappendiceal fluid collection will be labeled as having appendicitis. After diagnosis we divided the patients into two groups.patients in group A will be treated with antibiotics and appendectomy is done for group B patients.",
+  "passages": [
+    {
+      "passage_id": "NCT04030741::detailed_description::0",
+      "doc_id": "NCT04030741",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is one of the most common presenting conditions in pediatric emergencies. It has an estimated lifetime risk of about 8%. Although it commonly occurs in the second decade of life but 11.4% children are diagnosed with acute appendicitis in the pediatric emergency. The rationale of my study is that limited local clinical trial is available regarding the efficacy of non-operative treatment with antibiotics vs operative treatment of acute non-perforated appendicitis in children. All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having pediatric appendicitis score (PAS anexure 1) >7 will be included in the study. All the patients inducted in the study will be randomly divided into two groups: Non-operative treatment (group A) and operative treatment (group B), using computer generated number. Each patient will be evaluated and relevant data according to the predesigned questionnaire will be collected and documented. Age, duration of symptoms, body temperature,C-reactive protein, white blood cell, neutrophil concentrations, Ultrasound findings and PAS score will be noted at the time of admission.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04030741::detailed_description::1",
+      "doc_id": "NCT04030741",
+      "section": "detailed_description",
+      "passage_text": "Children in non-operative treatment group will be given intravenous meropenem (10 mg/kg/dose x IV x TDS) and metronidazole (20 mg/kg/day divided into 3 doses) for at least 48 hours. Once the child starts tolerating oral intake and becomes clinically improved, the treatment will be changed to oral ciprofloxacin (20 mg/kg/day divided into 2 divided doses) and metronidazole (20 mg/kg \u00d7 1 per 24 hours) for another 8 days. Supportive care will be given equally to all the patients as protocol of treatment with regular vital monitoring. Improvement or development of complications will be noted. Discharge criteria for both groups will be: afebrile for 24 hours, with or without oral antibiotics, adequate pain relief on oral analgesia assesd by visual analogue scale ( VAS) scale (anexure 2), tolerating a light diet, and mobile. Failure of non-operative treatment will be defined if any one of the following is seen: abscess formation or complex peri-appendiceal fluid collection seen on ultrasonography, the need for surgery (due to worsening of symptoms evaulated by history, physical examination and repeat ultrasonography) within 48 hours, or recurrence of appendicitis within 3 months.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04030741::detailed_description::2",
+      "doc_id": "NCT04030741",
+      "section": "detailed_description",
+      "passage_text": "Patients with recurrence of symptoms of appendicitis (right iliac fossa pain with pediatric appendicitis score >7) after complete resolution previously with non-operated treatment, will be labeled as Recurrent appendicitis.All the data will be collected on a preformed questionnaire. Discharge criteria for both the groups will be: afebrile for 24 hours, with or without oral antibiotics, adequate pain relief on oral analgesia and tolerating a light diet. Patient will be kept on follow-up in group-A for duration of 3 month to 6 month. Patients will be kept on follow-up in Outdoor patients department once in a week till 3 months in group B. ANNEXURE 1: Pediatric Appendicitis Score (PAS) No Symptoms Score 1. Right iliac fossa tenderness to cough, percussion, or hopping 2 2. Migration of pain to Right iliac fossa 1 3. Anorexia 1 4. Fever (Temperature \u226538.0\u00baC/100.4\u00baF) 1 5. Nausea or vomiting 1 6. Tenderness over right iliac fossa 2 7. Leukocytosis (WBC >10,000 ) 1 8. Left shift (PMN >7,500 ) 1 Acute Appendicitis if score is >7 Anexure 2 Visual Analogue Scale 0 = Relaxed and comfortable 1-3 = Mild discomfort 4-6 =Moderate pain 7-10 =Severe discomfort or pain or both",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04030741::eligibility::0",
+      "doc_id": "NCT04030741",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: \u2022 All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having PAS score >7will be included in the study. Exclusion Criteria: - Patient with suspicion of perforated appendicitis on the basis of generalized peritonitis and abscess formation on ultrasound. - Patients with an appendicular mass, diagnosed by clinical examination and ultrasonography. - Patient with previous non-operative treatment of acute appendicitis (recurrent appendicitis) - Patients with C-reactive proteins > 40 mg/L. - Patients with history of any previous abdominal surgery.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04030741::summary::0",
+      "doc_id": "NCT04030741",
+      "section": "summary",
+      "passage_text": "Gold Standard treatment of appendicitis is appendectomy but non-operative treatment of non-perforated appendicitis with antibiotics is also under trial. Although appendectomy is curative but it is an invasive procedure done under general anesthesia with different risks and complications during and after operation, leading to disturbance of child daily routines and activities. Reported rates of perioperative complications are from 5% - 10%, with serious complications occurring in 1% to 7% of patients. Children presenting with acute (<2 days) right iliac fossa pain with pediatric appendicitis score >7, with none of the following on ultrasonography: abscess formation, or loss of the echogenic sub-mucosal layer of the appendix or presence of an appendicolith or periappendiceal fluid collection will be labeled as having appendicitis. After diagnosis we divided the patients into two groups.patients in group A will be treated with antibiotics and appendectomy is done for group B patients.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on children with appendicitis, and you are an adult with gallstones.\",\n  \"supported_patient_facts\": [\n    \"45-year-old woman\",\n    \"Experiencing abdominal pain localized to the epigastric region and radiating to the right upper quadrant\",\n    \"Ultrasound revealed several gallstones and biliary sludge\"\n  ],\n  \"missing_patient_facts\": [\n    \"Pediatric appendicitis score (PAS)\",\n    \"Symptoms of appendicitis\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Age between 5 and 15 years\",\n    \"Diagnosis of appendicitis\"\n  ],\n  \"reasoning_summary\": \"The clinical trial is designed for children aged 5 to 15 with appendicitis, while the patient is an adult with gallstones, which does not align with the study's focus.\",\n  \"safety_note\": \"This information is not a substitute for professional medical advice. Please consult with a healthcare provider for personal medical guidance.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on children with appendicitis, and you are an adult with gallstones.",
+    "supported_patient_facts": [
+      "45-year-old woman",
+      "Experiencing abdominal pain localized to the epigastric region and radiating to the right upper quadrant",
+      "Ultrasound revealed several gallstones and biliary sludge"
+    ],
+    "missing_patient_facts": [
+      "Pediatric appendicitis score (PAS)",
+      "Symptoms of appendicitis"
+    ],
+    "unresolved_study_requirements": [
+      "Age between 5 and 15 years",
+      "Diagnosis of appendicitis"
+    ],
+    "reasoning_summary": "The clinical trial is designed for children aged 5 to 15 with appendicitis, while the patient is an adult with gallstones, which does not align with the study's focus.",
+    "safety_note": "This information is not a substitute for professional medical advice. Please consult with a healthcare provider for personal medical guidance."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on children with appendicitis, and you are an adult with gallstones.",
+  "missing_patient_facts": [
+    "Pediatric appendicitis score (PAS)",
+    "Symptoms of appendicitis"
+  ],
+  "unresolved_study_requirements": [
+    "Age between 5 and 15 years",
+    "Diagnosis of appendicitis"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 2.805041030049324
+}

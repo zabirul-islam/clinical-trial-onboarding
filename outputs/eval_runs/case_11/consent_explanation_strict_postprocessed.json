@@ -1,0 +1,43 @@
+{
+  "study_purpose": {
+    "text": "The study aims to evaluate the effectiveness of a new device for monitoring heart rhythm after an ablation procedure.",
+    "support_passages": [
+      2,
+      4
+    ]
+  },
+  "who_may_join": {
+    "text": "Patients with atrial fibrillation (AF) who have symptoms and are undergoing normal care.",
+    "support_passages": [
+      2,
+      4
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will have the ILR device implanted and will undergo follow-up appointments. They may also be interviewed after hospital discharge.",
+    "support_passages": [
+      2,
+      4
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "There is a small risk of distress during the interview and a time burden for patients and their carers.",
+    "support_passages": [
+      4
+    ]
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study involves patients with atrial fibrillation who may have the ILR device implanted and undergo follow-up appointments. They might also be interviewed after hospital discharge. Risks include slight distress and a time burden.",
+    "support_passages": [
+      2,
+      4
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "teachback_questions": [
+    "Who can join this study?",
+    "What kind of information will be collected about you?",
+    "What will happen during the study?"
+  ],
+  "checked_concepts": [
+    "Eligibility criteria",
+    "Information collection methods",
+    "Study procedures"
+  ]
+}

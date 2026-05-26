@@ -1,0 +1,42 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "Eligible participants are elderly postmenopausal women with osteopenia or osteoporosis, particularly those taking aromatase inhibitors for breast cancer, and women with a history of fragility fractures.",
+    "support_passages": [
+      2,
+      7
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants may be asked to undergo bone density tests, receive treatments, and provide informed consent.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "The study involves periodic visits and tests, but the exact time commitment is not specified.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence",
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study looks into ways to strengthen bones and prevent fractures in certain groups of women, including those with osteoporosis or fragility fractures. Eligible participants may need to undergo tests and treatments, and provide informed consent.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

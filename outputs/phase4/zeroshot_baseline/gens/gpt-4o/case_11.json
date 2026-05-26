@@ -1,0 +1,90 @@
+{
+  "case_id": "case_11",
+  "backbone": "gpt-4o",
+  "source": "handcrafted",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02830828",
+  "question": "What risks or burdens are described for participants in this study?",
+  "evidence": "[Passage 1 | doc=NCT02830828 | section=detailed_description]\nRESEARCH QUESTIONS This study will ask important questions about CTS that builds on previous research in the field. The research questions are: - How is precision pinch grip force affected by CTS throughout the activity of picking up and replacing an object, for a range of CTS severities, especially in more severe CTS? - How is precision pinch grip force affected in patients with CTS when picking up objects of different weights? - How is precision pinch grip force affected in patients with CTS when the frictional properties of the skin-device interface are altered? - How does precision pinch grip force in CTS alter after a sudden increase in downward load force? - How do these parameters change after surgical treatment of CTS? CLINICAL IMPLICATIONS AND STUDY JUSTIFICATION Answers to the above questions will inform understanding of both precision pinch grip force control, and CTS. Patients with CTS drop things, and the investigators feel that impaired hand function in CTS is related to poor grip control. Previous authors have recognised that pinch grip force is affected by in CTS (Hsu et al. 2013).\n\n[Passage 2 | doc=NCT02830828 | section=detailed_description]\nThe investigators intend to extend this work by showing how other aspects of force control are altered in CTS throughout the action of picking an object up, and how they correlate with CTS severity. This will allow us to use different readings taken during a pinch grip test to assess CTS severity. This will also reveal how heavy objects may have a greater adverse affect on grip control in CTS patients. If successful, pinch grip testing could form a table-top test for CTS and nerve injury evaluation and may allow better patient selection for surgery. The investigators will also account for skin hydration, as sweating is impaired in CTS, and rarely accounted for in previous work. (This has since been abandoned mid-study). When examining how friction impacts on precision pinch force in CTS, investigators may inform understanding of how investigators could design occupational aids for those with median nerve problems.\n\n[Passage 3 | doc=NCT02830828 | section=detailed_description]\nFor example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.\n\n[Passage 4 | doc=NCT02830828 | section=detailed_description]\nPrinciple 5 and 6: All clinical team members are aware of their commitment to confidentiality and the law. The investigators do not anticipate that these principles will need to be breached in order to prevent serious patient harm. If however, this situation arises, it will be discussed between the Chief and Principle Investigators, the relevant authorities will be contacted for advice and action taken whilst taking all steps to safely inform affected patients as early as possible. CONFLICTS OF INTEREST The Principle or Chief Investigators will be involved in clinical evaluation of CTS patients at their appointment. Special care will be taken to ensure patients are aware that study participation does not affect their normal care in any way. Care will be taken to avoid any form of coercion. The Principle or Chief Investigators may also perform surgical treatment on appropriate patients, however this is separate to the study and should not affect care in any way. Effort will be made to ensure patients are not coerced into returning for follow-up grip testing after their operation. Patients may wish to attend extra follow-up appointments.\n\n[Passage 5 | doc=NCT02830828 | section=detailed_description]\nAt the end of the study, patients are discharged back to the care of their GP, to be referred back if any concerns arise (as is normal practice). Participants will be aware that they will not know the results of their grip tests, but the intent will be to publish a full paper within twelve months. HUMAN TISSUE Non- applicable OTHER ETHICAL ISSUES The intent is to carry out pinch grip force testing on CTS patients. This will add to the time patients are asked to stay in clinic. They will be fully informed and asked whether they wish to participate, prior to being invited to take part in precision pinch grip testing. This will not affect their access to assessment or treatment of their CTS. The intent is to test precision pinch grip testing with a custom built device being developed by the University of Birmingham. This device is based on those already used by Zhang and Hsu et al, and is not anticipated to pose any risk of harm to the patient.\n\n[Passage 6 | doc=NCT02830828 | section=detailed_description]\nOTHER LEGAL ISSUES As the device is being custom-built by the University of Birmingham, intellectual property rights are being addressed by the department developing the device, with a view to drawing up a confidentiality agreement, although this is not a pre-requisite to commencing the trial. OTHER MANAGEMENT ISSUES This intention is to set-up an National Health Service (NHS) clinic of back-to-back CTS patients, who will have a clinical assessment, followed by nerve conduction studies, followed by pinch grip assessment. This will require logistic planning, however this will be co-ordinated internally through UHB and will make the process clear to patients when they are recruited to the study via the Participant Information Sheet.",
+  "passages": [
+    {
+      "passage_id": "NCT02830828::detailed_description::0",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "RESEARCH QUESTIONS This study will ask important questions about CTS that builds on previous research in the field. The research questions are: - How is precision pinch grip force affected by CTS throughout the activity of picking up and replacing an object, for a range of CTS severities, especially in more severe CTS? - How is precision pinch grip force affected in patients with CTS when picking up objects of different weights? - How is precision pinch grip force affected in patients with CTS when the frictional properties of the skin-device interface are altered? - How does precision pinch grip force in CTS alter after a sudden increase in downward load force? - How do these parameters change after surgical treatment of CTS? CLINICAL IMPLICATIONS AND STUDY JUSTIFICATION Answers to the above questions will inform understanding of both precision pinch grip force control, and CTS. Patients with CTS drop things, and the investigators feel that impaired hand function in CTS is related to poor grip control. Previous authors have recognised that pinch grip force is affected by in CTS (Hsu et al. 2013).",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02830828::detailed_description::1",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "The investigators intend to extend this work by showing how other aspects of force control are altered in CTS throughout the action of picking an object up, and how they correlate with CTS severity. This will allow us to use different readings taken during a pinch grip test to assess CTS severity. This will also reveal how heavy objects may have a greater adverse affect on grip control in CTS patients. If successful, pinch grip testing could form a table-top test for CTS and nerve injury evaluation and may allow better patient selection for surgery. The investigators will also account for skin hydration, as sweating is impaired in CTS, and rarely accounted for in previous work. (This has since been abandoned mid-study). When examining how friction impacts on precision pinch force in CTS, investigators may inform understanding of how investigators could design occupational aids for those with median nerve problems.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02830828::detailed_description::10",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "For example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02830828::detailed_description::11",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "Principle 5 and 6: All clinical team members are aware of their commitment to confidentiality and the law. The investigators do not anticipate that these principles will need to be breached in order to prevent serious patient harm. If however, this situation arises, it will be discussed between the Chief and Principle Investigators, the relevant authorities will be contacted for advice and action taken whilst taking all steps to safely inform affected patients as early as possible. CONFLICTS OF INTEREST The Principle or Chief Investigators will be involved in clinical evaluation of CTS patients at their appointment. Special care will be taken to ensure patients are aware that study participation does not affect their normal care in any way. Care will be taken to avoid any form of coercion. The Principle or Chief Investigators may also perform surgical treatment on appropriate patients, however this is separate to the study and should not affect care in any way. Effort will be made to ensure patients are not coerced into returning for follow-up grip testing after their operation. Patients may wish to attend extra follow-up appointments.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02830828::detailed_description::12",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "At the end of the study, patients are discharged back to the care of their GP, to be referred back if any concerns arise (as is normal practice). Participants will be aware that they will not know the results of their grip tests, but the intent will be to publish a full paper within twelve months. HUMAN TISSUE Non- applicable OTHER ETHICAL ISSUES The intent is to carry out pinch grip force testing on CTS patients. This will add to the time patients are asked to stay in clinic. They will be fully informed and asked whether they wish to participate, prior to being invited to take part in precision pinch grip testing. This will not affect their access to assessment or treatment of their CTS. The intent is to test precision pinch grip testing with a custom built device being developed by the University of Birmingham. This device is based on those already used by Zhang and Hsu et al, and is not anticipated to pose any risk of harm to the patient.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02830828::detailed_description::13",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "OTHER LEGAL ISSUES As the device is being custom-built by the University of Birmingham, intellectual property rights are being addressed by the department developing the device, with a view to drawing up a confidentiality agreement, although this is not a pre-requisite to commencing the trial. OTHER MANAGEMENT ISSUES This intention is to set-up an National Health Service (NHS) clinic of back-to-back CTS patients, who will have a clinical assessment, followed by nerve conduction studies, followed by pinch grip assessment. This will require logistic planning, however this will be co-ordinated internally through UHB and will make the process clear to patients when they are recruited to the study via the Participant Information Sheet.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"Participants in this study may face the burden of attending three follow-up appointments. They will also spend additional time in the clinic for pinch grip force testing. However, the testing device is not anticipated to pose any risk of harm. Participants will not receive individual test results, but a full paper will be published within twelve months.\",\n  \"supported_patient_facts\": [\n    \"Participants will attend three follow-up appointments.\",\n    \"Participants will spend additional time in the clinic for testing.\"\n  ],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of any new risks or burdens that may emerge after the study starts.\"\n  ],\n  \"reasoning_summary\": \"The study involves additional clinic visits and time for testing, which are burdens for participants. The device used for testing is not expected to harm participants. The study will not provide individual results to participants, but findings will be published.\",\n  \"safety_note\": \"Participation in the study does not affect normal care, and efforts are made to avoid coercion.\"\n}\n```",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "Participants in this study may face the burden of attending three follow-up appointments. They will also spend additional time in the clinic for pinch grip force testing. However, the testing device is not anticipated to pose any risk of harm. Participants will not receive individual test results, but a full paper will be published within twelve months.",
+    "supported_patient_facts": [
+      "Participants will attend three follow-up appointments.",
+      "Participants will spend additional time in the clinic for testing."
+    ],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "Confirmation of any new risks or burdens that may emerge after the study starts."
+    ],
+    "reasoning_summary": "The study involves additional clinic visits and time for testing, which are burdens for participants. The device used for testing is not expected to harm participants. The study will not provide individual results to participants, but findings will be published.",
+    "safety_note": "Participation in the study does not affect normal care, and efforts are made to avoid coercion."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "Participants in this study may face the burden of attending three follow-up appointments. They will also spend additional time in the clinic for pinch grip force testing. However, the testing device is not anticipated to pose any risk of harm. Participants will not receive individual test results, but a full paper will be published within twelve months.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "Confirmation of any new risks or burdens that may emerge after the study starts."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 2.703086892841384
+}

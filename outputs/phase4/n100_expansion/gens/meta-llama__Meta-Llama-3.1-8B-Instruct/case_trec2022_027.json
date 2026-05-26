@@ -1,0 +1,66 @@
+{
+  "case_id": "case_trec2022_027",
+  "backbone": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01518192",
+  "question": "I am considering a clinical trial. Here is my situation: A 31-year-old woman comes to the office due to 3 days of rash on her left arm. The lesion is mildly pruritic but not painful. She is otherwise healthy and occasionally takes ibuprofen during the first few days of her menstrual period. Temperature is 37 C, blood pressure is 110/75 mm Hg, and pulse is 95/min. The lesion is like a target sign known as erythema migrans. She recently went for an adventure trip in New Hampshire. The patient is diagnosed with Lyme disease. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01518192 | section=detailed_description]\nSample size Decisions were based on the following: 1. Number of patients with erythema migrans treated with doxycycline and cefuroxime axetil was determined assuming no difference in treatment outcome will be detected (non-inferiority testing). 2. The decision for a larger sample sizes than needed for 1. was done with the intention to evaluate the secondary outcome measure, i.e., to assess the difference between the frequency of new or increased symptoms in patients treated for early Lyme disease and the occurrence of the same symptoms in control subjects. 1. We assumed that the outcomes in the two treatment groups will be comparable and that the patients could be combined for further analysis. 2. To obtain a control group from the same geographical area, each patient was asked if she or he had a family member or friend who was within 5 years of her or his age and who was without a history of Lyme borreliosis. These persons were approached by a short written explanation of the investigation, containing also a request for their participation. We assumed that we will be able to get a corresponding control person not for all but for approximately 80-90% of patients. 3.\n\n[Passage 2 | doc=NCT01518192 | section=detailed_description]\nUnder the assumption that approximately 15% of an estimated 200 patients would have new or increased symptoms at >6 months after enrollment into the study, a control group of 165 subjects would be sufficient to detect a >10 percentage point lower rate of new or increased symptoms in controls compared with patients at the 0.05 level (2-sided) with >90% power. To comply with drop outs at different time points we assessed that 280 patients and 230 controls should be included at baseline.\n\n[Passage 3 | doc=NCT01518192 | section=eligibility]\nInclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.\n\n[Passage 4 | doc=NCT01518192 | section=summary]\nBackground: - While doxycycline is a standard antibiotic for treatment of erythema migrans in Europe as well as in the USA, the effectiveness of cefuroxime axetil in the treatment of adult patients with erythema migrans has been assessed only in the USA where the causative agent of Lyme disease is Borrelia burgdorferi, but not in Europe where the main etiologic agents are B. afzelii and B. garinii. - Controversy exists over the significance and even the existence of post-Lyme disease symptoms because of the high rate of similar background symptoms in the general population. Purpose: The two main purposes of this European, prospective clinical trial in which doxycycline and cefuroxime axetil are compared in the treatment of adult patients with erythema migrans and which included a control group to address the significance of post-Lyme disease symptoms are: - To assess and compare the effectiveness of doxycycline and cefuroxime axetil in the treatment of erythema migrans using clinical and bacteriological criteria (noninferiority testing approach), and - to compare the frequency of post-Lyme disease symptoms in adult patients treated for EM with antibiotics and the frequency of similar symptoms in control subjects without Lyme disease.\n\n[Passage 5 | doc=NCT01518192 | section=title]\nComparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+  "passages": [
+    {
+      "passage_id": "NCT01518192::detailed_description::0",
+      "doc_id": "NCT01518192",
+      "section": "detailed_description",
+      "passage_text": "Sample size Decisions were based on the following: 1. Number of patients with erythema migrans treated with doxycycline and cefuroxime axetil was determined assuming no difference in treatment outcome will be detected (non-inferiority testing). 2. The decision for a larger sample sizes than needed for 1. was done with the intention to evaluate the secondary outcome measure, i.e., to assess the difference between the frequency of new or increased symptoms in patients treated for early Lyme disease and the occurrence of the same symptoms in control subjects. 1. We assumed that the outcomes in the two treatment groups will be comparable and that the patients could be combined for further analysis. 2. To obtain a control group from the same geographical area, each patient was asked if she or he had a family member or friend who was within 5 years of her or his age and who was without a history of Lyme borreliosis. These persons were approached by a short written explanation of the investigation, containing also a request for their participation. We assumed that we will be able to get a corresponding control person not for all but for approximately 80-90% of patients. 3.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01518192::detailed_description::1",
+      "doc_id": "NCT01518192",
+      "section": "detailed_description",
+      "passage_text": "Under the assumption that approximately 15% of an estimated 200 patients would have new or increased symptoms at >6 months after enrollment into the study, a control group of 165 subjects would be sufficient to detect a >10 percentage point lower rate of new or increased symptoms in controls compared with patients at the 0.05 level (2-sided) with >90% power. To comply with drop outs at different time points we assessed that 280 patients and 230 controls should be included at baseline.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01518192::eligibility::0",
+      "doc_id": "NCT01518192",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01518192::summary::0",
+      "doc_id": "NCT01518192",
+      "section": "summary",
+      "passage_text": "Background: - While doxycycline is a standard antibiotic for treatment of erythema migrans in Europe as well as in the USA, the effectiveness of cefuroxime axetil in the treatment of adult patients with erythema migrans has been assessed only in the USA where the causative agent of Lyme disease is Borrelia burgdorferi, but not in Europe where the main etiologic agents are B. afzelii and B. garinii. - Controversy exists over the significance and even the existence of post-Lyme disease symptoms because of the high rate of similar background symptoms in the general population. Purpose: The two main purposes of this European, prospective clinical trial in which doxycycline and cefuroxime axetil are compared in the treatment of adult patients with erythema migrans and which included a control group to address the significance of post-Lyme disease symptoms are: - To assess and compare the effectiveness of doxycycline and cefuroxime axetil in the treatment of erythema migrans using clinical and bacteriological criteria (noninferiority testing approach), and - to compare the frequency of post-Lyme disease symptoms in adult patients treated for EM with antibiotics and the frequency of similar symptoms in control subjects without Lyme disease.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01518192::title::0",
+      "doc_id": "NCT01518192",
+      "section": "title",
+      "passage_text": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might be eligible for the clinical trial, but we need more information to confirm. Please provide the following details: your age, whether you have a history of Lyme disease, and whether you have any family members or friends who can serve as a control subject. Additionally, we need to confirm that you have a typical erythema migrans lesion and that you were evaluated at the correct time period.\",\n  \"supported_patient_facts\": [\n    \"You are a 31-year-old woman\",\n    \"You have a rash on your left arm that is mildly pruritic but not painful\",\n    \"The rash is like a target sign known as erythema migrans\",\n    \"You recently went for an adventure trip in New Hampshire\",\n    \"You were diagnosed with Lyme disease\"\n  ],\n  \"missing_patient_facts\": [\n    \"Your age (you are 31, but we need confirmation)\",\n    \"Your history of Lyme disease (you were diagnosed, but we need confirmation of past history)\",\n    \"Whether you have a family member or friend who can serve as a control subject\",\n    \"Whether you have any history of a serious adverse reaction to a beta-lactam or tetracycline drug\",\n    \"Whether you are receiving an antibiotic with known anti-borrelial activity within 10 days\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Typical erythema migrans lesion confirmation\",\n    \"Evaluation at the correct time period (between 6/06 and 9/06)\",\n    \"",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 25.022
+}

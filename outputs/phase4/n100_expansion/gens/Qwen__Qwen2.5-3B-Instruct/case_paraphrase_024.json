@@ -1,0 +1,96 @@
+{
+  "case_id": "case_paraphrase_024",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "source": "paraphrase_trec2021",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT02629549",
+  "question": "I am considering a clinical trial. Here is my situation: A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method. I have similar symptoms but I'm not sure if I would qualify. What should I check?",
+  "evidence": "[Passage 1 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.\n\n[Passage 2 | doc=NCT02629549 | section=detailed_description]\nGross total resection (GTR) of a pituitary adenoma is theoretically simple but practically difficult given the intimate association of the pituitary gland with critical neurovascular structures including the internal carotid artery, optic nerves, cavernous sinus contents and adjacent frontal lobe and third ventricle. In a recent meta-analysis, functioning pituitary adenoma (Cushing's disease, prolactinoma, acromegaly) was demonstrated to have a gross total resection rate of only 78% (n=664). In another review, tabulated through multiple studies, demonstrated that for nonfunctioning pituitary adenoma, gross total resection rate ranged from 66 to 93% (n=778). Moreover, a comparison of endoscopic and microscopic removal of pituitary adenoma found the gross total resection rate was 66% using endoscopic pituitary techniques. In this context of limited ability to achieve GTR, intraoperative MRI was introduced for assessment of the degree of resection for pituitary adenoma. The intraoperative MRI is expensive, cumbersome, and impractical. A simpler means of determining the degree of resection is greatly needed in the field of brain surgery, and specifically pituitary surgery.\n\n[Passage 3 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas are the ideal disease to investigate intra-operative imaging. Multiple studies have demonstrated that nonfunctioning pituitary adenomas express folate receptor alpha (FR\u03b1), therefore making folate receptors (FR) the ideal targets for imaging agents. While folate will initially distribute to all cells, redistribution, metabolism, and excretion will eliminate most of this agent from healthy tissues within 2-3 hours. Tumor cells that over express FR\u03b1 will retain folate and any fluorescent labeled folate conjugate (such as OTL38) and internalize this.\n\n[Passage 4 | doc=NCT02629549 | section=eligibility]\nInclusion Criteria: 1. Adult patients over 18 years of age 2. Patients presenting with a pituitary nodule presumed to be resectable on pre-operative assessment 3. Good operative candidate 4. Subject capable of giving informed consent and participating in the process of consent. Exclusion Criteria: 1. Pregnant women as determined by urinary or serum beta human chorionic gonadotropin (hCG) within 72 hours of surgery 2. Patients with a history of anaphylactic reactions to OTL38 3. Patients with a known allergy to Benadryl 4. Previous exposure to OTL38\n\n[Passage 5 | doc=NCT02629549 | section=summary]\nThe primary end-point of the study is to determine the specificity and sensitivity of OTL38 in identifying pituitary adenomas when excited by an imaging probe. The investigators intend to enroll 50 patients in this study. The study is focusing on patients presenting with suspected pituitary adenomas who are considered to be good surgical candidates.",
+  "passages": [
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02629549::detailed_description::1",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Gross total resection (GTR) of a pituitary adenoma is theoretically simple but practically difficult given the intimate association of the pituitary gland with critical neurovascular structures including the internal carotid artery, optic nerves, cavernous sinus contents and adjacent frontal lobe and third ventricle. In a recent meta-analysis, functioning pituitary adenoma (Cushing's disease, prolactinoma, acromegaly) was demonstrated to have a gross total resection rate of only 78% (n=664). In another review, tabulated through multiple studies, demonstrated that for nonfunctioning pituitary adenoma, gross total resection rate ranged from 66 to 93% (n=778). Moreover, a comparison of endoscopic and microscopic removal of pituitary adenoma found the gross total resection rate was 66% using endoscopic pituitary techniques. In this context of limited ability to achieve GTR, intraoperative MRI was introduced for assessment of the degree of resection for pituitary adenoma. The intraoperative MRI is expensive, cumbersome, and impractical. A simpler means of determining the degree of resection is greatly needed in the field of brain surgery, and specifically pituitary surgery.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02629549::detailed_description::2",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas are the ideal disease to investigate intra-operative imaging. Multiple studies have demonstrated that nonfunctioning pituitary adenomas express folate receptor alpha (FR\u03b1), therefore making folate receptors (FR) the ideal targets for imaging agents. While folate will initially distribute to all cells, redistribution, metabolism, and excretion will eliminate most of this agent from healthy tissues within 2-3 hours. Tumor cells that over express FR\u03b1 will retain folate and any fluorescent labeled folate conjugate (such as OTL38) and internalize this.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02629549::eligibility::0",
+      "doc_id": "NCT02629549",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Adult patients over 18 years of age 2. Patients presenting with a pituitary nodule presumed to be resectable on pre-operative assessment 3. Good operative candidate 4. Subject capable of giving informed consent and participating in the process of consent. Exclusion Criteria: 1. Pregnant women as determined by urinary or serum beta human chorionic gonadotropin (hCG) within 72 hours of surgery 2. Patients with a history of anaphylactic reactions to OTL38 3. Patients with a known allergy to Benadryl 4. Previous exposure to OTL38",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02629549::summary::0",
+      "doc_id": "NCT02629549",
+      "section": "summary",
+      "passage_text": "The primary end-point of the study is to determine the specificity and sensitivity of OTL38 in identifying pituitary adenomas when excited by an imaging probe. The investigators intend to enroll 50 patients in this study. The study is focusing on patients presenting with suspected pituitary adenomas who are considered to be good surgical candidates.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial, but there are some details we need to confirm. You have a pituitary adenoma based on your elevated testosterone levels, enlarged hands and feet, and other symptoms like irregular menstrual cycles and nipple discharge. However, we need to check if you meet all the specific criteria listed in the study. For example, we need to know if you are over 18 years old, if you are a good surgical candidate, and if you have not had an allergic reaction to OTL38.\",\n  \"supported_patient_facts\": [\"elevated testosterone levels\", \"enlarged hands and feet\", \"irregular menstrual cycles\", \"nipple discharge\", \"pituitary adenoma\"],\n  \"missing_patient_facts\": [\"your age\", \"your current health status as a good surgical candidate\", \"your history of allergic reactions to OTL38\"],\n  \"unresolved_study_requirements\": [\"your age\", \"your current health status as a good surgical candidate\", \"your history of allergic reactions to OTL38\"],\n  \"reasoning_summary\": \"Your symptoms align with those described in the study, but we need more information to confirm your eligibility. Specifically, we need to verify your age, your overall health status, and your medical history regarding allergies.\",\n  \"safety_note\": \"It's important to note that while your symptoms suggest you might be eligible, we need to ensure you do not have any contraindications to the study procedures.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial, but there are some details we need to confirm. You have a pituitary adenoma based on your elevated testosterone levels, enlarged hands and feet, and other symptoms like irregular menstrual cycles and nipple discharge. However, we need to check if you meet all the specific criteria listed in the study. For example, we need to know if you are over 18 years old, if you are a good surgical candidate, and if you have not had an allergic reaction to OTL38.",
+    "supported_patient_facts": [
+      "elevated testosterone levels",
+      "enlarged hands and feet",
+      "irregular menstrual cycles",
+      "nipple discharge",
+      "pituitary adenoma"
+    ],
+    "missing_patient_facts": [
+      "your age",
+      "your current health status as a good surgical candidate",
+      "your history of allergic reactions to OTL38"
+    ],
+    "unresolved_study_requirements": [
+      "your age",
+      "your current health status as a good surgical candidate",
+      "your history of allergic reactions to OTL38"
+    ],
+    "reasoning_summary": "Your symptoms align with those described in the study, but we need more information to confirm your eligibility. Specifically, we need to verify your age, your overall health status, and your medical history regarding allergies.",
+    "safety_note": "It's important to note that while your symptoms suggest you might be eligible, we need to ensure you do not have any contraindications to the study procedures."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial, but there are some details we need to confirm. You have a pituitary adenoma based on your elevated testosterone levels, enlarged hands and feet, and other symptoms like irregular menstrual cycles and nipple discharge. However, we need to check if you meet all the specific criteria listed in the study. For example, we need to know if you are over 18 years old, if you are a good surgical candidate, and if you have not had an allergic reaction to OTL38.",
+  "missing_patient_facts": [
+    "your age",
+    "your current health status as a good surgical candidate",
+    "your history of allergic reactions to OTL38"
+  ],
+  "unresolved_study_requirements": [
+    "your age",
+    "your current health status as a good surgical candidate",
+    "your history of allergic reactions to OTL38"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 12.323
+}

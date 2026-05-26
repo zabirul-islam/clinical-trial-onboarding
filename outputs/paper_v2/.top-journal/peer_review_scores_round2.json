@@ -1,0 +1,95 @@
+{
+  "round": 2,
+  "manuscript": "main_npj.pdf",
+  "scores": {
+    "novelty": 8,
+    "methodological_credibility": 9,
+    "data_quality": 6,
+    "clarity": 9,
+    "clinical_policy_relevance": 9
+  },
+  "delta_vs_round1": {
+    "novelty": 1,
+    "methodological_credibility": 1,
+    "data_quality": 0,
+    "clarity": 1,
+    "clinical_policy_relevance": 1
+  },
+  "verdict": "ACCEPT",
+  "checklist": {
+    "tripod_ai": "addressed",
+    "claim": "addressed",
+    "fda_samd": "addressed",
+    "decide_ai": "addressed",
+    "calibration": "addressed",
+    "fairness": "addressed",
+    "reproducibility": "addressed",
+    "equity": "addressed"
+  },
+  "round2_changes_assessed": {
+    "theorem_rename_to_conditional_sufficiency": {
+      "impact_dim": "methodological_credibility",
+      "delta": 1,
+      "note": "Theorem 1 statement and proof sketch now explicitly label C1-C3 as deterministic and the parametric-memory channel as empirical, with an alternate constructive-redaction variant noted. Directly resolves Round-1 Major Comment 2 (deterministic-vs-empirical category error). The honesty of the rename is itself a strength."
+    },
+    "abstract_stem_clustered_bound_foregrounded": {
+      "impact_dim": "novelty",
+      "delta": 1,
+      "note": "Abstract Results now states the 3.2 percent stem-clustered Clopper-Pearson upper bound inline. Resolves Round-1 Major Comment 4. Improves the calibration of the headline claim and incidentally tightens the novelty framing because the bound is now part of the contribution rather than buried in Methods."
+    },
+    "contribution2_qualified_leak_channel_only": {
+      "impact_dim": "methodological_credibility",
+      "delta": 0,
+      "note": "Already counted under the theorem-rename movement. The Contribution 2 text now explicitly states that backbone-invariance applies to the safety/leak axis only and not to utility, with Mistral-7B parse-ok 0.12 and commit 0.11 cited as the case in point. Resolves Round-1 Major Comment 3."
+    },
+    "calibration_reframed_as_deployment_safety": {
+      "impact_dim": "clinical_policy_relevance",
+      "delta": 1,
+      "note": "Section 2.7 and Limitations now frame the negative Brier Skill Score as a deployment-safety contribution (do not use tau as a triage probability) rather than as a defensive limitation. Resolves Round-1 Minor 'calibration framing'. Strengthens the clinical-policy axis because the claim is now actionable for downstream operators."
+    },
+    "novelty_paragraph_added_to_intro": {
+      "impact_dim": "novelty",
+      "delta": 0,
+      "note": "Already counted under abstract-bound movement. The Introduction paragraph now states explicitly that no published trial-matching system (DeepEnroll, COMPOSE, TrialGPT, PRISM, Trial2Vec) reports a cross-trial leak rate and frames cross-trial conflation as a standard safety dimension. Resolves Round-1 Major Comment 1."
+    },
+    "figure2_demoted_to_supplement": {
+      "impact_dim": "clarity",
+      "delta": 1,
+      "note": "All-zero leak grid moved to Supplementary Section 5. The main text now leads with the per-area heatmap (real variance) instead of a uniform-zero matrix. Addresses Round-1 optional suggestion and is a strict clarity win because the demoted figure conveyed no information."
+    },
+    "float_placement_htbp_and_placeins": {
+      "impact_dim": "clarity",
+      "delta": 0,
+      "note": "Already counted under fig2-demotion movement. Switching [t] to [!htbp] plus FloatBarrier at section breaks prevents figure-drift across page breaks. In a 20-plus-page manuscript this is a real readability gain even though it does not change content."
+    },
+    "textsf_to_emph_for_concept_names": {
+      "impact_dim": "clarity",
+      "delta": 0,
+      "note": "Ten conceptual terms (LM, PMIE, LMM, CD, cannot-determine, likely-match, possible-match-insufficient-evidence, V-final-no-, stop-list, plus one) converted from sans-serif code-font to emph. Reduces typographic noise across the manuscript. True code literals (NCT, blind_id) correctly retained in texttt. Already counted under fig2-demotion movement."
+    },
+    "supplement_self_bibliography_stripped": {
+      "impact_dim": "clarity",
+      "delta": 0,
+      "note": "Supplement-only references collapsed into the main bibliography. No content regression; main-paper citations to Cohen 1960, Landis and Koch 1977, Gwet 2014 remain intact."
+    },
+    "threshold_agreement_087_replaced_with_qualitative": {
+      "impact_dim": "methodological_credibility",
+      "delta": 0,
+      "note": "The bare 0.87 'threshold agreement' number in the IRR paragraph was removed (it lacked a supplementary anchor in Round 1) and replaced with 'high across the open-weight cohort (Supplementary Table S8).' Net wash - small loss of main-text precision but correctly redirected to a supplementary table. No methodological regression."
+    }
+  },
+  "regressions_checked": {
+    "figure2_demotion": "no regression - the demoted figure had no within-cell variance and the per-area heatmap now leading is more informative",
+    "supplement_bib_strip": "no regression - all kappa-paradox citations remain in the main bibliography",
+    "qualitative_irr_language": "minor precision loss in main text but the supplementary anchor (Table S8) is correctly cited; no scoring impact"
+  },
+  "remaining_weaknesses": [
+    "n=114 case pool remains at the floor of defensibility for an npj Digital Medicine safety claim; the stem-clustered 3.2 percent upper bound is now foregrounded in the abstract but is still an irreducible constraint of the available evidence base.",
+    "The DeepEnroll/COMPOSE/TrialGPT/PRISM/Trial2Vec novelty contrast appears in both Introduction and Discussion; one of the two occurrences could be compressed.",
+    "Equity stratification is still by therapeutic area only; language coverage (English-only) and health-literacy proxies are acknowledged in Limitations but not stratified in the analysis - this is deferred to follow-up work and is appropriate at the early-stage DECIDE-AI tier.",
+    "The four-role deployment workflow figure (Fig 5) could be supplemented by a textual role x action x audit-artifact table for accessibility; this remains an optional improvement.",
+    "Threat model (adversarial-prompt robustness) is acknowledged as out-of-scope but a one-line statement about gate-ensemble input-independence would close the loop; non-blocking."
+  ],
+  "rationale": "Round 2 successfully addressed all five Required Revisions from Round 1: novelty positioning (Major Comment 1), theorem honesty (Major Comment 2), backbone-invariance qualification (Major Comment 3), stem-clustered bound foregrounding (Major Comment 4), and IRR kappa-paradox treatment (Major Comment 5). Style/layout fixes from Round 2 (float placement, font discipline, figure demotion, citation tidy) compound to a clarity improvement. Four of five dimensions are now at 8 or 9; data quality remains at 6 because n=114 is an irreducible constraint of the evidence base, not a methodological deficiency. The paper is at ACCEPT threshold for npj Digital Medicine at the early-stage DECIDE-AI/CLAIM/TRIPOD+AI tier it explicitly claims.",
+  "recommendation_to_editor": "Accept with the optional improvements noted above flagged as discretionary author-elective polish, not as required revisions. The remaining weaknesses are properly acknowledged as limitations in the manuscript and are appropriate for an early-stage clinical-AI study at this venue."
+}

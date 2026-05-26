@@ -1,0 +1,13 @@
+{
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "supported_patient_facts": [],
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01482130 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+  "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+}

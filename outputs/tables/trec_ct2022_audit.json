@@ -1,0 +1,16 @@
+{
+  "dataset": "clinicaltrials/2021/trec-ct-2022",
+  "n_topics": 50,
+  "topic_fields": [
+    "query_id",
+    "text"
+  ],
+  "doc_length_means_from_first_1000": {
+    "title_len": 90.924,
+    "condition_len": 0.0,
+    "summary_len": 656.957,
+    "detailed_description_len": 1673.844,
+    "eligibility_len": 1452.275
+  },
+  "has_qrels_in_this_audit": false
+}

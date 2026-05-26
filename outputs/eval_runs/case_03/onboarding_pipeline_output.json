@@ -1,0 +1,86 @@
+{
+  "input_question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facts": [
+      "42-year-old man",
+      "back pain",
+      "low bone density"
+    ],
+    "missing_patient_facts": [
+      "current non-specific low back pain lasting at least 12 weeks",
+      "understanding of English necessary to follow yoga class instructions",
+      "no clear symptoms and signs of other causes of low back pain"
+    ],
+    "unresolved_study_requirements": [
+      "BMI over 30 (less likely to obtain the required information from the images)",
+      "previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months)",
+      "diagnosed Osteoporosis (Bone Density Scan)",
+      "numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment",
+      "manual therapy already received for this episode of NSLBP",
+      "litigation or compensation pending",
+      "diagnosis of depression (by a medical doctor) within the last 12 months"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has back pain and low bone density, which aligns with the study's focus on chronic low back pain and osteoporosis. However, the patient needs to confirm he has current non-specific low back pain lasting at least 12 weeks, and the study requires certain medical tests and information that are not yet confirmed.",
+    "safety_note": "The patient should ensure they can understand written English and provide full informed consent before participating."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy or current treatment.",
+      "support_passages": [
+        6
+      ]
+    },
+    "who_may_join": {
+      "text": "Eligible participants are adults aged 18-64 with non-specific low back pain lasting at least 12 weeks.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "risks_or_burdens": {
+      "text": "There are no specific risks or burdens mentioned.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "time_commitment": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "what_is_unclear": [
+      "What types of yoga classes will be offered?",
+      "How long will the study last?"
+    ],
+    "patient_facing_summary": {
+      "text": "This study involves adults aged 18-64 with non-specific low back pain lasting at least 12 weeks. Participants will attend yoga classes, complete questionnaires, and undergo imaging tests and blood tests. No specific risks or burdens are mentioned.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Study purpose: This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy or current treatment. Who may join: Eligible participants are adults aged 18-64 with non-specific low back pain lasting at least 12 weeks. Risks or burdens: There are no specific risks or burdens mentioned. What is still unclear: What types of yoga classes will be offered?; How long will the study last?",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join this study?",
+      "What does the study involve?",
+      "What are the main things you need to do for the study?"
+    ],
+    "checked_concepts": [
+      "who may join",
+      "what the study involves",
+      "major requirements"
+    ]
+  }
+}

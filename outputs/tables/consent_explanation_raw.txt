@@ -1,0 +1,9 @@
+{
+  "study_purpose": "To record the effect of a program on mobility, balance, health-related quality of life, and fall prevention for women with osteoporosis and a history of vertebral fractures.",
+  "who_may_join": "Postmenopausal women aged 55-85 years with a documented osteoporotic vertebral fracture or non-vertebral fragility fracture, and who are ambulatory and free of severe or chronic disabling conditions.",
+  "procedures_or_participation": "Participants will receive a three-hour educational session and a three-month course of exercises. They will also undergo standard diagnostic tests such as X-rays, MRI, and bone scans. Participation involves attending scheduled appointments and completing questionnaires.",
+  "risks_or_burdens": "Potential risks include side effects from medications, discomfort during procedures, and the possibility of fractures worsening.",
+  "time_commitment": "The total time commitment is approximately 6 months, including initial screening, education sessions, exercise courses, and follow-up visits.",
+  "what_is_unclear": ["It is not clearly stated if participants will be given any osteoporosis medication.", "It is not specified if participants will be followed up beyond one year."],
+  "patient_facing_summary": "This study helps improve the lives of women with osteoporosis and past fractures by teaching them exercises and providing education. You need to be 55-85, have a certain type of broken bone, and be able to walk. You'll learn about your bones and do exercises, but there might be some risks."
+}

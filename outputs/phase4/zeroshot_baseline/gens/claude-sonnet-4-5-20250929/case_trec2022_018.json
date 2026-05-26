@@ -1,0 +1,112 @@
+{
+  "case_id": "case_trec2022_018",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02346825",
+  "question": "I am considering a clinical trial. Here is my situation: A 2-year-old boy is brought to the office by his parents due to a rash that started 1 week ago. A similar red, itchy rash on the cheeks, trunk, and arms has occurred intermittently since infancy. The patient has had a few upper respiratory infections but no major illnesses. Vaccinations are up to date, and he takes no medications. He is on a balanced diet, and he is healthy in appearance. Vital signs and milestone examination are within normal limits. Similar findings are observed on the cheeks and proximal upper extremities. The diaper area is clear, and no mucosal lesions are present. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02346825 | section=detailed_description]\nIn 2013, a systematic review of interventions for children with cerebral palsy (Novak et al, 2013) concluded that constraint-induced movement therapy (CIMT) produces the largest magnitude effects of any non-surgical treatment. Similarly, the first major handbook summarizing the results from more than 50 studies on CIMT conducted worldwide (Ramey, Coker-Bolt, & DeLuca, 2013) provides additional clinical and scientific support for the conclusion that CIMT can produce significant benefits. There are a number of important unresolved issues. One concerns the need for empirical evidence that CIMT is efficacious for infants and toddlers, since there has been no randomized controlled trial (RCT) focused on this age range. Another issue under debate is whether there are different effects related to the type of constraint used during the therapy. The constraint is placed on the child's \"stronger\" or non-hemiparetic upper extremity while the therapy focuses on improving the child's skills in using the impaired or hemiparetic upper extremity.\n\n[Passage 2 | doc=NCT02346825 | section=detailed_description]\nTwo widely used forms of constraint are: 1) a full-arm cast that the child wears continuously throughout a multi-week period when the child receives daily therapy and 2) a part-arm splint that the child wears only during the time of day when he or she receives therapy. Finally, another important topic that has not been studied is whether CIMT is a stressful form of therapy, because it is high-intensity (i.e., much higher dosage than the usual and customary sessions in other forms of occupational and physical therapy), involves constraining the child's non-involved or less involved upper extremity, and takes place in the child's home and often asks parents to help with practice sessions during non-therapy hours. If CIMT does produce elevated stress for the child, the parents, or both, is this stress short-term (i.e., just at the start of therapy) or does this continues over the entire period of therapy? Further, does the type of constraint used produce different levels of stress, either at first or throughout the course of therapy?\n\n[Passage 3 | doc=NCT02346825 | section=detailed_description]\nThe proposed study is a randomized controlled trial (RCT) of CIMT for 72 children with hemiparetic spastic cerebral palsy (CP) between the ages of 6 and 24 months. The study will take place in two sites (Roanoke, VA and Columbus, OH), each site enrolling 36 children over a 3 year period. The study will address two specific aims: Aim 1: to test the efficacy of 3 different constraint conditions used as part of administering a standardized form of therapy known as ACQUIRE (DeLuca, Echols, & Ramey, 2007). The 3 constraint conditions are: i) continuous constraint, ii) part-time constraint, and iii) no constraint. In all 3 groups, children will receive 3 hours of therapy per day for 5 days per week for 4 consecutive days. Therapy is delivered by licensed occupation or physical therapists who have been trained to deliver ACQUIRE therapy to high fidelity. In addition, parents are trained to provide one hour of practice in their homes, using techniques compatible with those used by the ACQUIRE therapist.\n\n[Passage 4 | doc=NCT02346825 | section=detailed_description]\nEfficacy will be measured primarily by changes in the children's assessed skill levels in using their upper extremities, both the hemiparetic (affected) and the non-hemiparetic (less involved) upper extremities, used alone and together (i.e., in completing bimanual tasks). In addition, changes in brain functioning related to receiving the 3 different constraint conditions will be measured using functional Near-Infrared Spectroscopy (fNIRS), a non-invasive and safe procedure that permits children to be active while recording takes place. Aim 2: to monitor stress levels and safety risks related to use of constraint in the 3 conditions identified above (Aim 1). The study addresses stress levels in both the children and their parents, because CIMT is a high-intensity and unusual (i.e., constraining the child's \"stronger arm\") form of therapy taking place in the children's homes.\n\n[Passage 5 | doc=NCT02346825 | section=detailed_description]\nPrior published clinical case reports indicate infants and toddlers adjust well to this form of therapy, and parents have favorable responses, no study previously has directly measured stress effects, related to self-report of parents or biological indicators, such as revealed by collecting saliva and hair samples to analyze for cortisol levels and changes over time. The study results are expected to be important to inform the field of infant rehabilitation and provide much-needed evidence about whether infants and toddlers show significant (clinically meaningful) benefits from one or more of the 3 forms of therapy being tested. The findings will include evidence about both behavioral and brain changes. Further, the evidence will answer questions about whether the immediate therapy benefits, if detected, continue to be measurable at 6 and 12 months after therapy has ended. In addition, the study will yield first-ever evidence about whether CIMT is stressful for children and their parents. It may be there are some children or parents who are at higher risk for showing stress effects.\n\n[Passage 6 | doc=NCT02346825 | section=detailed_description]\nIf so, the data generated by this study will be important for future clinical practice and research to reduce these levels. If elevated stress does not occur, or if markedly lowering of stress is detected, then these findings will help to resolve the uncertainty that currently prevents some families or clinicians from considering this form of therapy, despite the fact that other scientific studies have shown it produces large and lasting benefits for children age 2 and older.",
+  "passages": [
+    {
+      "passage_id": "NCT02346825::detailed_description::0",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "In 2013, a systematic review of interventions for children with cerebral palsy (Novak et al, 2013) concluded that constraint-induced movement therapy (CIMT) produces the largest magnitude effects of any non-surgical treatment. Similarly, the first major handbook summarizing the results from more than 50 studies on CIMT conducted worldwide (Ramey, Coker-Bolt, & DeLuca, 2013) provides additional clinical and scientific support for the conclusion that CIMT can produce significant benefits. There are a number of important unresolved issues. One concerns the need for empirical evidence that CIMT is efficacious for infants and toddlers, since there has been no randomized controlled trial (RCT) focused on this age range. Another issue under debate is whether there are different effects related to the type of constraint used during the therapy. The constraint is placed on the child's \"stronger\" or non-hemiparetic upper extremity while the therapy focuses on improving the child's skills in using the impaired or hemiparetic upper extremity.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::1",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "Two widely used forms of constraint are: 1) a full-arm cast that the child wears continuously throughout a multi-week period when the child receives daily therapy and 2) a part-arm splint that the child wears only during the time of day when he or she receives therapy. Finally, another important topic that has not been studied is whether CIMT is a stressful form of therapy, because it is high-intensity (i.e., much higher dosage than the usual and customary sessions in other forms of occupational and physical therapy), involves constraining the child's non-involved or less involved upper extremity, and takes place in the child's home and often asks parents to help with practice sessions during non-therapy hours. If CIMT does produce elevated stress for the child, the parents, or both, is this stress short-term (i.e., just at the start of therapy) or does this continues over the entire period of therapy? Further, does the type of constraint used produce different levels of stress, either at first or throughout the course of therapy?",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::2",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "The proposed study is a randomized controlled trial (RCT) of CIMT for 72 children with hemiparetic spastic cerebral palsy (CP) between the ages of 6 and 24 months. The study will take place in two sites (Roanoke, VA and Columbus, OH), each site enrolling 36 children over a 3 year period. The study will address two specific aims: Aim 1: to test the efficacy of 3 different constraint conditions used as part of administering a standardized form of therapy known as ACQUIRE (DeLuca, Echols, & Ramey, 2007). The 3 constraint conditions are: i) continuous constraint, ii) part-time constraint, and iii) no constraint. In all 3 groups, children will receive 3 hours of therapy per day for 5 days per week for 4 consecutive days. Therapy is delivered by licensed occupation or physical therapists who have been trained to deliver ACQUIRE therapy to high fidelity. In addition, parents are trained to provide one hour of practice in their homes, using techniques compatible with those used by the ACQUIRE therapist.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::3",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "Efficacy will be measured primarily by changes in the children's assessed skill levels in using their upper extremities, both the hemiparetic (affected) and the non-hemiparetic (less involved) upper extremities, used alone and together (i.e., in completing bimanual tasks). In addition, changes in brain functioning related to receiving the 3 different constraint conditions will be measured using functional Near-Infrared Spectroscopy (fNIRS), a non-invasive and safe procedure that permits children to be active while recording takes place. Aim 2: to monitor stress levels and safety risks related to use of constraint in the 3 conditions identified above (Aim 1). The study addresses stress levels in both the children and their parents, because CIMT is a high-intensity and unusual (i.e., constraining the child's \"stronger arm\") form of therapy taking place in the children's homes.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::4",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "Prior published clinical case reports indicate infants and toddlers adjust well to this form of therapy, and parents have favorable responses, no study previously has directly measured stress effects, related to self-report of parents or biological indicators, such as revealed by collecting saliva and hair samples to analyze for cortisol levels and changes over time. The study results are expected to be important to inform the field of infant rehabilitation and provide much-needed evidence about whether infants and toddlers show significant (clinically meaningful) benefits from one or more of the 3 forms of therapy being tested. The findings will include evidence about both behavioral and brain changes. Further, the evidence will answer questions about whether the immediate therapy benefits, if detected, continue to be measurable at 6 and 12 months after therapy has ended. In addition, the study will yield first-ever evidence about whether CIMT is stressful for children and their parents. It may be there are some children or parents who are at higher risk for showing stress effects.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::5",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "If so, the data generated by this study will be important for future clinical practice and research to reduce these levels. If elevated stress does not occur, or if markedly lowering of stress is detected, then these findings will help to resolve the uncertainty that currently prevents some families or clinicians from considering this form of therapy, despite the fact that other scientific studies have shown it produces large and lasting benefits for children age 2 and older.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, this trial does not appear to be a match for your child. The study is specifically looking for infants and toddlers (ages 6-24 months) who have been diagnosed with hemiparetic spastic cerebral palsy - a condition affecting one side of the body due to brain injury. Your child is being evaluated for a rash that has occurred intermittently since infancy, which sounds like a skin condition (possibly eczema or atopic dermatitis), not cerebral palsy. This trial is testing different types of physical/occupational therapy for children with movement difficulties on one side of their body, which doesn't match your child's situation.\",\n  \"supported_patient_facts\": [\n    \"Child is a 2-year-old boy (24 months old)\",\n    \"Has a red, itchy rash on cheeks, trunk, and arms that has occurred intermittently since infancy\",\n    \"Has had a few upper respiratory infections but no major illnesses\",\n    \"Vaccinations are up to date\",\n    \"Takes no medications\",\n    \"Vital signs and milestone examination are within normal limits\",\n    \"Appears healthy\",\n    \"No mucosal lesions present\"\n  ],\n  \"missing_patient_facts\": [\n    \"No diagnosis of cerebral palsy mentioned\",\n    \"No indication of hemiparesis (weakness on one side of the body)\",\n    \"No mention of motor difficulties or movement impairments\",\n    \"No upper extremity functional limitations described\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Study requires diagnosis of hemiparetic spastic cerebral palsy\",\n    \"Study requires children between 6-24 months (child is at upper age limit)\",\n    \"Study requires documented upper extremity impairment\",\n    \"Study locations are Roanoke, VA and Columbus, OH - patient location unknown\"\n  ],\n  \"reasoning_summary\": \"This clinical trial (NCT02346825) is testing constraint-induced movement therapy (CIMT) for young children with hemiparetic spastic cerebral palsy - a neurological condition affecting movement on one side of the body. The patient described has an intermittent skin rash with normal developmental milestones and vital signs, which represents a completely different medical situation. The child appears to be seeking evaluation for a dermatological condition, not a neurological/movement disorder. There is no indication in the patient's description of cerebral palsy, motor impairment, or hemiparesis, which are fundamental requirements for this study.\",\n  \"safety_note\": \"I cannot determine eligibility for clinical trials or provide medical advice. The information above is based solely on comparing your description to this specific study's focus. Please consult with your child's healthcare provider about the rash symptoms you described and whether any clinical trials might be appropriate for your child's actual medical needs.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, this trial does not appear to be a match for your child. The study is specifically looking for infants and toddlers (ages 6-24 months) who have been diagnosed with hemiparetic spastic cerebral palsy - a condition affecting one side of the body due to brain injury. Your child is being evaluated for a rash that has occurred intermittently since infancy, which sounds like a skin condition (possibly eczema or atopic dermatitis), not cerebral palsy. This trial is testing different types of physical/occupational therapy for children with movement difficulties on one side of their body, which doesn't match your child's situation.",
+    "supported_patient_facts": [
+      "Child is a 2-year-old boy (24 months old)",
+      "Has a red, itchy rash on cheeks, trunk, and arms that has occurred intermittently since infancy",
+      "Has had a few upper respiratory infections but no major illnesses",
+      "Vaccinations are up to date",
+      "Takes no medications",
+      "Vital signs and milestone examination are within normal limits",
+      "Appears healthy",
+      "No mucosal lesions present"
+    ],
+    "missing_patient_facts": [
+      "No diagnosis of cerebral palsy mentioned",
+      "No indication of hemiparesis (weakness on one side of the body)",
+      "No mention of motor difficulties or movement impairments",
+      "No upper extremity functional limitations described"
+    ],
+    "unresolved_study_requirements": [
+      "Study requires diagnosis of hemiparetic spastic cerebral palsy",
+      "Study requires children between 6-24 months (child is at upper age limit)",
+      "Study requires documented upper extremity impairment",
+      "Study locations are Roanoke, VA and Columbus, OH - patient location unknown"
+    ],
+    "reasoning_summary": "This clinical trial (NCT02346825) is testing constraint-induced movement therapy (CIMT) for young children with hemiparetic spastic cerebral palsy - a neurological condition affecting movement on one side of the body. The patient described has an intermittent skin rash with normal developmental milestones and vital signs, which represents a completely different medical situation. The child appears to be seeking evaluation for a dermatological condition, not a neurological/movement disorder. There is no indication in the patient's description of cerebral palsy, motor impairment, or hemiparesis, which are fundamental requirements for this study.",
+    "safety_note": "I cannot determine eligibility for clinical trials or provide medical advice. The information above is based solely on comparing your description to this specific study's focus. Please consult with your child's healthcare provider about the rash symptoms you described and whether any clinical trials might be appropriate for your child's actual medical needs."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, this trial does not appear to be a match for your child. The study is specifically looking for infants and toddlers (ages 6-24 months) who have been diagnosed with hemiparetic spastic cerebral palsy - a condition affecting one side of the body due to brain injury. Your child is being evaluated for a rash that has occurred intermittently since infancy, which sounds like a skin condition (possibly eczema or atopic dermatitis), not cerebral palsy. This trial is testing different types of physical/occupational therapy for children with movement difficulties on one side of their body, which doesn't match your child's situation.",
+  "missing_patient_facts": [
+    "No diagnosis of cerebral palsy mentioned",
+    "No indication of hemiparesis (weakness on one side of the body)",
+    "No mention of motor difficulties or movement impairments",
+    "No upper extremity functional limitations described"
+  ],
+  "unresolved_study_requirements": [
+    "Study requires diagnosis of hemiparetic spastic cerebral palsy",
+    "Study requires children between 6-24 months (child is at upper age limit)",
+    "Study requires documented upper extremity impairment",
+    "Study locations are Roanoke, VA and Columbus, OH - patient location unknown"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 14.466895988909528
+}

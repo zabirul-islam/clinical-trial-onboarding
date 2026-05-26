@@ -1,0 +1,59 @@
+{
+  "status": "single_trial_ok",
+  "reason": "single_trial_ok",
+  "selected_doc_id": "NCT00738998",
+  "selected_doc_weight_share": 0.459921,
+  "selected_doc_passage_count": 2,
+  "n_unique_docs_in_raw_context": 7,
+  "raw_context_rows": 8,
+  "filtered_context_rows": 2,
+  "doc_scores": [
+    {
+      "doc_id": "NCT00738998",
+      "weighted_score": 1.25,
+      "passage_count": 2,
+      "best_rank": 1
+    },
+    {
+      "doc_id": "NCT04054596",
+      "weighted_score": 0.5,
+      "passage_count": 1,
+      "best_rank": 2
+    },
+    {
+      "doc_id": "NCT04780048",
+      "weighted_score": 0.3333333333333333,
+      "passage_count": 1,
+      "best_rank": 3
+    },
+    {
+      "doc_id": "NCT02432339",
+      "weighted_score": 0.2,
+      "passage_count": 1,
+      "best_rank": 5
+    },
+    {
+      "doc_id": "NCT00682994",
+      "weighted_score": 0.16666666666666666,
+      "passage_count": 1,
+      "best_rank": 6
+    },
+    {
+      "doc_id": "NCT01925495",
+      "weighted_score": 0.14285714285714285,
+      "passage_count": 1,
+      "best_rank": 7
+    },
+    {
+      "doc_id": "NCT03850899",
+      "weighted_score": 0.125,
+      "passage_count": 1,
+      "best_rank": 8
+    }
+  ],
+  "thresholds": {
+    "min_weight_share": 0.45,
+    "min_passage_count": 2,
+    "keep_top_passages": 6
+  }
+}

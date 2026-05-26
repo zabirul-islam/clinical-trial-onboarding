@@ -1,0 +1,20 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to meet some of the eligibility criteria for this study, but we need more details to confirm your full eligibility.",
+  "supported_patient_facts": [
+    "you are a 55-year-old woman",
+    "you have osteoporosis",
+    "you have a prior vertebral fracture"
+  ],
+  "missing_patient_facts": [
+    "your current health status regarding severe or chronic disabling conditions",
+    "the results of your X-rays showing a documented osteoporotic vertebral fracture",
+    "whether you have been evaluated for hematologic disorders or other conditions affecting blood coagulation"
+  ],
+  "unresolved_study_requirements": [
+    "we need to verify if you have been evaluated for hematologic disorders or other conditions affecting blood coagulation",
+    "we need to confirm if you have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture"
+  ],
+  "reasoning_summary": "The patient meets the age and osteoporosis criteria, but the presence of a documented vertebral fracture and the need for hematological evaluations are unresolved. Further verification is required before making a definitive decision.",
+  "safety_note": "Please inform us about any current health issues or medications that could affect your participation in the study."
+}

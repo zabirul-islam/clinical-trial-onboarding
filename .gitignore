@@ -1,0 +1,51 @@
+# Large derived data — entire processed/ dir (HF dataset + Zenodo at acceptance)
+processed/
+# Big BM25 variants log — not paper-essential
+outputs/tables/bm25_variants_runs.csv
+
+# Build / runtime
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+node_modules/
+.DS_Store
+.ipynb_checkpoints/
+
+# Secrets — NEVER commit
+.api_keys
+.env
+*.key
+
+# LaTeX build artifacts (keep .pdf for reviewers)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# IDE / editor / agent scratch
+.claude/
+.cursor/
+.vscode/
+
+# Internal progress logs / scratch (not for public release)
+SEMANTIC_LEAK_PROGRESS.md
+final_system_backup/
+logs/
+graphify-out/
+.claude-flow/
+.mcp.json
+Plan.docx
+Structural Safety in Patient-Facing AI for
+data/
+*.tmp
+*.bak
+
+# Old paper drafts
+outputs/paper_v2/main.OLD.tex

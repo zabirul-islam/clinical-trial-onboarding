@@ -1,0 +1,13 @@
+{
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+  "supported_patient_facts": [],
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a reliable dominant single-trial context could not be established"
+  ],
+  "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00865358, dominance ratio: 2.404, score share: 0.453, raw max cross-score: -1.828.",
+  "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+}

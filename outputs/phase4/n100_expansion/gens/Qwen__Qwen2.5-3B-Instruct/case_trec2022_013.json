@@ -1,0 +1,57 @@
+{
+  "case_id": "case_trec2022_013",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02414295",
+  "question": "I am considering a clinical trial. Here is my situation: A 24-year-old man comes to the office complaining of infertility. He and his wife have been trying to conceive for the last 18 months. Medical records of his wife showed no abnormalities. The patient doesn't smoke and takes no medications. Height is 185 cm and weight is 77 kg. Heart and lung sounds are normal. There is bilateral gynecomastia and bilateral descended firm testes. The lower extremities appear abnormally long. His karyotype evaluation shows 47, XXY consistent with Klinefelter syndrome. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02414295 | section=detailed_description]\nThe problem started with this kind of patinets when underwent multiple TESE without sperm. The investigators try to inject KS patients with mesenchymal stem cells to stimulate testicular tissue for production of sperms. before injection the investigators measure:( FSH, LH, Testosterone, Prolactin, Inhibin B, Karyotyping, Azoospermic Factor, Testicular size by ultrasound). Three to twelf months after stem cell injection the investigators reevaluate patients by the same measure to demoenstarte any changes.\n\n[Passage 2 | doc=NCT02414295 | section=eligibility]\nInclusion Criteria: - Kleinfelter syndrome - Azoospermia - Negative TESE Exclusion Criteria: - Absent Testes\n\n[Passage 3 | doc=NCT02414295 | section=summary]\nKlinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .\n\n[Passage 4 | doc=NCT02414295 | section=title]\nSperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+  "passages": [
+    {
+      "passage_id": "NCT02414295::detailed_description::0",
+      "doc_id": "NCT02414295",
+      "section": "detailed_description",
+      "passage_text": "The problem started with this kind of patinets when underwent multiple TESE without sperm. The investigators try to inject KS patients with mesenchymal stem cells to stimulate testicular tissue for production of sperms. before injection the investigators measure:( FSH, LH, Testosterone, Prolactin, Inhibin B, Karyotyping, Azoospermic Factor, Testicular size by ultrasound). Three to twelf months after stem cell injection the investigators reevaluate patients by the same measure to demoenstarte any changes.",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02414295::eligibility::0",
+      "doc_id": "NCT02414295",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Kleinfelter syndrome - Azoospermia - Negative TESE Exclusion Criteria: - Absent Testes",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02414295::summary::0",
+      "doc_id": "NCT02414295",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02414295::title::0",
+      "doc_id": "NCT02414295",
+      "section": "title",
+      "passage_text": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, the patient seems to meet some key eligibility criteria for this clinical trial, such as having Klinefelter syndrome and being azoospermic. However, we need more information to confirm if he meets all the required criteria and if he can safely participate in the study.\",\n  \"supported_patient_facts\": [\"The patient has Klinefelter syndrome (47, XXY), which is consistent with the inclusion criteria.\", \"The patient is azoospermic, meaning he does not produce sperm, which aligns with the exclusion criteria of 'Azoospermia' and 'Absent Testes'.\"],\n  \"missing_patient_facts\": [\"We do not have information about the results of the FSH, LH, Testosterone, Prolactin, Inhibin B, Karyotyping, Azoospermic Factor, and Testicular size by ultrasound tests that were mentioned in the inclusion criteria. These tests would help us determine if the patient meets the full set of inclusion criteria.\"],\n  \"unresolved_study_requirements\": [\"We are unsure if the patient's heart and lung sounds are normal enough to proceed with the study. Additionally, we need to know if the patient has undergone negative TESE (Testicular Sperm Extraction) as per the exclusion criteria.\"],\n  \"reasoning_summary\": \"The patient appears to meet the main inclusion criteria for the study, but we need further information to confirm all aspects of eligibility and ensure safety.\",\n  \"safety_note\": \"Before proceeding, we need to ensure that the",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 12.206
+}

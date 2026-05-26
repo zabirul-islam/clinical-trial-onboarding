@@ -1,0 +1,108 @@
+{
+  "case_id": "case_trec2021_059",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001909",
+  "selected_doc": "NCT00819676",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough. According to his mother, he didn't respond to the usual corticosteroid inhaler. He was admitted to the emergency department with diagnosis of severe asthma exacerbation. He is a candidate for general corticosteroid therapy. Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted. His past medical history is non-significant. His family history is significant for asthma in his mother and his uncle. He used to be treated with combination of inhaled corticosteroids and Zafirlukast. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00819676 | section=eligibility]\nInclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.\n\n[Passage 2 | doc=NCT00819676 | section=eligibility]\n- Patient has a diagnosis of asthma as defined by 1) an increase in FEV1 or PEF of \u226512% (absolute value), 20 to 30 minutes after inhaled \u03b2-agonist administration, OR 2) a positive methacholine PC20 (provocative concentration causing a 20% fall in FEV1) of 8 mg/ml or lower which was performed within the previous 12 months, OR 3) a fall in FEV1 of at least 15% after an exercise challenge which was performed within the previous 12 months. \u03b2-agonist reversibility and the methacholine and exercise challenge tests may be satisfied within the previous 12 months if there is adequate source documentation. - Patients demonstrate symptoms requiring \u03b2-agonist use on \u22652 and \u22646 days of the week for the previous two weeks. - Patient is able to chew a tablet. - Patient is judged to be in good, stable physical and mental health (except for his/her asthma) based on the medical history, physical examination, and routine laboratory data, and appears able to successfully complete this trial. - Ability to perform reproducible spirometry. - Nonsmoker including no use of smokeless tobacco products in the past year.\n\n[Passage 3 | doc=NCT00819676 | section=eligibility]\n- Ability of parent to provide informed consent, as evidenced by signing a copy of the consent form approved by the institutional review board of the subject's respective study institution Exclusion Criteria: none\n\n[Passage 4 | doc=NCT00819676 | section=summary]\nThe aim of this study is to investigate the pattern of organic volatile compounds (VOCs) in the exhaled breath detected by biosensors in adults with persistent mild asthma. The analysis of VOCs detected by biosensors in asthmatic adults will be compared with that in a control group of healthy subjects and with exhaled nitric oxide (NO). Identification of breath VOC patterns may be a completely noninvasive new technique for assessing airway inflammation. A device containing a series of nanosensors can be used for breath analysis of VOC patterns through integration with a suitable algorithm for pattern recognition. Preliminary data indicate that exhaled breath patterns detected by biosensors in healthy subjects are different from those in patients with asthma. In patients with asthma, analysis of exhaled breath using biosensors will be compared with exhaled NO measurement for studying a possible correlation with an independent method for assessing airway inflammation and with spirometry for assessing a possible correlation with lung function. Measurement of exhaled NO is a well-established, validated, and standardized method for assessing and monitoring of airway inflammation in patients with asthma who are steroid-naive. In patients with asthma, exhaled NO concentrations are correlated with blood eosinophil cell counts and with airway hyperresponsiveness (AHR). This study could contribute to the identification and development of a completely new non-invasive technique for assessing airway inflammation with important implications for diagnosis and therapeutic monitoring of patients with asthma. Establishing the effect of anti-inflammatory drugs on breath analysis by biosensors in patients with asthma is relevant for future studies aimed to use this technique in asthma management.",
+  "passages": [
+    {
+      "passage_id": "NCT00819676::eligibility::0",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::1",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "- Patient has a diagnosis of asthma as defined by 1) an increase in FEV1 or PEF of \u226512% (absolute value), 20 to 30 minutes after inhaled \u03b2-agonist administration, OR 2) a positive methacholine PC20 (provocative concentration causing a 20% fall in FEV1) of 8 mg/ml or lower which was performed within the previous 12 months, OR 3) a fall in FEV1 of at least 15% after an exercise challenge which was performed within the previous 12 months. \u03b2-agonist reversibility and the methacholine and exercise challenge tests may be satisfied within the previous 12 months if there is adequate source documentation. - Patients demonstrate symptoms requiring \u03b2-agonist use on \u22652 and \u22646 days of the week for the previous two weeks. - Patient is able to chew a tablet. - Patient is judged to be in good, stable physical and mental health (except for his/her asthma) based on the medical history, physical examination, and routine laboratory data, and appears able to successfully complete this trial. - Ability to perform reproducible spirometry. - Nonsmoker including no use of smokeless tobacco products in the past year.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::2",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "- Ability of parent to provide informed consent, as evidenced by signing a copy of the consent form approved by the institutional review board of the subject's respective study institution Exclusion Criteria: none",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00819676::summary::0",
+      "doc_id": "NCT00819676",
+      "section": "summary",
+      "passage_text": "The aim of this study is to investigate the pattern of organic volatile compounds (VOCs) in the exhaled breath detected by biosensors in adults with persistent mild asthma. The analysis of VOCs detected by biosensors in asthmatic adults will be compared with that in a control group of healthy subjects and with exhaled nitric oxide (NO). Identification of breath VOC patterns may be a completely noninvasive new technique for assessing airway inflammation. A device containing a series of nanosensors can be used for breath analysis of VOC patterns through integration with a suitable algorithm for pattern recognition. Preliminary data indicate that exhaled breath patterns detected by biosensors in healthy subjects are different from those in patients with asthma. In patients with asthma, analysis of exhaled breath using biosensors will be compared with exhaled NO measurement for studying a possible correlation with an independent method for assessing airway inflammation and with spirometry for assessing a possible correlation with lung function. Measurement of exhaled NO is a well-established, validated, and standardized method for assessing and monitoring of airway inflammation in patients with asthma who are steroid-naive. In patients with asthma, exhaled NO concentrations are correlated with blood eosinophil cell counts and with airway hyperresponsiveness (AHR). This study could contribute to the identification and development of a completely new non-invasive technique for assessing airway inflammation with important implications for diagnosis and therapeutic monitoring of patients with asthma. Establishing the effect of anti-inflammatory drugs on breath analysis by biosensors in patients with asthma is relevant for future studies aimed to use this technique in asthma management.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you are unlikely to match this clinical trial. Here's why:\\n\\nThis study is looking for people with **mild persistent asthma** who have symptoms once a week but less than daily, and whose lung function is at least 80% of predicted. Your situation is quite different:\\n\\n\u2022 You have **severe asthma** that recently required emergency department treatment\\n\u2022 Your lung function (FEV1) is 60% of predicted, which is below the study's requirement of at least 80%\\n\u2022 You're currently being treated with combination therapy (inhaled corticosteroids and Zafirlukast), while the study requires participants to only be using short-acting inhalers as needed\\n\u2022 You're being considered for general corticosteroid therapy due to your severe exacerbation\\n\\nThe good news is that you meet the age requirement (15 years old is the minimum age). However, the severity of your asthma and your current treatment needs appear to be more advanced than what this particular study is designed to evaluate.\\n\\n**Important**: This is not a final determination of eligibility. Only the clinical trial team can make that decision after reviewing your complete medical records. There may be other trials better suited to your current health situation.\",\n  \"supported_patient_facts\": [\n    \"15-year-old male patient\",\n    \"Asthma diagnosed one year ago (12 months of symptoms)\",\n    \"Current symptoms include shortness of breath, chest tightening, and cough\",\n    \"FEV1 of 60% of predicted\",\n    \"Currently treated with combination of inhaled corticosteroids and Zafirlukast\",\n    \"Severe asthma exacerbation requiring emergency department admission\",\n    \"Family history of asthma (mother and uncle)\",\n    \"Did not respond to usual corticosteroid inhaler\"\n  ],\n  \"missing_patient_facts\": [\n    \"Smoking or tobacco use status in the past year\",\n    \"Ability to perform reproducible spirometry\",\n    \"Ability to chew a tablet\",\n    \"Whether patient can demonstrate \u03b2-agonist reversibility (12% increase in FEV1 or PEF)\",\n    \"Whether methacholine challenge test or exercise challenge test has been performed\",\n    \"Frequency of \u03b2-agonist use in the previous two weeks\",\n    \"Physical examination and routine laboratory findings beyond asthma\",\n    \"Mental health status\",\n    \"Whether patient uses short-acting \u03b2-agonist as needed\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Site availability and geographic accessibility\",\n    \"Current enrollment status of the trial\",\n    \"Institutional review board consent process\",\n    \"Specific biosensor and exhaled breath analysis procedures\",\n    \"Timing and scheduling requirements for study visits\",\n    \"Whether washout period from current medications would be required\"\n  ],\n  \"reasoning_summary\": \"The patient meets the minimum age requirement (15 years old) and has a documented 12-month history of asthma symptoms. However, there are significant mismatches with the inclusion criteria: (1) The study requires mild persistent asthma (step 2) with symptoms once a week but less than daily, while the patient has severe asthma requiring emergency treatment; (2) The study requires FEV1 \u226580% of predicted, but the patient's FEV1 is 60%; (3) The study requires current treatment to be short-acting \u03b2-agonist alone as needed, but the patient is on combination therapy with inhaled corticosteroids and Zafirlukast and is being considered for general corticosteroid therapy. These are fundamental mismatches with core inclusion criteria that make this trial unlikely to be appropriate for this patient's current condition.\",\n  \"safety_note\": \"This assessment is for informational purposes only and is not medical advice. The patient is currently experiencing a severe asthma exacerbation requiring emergency care and consideration for systemic corticosteroid therapy. The immediate priority should be appropriate medical treatment under the guidance of the treating physicians, not clinical trial enrollment. Only the clinical trial investigators can make a final eligibility determination after complete medical review. If interested in clinical trials, the patient's healthcare team can help identify trials appropriate for severe asthma.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you are unlikely to match this clinical trial. Here's why:\n\nThis study is looking for people with **mild persistent asthma** who have symptoms once a week but less than daily, and whose lung function is at least 80% of predicted. Your situation is quite different:\n\n\u2022 You have **severe asthma** that recently required emergency department treatment\n\u2022 Your lung function (FEV1) is 60% of predicted, which is below the study's requirement of at least 80%\n\u2022 You're currently being treated with combination therapy (inhaled corticosteroids and Zafirlukast), while the study requires participants to only be using short-acting inhalers as needed\n\u2022 You're being considered for general corticosteroid therapy due to your severe exacerbation\n\nThe good news is that you meet the age requirement (15 years old is the minimum age). However, the severity of your asthma and your current treatment needs appear to be more advanced than what this particular study is designed to evaluate.\n\n**Important**: This is not a final determination of eligibility. Only the clinical trial team can make that decision after reviewing your complete medical records. There may be other trials better suited to your current health situation.",
+    "supported_patient_facts": [
+      "15-year-old male patient",
+      "Asthma diagnosed one year ago (12 months of symptoms)",
+      "Current symptoms include shortness of breath, chest tightening, and cough",
+      "FEV1 of 60% of predicted",
+      "Currently treated with combination of inhaled corticosteroids and Zafirlukast",
+      "Severe asthma exacerbation requiring emergency department admission",
+      "Family history of asthma (mother and uncle)",
+      "Did not respond to usual corticosteroid inhaler"
+    ],
+    "missing_patient_facts": [
+      "Smoking or tobacco use status in the past year",
+      "Ability to perform reproducible spirometry",
+      "Ability to chew a tablet",
+      "Whether patient can demonstrate \u03b2-agonist reversibility (12% increase in FEV1 or PEF)",
+      "Whether methacholine challenge test or exercise challenge test has been performed",
+      "Frequency of \u03b2-agonist use in the previous two weeks",
+      "Physical examination and routine laboratory findings beyond asthma",
+      "Mental health status",
+      "Whether patient uses short-acting \u03b2-agonist as needed"
+    ],
+    "unresolved_study_requirements": [
+      "Site availability and geographic accessibility",
+      "Current enrollment status of the trial",
+      "Institutional review board consent process",
+      "Specific biosensor and exhaled breath analysis procedures",
+      "Timing and scheduling requirements for study visits",
+      "Whether washout period from current medications would be required"
+    ],
+    "reasoning_summary": "The patient meets the minimum age requirement (15 years old) and has a documented 12-month history of asthma symptoms. However, there are significant mismatches with the inclusion criteria: (1) The study requires mild persistent asthma (step 2) with symptoms once a week but less than daily, while the patient has severe asthma requiring emergency treatment; (2) The study requires FEV1 \u226580% of predicted, but the patient's FEV1 is 60%; (3) The study requires current treatment to be short-acting \u03b2-agonist alone as needed, but the patient is on combination therapy with inhaled corticosteroids and Zafirlukast and is being considered for general corticosteroid therapy. These are fundamental mismatches with core inclusion criteria that make this trial unlikely to be appropriate for this patient's current condition.",
+    "safety_note": "This assessment is for informational purposes only and is not medical advice. The patient is currently experiencing a severe asthma exacerbation requiring emergency care and consideration for systemic corticosteroid therapy. The immediate priority should be appropriate medical treatment under the guidance of the treating physicians, not clinical trial enrollment. Only the clinical trial investigators can make a final eligibility determination after complete medical review. If interested in clinical trials, the patient's healthcare team can help identify trials appropriate for severe asthma."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you are unlikely to match this clinical trial. Here's why:\n\nThis study is looking for people with **mild persistent asthma** who have symptoms once a week but less than daily, and whose lung function is at least 80% of predicted. Your situation is quite different:\n\n\u2022 You have **severe asthma** that recently required emergency department treatment\n\u2022 Your lung function (FEV1) is 60% of predicted, which is below the study's requirement of at least 80%\n\u2022 You're currently being treated with combination therapy (inhaled corticosteroids and Zafirlukast), while the study requires participants to only be using short-acting inhalers as needed\n\u2022 You're being considered for general corticosteroid therapy due to your severe exacerbation\n\nThe good news is that you meet the age requirement (15 years old is the minimum age). However, the severity of your asthma and your current treatment needs appear to be more advanced than what this particular study is designed to evaluate.\n\n**Important**: This is not a final determination of eligibility. Only the clinical trial team can make that decision after reviewing your complete medical records. There may be other trials better suited to your current health situation.",
+  "missing_patient_facts": [
+    "Smoking or tobacco use status in the past year",
+    "Ability to perform reproducible spirometry",
+    "Ability to chew a tablet",
+    "Whether patient can demonstrate \u03b2-agonist reversibility (12% increase in FEV1 or PEF)",
+    "Whether methacholine challenge test or exercise challenge test has been performed",
+    "Frequency of \u03b2-agonist use in the previous two weeks",
+    "Physical examination and routine laboratory findings beyond asthma",
+    "Mental health status",
+    "Whether patient uses short-acting \u03b2-agonist as needed"
+  ],
+  "unresolved_study_requirements": [
+    "Site availability and geographic accessibility",
+    "Current enrollment status of the trial",
+    "Institutional review board consent process",
+    "Specific biosensor and exhaled breath analysis procedures",
+    "Timing and scheduling requirements for study visits",
+    "Whether washout period from current medications would be required"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 22.608966568950564
+}

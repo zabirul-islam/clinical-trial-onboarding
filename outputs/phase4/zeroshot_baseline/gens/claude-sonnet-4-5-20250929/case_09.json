@@ -1,0 +1,105 @@
+{
+  "case_id": "case_09",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "handcrafted",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01645904",
+  "question": "What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT01645904 | section=detailed_description]\nIf you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.\n\n[Passage 2 | doc=NCT01645904 | section=detailed_description]\nYou will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.\n\n[Passage 3 | doc=NCT01645904 | section=detailed_description]\nYou will also fill out the WAMMI questionnaire and demographics questionnaire described above. You will be given the option of coming to the BRTC at MD Anderson to use the My Family Garden computer program or using the program from your home. If you choose to use My Family Garden from your home, you will be given a secure, password-protected hyperlink via e-mail to access the program. You will be instructed on how to use the program by the study staff either in person or over the phone. If you use the program from your home, the study staff will give the interview over the phone. If you complete the questionnaire at your home, you will be provided with a self-addressed, postage-paid envelope so you can mail it back to the study staff. Whether it is completed at MD Anderson or at home, this visit should last about 90 minutes. Audiotapes: All focus groups and interviews will be audiotaped. The audiotapes collected during the course of this study will be stored in locked file cabinets in a locked office and will be destroyed after 5 years. Length of Study Participation: Your participation in this study will be over after you have completed the study procedures described above.\n\n[Passage 4 | doc=NCT01645904 | section=detailed_description]\nThis is an investigational study. Up to 49 participants will be enrolled in this study. All participants will be enrolled at MD Anderson.\n\n[Passage 5 | doc=NCT01645904 | section=eligibility]\nInclusion Criteria: 1. At least 18 years of age 2. Able to read and speak english 3. Completion of genetic counseling and testing for a Lynch syndrome mutation 4. Persons with positive (i.e., carrier of Lynch syndrome MMR mutation) as well as indeterminate test results Exclusion Criteria: 1) None\n\n[Passage 6 | doc=NCT01645904 | section=summary]\nThe goal of this research study is to create an internet-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome.",
+  "passages": [
+    {
+      "passage_id": "NCT01645904::detailed_description::0",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01645904::detailed_description::1",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01645904::detailed_description::2",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "You will also fill out the WAMMI questionnaire and demographics questionnaire described above. You will be given the option of coming to the BRTC at MD Anderson to use the My Family Garden computer program or using the program from your home. If you choose to use My Family Garden from your home, you will be given a secure, password-protected hyperlink via e-mail to access the program. You will be instructed on how to use the program by the study staff either in person or over the phone. If you use the program from your home, the study staff will give the interview over the phone. If you complete the questionnaire at your home, you will be provided with a self-addressed, postage-paid envelope so you can mail it back to the study staff. Whether it is completed at MD Anderson or at home, this visit should last about 90 minutes. Audiotapes: All focus groups and interviews will be audiotaped. The audiotapes collected during the course of this study will be stored in locked file cabinets in a locked office and will be destroyed after 5 years. Length of Study Participation: Your participation in this study will be over after you have completed the study procedures described above.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01645904::detailed_description::3",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "This is an investigational study. Up to 49 participants will be enrolled in this study. All participants will be enrolled at MD Anderson.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01645904::eligibility::0",
+      "doc_id": "NCT01645904",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. At least 18 years of age 2. Able to read and speak english 3. Completion of genetic counseling and testing for a Lynch syndrome mutation 4. Persons with positive (i.e., carrier of Lynch syndrome MMR mutation) as well as indeterminate test results Exclusion Criteria: 1) None",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01645904::summary::0",
+      "doc_id": "NCT01645904",
+      "section": "summary",
+      "passage_text": "The goal of this research study is to create an internet-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"cannot_determine\",\n  \"patient_facing_answer\": \"This study involves helping researchers develop a website about Lynch syndrome communication. What you'd do depends on which group you're assigned to:\\n\\n**Group 1:** You'd attend a 1-hour focus group at MD Anderson to discuss what you'd want in a family health communication website, and fill out questionnaires about your background and medical history.\\n\\n**Group 2:** You'd come to MD Anderson's Behavioral Research and Treatment Center for about 90 minutes to test an early version of the 'My Family Garden' website, then provide feedback in an interview. You'd also complete questionnaires rating the website.\\n\\n**Group 3:** You'd use the final version of the website (either at MD Anderson or from home) for about 90 minutes, then give feedback via interview. If participating from home, you'd access the website through a secure link and do the interview by phone.\\n\\nAll sessions involve audiotaping. You'd complete questionnaires about demographics and your experience with the website. The study ends after you complete your single session.\\n\\nTo know if this study is right for you, I'd need more information about your situation, particularly regarding genetic counseling and testing for Lynch syndrome, which is required for participation.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Whether patient is at least 18 years of age\",\n    \"Whether patient can read and speak English\",\n    \"Whether patient has completed genetic counseling and testing for Lynch syndrome mutation\",\n    \"Whether patient has positive or indeterminate Lynch syndrome test results\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Group assignment timing and availability\",\n    \"Current enrollment status of the study\",\n    \"Whether all three groups are still actively recruiting\",\n    \"Specific scheduling requirements at MD Anderson's BRTC\",\n    \"Technical requirements for home-based participation in Group 3\"\n  ],\n  \"reasoning_summary\": \"The patient asks a procedural question about study participation requirements. The evidence clearly describes three distinct group pathways with different activities (focus group, early website testing, or final website testing), visit durations (1-1.5 hours), and location options (some allowing home participation). However, without any patient information, I cannot assess eligibility or determine which group they might be assigned to. The study requires completion of genetic counseling/testing for Lynch syndrome and positive or indeterminate results, which are critical missing facts.\",\n  \"safety_note\": \"This response describes study procedures only and does not assess eligibility or guarantee enrollment. The patient would need to discuss their specific situation, particularly their genetic testing history, with the study team to determine if participation is appropriate.\"\n}\n```",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "This study involves helping researchers develop a website about Lynch syndrome communication. What you'd do depends on which group you're assigned to:\n\n**Group 1:** You'd attend a 1-hour focus group at MD Anderson to discuss what you'd want in a family health communication website, and fill out questionnaires about your background and medical history.\n\n**Group 2:** You'd come to MD Anderson's Behavioral Research and Treatment Center for about 90 minutes to test an early version of the 'My Family Garden' website, then provide feedback in an interview. You'd also complete questionnaires rating the website.\n\n**Group 3:** You'd use the final version of the website (either at MD Anderson or from home) for about 90 minutes, then give feedback via interview. If participating from home, you'd access the website through a secure link and do the interview by phone.\n\nAll sessions involve audiotaping. You'd complete questionnaires about demographics and your experience with the website. The study ends after you complete your single session.\n\nTo know if this study is right for you, I'd need more information about your situation, particularly regarding genetic counseling and testing for Lynch syndrome, which is required for participation.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Whether patient is at least 18 years of age",
+      "Whether patient can read and speak English",
+      "Whether patient has completed genetic counseling and testing for Lynch syndrome mutation",
+      "Whether patient has positive or indeterminate Lynch syndrome test results"
+    ],
+    "unresolved_study_requirements": [
+      "Group assignment timing and availability",
+      "Current enrollment status of the study",
+      "Whether all three groups are still actively recruiting",
+      "Specific scheduling requirements at MD Anderson's BRTC",
+      "Technical requirements for home-based participation in Group 3"
+    ],
+    "reasoning_summary": "The patient asks a procedural question about study participation requirements. The evidence clearly describes three distinct group pathways with different activities (focus group, early website testing, or final website testing), visit durations (1-1.5 hours), and location options (some allowing home participation). However, without any patient information, I cannot assess eligibility or determine which group they might be assigned to. The study requires completion of genetic counseling/testing for Lynch syndrome and positive or indeterminate results, which are critical missing facts.",
+    "safety_note": "This response describes study procedures only and does not assess eligibility or guarantee enrollment. The patient would need to discuss their specific situation, particularly their genetic testing history, with the study team to determine if participation is appropriate."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "This study involves helping researchers develop a website about Lynch syndrome communication. What you'd do depends on which group you're assigned to:\n\n**Group 1:** You'd attend a 1-hour focus group at MD Anderson to discuss what you'd want in a family health communication website, and fill out questionnaires about your background and medical history.\n\n**Group 2:** You'd come to MD Anderson's Behavioral Research and Treatment Center for about 90 minutes to test an early version of the 'My Family Garden' website, then provide feedback in an interview. You'd also complete questionnaires rating the website.\n\n**Group 3:** You'd use the final version of the website (either at MD Anderson or from home) for about 90 minutes, then give feedback via interview. If participating from home, you'd access the website through a secure link and do the interview by phone.\n\nAll sessions involve audiotaping. You'd complete questionnaires about demographics and your experience with the website. The study ends after you complete your single session.\n\nTo know if this study is right for you, I'd need more information about your situation, particularly regarding genetic counseling and testing for Lynch syndrome, which is required for participation.",
+  "missing_patient_facts": [
+    "Whether patient is at least 18 years of age",
+    "Whether patient can read and speak English",
+    "Whether patient has completed genetic counseling and testing for Lynch syndrome mutation",
+    "Whether patient has positive or indeterminate Lynch syndrome test results"
+  ],
+  "unresolved_study_requirements": [
+    "Group assignment timing and availability",
+    "Current enrollment status of the study",
+    "Whether all three groups are still actively recruiting",
+    "Specific scheduling requirements at MD Anderson's BRTC",
+    "Technical requirements for home-based participation in Group 3"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 15.10613438487053
+}

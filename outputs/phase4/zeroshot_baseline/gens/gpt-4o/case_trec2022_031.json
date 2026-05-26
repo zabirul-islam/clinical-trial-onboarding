@@ -1,0 +1,89 @@
+{
+  "case_id": "case_trec2022_031",
+  "backbone": "gpt-4o",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02789592",
+  "question": "I am considering a clinical trial. Here is my situation: A 25-year-old woman comes to the clinic with her roommate. The roommate says that the patient has twice fallen asleep while they were talking. The patient has regularly fallen asleep in the afternoon while reading or watching television but typically feels refreshed after a brief nap. She also reveals that she sometimes hears a voice prior to falling asleep. She also complains of some episodes of clumsiness that cause her to drop objects or fall. MSLT showed that the sleep latency was less than 8 min and that the patient enters rapid eye movement (REM) sleep almost immediately. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02789592 | section=detailed_description]\nRBD is one of the representative non-motor symptoms of PD. Patients with RBD show dream-enacting behaviors such as punching, kicking, singing, screaming, or somnambulism. These can interfere in sleep quality and increase the risk of falling down from the bed and physical injuries of both the patient and sleep partner. Therefore, qualities of life of the patient and sleep partner are negatively influenced by presence of RBD. Clonazepam has been used for treatment of choice of RBD. However, the efficacy of clonazepam is not proven in the clinical trial. Clonazepam has several side effects that could be problematic in PD patients such as increasing fall-down risk, daytime somnolence, and cognitive decline. Melatonin is a second-line treatment option for RBD, but there has been only one randomized crossover trial that evaluated the efficacy of melatonin on RBD. Finally, there has been no study that evaluate and compare the efficacy and safety of melatonin and clonazepam for treatment of RBD.\n\n[Passage 2 | doc=NCT02789592 | section=eligibility]\nInclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d\n\n[Passage 3 | doc=NCT02789592 | section=eligibility]\naytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians\n\n[Passage 4 | doc=NCT02789592 | section=summary]\nThe purpose of this study is to determine whether melatonin prolonged-release (PR) and clonazepam are effective and safe in the treatment of rapid eye movement behavior disorder (RBD) of patients with Parkinson's disease (PD).\n\n[Passage 5 | doc=NCT02789592 | section=title]\nEfficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+  "passages": [
+    {
+      "passage_id": "NCT02789592::detailed_description::0",
+      "doc_id": "NCT02789592",
+      "section": "detailed_description",
+      "passage_text": "RBD is one of the representative non-motor symptoms of PD. Patients with RBD show dream-enacting behaviors such as punching, kicking, singing, screaming, or somnambulism. These can interfere in sleep quality and increase the risk of falling down from the bed and physical injuries of both the patient and sleep partner. Therefore, qualities of life of the patient and sleep partner are negatively influenced by presence of RBD. Clonazepam has been used for treatment of choice of RBD. However, the efficacy of clonazepam is not proven in the clinical trial. Clonazepam has several side effects that could be problematic in PD patients such as increasing fall-down risk, daytime somnolence, and cognitive decline. Melatonin is a second-line treatment option for RBD, but there has been only one randomized crossover trial that evaluated the efficacy of melatonin on RBD. Finally, there has been no study that evaluate and compare the efficacy and safety of melatonin and clonazepam for treatment of RBD.",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02789592::eligibility::0",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02789592::eligibility::1",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "aytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02789592::summary::0",
+      "doc_id": "NCT02789592",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to determine whether melatonin prolonged-release (PR) and clonazepam are effective and safe in the treatment of rapid eye movement behavior disorder (RBD) of patients with Parkinson's disease (PD).",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02789592::title::0",
+      "doc_id": "NCT02789592",
+      "section": "title",
+      "passage_text": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems unlikely that you match the eligibility criteria for this clinical trial.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 25-year-old woman.\",\n    \"The patient experiences episodes of falling asleep during the day and enters REM sleep quickly.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Diagnosis of Parkinson's disease (PD).\",\n    \"Existence of caregivers who can provide information about symptoms of RBD.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of RBD frequency being one or more per week.\",\n    \"Good compliance for reporting PGI scores and sleep diary.\"\n  ],\n  \"reasoning_summary\": \"The trial is focused on patients with Parkinson's disease and REM sleep behavior disorder (RBD). The patient does not have a confirmed diagnosis of Parkinson's disease, which is a key inclusion criterion. Additionally, there is no information about the presence of RBD or the required caregiver support.\",\n  \"safety_note\": \"This response is not a diagnosis or treatment advice. Please consult with a healthcare professional for personal medical advice.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it seems unlikely that you match the eligibility criteria for this clinical trial.",
+    "supported_patient_facts": [
+      "The patient is a 25-year-old woman.",
+      "The patient experiences episodes of falling asleep during the day and enters REM sleep quickly."
+    ],
+    "missing_patient_facts": [
+      "Diagnosis of Parkinson's disease (PD).",
+      "Existence of caregivers who can provide information about symptoms of RBD."
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of RBD frequency being one or more per week.",
+      "Good compliance for reporting PGI scores and sleep diary."
+    ],
+    "reasoning_summary": "The trial is focused on patients with Parkinson's disease and REM sleep behavior disorder (RBD). The patient does not have a confirmed diagnosis of Parkinson's disease, which is a key inclusion criterion. Additionally, there is no information about the presence of RBD or the required caregiver support.",
+    "safety_note": "This response is not a diagnosis or treatment advice. Please consult with a healthcare professional for personal medical advice."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it seems unlikely that you match the eligibility criteria for this clinical trial.",
+  "missing_patient_facts": [
+    "Diagnosis of Parkinson's disease (PD).",
+    "Existence of caregivers who can provide information about symptoms of RBD."
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of RBD frequency being one or more per week.",
+    "Good compliance for reporting PGI scores and sleep diary."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 3.6994325858540833
+}

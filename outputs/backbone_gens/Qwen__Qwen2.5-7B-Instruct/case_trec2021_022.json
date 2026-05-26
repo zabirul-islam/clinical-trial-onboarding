@@ -1,0 +1,78 @@
+{
+  "case_id": "case_trec2021_022",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00172822",
+  "selected_doc": "NCT03791229",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03791229 | section=detailed_description]\nAcute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.\n\n[Passage 2 | doc=NCT03791229 | section=detailed_description]\nAfter Local Ethics Committee approval had been obtained, the records of children aged 8-18 years who underwent appendectomy, such as age, gender, American Society of Anesthesiology (ASA) classification score, the type of surgical procedure, and anesthetic technique were obtained from hospital information management system and anesthetic charts. Inclusion criterias were children between the ages of 8-18 years who underwent appendectomy, had ASA I physical score, and those who agree to participate for this research. Children who aged under 8 and over 18 years, had ASA II and those with higher physical score, had previously undergone surgery from the right lower abdomen, had preoperative pain complaint over 6 month, had psychiatric disorders, and whose parents do not agree to participate were excluded in this study. By calling parents, at the 6th month after the surgical procedure, the presence of chronic pain and discomfort were asked via face to face or talking on the phone. The primary endpoint of this study is to investigate the prevalence of chronic pain and discomfort at the 6th month after appendectomy in pediatric patients.\n\n[Passage 3 | doc=NCT03791229 | section=detailed_description]\nThe secondary endpoint is to determine the effects of chronic pain on the children's quality of life. Pain was defined as the presence of intermittent or continuous hurtfully sensation. Discomfort was defined as an abnormal bad feeling. Children were asked whether they felt pain or discomfort while resting, coughing, and exercise. Pain was assessed using verbal numeric rating scale. Their effects on life were assessed Pediatric Quality of Life Inventory parent and child versions questionnaire at sixth months after surgery.\n\n[Passage 4 | doc=NCT03791229 | section=eligibility]\nInclusion Criteria: - Children between the ages of 8-18 years who underwent appendectomy, - who had ASA I physical score - who agree to participate for this research Exclusion Criteria: - Children who aged under 8 and over 18 years, - who had ASA II and those with higher physical score, - who had previously undergone surgery from the right lower abdomen, - who had preoperative pain complaint over 6 month, - who had psychiatric disorders, - who do not agree to participate\n\n[Passage 5 | doc=NCT03791229 | section=summary]\nAppendectomy is the most common surgical procedure. Chronic abdominal pain is an uncommon complication following appendectomy. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period and these complaints may affect quality of life. We aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects. The records of children aged 8-18 years who underwent appendectomy, such as age, gender, American Society of Anesthesiology (ASA) classification score, the type of surgical procedure, and anesthetic technique were obtained. Children had inclusions crietrias, pain was assessed using numerical rating scale and their effects on life were assessed Pediatric Quality of Life Inventory parent and child versions questionnaire at sixth months after surgery.",
+  "passages": [
+    {
+      "passage_id": "NCT03791229::detailed_description::0",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03791229::detailed_description::1",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "After Local Ethics Committee approval had been obtained, the records of children aged 8-18 years who underwent appendectomy, such as age, gender, American Society of Anesthesiology (ASA) classification score, the type of surgical procedure, and anesthetic technique were obtained from hospital information management system and anesthetic charts. Inclusion criterias were children between the ages of 8-18 years who underwent appendectomy, had ASA I physical score, and those who agree to participate for this research. Children who aged under 8 and over 18 years, had ASA II and those with higher physical score, had previously undergone surgery from the right lower abdomen, had preoperative pain complaint over 6 month, had psychiatric disorders, and whose parents do not agree to participate were excluded in this study. By calling parents, at the 6th month after the surgical procedure, the presence of chronic pain and discomfort were asked via face to face or talking on the phone. The primary endpoint of this study is to investigate the prevalence of chronic pain and discomfort at the 6th month after appendectomy in pediatric patients.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03791229::detailed_description::2",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "The secondary endpoint is to determine the effects of chronic pain on the children's quality of life. Pain was defined as the presence of intermittent or continuous hurtfully sensation. Discomfort was defined as an abnormal bad feeling. Children were asked whether they felt pain or discomfort while resting, coughing, and exercise. Pain was assessed using verbal numeric rating scale. Their effects on life were assessed Pediatric Quality of Life Inventory parent and child versions questionnaire at sixth months after surgery.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03791229::eligibility::0",
+      "doc_id": "NCT03791229",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Children between the ages of 8-18 years who underwent appendectomy, - who had ASA I physical score - who agree to participate for this research Exclusion Criteria: - Children who aged under 8 and over 18 years, - who had ASA II and those with higher physical score, - who had previously undergone surgery from the right lower abdomen, - who had preoperative pain complaint over 6 month, - who had psychiatric disorders, - who do not agree to participate",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03791229::summary::0",
+      "doc_id": "NCT03791229",
+      "section": "summary",
+      "passage_text": "Appendectomy is the most common surgical procedure. Chronic abdominal pain is an uncommon complication following appendectomy. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period and these complaints may affect quality of life. We aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects. The records of children aged 8-18 years who underwent appendectomy, such as age, gender, American Society of Anesthesiology (ASA) classification score, the type of surgical procedure, and anesthetic technique were obtained. Children had inclusions crietrias, pain was assessed using numerical rating scale and their effects on life were assessed Pediatric Quality of Life Inventory parent and child versions questionnaire at sixth months after surgery.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not meet the eligibility criteria for this clinical trial.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"Age range (8-18 years): The patient is 31 years old, which does not fall within the specified age range for the study.\"\n  ],\n  \"reasoning_summary\": \"The patient is 31 years old, which falls outside the age range specified in the inclusion criteria (8-18 years). Therefore, it is unlikely that the patient meets the eligibility criteria for this clinical trial.\",\n  \"safety_note\": \"Please consult your healthcare provider for further evaluation and appropriate care options.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not meet the eligibility criteria for this clinical trial.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "Age range (8-18 years): The patient is 31 years old, which does not fall within the specified age range for the study."
+    ],
+    "reasoning_summary": "The patient is 31 years old, which falls outside the age range specified in the inclusion criteria (8-18 years). Therefore, it is unlikely that the patient meets the eligibility criteria for this clinical trial.",
+    "safety_note": "Please consult your healthcare provider for further evaluation and appropriate care options."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not meet the eligibility criteria for this clinical trial.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "Age range (8-18 years): The patient is 31 years old, which does not fall within the specified age range for the study."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 12.96
+}

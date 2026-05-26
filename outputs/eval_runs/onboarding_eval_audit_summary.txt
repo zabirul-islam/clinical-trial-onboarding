@@ -1,0 +1,26 @@
+Total cases: 15
+Topic relevance = yes: 10/15 (66.7%)
+Topic relevance = no: 3/15 (20.0%)
+Eligibility overstatement = none: 6/15 (40.0%)
+Eligibility overstatement = severe: 6/15 (40.0%)
+Unsupported explanation = none: 1/15 (6.7%)
+Unsupported explanation = severe: 12/15 (80.0%)
+Fallback used correctly = yes: 3/15 (20.0%)
+Missing facts reasonable = yes: 9/15 (60.0%)
+Unresolved requirements reasonable = yes: 7/15 (46.7%)
+Teach-back targeted = yes: 9/15 (60.0%)
+Overall usable = yes: 1/15 (6.7%)
+Needs domain expert review = yes: 12/15 (80.0%)
+Needs domain expert review = maybe: 2/15 (13.3%)
+
+Raw category counts:
+topic_relevance: {'yes': 10, 'no': 3, 'partial': 2}
+eligibility_overstatement: {'none': 6, 'mild': 3, 'severe': 6}
+unsupported_explanation: {'mild': 2, 'severe': 12, 'none': 1}
+fallback_used_correctly: {'yes': 3, 'partial': 1, 'no': 11}
+missing_facts_reasonable: {'yes': 9, 'no': 6}
+unresolved_requirements_reasonable: {'yes': 7, 'no': 8}
+teachback_targeted: {'yes': 9, 'partial': 3, 'no': 3}
+patient_facing_clarity: {'medium': 3, 'low': 11, 'high': 1}
+overall_usable: {'partial': 2, 'no': 12, 'yes': 1}
+needs_domain_expert_review: {'maybe': 2, 'yes': 12, 'no': 1}

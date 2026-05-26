@@ -1,0 +1,83 @@
+{
+  "case_id": "case_paraphrase_003",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "question": "I am considering a clinical trial. Here is my situation: A 22-year-old Caucasian man came to the Clinic with a history of tremors since a year ago. The tremor was first in his right hand while holding something. Later the tremor became continuous and extended to both hands and legs and even at rest. The Kayser-Fleischer' ring was detected in the ophthalmologic exam. The physical exam revealed jaundice, hepatosplenomegaly and hypotonia of the upper limbs. He had a constant smile on his face, however, he has aggressive behavior according to his parents' explanation. His laboratory study was significant for a low serum caeruloplasmin (0.05 g/l), and a raised 24 hour urine copper excretion (120 \u03bcg/24 h). Wilson disease was confirmed by high liver copper concentration (305 \u03bcg/g dry weight of liver). What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=detailed_description]\nForty patients were randomised, 18 patients had a laparoscopic appendectomy and 22 patients had a laparoscopic inspection only. The postoperative pain scores were significantly different favouring appendix removal (p < 0.01). Relative risk calculations indicated a 2.4 fold (95% CI: 1.3 - 4.0) greater chance of improving or becoming pain free after laparoscopic appendectomy. The number needed to treat was 2.2 patients (95% CI: 1.5 - 6.5). There was no significant relation between postoperative pain scores and histopathology findings. Conclusions Chronic or recurrent appendicitis is a realistic clinical entity that can be treated successfully by elective appendectomy leading to significant pain reduction in properly selected cases. Histopathology of the removed appendix does not contribute to the diagnosis.\n\n[Passage 2 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).\n\n[Passage 3 | doc=NCT00413855 | section=summary]\nIt is questionable whether elective appendectomy can effectively reduce pain in persistent or recurrent lower abdominal quadrant pain due to chronic appendicitis. A single centre randomised double-blind sham surgery controlled clinical trial studied the effects of elective laparoscopic appendectomy on postoperative pain perception in patients with persistent or recurrent lower abdominal quadrant pain on abdominal pain at 6 months postoperatively. Secondary outcome was the relation between clinical response and the appendix' histopathology. The analysis was performed on an intention-to-treat basis. Pain scores were compared using a Fisher's exact test.",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::detailed_description::0",
+      "doc_id": "NCT00413855",
+      "section": "detailed_description",
+      "passage_text": "Forty patients were randomised, 18 patients had a laparoscopic appendectomy and 22 patients had a laparoscopic inspection only. The postoperative pain scores were significantly different favouring appendix removal (p < 0.01). Relative risk calculations indicated a 2.4 fold (95% CI: 1.3 - 4.0) greater chance of improving or becoming pain free after laparoscopic appendectomy. The number needed to treat was 2.2 patients (95% CI: 1.5 - 6.5). There was no significant relation between postoperative pain scores and histopathology findings. Conclusions Chronic or recurrent appendicitis is a realistic clinical entity that can be treated successfully by elective appendectomy leading to significant pain reduction in properly selected cases. Histopathology of the removed appendix does not contribute to the diagnosis.",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00413855::summary::0",
+      "doc_id": "NCT00413855",
+      "section": "summary",
+      "passage_text": "It is questionable whether elective appendectomy can effectively reduce pain in persistent or recurrent lower abdominal quadrant pain due to chronic appendicitis. A single centre randomised double-blind sham surgery controlled clinical trial studied the effects of elective laparoscopic appendectomy on postoperative pain perception in patients with persistent or recurrent lower abdominal quadrant pain on abdominal pain at 6 months postoperatively. Secondary outcome was the relation between clinical response and the appendix' histopathology. The analysis was performed on an intention-to-treat basis. Pain scores were compared using a Fisher's exact test.",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"cannot_determine\",\n  \"patient_facing_answer\": \"I cannot provide information about risks or side effects for this study because the study you're asking about (NCT00413855) does not match your medical situation. This study was designed for patients with chronic abdominal pain who were being evaluated for possible appendix removal, not for patients with Wilson disease. Your condition - Wilson disease with tremors, neurological symptoms, and copper metabolism problems - would not qualify you for this particular trial. If you're looking for clinical trials appropriate for Wilson disease, I'd recommend discussing with your neurologist or hepatologist who can help identify trials specifically designed for your condition.\",\n  \"supported_patient_facts\": [\n    \"22-year-old male\",\n    \"Diagnosed with Wilson disease confirmed by liver copper concentration (305 \u03bcg/g)\",\n    \"Low serum caeruloplasmin (0.05 g/l)\",\n    \"Elevated 24-hour urine copper (120 \u03bcg/24 h)\",\n    \"Kayser-Fleischer rings present\",\n    \"Tremors in hands and legs\",\n    \"Hepatosplenomegaly and jaundice\",\n    \"Neurological symptoms including hypotonia and behavioral changes\"\n  ],\n  \"missing_patient_facts\": [\n    \"History of abdominal pain\",\n    \"Location of any abdominal pain (right lower quadrant)\",\n    \"Duration of any abdominal symptoms\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Study NCT00413855 is specifically for chronic/recurrent right lower abdominal pain, not Wilson disease\",\n    \"Study age range 15-45 years (patient is 22, within range, but condition does not match)\",\n    \"Study excludes patients with specific gastro-intestinal entities\",\n    \"Study focuses on appendectomy for abdominal pain, completely unrelated to Wilson disease treatment\"\n  ],\n  \"reasoning_summary\": \"This is a fundamental mismatch between patient condition and study purpose. The patient has Wilson disease (a genetic disorder of copper metabolism affecting the liver and brain), while study NCT00413855 investigates appendectomy for chronic abdominal pain. The study's risks and side effects would relate to laparoscopic surgery and appendix removal, which is irrelevant to Wilson disease management. The patient needs trials focused on Wilson disease treatments (such as copper chelation therapy or zinc supplementation studies), not abdominal surgery trials.\",\n  \"safety_note\": \"This study is not appropriate for your condition. Please work with your treating physicians (neurologist and/or hepatologist) who specialize in Wilson disease to find relevant clinical trials. Wilson disease requires specific treatment approaches that are completely different from the appendectomy procedure studied in this trial.\"\n}\n```",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I cannot provide information about risks or side effects for this study because the study you're asking about (NCT00413855) does not match your medical situation. This study was designed for patients with chronic abdominal pain who were being evaluated for possible appendix removal, not for patients with Wilson disease. Your condition - Wilson disease with tremors, neurological symptoms, and copper metabolism problems - would not qualify you for this particular trial. If you're looking for clinical trials appropriate for Wilson disease, I'd recommend discussing with your neurologist or hepatologist who can help identify trials specifically designed for your condition.",
+    "supported_patient_facts": [
+      "22-year-old male",
+      "Diagnosed with Wilson disease confirmed by liver copper concentration (305 \u03bcg/g)",
+      "Low serum caeruloplasmin (0.05 g/l)",
+      "Elevated 24-hour urine copper (120 \u03bcg/24 h)",
+      "Kayser-Fleischer rings present",
+      "Tremors in hands and legs",
+      "Hepatosplenomegaly and jaundice",
+      "Neurological symptoms including hypotonia and behavioral changes"
+    ],
+    "missing_patient_facts": [
+      "History of abdominal pain",
+      "Location of any abdominal pain (right lower quadrant)",
+      "Duration of any abdominal symptoms"
+    ],
+    "unresolved_study_requirements": [
+      "Study NCT00413855 is specifically for chronic/recurrent right lower abdominal pain, not Wilson disease",
+      "Study age range 15-45 years (patient is 22, within range, but condition does not match)",
+      "Study excludes patients with specific gastro-intestinal entities",
+      "Study focuses on appendectomy for abdominal pain, completely unrelated to Wilson disease treatment"
+    ],
+    "reasoning_summary": "This is a fundamental mismatch between patient condition and study purpose. The patient has Wilson disease (a genetic disorder of copper metabolism affecting the liver and brain), while study NCT00413855 investigates appendectomy for chronic abdominal pain. The study's risks and side effects would relate to laparoscopic surgery and appendix removal, which is irrelevant to Wilson disease management. The patient needs trials focused on Wilson disease treatments (such as copper chelation therapy or zinc supplementation studies), not abdominal surgery trials.",
+    "safety_note": "This study is not appropriate for your condition. Please work with your treating physicians (neurologist and/or hepatologist) who specialize in Wilson disease to find relevant clinical trials. Wilson disease requires specific treatment approaches that are completely different from the appendectomy procedure studied in this trial."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I cannot provide information about risks or side effects for this study because the study you're asking about (NCT00413855) does not match your medical situation. This study was designed for patients with chronic abdominal pain who were being evaluated for possible appendix removal, not for patients with Wilson disease. Your condition - Wilson disease with tremors, neurological symptoms, and copper metabolism problems - would not qualify you for this particular trial. If you're looking for clinical trials appropriate for Wilson disease, I'd recommend discussing with your neurologist or hepatologist who can help identify trials specifically designed for your condition.",
+  "missing_patient_facts": [
+    "History of abdominal pain",
+    "Location of any abdominal pain (right lower quadrant)",
+    "Duration of any abdominal symptoms"
+  ],
+  "unresolved_study_requirements": [
+    "Study NCT00413855 is specifically for chronic/recurrent right lower abdominal pain, not Wilson disease",
+    "Study age range 15-45 years (patient is 22, within range, but condition does not match)",
+    "Study excludes patients with specific gastro-intestinal entities",
+    "Study focuses on appendectomy for abdominal pain, completely unrelated to Wilson disease treatment"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 14.41349793993868
+}

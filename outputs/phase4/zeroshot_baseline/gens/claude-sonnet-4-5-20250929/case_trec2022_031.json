@@ -1,0 +1,115 @@
+{
+  "case_id": "case_trec2022_031",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02789592",
+  "question": "I am considering a clinical trial. Here is my situation: A 25-year-old woman comes to the clinic with her roommate. The roommate says that the patient has twice fallen asleep while they were talking. The patient has regularly fallen asleep in the afternoon while reading or watching television but typically feels refreshed after a brief nap. She also reveals that she sometimes hears a voice prior to falling asleep. She also complains of some episodes of clumsiness that cause her to drop objects or fall. MSLT showed that the sleep latency was less than 8 min and that the patient enters rapid eye movement (REM) sleep almost immediately. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02789592 | section=detailed_description]\nRBD is one of the representative non-motor symptoms of PD. Patients with RBD show dream-enacting behaviors such as punching, kicking, singing, screaming, or somnambulism. These can interfere in sleep quality and increase the risk of falling down from the bed and physical injuries of both the patient and sleep partner. Therefore, qualities of life of the patient and sleep partner are negatively influenced by presence of RBD. Clonazepam has been used for treatment of choice of RBD. However, the efficacy of clonazepam is not proven in the clinical trial. Clonazepam has several side effects that could be problematic in PD patients such as increasing fall-down risk, daytime somnolence, and cognitive decline. Melatonin is a second-line treatment option for RBD, but there has been only one randomized crossover trial that evaluated the efficacy of melatonin on RBD. Finally, there has been no study that evaluate and compare the efficacy and safety of melatonin and clonazepam for treatment of RBD.\n\n[Passage 2 | doc=NCT02789592 | section=eligibility]\nInclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d\n\n[Passage 3 | doc=NCT02789592 | section=eligibility]\naytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians\n\n[Passage 4 | doc=NCT02789592 | section=summary]\nThe purpose of this study is to determine whether melatonin prolonged-release (PR) and clonazepam are effective and safe in the treatment of rapid eye movement behavior disorder (RBD) of patients with Parkinson's disease (PD).\n\n[Passage 5 | doc=NCT02789592 | section=title]\nEfficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+  "passages": [
+    {
+      "passage_id": "NCT02789592::detailed_description::0",
+      "doc_id": "NCT02789592",
+      "section": "detailed_description",
+      "passage_text": "RBD is one of the representative non-motor symptoms of PD. Patients with RBD show dream-enacting behaviors such as punching, kicking, singing, screaming, or somnambulism. These can interfere in sleep quality and increase the risk of falling down from the bed and physical injuries of both the patient and sleep partner. Therefore, qualities of life of the patient and sleep partner are negatively influenced by presence of RBD. Clonazepam has been used for treatment of choice of RBD. However, the efficacy of clonazepam is not proven in the clinical trial. Clonazepam has several side effects that could be problematic in PD patients such as increasing fall-down risk, daytime somnolence, and cognitive decline. Melatonin is a second-line treatment option for RBD, but there has been only one randomized crossover trial that evaluated the efficacy of melatonin on RBD. Finally, there has been no study that evaluate and compare the efficacy and safety of melatonin and clonazepam for treatment of RBD.",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02789592::eligibility::0",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02789592::eligibility::1",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "aytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02789592::summary::0",
+      "doc_id": "NCT02789592",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to determine whether melatonin prolonged-release (PR) and clonazepam are effective and safe in the treatment of rapid eye movement behavior disorder (RBD) of patients with Parkinson's disease (PD).",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02789592::title::0",
+      "doc_id": "NCT02789592",
+      "section": "title",
+      "passage_text": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you are unlikely to be eligible for this particular clinical trial. This study is specifically designed for people who have been diagnosed with Parkinson's disease AND are experiencing REM sleep behavior disorder (RBD). Your symptoms suggest a different sleep condition - likely narcolepsy with cataplexy, based on the excessive daytime sleepiness, immediate entry into REM sleep, hypnagogic hallucinations (hearing voices before sleep), and episodes of clumsiness/falling (which sound like cataplexy). Since you have not mentioned a Parkinson's disease diagnosis, this trial would not be appropriate for your situation. I encourage you to discuss your symptoms with your doctor, as there may be other clinical trials better suited to your specific condition.\",\n  \"supported_patient_facts\": [\n    \"25-year-old woman\",\n    \"Experiences excessive daytime sleepiness (falling asleep while talking, during reading/TV)\",\n    \"MSLT shows sleep latency less than 8 minutes with immediate REM sleep entry\",\n    \"Reports hearing voices before falling asleep (hypnagogic hallucinations)\",\n    \"Experiences episodes of clumsiness causing dropped objects or falls (suggestive of cataplexy)\",\n    \"No mention of Parkinson's disease diagnosis\"\n  ],\n  \"missing_patient_facts\": [\n    \"Whether diagnosed with Parkinson's disease\",\n    \"Hoehn and Yahr stage (if Parkinson's present)\",\n    \"Whether experiences dream-enacting behaviors (punching, kicking, acting out dreams)\",\n    \"Presence of caregiver who can observe nighttime behaviors\",\n    \"Current medications\",\n    \"History of cognitive impairment\",\n    \"Other psychiatric conditions\",\n    \"Pregnancy status or lactation\",\n    \"Prior medication use (melatonin, clonazepam, anti-parkinsonian drugs)\",\n    \"History of epilepsy, sleep apnea, other parasomnias\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Parkinson's disease diagnosis required - no evidence patient has this\",\n    \"RBD diagnosis required (dream-enacting behaviors) - patient's symptoms suggest narcolepsy instead\",\n    \"Need for caregiver to report RBD symptoms\",\n    \"Hoehn and Yahr stage must be 1, 2, or 3\",\n    \"RBD frequency must be at least once per week\"\n  ],\n  \"reasoning_summary\": \"The trial requires participants to have both Parkinson's disease and REM sleep behavior disorder (RBD). The patient's presentation - with excessive daytime sleepiness, immediate REM entry on MSLT, hypnagogic hallucinations, and cataplexy-like symptoms - is classic for narcolepsy with cataplexy, not Parkinson's disease or RBD. RBD involves acting out dreams during sleep (punching, kicking, etc.), which is distinctly different from the narcolepsy symptoms described. Without a Parkinson's diagnosis, this trial is not appropriate.\",\n  \"safety_note\": \"This response does not constitute medical advice or a diagnosis. Your symptoms warrant evaluation by a healthcare provider, preferably a sleep specialist, who can provide proper diagnosis and discuss appropriate treatment options or clinical trials specific to your condition.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you are unlikely to be eligible for this particular clinical trial. This study is specifically designed for people who have been diagnosed with Parkinson's disease AND are experiencing REM sleep behavior disorder (RBD). Your symptoms suggest a different sleep condition - likely narcolepsy with cataplexy, based on the excessive daytime sleepiness, immediate entry into REM sleep, hypnagogic hallucinations (hearing voices before sleep), and episodes of clumsiness/falling (which sound like cataplexy). Since you have not mentioned a Parkinson's disease diagnosis, this trial would not be appropriate for your situation. I encourage you to discuss your symptoms with your doctor, as there may be other clinical trials better suited to your specific condition.",
+    "supported_patient_facts": [
+      "25-year-old woman",
+      "Experiences excessive daytime sleepiness (falling asleep while talking, during reading/TV)",
+      "MSLT shows sleep latency less than 8 minutes with immediate REM sleep entry",
+      "Reports hearing voices before falling asleep (hypnagogic hallucinations)",
+      "Experiences episodes of clumsiness causing dropped objects or falls (suggestive of cataplexy)",
+      "No mention of Parkinson's disease diagnosis"
+    ],
+    "missing_patient_facts": [
+      "Whether diagnosed with Parkinson's disease",
+      "Hoehn and Yahr stage (if Parkinson's present)",
+      "Whether experiences dream-enacting behaviors (punching, kicking, acting out dreams)",
+      "Presence of caregiver who can observe nighttime behaviors",
+      "Current medications",
+      "History of cognitive impairment",
+      "Other psychiatric conditions",
+      "Pregnancy status or lactation",
+      "Prior medication use (melatonin, clonazepam, anti-parkinsonian drugs)",
+      "History of epilepsy, sleep apnea, other parasomnias"
+    ],
+    "unresolved_study_requirements": [
+      "Parkinson's disease diagnosis required - no evidence patient has this",
+      "RBD diagnosis required (dream-enacting behaviors) - patient's symptoms suggest narcolepsy instead",
+      "Need for caregiver to report RBD symptoms",
+      "Hoehn and Yahr stage must be 1, 2, or 3",
+      "RBD frequency must be at least once per week"
+    ],
+    "reasoning_summary": "The trial requires participants to have both Parkinson's disease and REM sleep behavior disorder (RBD). The patient's presentation - with excessive daytime sleepiness, immediate REM entry on MSLT, hypnagogic hallucinations, and cataplexy-like symptoms - is classic for narcolepsy with cataplexy, not Parkinson's disease or RBD. RBD involves acting out dreams during sleep (punching, kicking, etc.), which is distinctly different from the narcolepsy symptoms described. Without a Parkinson's diagnosis, this trial is not appropriate.",
+    "safety_note": "This response does not constitute medical advice or a diagnosis. Your symptoms warrant evaluation by a healthcare provider, preferably a sleep specialist, who can provide proper diagnosis and discuss appropriate treatment options or clinical trials specific to your condition."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you are unlikely to be eligible for this particular clinical trial. This study is specifically designed for people who have been diagnosed with Parkinson's disease AND are experiencing REM sleep behavior disorder (RBD). Your symptoms suggest a different sleep condition - likely narcolepsy with cataplexy, based on the excessive daytime sleepiness, immediate entry into REM sleep, hypnagogic hallucinations (hearing voices before sleep), and episodes of clumsiness/falling (which sound like cataplexy). Since you have not mentioned a Parkinson's disease diagnosis, this trial would not be appropriate for your situation. I encourage you to discuss your symptoms with your doctor, as there may be other clinical trials better suited to your specific condition.",
+  "missing_patient_facts": [
+    "Whether diagnosed with Parkinson's disease",
+    "Hoehn and Yahr stage (if Parkinson's present)",
+    "Whether experiences dream-enacting behaviors (punching, kicking, acting out dreams)",
+    "Presence of caregiver who can observe nighttime behaviors",
+    "Current medications",
+    "History of cognitive impairment",
+    "Other psychiatric conditions",
+    "Pregnancy status or lactation",
+    "Prior medication use (melatonin, clonazepam, anti-parkinsonian drugs)",
+    "History of epilepsy, sleep apnea, other parasomnias"
+  ],
+  "unresolved_study_requirements": [
+    "Parkinson's disease diagnosis required - no evidence patient has this",
+    "RBD diagnosis required (dream-enacting behaviors) - patient's symptoms suggest narcolepsy instead",
+    "Need for caregiver to report RBD symptoms",
+    "Hoehn and Yahr stage must be 1, 2, or 3",
+    "RBD frequency must be at least once per week"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 16.279290125938132
+}

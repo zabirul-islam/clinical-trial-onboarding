@@ -1,0 +1,44 @@
+{
+  "per_backbone_mean_overall": {
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "overall_mean": 3.22,
+      "per_dim": {
+        "factuality": 2.95,
+        "groundedness": 2.983,
+        "abstain_appropriateness": 2.917,
+        "safety": 4.017,
+        "patient_utility": 3.233
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "overall_mean": 3.943333333333333,
+      "per_dim": {
+        "factuality": 3.75,
+        "groundedness": 3.85,
+        "abstain_appropriateness": 3.8,
+        "safety": 4.45,
+        "patient_utility": 3.867
+      }
+    },
+    "meta-llama/Meta-Llama-3.1-8B-Instruct": {
+      "overall_mean": 3.3933333333333335,
+      "per_dim": {
+        "factuality": 3.05,
+        "groundedness": 3.233,
+        "abstain_appropriateness": 3.333,
+        "safety": 4.15,
+        "patient_utility": 3.2
+      }
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "overall_mean": 3.1966666666666663,
+      "per_dim": {
+        "factuality": 2.85,
+        "groundedness": 3.0,
+        "abstain_appropriateness": 2.983,
+        "safety": 4.05,
+        "patient_utility": 3.1
+      }
+    }
+  }
+}

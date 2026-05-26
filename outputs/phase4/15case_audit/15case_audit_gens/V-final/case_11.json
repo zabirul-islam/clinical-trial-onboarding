@@ -1,0 +1,66 @@
+{
+  "case_id": "case_11",
+  "backbone": "V-final",
+  "source": "handcrafted",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02830828",
+  "question": "What risks or burdens are described for participants in this study?",
+  "evidence": "[Passage 1 | doc=NCT02830828 | section=detailed_description]\nFor example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+  "passages": [
+    {
+      "passage_id": "NCT02830828::detailed_description::10",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "text": "For example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+      "score": 4.127476
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a reliable dominant single-trial context could not be established\nReasoning: Trial selection was not reliable enough for safe answering. Top trial: NCT02830828, dominance ratio: 1.228, score share: 0.229, raw max cross-score: 4.127.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A reliable dominant single-trial context could not be established from the retrieved evidence.; The system needs one specific trial before it can answer safely.\n\nPatient-facing summary (rebuilt): I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Would you like help narrowing this to one specific trial?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a reliable dominant single-trial context could not be established"
+    ],
+    "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT02830828, dominance ratio: 1.228, score share: 0.229, raw max cross-score: 4.127.",
+    "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a reliable dominant single-trial context could not be established"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_no_reliable_trial",
+    "selected_doc_id": "NCT02830828",
+    "selected_trial_score": 1.41492565,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.228186,
+    "trial_score_share": 0.228894,
+    "raw_max_cross": 4.127476,
+    "best_rank": 1,
+    "generic_question": true,
+    "n_unique_docs_in_raw_context": 8,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

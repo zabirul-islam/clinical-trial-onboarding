@@ -1,0 +1,86 @@
+{
+  "input_question": "Can you tell me what information from my medical records would still need to be checked?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "For your specific study, we will need to check certain information from your medical records to ensure you meet the eligibility criteria. Specifically, we will look into your medical history, including any previous sleep studies, dietary habits, and any treatments for your sleep disorder. Additionally, we will review your medical records from your pulmonary doctor to gather information about your sleep study results.",
+    "supported_patient_facts": [
+      "you have a sleep disorder",
+      "you had a sleep study that determined you have a sleep disorder",
+      "you will be asked to keep a diary of your sleep treatment usage for the first six weeks"
+    ],
+    "missing_patient_facts": [
+      "your previous medical records from your pulmonary doctor",
+      "the results of your sleep study"
+    ],
+    "unresolved_study_requirements": [
+      "we will review your medical records from your pulmonary doctor to gather information about your sleep study results"
+    ],
+    "reasoning_summary": "The patient has a confirmed sleep disorder and has undergone a sleep study. However, the exact results of the sleep study and the medical records from the pulmonary doctor are still pending. Therefore, we cannot definitively confirm eligibility without these pieces of information.",
+    "safety_note": "Taking part in this study is completely voluntary. You may choose not to take part at all. If you decide to be in this study, you may stop participating at any time. If you decide not to be in this study, or if you stop participating at any time, you won't be penalized or lose any benefits for which you otherwise qualify."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "This study aims to gather information about bladder cancer patients' health and treatments.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "who_may_join": {
+      "text": "The study includes bladder cancer patients aged 30-79 who were newly diagnosed with bladder carcinoma, including carcinoma in situ, but not those diagnosed after 2003.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants will be interviewed about their physical activity, receive medical evaluations, and provide information about their health conditions and treatments.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "There are no specific risks mentioned. Participants may need to undergo medical evaluations and provide personal information.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "time_commitment": {
+      "text": "The study involves several visits and tasks, but the exact time commitment is not specified.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study collects information from bladder cancer patients through interviews and medical evaluations. Participation involves providing personal and health-related information.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Study purpose: This study aims to gather information about bladder cancer patients' health and treatments. Who may join: The study includes bladder cancer patients aged 30-79 who were newly diagnosed with bladder carcinoma, including carcinoma in situ, but not those diagnosed after 2003. What participation may involve: Participants will be interviewed about their physical activity, receive medical evaluations, and provide information about their health conditions and treatments. Risks or burdens: There are no specific risks mentioned. Participants may need to undergo medical evaluations and provide personal information. Time commitment: The study involves several visits and tasks, but the exact time commitment is not specified.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Are you a cancer survivor or the romantic partner of a cancer survivor?",
+      "Do you plan to undergo chemotherapy, radiation, or surgery in the next 6 months?",
+      "Are you in a committed, romantic relationship?"
+    ],
+    "checked_concepts": [
+      "Eligibility criteria for cancer survivors",
+      "Eligibility criteria for romantic partners of cancer survivors",
+      "Relationship status"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "round": 1,
+  "manuscript": "main_npj.pdf",
+  "scores": {
+    "novelty": 7,
+    "methodological_credibility": 8,
+    "data_quality": 6,
+    "clarity": 8,
+    "clinical_policy_relevance": 8
+  },
+  "verdict": "MINOR_REVISION",
+  "checklist": {
+    "tripod_ai": "addressed",
+    "claim": "addressed",
+    "fda_samd": "addressed",
+    "decide_ai": "addressed",
+    "calibration": "addressed",
+    "fairness": "addressed",
+    "reproducibility": "addressed",
+    "equity": "addressed"
+  },
+  "required_revisions": [
+    "Sharpen the novelty claim against DeepEnroll/COMPOSE/TrialGPT/PRISM/Trial2Vec. Table 3 is qualitative; add one paragraph in the Introduction that names the specific gap (single-trial consistency across multi-field patient-facing outputs) and explicitly states that no prior trial-matching system reports a cross-trial leak rate. The current phrasing 'they target a different output' is true but underclaims the contribution.",
+    "Reconcile the 'backbone-invariance' claim with Mistral-7B's 11% commit rate and 12% parse-ok rate. As written, the safety property is trivially preserved on Mistral because the system mostly abstains. State explicitly that backbone-invariance holds for the LEAK channel only, not for utility, and quantify the dependence: zero leak among Mistral's 11% committed outputs is a much weaker claim than zero leak across 100% of attempts. Either reword Contribution 2 or report leak rate conditional on commit.",
+    "The n=114 case pool is at the lower bound of defensibility for an NPJ Digital Medicine safety claim. The Clopper-Pearson stem-clustered upper bound of 0.032 means the true leak rate could be ~1 in 30. State this plainly in the Abstract Results or first paragraph of Discussion — not just in Methods. A reader who only reads the abstract should understand the 0/684 number is bounded above by ~3% under clustering.",
+    "Krippendorff's alpha being negative on V2/V-final is explained as ceiling saturation, but the Supplementary Table S8 shows Cohen's kappa for SAFETY is 0.032 at n=120 even on the full pool — this is not pure ceiling effect, since the safety mean is 4.14-4.63 (not 5.0). Re-examine: is there genuine residual disagreement on safety at the high end? Report the joint score distribution (e.g., agreement when both raters score >=4) to distinguish ceiling from systematic miscalibration.",
+    "Theorem 1's proof sketch defers the parametric-memory leak channel to 'empirical rate is 0/684'. This makes the theorem conditional on an empirical claim rather than deterministic. Either (a) rename it 'Conditional Sufficiency' to reflect that one of the three channels is closed empirically not deterministically, or (b) add a more explicit caveat in the theorem statement that L=0 holds for the audit-time observed parametric channel, not for arbitrary backbones."
+  ],
+  "optional_suggestions": [
+    "The 'transparent negative calibration' result is a strength of the paper but reads as defensive in the abstract. Consider reframing as 'the selector is binary-by-design; we document that tau is not a calibrated probability to prevent its misuse downstream.' This converts a limitation into a deployment-safety contribution.",
+    "Figure 2 (leak grid) is all zeros — visually it conveys little. Consider replacing with the per-gate ablation heatmap (which shows variation in admitted cases across gates) as the primary safety figure, and demote the all-zero grid to supplementary.",
+    "The deployment workflow figure (Fig. 5) is mentioned but I could not fully verify how the four roles' handoffs are visualized; consider adding a textual sequence diagram or table mapping (role x action x audit artifact) so reviewers without figure access can follow.",
+    "Add a brief paragraph on patient demographic equity beyond therapeutic area — e.g., language coverage (English-only), age range, health literacy assumptions. The equity discussion is present but stratification is by disease area only.",
+    "Consider a sentence on the threat model: who is the adversary? If a malicious user crafts queries to force cross-trial leakage, the per-gate ablation is reassuring but not adversarial. A brief red-team note (or its absence as a stated limitation) would strengthen the safety claim.",
+    "Tighten the abstract: 'invariant to the backbone family within the audited cohort' is hedged but the qualifier 'within the audited cohort' carries a lot of weight and could be missed. Front-load the n=114, six-family scope so the bound is explicit.",
+    "Supplementary Table S13 reports ECE alongside Brier — good. Consider adding the same row to the main paper's Section 2.7 (Calibration) for completeness; currently only Brier and BSS appear there."
+  ]
+}

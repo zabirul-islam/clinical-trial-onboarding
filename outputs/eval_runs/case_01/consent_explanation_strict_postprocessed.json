@@ -1,0 +1,45 @@
+{
+  "study_purpose": {
+    "text": "The study aims to record the effect of a program on mobility, balance, and health-related quality of life for women with osteoporosis and a history of vertebral fractures.",
+    "support_passages": [
+      6
+    ]
+  },
+  "who_may_join": {
+    "text": "The study includes postmenopausal women aged 55-85 years with a documented vertebral or non-vertebral fracture, free of severe conditions, and able to understand the risks and benefits.",
+    "support_passages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study involves postmenopausal women with a history of vertebral fractures. They attend a three-hour session and a three-month exercise program. Risks include minor discomfort during procedures. Details on specific inclusion and exclusion criteria are not clear.",
+    "support_passages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

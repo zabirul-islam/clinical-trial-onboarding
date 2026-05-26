@@ -1,0 +1,28 @@
+{
+  "n_pool": 114,
+  "vfinal_accept": 32,
+  "per_variant_n_accepted": {
+    "V-final": 32,
+    "V-final-no-rho": 42,
+    "V-final-no-tau": 32,
+    "V-final-no-mu": 59,
+    "V-final-no-kappa": 32,
+    "V-final-no-generic": 38
+  },
+  "per_variant_n_only_this_gate": {
+    "V-final": 0,
+    "V-final-no-rho": 10,
+    "V-final-no-tau": 0,
+    "V-final-no-mu": 27,
+    "V-final-no-kappa": 0,
+    "V-final-no-generic": 6
+  },
+  "per_variant_max_leak_across_backbones": {
+    "V-final": 0.0,
+    "V-final-no-rho": 0.0,
+    "V-final-no-tau": 0.0,
+    "V-final-no-mu": 0.0,
+    "V-final-no-kappa": 0.0,
+    "V-final-no-generic": 0.0
+  }
+}

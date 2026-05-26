@@ -1,0 +1,98 @@
+{
+  "case_id": "case_trec2022_013",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02414295",
+  "question": "I am considering a clinical trial. Here is my situation: A 24-year-old man comes to the office complaining of infertility. He and his wife have been trying to conceive for the last 18 months. Medical records of his wife showed no abnormalities. The patient doesn't smoke and takes no medications. Height is 185 cm and weight is 77 kg. Heart and lung sounds are normal. There is bilateral gynecomastia and bilateral descended firm testes. The lower extremities appear abnormally long. His karyotype evaluation shows 47, XXY consistent with Klinefelter syndrome. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02414295 | section=detailed_description]\nThe problem started with this kind of patinets when underwent multiple TESE without sperm. The investigators try to inject KS patients with mesenchymal stem cells to stimulate testicular tissue for production of sperms. before injection the investigators measure:( FSH, LH, Testosterone, Prolactin, Inhibin B, Karyotyping, Azoospermic Factor, Testicular size by ultrasound). Three to twelf months after stem cell injection the investigators reevaluate patients by the same measure to demoenstarte any changes.\n\n[Passage 2 | doc=NCT02414295 | section=eligibility]\nInclusion Criteria: - Kleinfelter syndrome - Azoospermia - Negative TESE Exclusion Criteria: - Absent Testes\n\n[Passage 3 | doc=NCT02414295 | section=summary]\nKlinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .\n\n[Passage 4 | doc=NCT02414295 | section=title]\nSperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+  "passages": [
+    {
+      "passage_id": "NCT02414295::detailed_description::0",
+      "doc_id": "NCT02414295",
+      "section": "detailed_description",
+      "passage_text": "The problem started with this kind of patinets when underwent multiple TESE without sperm. The investigators try to inject KS patients with mesenchymal stem cells to stimulate testicular tissue for production of sperms. before injection the investigators measure:( FSH, LH, Testosterone, Prolactin, Inhibin B, Karyotyping, Azoospermic Factor, Testicular size by ultrasound). Three to twelf months after stem cell injection the investigators reevaluate patients by the same measure to demoenstarte any changes.",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02414295::eligibility::0",
+      "doc_id": "NCT02414295",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Kleinfelter syndrome - Azoospermia - Negative TESE Exclusion Criteria: - Absent Testes",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02414295::summary::0",
+      "doc_id": "NCT02414295",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02414295::title::0",
+      "doc_id": "NCT02414295",
+      "section": "title",
+      "passage_text": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you would likely not be a match for this trial at this time. This study (NCT02414295) is specifically designed for men with Klinefelter syndrome who have already undergone testicular sperm extraction (TESE) procedures that did not find any sperm. The trial tests whether injecting mesenchymal stem cells into the testes might help stimulate sperm production in men who have already tried and failed conventional sperm retrieval methods.\\n\\nWhile you do have Klinefelter syndrome (confirmed by your 47,XXY karyotype), the study requires that participants have already had negative TESE procedures - meaning they've undergone surgical sperm extraction that found no sperm. There's no indication in your information that you've had this procedure yet. This trial appears to be for men who have exhausted standard fertility treatment options.\\n\\nYou would need to discuss your fertility treatment options with a reproductive specialist first. If standard approaches don't work for you, this type of trial might become relevant in the future.\",\n  \"supported_patient_facts\": [\n    \"24-year-old male\",\n    \"Karyotype showing 47,XXY consistent with Klinefelter syndrome\",\n    \"Infertility - trying to conceive for 18 months without success\",\n    \"Bilateral gynecomastia (consistent with Klinefelter syndrome)\",\n    \"Bilateral descended firm testes (testes are present)\",\n    \"No current medications\"\n  ],\n  \"missing_patient_facts\": [\n    \"Whether patient has azoospermia (complete absence of sperm in ejaculate) - infertility mentioned but sperm count/analysis not specified\",\n    \"Whether patient has undergone TESE (testicular sperm extraction) procedure\",\n    \"If TESE was performed, whether it was negative (no sperm found)\",\n    \"Current hormone levels (FSH, LH, Testosterone, Prolactin, Inhibin B)\",\n    \"Testicular size measurements\",\n    \"Azoospermic factor testing results\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Trial location and whether patient has geographic access\",\n    \"Whether trial is currently recruiting\",\n    \"Age eligibility range not explicitly stated\",\n    \"Specific criteria for 'negative TESE' (number of attempts, timing, methodology)\",\n    \"Whether multiple failed TESE procedures are required or just one\"\n  ],\n  \"reasoning_summary\": \"This trial has three main inclusion criteria: (1) Klinefelter syndrome, (2) Azoospermia, and (3) Negative TESE. The patient clearly meets criterion #1 with confirmed 47,XXY karyotype. However, the critical missing information is whether the patient has confirmed azoospermia and, more importantly, whether he has already undergone testicular sperm extraction that found no sperm. The trial description emphasizes it's for 'patients who underwent multiple TESE without sperm' - suggesting this is a last-resort intervention after conventional methods have failed. Since the patient is just beginning his fertility journey (18 months of trying), he would typically pursue standard fertility evaluation and treatments first before qualifying for this experimental stem cell intervention.\",\n  \"safety_note\": \"I cannot determine your actual eligibility or enrollment status. Only the trial investigators and your healthcare team can make that determination after reviewing your complete medical records and test results. This information is educational only and not medical advice. Please consult with a fertility specialist to discuss your treatment options.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you would likely not be a match for this trial at this time. This study (NCT02414295) is specifically designed for men with Klinefelter syndrome who have already undergone testicular sperm extraction (TESE) procedures that did not find any sperm. The trial tests whether injecting mesenchymal stem cells into the testes might help stimulate sperm production in men who have already tried and failed conventional sperm retrieval methods.\n\nWhile you do have Klinefelter syndrome (confirmed by your 47,XXY karyotype), the study requires that participants have already had negative TESE procedures - meaning they've undergone surgical sperm extraction that found no sperm. There's no indication in your information that you've had this procedure yet. This trial appears to be for men who have exhausted standard fertility treatment options.\n\nYou would need to discuss your fertility treatment options with a reproductive specialist first. If standard approaches don't work for you, this type of trial might become relevant in the future.",
+    "supported_patient_facts": [
+      "24-year-old male",
+      "Karyotype showing 47,XXY consistent with Klinefelter syndrome",
+      "Infertility - trying to conceive for 18 months without success",
+      "Bilateral gynecomastia (consistent with Klinefelter syndrome)",
+      "Bilateral descended firm testes (testes are present)",
+      "No current medications"
+    ],
+    "missing_patient_facts": [
+      "Whether patient has azoospermia (complete absence of sperm in ejaculate) - infertility mentioned but sperm count/analysis not specified",
+      "Whether patient has undergone TESE (testicular sperm extraction) procedure",
+      "If TESE was performed, whether it was negative (no sperm found)",
+      "Current hormone levels (FSH, LH, Testosterone, Prolactin, Inhibin B)",
+      "Testicular size measurements",
+      "Azoospermic factor testing results"
+    ],
+    "unresolved_study_requirements": [
+      "Trial location and whether patient has geographic access",
+      "Whether trial is currently recruiting",
+      "Age eligibility range not explicitly stated",
+      "Specific criteria for 'negative TESE' (number of attempts, timing, methodology)",
+      "Whether multiple failed TESE procedures are required or just one"
+    ],
+    "reasoning_summary": "This trial has three main inclusion criteria: (1) Klinefelter syndrome, (2) Azoospermia, and (3) Negative TESE. The patient clearly meets criterion #1 with confirmed 47,XXY karyotype. However, the critical missing information is whether the patient has confirmed azoospermia and, more importantly, whether he has already undergone testicular sperm extraction that found no sperm. The trial description emphasizes it's for 'patients who underwent multiple TESE without sperm' - suggesting this is a last-resort intervention after conventional methods have failed. Since the patient is just beginning his fertility journey (18 months of trying), he would typically pursue standard fertility evaluation and treatments first before qualifying for this experimental stem cell intervention.",
+    "safety_note": "I cannot determine your actual eligibility or enrollment status. Only the trial investigators and your healthcare team can make that determination after reviewing your complete medical records and test results. This information is educational only and not medical advice. Please consult with a fertility specialist to discuss your treatment options."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you would likely not be a match for this trial at this time. This study (NCT02414295) is specifically designed for men with Klinefelter syndrome who have already undergone testicular sperm extraction (TESE) procedures that did not find any sperm. The trial tests whether injecting mesenchymal stem cells into the testes might help stimulate sperm production in men who have already tried and failed conventional sperm retrieval methods.\n\nWhile you do have Klinefelter syndrome (confirmed by your 47,XXY karyotype), the study requires that participants have already had negative TESE procedures - meaning they've undergone surgical sperm extraction that found no sperm. There's no indication in your information that you've had this procedure yet. This trial appears to be for men who have exhausted standard fertility treatment options.\n\nYou would need to discuss your fertility treatment options with a reproductive specialist first. If standard approaches don't work for you, this type of trial might become relevant in the future.",
+  "missing_patient_facts": [
+    "Whether patient has azoospermia (complete absence of sperm in ejaculate) - infertility mentioned but sperm count/analysis not specified",
+    "Whether patient has undergone TESE (testicular sperm extraction) procedure",
+    "If TESE was performed, whether it was negative (no sperm found)",
+    "Current hormone levels (FSH, LH, Testosterone, Prolactin, Inhibin B)",
+    "Testicular size measurements",
+    "Azoospermic factor testing results"
+  ],
+  "unresolved_study_requirements": [
+    "Trial location and whether patient has geographic access",
+    "Whether trial is currently recruiting",
+    "Age eligibility range not explicitly stated",
+    "Specific criteria for 'negative TESE' (number of attempts, timing, methodology)",
+    "Whether multiple failed TESE procedures are required or just one"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 18.301694554043934
+}

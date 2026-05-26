@@ -1,0 +1,14 @@
+{
+  "teachback_questions": [
+    "Based on what we discussed, who seems to be the kind of person this study is looking for?",
+    "Can you tell me what part of your medical history or current condition still needs to be confirmed?",
+    "Can you explain what information still needs to be confirmed before joining this study?",
+    "Can you explain what the study team would still need to verify before confirming eligibility?"
+  ],
+  "checked_concepts": [
+    "basic join profile",
+    "your current health status and whether you have any severe or chronically disabling conditions",
+    "the results of your bone density test (BMD) and T-score",
+    "unresolved study requirements"
+  ]
+}

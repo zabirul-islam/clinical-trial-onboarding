@@ -1,0 +1,20 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you may be eligible to participate in the study, but we need to check a few details.",
+  "supported_patient_facts": [
+    "you had fractures in the past",
+    "your doctor mentioned weak bones"
+  ],
+  "missing_patient_facts": [
+    "your current bone mineral density",
+    "the type and severity of your past fractures",
+    "your current vitamin D and calcium levels"
+  ],
+  "unresolved_study_requirements": [
+    "we need to confirm your current bone health status",
+    "we need to check if you have a history of bone fractures in your family",
+    "we need to ensure you are not currently taking medications that could interfere with the study"
+  ],
+  "reasoning_summary": "Your history of fractures and concerns about weak bones suggest you might be eligible, but we need to verify your current bone health and other factors before making a definitive decision.",
+  "safety_note": "We will ensure your safety throughout the study and will monitor your bone health closely."
+}

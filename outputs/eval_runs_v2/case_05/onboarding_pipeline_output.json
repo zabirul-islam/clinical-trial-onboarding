@@ -1,0 +1,117 @@
+{
+  "input_question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT02584972",
+    "selected_doc_weight_share": 0.367937,
+    "selected_doc_passage_count": 1,
+    "n_unique_docs_in_raw_context": 7,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "doc_scores": [
+      {
+        "doc_id": "NCT02584972",
+        "weighted_score": 1.0,
+        "passage_count": 1,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT04064710",
+        "weighted_score": 0.5,
+        "passage_count": 2,
+        "best_rank": 3
+      },
+      {
+        "doc_id": "NCT00128115",
+        "weighted_score": 0.5,
+        "passage_count": 1,
+        "best_rank": 2
+      },
+      {
+        "doc_id": "NCT02770092",
+        "weighted_score": 0.25,
+        "passage_count": 1,
+        "best_rank": 4
+      },
+      {
+        "doc_id": "NCT03997682",
+        "weighted_score": 0.2,
+        "passage_count": 1,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT03985540",
+        "weighted_score": 0.14285714285714285,
+        "passage_count": 1,
+        "best_rank": 7
+      },
+      {
+        "doc_id": "NCT02930512",
+        "weighted_score": 0.125,
+        "passage_count": 1,
+        "best_rank": 8
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_single_trial.csv",
+  "eligibility_assessment": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT02584972 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "procedures_or_participation": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "risks_or_burdens": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "time_commitment": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "what_is_unclear": [
+      "A single study context could not be established from the retrieved evidence.",
+      "The system needs one specific trial before it can explain study details safely."
+    ],
+    "patient_facing_summary_rebuilt": {
+      "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+      "source": "single_trial_abstention"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Can you share the study title or NCT number you want to ask about?",
+      "Do you want help with one specific trial rather than a general study search?"
+    ],
+    "checked_concepts": [
+      "single-trial identification",
+      "study disambiguation"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "case_id": "case_12",
+  "backbone": "V2",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "score": 3.1622124
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a single dominant trial context could not be established from the retrieved evidence\nReasoning: Retrieved evidence was split across multiple trials. The top candidate trial was NCT04471363 with weight share 0.368, which was not strong enough for a reliable single-trial answer.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A single study context could not be established from the retrieved evidence.; The system needs one specific trial before it can explain study details safely.\n\nPatient-facing summary (rebuilt): I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Do you want help with one specific trial rather than a general study search?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT04471363 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT04471363",
+    "selected_doc_weight_share": 0.367937,
+    "selected_doc_passage_count": 1,
+    "n_unique_docs_in_raw_context": 5,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "doc_scores": [
+      {
+        "doc_id": "NCT04471363",
+        "weighted_score": 1.0,
+        "passage_count": 1,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT03362970",
+        "weighted_score": 0.625,
+        "passage_count": 2,
+        "best_rank": 2
+      },
+      {
+        "doc_id": "NCT04713215",
+        "weighted_score": 0.5833333333333333,
+        "passage_count": 2,
+        "best_rank": 3
+      },
+      {
+        "doc_id": "NCT02522455",
+        "weighted_score": 0.34285714285714286,
+        "passage_count": 2,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT02118987",
+        "weighted_score": 0.16666666666666666,
+        "passage_count": 1,
+        "best_rank": 6
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

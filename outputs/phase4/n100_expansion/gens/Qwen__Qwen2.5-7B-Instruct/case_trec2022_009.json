@@ -1,0 +1,104 @@
+{
+  "case_id": "case_trec2022_009",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04793035",
+  "question": "I am considering a clinical trial. Here is my situation: A 67-year-old woman comes to the clinic due to recent episode of choking, dysphagia, and cough. Her other medical problems include hypertension, dyslipidemia, and osteoarthritis. She does not smoke or use alcohol. She lives with her husband and she is able to do her own daily activities. She used to teach elementary school. Blood pressure is 135/80 mm Hg. The patient's breath smells bad. Other physical examinations are normal. A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04793035 | section=detailed_description]\nGastroesophageal Reflux Disease (GERD) is a chronic excessive stomach content reflux that results in heartburn with major adverse impacts on patient quality of life. It is increasingly common in industrialized societies with a prevalence of ~7% of the population experiencing symptoms daily. A weak Lower Esophageal Sphincter allows excessive acidic stomach content to enter the esophagus. Drug is the most common GERD symptoms relief. Proton pump inhibitors (PPI's) drugs, such as Prevacid\u00ae reduce stomach acid production but not reflux. PPIs fail to treat 10% to 20% of the patients. Up to 40% of patients become refractive in long-term use and develop serious side effects. The next level treatments are surgeries, i.e., Nissen Fundoplication, the LINX\u00ae Magnetic Esophageal Sphincter. Both Nissen and LINX are effective but have many aggravating side effects including dysphagia, gas, bloating, increased flatus, difficulty with belching, or vomiting, device erosion and removal, MRI incompatibility, and reoperations. Omega-Cuff The Omega-Cuff device augments the LES as a partial fundoplication but without stomach involvement.\n\n[Passage 2 | doc=NCT04793035 | section=detailed_description]\nThe \u2126-shaped scaffold structure is placed around the outside of the esophagus to help the weak LES restoring its barrier function. When swallowing, the \u2126-Cuff, along with the uncovered esophageal tissue, smoothly expands to allow food passage. It provides resistance to gastric reflux yet allows easy swallowing. The rationale for this early feasibility trial is to establish a basic safety profile and refine the implant technique to support a pivotal clinical trial (via an IDE supplement). Evaluating its performance characteristics will better define the efficacy requirements for the pivotal trial. The single-use Omega-Cuff device is a one-piece, \u03a9-shaped scaffold structure. It is placed at the LES region through an open incision or through a laparoscopic port with a minimum internal diameter of 15mm. Five device sizes, 14-20 mm (nominal) in diameter, are available to accommodate varying patient anatomy. It has attachment sites for sutures attachment at the top and bottom end of the device to the esophagus. The esophagus circumference is measured with a suture or tape and converts into the esophagus diameter.\n\n[Passage 3 | doc=NCT04793035 | section=detailed_description]\nA table shows the size of the device to use based on the esophagus diameter. When the measured length is between sizes, use the next smaller device size. If the Omega Cuff is unable to be placed for any reason, a standard of care surgical treatment can be offered to the patient or the patient may elect to have the surgery aborted. The Omega-Cuff device is indicated for patients diagnosed with GERD, as defined by abnormal pH testing, and who continue to have chronic GERD symptoms despite maximum medical therapy for the treatment of reflux. The Study The study is a prospective, non-randomized, open-label feasibility study of patients receiving the \u2126-Cuff device. The study intends to evaluate the safety of the \u2126-Cuff and its ability to reduce the symptoms of GERD by augmenting the function of the LES. The study will be performed at up to 3 investigational sites in the US and a maximum of 15 subjects ages 22-74 to be implanted with the device. The information from this study will be used to support the design and conduct of a pivotal clinical trial.\n\n[Passage 4 | doc=NCT04793035 | section=detailed_description]\nThe study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.\n\n[Passage 5 | doc=NCT04793035 | section=detailed_description]\nAnother endpoint will be at least a 50% improvement in the GERD-HRQL scores at 12 months, and the reduction of daily PPI use by subjective measurements using the GERD-HRQL, and LES function will be characterized by objective measurements using 24hr pH profile, manometry/motility, endoscopy, and barium esophagram. The \u2126-Cuff can be surgically removed if there are serious issues with the device. Depending on the circumstances, the procedure could be laparoscopic, endoscopic, or laparotomic. Data Analysis. This study is to develop an information set that will help the development of a pivotal clinical study plan. Experience implanting the study device in 15 subjects should be adequate for the investigator(s) to feel comfortable enough with the implant procedure to be able to teach it to other investigators in a pivotal clinical trial and to provide clear written direction in the Instructions for Use. Their experience and observations should also help elucidate any safety concerns that must be addressed before implementing a pivotal clinical trial. The demographic and baseline variables of interest will be summarized via standard descriptive statistics.\n\n[Passage 6 | doc=NCT04793035 | section=detailed_description]\nAs this is a single-arm trial, hypothesis testing is not possible on these variables. Results from summary statistics will be used in conjunction with available literature to provide sample size estimates for efficacy endpoints for a pivotal clinical trial. Risk Analysis Conclusion. \u2126-Cuff meets applicable principles of risk management, design control provisions of 21 CFR 820.3, and current standards. This study is not anticipated to pose new types of risks from those identified for similar products/procedures. To date, there is no evidence to suggest that the incidence of complications associated with the use of \u2126-Cuff will be greater than the risks posed by other existing marketed products. Therefore, the likely benefit of the \u2126-Cuff treatment in this controlled setting outweighs the potential risks.",
+  "passages": [
+    {
+      "passage_id": "NCT04793035::detailed_description::0",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "Gastroesophageal Reflux Disease (GERD) is a chronic excessive stomach content reflux that results in heartburn with major adverse impacts on patient quality of life. It is increasingly common in industrialized societies with a prevalence of ~7% of the population experiencing symptoms daily. A weak Lower Esophageal Sphincter allows excessive acidic stomach content to enter the esophagus. Drug is the most common GERD symptoms relief. Proton pump inhibitors (PPI's) drugs, such as Prevacid\u00ae reduce stomach acid production but not reflux. PPIs fail to treat 10% to 20% of the patients. Up to 40% of patients become refractive in long-term use and develop serious side effects. The next level treatments are surgeries, i.e., Nissen Fundoplication, the LINX\u00ae Magnetic Esophageal Sphincter. Both Nissen and LINX are effective but have many aggravating side effects including dysphagia, gas, bloating, increased flatus, difficulty with belching, or vomiting, device erosion and removal, MRI incompatibility, and reoperations. Omega-Cuff The Omega-Cuff device augments the LES as a partial fundoplication but without stomach involvement.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04793035::detailed_description::1",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "The \u2126-shaped scaffold structure is placed around the outside of the esophagus to help the weak LES restoring its barrier function. When swallowing, the \u2126-Cuff, along with the uncovered esophageal tissue, smoothly expands to allow food passage. It provides resistance to gastric reflux yet allows easy swallowing. The rationale for this early feasibility trial is to establish a basic safety profile and refine the implant technique to support a pivotal clinical trial (via an IDE supplement). Evaluating its performance characteristics will better define the efficacy requirements for the pivotal trial. The single-use Omega-Cuff device is a one-piece, \u03a9-shaped scaffold structure. It is placed at the LES region through an open incision or through a laparoscopic port with a minimum internal diameter of 15mm. Five device sizes, 14-20 mm (nominal) in diameter, are available to accommodate varying patient anatomy. It has attachment sites for sutures attachment at the top and bottom end of the device to the esophagus. The esophagus circumference is measured with a suture or tape and converts into the esophagus diameter.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04793035::detailed_description::2",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "A table shows the size of the device to use based on the esophagus diameter. When the measured length is between sizes, use the next smaller device size. If the Omega Cuff is unable to be placed for any reason, a standard of care surgical treatment can be offered to the patient or the patient may elect to have the surgery aborted. The Omega-Cuff device is indicated for patients diagnosed with GERD, as defined by abnormal pH testing, and who continue to have chronic GERD symptoms despite maximum medical therapy for the treatment of reflux. The Study The study is a prospective, non-randomized, open-label feasibility study of patients receiving the \u2126-Cuff device. The study intends to evaluate the safety of the \u2126-Cuff and its ability to reduce the symptoms of GERD by augmenting the function of the LES. The study will be performed at up to 3 investigational sites in the US and a maximum of 15 subjects ages 22-74 to be implanted with the device. The information from this study will be used to support the design and conduct of a pivotal clinical trial.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04793035::detailed_description::3",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "The study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04793035::detailed_description::4",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "Another endpoint will be at least a 50% improvement in the GERD-HRQL scores at 12 months, and the reduction of daily PPI use by subjective measurements using the GERD-HRQL, and LES function will be characterized by objective measurements using 24hr pH profile, manometry/motility, endoscopy, and barium esophagram. The \u2126-Cuff can be surgically removed if there are serious issues with the device. Depending on the circumstances, the procedure could be laparoscopic, endoscopic, or laparotomic. Data Analysis. This study is to develop an information set that will help the development of a pivotal clinical study plan. Experience implanting the study device in 15 subjects should be adequate for the investigator(s) to feel comfortable enough with the implant procedure to be able to teach it to other investigators in a pivotal clinical trial and to provide clear written direction in the Instructions for Use. Their experience and observations should also help elucidate any safety concerns that must be addressed before implementing a pivotal clinical trial. The demographic and baseline variables of interest will be summarized via standard descriptive statistics.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04793035::detailed_description::5",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "As this is a single-arm trial, hypothesis testing is not possible on these variables. Results from summary statistics will be used in conjunction with available literature to provide sample size estimates for efficacy endpoints for a pivotal clinical trial. Risk Analysis Conclusion. \u2126-Cuff meets applicable principles of risk management, design control provisions of 21 CFR 820.3, and current standards. This study is not anticipated to pose new types of risks from those identified for similar products/procedures. To date, there is no evidence to suggest that the incidence of complications associated with the use of \u2126-Cuff will be greater than the risks posed by other existing marketed products. Therefore, the likely benefit of the \u2126-Cuff treatment in this controlled setting outweighs the potential risks.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you might be eligible for the clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"67-year-old female\", \"Chronic GERD symptoms\", \"Dysphagia\", \"No smoking or alcohol use\", \"Able to perform daily activities\", \"No significant comorbidities other than hypertension, dyslipidemia, and osteoarthritis\"],\n  \"missing_patient_facts\": [\"Esophagus diameter measurement\", \"Confirmation of GERD diagnosis through pH testing\", \"Current use of PPI therapy and adherence to maximum medical therapy\"],\n  \"unresolved_study_requirements\": [\"Device size selection based on esophagus diameter\", \"Confirmation of no serious issues with the device post-procedure\"],\n  \"reasoning_summary\": \"The patient presents with chronic GERD symptoms and dysphagia, which aligns with the inclusion criteria. However, key details such as esophagus diameter measurement, confirmation of GERD diagnosis through pH testing, and current use of PPI therapy are missing. Additionally, the device size needs to be determined based on the esophagus diameter, and there is a need to ensure no serious issues arise post-procedure.\",\n  \"safety_note\": \"The study poses minimal additional risks compared to existing treatments, and the primary safety parameter will be the rate of all adverse events.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you might be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "67-year-old female",
+      "Chronic GERD symptoms",
+      "Dysphagia",
+      "No smoking or alcohol use",
+      "Able to perform daily activities",
+      "No significant comorbidities other than hypertension, dyslipidemia, and osteoarthritis"
+    ],
+    "missing_patient_facts": [
+      "Esophagus diameter measurement",
+      "Confirmation of GERD diagnosis through pH testing",
+      "Current use of PPI therapy and adherence to maximum medical therapy"
+    ],
+    "unresolved_study_requirements": [
+      "Device size selection based on esophagus diameter",
+      "Confirmation of no serious issues with the device post-procedure"
+    ],
+    "reasoning_summary": "The patient presents with chronic GERD symptoms and dysphagia, which aligns with the inclusion criteria. However, key details such as esophagus diameter measurement, confirmation of GERD diagnosis through pH testing, and current use of PPI therapy are missing. Additionally, the device size needs to be determined based on the esophagus diameter, and there is a need to ensure no serious issues arise post-procedure.",
+    "safety_note": "The study poses minimal additional risks compared to existing treatments, and the primary safety parameter will be the rate of all adverse events."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you might be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Esophagus diameter measurement",
+    "Confirmation of GERD diagnosis through pH testing",
+    "Current use of PPI therapy and adherence to maximum medical therapy"
+  ],
+  "unresolved_study_requirements": [
+    "Device size selection based on esophagus diameter",
+    "Confirmation of no serious issues with the device post-procedure"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 23.984
+}

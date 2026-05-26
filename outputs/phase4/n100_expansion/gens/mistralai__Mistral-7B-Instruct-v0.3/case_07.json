@@ -1,0 +1,75 @@
+{
+  "case_id": "case_07",
+  "backbone": "mistralai/Mistral-7B-Instruct-v0.3",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04660656",
+  "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+  "evidence": "[Passage 1 | doc=NCT04660656 | section=detailed_description]\nSciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. Objective functional tests are tests in which the patient has to perform a prescribed procedure or movement while the duration of that movement is then registered. Such tests are already widely used in pneumology and cardiology, but not yet in spine surgery. So far, there are only a few objective tests for functional impairment in back pain such as the 6-minute walking test and timed-up-and-go test. The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements.\n\n[Passage 2 | doc=NCT04660656 | section=detailed_description]\nThis not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair. In spine disorders the 5R-STS had not yet been validated. In 2018, a research group formally validated this test for the first time in patients with lumbar hernia, lumbar canal stenosis, and degenerative spondylolisthesis.1 In this study (5R-STS-I)1 it was concluded that the 5R-STS provides additional information that the simple patient-reported outcome measures (PROMs, questionnaires) cannot demonstrate. It became clear that especially in patients with lumbar hernias two different patient groups existed, namely those with objective functional impairment (OFI) and those without OFI. This subdivision into two groups was even maintained after correction for pain levels. In a follow-up study (5R-STS-II)2 it was shown that when patients undergo the test without supervision - prior to surgery - the test results are equal.\n\n[Passage 3 | doc=NCT04660656 | section=detailed_description]\nIn this study, the investigators want to assess whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery?\n\n[Passage 4 | doc=NCT04660656 | section=eligibility]\nInclusion Criteria: - All patients with lumbar hernias or with 1-level lumbar canal stenoses will be included (consecutive case series). Exclusion Criteria: - Wheelchair-bound patients, and other patients who cannot walk on their own or are bedridden, as well as pregnant patients, are excluded.\n\n[Passage 5 | doc=NCT04660656 | section=summary]\nSciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.\n\n[Passage 6 | doc=NCT04660656 | section=title]\nPredictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+  "passages": [
+    {
+      "passage_id": "NCT04660656::detailed_description::0",
+      "doc_id": "NCT04660656",
+      "section": "detailed_description",
+      "passage_text": "Sciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. Objective functional tests are tests in which the patient has to perform a prescribed procedure or movement while the duration of that movement is then registered. Such tests are already widely used in pneumology and cardiology, but not yet in spine surgery. So far, there are only a few objective tests for functional impairment in back pain such as the 6-minute walking test and timed-up-and-go test. The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04660656::detailed_description::1",
+      "doc_id": "NCT04660656",
+      "section": "detailed_description",
+      "passage_text": "This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair. In spine disorders the 5R-STS had not yet been validated. In 2018, a research group formally validated this test for the first time in patients with lumbar hernia, lumbar canal stenosis, and degenerative spondylolisthesis.1 In this study (5R-STS-I)1 it was concluded that the 5R-STS provides additional information that the simple patient-reported outcome measures (PROMs, questionnaires) cannot demonstrate. It became clear that especially in patients with lumbar hernias two different patient groups existed, namely those with objective functional impairment (OFI) and those without OFI. This subdivision into two groups was even maintained after correction for pain levels. In a follow-up study (5R-STS-II)2 it was shown that when patients undergo the test without supervision - prior to surgery - the test results are equal.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04660656::detailed_description::2",
+      "doc_id": "NCT04660656",
+      "section": "detailed_description",
+      "passage_text": "In this study, the investigators want to assess whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery?",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04660656::eligibility::0",
+      "doc_id": "NCT04660656",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - All patients with lumbar hernias or with 1-level lumbar canal stenoses will be included (consecutive case series). Exclusion Criteria: - Wheelchair-bound patients, and other patients who cannot walk on their own or are bedridden, as well as pregnant patients, are excluded.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04660656::summary::0",
+      "doc_id": "NCT04660656",
+      "section": "summary",
+      "passage_text": "Sciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04660656::title::0",
+      "doc_id": "NCT04660656",
+      "section": "title",
+      "passage_text": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study is about investigating a test called the Five-repetition Sit-to-stand Test (5R-STS) in patients with lumbar hernias or 1-level lumbar canal stenoses. The test measures the patient's mobility and could potentially provide additional information about the condition of the heart and lungs. The study aims to find out if the results of this test can predict the outcome of low back operations after one year.\",\n  \"supported_patient_facts\": [\"The study is for patients with lumbar hernias or 1-level lumbar canal stenoses.\", \"The study involves a test called the Five-repetition Sit-to-stand Test (5R-STS).\"],\n  \"missing_patient_facts\": [\"It is unclear if the study is for patients with any other types of spine disorders.\", \"It is unclear if the study is for patients with multiple-level lumbar canal stenoses.\"],\n  \"unresolved_study_requirements\": [\"It is unclear if the study includes wheelchair-bound patients, pregnant patients, or patients who cannot walk on their own or are bedridden.\", \"It is unclear if the study requires imaging or specific site checks.\"],\n  \"reasoning_summary\": \"The patient's condition (lumbar hernias or 1-level lumbar canal stenoses) matches one of the inclusion criteria",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 23.776
+}

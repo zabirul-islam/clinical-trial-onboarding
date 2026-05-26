@@ -1,0 +1,75 @@
+{
+  "case_id": "case_trec2022_041",
+  "backbone": "mistralai/Mistral-7B-Instruct-v0.3",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00802698",
+  "question": "I am considering a clinical trial. Here is my situation: A 61-year-old man comes to the emergency department complaining of an acute vision disturbance. He had an episode of vision disturbance in the right eye that occurred suddenly and resolved spontaneously in 15 minutes. He also has right jaw pain while chewing. He also complains of fatigue and hip muscle aches over the last several months. The patient has a history of mild hyperlipidemia that has been controlled by diet and lifestyle modifications. On examination, his blood pressure is 130/70 mm Hg and pulse is 66/min. Neurological examination is unremarkable. Visual examination is also normal. ESR is 103 mm/h. Temporal artery biopsy shows multinuclear giant cells and internal elastic membrane fragmentation. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00802698 | section=detailed_description]\nPatients with acute central retinal artery occlusion (CRAO) generally present with a history of painless visual loss that occurred over several seconds. In some instances amaurosis fugax is also present. At the time of initial examination, visual acuity in 90% of patients with CRAO can vary from counting fingers to light perception. Acute CRAO is considered an emergency situation, and therapy must be started as soon as possible. There are different reports where different treatments were proved for the acute phase for example: ocular massage, anterior chamber paracentesis, intravenous mannitol, acetazolamide, hyperbaric oxygenation, microcatheter urokinase infusion, and carbogen 1,2,3. Electrophysiological occlusion of the ophthalmic artery, central retinal artery occlusion, or central retinal vein has a profound impact on the ERG. ERG can provide an objective assessment of severity if occlusion occurs, the b wave is eliminated and a reduction in the \"a\" wave can be observed. In addition, a traumatic optic neuropathy, together with retinal ganglion cell death, can induce a loss of vision which progresses rapidly within several hours l.\n\n[Passage 2 | doc=NCT00802698 | section=detailed_description]\nIt is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.\n\n[Passage 3 | doc=NCT00802698 | section=detailed_description]\nIt has been reported in the literature that transcorneal, retinal 9,10 or cerebral visual cortex 11 electrical stimulation (ES) results in evoked visual sensations (phosphenes),6,9,10,12 however, this intervention requires surgical electrode implantation.\n\n[Passage 4 | doc=NCT00802698 | section=eligibility]\nInclusion Criteria: - central retinal Artery occlusion - no retinal diseases associated - visual acuity in other eye better than 20/200 Exclusion Criteria: - Branch retinal artery occlusion\n\n[Passage 5 | doc=NCT00802698 | section=summary]\nThe purpose of this study is to describe the effect of transcorneal electrical stimulation (TES) with a non conventional biphasic bipolar waveform in central retinal artery occlusion\n\n[Passage 6 | doc=NCT00802698 | section=title]\nThe Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+  "passages": [
+    {
+      "passage_id": "NCT00802698::detailed_description::0",
+      "doc_id": "NCT00802698",
+      "section": "detailed_description",
+      "passage_text": "Patients with acute central retinal artery occlusion (CRAO) generally present with a history of painless visual loss that occurred over several seconds. In some instances amaurosis fugax is also present. At the time of initial examination, visual acuity in 90% of patients with CRAO can vary from counting fingers to light perception. Acute CRAO is considered an emergency situation, and therapy must be started as soon as possible. There are different reports where different treatments were proved for the acute phase for example: ocular massage, anterior chamber paracentesis, intravenous mannitol, acetazolamide, hyperbaric oxygenation, microcatheter urokinase infusion, and carbogen 1,2,3. Electrophysiological occlusion of the ophthalmic artery, central retinal artery occlusion, or central retinal vein has a profound impact on the ERG. ERG can provide an objective assessment of severity if occlusion occurs, the b wave is eliminated and a reduction in the \"a\" wave can be observed. In addition, a traumatic optic neuropathy, together with retinal ganglion cell death, can induce a loss of vision which progresses rapidly within several hours l.",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00802698::detailed_description::1",
+      "doc_id": "NCT00802698",
+      "section": "detailed_description",
+      "passage_text": "It is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00802698::detailed_description::2",
+      "doc_id": "NCT00802698",
+      "section": "detailed_description",
+      "passage_text": "It has been reported in the literature that transcorneal, retinal 9,10 or cerebral visual cortex 11 electrical stimulation (ES) results in evoked visual sensations (phosphenes),6,9,10,12 however, this intervention requires surgical electrode implantation.",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00802698::eligibility::0",
+      "doc_id": "NCT00802698",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - central retinal Artery occlusion - no retinal diseases associated - visual acuity in other eye better than 20/200 Exclusion Criteria: - Branch retinal artery occlusion",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00802698::summary::0",
+      "doc_id": "NCT00802698",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to describe the effect of transcorneal electrical stimulation (TES) with a non conventional biphasic bipolar waveform in central retinal artery occlusion",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00802698::title::0",
+      "doc_id": "NCT00802698",
+      "section": "title",
+      "passage_text": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems that you might be a potential candidate for the clinical trial. However, there are some unresolved requirements and missing facts that need to be clarified.\",\n  \"supported_patient_facts\": [\"The patient has a history of mild hyperlipidemia that has been controlled by diet and lifestyle modifications.\", \"The patient's blood pressure is 130/70 mm Hg and pulse is 66/min.\"],\n  \"missing_patient_facts\": [\"The patient's visual acuity in the other eye is not specified.\", \"The type of retinal artery occlusion (central or branch) is not specified.\"],\n  \"unresolved_study_requirements\": [\"The patient's visual acuity in the affected eye is not specified.\", \"The presence of any retinal diseases associated with the patient is not specified.\"],\n  \"reasoning_summary\": \"The patient's symptoms (acute vision disturbance, right jaw pain while chewing, fatigue, and hip muscle aches) and medical history (mild hyperlipidemia) partially match the inclusion criteria. However, the type of retinal artery occlusion and the visual acuity in the affected and other eyes are not specified, which are important criteria for the study.\",\n  \"safety_note\": \"Please consult with a healthcare professional to discuss your eligibility for this clinical trial and to ensure",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 23.729
+}

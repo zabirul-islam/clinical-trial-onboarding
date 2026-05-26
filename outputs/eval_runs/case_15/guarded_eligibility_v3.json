@@ -1,0 +1,17 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to fit the age requirement (older), but we need more details about your bone problems to determine if you qualify for this study. Please share any specific conditions or diagnoses related to your bone issues.",
+  "supported_patient_facts": [
+    "you are older",
+    "you have had some bone problems"
+  ],
+  "missing_patient_facts": [
+    "your exact age",
+    "the nature and specifics of your bone problems"
+  ],
+  "unresolved_study_requirements": [
+    "the nature and specifics of your bone problems"
+  ],
+  "reasoning_summary": "Your age matches the inclusion criteria, but the nature and specifics of your bone problems are unclear. More information is needed to confirm eligibility.",
+  "safety_note": "Please ensure you understand the study's procedures and risks before deciding to participate."
+}

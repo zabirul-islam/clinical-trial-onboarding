@@ -1,0 +1,188 @@
+{
+  "n_per_pair_per_dim": {
+    "human_vs_sonnet::factuality": 45,
+    "human_vs_sonnet::groundedness": 45,
+    "human_vs_sonnet::abstain_appropriateness": 45,
+    "human_vs_sonnet::safety": 45,
+    "human_vs_sonnet::patient_utility": 45,
+    "human_vs_gpt4o::factuality": 45,
+    "human_vs_gpt4o::groundedness": 45,
+    "human_vs_gpt4o::abstain_appropriateness": 45,
+    "human_vs_gpt4o::safety": 45,
+    "human_vs_gpt4o::patient_utility": 45,
+    "sonnet_vs_gpt4o::factuality": 45,
+    "sonnet_vs_gpt4o::groundedness": 45,
+    "sonnet_vs_gpt4o::abstain_appropriateness": 45,
+    "sonnet_vs_gpt4o::safety": 45,
+    "sonnet_vs_gpt4o::patient_utility": 45
+  },
+  "macro_means_per_pair": {
+    "human_vs_sonnet": {
+      "kappa_linear": 0.04257725554712288,
+      "kappa_quadratic": 0.07052586278244473,
+      "icc21": -0.37695364270929704,
+      "spearman": -0.060497415618577445,
+      "exact": 0.13333333333333333,
+      "mae": 2.2355555555555555
+    },
+    "human_vs_gpt4o": {
+      "kappa_linear": -0.024253084386726,
+      "kappa_quadratic": -0.01838809676893969,
+      "icc21": -0.3233575311158921,
+      "spearman": -0.12062924918669453,
+      "exact": 0.15999999999999998,
+      "mae": 2.12
+    },
+    "sonnet_vs_gpt4o": {
+      "kappa_linear": 0.36624623987886534,
+      "kappa_quadratic": 0.48288187837845464,
+      "icc21": 0.39702177256264887,
+      "spearman": 0.5892601996274719,
+      "exact": 0.5422222222222223,
+      "mae": 0.7111111111111111
+    }
+  },
+  "per_dim_per_pair": {
+    "human_vs_sonnet": {
+      "factuality": {
+        "kappa_linear": 0.0051322542439795615,
+        "kappa_quadratic": 0.008433079434167712,
+        "icc21": -0.6367393800229623,
+        "spearman": 0.05022084860821529,
+        "exact": 0.08888888888888889,
+        "mae": 2.488888888888889,
+        "n": 45.0
+      },
+      "groundedness": {
+        "kappa_linear": -0.021978021978022122,
+        "kappa_quadratic": -0.04381443298969079,
+        "icc21": -0.5316869979172865,
+        "spearman": -0.4929905192494451,
+        "exact": 0.17777777777777778,
+        "mae": 2.7555555555555555,
+        "n": 45.0
+      },
+      "abstain_appropriateness": {
+        "kappa_linear": 0.012770137524558023,
+        "kappa_quadratic": -0.010610079575596787,
+        "icc21": -0.6062086806553607,
+        "spearman": -0.1896773459281152,
+        "exact": 0.15555555555555556,
+        "mae": 2.977777777777778,
+        "n": 45.0
+      },
+      "safety": {
+        "kappa_linear": 0.20236336779911368,
+        "kappa_quadratic": 0.44881889763779526,
+        "icc21": 0.44901610017889093,
+        "spearman": 0.6748837646480583,
+        "exact": 0.022222222222222223,
+        "mae": 1.0666666666666667,
+        "n": 45.0
+      },
+      "patient_utility": {
+        "kappa_linear": 0.014598540145985273,
+        "kappa_quadratic": -0.05019815059445176,
+        "icc21": -0.5591492551297669,
+        "spearman": -0.34492382617160056,
+        "exact": 0.2222222222222222,
+        "mae": 1.8888888888888893,
+        "n": 45.0
+      }
+    },
+    "human_vs_gpt4o": {
+      "factuality": {
+        "kappa_linear": 0.06210123351765229,
+        "kappa_quadratic": 0.06583629893238452,
+        "icc21": -0.379619260918253,
+        "spearman": 0.16949633785074028,
+        "exact": 0.17777777777777778,
+        "mae": 2.1777777777777776,
+        "n": 45.0
+      },
+      "groundedness": {
+        "kappa_linear": -0.038666403629907364,
+        "kappa_quadratic": -0.08994797784863229,
+        "icc21": -0.449041679342866,
+        "spearman": -0.4969817758711185,
+        "exact": 0.2,
+        "mae": 2.6,
+        "n": 45.0
+      },
+      "abstain_appropriateness": {
+        "kappa_linear": -0.01279317697228155,
+        "kappa_quadratic": -0.02385181426034011,
+        "icc21": -0.46359189378057275,
+        "spearman": -0.13908742954874145,
+        "exact": 0.2,
+        "mae": 2.8,
+        "n": 45.0
+      },
+      "safety": {
+        "kappa_linear": -0.01988071570576544,
+        "kappa_quadratic": 0.09181636726546893,
+        "icc21": -0.03207276208712297,
+        "spearman": 0.1073762217860813,
+        "exact": 0.044444444444444446,
+        "mae": 1.5333333333333334,
+        "n": 45.0
+      },
+      "patient_utility": {
+        "kappa_linear": -0.11202635914332792,
+        "kappa_quadratic": -0.1357933579335795,
+        "icc21": -0.2924620594506458,
+        "spearman": -0.2439496001504343,
+        "exact": 0.17777777777777778,
+        "mae": 1.4888888888888885,
+        "n": 45.0
+      }
+    },
+    "sonnet_vs_gpt4o": {
+      "factuality": {
+        "kappa_linear": 0.5573770491803278,
+        "kappa_quadratic": 0.6535326086956522,
+        "icc21": 0.6521739130434783,
+        "spearman": 0.7333431987726006,
+        "exact": 0.7111111111111111,
+        "mae": 0.4,
+        "n": 45.0
+      },
+      "groundedness": {
+        "kappa_linear": 0.41359773371104813,
+        "kappa_quadratic": 0.5520902455209025,
+        "icc21": 0.5414543770264012,
+        "spearman": 0.5237339184009515,
+        "exact": 0.6444444444444445,
+        "mae": 0.5111111111111111,
+        "n": 45.0
+      },
+      "abstain_appropriateness": {
+        "kappa_linear": 0.4990723562152134,
+        "kappa_quadratic": 0.60625,
+        "icc21": 0.6032206119162641,
+        "spearman": 0.7639559943868632,
+        "exact": 0.7333333333333333,
+        "mae": 0.5333333333333333,
+        "n": 45.0
+      },
+      "safety": {
+        "kappa_linear": 0.06896551724137934,
+        "kappa_quadratic": 0.0888208269525268,
+        "icc21": -0.24874791318864772,
+        "spearman": 0.18055689559467716,
+        "exact": 0.3333333333333333,
+        "mae": 1.2666666666666666,
+        "n": 45.0
+      },
+      "patient_utility": {
+        "kappa_linear": 0.29221854304635775,
+        "kappa_quadratic": 0.513715710723192,
+        "icc21": 0.43700787401574803,
+        "spearman": 0.744710990982267,
+        "exact": 0.28888888888888886,
+        "mae": 0.8444444444444444,
+        "n": 45.0
+      }
+    }
+  }
+}

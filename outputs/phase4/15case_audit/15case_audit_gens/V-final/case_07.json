@@ -1,0 +1,66 @@
+{
+  "case_id": "case_07",
+  "backbone": "V-final",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04660656",
+  "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+  "evidence": "[Passage 1 | doc=NCT04660656 | section=summary]\nSciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.",
+  "passages": [
+    {
+      "passage_id": "NCT04660656::summary::0",
+      "doc_id": "NCT04660656",
+      "section": "summary",
+      "text": "Sciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.",
+      "score": -3.843278
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a reliable dominant single-trial context could not be established\nReasoning: Trial selection was not reliable enough for safe answering. Top trial: NCT04660656, dominance ratio: 1.111, score share: 0.251, raw max cross-score: -3.843.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A reliable dominant single-trial context could not be established from the retrieved evidence.; The system needs one specific trial before it can answer safely.\n\nPatient-facing summary (rebuilt): I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Would you like help narrowing this to one specific trial?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a reliable dominant single-trial context could not be established"
+    ],
+    "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT04660656, dominance ratio: 1.111, score share: 0.251, raw max cross-score: -3.843.",
+    "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a reliable dominant single-trial context could not be established"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_no_reliable_trial",
+    "selected_doc_id": "NCT04660656",
+    "selected_trial_score": 1.1707866999999998,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.111186,
+    "trial_score_share": 0.251497,
+    "raw_max_cross": -3.843278,
+    "best_rank": 1,
+    "generic_question": true,
+    "n_unique_docs_in_raw_context": 6,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

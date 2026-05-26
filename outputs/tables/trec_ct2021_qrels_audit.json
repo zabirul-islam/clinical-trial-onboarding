@@ -1,0 +1,16 @@
+{
+  "dataset": "clinicaltrials/2021/trec-ct-2021",
+  "n_topics": 75,
+  "n_qrels": 35832,
+  "qrel_fields": [
+    "query_id",
+    "doc_id",
+    "relevance",
+    "iteration"
+  ],
+  "relevance_counts": {
+    "0": 24243,
+    "1": 6019,
+    "2": 5570
+  }
+}

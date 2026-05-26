@@ -1,0 +1,114 @@
+{
+  "case_id": "case_trec2022_016",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04480190",
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old woman comes to the clinic complaining of arthralgias and nodules on her legs. She has no fever or other skin rashes. The prior medical condition is unremarkable, and she takes no medications. On physical examination, there is moderate hepatomegaly. The lesions on her legs are tender and present predominantly on the anterior surface of the lower extremities. She doesn't smoke and drinks alcohol occasionally. The patient has 2 male sexual partners. Vital signs are normal. Chest x-ray demonstrates enlarged hilar lymph nodes, and laboratory testing reveals an elevated ACE level. Biopsy of the skin lesion shows noncaseating granulomas that stain negative for fungi & acid-fast bacilli. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04480190 | section=detailed_description]\nThis trial will evaluate whether a neoadjuvant paradigm is feasible in resectable biliary adenocarcinoma. All components of therapy are currently used standards of care, however they have not been used in the neoadjuvant setting for the management of resectable biliary cancers. The study will use Gemcitabine/cisplatin, followed by chemoradiation. This is a feasibility trial with an accrual goal of 12 patients using the primary endpoint of completion of neoadjuvant therapy and surgery as an assessment of feasibility.\n\n[Passage 2 | doc=NCT04480190 | section=eligibility]\nInclusion Criteria: - Age \u226518 years. - ECOG performance status \u22642 - Patients must have adequate organ and marrow function as defined below: leukocytes \u22653,000/mcL absolute neutrophil count \u22651,500/mcL platelets \u2265100,000/mcL total bilirubin \u2264 7 AST(SGOT)/ALT(SGPT) \u22643 \u00d7 institutional ULN creatinine \u2264 institutional ULN OR glomerular filtration rate (GFR) \u2265 30 mL/min/1.73 m2 - Known human immunodeficiency virus (HIV)-infected patients must be on effective anti-retroviral therapy with undetectable viral load within 6 months to be eligible for this trial. - For patients with evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated. - Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen are eligible for this trial. - Patients with known history or current symptoms of cardiac disease, or history of treatment with cardiotoxic agents, should have a clinical risk assessment of cardiac function using the New York Heart Association Functional Classification.\n\n[Passage 3 | doc=NCT04480190 | section=eligibility]\nTo be eligible for this trial, patients should be class 2B or better. - Patients must have either biopsy proven biliary adenocarcinoma (Intrahepatic cholangiocarcinoma, hilar cholangiocarcinoma, extrahepatic cholangiocarcinoma), or Gallbladder Adenocarcinoma or cytology with FISH abnormality sufficient for diagnosis. - Patients must be deemed to have tumor that is resectable by the surgical oncologist and must have no medical contraindications to surgery. - All patients must have a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy. - Patients with enlarged regional lymph nodes within the dissection basin are eligible for participation. - Women of child-bearing potential and men must agree to use adequate contraception for 14 months (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.\n\n[Passage 4 | doc=NCT04480190 | section=eligibility]\nMen treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 14 months after completion. - Ability to understand and the willingness to sign a written informed consent document. Exclusion Criteria: - Patients with metastatic disease on imaging (biopsy not required). - Patients not eligible for surgery due to tumor anatomy or medical comorbidities. - Patients with known hypersensitivity to cisplatin, gemcitabine or 5-FU or any component of the formulation. - Patients who have had chemotherapy or radiotherapy within 3 months prior to entering the study. - Patients who have not recovered from adverse events due to prior anti-cancer therapy (i.e., have residual toxicities > Grade 1) with the exception of alopecia. - Patients who are currently receiving any other investigational agents are excluded. Patients who received investigational agents prior to consenting to participate on this study who are no longer currently receiving those agents, are eligible. - Patients with uncontrolled intercurrent illness that would prevent receipt of standard of care chemotherapy, radiation or surgery.\n\n[Passage 5 | doc=NCT04480190 | section=eligibility]\n- Patients with psychiatric illness/social situations that would limit compliance with study requirements. - Pregnant women are excluded from this study.",
+  "passages": [
+    {
+      "passage_id": "NCT04480190::detailed_description::0",
+      "doc_id": "NCT04480190",
+      "section": "detailed_description",
+      "passage_text": "This trial will evaluate whether a neoadjuvant paradigm is feasible in resectable biliary adenocarcinoma. All components of therapy are currently used standards of care, however they have not been used in the neoadjuvant setting for the management of resectable biliary cancers. The study will use Gemcitabine/cisplatin, followed by chemoradiation. This is a feasibility trial with an accrual goal of 12 patients using the primary endpoint of completion of neoadjuvant therapy and surgery as an assessment of feasibility.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04480190::eligibility::0",
+      "doc_id": "NCT04480190",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age \u226518 years. - ECOG performance status \u22642 - Patients must have adequate organ and marrow function as defined below: leukocytes \u22653,000/mcL absolute neutrophil count \u22651,500/mcL platelets \u2265100,000/mcL total bilirubin \u2264 7 AST(SGOT)/ALT(SGPT) \u22643 \u00d7 institutional ULN creatinine \u2264 institutional ULN OR glomerular filtration rate (GFR) \u2265 30 mL/min/1.73 m2 - Known human immunodeficiency virus (HIV)-infected patients must be on effective anti-retroviral therapy with undetectable viral load within 6 months to be eligible for this trial. - For patients with evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated. - Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen are eligible for this trial. - Patients with known history or current symptoms of cardiac disease, or history of treatment with cardiotoxic agents, should have a clinical risk assessment of cardiac function using the New York Heart Association Functional Classification.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04480190::eligibility::1",
+      "doc_id": "NCT04480190",
+      "section": "eligibility",
+      "passage_text": "To be eligible for this trial, patients should be class 2B or better. - Patients must have either biopsy proven biliary adenocarcinoma (Intrahepatic cholangiocarcinoma, hilar cholangiocarcinoma, extrahepatic cholangiocarcinoma), or Gallbladder Adenocarcinoma or cytology with FISH abnormality sufficient for diagnosis. - Patients must be deemed to have tumor that is resectable by the surgical oncologist and must have no medical contraindications to surgery. - All patients must have a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy. - Patients with enlarged regional lymph nodes within the dissection basin are eligible for participation. - Women of child-bearing potential and men must agree to use adequate contraception for 14 months (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04480190::eligibility::2",
+      "doc_id": "NCT04480190",
+      "section": "eligibility",
+      "passage_text": "Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 14 months after completion. - Ability to understand and the willingness to sign a written informed consent document. Exclusion Criteria: - Patients with metastatic disease on imaging (biopsy not required). - Patients not eligible for surgery due to tumor anatomy or medical comorbidities. - Patients with known hypersensitivity to cisplatin, gemcitabine or 5-FU or any component of the formulation. - Patients who have had chemotherapy or radiotherapy within 3 months prior to entering the study. - Patients who have not recovered from adverse events due to prior anti-cancer therapy (i.e., have residual toxicities > Grade 1) with the exception of alopecia. - Patients who are currently receiving any other investigational agents are excluded. Patients who received investigational agents prior to consenting to participate on this study who are no longer currently receiving those agents, are eligible. - Patients with uncontrolled intercurrent illness that would prevent receipt of standard of care chemotherapy, radiation or surgery.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04480190::eligibility::3",
+      "doc_id": "NCT04480190",
+      "section": "eligibility",
+      "passage_text": "- Patients with psychiatric illness/social situations that would limit compliance with study requirements. - Pregnant women are excluded from this study.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, this trial is unlikely to be a match for you. This study is specifically designed for patients with biliary tract cancers (bile duct or gallbladder cancer) who need surgery. Your clinical presentation suggests a different condition - the combination of tender nodules on your legs (erythema nodosum), enlarged lymph nodes in your chest, elevated ACE level, and noncaseating granulomas points toward sarcoidosis, which is not what this trial is studying. This trial requires patients to have biopsy-proven biliary adenocarcinoma or gallbladder cancer that can be surgically removed. I recommend discussing your actual diagnosis and appropriate treatment options with your healthcare provider, as this particular trial does not appear designed for your medical situation.\",\n  \"supported_patient_facts\": [\n    \"39-year-old woman\",\n    \"Arthralgias and tender nodules on legs (anterior lower extremities)\",\n    \"Moderate hepatomegaly on examination\",\n    \"Enlarged hilar lymph nodes on chest x-ray\",\n    \"Elevated ACE level\",\n    \"Skin biopsy showing noncaseating granulomas, negative for fungi and acid-fast bacilli\",\n    \"No fever, no medications, normal vital signs\",\n    \"Unremarkable prior medical history\",\n    \"Occasional alcohol use, non-smoker\"\n  ],\n  \"missing_patient_facts\": [\n    \"No diagnosis of biliary adenocarcinoma, cholangiocarcinoma, or gallbladder cancer mentioned\",\n    \"No indication of need for cancer surgery\",\n    \"Complete blood counts (leukocytes, neutrophils, platelets)\",\n    \"Liver function tests (bilirubin, AST, ALT)\",\n    \"Kidney function (creatinine, GFR)\",\n    \"HIV status\",\n    \"Hepatitis B status\",\n    \"Pregnancy status or contraception plans\",\n    \"ECOG performance status\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"This trial requires biopsy-proven biliary adenocarcinoma or gallbladder adenocarcinoma - patient's presentation does not indicate this diagnosis\",\n    \"Requires resectable tumor as determined by surgical oncologist\",\n    \"Requires CT chest/abdomen/pelvis or PET scan showing no metastatic disease\",\n    \"Patient must be surgical candidate without medical contraindications\"\n  ],\n  \"reasoning_summary\": \"The fundamental mismatch is that this trial specifically enrolls patients with biliary tract cancers (bile duct or gallbladder cancer) who need surgery followed by chemotherapy and radiation. The patient's clinical presentation - tender leg nodules (erythema nodosum), bilateral hilar lymphadenopathy, elevated ACE, and noncaseating granulomas - is classic for sarcoidosis, an inflammatory condition, not cancer. The trial's core inclusion criterion requires biopsy-proven biliary adenocarcinoma, which is completely different from the patient's clinical picture. While some laboratory values are unknown, the primary issue is disease mismatch, not missing data.\",\n  \"safety_note\": \"I cannot provide a definitive eligibility determination or medical diagnosis. The clinical findings you describe suggest a specific medical condition that should be evaluated and diagnosed by your healthcare provider. This particular trial studies a completely different type of disease (biliary cancer). Please consult with your physician about your symptoms and appropriate diagnostic workup and treatment options for your specific situation.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, this trial is unlikely to be a match for you. This study is specifically designed for patients with biliary tract cancers (bile duct or gallbladder cancer) who need surgery. Your clinical presentation suggests a different condition - the combination of tender nodules on your legs (erythema nodosum), enlarged lymph nodes in your chest, elevated ACE level, and noncaseating granulomas points toward sarcoidosis, which is not what this trial is studying. This trial requires patients to have biopsy-proven biliary adenocarcinoma or gallbladder cancer that can be surgically removed. I recommend discussing your actual diagnosis and appropriate treatment options with your healthcare provider, as this particular trial does not appear designed for your medical situation.",
+    "supported_patient_facts": [
+      "39-year-old woman",
+      "Arthralgias and tender nodules on legs (anterior lower extremities)",
+      "Moderate hepatomegaly on examination",
+      "Enlarged hilar lymph nodes on chest x-ray",
+      "Elevated ACE level",
+      "Skin biopsy showing noncaseating granulomas, negative for fungi and acid-fast bacilli",
+      "No fever, no medications, normal vital signs",
+      "Unremarkable prior medical history",
+      "Occasional alcohol use, non-smoker"
+    ],
+    "missing_patient_facts": [
+      "No diagnosis of biliary adenocarcinoma, cholangiocarcinoma, or gallbladder cancer mentioned",
+      "No indication of need for cancer surgery",
+      "Complete blood counts (leukocytes, neutrophils, platelets)",
+      "Liver function tests (bilirubin, AST, ALT)",
+      "Kidney function (creatinine, GFR)",
+      "HIV status",
+      "Hepatitis B status",
+      "Pregnancy status or contraception plans",
+      "ECOG performance status"
+    ],
+    "unresolved_study_requirements": [
+      "This trial requires biopsy-proven biliary adenocarcinoma or gallbladder adenocarcinoma - patient's presentation does not indicate this diagnosis",
+      "Requires resectable tumor as determined by surgical oncologist",
+      "Requires CT chest/abdomen/pelvis or PET scan showing no metastatic disease",
+      "Patient must be surgical candidate without medical contraindications"
+    ],
+    "reasoning_summary": "The fundamental mismatch is that this trial specifically enrolls patients with biliary tract cancers (bile duct or gallbladder cancer) who need surgery followed by chemotherapy and radiation. The patient's clinical presentation - tender leg nodules (erythema nodosum), bilateral hilar lymphadenopathy, elevated ACE, and noncaseating granulomas - is classic for sarcoidosis, an inflammatory condition, not cancer. The trial's core inclusion criterion requires biopsy-proven biliary adenocarcinoma, which is completely different from the patient's clinical picture. While some laboratory values are unknown, the primary issue is disease mismatch, not missing data.",
+    "safety_note": "I cannot provide a definitive eligibility determination or medical diagnosis. The clinical findings you describe suggest a specific medical condition that should be evaluated and diagnosed by your healthcare provider. This particular trial studies a completely different type of disease (biliary cancer). Please consult with your physician about your symptoms and appropriate diagnostic workup and treatment options for your specific situation."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, this trial is unlikely to be a match for you. This study is specifically designed for patients with biliary tract cancers (bile duct or gallbladder cancer) who need surgery. Your clinical presentation suggests a different condition - the combination of tender nodules on your legs (erythema nodosum), enlarged lymph nodes in your chest, elevated ACE level, and noncaseating granulomas points toward sarcoidosis, which is not what this trial is studying. This trial requires patients to have biopsy-proven biliary adenocarcinoma or gallbladder cancer that can be surgically removed. I recommend discussing your actual diagnosis and appropriate treatment options with your healthcare provider, as this particular trial does not appear designed for your medical situation.",
+  "missing_patient_facts": [
+    "No diagnosis of biliary adenocarcinoma, cholangiocarcinoma, or gallbladder cancer mentioned",
+    "No indication of need for cancer surgery",
+    "Complete blood counts (leukocytes, neutrophils, platelets)",
+    "Liver function tests (bilirubin, AST, ALT)",
+    "Kidney function (creatinine, GFR)",
+    "HIV status",
+    "Hepatitis B status",
+    "Pregnancy status or contraception plans",
+    "ECOG performance status"
+  ],
+  "unresolved_study_requirements": [
+    "This trial requires biopsy-proven biliary adenocarcinoma or gallbladder adenocarcinoma - patient's presentation does not indicate this diagnosis",
+    "Requires resectable tumor as determined by surgical oncologist",
+    "Requires CT chest/abdomen/pelvis or PET scan showing no metastatic disease",
+    "Patient must be surgical candidate without medical contraindications"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 16.962751385057345
+}

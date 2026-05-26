@@ -1,0 +1,78 @@
+{
+  "case_id": "case_trec2021_028",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00000568",
+  "selected_doc": "NCT04342520",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. The symptoms began acutely and progressively worsened. He is a known case of COPD since 2 years ago. The spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values. He smokes 20 cigarette per day. His past medical history is remarkable for BPH and he is using Flomax for that. His family history is positive for HTN in his brother. His medication includes Duo-Neb inhaled q4 hr PRN, Vit D3 1000 units per day and Flomax for his PBH. He is an obese man who is acutely ill but oriented and conscious. The vital signs are as bellow: BP: 135/80 RR: 25/min HR: 75 bpm BMI: 40 O2sat: 90% Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04342520 | section=detailed_description]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.\n\n[Passage 2 | doc=NCT04342520 | section=detailed_description]\nOn the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.\n\n[Passage 3 | doc=NCT04342520 | section=eligibility]\nInclusion Criteria: - Patients : - Man or woman 55 years and over - Patient received for the first time in Memory Consultation and not aware of his diagnosis - Patient with a Mini-Mental State Assessment score (MMSE) \u2265 20 - Patient accompanied by a primary caregiver - Patient able to provide consent to participate in research Caregiver: - The caregiver accompanies the patient and is considered as the main caregiver during the consultation - is able to provide consent to participate in research Exclusion Criteria: - Patient living in a care homes - Patient protected by law (under legal protection, guardianship or trusteeship) - Patient with a hearing or visual impairment that does not allow to carry out assessments in Memory Consultation - Patient opposing research\n\n[Passage 4 | doc=NCT04342520 | section=summary]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.",
+  "passages": [
+    {
+      "passage_id": "NCT04342520::detailed_description::0",
+      "doc_id": "NCT04342520",
+      "section": "detailed_description",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04342520::detailed_description::1",
+      "doc_id": "NCT04342520",
+      "section": "detailed_description",
+      "passage_text": "On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04342520::eligibility::0",
+      "doc_id": "NCT04342520",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients : - Man or woman 55 years and over - Patient received for the first time in Memory Consultation and not aware of his diagnosis - Patient with a Mini-Mental State Assessment score (MMSE) \u2265 20 - Patient accompanied by a primary caregiver - Patient able to provide consent to participate in research Caregiver: - The caregiver accompanies the patient and is considered as the main caregiver during the consultation - is able to provide consent to participate in research Exclusion Criteria: - Patient living in a care homes - Patient protected by law (under legal protection, guardianship or trusteeship) - Patient with a hearing or visual impairment that does not allow to carry out assessments in Memory Consultation - Patient opposing research",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04342520::summary::0",
+      "doc_id": "NCT04342520",
+      "section": "summary",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not appear to meet the eligibility criteria for this clinical trial.\",\n  \"supported_patient_facts\": [\"60-year-old male\", \"COPD diagnosis for 2 years\", \"BMI of 40 (obese)\", \"Acute illness\"],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\"Neurocognitive disorder diagnosis\", \"Mini-Mental State Assessment score (MMSE) \u2265 20\", \"Primary caregiver consent\"],\n  \"reasoning_summary\": \"The patient does not have a neurocognitive disorder diagnosis, which is a key inclusion criterion. Additionally, the patient's MMSE score and the presence of a primary caregiver are unresolved.\",\n  \"safety_note\": \"Given the patient's acute illness and COPD, it is important to consult with the clinical team to ensure safety.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not appear to meet the eligibility criteria for this clinical trial.",
+    "supported_patient_facts": [
+      "60-year-old male",
+      "COPD diagnosis for 2 years",
+      "BMI of 40 (obese)",
+      "Acute illness"
+    ],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "Neurocognitive disorder diagnosis",
+      "Mini-Mental State Assessment score (MMSE) \u2265 20",
+      "Primary caregiver consent"
+    ],
+    "reasoning_summary": "The patient does not have a neurocognitive disorder diagnosis, which is a key inclusion criterion. Additionally, the patient's MMSE score and the presence of a primary caregiver are unresolved.",
+    "safety_note": "Given the patient's acute illness and COPD, it is important to consult with the clinical team to ensure safety."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not appear to meet the eligibility criteria for this clinical trial.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "Neurocognitive disorder diagnosis",
+    "Mini-Mental State Assessment score (MMSE) \u2265 20",
+    "Primary caregiver consent"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 15.289
+}

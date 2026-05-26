@@ -1,0 +1,30 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+    "The system needs one specific trial before it can answer safely."
+  ],
+  "patient_facing_summary_rebuilt": {
+    "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+    "source": "trial_first_abstention"
+  }
+}

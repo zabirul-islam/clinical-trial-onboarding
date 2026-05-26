@@ -1,0 +1,41 @@
+{
+  "study_purpose": {
+    "text": "This study aims to investigate whether the duration of the 5R-STS test predicts the outcome of low back operations after one year.",
+    "support_passages": [
+      1
+    ]
+  },
+  "who_may_join": {
+    "text": "Anyone affected by sciatica may join this study.",
+    "support_passages": [
+      1
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will undergo a 5R-STS test where they stand up and sit down five times from a chair without armrests, counting the number of movements. They will also complete an interview about their age, education level, smoking history, mood, quality of life, and stress.",
+    "support_passages": [
+      1
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "There are no risks or burdens mentioned in the provided evidence.",
+    "support_passages": [
+      1
+    ]
+  },
+  "time_commitment": {
+    "text": "The procedures involve a 1-hour interview and a 2-5 minute 5R-STS test.",
+    "support_passages": [
+      1
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study investigates if a test measuring how often someone can stand up and sit down from a chair can predict the success of back surgery. Anyone with sciatica can join. They will be interviewed and asked to do a 5R-STS test.",
+    "support_passages": [
+      1
+    ]
+  }
+}

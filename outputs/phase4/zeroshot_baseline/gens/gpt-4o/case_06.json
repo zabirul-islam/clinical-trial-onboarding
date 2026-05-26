@@ -1,0 +1,84 @@
+{
+  "case_id": "case_06",
+  "backbone": "gpt-4o",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02984384",
+  "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+  "evidence": "[Passage 1 | doc=NCT02984384 | section=detailed_description]\nPatients who sustain orthopaedic trauma are at an increased risk of venous thromboembolism (VTE), including fatal pulmonary embolism (PE). Current guidelines recommend low-molecular-weight heparin (LMWH) for VTE prophylaxis in orthopaedic trauma patients. However, emerging literature in total joint arthroplasty patients suggests the potential clinical benefits of VTE prophylaxis with aspirin. This trial aims to determine if aspirin is non-inferior to LMWH for thromboprophylaxis in fracture patients.\n\n[Passage 2 | doc=NCT02984384 | section=eligibility]\nInclusion Criteria: \u2022 Patients who have a planned operative or non-operative pelvis or acetabular fracture, or any operative extremity fracture proximal to the metatarsals or carpals.\n\n[Passage 3 | doc=NCT02984384 | section=eligibility]\nExclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.\n\n[Passage 4 | doc=NCT02984384 | section=eligibility]\nFactor V Leiden, hyperhomocysteinemia, Protein C and S deficiency) that require full dose anticoagulation or are a contraindication to venous thromboembolism chemoprophylaxis - Patients with end stage renal disease or impaired creatinine clearance <30 ml/min at time of randomization(note: creatinine clearance does not need to be documented if prescribing physician would order medication without test as SOC) - Pregnant or lactating patients - Patients contraindicated for any reason for either medicine - Prisoners - Patients who do not speak either English or Spanish - Patients may be excluded for other reasons at the discretion of the treating physician; the reason for exclusion must be documented on the screening form - Patients who have a known COVID-19 diagnosis prior to fracture treatment or within 3 months of the index fracture.\n\n[Passage 5 | doc=NCT02984384 | section=summary]\nThe purpose of this study is to compare aspirin versus low-molecular weight heparin (LMWH) (Enoxaparin) as a thromboprophylaxis in patients who sustain a fracture.",
+  "passages": [
+    {
+      "passage_id": "NCT02984384::detailed_description::0",
+      "doc_id": "NCT02984384",
+      "section": "detailed_description",
+      "passage_text": "Patients who sustain orthopaedic trauma are at an increased risk of venous thromboembolism (VTE), including fatal pulmonary embolism (PE). Current guidelines recommend low-molecular-weight heparin (LMWH) for VTE prophylaxis in orthopaedic trauma patients. However, emerging literature in total joint arthroplasty patients suggests the potential clinical benefits of VTE prophylaxis with aspirin. This trial aims to determine if aspirin is non-inferior to LMWH for thromboprophylaxis in fracture patients.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02984384::eligibility::0",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: \u2022 Patients who have a planned operative or non-operative pelvis or acetabular fracture, or any operative extremity fracture proximal to the metatarsals or carpals.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02984384::eligibility::1",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02984384::eligibility::2",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Factor V Leiden, hyperhomocysteinemia, Protein C and S deficiency) that require full dose anticoagulation or are a contraindication to venous thromboembolism chemoprophylaxis - Patients with end stage renal disease or impaired creatinine clearance <30 ml/min at time of randomization(note: creatinine clearance does not need to be documented if prescribing physician would order medication without test as SOC) - Pregnant or lactating patients - Patients contraindicated for any reason for either medicine - Prisoners - Patients who do not speak either English or Spanish - Patients may be excluded for other reasons at the discretion of the treating physician; the reason for exclusion must be documented on the screening form - Patients who have a known COVID-19 diagnosis prior to fracture treatment or within 3 months of the index fracture.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02984384::summary::0",
+      "doc_id": "NCT02984384",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to compare aspirin versus low-molecular weight heparin (LMWH) (Enoxaparin) as a thromboprophylaxis in patients who sustain a fracture.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"It seems that taking blood thinners could affect your eligibility for this study.\",\n  \"supported_patient_facts\": [\n    \"Patient takes blood thinners.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Specific type of blood thinner the patient is taking.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation if the blood thinner is low-dose aspirin or a platelet inhibitor like Plavix or Aggrenox.\"\n  ],\n  \"reasoning_summary\": \"The study excludes patients on long-term blood thinners unless they are low-dose aspirin or specific platelet inhibitors. Without knowing the specific blood thinner, it's likely the patient does not match the eligibility criteria.\",\n  \"safety_note\": \"This information is not a substitute for medical advice. Please consult with your healthcare provider.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "It seems that taking blood thinners could affect your eligibility for this study.",
+    "supported_patient_facts": [
+      "Patient takes blood thinners."
+    ],
+    "missing_patient_facts": [
+      "Specific type of blood thinner the patient is taking."
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation if the blood thinner is low-dose aspirin or a platelet inhibitor like Plavix or Aggrenox."
+    ],
+    "reasoning_summary": "The study excludes patients on long-term blood thinners unless they are low-dose aspirin or specific platelet inhibitors. Without knowing the specific blood thinner, it's likely the patient does not match the eligibility criteria.",
+    "safety_note": "This information is not a substitute for medical advice. Please consult with your healthcare provider."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "It seems that taking blood thinners could affect your eligibility for this study.",
+  "missing_patient_facts": [
+    "Specific type of blood thinner the patient is taking."
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation if the blood thinner is low-dose aspirin or a platelet inhibitor like Plavix or Aggrenox."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 2.2196539980359375
+}

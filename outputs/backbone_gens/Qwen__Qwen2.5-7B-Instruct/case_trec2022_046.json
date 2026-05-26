@@ -1,0 +1,85 @@
+{
+  "case_id": "case_trec2022_046",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04822701",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 38-year-old man with cough and body ache that started 3 days ago. He had fever and chills at the beginning and has low grade fever at the time of visit. He feels tired and sleepy. His body ache and myalgia get better after using Tylenol. The PCR test for Covid is positive. His vital signs are within normal limits with a body temperature of 37.9 C. There is no lymphadenopathy or white exudates in the pharynx. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04822701 | section=eligibility]\nInclusion criteria phase II and III: - \u2265 18 years old, males and females - Signed and dated written informed consent in accordance with International Council on Harmonisation - Good Clinical Practice (ICH-GCP) and local legislation prior to admission to the trial - Documentation of laboratory-confirmed Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, as determined by a molecular test (antigen or nucleic acid) from any respiratory tract specimen (nasopharyngeal (NP) or nasal swab or saliva) collected no more than 72 hours prior to start of treatment - Patients experienced mild to moderate Coronavirus Disease 2019 (COVID-19)-related symptoms or measured fever for no more than 5 days prior to start of treatment where symptoms are defined by fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore throat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - One or more of the following signs/symptoms present on day of start of treatment: fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore\n\n[Passage 2 | doc=NCT04822701 | section=eligibility]\nthroat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - Women of childbearing potential (WOCBP) and men able to father a child must be ready and able to use highly effective methods of birth control per ICH M3 (R2) that result in a low failure rate of less than 1% per year when used consistently and correctly Exclusion criteria phase II and III: - Body weight of less than 40 kg - Severe or critical COVID-19 including at least one of - Oxygen saturation (SpO2) \u2264 93 % on room air or on their usual level of oxygen supplementation in case of chronic oxygen use - Ratio of arterial oxygen partial pressure (PaO2 in millimeters of mercury) to fractional inspired oxygen (FiO2) < 300 (in case arterial blood sample was taken) - History of hospitalization for COVID-19 - Current or imminent need for hospitalization or immediate medical attention in the clinical opinion of the site investigator.\n\n[Passage 3 | doc=NCT04822701 | section=eligibility]\nDoes not include patients hospitalized for isolation only - Receipt of intravenous immunoglobulin within 12 weeks prior to Visit 2 - Receipt of COVID-19 convalescent plasma treatment at any time prior to Visit 2 - Receipt of any SARS-CoV-2 monoclonal antibody treatment at any time prior to Visit 2 - Receipt of SARS-CoV-2 vaccine at any time prior to Visit 2 - Receipt of an investigational product for COVID-19 within 5 half-lives prior to Visit 2 - Receipt of systemic steroids (e.g. prednisone, dexamethasone) within 4 weeks prior to Visit 2 unless used for chronic condition Further exclusion criteria apply. Exclusion criterion phase III only: - Previous enrolment in this trial. Patients participating in Phase II are not eligible for Phase III. Re-screening is allowed once, for repeat of Quantitative Reverse Transcription Polymerase chain reaction (RT-qPCR) or antigen SARS-CoV-2 test, if required. The test method used for initial screening (RT-qPCR or antigen) should be used for re-screening.\n\n[Passage 4 | doc=NCT04822701 | section=summary]\nThis study is open to adults with mild to moderate symptoms of COVID-19 (coronavirus disease). The purpose of this study is to find out whether a medicine called BI 767551 helps people with COVID-19. BI 767551 is an antibody against the coronavirus. The study has 2 parts. Part 1 wants to find out the best dose of BI 767551 given as infusion into a vein. It also tests how BI 767551 is taken up by the body when taken via an inhaler. Participants are put into 4 groups by chance. Participants get BI 767551 or placebo once. - 1 group gets a high dose of BI 767551 as an infusion into a vein - 1 group gets a low dose of BI 767551 as an infusion into a vein - 1 group gets BI 767551 via an inhaler - 1 group gets placebo both as an infusion into a vein and via an inhaler The placebo infusion and inhaler look like the BI 767551 infusion and inhaler but do not contain any medicine. Doctors check how BI 767551 reduces the amount of coronavirus. Once the best dose of BI 767551 is found, part 2 of the study tests BI 767551 in a larger group of people. Also, in part 2, the participants get BI 767551 or placebo as an infusion into a vein once. In this part, doctors will check how many people need to be treated in a hospital or die. The results will be compared between the groups. For each part, participants are in the study for about 13 weeks. During this time, they visit the study site about 8 times and get about 3 remote visits. The doctors also regularly check participants' health and take note of any unwanted effects of BI 767551.",
+  "passages": [
+    {
+      "passage_id": "NCT04822701::eligibility::0",
+      "doc_id": "NCT04822701",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria phase II and III: - \u2265 18 years old, males and females - Signed and dated written informed consent in accordance with International Council on Harmonisation - Good Clinical Practice (ICH-GCP) and local legislation prior to admission to the trial - Documentation of laboratory-confirmed Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, as determined by a molecular test (antigen or nucleic acid) from any respiratory tract specimen (nasopharyngeal (NP) or nasal swab or saliva) collected no more than 72 hours prior to start of treatment - Patients experienced mild to moderate Coronavirus Disease 2019 (COVID-19)-related symptoms or measured fever for no more than 5 days prior to start of treatment where symptoms are defined by fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore throat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - One or more of the following signs/symptoms present on day of start of treatment: fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore",
+      "title": "A Study to Test BI 767551 in People With Mild to Moderate Symptoms of COVID-19",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04822701::eligibility::1",
+      "doc_id": "NCT04822701",
+      "section": "eligibility",
+      "passage_text": "throat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - Women of childbearing potential (WOCBP) and men able to father a child must be ready and able to use highly effective methods of birth control per ICH M3 (R2) that result in a low failure rate of less than 1% per year when used consistently and correctly Exclusion criteria phase II and III: - Body weight of less than 40 kg - Severe or critical COVID-19 including at least one of - Oxygen saturation (SpO2) \u2264 93 % on room air or on their usual level of oxygen supplementation in case of chronic oxygen use - Ratio of arterial oxygen partial pressure (PaO2 in millimeters of mercury) to fractional inspired oxygen (FiO2) < 300 (in case arterial blood sample was taken) - History of hospitalization for COVID-19 - Current or imminent need for hospitalization or immediate medical attention in the clinical opinion of the site investigator.",
+      "title": "A Study to Test BI 767551 in People With Mild to Moderate Symptoms of COVID-19",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04822701::eligibility::2",
+      "doc_id": "NCT04822701",
+      "section": "eligibility",
+      "passage_text": "Does not include patients hospitalized for isolation only - Receipt of intravenous immunoglobulin within 12 weeks prior to Visit 2 - Receipt of COVID-19 convalescent plasma treatment at any time prior to Visit 2 - Receipt of any SARS-CoV-2 monoclonal antibody treatment at any time prior to Visit 2 - Receipt of SARS-CoV-2 vaccine at any time prior to Visit 2 - Receipt of an investigational product for COVID-19 within 5 half-lives prior to Visit 2 - Receipt of systemic steroids (e.g. prednisone, dexamethasone) within 4 weeks prior to Visit 2 unless used for chronic condition Further exclusion criteria apply. Exclusion criterion phase III only: - Previous enrolment in this trial. Patients participating in Phase II are not eligible for Phase III. Re-screening is allowed once, for repeat of Quantitative Reverse Transcription Polymerase chain reaction (RT-qPCR) or antigen SARS-CoV-2 test, if required. The test method used for initial screening (RT-qPCR or antigen) should be used for re-screening.",
+      "title": "A Study to Test BI 767551 in People With Mild to Moderate Symptoms of COVID-19",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04822701::summary::0",
+      "doc_id": "NCT04822701",
+      "section": "summary",
+      "passage_text": "This study is open to adults with mild to moderate symptoms of COVID-19 (coronavirus disease). The purpose of this study is to find out whether a medicine called BI 767551 helps people with COVID-19. BI 767551 is an antibody against the coronavirus. The study has 2 parts. Part 1 wants to find out the best dose of BI 767551 given as infusion into a vein. It also tests how BI 767551 is taken up by the body when taken via an inhaler. Participants are put into 4 groups by chance. Participants get BI 767551 or placebo once. - 1 group gets a high dose of BI 767551 as an infusion into a vein - 1 group gets a low dose of BI 767551 as an infusion into a vein - 1 group gets BI 767551 via an inhaler - 1 group gets placebo both as an infusion into a vein and via an inhaler The placebo infusion and inhaler look like the BI 767551 infusion and inhaler but do not contain any medicine. Doctors check how BI 767551 reduces the amount of coronavirus. Once the best dose of BI 767551 is found, part 2 of the study tests BI 767551 in a larger group of people. Also, in part 2, the participants get BI 767551 or placebo as an infusion into a vein once. In this part, doctors will check how many people need to be treated in a hospital or die. The results will be compared between the groups. For each part, participants are in the study for about 13 weeks. During this time, they visit the study site about 8 times and get about 3 remote visits. The doctors also regularly check participants' health and take note of any unwanted effects of BI 767551.",
+      "title": "A Study to Test BI 767551 in People With Mild to Moderate Symptoms of COVID-19",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"38 years old\", \"Positive PCR test for SARS-CoV-2\", \"Mild to moderate symptoms of COVID-19\"],\n  \"missing_patient_facts\": [\"Body weight\", \"Symptom duration since start of treatment\", \"Use of highly effective methods of birth control\"],\n  \"unresolved_study_requirements\": [\"Confirmation of symptom duration and severity\", \"Verification of body weight\", \"Confirmation of birth control method\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has a confirmed SARS-CoV-2 infection with mild to moderate symptoms. However, there are unresolved issues regarding body weight, symptom duration, and birth control method which need to be clarified.\",\n  \"safety_note\": \"The patient's current condition does not indicate severe or critical COVID-19, but it is essential to ensure all safety criteria are met before enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.",
+    "supported_patient_facts": [
+      "38 years old",
+      "Positive PCR test for SARS-CoV-2",
+      "Mild to moderate symptoms of COVID-19"
+    ],
+    "missing_patient_facts": [
+      "Body weight",
+      "Symptom duration since start of treatment",
+      "Use of highly effective methods of birth control"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of symptom duration and severity",
+      "Verification of body weight",
+      "Confirmation of birth control method"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has a confirmed SARS-CoV-2 infection with mild to moderate symptoms. However, there are unresolved issues regarding body weight, symptom duration, and birth control method which need to be clarified.",
+    "safety_note": "The patient's current condition does not indicate severe or critical COVID-19, but it is essential to ensure all safety criteria are met before enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Body weight",
+    "Symptom duration since start of treatment",
+    "Use of highly effective methods of birth control"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of symptom duration and severity",
+    "Verification of body weight",
+    "Confirmation of birth control method"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 18.203
+}

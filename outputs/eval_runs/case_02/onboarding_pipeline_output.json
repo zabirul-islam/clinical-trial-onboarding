@@ -1,0 +1,81 @@
+{
+  "input_question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you seem to meet some key criteria for the study, but we need more details to confirm your eligibility. You are a postmenopausal woman with osteoporosis and a history of a fragility fracture, which aligns with the inclusion criteria. However, we need to check your medical records to see if they include the required imaging. This is an important step to ensure you can participate fully.",
+    "supported_patient_facts": [
+      "you are a postmenopausal woman",
+      "you have osteoporosis",
+      "you have a history of a fragility fracture"
+    ],
+    "missing_patient_facts": [
+      "whether your medical records include the required imaging",
+      "your current bone density status"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of required imaging in your medical records"
+    ],
+    "reasoning_summary": "Your medical history matches the inclusion criteria, but we need to verify the presence of required imaging in your medical records to finalize your eligibility.",
+    "safety_note": "It's important to ensure that you meet all study requirements to stay safe and benefit fully from the research."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "Eligible participants are elderly postmenopausal women with osteopenia or osteoporosis, particularly those taking aromatase inhibitors for breast cancer, and women with a history of fragility fractures.",
+      "support_passages": [
+        2,
+        7
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants may be asked to undergo bone density tests, receive treatments, and provide informed consent.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "time_commitment": {
+      "text": "The study involves periodic visits and tests, but the exact time commitment is not specified.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence",
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study looks into ways to strengthen bones and prevent fractures in certain groups of women, including those with osteoporosis or fragility fractures. Eligible participants may need to undergo tests and treatments, and provide informed consent.",
+      "support_passages": [
+        1,
+        2
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Who may join: Eligible participants are elderly postmenopausal women with osteopenia or osteoporosis, particularly those taking aromatase inhibitors for breast cancer, and women with a history of fragility fractures. What participation may involve: Participants may be asked to undergo bone density tests, receive treatments, and provide informed consent. Time commitment: The study involves periodic visits and tests, but the exact time commitment is not specified.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join this study?",
+      "What does the study involve?",
+      "What are the main things you need to do for the study?"
+    ],
+    "checked_concepts": [
+      "who may join",
+      "what the study involves",
+      "major requirements"
+    ]
+  }
+}

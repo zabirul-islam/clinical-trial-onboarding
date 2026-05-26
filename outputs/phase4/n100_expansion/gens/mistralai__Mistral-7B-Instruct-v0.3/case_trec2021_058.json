@@ -1,0 +1,75 @@
+{
+  "case_id": "case_trec2021_058",
+  "backbone": "mistralai/Mistral-7B-Instruct-v0.3",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00124722",
+  "selected_doc": "NCT03902262",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 17-year-old boy complaining of severe migratory pain in the right lower quadrant of his abdomen that started four days ago. The pain is accompanied by nausea and vomiting. He was febrile with tenderness, rebound tenderness and guarding on palpation. His WBC was elevated with dominant neutrophils. CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis. Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities. He is now a candidate for emergent laparoscopic appendectomy under general anesthesia. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03902262 | section=detailed_description]\nCASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.\n\n[Passage 2 | doc=NCT03902262 | section=detailed_description]\nHe presented hands and feet edema and a generalized exantema. He was diagnosed with scarlet fever. The patient presented conjunctival hyperemia and cheilitis. On day 15 the patient had severe abdominal pain (right lower quadrant), and was hospitalized with the diagnosis of appendicitis. An appendicetomy was performed and two perforations of the appendix were found. Appendicitis was found (Figure 1). The patient persisted with fever and desquamation of perineal area, fingers and toes were added to the clinical picture. Laboratories reported blood count: Hb 13 g/dl, WBC 47,700/mm3 neutrophils 95% bands 8% platelets 551,000/\u03bcl, C-reactive protein 19.7 mg/dl, ESR 53 mm/hr, hypoalbuminemia 2.2 g/dl. Diagnosis of KD was established and IVIG 2 g/kg and aspirin were administered. Echocardiogram was normal. Surgical wound culture was reported positive for Enterococcus faecium and Escherchia coli. Antibiotic therapy was administered for 14 days with good evolution. Case 3. A 5-year-old male patient, presented with a history of fever for 5 days diagnosed as bacterial tonsillitis and treated with antibiotics without resolution.\n\n[Passage 3 | doc=NCT03902262 | section=detailed_description]\nOn the fifth day the patient developed bilateral conjunctivitis, erythema on the lips, morbilliform exanthema in the anterior and posterior thorax and abdominal pain in mesogastrium and right lower cuadrant. His physical examination revealed non-purulent bilateral conjunctivitis, cracked lips, strawberry tongue, cervical lymphadenopathy of 0.5 x 1 cm, exanthema in thoracic and dorsal region, with significant erythema of palms and soles, without skin exfoliation. The patient presented with severe abdominal pain located in the right lower quadrant, with signs of peritoneal irritation. Abdominal ultrasound was performed and was suggestive of acute appendicitis. Laboratories reported blood count: Hb 14.1 g/dl, Hcto 40.5%, WBC 3400 /uL, neutrophils 3100/uL, lymphocytes 300 103/uL, platelets 41,000 103/uL; ferritin 1700 ng/ml, triglycerids 190 mg/dl, C-reactive protein 8 mg/dl, normal hepatic and renal function. A diagnosis of KD and acute appendicitis was made. Treatment was started with IVIG and aspirin. The boy was taken to diagnostic laparoscopy where periappendicular inflammation was found.\n\n[Passage 4 | doc=NCT03902262 | section=detailed_description]\nThe cecal appendix biopsy presented normal morphology up to the serous layer, with congestive vessels, interstitial edema, and mild inflammatory infiltrate with predominantly mononuclear cells within the lymphatic vessels (Figure 2). A final diagnosis of mild mononuclear periappendicitis was made. The patient had an uneventful evolution with resolution of the symptoms.\n\n[Passage 5 | doc=NCT03902262 | section=eligibility]\nInclusion Criteria: - Patients with Kawasaki disease. - Acute abdomen requiring surgery. Exclusion Criteria: - Patients with chronic gastrointestinal disease. - Incomplete data on the charts.\n\n[Passage 6 | doc=NCT03902262 | section=summary]\nClinical and histopathological description of three cases of Kawasaki disease with acute abdomen.",
+  "passages": [
+    {
+      "passage_id": "NCT03902262::detailed_description::0",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "CASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::1",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "He presented hands and feet edema and a generalized exantema. He was diagnosed with scarlet fever. The patient presented conjunctival hyperemia and cheilitis. On day 15 the patient had severe abdominal pain (right lower quadrant), and was hospitalized with the diagnosis of appendicitis. An appendicetomy was performed and two perforations of the appendix were found. Appendicitis was found (Figure 1). The patient persisted with fever and desquamation of perineal area, fingers and toes were added to the clinical picture. Laboratories reported blood count: Hb 13 g/dl, WBC 47,700/mm3 neutrophils 95% bands 8% platelets 551,000/\u03bcl, C-reactive protein 19.7 mg/dl, ESR 53 mm/hr, hypoalbuminemia 2.2 g/dl. Diagnosis of KD was established and IVIG 2 g/kg and aspirin were administered. Echocardiogram was normal. Surgical wound culture was reported positive for Enterococcus faecium and Escherchia coli. Antibiotic therapy was administered for 14 days with good evolution. Case 3. A 5-year-old male patient, presented with a history of fever for 5 days diagnosed as bacterial tonsillitis and treated with antibiotics without resolution.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::2",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "On the fifth day the patient developed bilateral conjunctivitis, erythema on the lips, morbilliform exanthema in the anterior and posterior thorax and abdominal pain in mesogastrium and right lower cuadrant. His physical examination revealed non-purulent bilateral conjunctivitis, cracked lips, strawberry tongue, cervical lymphadenopathy of 0.5 x 1 cm, exanthema in thoracic and dorsal region, with significant erythema of palms and soles, without skin exfoliation. The patient presented with severe abdominal pain located in the right lower quadrant, with signs of peritoneal irritation. Abdominal ultrasound was performed and was suggestive of acute appendicitis. Laboratories reported blood count: Hb 14.1 g/dl, Hcto 40.5%, WBC 3400 /uL, neutrophils 3100/uL, lymphocytes 300 103/uL, platelets 41,000 103/uL; ferritin 1700 ng/ml, triglycerids 190 mg/dl, C-reactive protein 8 mg/dl, normal hepatic and renal function. A diagnosis of KD and acute appendicitis was made. Treatment was started with IVIG and aspirin. The boy was taken to diagnostic laparoscopy where periappendicular inflammation was found.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::3",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "The cecal appendix biopsy presented normal morphology up to the serous layer, with congestive vessels, interstitial edema, and mild inflammatory infiltrate with predominantly mononuclear cells within the lymphatic vessels (Figure 2). A final diagnosis of mild mononuclear periappendicitis was made. The patient had an uneventful evolution with resolution of the symptoms.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03902262::eligibility::0",
+      "doc_id": "NCT03902262",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients with Kawasaki disease. - Acute abdomen requiring surgery. Exclusion Criteria: - Patients with chronic gastrointestinal disease. - Incomplete data on the charts.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03902262::summary::0",
+      "doc_id": "NCT03902262",
+      "section": "summary",
+      "passage_text": "Clinical and histopathological description of three cases of Kawasaki disease with acute abdomen.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems that you might be a potential candidate for the clinical trial. However, there are some unresolved factors that need to be considered before a definitive conclusion can be made.\",\n  \"supported_patient_facts\": [\"The patient is a 17-year-old boy.\", \"The patient has a history of abdominal pain, nausea, vomiting, fever, and tenderness, rebound tenderness, and guarding on palpation.\", \"The patient's WBC was elevated with dominant neutrophils.\", \"CT scan showed evidence of acute perforated appendicitis with free fluid in the pelvis.\", \"Diagnostic laparoscopy revealed phlegmon with no other abdominal abnormalities.\"],\n  \"missing_patient_facts\": [\"The patient's medical history is not specified, which could include chronic gastrointestinal diseases.\", \"The patient's current condition and treatment (e.g., fever, rash, conjunctival hyperaemia, etc.) are not specified, which could be related to Kawasaki disease.\"],\n  \"unresolved_study_requirements\": [\"The study's eligibility criteria specify that the patient has Kawasaki disease, but the patient's current condition and treatment are not specified.\", \"The study's eligibility criteria also state that the patient has acute abdomen requiring surgery, but",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 24.034
+}

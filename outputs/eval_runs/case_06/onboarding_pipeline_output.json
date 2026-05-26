@@ -1,0 +1,75 @@
+{
+  "input_question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "It seems you might be eligible based on your age and fracture type, but we need to check if you're taking blood thinners as prescribed and if there are any other issues that haven't been fully resolved yet.",
+    "supported_patient_facts": [
+      "you are 18 years of age or older",
+      "you have a displaced transverse or oblique midshaft clavicle fracture"
+    ],
+    "missing_patient_facts": [
+      "the specific type of blood thinners you are taking",
+      "any other medical conditions that might affect your eligibility"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation that you are not taking long-term blood thinners other than low-dose aspirin or similar medications",
+      "resolution of any other exclusion criteria that might apply"
+    ],
+    "reasoning_summary": "Your age and fracture type align with the inclusion criteria. However, the safety of using blood thinners during the study needs to be confirmed, and other potential exclusions should be checked.",
+    "safety_note": "Taking blood thinners could potentially interfere with the study's goals. We need to ensure that your condition is safe for participation."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "This study examines whether adding a leg compression device to low-dose blood thinners reduces clot formation in critically ill patients.",
+      "support_passages": [
+        6
+      ]
+    },
+    "who_may_join": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "procedures_or_participation": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "risks_or_burdens": {
+      "text": "The main burden is the possibility of skin abrasions from the leg compression device.",
+      "support_passages": [
+        6
+      ]
+    },
+    "time_commitment": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "what_is_unclear": [
+      "Time commitment",
+      "Risks or burdens"
+    ],
+    "patient_facing_summary": {
+      "text": "This study looks at whether adding a leg compression device to blood thinners helps prevent clots in critically ill patients. Anyone admitted to ICU with low-dose blood thinners might join. They'll keep taking blood thinners but some will get the leg compression device. Possible side effects are skin abrasions.",
+      "support_passages": [
+        6
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Study purpose: This study examines whether adding a leg compression device to low-dose blood thinners reduces clot formation in critically ill patients. Risks or burdens: The main burden is the possibility of skin abrasions from the leg compression device. What is still unclear: Time commitment; Risks or burdens",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join the study?",
+      "What are the main things you need to know about the study?",
+      "What are the rules you must follow?"
+    ],
+    "checked_concepts": [
+      "who may join",
+      "what the study involves",
+      "major requirements"
+    ]
+  }
+}

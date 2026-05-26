@@ -1,0 +1,90 @@
+{
+  "case_id": "case_trec2022_012",
+  "backbone": "mistralai/Mistral-7B-Instruct-v0.3",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00188890",
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old man comes to the office for routine checkup. He is complaining of chronic cough and occasional but progressive dyspnea. Other medical conditions include hypertension and osteoarthritis. The patient smokes a pack of cigarettes daily and does not use alcohol or illicit drugs. He used to be a construction worker. On examination, there are decreased breath sounds and percussive dullness at the base of both lungs. Chest CT scan reveals a mild bilateral pleural effusion and diffuse thickening of the pleura. The patient's documents show chronic exposure to asbestosis. The specimen of the lungs reveled pulmonary fibrosis that is most predominant in the lower lobes, characterized by the presence of asbestos bodies (golden-brown beaded rods with translucent centers). Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00188890 | section=detailed_description]\nBackground and Purpose: Asbestos exposure may result in several different diseases to the lung and to the lining of the lung, the so-called pleura. Mostly they are benign, but there are two common malignant diseases in people with prior asbestos exposure, the so-called mesothelioma - which originates from the pleura - and cancer of the lung. Symptoms of any of these malignant diseases generally do not appear for 10-35 years after the first asbestos exposure, and include shortness of breath, chronic or new cough, coughing of blood, chest pain or weight loss. Unfortunately, these symptoms are most often causes by very advanced diseases, when patients can no longer be cured. Currently there is no accepted tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects available. Standard of care includes regular chest radiographs, which are not sufficient to show mesothelioma or lung cancer in an early stage. A screening CT examination, also called CAT scan, of the lungs will be performed without intravenous contrast. The CT examination as such is not an experimental procedure, CAT scans are performed routinely since decades.\n\n[Passage 2 | doc=NCT00188890 | section=detailed_description]\nHowever, in this particular case, this albeit standard examination is performed for the purposes of research only, it is not part of standard of care. The screening CT examination of the lungs takes less than 10-20 minutes to perform. If no abnormalities are found on the initial examinations, you will be examined with one repeat screening CT of the chest after one year. If pleural plaques or a nodule in the lungs is seen on your baseline CT, this will lead to further testing. Quite likely (approximately 1 in 3 chance), you will be invited for a follow-up CT 3 or 6 months. Further investigations will be chosen according to standard of care and will be explained to you at the time. These will be coordinated by your physician with Dr. Marc de Perrot, Department of Thoracic Surgery. Secondly, there is evidence in other types of cancers such as cancers of the prostate and ovary, that analysis of blood may reveal protein markers that indicate the presence of cancer in the body. A companion blood analysis study is being undertaken in an effort to discover such markers for lung cancer and mesothelioma, so that the accuracy of CT-scan diagnosis for lung cancer may be further improved.\n\n[Passage 3 | doc=NCT00188890 | section=detailed_description]\nBoth at the time of your baseline screening CT and at your annual follow-up screening CT, you will be asked to provide 5 ml (approximately 2 teaspoons full) blood sample through a needle stick. A blood-taking technician employed by the University Health Network or a certified nurse will carry out this procedure. Purpose of this study is to search in the blood for so-called \"markers\", substances in the blood which indicate that there is a cancer in the lungs or pleura. Most of these markers are still in development, thus your blood will be stored and analyzed at a future date.\n\n[Passage 4 | doc=NCT00188890 | section=eligibility]\nInclusion Criteria: prior asbestos exposure at least 20 years ago and/or documented pleural plaques (chest x-ray evidence) Resident of Ontario, Canada Exclusion Criteria: prior cancer (except non-melanotic skin cancer)\n\n[Passage 5 | doc=NCT00188890 | section=summary]\nOccupational exposure to asbestos is known increase the risk of developing cancer of the lungs (bronchogenic carcinoma) or of the pleura (mesothelioma). Symptoms are subtle and non-specific, diagnosis is often late and the prognosis consequently is dismal. Currently there is no accepted non-invasive tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects. In the last decade, low-dose computed tomography (LDCT) has been successfully developed and validated for the early diagnosis of lung cancer in high-risk smokers. Malignant mesothelioma might, in an early stage, resemble a benign pleural plaque, which is a common finding after asbestos exposure. We target to develop low-dose CT as a tool to serially image the pleural plaques, quantify their individual and overall volume, compute the growth rate with time, and, as such, identify the presence of mesothelioma early, before symptoms occur.",
+  "passages": [
+    {
+      "passage_id": "NCT00188890::detailed_description::0",
+      "doc_id": "NCT00188890",
+      "section": "detailed_description",
+      "passage_text": "Background and Purpose: Asbestos exposure may result in several different diseases to the lung and to the lining of the lung, the so-called pleura. Mostly they are benign, but there are two common malignant diseases in people with prior asbestos exposure, the so-called mesothelioma - which originates from the pleura - and cancer of the lung. Symptoms of any of these malignant diseases generally do not appear for 10-35 years after the first asbestos exposure, and include shortness of breath, chronic or new cough, coughing of blood, chest pain or weight loss. Unfortunately, these symptoms are most often causes by very advanced diseases, when patients can no longer be cured. Currently there is no accepted tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects available. Standard of care includes regular chest radiographs, which are not sufficient to show mesothelioma or lung cancer in an early stage. A screening CT examination, also called CAT scan, of the lungs will be performed without intravenous contrast. The CT examination as such is not an experimental procedure, CAT scans are performed routinely since decades.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00188890::detailed_description::1",
+      "doc_id": "NCT00188890",
+      "section": "detailed_description",
+      "passage_text": "However, in this particular case, this albeit standard examination is performed for the purposes of research only, it is not part of standard of care. The screening CT examination of the lungs takes less than 10-20 minutes to perform. If no abnormalities are found on the initial examinations, you will be examined with one repeat screening CT of the chest after one year. If pleural plaques or a nodule in the lungs is seen on your baseline CT, this will lead to further testing. Quite likely (approximately 1 in 3 chance), you will be invited for a follow-up CT 3 or 6 months. Further investigations will be chosen according to standard of care and will be explained to you at the time. These will be coordinated by your physician with Dr. Marc de Perrot, Department of Thoracic Surgery. Secondly, there is evidence in other types of cancers such as cancers of the prostate and ovary, that analysis of blood may reveal protein markers that indicate the presence of cancer in the body. A companion blood analysis study is being undertaken in an effort to discover such markers for lung cancer and mesothelioma, so that the accuracy of CT-scan diagnosis for lung cancer may be further improved.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00188890::detailed_description::2",
+      "doc_id": "NCT00188890",
+      "section": "detailed_description",
+      "passage_text": "Both at the time of your baseline screening CT and at your annual follow-up screening CT, you will be asked to provide 5 ml (approximately 2 teaspoons full) blood sample through a needle stick. A blood-taking technician employed by the University Health Network or a certified nurse will carry out this procedure. Purpose of this study is to search in the blood for so-called \"markers\", substances in the blood which indicate that there is a cancer in the lungs or pleura. Most of these markers are still in development, thus your blood will be stored and analyzed at a future date.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00188890::eligibility::0",
+      "doc_id": "NCT00188890",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: prior asbestos exposure at least 20 years ago and/or documented pleural plaques (chest x-ray evidence) Resident of Ontario, Canada Exclusion Criteria: prior cancer (except non-melanotic skin cancer)",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00188890::summary::0",
+      "doc_id": "NCT00188890",
+      "section": "summary",
+      "passage_text": "Occupational exposure to asbestos is known increase the risk of developing cancer of the lungs (bronchogenic carcinoma) or of the pleura (mesothelioma). Symptoms are subtle and non-specific, diagnosis is often late and the prognosis consequently is dismal. Currently there is no accepted non-invasive tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects. In the last decade, low-dose computed tomography (LDCT) has been successfully developed and validated for the early diagnosis of lung cancer in high-risk smokers. Malignant mesothelioma might, in an early stage, resemble a benign pleural plaque, which is a common finding after asbestos exposure. We target to develop low-dose CT as a tool to serially image the pleural plaques, quantify their individual and overall volume, compute the growth rate with time, and, as such, identify the presence of mesothelioma early, before symptoms occur.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be a potential candidate for the clinical trial. However, there are some unresolved requirements and missing facts that need to be considered.\",\n  \"supported_patient_facts\": [\"The patient has a history of asbestos exposure.\", \"The patient has a chronic cough and occasional dyspnea.\", \"The patient has a history of hypertension and osteoarthritis.\"],\n  \"missing_patient_facts\": [\"The time since the last asbestos exposure is not specified.\", \"The patient's residence is not specified.\"],\n  \"unresolved_study_requirements\": [\"The presence of pleural plaques on chest x-ray is not specified.\", \"The patient's lung cancer history (except non-melanotic skin cancer) is not specified.\"],\n  \"reasoning_summary\": \"The patient's history of asbestos exposure and symptoms (chronic cough and occasional dyspnea) align with the inclusion criteria. However, the time since the last asbestos exposure and the patient's residence are not specified, which are also inclusion criteria. Additionally, the presence of pleural plaques on chest x-ray and the patient's lung cancer history are not clear from the provided information.\",\n  \"safety_note\": \"Please consult with your physician to discuss your eligibility for this clinical trial and to ensure that participating in this study is safe for you.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be a potential candidate for the clinical trial. However, there are some unresolved requirements and missing facts that need to be considered.",
+    "supported_patient_facts": [
+      "The patient has a history of asbestos exposure.",
+      "The patient has a chronic cough and occasional dyspnea.",
+      "The patient has a history of hypertension and osteoarthritis."
+    ],
+    "missing_patient_facts": [
+      "The time since the last asbestos exposure is not specified.",
+      "The patient's residence is not specified."
+    ],
+    "unresolved_study_requirements": [
+      "The presence of pleural plaques on chest x-ray is not specified.",
+      "The patient's lung cancer history (except non-melanotic skin cancer) is not specified."
+    ],
+    "reasoning_summary": "The patient's history of asbestos exposure and symptoms (chronic cough and occasional dyspnea) align with the inclusion criteria. However, the time since the last asbestos exposure and the patient's residence are not specified, which are also inclusion criteria. Additionally, the presence of pleural plaques on chest x-ray and the patient's lung cancer history are not clear from the provided information.",
+    "safety_note": "Please consult with your physician to discuss your eligibility for this clinical trial and to ensure that participating in this study is safe for you."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be a potential candidate for the clinical trial. However, there are some unresolved requirements and missing facts that need to be considered.",
+  "missing_patient_facts": [
+    "The time since the last asbestos exposure is not specified.",
+    "The patient's residence is not specified."
+  ],
+  "unresolved_study_requirements": [
+    "The presence of pleural plaques on chest x-ray is not specified.",
+    "The patient's lung cancer history (except non-melanotic skin cancer) is not specified."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 23.87
+}

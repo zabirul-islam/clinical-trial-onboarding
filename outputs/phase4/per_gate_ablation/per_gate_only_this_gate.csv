@@ -1,0 +1,7 @@
+variant,drop_gate,n_accepted,n_only_this_gate,newly_accepted_case_ids
+V-final,,32,0,[]
+V-final-no-rho,rho,42,10,"['case_paraphrase_004', 'case_paraphrase_012', 'case_trec2021_031', 'case_trec2021_042', 'case_trec2021_049', 'case_trec2021_050', 'case_trec2022_007', 'case_trec2022_009', 'case_trec2022_018', 'case_trec2022_020']"
+V-final-no-tau,tau,32,0,[]
+V-final-no-mu,mu,59,27,"['case_paraphrase_009', 'case_paraphrase_010', 'case_paraphrase_019', 'case_paraphrase_026', 'case_paraphrase_027', 'case_paraphrase_028', 'case_paraphrase_035', 'case_trec2021_001', 'case_trec2021_015', 'case_trec2021_026', 'case_trec2021_028', 'case_trec2021_048', 'case_trec2021_053', 'case_trec2021_057', 'case_trec2021_070', 'case_trec2022_003', 'case_trec2022_006', 'case_trec2022_008', 'case_trec2022_012', 'case_trec2022_014', 'case_trec2022_027', 'case_trec2022_030', 'case_trec2022_032', 'case_trec2022_037', 'case_trec2022_041', 'case_trec2022_048', 'case_trec2022_050']"
+V-final-no-kappa,kappa,32,0,[]
+V-final-no-generic,generic,38,6,"['case_03', 'case_08', 'case_09', 'case_15', 'case_paraphrase_018', 'case_paraphrase_031']"

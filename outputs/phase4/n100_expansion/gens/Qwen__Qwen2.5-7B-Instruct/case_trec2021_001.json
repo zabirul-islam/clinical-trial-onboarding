@@ -1,0 +1,89 @@
+{
+  "case_id": "case_trec2021_001",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00002814",
+  "selected_doc": "NCT01051557",
+  "question": "I am considering a clinical trial. Here is my situation: Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01051557 | section=detailed_description]\nPRIMARY OBJECTIVES: I. Define the maximum tolerated dose (MTD) of temsirolimus in combination with perifosine in patients with recurrent or progressive malignant glioma who are not taking enzyme-inducing anti-epileptic drugs (EIAEDs). (Phase I) II. Determine the efficacy of temsirolimus in combination with perifosine in patients with recurrent/progressive glioblastomas (GBMs) not taking EIAEDs as measured by 6 month progression-free survival (6mPFS) and radiographic response rates. (Phase II) SECONDARY OBJECTIVES: I. Characterize the safety profile of perifosine and temsirolimus. II. Estimate median overall and progression-free survival. III. Explore the association of pre-treatment molecular phenotype with response to treatment. IV. Explore molecular effects during treatment including phosphatidylinositol-3 kinase (PI3K)/protein kinase B (AKT)/mammalian target of rapamycin (mTOR)/ribosomal protein S6 kinase (S6K) and rat sarcoma (RAS)/mitogen-activated protein kinase kinase (MEK)/mitogen-activated protein kinase (ERK) signaling, proliferation, and apoptosis. OUTLINE: This is a phase I dose-escalation study of temsirolimus, followed by a phase II study.\n\n[Passage 2 | doc=NCT01051557 | section=detailed_description]\nPHASE I: Patients receive temsirolimus intravenously (IV) over 30 minutes on days 1, 8, 15, and 22 and perifosine orally (PO) once daily (QD) on days 1-28. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity. PHASE II: Patients receive temsirolimus and perifosine as in phase I. Some patients may also undergo cytoreductive surgery. After completion of study therapy, patients are followed up every 3 months.\n\n[Passage 3 | doc=NCT01051557 | section=eligibility]\nInclusion Criteria: - Patients must have unstained slides or tissue blocks available from at least one prior surgery; frozen tissue is also requested if available - Patients must have received prior radiotherapy and temozolomide; there is otherwise no limit on the number of prior recurrences/therapies - At least 6 weeks (42 days) must have elapsed since completion of radiation therapy to initiation of study treatment - At least 4 weeks (28 days) must have elapsed since most recent temozolomide and initiation of study treatment - Patients must have recovered from the toxic effects of other prior direct inhibitors of vascular endothelial growth factor (VEGF)/VEGF receptor (VEGFR): 4 weeks from prior therapy with agents such as bevacizumab (Avastin), aflibercept (VEGF-Trap), cediranib (AZD2171), or XL-184 (BMS 907351); any questions regarding the definition of a direct anti-VEGF/VEGFR therapy must be discussed with the principal investigator (PI) or co-PI; patients must have recovered from the toxic effects of other prior therapy including: 4 weeks (28 days) from any investigational agent, two weeks (14 days) from vincristine, 6 weeks (42 days) from nitrosoureas, 3 weeks (21 days) fro\n\n[Passage 4 | doc=NCT01051557 | section=eligibility]\nm procarbazine administration, and 1 week (7 days) for non-cytotoxic agents, e.g., interferon, tamoxifen, thalidomide, cis-retinoic acid, etc.\n\n[Passage 5 | doc=NCT01051557 | section=eligibility]\nr (except non-melanoma skin cancer or carcinoma in-situ of the cervix), unless in complete remission and off of all therapy for that disease for a minimum of 3 years are ineligible for the phase II study but are eligible for the phase I component\n\n[Passage 6 | doc=NCT01051557 | section=eligibility]\n(radiosensitizer does not count), and 4 weeks (28 days) from any other prior cytotoxic therapy; any questions related to the definition of non-cytotoxic agents should be directed to the co-PI - Patients must have shown unequivocal evidence for tumor progression by magnetic resonance imaging (MRI)/computed tomography (CT) on the baseline MRI/CT in comparison to a prior scan OR have recently undergone resection for recurrent/progressive disease; the baseline brain MRI/CT must be performed 14 days or fewer prior to treatment; the same type of scan, i.e., MRI (or CT for patients who cannot undergo MRI) must be used throughout the period of protocol treatment for tumor measurement; criteria for progression on this study are not mandatory if the disease progression is obvious in the opinion of the investigator; any questions should be addressed to the PI - Patients must be on a stable or decreasing dose of corticosteroids for a minimum of 5 days before the baseline MRI/CT (and positron emission tomography [PET] scans for patients on the phase II study) except patients undergoing surgery on the surgical substudy of phase II; if the corticosteroid dose is increased between the date of imag",
+  "passages": [
+    {
+      "passage_id": "NCT01051557::detailed_description::0",
+      "doc_id": "NCT01051557",
+      "section": "detailed_description",
+      "passage_text": "PRIMARY OBJECTIVES: I. Define the maximum tolerated dose (MTD) of temsirolimus in combination with perifosine in patients with recurrent or progressive malignant glioma who are not taking enzyme-inducing anti-epileptic drugs (EIAEDs). (Phase I) II. Determine the efficacy of temsirolimus in combination with perifosine in patients with recurrent/progressive glioblastomas (GBMs) not taking EIAEDs as measured by 6 month progression-free survival (6mPFS) and radiographic response rates. (Phase II) SECONDARY OBJECTIVES: I. Characterize the safety profile of perifosine and temsirolimus. II. Estimate median overall and progression-free survival. III. Explore the association of pre-treatment molecular phenotype with response to treatment. IV. Explore molecular effects during treatment including phosphatidylinositol-3 kinase (PI3K)/protein kinase B (AKT)/mammalian target of rapamycin (mTOR)/ribosomal protein S6 kinase (S6K) and rat sarcoma (RAS)/mitogen-activated protein kinase kinase (MEK)/mitogen-activated protein kinase (ERK) signaling, proliferation, and apoptosis. OUTLINE: This is a phase I dose-escalation study of temsirolimus, followed by a phase II study.",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01051557::detailed_description::1",
+      "doc_id": "NCT01051557",
+      "section": "detailed_description",
+      "passage_text": "PHASE I: Patients receive temsirolimus intravenously (IV) over 30 minutes on days 1, 8, 15, and 22 and perifosine orally (PO) once daily (QD) on days 1-28. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity. PHASE II: Patients receive temsirolimus and perifosine as in phase I. Some patients may also undergo cytoreductive surgery. After completion of study therapy, patients are followed up every 3 months.",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::0",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients must have unstained slides or tissue blocks available from at least one prior surgery; frozen tissue is also requested if available - Patients must have received prior radiotherapy and temozolomide; there is otherwise no limit on the number of prior recurrences/therapies - At least 6 weeks (42 days) must have elapsed since completion of radiation therapy to initiation of study treatment - At least 4 weeks (28 days) must have elapsed since most recent temozolomide and initiation of study treatment - Patients must have recovered from the toxic effects of other prior direct inhibitors of vascular endothelial growth factor (VEGF)/VEGF receptor (VEGFR): 4 weeks from prior therapy with agents such as bevacizumab (Avastin), aflibercept (VEGF-Trap), cediranib (AZD2171), or XL-184 (BMS 907351); any questions regarding the definition of a direct anti-VEGF/VEGFR therapy must be discussed with the principal investigator (PI) or co-PI; patients must have recovered from the toxic effects of other prior therapy including: 4 weeks (28 days) from any investigational agent, two weeks (14 days) from vincristine, 6 weeks (42 days) from nitrosoureas, 3 weeks (21 days) fro",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::1",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "m procarbazine administration, and 1 week (7 days) for non-cytotoxic agents, e.g., interferon, tamoxifen, thalidomide, cis-retinoic acid, etc.",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::10",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "r (except non-melanoma skin cancer or carcinoma in-situ of the cervix), unless in complete remission and off of all therapy for that disease for a minimum of 3 years are ineligible for the phase II study but are eligible for the phase I component",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::2",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "(radiosensitizer does not count), and 4 weeks (28 days) from any other prior cytotoxic therapy; any questions related to the definition of non-cytotoxic agents should be directed to the co-PI - Patients must have shown unequivocal evidence for tumor progression by magnetic resonance imaging (MRI)/computed tomography (CT) on the baseline MRI/CT in comparison to a prior scan OR have recently undergone resection for recurrent/progressive disease; the baseline brain MRI/CT must be performed 14 days or fewer prior to treatment; the same type of scan, i.e., MRI (or CT for patients who cannot undergo MRI) must be used throughout the period of protocol treatment for tumor measurement; criteria for progression on this study are not mandatory if the disease progression is obvious in the opinion of the investigator; any questions should be addressed to the PI - Patients must be on a stable or decreasing dose of corticosteroids for a minimum of 5 days before the baseline MRI/CT (and positron emission tomography [PET] scans for patients on the phase II study) except patients undergoing surgery on the surgical substudy of phase II; if the corticosteroid dose is increased between the date of imag",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"The patient's anaplastic astrocytoma is located in the T-L spine, which is not specified as a primary inclusion criterion in the study.\",\n    \"The patient has a history of radiation therapy and multiple cycles of chemotherapy, which may not align with the specific timing and types of treatments required by the study.\"\n  ],\n  \"reasoning_summary\": \"The patient's condition and treatment history do not align with the specific inclusion criteria for this clinical trial, particularly regarding the location of the tumor and the timing of previous therapies.\",\n  \"safety_note\": \"Given the patient's complex medical history, it is important to consult with the study team for a thorough evaluation.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "The patient's anaplastic astrocytoma is located in the T-L spine, which is not specified as a primary inclusion criterion in the study.",
+      "The patient has a history of radiation therapy and multiple cycles of chemotherapy, which may not align with the specific timing and types of treatments required by the study."
+    ],
+    "reasoning_summary": "The patient's condition and treatment history do not align with the specific inclusion criteria for this clinical trial, particularly regarding the location of the tumor and the timing of previous therapies.",
+    "safety_note": "Given the patient's complex medical history, it is important to consult with the study team for a thorough evaluation."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "The patient's anaplastic astrocytoma is located in the T-L spine, which is not specified as a primary inclusion criterion in the study.",
+    "The patient has a history of radiation therapy and multiple cycles of chemotherapy, which may not align with the specific timing and types of treatments required by the study."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 15.746
+}

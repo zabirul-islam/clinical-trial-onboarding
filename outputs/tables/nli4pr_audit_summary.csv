@@ -1,0 +1,4 @@
+dataset,split,n_rows,label_col,avg_text_len_1,avg_text_len_2
+NLI4PR,train,4904,label,1.78,602.66
+NLI4PR,validation,525,label,1.76,602.71
+NLI4PR,test,1578,label,1.79,601.02

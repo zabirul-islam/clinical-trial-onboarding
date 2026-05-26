@@ -1,0 +1,107 @@
+{
+  "case_id": "case_08",
+  "backbone": "V1",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01737242",
+  "question": "What parts of joining this study are still unclear from the available information?",
+  "evidence": "[Passage 1 | doc=NCT01737242 | section=detailed_description]\nThose patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).\n\n[Passage 2 | doc=NCT00682994 | section=detailed_description]\nConfidentiality: Your interview and questionnaire responses will only be used for this research study, and will not be shared with your family member. Length of Study Participation: After completing the interview and questionnaires, your participation in this study will be over. This is an investigational study. In total, up to 900 patients and family members will take part in this multicenter study. Up to 300 will be enrolled at M. D. Anderson.\n\n[Passage 3 | doc=NCT01997359 | section=detailed_description]\nBackground: Although HIV care and treatment programs are being scaled up in sub-Saharan Africa, more than 50% of the patients in need of ART are not receiving it and there is still significant mortality from AIDS. One of the major challenges is high rates of late ART initiation (i.e., in the advanced stages of HIV disease) which results in high rates of mortality soon after initiation of ART. The individual-level factors that contribute to late ART initiation are still unclear. Objective: As the 3rd part of a 3-phase NIH-sponsored project, this study aims to identify individual-level enablers and barriers to timely enrollment into HIV care and ART initiation. Methods: We will be recruiting all patients newly initiating ART at the study sites for descriptive analysis (approximately 1,200). As a sub-analysis, we will be utilizing a case-control approach to examine potential individual risk factors (e.g.\n\n[Passage 4 | doc=NCT00682994 | section=detailed_description]\n(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).\n\n[Passage 5 | doc=NCT04542538 | section=detailed_description]\nThe Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring ICU-care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish ARDS-cohort.\n\n[Passage 6 | doc=NCT04542538 | section=summary]\nThe Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring intensive care unit (ICU) -care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish adult respiratory distress syndrome (ARDS) -cohort.\n\n[Passage 7 | doc=NCT01954316 | section=detailed_description]\nAll participants will receive CFI-400945. At the beginning of the study, participants are given a low dose of CFI-400945 and are watched very closely to see what side effects they have and to make sure the side effects are not severe. If the side effects are not severe, then more participants are asked to join the study and are given a higher dose of study drug. Participants joining the study later on will get higher doses of study drug than participants who join earlier. This will continue until the highest dose of study drug that can be taken without severe side effects is found (called maximum tolerated dose). Doses higher than that will not be given. After the best dose of study drug is found, additional participants will be asked to join the study and will be given the study drug at the maximum tolerated dose to further test the safety and the drug at that dose.\n\n[Passage 8 | doc=NCT01997359 | section=summary]\nThe availability of HIV care and treatment programs is increasing in sub-Saharan Africa. However more than half the patients who need HIV treatment are still not receiving antiretroviral therapy (ART). This can lead to early death from AIDS. Additionally, many patients start ART late after the HIV disease is very advanced. This results in high death rates soon after starting ART. The factors that contribute to late ART initiation are still unclear. This study will identify factors that help patients to enroll or prevent them from enrolling into HIV care and starting ART on time. We will examine the characteristics of all patients initiating ART at study sites. We will also look at potential risk factors among patients who initiate ART late (cases) compared to patients who initiate earlier (controls) at 6 HIV care and treatment clinics in Ethiopia. Data will be collected using 2 methods: 1. Face-to-face interviews with participants using questionnaires 2. Obtaining clinical data from the electronic patient-level database Identifying factors that help patients to start or prevent them from starting ART on time will help to direct interventions, programs and policies to reduce early death.",
+  "passages": [
+    {
+      "passage_id": "NCT01737242::detailed_description::2",
+      "doc_id": "NCT01737242",
+      "section": "detailed_description",
+      "text": "Those patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+      "score": 0.17289557
+    },
+    {
+      "passage_id": "NCT00682994::detailed_description::3",
+      "doc_id": "NCT00682994",
+      "section": "detailed_description",
+      "text": "Confidentiality: Your interview and questionnaire responses will only be used for this research study, and will not be shared with your family member. Length of Study Participation: After completing the interview and questionnaires, your participation in this study will be over. This is an investigational study. In total, up to 900 patients and family members will take part in this multicenter study. Up to 300 will be enrolled at M. D. Anderson.",
+      "score": -2.3354201
+    },
+    {
+      "passage_id": "NCT01997359::detailed_description::0",
+      "doc_id": "NCT01997359",
+      "section": "detailed_description",
+      "text": "Background: Although HIV care and treatment programs are being scaled up in sub-Saharan Africa, more than 50% of the patients in need of ART are not receiving it and there is still significant mortality from AIDS. One of the major challenges is high rates of late ART initiation (i.e., in the advanced stages of HIV disease) which results in high rates of mortality soon after initiation of ART. The individual-level factors that contribute to late ART initiation are still unclear. Objective: As the 3rd part of a 3-phase NIH-sponsored project, this study aims to identify individual-level enablers and barriers to timely enrollment into HIV care and ART initiation. Methods: We will be recruiting all patients newly initiating ART at the study sites for descriptive analysis (approximately 1,200). As a sub-analysis, we will be utilizing a case-control approach to examine potential individual risk factors (e.g.",
+      "score": -2.5294547
+    },
+    {
+      "passage_id": "NCT00682994::detailed_description::1",
+      "doc_id": "NCT00682994",
+      "section": "detailed_description",
+      "text": "(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).",
+      "score": -2.7862217
+    },
+    {
+      "passage_id": "NCT04542538::detailed_description::0",
+      "doc_id": "NCT04542538",
+      "section": "detailed_description",
+      "text": "The Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring ICU-care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish ARDS-cohort.",
+      "score": -3.1653376
+    },
+    {
+      "passage_id": "NCT04542538::summary::0",
+      "doc_id": "NCT04542538",
+      "section": "summary",
+      "text": "The Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring intensive care unit (ICU) -care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish adult respiratory distress syndrome (ARDS) -cohort.",
+      "score": -3.2904556
+    },
+    {
+      "passage_id": "NCT01954316::detailed_description::0",
+      "doc_id": "NCT01954316",
+      "section": "detailed_description",
+      "text": "All participants will receive CFI-400945. At the beginning of the study, participants are given a low dose of CFI-400945 and are watched very closely to see what side effects they have and to make sure the side effects are not severe. If the side effects are not severe, then more participants are asked to join the study and are given a higher dose of study drug. Participants joining the study later on will get higher doses of study drug than participants who join earlier. This will continue until the highest dose of study drug that can be taken without severe side effects is found (called maximum tolerated dose). Doses higher than that will not be given. After the best dose of study drug is found, additional participants will be asked to join the study and will be given the study drug at the maximum tolerated dose to further test the safety and the drug at that dose.",
+      "score": -3.6096663
+    },
+    {
+      "passage_id": "NCT01997359::summary::0",
+      "doc_id": "NCT01997359",
+      "section": "summary",
+      "text": "The availability of HIV care and treatment programs is increasing in sub-Saharan Africa. However more than half the patients who need HIV treatment are still not receiving antiretroviral therapy (ART). This can lead to early death from AIDS. Additionally, many patients start ART late after the HIV disease is very advanced. This results in high death rates soon after starting ART. The factors that contribute to late ART initiation are still unclear. This study will identify factors that help patients to enroll or prevent them from enrolling into HIV care and starting ART on time. We will examine the characteristics of all patients initiating ART at study sites. We will also look at potential risk factors among patients who initiate ART late (cases) compared to patients who initiate earlier (controls) at 6 HIV care and treatment clinics in Ethiopia. Data will be collected using 2 methods: 1. Face-to-face interviews with participants using questionnaires 2. Obtaining clinical data from the electronic patient-level database Identifying factors that help patients to start or prevent them from starting ART on time will help to direct interventions, programs and policies to reduce early death.",
+      "score": -3.7020893
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: possible_match_insufficient_evidence\nPatient-facing answer: This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.\nSupported facts: the study is about back pain; it involves a test called the 5R-STS; it aims to see if the test can predict surgery outcomes\nMissing patient facts: the exact eligibility criteria; the full details of the 5R-STS test; the expected duration of the study\nUnresolved study requirements: the full inclusion/exclusion criteria; the specific details of the 5R-STS test; the full timeline of the study\nReasoning: The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.\n\n=== Consent-style explanation ===\nstudy_purpose: This study aims to identify genetic factors contributing to prostate cancer. (supports: 1,2)\nwho_may_join: Men with prostate cancer diagnosed at a young age, or those in first-degree related pairs where one is under 65, or three or more relatives with prostate cancer at any age. (supports: 1,2)\nprocedures_or_participation: Participants will be invited to complete an interview and questionnaires about their preferences and health information. They will also be given an information sheet and consent form. (supports: 1,2)\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: The study involves a single interview and completion of questionnaires. (supports: 1,2)\nWhat is unclear: Not clearly stated in the retrieved evidence\n\nPatient-facing summary (rebuilt): Study purpose: This study aims to identify genetic factors contributing to prostate cancer. Who may join: Men with prostate cancer diagnosed at a young age, or those in first-degree related pairs where one is under 65, or three or more relatives with prostate cancer at any age. What participation may involve: Participants will be invited to complete an interview and questionnaires about their preferences and health information. They will also be given an information sheet and consent form. Time commitment: The study involves a single interview and completion of questionnaires.\n\n=== Teach-back questions ===\n- Who can join this study?\n- What does the study involve?\n- How do I sign up for the study?",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+    "supported_patient_facts": [
+      "the study is about back pain",
+      "it involves a test called the 5R-STS",
+      "it aims to see if the test can predict surgery outcomes"
+    ],
+    "missing_patient_facts": [
+      "the exact eligibility criteria",
+      "the full details of the 5R-STS test",
+      "the expected duration of the study"
+    ],
+    "unresolved_study_requirements": [
+      "the full inclusion/exclusion criteria",
+      "the specific details of the 5R-STS test",
+      "the full timeline of the study"
+    ],
+    "reasoning_summary": "The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.",
+    "safety_note": "No specific safety concerns are mentioned in the provided passages."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+  "missing_patient_facts": [
+    "the exact eligibility criteria",
+    "the full details of the 5R-STS test",
+    "the expected duration of the study"
+  ],
+  "unresolved_study_requirements": [
+    "the full inclusion/exclusion criteria",
+    "the specific details of the 5R-STS test",
+    "the full timeline of the study"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": null,
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

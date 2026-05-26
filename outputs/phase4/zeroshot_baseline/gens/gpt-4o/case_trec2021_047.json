@@ -1,0 +1,100 @@
+{
+  "case_id": "case_trec2021_047",
+  "backbone": "gpt-4o",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00004727",
+  "selected_doc": "NCT02651272",
+  "question": "I am considering a clinical trial. Here is my situation: A 62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness. His medical history was significant for hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week. He is not aware about his family history. He is using Levothyroxine, Atorvastatin and HTCZ. His vital signs were stable in the primary evaluation. Left-sided facial droop, dysarthria, and left-sided hemiplegia were seen in the physical exam. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7. Initial CT angiogram of head and neck reported no acute intracranial findings. Intravenous recombinant tissue plasminogen activator (t-PA) was administered as well as high-dose statin therapy. The patient was admitted to the intensive care unit to be monitored for 24 hours. MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02651272 | section=detailed_description]\nBackground and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.\n\n[Passage 2 | doc=NCT02651272 | section=detailed_description]\nTwo compared treatment with bosentan to placebo in SCD patients with right heart catheterization (RHC) -defined elevated pulmonary vascular resistance (PVR) with a normal pulmonary capillary wedge pressure (PCWP) (the ASSET-1 trial) or pulmonary venous hypertension (PVH) with a PVR > 100 dynes.sec/cm5 (the ASSET-2 trial). After the randomization of only 14 subjects in ASSET-1 and 12 patients in ASSET-2, the trials were prematurely terminated due to slow patient enrollment. Although very few patients were enrolled, there were no apparent toxicity issues. The third trial, Walk-PHaSST (Pulmonary Hypertension and Sickle Cell Disease with Sildenafil Therapy), compared the safety and efficacy of sildenafil to placebo in SCD patients with a TRV \u22652.7m/s. After 74 (of a targeted 132) subjects were enrolled, the study was prematurely discontinued due to an increase in serious adverse events in the sildenafil group, primarily hospitalization for pain. There are a number of possible explanations for these failed trials: 1. The hemodynamics of PH in SCD reflect a spectrum of abnormalities.\n\n[Passage 3 | doc=NCT02651272 | section=detailed_description]\nApproximately 40-50% of PH in SCD patients have hemodynamics similar to other forms of PAH; a mean pulmonary arterial pressure >25 mmHg, normal left-sided filling pressures (PCWP or left ventricular end diastolic pressure <15 mmHg) and an elevated PVR. But at least 50% of PH in SCD patients have at least some degree of PVH usually due to diastolic dysfunction of the left ventricle. How an elevated PVR is defined in PH of SCD is controversial. While typically in other forms of PAH, it is defined as 3 Wood units or 240 dynes.sec/cm5, this is reflective of a normal PVR of 120-160 dynes.sec/cm5. In SCD, the anemia-induced elevations in cardiac output observed in these patients produce a baseline PVR of 60-100 dynes.sec/cm5 suggesting that a PVR of 160 dynes.sec/cm5 or 2 Wood units may be a more appropriate value. 2. SCD is considered to be a rare disease in the US according to the NIH. As PAH of SCD probably only occurs in 2-4% of HbSS adults, many centers in the US will only have a few (<10) eligible patients for enrollment even under the best circumstances.\n\n[Passage 4 | doc=NCT02651272 | section=detailed_description]\nSCD patients often have co-morbidities limiting their participation in clinical trials, which often decreases this number even further. 3. The epidemiology of PH in SCD has been evolving over the past 10-15 years. Numerous studies demonstrated an elevated pulmonary artery systolic pressure (PASP) by echocardiography reflected by an elevated tricuspid regurgitant jet velocity (TRV) was present in 1/3 of HbSS and 10-28% of HbSC adults. However, an elevated TRV only has approximately a 25% positive predictive value for PH in SCD. The need for a right heart catheterization to confirm a diagnosis of PH in SCD has only been gaining clinical acceptance over the past few years and when the prior clinical trials were conducted, this was not a standard part of the PH workup in these patients. Given the serious limitations of the randomized trials, our clinical guidelines committee decided that its judgments regarding whether targeted PAH therapy is indicated in SCD patients with an elevated PVR and normal PCWP should be informed by indirect evidence from Group 1 PAH populations and our own clinical experience.\n\n[Passage 5 | doc=NCT02651272 | section=detailed_description]\nIn Group 1 PAH patients, it has been well-established by meta-analyses of randomized trials that targeted PAH therapy consistently improves exercise capacity, functional status, symptoms, cardiopulmonary hemodynamics and outcome. This indirect evidence is supported by four case series in which SCD patients with RHC-confirmed pre-capillary PH received targeted PAH therapy with bosentan, sildenafil, and/or epoprostenol. Targeted PAH therapy was associated with improvement in exercise capacity, with the six minute walk distance increasing 41 to 144 m beyond baseline. There were also improvements in the mean pulmonary artery pressure (PAP), PVR, and cardiac index, although these parameters were measured in only a few patients. The magnitude of the benefits was greatest among symptomatic patients. The most common adverse effects were headache (15%) and peripheral edema (21%); transaminase elevation was reported in 14% of patients during endothelin receptor antagonist therapy.\n\n[Passage 6 | doc=NCT02651272 | section=detailed_description]\nBased upon these results and the increased morbidity associated with sildenafil use, we are weakly recommending a trial of either a prostanoid or an endothelin receptor antagonist for select patients with SCD who have a RHC-confirmed marked elevation of their PVR, normal PCWP, and related symptoms. The FDA approval of macitentan for treatment of PAH represents a unique opportunity for study of the use of this medication in SCD. Endothelin-1 has long been established as an important mediator of vasoconstriction in SCD [19, 20] and more recent studies have implicated a role for this molecule in mouse models of PH in SCD [21]. PH and an elevated TRV are both independent risk factors for mortality in SCD [1, 2, 9, 22] and, as the median age of death of SCD patients is in the 5th decade irrespective of a PH diagnosis, the possibility of therapeutically altering this outcome is of key importance in this disease.",
+  "passages": [
+    {
+      "passage_id": "NCT02651272::detailed_description::0",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Background and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02651272::detailed_description::1",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Two compared treatment with bosentan to placebo in SCD patients with right heart catheterization (RHC) -defined elevated pulmonary vascular resistance (PVR) with a normal pulmonary capillary wedge pressure (PCWP) (the ASSET-1 trial) or pulmonary venous hypertension (PVH) with a PVR > 100 dynes.sec/cm5 (the ASSET-2 trial). After the randomization of only 14 subjects in ASSET-1 and 12 patients in ASSET-2, the trials were prematurely terminated due to slow patient enrollment. Although very few patients were enrolled, there were no apparent toxicity issues. The third trial, Walk-PHaSST (Pulmonary Hypertension and Sickle Cell Disease with Sildenafil Therapy), compared the safety and efficacy of sildenafil to placebo in SCD patients with a TRV \u22652.7m/s. After 74 (of a targeted 132) subjects were enrolled, the study was prematurely discontinued due to an increase in serious adverse events in the sildenafil group, primarily hospitalization for pain. There are a number of possible explanations for these failed trials: 1. The hemodynamics of PH in SCD reflect a spectrum of abnormalities.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02651272::detailed_description::2",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Approximately 40-50% of PH in SCD patients have hemodynamics similar to other forms of PAH; a mean pulmonary arterial pressure >25 mmHg, normal left-sided filling pressures (PCWP or left ventricular end diastolic pressure <15 mmHg) and an elevated PVR. But at least 50% of PH in SCD patients have at least some degree of PVH usually due to diastolic dysfunction of the left ventricle. How an elevated PVR is defined in PH of SCD is controversial. While typically in other forms of PAH, it is defined as 3 Wood units or 240 dynes.sec/cm5, this is reflective of a normal PVR of 120-160 dynes.sec/cm5. In SCD, the anemia-induced elevations in cardiac output observed in these patients produce a baseline PVR of 60-100 dynes.sec/cm5 suggesting that a PVR of 160 dynes.sec/cm5 or 2 Wood units may be a more appropriate value. 2. SCD is considered to be a rare disease in the US according to the NIH. As PAH of SCD probably only occurs in 2-4% of HbSS adults, many centers in the US will only have a few (<10) eligible patients for enrollment even under the best circumstances.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02651272::detailed_description::3",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "SCD patients often have co-morbidities limiting their participation in clinical trials, which often decreases this number even further. 3. The epidemiology of PH in SCD has been evolving over the past 10-15 years. Numerous studies demonstrated an elevated pulmonary artery systolic pressure (PASP) by echocardiography reflected by an elevated tricuspid regurgitant jet velocity (TRV) was present in 1/3 of HbSS and 10-28% of HbSC adults. However, an elevated TRV only has approximately a 25% positive predictive value for PH in SCD. The need for a right heart catheterization to confirm a diagnosis of PH in SCD has only been gaining clinical acceptance over the past few years and when the prior clinical trials were conducted, this was not a standard part of the PH workup in these patients. Given the serious limitations of the randomized trials, our clinical guidelines committee decided that its judgments regarding whether targeted PAH therapy is indicated in SCD patients with an elevated PVR and normal PCWP should be informed by indirect evidence from Group 1 PAH populations and our own clinical experience.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02651272::detailed_description::4",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "In Group 1 PAH patients, it has been well-established by meta-analyses of randomized trials that targeted PAH therapy consistently improves exercise capacity, functional status, symptoms, cardiopulmonary hemodynamics and outcome. This indirect evidence is supported by four case series in which SCD patients with RHC-confirmed pre-capillary PH received targeted PAH therapy with bosentan, sildenafil, and/or epoprostenol. Targeted PAH therapy was associated with improvement in exercise capacity, with the six minute walk distance increasing 41 to 144 m beyond baseline. There were also improvements in the mean pulmonary artery pressure (PAP), PVR, and cardiac index, although these parameters were measured in only a few patients. The magnitude of the benefits was greatest among symptomatic patients. The most common adverse effects were headache (15%) and peripheral edema (21%); transaminase elevation was reported in 14% of patients during endothelin receptor antagonist therapy.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02651272::detailed_description::5",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Based upon these results and the increased morbidity associated with sildenafil use, we are weakly recommending a trial of either a prostanoid or an endothelin receptor antagonist for select patients with SCD who have a RHC-confirmed marked elevation of their PVR, normal PCWP, and related symptoms. The FDA approval of macitentan for treatment of PAH represents a unique opportunity for study of the use of this medication in SCD. Endothelin-1 has long been established as an important mediator of vasoconstriction in SCD [19, 20] and more recent studies have implicated a role for this molecule in mouse models of PH in SCD [21]. PH and an elevated TRV are both independent risk factors for mortality in SCD [1, 2, 9, 22] and, as the median age of death of SCD patients is in the 5th decade irrespective of a PH diagnosis, the possibility of therapeutically altering this outcome is of key importance in this disease.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on patients with sickle cell disease and pulmonary hypertension.\",\n  \"supported_patient_facts\": [\n    \"62-year-old African-American man\",\n    \"Medical history of hypertension, hyperlipidemia, and hypothyroidism\",\n    \"Smokes cigarettes and consumes alcohol\",\n    \"Presented with stroke symptoms and received t-PA treatment\"\n  ],\n  \"missing_patient_facts\": [\n    \"Diagnosis of sickle cell disease\",\n    \"Presence of pulmonary hypertension\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Right heart catheterization to confirm elevated pulmonary vascular resistance\",\n    \"Normal pulmonary capillary wedge pressure\"\n  ],\n  \"reasoning_summary\": \"The trial is specifically for patients with sickle cell disease and pulmonary hypertension, which are not mentioned in the patient's medical history. Additionally, specific diagnostic tests like right heart catheterization are required to confirm eligibility.\",\n  \"safety_note\": \"This information is not a substitute for professional medical advice. Please consult with your healthcare provider for personalized guidance.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on patients with sickle cell disease and pulmonary hypertension.",
+    "supported_patient_facts": [
+      "62-year-old African-American man",
+      "Medical history of hypertension, hyperlipidemia, and hypothyroidism",
+      "Smokes cigarettes and consumes alcohol",
+      "Presented with stroke symptoms and received t-PA treatment"
+    ],
+    "missing_patient_facts": [
+      "Diagnosis of sickle cell disease",
+      "Presence of pulmonary hypertension"
+    ],
+    "unresolved_study_requirements": [
+      "Right heart catheterization to confirm elevated pulmonary vascular resistance",
+      "Normal pulmonary capillary wedge pressure"
+    ],
+    "reasoning_summary": "The trial is specifically for patients with sickle cell disease and pulmonary hypertension, which are not mentioned in the patient's medical history. Additionally, specific diagnostic tests like right heart catheterization are required to confirm eligibility.",
+    "safety_note": "This information is not a substitute for professional medical advice. Please consult with your healthcare provider for personalized guidance."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it seems unlikely that you would match this clinical trial, as it is focused on patients with sickle cell disease and pulmonary hypertension.",
+  "missing_patient_facts": [
+    "Diagnosis of sickle cell disease",
+    "Presence of pulmonary hypertension"
+  ],
+  "unresolved_study_requirements": [
+    "Right heart catheterization to confirm elevated pulmonary vascular resistance",
+    "Normal pulmonary capillary wedge pressure"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 3.4734226358123124
+}

@@ -1,0 +1,44 @@
+{
+  "study_purpose": {
+    "text": "To create a clinical database and bio-repository to study alcoholic hepatitis.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "who_may_join": {
+    "text": "Anyone who agrees to participate voluntarily and meets specific eligibility criteria.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will have their medical records reviewed, answer questions about their health, complete questionnaires, have a physical exam and blood drawn, and provide urine and stool samples.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "Up to 6 months for the study, with periodic follow-ups for up to 5 years.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study aims to create a database to study alcoholic hepatitis. Anyone who agrees to participate voluntarily can join. They will have their medical records reviewed, answer questions, complete questionnaires, and provide samples. The study lasts up to 6 months, with follow-ups for up to 5 years. Details about risks and burdens are not clear.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

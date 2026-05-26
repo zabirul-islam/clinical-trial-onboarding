@@ -1,0 +1,55 @@
+{
+  "n_total_with_gold": 50,
+  "n_train": 50,
+  "n_test": 0,
+  "features": [
+    "trial_score_share",
+    "dominance_ratio",
+    "raw_max_cross",
+    "best_rank"
+  ],
+  "y_variants": {
+    "any": {
+      "y_true_col": "selected_in_qrels_any",
+      "tau_only_test": {
+        "n": 50,
+        "base_rate": 0.42,
+        "ece": 0.15085427673481364,
+        "brier": 0.2687572147612895,
+        "bss": -0.1032726385931424
+      },
+      "joint_lr_test": null,
+      "cv_5fold_combined": {
+        "n_folds": 5,
+        "ece_mean": 0.30414837964347924,
+        "ece_std": 0.05651924338024486,
+        "brier_mean": 0.2315738759001257,
+        "brier_std": 0.043735700010689084,
+        "bss_mean": -0.05782890633590358,
+        "bss_std": 0.25170159643759354,
+        "base_rate_mean": 0.41999999999999993
+      }
+    },
+    "strict": {
+      "y_true_col": "selected_in_qrels_strict",
+      "tau_only_test": {
+        "n": 50,
+        "base_rate": 0.18,
+        "ece": 0.21230575381820319,
+        "brier": 0.21461089854032622,
+        "bss": -0.4540033776444865
+      },
+      "joint_lr_test": null,
+      "cv_5fold_combined": {
+        "n_folds": 5,
+        "ece_mean": 0.16622842430624413,
+        "ece_std": 0.05869626477367997,
+        "brier_mean": 0.1349599422851237,
+        "brier_std": 0.052283655624175265,
+        "bss_mean": NaN,
+        "bss_std": NaN,
+        "base_rate_mean": 0.18
+      }
+    }
+  }
+}

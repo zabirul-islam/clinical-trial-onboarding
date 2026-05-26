@@ -1,0 +1,21 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+  "supported_patient_facts": [
+    "the study is about back pain",
+    "it involves a test called the 5R-STS",
+    "it aims to see if the test can predict surgery outcomes"
+  ],
+  "missing_patient_facts": [
+    "the exact eligibility criteria",
+    "the full details of the 5R-STS test",
+    "the expected duration of the study"
+  ],
+  "unresolved_study_requirements": [
+    "the full inclusion/exclusion criteria",
+    "the specific details of the 5R-STS test",
+    "the full timeline of the study"
+  ],
+  "reasoning_summary": "The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.",
+  "safety_note": "No specific safety concerns are mentioned in the provided passages."
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "doc_id": "NCT01737242",
+    "n_passages": 1,
+    "best_rank": 1,
+    "sum_rrf": 0.5,
+    "sum_cross": 3.87498587,
+    "max_cross": 3.87498587,
+    "raw_sum_cross": 0.17289557,
+    "raw_max_cross": 0.17289557,
+    "trial_score": 2.0687436415000002
+  },
+  {
+    "doc_id": "NCT00682994",
+    "n_passages": 2,
+    "best_rank": 2,
+    "sum_rrf": 0.5333333333333333,
+    "sum_cross": 2.2825387999999998,
+    "max_cross": 1.3666702,
+    "raw_sum_cross": -5.1216418,
+    "raw_max_cross": -2.3354201,
+    "trial_score": 1.4671424599999998
+  },
+  {
+    "doc_id": "NCT01997359",
+    "n_passages": 2,
+    "best_rank": 3,
+    "sum_rrf": 0.3611111111111111,
+    "sum_cross": 1.1726365999999997,
+    "max_cross": 1.1726355999999998,
+    "raw_sum_cross": -6.2315439999999995,
+    "raw_max_cross": -2.5294547,
+    "trial_score": 0.89018647
+  },
+  {
+    "doc_id": "NCT04542538",
+    "n_passages": 2,
+    "best_rank": 5,
+    "sum_rrf": 0.30952380952380953,
+    "sum_cross": 0.9483873999999999,
+    "max_cross": 0.5367527,
+    "raw_sum_cross": -6.4557932000000005,
+    "raw_max_cross": -3.1653376,
+    "trial_score": 0.7660600442857142
+  },
+  {
+    "doc_id": "NCT01954316",
+    "n_passages": 1,
+    "best_rank": 7,
+    "sum_rrf": 0.125,
+    "sum_cross": 0.0924239999999997,
+    "max_cross": 0.0924239999999997,
+    "raw_sum_cross": -3.6096663,
+    "raw_max_cross": -3.6096663,
+    "trial_score": 0.19784079999999987
+  }
+]

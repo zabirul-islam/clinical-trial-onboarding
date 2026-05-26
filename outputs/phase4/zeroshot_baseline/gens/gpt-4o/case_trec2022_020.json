@@ -1,0 +1,95 @@
+{
+  "case_id": "case_trec2022_020",
+  "backbone": "gpt-4o",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03835351",
+  "question": "I am considering a clinical trial. Here is my situation: A 49-year-old man comes to the office because of the bulging in his groin. Physical examination shows a swelling above the inguinal ligament. When the patient is asked to cough, the size of the bulge increases. His medical history is significant for mild dyslipidemia, which is under control by lifestyle modifications. He does not smoke, but drinks alcohol occasionally. His vital signs and other physical examinations are unremarkable. He is referred to a surgeon and scheduled to undergo elective laparoscopic hernia repair. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03835351 | section=detailed_description]\nAn inguinal hernia repair is a common outpatient procedure with a low rate of morbidity. One well-recognized complication of this operation is post-operative urinary retention (PUR), which is a failure of spontaneous voiding requiring insertion of a urinary catheter. The reported incidence of PUR ranges between 0.4 and 3% of open tension-free repairs. For laparoscopic inguinal hernia repairs that range is between 1 and 22. Since no randomized controlled trials have evaluated PUR as the primary outcome exist in literature, there is no consensus on whether catheter use aids in minimizing post-operative urinary retention. Routine use of intraoperative catheterization increases the risk of urethral trauma, catheter-associated infections and bladder damage leading to increased cost of care and potential patient morbidity. On the other hand, PUR is associated with additional procedures, such as catheterization, which may delay hospital discharge or increase the length of stay and cause patient discomfort. This work aims to study the effect of intraoperative catheters on PUR and whether the aforementioned risks associated with this procedure are justified.\n\n[Passage 2 | doc=NCT03835351 | section=detailed_description]\nWe hypothesize that the use of intra-operative urinary catheter reduces the incidence of postoperative urinary retention after laparoscopic inguinal hernia repair, thus justifying the potential complications associated with intra-operative catheter insertion. All patients will be asked to void in the pre-operative area prior to going into the operating room. Patients will be operated in the supine, and slight Trendelenburg position (15\u00ba degrees), with arms tucked along the body. The procedure will be performed under general anesthesia. After induction of anesthesia, randomization will occur. It will be performed according to a computer-generated block randomization scheme. The randomization will be stratified for unilateral or bilateral hernias. Antibiotic prophylaxis will be performed according to institutional protocol. Pharmacological prophylaxis of venous thromboembolic events is usually not necessary for general laparoscopic inguinal hernia repair. Although, if deemed necessary, this will be performed per Surgical Care Improvement Project (SCIP) protocol and will not be considered a protocol deviation. Skin preparation and hair removal will be performed per SCIP protocol.\n\n[Passage 3 | doc=NCT03835351 | section=detailed_description]\nAll necessary materials, including the urine catheterization kit, will be available in the operative room before the start of the procedure. The Americas Hernia Society Quality Collaborative (AHSQC) registry will serve as the main platform for data collection. Registry-based trials use data available in a preexisting database to increase the efficiency of performing RCTs, decreasing the high cost and logistical challenges associated with operationalizing this type of research. Post-operative urinary retention will be defined as post-operative failure to void requiring straight catheterization, placement of an indwelling catheter or return to the emergency department due to failure to void after discharge from the hospital. Bladder scanning, its timing and specific criteria for placement of urinary catheter will be determined by the standard policies of each institution where the surgery was performed and the surgeon. Specific Aim #1: To determine if the use of intra-operative urinary catheter reduces the incidence of postoperative urinary retention after laparoscopic inguinal hernia repair. This will be assessed by comparing the PUR rates between the two study groups.\n\n[Passage 4 | doc=NCT03835351 | section=detailed_description]\nSpecific Aim #2: To determine if there is a difference in the rates of intraoperative bladder injuries between the study groups. This will be determined by comparing the rates of intraoperative bladder injuries between the two study groups. Specific Aim #3: To determine the rate of urinary tract complications after insertion of the intra operative urinary catheter for the control group. This will be accomplished by analyzing the rates of urinary tract injury, infections and bladder injuries due to intraoperative catheter placement. Specific Aim #4: To determine the rate of urinary tract complications after insertion of a urinary catheter for patients who develop PUR. This will be accomplished by analyzing the rates of urinary tract injury, or infections and bladder injuries due to catheter placement after patients develop PUR.\n\n[Passage 5 | doc=NCT03835351 | section=eligibility]\nInclusion Criteria: - 18 years of age or older - Able to give informed consent - Unilateral or bilateral inguinal hernia - Scheduled for elective inguinal hernia repair - Eligible to tolerate general anesthesia - Eligible to undergo minimally invasive inguinal hernia repair Exclusion Criteria: - Diagnosed with benign prostate hyperplasia (BPH) - Younger than 18 years old - Unable to give informed consent - Emergent inguinal hernia repairs ( acute incarceration or strangulation) - Unable to tolerate general anesthesia - Not eligible for minimally invasive inguinal hernia repair\n\n[Passage 6 | doc=NCT03835351 | section=summary]\nThis will be a randomized controlled study which will compare the rate of post-operative urinary retention after laparoscopic inguinal hernia repair between patients who receive an intra-operative urinary catheter and those who do not. The primary aim of the study is to determine if the use of intra-operative urinary catheter reduces the incidence of post-operative urinary retention after laparoscopic inguinal hernia repair. Specific patient inclusion criteria include all patients aged 18 years or older presenting for an elective unilateral or bilateral inguinal hernia repair, who are able to tolerate general anesthesia and are considered eligible to have a hernia repair through a laparoscopic approach.",
+  "passages": [
+    {
+      "passage_id": "NCT03835351::detailed_description::0",
+      "doc_id": "NCT03835351",
+      "section": "detailed_description",
+      "passage_text": "An inguinal hernia repair is a common outpatient procedure with a low rate of morbidity. One well-recognized complication of this operation is post-operative urinary retention (PUR), which is a failure of spontaneous voiding requiring insertion of a urinary catheter. The reported incidence of PUR ranges between 0.4 and 3% of open tension-free repairs. For laparoscopic inguinal hernia repairs that range is between 1 and 22. Since no randomized controlled trials have evaluated PUR as the primary outcome exist in literature, there is no consensus on whether catheter use aids in minimizing post-operative urinary retention. Routine use of intraoperative catheterization increases the risk of urethral trauma, catheter-associated infections and bladder damage leading to increased cost of care and potential patient morbidity. On the other hand, PUR is associated with additional procedures, such as catheterization, which may delay hospital discharge or increase the length of stay and cause patient discomfort. This work aims to study the effect of intraoperative catheters on PUR and whether the aforementioned risks associated with this procedure are justified.",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03835351::detailed_description::1",
+      "doc_id": "NCT03835351",
+      "section": "detailed_description",
+      "passage_text": "We hypothesize that the use of intra-operative urinary catheter reduces the incidence of postoperative urinary retention after laparoscopic inguinal hernia repair, thus justifying the potential complications associated with intra-operative catheter insertion. All patients will be asked to void in the pre-operative area prior to going into the operating room. Patients will be operated in the supine, and slight Trendelenburg position (15\u00ba degrees), with arms tucked along the body. The procedure will be performed under general anesthesia. After induction of anesthesia, randomization will occur. It will be performed according to a computer-generated block randomization scheme. The randomization will be stratified for unilateral or bilateral hernias. Antibiotic prophylaxis will be performed according to institutional protocol. Pharmacological prophylaxis of venous thromboembolic events is usually not necessary for general laparoscopic inguinal hernia repair. Although, if deemed necessary, this will be performed per Surgical Care Improvement Project (SCIP) protocol and will not be considered a protocol deviation. Skin preparation and hair removal will be performed per SCIP protocol.",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03835351::detailed_description::2",
+      "doc_id": "NCT03835351",
+      "section": "detailed_description",
+      "passage_text": "All necessary materials, including the urine catheterization kit, will be available in the operative room before the start of the procedure. The Americas Hernia Society Quality Collaborative (AHSQC) registry will serve as the main platform for data collection. Registry-based trials use data available in a preexisting database to increase the efficiency of performing RCTs, decreasing the high cost and logistical challenges associated with operationalizing this type of research. Post-operative urinary retention will be defined as post-operative failure to void requiring straight catheterization, placement of an indwelling catheter or return to the emergency department due to failure to void after discharge from the hospital. Bladder scanning, its timing and specific criteria for placement of urinary catheter will be determined by the standard policies of each institution where the surgery was performed and the surgeon. Specific Aim #1: To determine if the use of intra-operative urinary catheter reduces the incidence of postoperative urinary retention after laparoscopic inguinal hernia repair. This will be assessed by comparing the PUR rates between the two study groups.",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03835351::detailed_description::3",
+      "doc_id": "NCT03835351",
+      "section": "detailed_description",
+      "passage_text": "Specific Aim #2: To determine if there is a difference in the rates of intraoperative bladder injuries between the study groups. This will be determined by comparing the rates of intraoperative bladder injuries between the two study groups. Specific Aim #3: To determine the rate of urinary tract complications after insertion of the intra operative urinary catheter for the control group. This will be accomplished by analyzing the rates of urinary tract injury, infections and bladder injuries due to intraoperative catheter placement. Specific Aim #4: To determine the rate of urinary tract complications after insertion of a urinary catheter for patients who develop PUR. This will be accomplished by analyzing the rates of urinary tract injury, or infections and bladder injuries due to catheter placement after patients develop PUR.",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03835351::eligibility::0",
+      "doc_id": "NCT03835351",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - 18 years of age or older - Able to give informed consent - Unilateral or bilateral inguinal hernia - Scheduled for elective inguinal hernia repair - Eligible to tolerate general anesthesia - Eligible to undergo minimally invasive inguinal hernia repair Exclusion Criteria: - Diagnosed with benign prostate hyperplasia (BPH) - Younger than 18 years old - Unable to give informed consent - Emergent inguinal hernia repairs ( acute incarceration or strangulation) - Unable to tolerate general anesthesia - Not eligible for minimally invasive inguinal hernia repair",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03835351::summary::0",
+      "doc_id": "NCT03835351",
+      "section": "summary",
+      "passage_text": "This will be a randomized controlled study which will compare the rate of post-operative urinary retention after laparoscopic inguinal hernia repair between patients who receive an intra-operative urinary catheter and those who do not. The primary aim of the study is to determine if the use of intra-operative urinary catheter reduces the incidence of post-operative urinary retention after laparoscopic inguinal hernia repair. Specific patient inclusion criteria include all patients aged 18 years or older presenting for an elective unilateral or bilateral inguinal hernia repair, who are able to tolerate general anesthesia and are considered eligible to have a hernia repair through a laparoscopic approach.",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"Based on the information you provided, you seem to meet the main criteria for the clinical trial. However, final eligibility can only be determined by the study team.\",\n  \"supported_patient_facts\": [\n    \"49-year-old man\",\n    \"Scheduled for elective laparoscopic hernia repair\",\n    \"Able to tolerate general anesthesia\"\n  ],\n  \"missing_patient_facts\": [\n    \"Confirmation of ability to give informed consent\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Site-specific policies for bladder scanning and catheter placement\"\n  ],\n  \"reasoning_summary\": \"The patient meets the age requirement, is scheduled for the correct type of surgery, and can tolerate general anesthesia, which aligns with the study's inclusion criteria. However, the ability to give informed consent needs confirmation, and site-specific procedures may affect eligibility.\",\n  \"safety_note\": \"Eligibility for clinical trials should be confirmed by the study team. This information is not a substitute for professional medical advice.\"\n}\n```",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "Based on the information you provided, you seem to meet the main criteria for the clinical trial. However, final eligibility can only be determined by the study team.",
+    "supported_patient_facts": [
+      "49-year-old man",
+      "Scheduled for elective laparoscopic hernia repair",
+      "Able to tolerate general anesthesia"
+    ],
+    "missing_patient_facts": [
+      "Confirmation of ability to give informed consent"
+    ],
+    "unresolved_study_requirements": [
+      "Site-specific policies for bladder scanning and catheter placement"
+    ],
+    "reasoning_summary": "The patient meets the age requirement, is scheduled for the correct type of surgery, and can tolerate general anesthesia, which aligns with the study's inclusion criteria. However, the ability to give informed consent needs confirmation, and site-specific procedures may affect eligibility.",
+    "safety_note": "Eligibility for clinical trials should be confirmed by the study team. This information is not a substitute for professional medical advice."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "Based on the information you provided, you seem to meet the main criteria for the clinical trial. However, final eligibility can only be determined by the study team.",
+  "missing_patient_facts": [
+    "Confirmation of ability to give informed consent"
+  ],
+  "unresolved_study_requirements": [
+    "Site-specific policies for bladder scanning and catheter placement"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 2.4241570131853223
+}

@@ -1,0 +1,34 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "Children with autism spectrum disorder aged 6-12 who can walk independently may join the study.",
+    "support_passages": [
+      1
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "Specific risks or burdens associated with the study.",
+    "Time commitment required for participation."
+  ],
+  "patient_facing_summary": {
+    "text": "This study aims to help children with autism who can walk. They may need to visit the clinic and do tests. But we don't know if there are any risks or how much time it will take.",
+    "support_passages": [
+      1
+    ]
+  }
+}

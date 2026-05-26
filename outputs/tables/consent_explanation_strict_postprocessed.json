@@ -1,0 +1,37 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "Eligible participants are cancer survivors or their romantic partners who meet specific criteria.",
+    "support_passages": [
+      1
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants need to complete online questionnaires and provide personal information.",
+    "support_passages": [
+      1
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "It takes approximately several hours to complete the online questionnaires.",
+    "support_passages": [
+      1
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study involves cancer survivors and their partners answering online questions about their experiences.",
+    "support_passages": [
+      1
+    ]
+  }
+}

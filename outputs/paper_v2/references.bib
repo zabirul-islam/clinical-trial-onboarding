@@ -1,0 +1,817 @@
+% =============================================================
+% Retrieval, RAG, and IR foundations
+% =============================================================
+@article{robertson2009bm25,
+  title     = {The Probabilistic Relevance Framework: {BM25} and Beyond},
+  author    = {Robertson, Stephen and Zaragoza, Hugo},
+  journal   = {Foundations and Trends in Information Retrieval},
+  volume    = {3},
+  number    = {4},
+  pages     = {333--389},
+  year      = {2009},
+  doi       = {10.1561/1500000019}
+}
+
+@inproceedings{lewis2020rag,
+  title     = {Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks},
+  author    = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio
+               and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich
+               and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim
+               and Riedel, Sebastian and Kiela, Douwe},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+
+@inproceedings{karpukhin2020dpr,
+  title     = {Dense Passage Retrieval for Open-Domain Question Answering},
+  author    = {Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick and
+               Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},
+  booktitle = {Proc. of EMNLP},
+  year      = {2020},
+  doi       = {10.18653/v1/2020.emnlp-main.550}
+}
+
+@inproceedings{reimers2019sbert,
+  title     = {Sentence-{BERT}: Sentence Embeddings using {S}iamese {BERT}-Networks},
+  author    = {Reimers, Nils and Gurevych, Iryna},
+  booktitle = {Proc. of EMNLP-IJCNLP},
+  year      = {2019},
+  doi       = {10.18653/v1/D19-1410}
+}
+
+@inproceedings{nogueira2019passage,
+  title     = {Passage Re-ranking with {BERT}},
+  author    = {Nogueira, Rodrigo and Cho, Kyunghyun},
+  booktitle = {arXiv preprint arXiv:1901.04085},
+  year      = {2019}
+}
+
+@inproceedings{khattab2020colbert,
+  title     = {{ColBERT}: Efficient and Effective Passage Search via Contextualized Late Interaction over {BERT}},
+  author    = {Khattab, Omar and Zaharia, Matei},
+  booktitle = {Proc. of SIGIR},
+  year      = {2020},
+  doi       = {10.1145/3397271.3401075}
+}
+
+@inproceedings{thakur2021beir,
+  title     = {{BEIR}: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models},
+  author    = {Thakur, Nandan and Reimers, Nils and R{\"u}ckl{\'e}, Andreas and
+               Srivastava, Abhishek and Gurevych, Iryna},
+  booktitle = {NeurIPS Datasets and Benchmarks},
+  year      = {2021}
+}
+
+@inproceedings{guu2020realm,
+  title     = {{REALM}: Retrieval-Augmented Language Model Pre-Training},
+  author    = {Guu, Kelvin and Lee, Kenton and Tung, Zora and Pasupat, Panupong and
+               Chang, Ming-Wei},
+  booktitle = {Proc. of ICML},
+  year      = {2020}
+}
+
+@article{izacard2022contriever,
+  title     = {Unsupervised Dense Information Retrieval with Contrastive Learning},
+  author    = {Izacard, Gautier and Caron, Mathilde and Hosseini, Lucas and
+               Riedel, Sebastian and Bojanowski, Piotr and Joulin, Armand
+               and Grave, Edouard},
+  journal   = {Transactions on Machine Learning Research},
+  year      = {2022}
+}
+
+@article{xiao2024bge,
+  title     = {{C-Pack}: Packed Resources For General {C}hinese Embeddings},
+  author    = {Xiao, Shitao and Liu, Zheng and Zhang, Peitian and Muennighoff, Niklas
+               and Lian, Defu and Nie, Jian-Yun},
+  journal   = {Proc. of SIGIR},
+  year      = {2024}
+}
+
+@inproceedings{formal2021splade,
+  title     = {{SPLADE}: Sparse Lexical and Expansion Model for First Stage Ranking},
+  author    = {Formal, Thibault and Piwowarski, Benjamin and Clinchant, St{\'e}phane},
+  booktitle = {Proc. of SIGIR},
+  year      = {2021}
+}
+
+@inproceedings{lin2021pyserini,
+  title     = {Pyserini: A {Python} Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations},
+  author    = {Lin, Jimmy and Ma, Xueguang and Lin, Sheng-Chieh and Yang, Jheng-Hong
+               and Pradeep, Ronak and Nogueira, Rodrigo},
+  booktitle = {Proc. of SIGIR},
+  year      = {2021}
+}
+
+@inproceedings{hofstatter2021crossenc,
+  title     = {Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling},
+  author    = {Hofst{\"a}tter, Sebastian and Lin, Sheng-Chieh and Yang, Jheng-Hong and
+               Lin, Jimmy and Hanbury, Allan},
+  booktitle = {Proc. of SIGIR},
+  year      = {2021}
+}
+
+@inproceedings{wang2020minilm,
+  title     = {{MiniLM}: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers},
+  author    = {Wang, Wenhui and Wei, Furu and Dong, Li and Bao, Hangbo and
+               Yang, Nan and Zhou, Ming},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+
+@article{rackauckas2024rag,
+  title     = {{RAG-Fusion}: A New Take on Retrieval-Augmented Generation},
+  author    = {Rackauckas, Zackary},
+  journal   = {arXiv preprint arXiv:2402.03367},
+  year      = {2024}
+}
+
+% =============================================================
+% Clinical trial matching, recruitment, and benchmarks
+% =============================================================
+@inproceedings{zhang2020deepenroll,
+  title     = {{DeepEnroll}: Patient-Trial Matching with Deep Embedding and Entailment Prediction},
+  author    = {Zhang, Xingyao and Xiao, Cao and Glass, Lucas M. and Sun, Jimeng},
+  booktitle = {Proc. of The Web Conference},
+  year      = {2020},
+  doi       = {10.1145/3366423.3380181}
+}
+
+@inproceedings{gao2020compose,
+  title     = {{COMPOSE}: Cross-Modal Pseudo-{S}iamese Network for Patient Trial Matching},
+  author    = {Gao, Junyi and Xiao, Cao and Glass, Lucas M. and Sun, Jimeng},
+  booktitle = {Proc. of ACM SIGKDD},
+  year      = {2020},
+  doi       = {10.1145/3394486.3403123}
+}
+
+@article{jin2024trialgpt,
+  title     = {Matching Patients to Clinical Trials with Large Language Models},
+  author    = {Jin, Qiao and Wang, Zifeng and Floudas, Charalampos S. and Chen, Fangyuan
+               and Gong, Changlin and Bracken-Clarke, Dara and Xue, Elisabetta
+               and Yang, Yifan and Sun, Jimeng and Lu, Zhiyong},
+  journal   = {Nature Communications},
+  volume    = {15},
+  pages     = {9887},
+  year      = {2024},
+  doi       = {10.1038/s41467-024-53081-z}
+}
+
+@article{gupta2024prism,
+  title     = {{PRISM}: Patient Records Interpretation for Semantic Clinical Trial Matching using Large Language Models},
+  author    = {Gupta, Shashi and Basu, Aditya and Nievas, Mauro and Thomas, Jerrin and
+               Wolfrath, Nathan and Ramamurthi, Adhitya and Thakkar, Bradley and
+               Ahsan, Dhruv Kumar and Bagwe, Sanu and Guevara, Siyam S. and
+               Gutti, Sunandini and Li, Harry and Wang, Yilai and Roy, Soham},
+  journal   = {npj Digital Medicine},
+  volume    = {7},
+  pages     = {305},
+  year      = {2024},
+  doi       = {10.1038/s41746-024-01274-7}
+}
+
+@article{chang2024fair,
+  title     = {Towards Fair Patient-Trial Matching via Patient-Criterion Level Fairness Constraints},
+  author    = {Chang, Chia-Yuan and Harjadi, Chris and Li, Jie and Xiao, Cao and Sun, Jimeng},
+  journal   = {AMIA Annual Symposium Proceedings},
+  year      = {2024}
+}
+
+@article{lu2024airecruit,
+  title     = {Artificial Intelligence for Optimizing Recruitment and Retention in Clinical Trials},
+  author    = {Lu, Xiao and et al.},
+  journal   = {Contemporary Clinical Trials},
+  year      = {2024}
+}
+
+@inproceedings{roberts2021trec,
+  title     = {Overview of the {TREC} 2021 Clinical Trials Track},
+  author    = {Roberts, Kirk and Demner-Fushman, Dina and Voorhees, Ellen M.
+               and Bedrick, Steven and Hersh, William R.},
+  booktitle = {Proc. of TREC},
+  year      = {2021}
+}
+
+@inproceedings{soboroff2022trec,
+  title     = {Overview of the {TREC} 2022 Clinical Trials Track},
+  author    = {Soboroff, Ian and Roberts, Kirk},
+  booktitle = {Proc. of TREC},
+  year      = {2022}
+}
+
+@inproceedings{koopman2016trec,
+  title     = {A Test Collection for Matching Patients to Clinical Trials},
+  author    = {Koopman, Bevan and Zuccon, Guido},
+  booktitle = {Proc. of SIGIR},
+  year      = {2016}
+}
+
+@inproceedings{aguiar2025amieligible,
+  title     = {Am I Eligible? Natural Language Inference for Clinical Trial Patient Recruitment: The Patient's Point of View},
+  author    = {Aguiar, Mathilde and Zweigenbaum, Pierre and Naderi, Nona},
+  booktitle = {Proc. of the Second Workshop on Patient-Oriented Language Processing (CL4Health)},
+  year      = {2025},
+  url       = {https://aclanthology.org/2025.cl4health-1.21/}
+}
+
+@article{chen2025enhancing,
+  title     = {Enhancing Patient-Trial Matching with Large Language Models},
+  author    = {Chen, Haoran and et al.},
+  journal   = {JCO Clinical Cancer Informatics},
+  year      = {2025},
+  doi       = {10.1200/CCI-25-00071}
+}
+
+@article{wang2023trial2vec,
+  title     = {Trial2Vec: Zero-Shot Clinical Trial Document Similarity Search via Self-Supervision},
+  author    = {Wang, Zifeng and Sun, Jimeng},
+  journal   = {Proc. of EMNLP Findings},
+  year      = {2022}
+}
+
+@article{wong2024scaling,
+  title     = {Scaling Clinical Trial Matching Using Large Language Models: A Case Study in Oncology},
+  author    = {Wong, Cliff and Zhang, Sheng and Gero, Zelalem and Zhao, Yu
+               and Poon, Hoifung},
+  journal   = {Machine Learning for Health (ML4H)},
+  year      = {2023}
+}
+
+@article{bustos2018trial,
+  title     = {Learning Eligibility in Cancer Clinical Trials using Deep Neural Networks},
+  author    = {Bustos, Aurelia and Pertusa, Antonio},
+  journal   = {Applied Sciences},
+  volume    = {8},
+  number    = {7},
+  pages     = {1206},
+  year      = {2018}
+}
+
+@article{nievas2024distilling,
+  title     = {Distilling Large Language Models for Matching Patients to Clinical Trials},
+  author    = {Nievas, Mauro and Basu, Aditya and Wang, Yilai and Singh, Harshit},
+  journal   = {Journal of the American Medical Informatics Association},
+  year      = {2024}
+}
+
+% =============================================================
+% Medical LLMs and healthcare RAG
+% =============================================================
+@article{singhal2023medpalm,
+  title     = {Large Language Models Encode Clinical Knowledge},
+  author    = {Singhal, Karan and Azizi, Shekoofeh and Tu, Tao and others},
+  journal   = {Nature},
+  volume    = {620},
+  pages     = {172--180},
+  year      = {2023},
+  doi       = {10.1038/s41586-023-06291-2}
+}
+
+@article{singhal2025medpalm2,
+  title     = {Toward Expert-Level Medical Question Answering with Large Language Models},
+  author    = {Singhal, Karan and Tu, Tao and Gottweis, Juraj and others},
+  journal   = {Nature Medicine},
+  year      = {2025},
+  doi       = {10.1038/s41591-024-03423-7}
+}
+
+@inproceedings{lievin2024can,
+  title     = {Can Large Language Models Reason about Medical Questions?},
+  author    = {Li{\'e}vin, Valentin and Hother, Christoffer Egeberg and Motzfeldt, Andreas Geert
+               and Winther, Ole},
+  journal   = {Patterns},
+  year      = {2024}
+}
+
+@inproceedings{zhao2025medrag,
+  title     = {{MedRAG}: Enhancing Retrieval-Augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot},
+  author    = {Zhao, Xuejiao and Liu, Siyan and Yang, Su-Yin and Miao, Chunyan},
+  booktitle = {Companion Proceedings of the ACM Web Conference},
+  year      = {2025},
+  doi       = {10.1145/3696410.3714782}
+}
+
+@article{xiong2024benchmarking,
+  title     = {Benchmarking Retrieval-Augmented Generation for Medicine},
+  author    = {Xiong, Guangzhi and Jin, Qiao and Lu, Zhiyong and Zhang, Aidong},
+  journal   = {Proc. of ACL Findings},
+  year      = {2024}
+}
+
+@article{neha2025ragsystematic,
+  title     = {Retrieval-Augmented Generation ({RAG}) in Healthcare: A Systematic Literature Review},
+  author    = {Neha, Farrin and et al.},
+  journal   = {AI},
+  year      = {2025}
+}
+
+@article{maity2025llmhealth,
+  title     = {Large Language Models in Healthcare and Medical Applications},
+  author    = {Maity, Subhankar and et al.},
+  journal   = {Healthcare Analytics},
+  year      = {2025}
+}
+
+@article{lee2020biobert,
+  title     = {{BioBERT}: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining},
+  author    = {Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and others},
+  journal   = {Bioinformatics},
+  volume    = {36},
+  number    = {4},
+  pages     = {1234--1240},
+  year      = {2020}
+}
+
+@inproceedings{alsentzer2019clinicalbert,
+  title     = {Publicly Available Clinical {BERT} Embeddings},
+  author    = {Alsentzer, Emily and Murphy, John and Boag, Willie and
+               Weng, Wei-Hung and Jindi, Di and Naumann, Tristan and
+               McDermott, Matthew},
+  booktitle = {Proc. of the Clinical NLP Workshop},
+  year      = {2019}
+}
+
+@article{ayers2023comparing,
+  title     = {Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum},
+  author    = {Ayers, John W. and Poliak, Adam and Dredze, Mark and others},
+  journal   = {JAMA Internal Medicine},
+  volume    = {183},
+  number    = {6},
+  pages     = {589--596},
+  year      = {2023}
+}
+
+% =============================================================
+% Safety, hallucination, uncertainty, and trustworthiness
+% =============================================================
+@article{ji2023hallucination,
+  title     = {Survey of Hallucination in Natural Language Generation},
+  author    = {Ji, Ziwei and Lee, Nayeon and Frieske, Rita and others},
+  journal   = {ACM Computing Surveys},
+  volume    = {55},
+  number    = {12},
+  pages     = {1--38},
+  year      = {2023}
+}
+
+@inproceedings{maynez2020faithfulness,
+  title     = {On Faithfulness and Factuality in Abstractive Summarization},
+  author    = {Maynez, Joshua and Narayan, Shashi and Bohnet, Bernd and McDonald, Ryan},
+  booktitle = {Proc. of ACL},
+  year      = {2020}
+}
+
+@article{wu2024uncertainty,
+  title     = {Uncertainty Estimation of Large Language Models in Medical Question Answering},
+  author    = {Wu, Jiaxin and Yu, Yue and Zhou, Hong-Yu},
+  journal   = {arXiv preprint arXiv:2407.08662},
+  year      = {2024}
+}
+
+@article{zhou2025uncertaintyaware,
+  title     = {Uncertainty-Aware Large Language Models for Explainable Diagnosis and Clinical Information Sufficiency Assessment},
+  author    = {Zhou, Shan and et al.},
+  journal   = {npj Digital Medicine},
+  year      = {2025},
+  doi       = {10.1038/s41746-025-02071-6}
+}
+
+@inproceedings{wang2025trustworthy,
+  title     = {Trustworthy Medical Question Answering: An Evaluation-Centered Perspective},
+  author    = {Wang, Yi and et al.},
+  booktitle = {Proc. of EMNLP},
+  year      = {2025}
+}
+
+@article{lucas2024reasoning,
+  title     = {Reasoning with Large Language Models for Medical Question Answering},
+  author    = {Lucas, Mary M. and Yang, Justin and Pomeroy, Jeffrey K. and Yang, Christopher C.},
+  journal   = {Journal of the American Medical Informatics Association},
+  volume    = {31},
+  number    = {9},
+  pages     = {1964--1975},
+  year      = {2024}
+}
+
+@article{kadavath2022know,
+  title     = {Language Models (Mostly) Know What They Know},
+  author    = {Kadavath, Saurav and Conerly, Tom and Askell, Amanda and others},
+  journal   = {arXiv preprint arXiv:2207.05221},
+  year      = {2022}
+}
+
+@inproceedings{mielke2022reducing,
+  title     = {Reducing Conversational Agents' Overconfidence through Linguistic Calibration},
+  author    = {Mielke, Sabrina J. and Szlam, Arthur and Dinan, Emily and Boureau, Y-Lan},
+  booktitle = {Transactions of the ACL},
+  year      = {2022}
+}
+
+@inproceedings{min2023factscore,
+  title     = {{FActScore}: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation},
+  author    = {Min, Sewon and Krishna, Kalpesh and Lyu, Xinxi and others},
+  booktitle = {Proc. of EMNLP},
+  year      = {2023}
+}
+
+@article{pal2023medhalu,
+  title     = {Med-{HALT}: Medical Domain Hallucination Test for Large Language Models},
+  author    = {Pal, Ankit and Umapathi, Logesh Kumar and Sankarasubbu, Malaikannan},
+  journal   = {Proc. of CoNLL},
+  year      = {2023}
+}
+
+@article{huang2025survey,
+  title     = {A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions},
+  author    = {Huang, Lei and Yu, Weijiang and Ma, Weitao and others},
+  journal   = {ACM Transactions on Information Systems},
+  year      = {2025}
+}
+
+% =============================================================
+% Teach-back, informed consent, and health communication
+% =============================================================
+@article{kripalani2008teachback,
+  title     = {Clinical Research in Low-Literacy Populations: Using Teach-Back to Assess Comprehension of Informed Consent and Privacy Information},
+  author    = {Kripalani, Sunil and Bengtzen, Rachel and Henderson, Louise E. and Jacobson, Terry A.},
+  journal   = {IRB: Ethics \& Human Research},
+  volume    = {30},
+  number    = {2},
+  pages     = {13--19},
+  year      = {2008}
+}
+
+@article{talevski2020teachback,
+  title     = {Teach-Back: A Systematic Review of Implementation and Impacts},
+  author    = {Talevski, Jason and Wong Shee, Anna and Rasmussen, Bodil and Kemp, Gregory
+               and Beauchamp, Alison},
+  journal   = {PLOS ONE},
+  volume    = {15},
+  number    = {4},
+  pages     = {e0231350},
+  year      = {2020}
+}
+
+@article{kadam2017informed,
+  title     = {Informed Consent Process: A Step Further Towards Making It Meaningful!},
+  author    = {Kadam, Rashmi Ashok},
+  journal   = {Perspectives in Clinical Research},
+  volume    = {8},
+  number    = {3},
+  pages     = {107--112},
+  year      = {2017},
+  doi       = {10.4103/picr.PICR_147_16}
+}
+
+@article{jamerson2023evaluation,
+  title     = {Evaluation of Informed Consent with Teach-Back and Audio Assistance to Improve Willingness to Participate in a Clinical Trial among Underrepresented Minorities: A Randomized Pilot Trial},
+  author    = {Jamerson, Brenda and Shuster, Benjamin},
+  journal   = {Journal of Empirical Research on Human Research Ethics},
+  volume    = {18},
+  number    = {5},
+  year      = {2023},
+  doi       = {10.1177/15562646231207266}
+}
+
+@article{tamariz2013improving,
+  title     = {Improving the Informed Consent Process for Research Subjects with Low Literacy: A Systematic Review},
+  author    = {Tamariz, Leonardo and Palacio, Ana and Robert, Marisa and Marcus, Erin N.},
+  journal   = {Journal of General Internal Medicine},
+  volume    = {28},
+  number    = {1},
+  pages     = {121--126},
+  year      = {2013}
+}
+
+@article{glaser2020interventions,
+  title     = {Interventions to Improve Patient Comprehension in Informed Consent for Medical and Surgical Procedures: An Updated Systematic Review},
+  author    = {Glaser, Joel and Nouri, Sarah and Fernandez, Alicia and Schillinger, Dean
+               and Klein-Fedyshin, Michele and Sudore, Rebecca L. and et al.},
+  journal   = {Medical Decision Making},
+  year      = {2020}
+}
+
+@article{burks2019health,
+  title     = {Health Literacy and Informed Consent for Clinical Trials: A Systematic Review and Implications},
+  author    = {Burks, Alexandra C. and Keim-Malpass, Jessica},
+  journal   = {Nursing: Research and Reviews},
+  year      = {2019}
+}
+
+@article{ho2017teachback,
+  title     = {Teach-Back Improves Patient Recall of Clinic Instructions},
+  author    = {Ho, Han and Ryu, Eun-Ah and Teasdale, Thomas A.},
+  journal   = {Journal of Patient Experience},
+  year      = {2017}
+}
+
+@article{sudore2009interventions,
+  title     = {Interventions to Improve Care for Patients with Limited Health Literacy},
+  author    = {Sudore, Rebecca L. and Schillinger, Dean},
+  journal   = {Journal of Clinical Outcomes Management},
+  volume    = {16},
+  number    = {1},
+  pages     = {20--29},
+  year      = {2009}
+}
+
+% =============================================================
+% Models and systems used in the pipeline
+% =============================================================
+@article{qwen25_2024,
+  title     = {{Qwen2.5} Technical Report},
+  author    = {Qwen Team},
+  journal   = {arXiv preprint arXiv:2412.15115},
+  year      = {2024}
+}
+
+@article{touvron2023llama2,
+  title     = {{LLaMA 2}: Open Foundation and Fine-Tuned Chat Models},
+  author    = {Touvron, Hugo and Martin, Louis and Stone, Kevin and others},
+  journal   = {arXiv preprint arXiv:2307.09288},
+  year      = {2023}
+}
+
+@inproceedings{wolf2020transformers,
+  title     = {{HuggingFace's} Transformers: State-of-the-Art Natural Language Processing},
+  author    = {Wolf, Thomas and Debut, Lysandre and Sanh, Victor and others},
+  booktitle = {Proc. of EMNLP: System Demonstrations},
+  year      = {2020}
+}
+
+% =============================================================
+% Evaluation methodology
+% =============================================================
+@article{cohen1960kappa,
+  title     = {A Coefficient of Agreement for Nominal Scales},
+  author    = {Cohen, Jacob},
+  journal   = {Educational and Psychological Measurement},
+  volume    = {20},
+  number    = {1},
+  pages     = {37--46},
+  year      = {1960}
+}
+
+@article{landis1977kappa,
+  title     = {The Measurement of Observer Agreement for Categorical Data},
+  author    = {Landis, J. Richard and Koch, Gary G.},
+  journal   = {Biometrics},
+  volume    = {33},
+  number    = {1},
+  pages     = {159--174},
+  year      = {1977}
+}
+
+@article{efron1979bootstrap,
+  title     = {Bootstrap Methods: Another Look at the Jackknife},
+  author    = {Efron, Bradley},
+  journal   = {The Annals of Statistics},
+  volume    = {7},
+  number    = {1},
+  pages     = {1--26},
+  year      = {1979}
+}
+
+@article{voorhees2005trec,
+  title     = {{TREC}: Experiment and Evaluation in Information Retrieval},
+  author    = {Voorhees, Ellen M. and Harman, Donna K.},
+  journal   = {MIT Press},
+  year      = {2005}
+}
+
+@article{jarvelin2002ndcg,
+  title     = {Cumulated Gain-Based Evaluation of {IR} Techniques},
+  author    = {J{\"a}rvelin, Kalervo and Kek{\"a}l{\"a}inen, Jaana},
+  journal   = {ACM Transactions on Information Systems},
+  volume    = {20},
+  number    = {4},
+  pages     = {422--446},
+  year      = {2002}
+}
+
+% =============================================================
+% Clinical trial recruitment, equity, and deployment concerns
+% =============================================================
+@article{unger2019recruitment,
+  title     = {The Role of Clinical Trial Participation in Cancer Research: Barriers, Evidence, and Strategies},
+  author    = {Unger, Joseph M. and Cook, Elise and Tai, Eric and Bleyer, Archie},
+  journal   = {American Society of Clinical Oncology Educational Book},
+  year      = {2016},
+  doi       = {10.1200/EDBK_156686}
+}
+
+@article{clark2019barriers,
+  title     = {Increasing Diversity in Clinical Trials: Overcoming Critical Barriers},
+  author    = {Clark, Luther T. and Watkins, Laurence and Pina, Ileana L. and others},
+  journal   = {Current Problems in Cardiology},
+  volume    = {44},
+  number    = {5},
+  pages     = {148--172},
+  year      = {2019}
+}
+
+@article{fda2022diversity,
+  title     = {Diversity Plans to Improve Enrollment of Participants from Underrepresented Racial and Ethnic Populations in Clinical Trials},
+  author    = {{U.S. Food and Drug Administration}},
+  journal   = {Guidance for Industry, FDA},
+  year      = {2022}
+}
+
+@article{obermeyer2019dissecting,
+  title     = {Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations},
+  author    = {Obermeyer, Ziad and Powers, Brian and Vogeli, Christine and Mullainathan, Sendhil},
+  journal   = {Science},
+  volume    = {366},
+  number    = {6464},
+  pages     = {447--453},
+  year      = {2019}
+}
+
+@article{topol2019deep,
+  title     = {High-Performance Medicine: The Convergence of Human and Artificial Intelligence},
+  author    = {Topol, Eric J.},
+  journal   = {Nature Medicine},
+  volume    = {25},
+  number    = {1},
+  pages     = {44--56},
+  year      = {2019}
+}
+
+@article{wornow2023shaky,
+  title     = {The Shaky Foundations of Large Language Models and Foundation Models for Electronic Health Records},
+  author    = {Wornow, Michael and Xu, Yizhe and Thapa, Rahul and others},
+  journal   = {npj Digital Medicine},
+  volume    = {6},
+  pages     = {135},
+  year      = {2023}
+}
+
+@article{spasic2020clinical,
+  title     = {Clinical Text Data in Machine Learning: Systematic Review},
+  author    = {Spasic, Irena and Nenadic, Goran},
+  journal   = {JMIR Medical Informatics},
+  volume    = {8},
+  number    = {3},
+  pages     = {e17984},
+  year      = {2020}
+}
+
+@article{weng2017medical,
+  title     = {Medical Subdomain Classification of Clinical Notes using a Machine Learning-Based Natural Language Processing Approach},
+  author    = {Weng, Wei-Hung and Wagholikar, Kavishwar B. and others},
+  journal   = {BMC Medical Informatics and Decision Making},
+  year      = {2017}
+}
+
+@inproceedings{guo2017calibration,
+  title     = {On Calibration of Modern Neural Networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q.},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
+  pages     = {1321--1330},
+  year      = {2017}
+}
+
+@incollection{platt1999probabilistic,
+  title     = {Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods},
+  author    = {Platt, John},
+  booktitle = {Advances in Large Margin Classifiers},
+  publisher = {MIT Press},
+  pages     = {61--74},
+  year      = {1999}
+}
+
+@article{brier1950verification,
+  title     = {Verification of Forecasts Expressed in Terms of Probability},
+  author    = {Brier, Glenn W.},
+  journal   = {Monthly Weather Review},
+  volume    = {78},
+  number    = {1},
+  pages     = {1--3},
+  year      = {1950}
+}
+
+@book{krippendorff2018content,
+  title     = {Content Analysis: An Introduction to Its Methodology},
+  author    = {Krippendorff, Klaus},
+  edition   = {4},
+  publisher = {SAGE Publications},
+  year      = {2018}
+}
+
+@article{hayes2007krippendorff,
+  title     = {Answering the Call for a Standard Reliability Measure for Coding Data},
+  author    = {Hayes, Andrew F. and Krippendorff, Klaus},
+  journal   = {Communication Methods and Measures},
+  volume    = {1},
+  number    = {1},
+  pages     = {77--89},
+  year      = {2007}
+}
+
+@article{hallgren2012irr,
+  title     = {Computing Inter-Rater Reliability for Observational Data: An Overview and Tutorial},
+  author    = {Hallgren, Kevin A.},
+  journal   = {Tutorials in Quantitative Methods for Psychology},
+  volume    = {8},
+  number    = {1},
+  pages     = {23--34},
+  year      = {2012}
+}
+
+@book{gwet2014handbook,
+  title     = {Handbook of Inter-Rater Reliability},
+  author    = {Gwet, Kilem L.},
+  edition   = {4},
+  publisher = {Advanced Analytics, LLC},
+  year      = {2014}
+}
+
+@article{clopper1934confidence,
+  title     = {The Use of Confidence or Fiducial Limits Illustrated in the Case of the Binomial},
+  author    = {Clopper, Charles J. and Pearson, Egon S.},
+  journal   = {Biometrika},
+  volume    = {26},
+  number    = {4},
+  pages     = {404--413},
+  year      = {1934}
+}
+
+% =============================================================
+% Reporting standards and regulatory guidance for clinical AI
+% =============================================================
+@article{mongan2020claim,
+  title     = {Checklist for Artificial Intelligence in Medical Imaging ({CLAIM}): A Guide for Authors and Reviewers},
+  author    = {Mongan, John and Moy, Linda and Kahn, Charles E.},
+  journal   = {Radiology: Artificial Intelligence},
+  volume    = {2},
+  number    = {2},
+  pages     = {e200029},
+  year      = {2020},
+  doi       = {10.1148/ryai.2020200029}
+}
+
+@article{collins2024tripodai,
+  title     = {{TRIPOD+AI} Statement: Updated Guidance for Reporting Clinical Prediction Models that Use Regression or Machine Learning Methods},
+  author    = {Collins, Gary S. and Moons, Karel G. M. and Dhiman, Paula and Riley, Richard D. and Beam, Andrew L. and Van Calster, Ben and Ghassemi, Marzyeh and Liu, Xiaoxuan and Reitsma, Johannes B. and van Smeden, Maarten and others},
+  journal   = {BMJ},
+  volume    = {385},
+  pages     = {e078378},
+  year      = {2024},
+  doi       = {10.1136/bmj-2023-078378}
+}
+
+@article{vasey2022decideai,
+  title     = {Reporting Guideline for the Early-Stage Clinical Evaluation of Decision Support Systems Driven by Artificial Intelligence: {DECIDE-AI}},
+  author    = {Vasey, Baptiste and Nagendran, Myura and Campbell, Bruce and Clifton, David A. and Collins, Gary S. and Denaxas, Spiros and Denniston, Alastair K. and Faes, Livia and Geerts, Bart and Ibrahim, Mudathir and others},
+  journal   = {Nature Medicine},
+  volume    = {28},
+  number    = {5},
+  pages     = {924--933},
+  year      = {2022},
+  doi       = {10.1038/s41591-022-01772-9}
+}
+
+@article{ghassemi2021falsehope,
+  title     = {The False Hope of Current Approaches to Explainable Artificial Intelligence in Health Care},
+  author    = {Ghassemi, Marzyeh and Oakden-Rayner, Luke and Beam, Andrew L.},
+  journal   = {The Lancet Digital Health},
+  volume    = {3},
+  number    = {11},
+  pages     = {e745--e750},
+  year      = {2021},
+  doi       = {10.1016/S2589-7500(21)00208-9}
+}
+
+@misc{fda2021samdaction,
+  title     = {Artificial Intelligence and Machine Learning ({AI/ML}) Software as a Medical Device Action Plan},
+  author    = {{U.S. Food and Drug Administration}},
+  year      = {2021},
+  howpublished = {U.S.\ Food and Drug Administration, Center for Devices and Radiological Health},
+  note      = {\url{https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device}}
+}
+
+@misc{ema2024reflection,
+  title     = {Reflection Paper on the Use of Artificial Intelligence in the Lifecycle of Medicines},
+  author    = {{European Medicines Agency}},
+  year      = {2024},
+  howpublished = {Committee for Medicinal Products for Human Use (CHMP), European Medicines Agency},
+  note      = {\url{https://www.ema.europa.eu/en/documents/scientific-guideline/reflection-paper-use-artificial-intelligence-lifecycle-medicines_en.pdf}}
+}
+
+@misc{who2024llm,
+  title     = {Ethics and Governance of Artificial Intelligence for Health: Guidance on Large Multi-Modal Models},
+  author    = {{World Health Organization}},
+  year      = {2024},
+  howpublished = {World Health Organization, Geneva},
+  note      = {\url{https://www.who.int/publications/i/item/9789240084759}}
+}
+
+@article{liu2020spiritai,
+  title     = {Reporting Guidelines for Clinical Trial Reports for Interventions Involving Artificial Intelligence: The {CONSORT-AI} Extension},
+  author    = {Liu, Xiaoxuan and Cruz Rivera, Samantha and Moher, David and Calvert, Melanie J. and Denniston, Alastair K. and {SPIRIT-AI and CONSORT-AI Working Group}},
+  journal   = {Nature Medicine},
+  volume    = {26},
+  number    = {9},
+  pages     = {1364--1374},
+  year      = {2020},
+  doi       = {10.1038/s41591-020-1034-x}
+}

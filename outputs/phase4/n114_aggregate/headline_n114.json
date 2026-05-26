@@ -1,0 +1,32 @@
+{
+  "n_cases": 114,
+  "n_rows_total": 456,
+  "leak_rate_overall_per_backbone": {
+    "Qwen/Qwen2.5-3B-Instruct": 0.0,
+    "Qwen/Qwen2.5-7B-Instruct": 0.0,
+    "meta-llama/Meta-Llama-3.1-8B-Instruct": 0.0,
+    "mistralai/Mistral-7B-Instruct-v0.3": 0.0
+  },
+  "n_with_zero_leak_per_backbone": {
+    "Qwen/Qwen2.5-3B-Instruct": true,
+    "Qwen/Qwen2.5-7B-Instruct": true,
+    "meta-llama/Meta-Llama-3.1-8B-Instruct": true,
+    "mistralai/Mistral-7B-Instruct-v0.3": true
+  },
+  "regime_split": {
+    "n_accept": 32,
+    "n_abstain": 82
+  },
+  "regime_pool_split": {
+    "curated_30": 30,
+    "broad_84": 84
+  },
+  "area_distribution": {
+    "Other": 44,
+    "Metabolic_Endocrine": 19,
+    "Oncology": 16,
+    "MSK_Bone": 14,
+    "Neurology_CNS": 13,
+    "Cardiovascular": 8
+  }
+}

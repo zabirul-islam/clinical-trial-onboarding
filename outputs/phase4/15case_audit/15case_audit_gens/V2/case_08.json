@@ -1,0 +1,92 @@
+{
+  "case_id": "case_08",
+  "backbone": "V2",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01737242",
+  "question": "What parts of joining this study are still unclear from the available information?",
+  "evidence": "[Passage 1 | doc=NCT01737242 | section=detailed_description]\nThose patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+  "passages": [
+    {
+      "passage_id": "NCT01737242::detailed_description::2",
+      "doc_id": "NCT01737242",
+      "section": "detailed_description",
+      "text": "Those patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+      "score": 0.17289557
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a single dominant trial context could not be established from the retrieved evidence\nReasoning: Retrieved evidence was split across multiple trials. The top candidate trial was NCT01737242 with weight share 0.368, which was not strong enough for a reliable single-trial answer.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A single study context could not be established from the retrieved evidence.; The system needs one specific trial before it can explain study details safely.\n\nPatient-facing summary (rebuilt): I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Do you want help with one specific trial rather than a general study search?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01737242 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT01737242",
+    "selected_doc_weight_share": 0.367937,
+    "selected_doc_passage_count": 1,
+    "n_unique_docs_in_raw_context": 5,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "doc_scores": [
+      {
+        "doc_id": "NCT01737242",
+        "weighted_score": 1.0,
+        "passage_count": 1,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT00682994",
+        "weighted_score": 0.75,
+        "passage_count": 2,
+        "best_rank": 2
+      },
+      {
+        "doc_id": "NCT01997359",
+        "weighted_score": 0.4583333333333333,
+        "passage_count": 2,
+        "best_rank": 3
+      },
+      {
+        "doc_id": "NCT04542538",
+        "weighted_score": 0.3666666666666667,
+        "passage_count": 2,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT01954316",
+        "weighted_score": 0.14285714285714285,
+        "passage_count": 1,
+        "best_rank": 7
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

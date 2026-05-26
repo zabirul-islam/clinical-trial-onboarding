@@ -1,0 +1,43 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "To join, participants must be between 18-65 years old, have had a traumatic brain injury at least 1 year ago, be able to read and speak English fluently, and have difficulties with learning and memory skills.",
+    "support_passages": [
+      2
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will have cognitive questionnaires, blood tests, bone joint exams, and self-exams of joints at home. They will also complete questionnaires about their medications and supplements.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "There are no specific risks or burdens mentioned in the provided information.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "time_commitment": {
+    "text": "The study involves about 5 minutes for completing questionnaires and a few phone calls every 2 weeks. There is no mention of a specific time commitment.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study looks at problems with attention or mental fatigue related to treatment. It involves cognitive questionnaires, blood tests, bone joint exams, and self-exams of joints at home. Participants will complete questionnaires about their medications and supplements. There are no specific risks or burdens mentioned.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

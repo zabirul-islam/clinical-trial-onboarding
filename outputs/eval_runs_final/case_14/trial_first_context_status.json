@@ -1,0 +1,21 @@
+{
+  "status": "abstain_no_reliable_trial",
+  "selected_doc_id": "NCT00816998",
+  "selected_trial_score": 5.45357519,
+  "selected_doc_passage_count": 2,
+  "dominance_ratio": 4.611921,
+  "trial_score_share": 0.639183,
+  "raw_max_cross": -1.937021,
+  "best_rank": 1,
+  "generic_question": false,
+  "n_unique_docs_in_raw_context": 6,
+  "raw_context_rows": 8,
+  "filtered_context_rows": 2,
+  "thresholds": {
+    "min_dominance_ratio": 1.35,
+    "min_trial_score_share": 0.28,
+    "min_selected_raw_max_cross": 1.0,
+    "max_best_rank": 2,
+    "keep_trial_passages": 6
+  }
+}

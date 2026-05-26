@@ -1,0 +1,89 @@
+{
+  "case_id": "case_12",
+  "backbone": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=detailed_description]\nThis study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.\n\n[Passage 2 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age\n\n[Passage 3 | doc=NCT04471363 | section=summary]\nThe goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.\n\n[Passage 4 | doc=NCT04471363 | section=title]\nCancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::detailed_description::0",
+      "doc_id": "NCT04471363",
+      "section": "detailed_description",
+      "passage_text": "This study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04471363::summary::0",
+      "doc_id": "NCT04471363",
+      "section": "summary",
+      "passage_text": "The goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04471363::title::0",
+      "doc_id": "NCT04471363",
+      "section": "title",
+      "passage_text": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"We need more information from you to determine if you're eligible for this study.\",\n  \"supported_patient_facts\": [\n    \"You are at least 18 years old\",\n    \"You are less than 90 years old\",\n    \"You have an email address that you are willing to share with the study team\"\n  ],\n  \"missing_patient_facts\": [\n    \"Your relationship status (are you in a committed, romantic relationship?)\",\n    \"Your access to a computer or tablet with internet\",\n    \"Your age (is it between 18 and 90?)\",\n    \"Your relationship to the cancer survivor (are you the survivor or the partner?)\",\n    \"Your current medical status (are you undergoing chemotherapy, radiation, or surgery?)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of your relationship status\",\n    \"Confirmation of your access to a computer or tablet with internet\",\n    \"Confirmation of your current medical status\"\n  ],\n  \"reasoning_summary\": \"We need to confirm your relationship status, access to technology, and current medical status to determine if you're eligible for this study.\",\n  \"safety_note\": \"Please note that we cannot confirm your eligibility until we have more information from you.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "We need more information from you to determine if you're eligible for this study.",
+    "supported_patient_facts": [
+      "You are at least 18 years old",
+      "You are less than 90 years old",
+      "You have an email address that you are willing to share with the study team"
+    ],
+    "missing_patient_facts": [
+      "Your relationship status (are you in a committed, romantic relationship?)",
+      "Your access to a computer or tablet with internet",
+      "Your age (is it between 18 and 90?)",
+      "Your relationship to the cancer survivor (are you the survivor or the partner?)",
+      "Your current medical status (are you undergoing chemotherapy, radiation, or surgery?)"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of your relationship status",
+      "Confirmation of your access to a computer or tablet with internet",
+      "Confirmation of your current medical status"
+    ],
+    "reasoning_summary": "We need to confirm your relationship status, access to technology, and current medical status to determine if you're eligible for this study.",
+    "safety_note": "Please note that we cannot confirm your eligibility until we have more information from you."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "We need more information from you to determine if you're eligible for this study.",
+  "missing_patient_facts": [
+    "Your relationship status (are you in a committed, romantic relationship?)",
+    "Your access to a computer or tablet with internet",
+    "Your age (is it between 18 and 90?)",
+    "Your relationship to the cancer survivor (are you the survivor or the partner?)",
+    "Your current medical status (are you undergoing chemotherapy, radiation, or surgery?)"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of your relationship status",
+    "Confirmation of your access to a computer or tablet with internet",
+    "Confirmation of your current medical status"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 19.776
+}

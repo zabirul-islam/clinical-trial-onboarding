@@ -1,0 +1,18 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "It seems you might be eligible based on your age and fracture type, but we need to check if you're taking blood thinners as prescribed and if there are any other issues that haven't been fully resolved yet.",
+  "supported_patient_facts": [
+    "you are 18 years of age or older",
+    "you have a displaced transverse or oblique midshaft clavicle fracture"
+  ],
+  "missing_patient_facts": [
+    "the specific type of blood thinners you are taking",
+    "any other medical conditions that might affect your eligibility"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation that you are not taking long-term blood thinners other than low-dose aspirin or similar medications",
+    "resolution of any other exclusion criteria that might apply"
+  ],
+  "reasoning_summary": "Your age and fracture type align with the inclusion criteria. However, the safety of using blood thinners during the study needs to be confirmed, and other potential exclusions should be checked.",
+  "safety_note": "Taking blood thinners could potentially interfere with the study's goals. We need to ensure that your condition is safe for participation."
+}

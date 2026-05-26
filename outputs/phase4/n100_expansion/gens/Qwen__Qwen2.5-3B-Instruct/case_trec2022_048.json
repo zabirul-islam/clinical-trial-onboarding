@@ -1,0 +1,57 @@
+{
+  "case_id": "case_trec2022_048",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03003533",
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the emergency due to bleeding after a tooth extraction. The bleeding has persisted for approximately 30 minutes despite constant direct pressure. He is a known case of Hemophilia type A treated with FVIII. Blood pressure is 95/60 mm Hg and pulse is 105/min. His weight is 70 Kg. Family history is positive for Hemophilia type A in his maternal uncle. He also has a lipoma on his left arm which he plans to remove surgically. His FVIII activity is 40%. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03003533 | section=detailed_description]\nHemophilia A is a condition in which blood is unable to clot effectively. It is caused by a mutation or deletion in the gene that is responsible for producing blood-clotting factor VIII protein. Individuals with hemophilia A suffer from repeated bleeding episodes, often into the joints, which can cause chronic joint disease and sometime results in death due to the inability of the blood to clot efficiently. This chronic joint disease can have significant physical, psychosocial, and quality-of-life effects, including financial burden. The current treatment is intravenous (i.v.) injections of factor VIII protein products, either 2-3 times weekly or in response to bleeding. Recent preliminary clinical data of a hemophilia B gene transfer study (which is also being conducted by Spark Therapeutics) shows all study participants achieving therapeutic factor IX activity levels (average of maintaining factor IX activity levels around 30% of normal with no confirmed bleeds, after receiving Spark gene transfer, with the approach of using the novel bio-engineered recombinant adeno-associated viral (rAAV) vector carrying a high specific activity of a factor IX gene.\n\n[Passage 2 | doc=NCT03003533 | section=detailed_description]\nThe approach being tested in this clinical research study uses a further modified novel AAV vector (with a stronger attraction to the human liver) to deliver the human factor VIII (hFVIII) gene into liver cells so that they can produce factor VIII protein.\n\n[Passage 3 | doc=NCT03003533 | section=eligibility]\nInclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th\n\n[Passage 4 | doc=NCT03003533 | section=summary]\nThis clinical research study is being conducted by Spark Therapeutics, Inc. to determine the safety and efficacy of the factor VIII gene transfer treatment with SPK-8011 in individuals with hemophilia A.",
+  "passages": [
+    {
+      "passage_id": "NCT03003533::detailed_description::0",
+      "doc_id": "NCT03003533",
+      "section": "detailed_description",
+      "passage_text": "Hemophilia A is a condition in which blood is unable to clot effectively. It is caused by a mutation or deletion in the gene that is responsible for producing blood-clotting factor VIII protein. Individuals with hemophilia A suffer from repeated bleeding episodes, often into the joints, which can cause chronic joint disease and sometime results in death due to the inability of the blood to clot efficiently. This chronic joint disease can have significant physical, psychosocial, and quality-of-life effects, including financial burden. The current treatment is intravenous (i.v.) injections of factor VIII protein products, either 2-3 times weekly or in response to bleeding. Recent preliminary clinical data of a hemophilia B gene transfer study (which is also being conducted by Spark Therapeutics) shows all study participants achieving therapeutic factor IX activity levels (average of maintaining factor IX activity levels around 30% of normal with no confirmed bleeds, after receiving Spark gene transfer, with the approach of using the novel bio-engineered recombinant adeno-associated viral (rAAV) vector carrying a high specific activity of a factor IX gene.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03003533::detailed_description::1",
+      "doc_id": "NCT03003533",
+      "section": "detailed_description",
+      "passage_text": "The approach being tested in this clinical research study uses a further modified novel AAV vector (with a stronger attraction to the human liver) to deliver the human factor VIII (hFVIII) gene into liver cells so that they can produce factor VIII protein.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03003533::eligibility::0",
+      "doc_id": "NCT03003533",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03003533::summary::0",
+      "doc_id": "NCT03003533",
+      "section": "summary",
+      "passage_text": "This clinical research study is being conducted by Spark Therapeutics, Inc. to determine the safety and efficacy of the factor VIII gene transfer treatment with SPK-8011 in individuals with hemophilia A.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm.\",\n  \"supported_patient_facts\": [\"the patient is a 20-year-old man with Hemophilia type A\", \"he is treated with FVIII\", \"his FVIII activity is 40%\", \"he has a lipoma on his left arm that he plans to remove surgically\"],\n  \"missing_patient_facts\": [\"his medical history with plasma FVIII activity levels\", \"the number of bleeding events he has had over the past 12 months\", \"whether he has received more than 150 exposure days to FVIII concentrates or cryoprecipitate\", \"whether he has a history of allergic reaction to any FVIII product\", \"whether he has measurable inhibitors against Factor VIII\", \"whether he has used reliable barrier contraception\"],\n  \"unresolved_study_requirements\": [\"evidence of his medical history with plasma FVIII activity levels\", \"number of bleeding events over the past 12 months\", \"exposure days to FVIII concentrates or cryoprecipitate\", \"history of allergic reaction to any FVIII product\", \"measurable inhibitors against Factor VIII\", \"use of reliable barrier contraception\"],\n  \"reasoning_summary\": \"The patient meets the basic eligibility criteria for hemophilia A, but we need more information about his medical history and recent treatments to fully assess his eligibility.\",\n  \"safety_note\": \"Please note that while you seem to meet the",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 12.18
+}

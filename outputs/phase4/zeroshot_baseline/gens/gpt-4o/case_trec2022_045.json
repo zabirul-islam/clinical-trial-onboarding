@@ -1,0 +1,98 @@
+{
+  "case_id": "case_trec2022_045",
+  "backbone": "gpt-4o",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00314431",
+  "question": "I am considering a clinical trial. Here is my situation: A 15-week-old infant brought to the clinic for the follow up. The infant has flat facies, small ears, a single palmar crease, and upward slanting eyes. He was born on 39th week to a 39-year-old woman who didn't have prenatal care. The medical record confirms the trisomy of chromosome 21 (Down syndrome). The infant is otherwise healthy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00314431 | section=detailed_description]\nMETHODS Study design A randomized equivalence trial was designed to compare community-based follow up with medical-center based follow up. The primary outcome was assessed at one year adjusted age. Study participants Infants were recruited in five neonatal intensive care units in northwest North CArolina. These were the only sites providing neonatal intensive care in a twenty-county region in northwest North Carolina. Infants were born between March 1996 and September 1999. Infants were eligible for the study if they were born before 33 weeks gestational age, required supplemental oxygen at 36 weeks gestational age, and were discharged home after neonatal intensive care. Neonates who had major congenital anomalies and/ or had tracheostomy tubes were excluded. Also excluded were families in which the mother did not speak English, because the intervention depended on verbal communication with the nurse specialist, and families who lived more than 150 miles from our clinic because such families typically are referred to regional neonatal center closer to their home.\n\n[Passage 2 | doc=NCT00314431 | section=detailed_description]\nRandomization A randomization list was prepared by a biostatistician who was not involved in data collection or clinical care of the infants. Lists of randomization assignments, which were kept in a sealed envelope in a locked drawer, were prepared for each of the five sites at which participants were recruited. Randomization assignments were made in blocks sizes of two and four. Once a study participant arrived home from the neonatal intensive care unit, a research assistant uncovered the next assignment on the randomization list, which was kept in a sealed envelope in a locked drawer. Intervention If the family did not have telephone service at the time of the infant's discharge, a telephone was installed at no cost to the family, within one week of the infant's discharge from the hospital. Research funds were used to reimburse all families for the cost of local phone service for the duration of the study. Families assigned to either intervention could contact the nurse specialist on a toll-free long distance line with voice mail which recorded messages when the phone was not attended.\n\n[Passage 3 | doc=NCT00314431 | section=detailed_description]\nThe intervention team consisted of two neonatologists, a pediatric social worker, and a nurse specialist. Community-based follow up Telephone contacts were made to the infants' primary caregiver by the nurse specialist twice weekly in the first month after discharge, weekly in months two through four, and monthly thereafter until the infant attained 12 months adjusted age. At each telephone contact, the nurse used a semi-structured format to inquire about the infant's health, community resources utilized by the infant, and potential stressors and sources of support for the family. She also inquired about the infant's medications and feedings. If she judged the infant would benefit from a change in medical management, additional assessments or a subspecialty referral, she discussed the proposed change with one of the two study neonatologists. If there was agreement, the recommendation was communicated to the family and the infant's primary care provider. The nurse specialist also coordinated care for the infant by communicating with home health nurses, public health nurses, early intervention specialists, physical therapists, and pediatric sub-specialists.\n\n[Passage 4 | doc=NCT00314431 | section=detailed_description]\nMedical center-based follow up For infants who were discharged home on supplemental oxygen, the nurse specialist made a home visit 1 to 2 weeks after discharge. During this visit, the nurse specialist obtained interim medical history, performed physical assessment including pulse oximetry and body weight, reviewed discharge instructions regarding medication dosage and use of durable medical equipment, and answered caregiver's questions about the infant's care. If the nurse specialist had concerns about the medical condition of the infant, she made changes to the plan of care after consultation with the study neonatologist. All infants assigned to the center-based care group were seen in the regional, high-risk infant multidisciplinary clinic at Wake Forest University School of Medicine. The first clinic visit occurred approximately one month after their discharge. A multidisciplinary team consisting of the social worker, the nurse specialist and the neonatologist obtained detailed interim medical history (feeding, respiratory status, medication history, illnesses and health-services utilization) and performed a complete physical examination.\n\n[Passage 5 | doc=NCT00314431 | section=detailed_description]\nFamily stressors and resources were discussed. All infants were scheduled for visits at four, eight, and twelve months adjusted age. In addition, infants who were using supplemental oxygen were seen at an interval of 1-2 months until all of the following criteria were met: 1) their growth rate was 15-30 grams/day, 2) they were no longer using supplemental oxygen or other medications, and 3) they were no longer using a home apnea monitor. At each clinic visit, the infant and parent or guardian were seen individually by the clinic social worker, the nurse specialist for this project, and one of the two neonatologists who conferred as a group and developed a plan of care. This plan was communicated to the family by the nurse specialist. Communication with primary care providers Within 24 hours after randomization, the principal investigator called the infants' primary care providers to inform them about the study design and that the parents have consented to participate in the study.\n\n[Passage 6 | doc=NCT00314431 | section=detailed_description]\nIn the case of infants randomized to community-based care, the primary care provider was given the choice of making the decisions about changes in medical care independently or jointly with the nurse specialist. A copy of a protocol for management of infants with CLD, developed by the study team was mailed to each primary care provider. After each clinic visit (for the center-based group) the primary care provider received a letter describing findings, impressions, and recommendations. Contacts with the primary care physicians of infants randomized to community-based care occurred whenever the nurse specialist believed that a change in care was indicated. Outcomes assessed during the first year Self-administered questionnaires were used to assess psychosocial status of the family, healthcare utilization and healthcare expenses at baseline, one, four, seven and eleven months. Each time the family completed study questionnaires and when home visits were made, families were given twenty dollars as compensation.",
+  "passages": [
+    {
+      "passage_id": "NCT00314431::detailed_description::0",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "METHODS Study design A randomized equivalence trial was designed to compare community-based follow up with medical-center based follow up. The primary outcome was assessed at one year adjusted age. Study participants Infants were recruited in five neonatal intensive care units in northwest North CArolina. These were the only sites providing neonatal intensive care in a twenty-county region in northwest North Carolina. Infants were born between March 1996 and September 1999. Infants were eligible for the study if they were born before 33 weeks gestational age, required supplemental oxygen at 36 weeks gestational age, and were discharged home after neonatal intensive care. Neonates who had major congenital anomalies and/ or had tracheostomy tubes were excluded. Also excluded were families in which the mother did not speak English, because the intervention depended on verbal communication with the nurse specialist, and families who lived more than 150 miles from our clinic because such families typically are referred to regional neonatal center closer to their home.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::1",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "Randomization A randomization list was prepared by a biostatistician who was not involved in data collection or clinical care of the infants. Lists of randomization assignments, which were kept in a sealed envelope in a locked drawer, were prepared for each of the five sites at which participants were recruited. Randomization assignments were made in blocks sizes of two and four. Once a study participant arrived home from the neonatal intensive care unit, a research assistant uncovered the next assignment on the randomization list, which was kept in a sealed envelope in a locked drawer. Intervention If the family did not have telephone service at the time of the infant's discharge, a telephone was installed at no cost to the family, within one week of the infant's discharge from the hospital. Research funds were used to reimburse all families for the cost of local phone service for the duration of the study. Families assigned to either intervention could contact the nurse specialist on a toll-free long distance line with voice mail which recorded messages when the phone was not attended.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::2",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "The intervention team consisted of two neonatologists, a pediatric social worker, and a nurse specialist. Community-based follow up Telephone contacts were made to the infants' primary caregiver by the nurse specialist twice weekly in the first month after discharge, weekly in months two through four, and monthly thereafter until the infant attained 12 months adjusted age. At each telephone contact, the nurse used a semi-structured format to inquire about the infant's health, community resources utilized by the infant, and potential stressors and sources of support for the family. She also inquired about the infant's medications and feedings. If she judged the infant would benefit from a change in medical management, additional assessments or a subspecialty referral, she discussed the proposed change with one of the two study neonatologists. If there was agreement, the recommendation was communicated to the family and the infant's primary care provider. The nurse specialist also coordinated care for the infant by communicating with home health nurses, public health nurses, early intervention specialists, physical therapists, and pediatric sub-specialists.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::3",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "Medical center-based follow up For infants who were discharged home on supplemental oxygen, the nurse specialist made a home visit 1 to 2 weeks after discharge. During this visit, the nurse specialist obtained interim medical history, performed physical assessment including pulse oximetry and body weight, reviewed discharge instructions regarding medication dosage and use of durable medical equipment, and answered caregiver's questions about the infant's care. If the nurse specialist had concerns about the medical condition of the infant, she made changes to the plan of care after consultation with the study neonatologist. All infants assigned to the center-based care group were seen in the regional, high-risk infant multidisciplinary clinic at Wake Forest University School of Medicine. The first clinic visit occurred approximately one month after their discharge. A multidisciplinary team consisting of the social worker, the nurse specialist and the neonatologist obtained detailed interim medical history (feeding, respiratory status, medication history, illnesses and health-services utilization) and performed a complete physical examination.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::4",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "Family stressors and resources were discussed. All infants were scheduled for visits at four, eight, and twelve months adjusted age. In addition, infants who were using supplemental oxygen were seen at an interval of 1-2 months until all of the following criteria were met: 1) their growth rate was 15-30 grams/day, 2) they were no longer using supplemental oxygen or other medications, and 3) they were no longer using a home apnea monitor. At each clinic visit, the infant and parent or guardian were seen individually by the clinic social worker, the nurse specialist for this project, and one of the two neonatologists who conferred as a group and developed a plan of care. This plan was communicated to the family by the nurse specialist. Communication with primary care providers Within 24 hours after randomization, the principal investigator called the infants' primary care providers to inform them about the study design and that the parents have consented to participate in the study.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::5",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "In the case of infants randomized to community-based care, the primary care provider was given the choice of making the decisions about changes in medical care independently or jointly with the nurse specialist. A copy of a protocol for management of infants with CLD, developed by the study team was mailed to each primary care provider. After each clinic visit (for the center-based group) the primary care provider received a letter describing findings, impressions, and recommendations. Contacts with the primary care physicians of infants randomized to community-based care occurred whenever the nurse specialist believed that a change in care was indicated. Outcomes assessed during the first year Self-administered questionnaires were used to assess psychosocial status of the family, healthcare utilization and healthcare expenses at baseline, one, four, seven and eleven months. Each time the family completed study questionnaires and when home visits were made, families were given twenty dollars as compensation.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the available information, it seems unlikely that the infant would be eligible for this clinical trial.\",\n  \"supported_patient_facts\": [\n    \"The infant is 15 weeks old.\",\n    \"The infant has Down syndrome (trisomy of chromosome 21).\"\n  ],\n  \"missing_patient_facts\": [\n    \"Whether the infant was born before 33 weeks gestational age.\",\n    \"Whether the infant required supplemental oxygen at 36 weeks gestational age.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The study requires infants to be born before 33 weeks gestational age.\",\n    \"The study requires infants to have required supplemental oxygen at 36 weeks gestational age.\"\n  ],\n  \"reasoning_summary\": \"The study is designed for infants born before 33 weeks gestational age and who required supplemental oxygen at 36 weeks gestational age. The provided information does not confirm these conditions for the infant.\",\n  \"safety_note\": \"This information is not a substitute for professional medical advice. Please consult with a healthcare provider for personalized guidance.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the available information, it seems unlikely that the infant would be eligible for this clinical trial.",
+    "supported_patient_facts": [
+      "The infant is 15 weeks old.",
+      "The infant has Down syndrome (trisomy of chromosome 21)."
+    ],
+    "missing_patient_facts": [
+      "Whether the infant was born before 33 weeks gestational age.",
+      "Whether the infant required supplemental oxygen at 36 weeks gestational age."
+    ],
+    "unresolved_study_requirements": [
+      "The study requires infants to be born before 33 weeks gestational age.",
+      "The study requires infants to have required supplemental oxygen at 36 weeks gestational age."
+    ],
+    "reasoning_summary": "The study is designed for infants born before 33 weeks gestational age and who required supplemental oxygen at 36 weeks gestational age. The provided information does not confirm these conditions for the infant.",
+    "safety_note": "This information is not a substitute for professional medical advice. Please consult with a healthcare provider for personalized guidance."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the available information, it seems unlikely that the infant would be eligible for this clinical trial.",
+  "missing_patient_facts": [
+    "Whether the infant was born before 33 weeks gestational age.",
+    "Whether the infant required supplemental oxygen at 36 weeks gestational age."
+  ],
+  "unresolved_study_requirements": [
+    "The study requires infants to be born before 33 weeks gestational age.",
+    "The study requires infants to have required supplemental oxygen at 36 weeks gestational age."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 5.310496736085042
+}

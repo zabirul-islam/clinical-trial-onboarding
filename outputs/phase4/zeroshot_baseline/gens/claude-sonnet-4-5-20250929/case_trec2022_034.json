@@ -1,0 +1,79 @@
+{
+  "case_id": "case_trec2022_034",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00119704",
+  "question": "I am considering a clinical trial. Here is my situation: A 17-year-old male comes to the office due to several months of right elbow pain. The pain is worse with activity and limits his workouts and activities. He has tried over-the-counter medications with limited relief. Medical history is notable for eczema, and current medications include a topical hydrocortisone ointment. He is sexually active with his girlfriend and uses condoms. He does not smoke or drink alcohol. He plays tennis most of the days of the week. The comprehensive evaluation shows pain on the lateral side of the elbow, made worse by pressure applied on the lateral epicondyle of the humerus and when making a fist with the elbow joint straightened. The patient has this pain since last year and had several courses of physical therapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00119704 | section=detailed_description]\nTennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.\n\n[Passage 2 | doc=NCT00119704 | section=eligibility]\nInclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis\n\n[Passage 3 | doc=NCT00119704 | section=summary]\nThe purpose of this study is to determine whether Botulinum A toxin is effective in the treatment of tennis elbow (lateral epicondylitis).",
+  "passages": [
+    {
+      "passage_id": "NCT00119704::detailed_description::0",
+      "doc_id": "NCT00119704",
+      "section": "detailed_description",
+      "passage_text": "Tennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00119704::eligibility::0",
+      "doc_id": "NCT00119704",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00119704::summary::0",
+      "doc_id": "NCT00119704",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to determine whether Botulinum A toxin is effective in the treatment of tennis elbow (lateral epicondylitis).",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the trial information available, you likely would not qualify for this particular tennis elbow study. While your symptoms match the condition being studied (lateral epicondylitis/tennis elbow), there is an important age requirement: the trial only accepts patients who are 18 years old and above, and you are currently 17 years old. Your symptoms\u2014right elbow pain on the lateral side, worsened by making a fist with a straightened elbow, lasting several months with prior physical therapy\u2014do match what the study is looking for. However, the age requirement appears to be a barrier. You might become eligible once you turn 18, or there may be other trials with different age criteria. I recommend discussing clinical trial options with your doctor, who can help identify studies that match both your condition and age.\",\n  \"supported_patient_facts\": [\n    \"17 years old (does not meet 18+ age requirement)\",\n    \"Pain on lateral side of right elbow\",\n    \"Pain worsened by pressure on lateral epicondyle and making fist with elbow extended\",\n    \"Pain duration longer than 3 months (since last year)\",\n    \"Has completed several courses of physical therapy\",\n    \"No previous operations mentioned\",\n    \"No mention of pregnancy (male patient)\",\n    \"No systemic neuromuscular disorders mentioned\"\n  ],\n  \"missing_patient_facts\": [\n    \"Whether patient has received previous steroid injections for this elbow condition\",\n    \"Whether nerve entrapment has been ruled out during comprehensive evaluation\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Age requirement: patient is 17, trial requires 18 years and up\",\n    \"Need confirmation that no previous steroid injections were given for the elbow\",\n    \"Need confirmation that nerve entrapment has been excluded\"\n  ],\n  \"reasoning_summary\": \"The patient presents with classic tennis elbow symptoms that align with the study's inclusion criteria regarding pain location, provocative testing (pain with resisted wrist dorsiflexion/fist-making with extended elbow), and chronicity (>3 months). However, there is a clear age mismatch: the patient is 17 and the trial requires patients to be 18 years or older. Two potential exclusion criteria need clarification: whether the patient has received steroid injections for this condition and whether nerve entrapment has been ruled out. The age criterion alone appears to make the patient ineligible at this time.\",\n  \"safety_note\": \"This response does not provide medical advice or determine definitive eligibility. Only the clinical trial team can make final eligibility decisions after a complete screening evaluation. Please consult with your healthcare provider about appropriate treatment options and clinical trial opportunities for your elbow condition.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the trial information available, you likely would not qualify for this particular tennis elbow study. While your symptoms match the condition being studied (lateral epicondylitis/tennis elbow), there is an important age requirement: the trial only accepts patients who are 18 years old and above, and you are currently 17 years old. Your symptoms\u2014right elbow pain on the lateral side, worsened by making a fist with a straightened elbow, lasting several months with prior physical therapy\u2014do match what the study is looking for. However, the age requirement appears to be a barrier. You might become eligible once you turn 18, or there may be other trials with different age criteria. I recommend discussing clinical trial options with your doctor, who can help identify studies that match both your condition and age.",
+    "supported_patient_facts": [
+      "17 years old (does not meet 18+ age requirement)",
+      "Pain on lateral side of right elbow",
+      "Pain worsened by pressure on lateral epicondyle and making fist with elbow extended",
+      "Pain duration longer than 3 months (since last year)",
+      "Has completed several courses of physical therapy",
+      "No previous operations mentioned",
+      "No mention of pregnancy (male patient)",
+      "No systemic neuromuscular disorders mentioned"
+    ],
+    "missing_patient_facts": [
+      "Whether patient has received previous steroid injections for this elbow condition",
+      "Whether nerve entrapment has been ruled out during comprehensive evaluation"
+    ],
+    "unresolved_study_requirements": [
+      "Age requirement: patient is 17, trial requires 18 years and up",
+      "Need confirmation that no previous steroid injections were given for the elbow",
+      "Need confirmation that nerve entrapment has been excluded"
+    ],
+    "reasoning_summary": "The patient presents with classic tennis elbow symptoms that align with the study's inclusion criteria regarding pain location, provocative testing (pain with resisted wrist dorsiflexion/fist-making with extended elbow), and chronicity (>3 months). However, there is a clear age mismatch: the patient is 17 and the trial requires patients to be 18 years or older. Two potential exclusion criteria need clarification: whether the patient has received steroid injections for this condition and whether nerve entrapment has been ruled out. The age criterion alone appears to make the patient ineligible at this time.",
+    "safety_note": "This response does not provide medical advice or determine definitive eligibility. Only the clinical trial team can make final eligibility decisions after a complete screening evaluation. Please consult with your healthcare provider about appropriate treatment options and clinical trial opportunities for your elbow condition."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the trial information available, you likely would not qualify for this particular tennis elbow study. While your symptoms match the condition being studied (lateral epicondylitis/tennis elbow), there is an important age requirement: the trial only accepts patients who are 18 years old and above, and you are currently 17 years old. Your symptoms\u2014right elbow pain on the lateral side, worsened by making a fist with a straightened elbow, lasting several months with prior physical therapy\u2014do match what the study is looking for. However, the age requirement appears to be a barrier. You might become eligible once you turn 18, or there may be other trials with different age criteria. I recommend discussing clinical trial options with your doctor, who can help identify studies that match both your condition and age.",
+  "missing_patient_facts": [
+    "Whether patient has received previous steroid injections for this elbow condition",
+    "Whether nerve entrapment has been ruled out during comprehensive evaluation"
+  ],
+  "unresolved_study_requirements": [
+    "Age requirement: patient is 17, trial requires 18 years and up",
+    "Need confirmation that no previous steroid injections were given for the elbow",
+    "Need confirmation that nerve entrapment has been excluded"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 15.038693341892213
+}

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Retrieval comparison on TREC Clinical Trials 2021.}
+\label{tab:retrieval_final}
+\begin{tabular}{lccccc}
+\hline
+Method & nDCG@10 & nDCG@20 & R@10 & R@20 & R@100 \\
+\hline
+BM25 (full trial text) & 0.3186 & 0.3114 & 0.1261 & 0.1811 & 0.4291 \\
+Dense MiniLM (eligibility-focused text) & 0.3098 & 0.2984 & 0.0853 & 0.1392 & 0.3550 \\
+Dense MiniLM (full trial text) & 0.3290 & 0.3134 & 0.0861 & 0.1390 & 0.3632 \\
+Dense BGE-base (full trial text) & 0.3264 & 0.3068 & 0.0826 & 0.1337 & 0.3687 \\
+BM25 full-text → Cross-encoder rerank & 0.3165 & 0.3605 & 0.2278 & 0.3571 & 0.9600 \\
+\hline
+\end{tabular}
+\end{table}

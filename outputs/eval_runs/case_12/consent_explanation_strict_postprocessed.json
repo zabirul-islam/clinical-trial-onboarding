@@ -1,0 +1,37 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "Eligible participants are cancer survivors or their romantic partners, and they must be at least 18 and less than 90 years old.",
+    "support_passages": [
+      1
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will be approached by a PERT team member to give consent. They will be randomized to either standard care or a new test. If they choose the new test, they will provide stool samples and complete questionnaires.",
+    "support_passages": [
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "How long does the study last?",
+    "What happens if the participant declines to participate?"
+  ],
+  "patient_facing_summary": {
+    "text": "This study involves cancer survivors or their partners. Participants must be at least 18 and less than 90 years old. They will be asked to provide consent and may be randomized to a new test involving stool samples and questionnaires. The exact duration and what happens if someone declines are not clear.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

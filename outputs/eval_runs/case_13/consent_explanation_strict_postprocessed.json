@@ -1,0 +1,47 @@
+{
+  "study_purpose": {
+    "text": "This study aims to gather information about bladder cancer patients' health and treatments.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "who_may_join": {
+    "text": "The study includes bladder cancer patients aged 30-79 who were newly diagnosed with bladder carcinoma, including carcinoma in situ, but not those diagnosed after 2003.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will be interviewed about their physical activity, receive medical evaluations, and provide information about their health conditions and treatments.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "There are no specific risks mentioned. Participants may need to undergo medical evaluations and provide personal information.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "time_commitment": {
+    "text": "The study involves several visits and tasks, but the exact time commitment is not specified.",
+    "support_passages": [
+      1,
+      2
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study collects information from bladder cancer patients through interviews and medical evaluations. Participation involves providing personal and health-related information.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

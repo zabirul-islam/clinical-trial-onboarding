@@ -1,0 +1,1706 @@
+[
+  {
+    "case_id": "case_01",
+    "category": "possible_match_insufficient_evidence",
+    "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+    "notes": "Anchor osteoporosis example already used in worked example.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT00543023",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT00543023",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00696644",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT01120197",
+          "weighted_score": 0.3666666666666667,
+          "passage_count": 2,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT02489825",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT00388908",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT00933036",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT00290862",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00543023 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_02",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+    "notes": "Tests fracture documentation and uncertainty.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT01482130",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 8,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT01482130",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00485953",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT02861989",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT00150969",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT01112098",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT01258036",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT00558012",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT04321837",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01482130 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_03",
+    "category": "likely_mismatch_or_unlikely_match",
+    "question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+    "notes": "Tests sex and age mismatch against osteoporosis-style trials.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT00865358",
+      "selected_doc_weight_share": 0.490583,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT00865358",
+          "weighted_score": 1.3333333333333333,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT04155970",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT02108509",
+          "weighted_score": 0.375,
+          "passage_count": 2,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT00290589",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT03065894",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT00101790",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00865358 with weight share 0.491, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_04",
+    "category": "cannot_determine",
+    "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+    "notes": "Very incomplete patient information.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT00800644",
+      "selected_doc_weight_share": 0.459921,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT00800644",
+          "weighted_score": 1.25,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT02743559",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT04215315",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02432625",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT00005901",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT04237454",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT00452439",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00800644 with weight share 0.460, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_05",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+    "notes": "Tests chronic disabling condition exclusion logic.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT02584972",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT02584972",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT04064710",
+          "weighted_score": 0.5,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT00128115",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT02770092",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT03997682",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT03985540",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT02930512",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT02584972 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_06",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+    "notes": "Tests coagulation and safety screening requirements.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT02984384",
+      "selected_doc_weight_share": 0.420499,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT02984384",
+          "weighted_score": 1.1428571428571428,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT01975467",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT03997682",
+          "weighted_score": 0.45,
+          "passage_count": 2,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT02411227",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02040103",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT02671591",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT02984384 with weight share 0.420, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_07",
+    "category": "explanation_request",
+    "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+    "notes": "Pure explanation request.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT04660656",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT04660656",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00502827",
+          "weighted_score": 0.5333333333333333,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT03093909",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT00909207",
+          "weighted_score": 0.30952380952380953,
+          "passage_count": 2,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT01906008",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT00352820",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT04660656 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_08",
+    "category": "explanation_request",
+    "question": "What parts of joining this study are still unclear from the available information?",
+    "notes": "Tests uncertainty surfacing.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT01737242",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT01737242",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00682994",
+          "weighted_score": 0.75,
+          "passage_count": 2,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT01997359",
+          "weighted_score": 0.4583333333333333,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT04542538",
+          "weighted_score": 0.3666666666666667,
+          "passage_count": 2,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT01954316",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01737242 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_09",
+    "category": "participation_request",
+    "question": "What would I actually need to do if I joined this study?",
+    "notes": "Tests whether system avoids inventing procedures.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT01645904",
+      "selected_doc_weight_share": 0.459921,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT01645904",
+          "weighted_score": 1.25,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00791271",
+          "weighted_score": 0.625,
+          "passage_count": 2,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT00923468",
+          "weighted_score": 0.3666666666666667,
+          "passage_count": 2,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT02305498",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT01570673",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01645904 with weight share 0.460, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_10",
+    "category": "participation_request",
+    "question": "How much time would this study probably take from me?",
+    "notes": "Tests fallback on time commitment when unsupported.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT03850899",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT03850899",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT02432339",
+          "weighted_score": 0.7,
+          "passage_count": 2,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT04049682",
+          "weighted_score": 0.47619047619047616,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02919891",
+          "weighted_score": 0.41666666666666663,
+          "passage_count": 2,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT04517435",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT03850899 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_11",
+    "category": "risk_request",
+    "question": "What risks or burdens are described for participants in this study?",
+    "notes": "Tests fallback on unsupported risk content.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT02830828",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 8,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT02830828",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT02268539",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT03619434",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02842996",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT02772861",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT03653741",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT04783350",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT03610802",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT02830828 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_12",
+    "category": "consent_understanding",
+    "question": "What would the study team still need to confirm before saying I am eligible?",
+    "notes": "Tests unresolved study requirements.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT04471363",
+      "selected_doc_weight_share": 0.367937,
+      "selected_doc_passage_count": 1,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "doc_scores": [
+        {
+          "doc_id": "NCT04471363",
+          "weighted_score": 1.0,
+          "passage_count": 1,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT03362970",
+          "weighted_score": 0.625,
+          "passage_count": 2,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT04713215",
+          "weighted_score": 0.5833333333333333,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02522455",
+          "weighted_score": 0.34285714285714286,
+          "passage_count": 2,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT02118987",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT04471363 with weight share 0.368, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_13",
+    "category": "consent_understanding",
+    "question": "Can you tell me what information from my medical records would still need to be checked?",
+    "notes": "Tests missing patient facts extraction.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT01710072",
+      "selected_doc_weight_share": 0.42926,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT01710072",
+          "weighted_score": 1.1666666666666667,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT00289666",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT00522002",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT00776178",
+          "weighted_score": 0.325,
+          "passage_count": 2,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT04780048",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT01311856",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT01710072 with weight share 0.429, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_14",
+    "category": "teachback_style",
+    "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+    "notes": "Tests focused clarification.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT00816998",
+      "selected_doc_weight_share": 0.551905,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT00816998",
+          "weighted_score": 1.5,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT01710072",
+          "weighted_score": 0.47619047619047616,
+          "passage_count": 2,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT04166539",
+          "weighted_score": 0.25,
+          "passage_count": 1,
+          "best_rank": 4
+        },
+        {
+          "doc_id": "NCT03187951",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT01605656",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT01212939",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00816998 with weight share 0.552, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_15",
+    "category": "cannot_determine",
+    "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+    "notes": "Tests conservative handling of vague lay language.",
+    "context_control": {
+      "status": "abstain_mixed_context",
+      "reason": "mixed_trial_context",
+      "selected_doc_id": "NCT00738998",
+      "selected_doc_weight_share": 0.459921,
+      "selected_doc_passage_count": 2,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "doc_scores": [
+        {
+          "doc_id": "NCT00738998",
+          "weighted_score": 1.25,
+          "passage_count": 2,
+          "best_rank": 1
+        },
+        {
+          "doc_id": "NCT04054596",
+          "weighted_score": 0.5,
+          "passage_count": 1,
+          "best_rank": 2
+        },
+        {
+          "doc_id": "NCT04780048",
+          "weighted_score": 0.3333333333333333,
+          "passage_count": 1,
+          "best_rank": 3
+        },
+        {
+          "doc_id": "NCT02432339",
+          "weighted_score": 0.2,
+          "passage_count": 1,
+          "best_rank": 5
+        },
+        {
+          "doc_id": "NCT00682994",
+          "weighted_score": 0.16666666666666666,
+          "passage_count": 1,
+          "best_rank": 6
+        },
+        {
+          "doc_id": "NCT01925495",
+          "weighted_score": 0.14285714285714285,
+          "passage_count": 1,
+          "best_rank": 7
+        },
+        {
+          "doc_id": "NCT03850899",
+          "weighted_score": 0.125,
+          "passage_count": 1,
+          "best_rank": 8
+        }
+      ],
+      "thresholds": {
+        "min_weight_share": 0.55,
+        "min_passage_count": 3,
+        "keep_top_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a single dominant trial context could not be established from the retrieved evidence"
+      ],
+      "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00738998 with weight share 0.460, which was not strong enough for a reliable single-trial answer.",
+      "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A single study context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can explain study details safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.",
+        "source": "single_trial_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Do you want help with one specific trial rather than a general study search?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+target,method,n,base_rate,ece,brier,brier_naive,bss_raw,bss_clean,nan_reason
+strict,tau_only,50,0.18,0.21230575381820319,0.21461089854032622,0.1476,-0.4540033776444865,-0.4540033776444865,
+any,tau_only,50,0.42,0.15085427673481364,0.2687572147612895,0.2436,-0.1032726385931424,-0.1032726385931424,
+gold_nct,tau_only,50,0.0,0.38929127521472306,0.17403550896025943,0.0,,,base_rate is exactly 0.0 -> naive Brier is 0 -> BSS = 1 - brier/0 is undefined
+any,joint_lr_cv5,5,0.41999999999999993,0.30414837964347924,0.2315738759001257,,-0.05782890633590358,-0.05782890633590358,
+strict,joint_lr_cv5,5,0.18,0.16622842430624413,0.1349599422851237,,,,"at least one CV fold had base_rate {0,1} -> per-fold BSS undefined -> mean is NaN; remediable with stratified folds or larger n"

@@ -1,0 +1,26 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "A single study context could not be established from the retrieved evidence.",
+    "The system needs one specific trial before it can explain study details safely."
+  ]
+}

@@ -1,0 +1,4 @@
+run_name,n_queries,nDCG@10,nDCG@20,Recall@10,Recall@20,Recall@100
+bm25_eligibility_focus,75,0.2453,0.2587,0.1290,0.2022,0.4176
+bm25_all_text,75,0.3186,0.3114,0.1261,0.1811,0.4291
+rrf_bm25_all_plus_eligibility,75,0.2697,0.2668,0.0951,0.1533,0.3899

@@ -1,0 +1,66 @@
+{
+  "case_id": "case_02",
+  "backbone": "V-final",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01482130",
+  "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+  "evidence": "[Passage 1 | doc=NCT01482130 | section=detailed_description]\nBackground: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+  "passages": [
+    {
+      "passage_id": "NCT01482130::detailed_description::0",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "text": "Background: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+      "score": 2.291513
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a reliable dominant single-trial context could not be established\nReasoning: Trial selection was not reliable enough for safe answering. Top trial: NCT01482130, dominance ratio: 1.187, score share: 0.217, raw max cross-score: 2.292.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A reliable dominant single-trial context could not be established from the retrieved evidence.; The system needs one specific trial before it can answer safely.\n\nPatient-facing summary (rebuilt): I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Would you like help narrowing this to one specific trial?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a reliable dominant single-trial context could not be established"
+    ],
+    "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT01482130, dominance ratio: 1.187, score share: 0.217, raw max cross-score: 2.292.",
+    "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a reliable dominant single-trial context could not be established"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_no_reliable_trial",
+    "selected_doc_id": "NCT01482130",
+    "selected_trial_score": 1.1138245300000005,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.186686,
+    "trial_score_share": 0.216585,
+    "raw_max_cross": 2.291513,
+    "best_rank": 1,
+    "generic_question": false,
+    "n_unique_docs_in_raw_context": 8,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

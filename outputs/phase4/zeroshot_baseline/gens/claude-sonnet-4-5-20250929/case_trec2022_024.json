@@ -1,0 +1,116 @@
+{
+  "case_id": "case_trec2022_024",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00135811",
+  "question": "I am considering a clinical trial. Here is my situation: A 4-year-old boy comes to the office for the follow up of his confirmed oculocutaneous albinism. The patient was born at 38 weeks gestation with no complications. Vital signs are normal. Weight and height are at the 50th percentile. On examination, iris transillumination is present, and there are no apparent foveae on funduscopic examination. Optic nerves are small and gray. All the hairs including eyebrows and lashes are white. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00135811 | section=detailed_description]\nBackground/Rationale. Primary FSGS is a leading cause of end stage renal disease in both children and adults, with complete loss of kidney function in 50% of patients over 10 years. Evidence-based treatment guidelines for FSGS have not been developed because of the lack of controlled studies and the small number of patients included in most reports. Over the past decade, a number of studies have reported therapeutic efficacy for treatment with Cyclosporine-A (CSA) in patients with nephrotic syndrome including patients with steroid resistant FSGS. There have been two controlled trials of treatment with CSA in steroid resistant FSGS, one in children and one in adult patients. Consequently, CSA is the only medication that has been documented to be efficacious in a controlled trial in both children and adults with steroid resistant FSGS. The experience with mycophenolate mofetil (MMF) in the treatment of patients with steroid resistant FSGS has been limited to uncontrolled trials in adult patients and children. Patient Population. The patient population consists of children and adults between the ages of 2 and 40 years with steroid resistant FSGS. Study Design.\n\n[Passage 2 | doc=NCT00135811 | section=detailed_description]\nThe experimental design is a multi-center, prospective, controlled, open label randomized trial comparing two treatment regimens, CSA vs. MMF/Pulse Steroids. The treatment regimens in both arms also include angiotensin converting enzyme inhibitor (ACEI) therapy and alternate day low dose prednisone. The CSA and MMF/Pulse steroid treatment regimens will be implemented over the first 26 weeks after randomization and continued to 52 weeks if a response in proteinuria occurs. The ACE inhibitor component continues for an additional 26 weeks after withdrawal of initial therapies. Logistical Structure. Participants are recruited at over 130 participating sites in North America which are affiliated with one of five Core Coordinating Centers. Primary Objectives. The primary objective of the trial is to determine if treatment with MMF/Pulse steroids is superior to treatment with CSA in inducing remission from proteinuria over 12 months.\n\n[Passage 3 | doc=NCT00135811 | section=detailed_description]\nPrimary Analysis. The primary statistical analysis will compare the six-level primary outcome variable between the randomized treatment groups. The six levels will be assigned scores ranging from 1 (for the most favorable category) to 6 (for the least favorable category), and the mean response score will be compared between the CSA and MMF/Pulse steroid groups within each of the four randomization strata defined by baseline estimated GFR and race. The analysis will be carried out by intent-to-treat. A 2-sided test will be conducted at the 5% significance level. Study Power. Depending on the remission rate in the control group (classified as levels 1, 2, or 3 for the primary outcome), the sample size of 500 randomized patients is sufficient to obtain 80% power to detect an absolute increase in remission rate of between 10.8% and 11.5% between the MMF/Pulse Steroid and the CSA groups.\n\n[Passage 4 | doc=NCT00135811 | section=detailed_description]\nThe main secondary objective is to determine if treatment with MMF/Pulse steroids is superior to treatment with CSA in inducing remissions which persist for at least 6 months following withdrawal of immunosuppressive therapy but while maintaining ACEI or angiotensin receptor blocker (ARB) therapy. Biorepository Specimens. Collection of specimens for biological and DNA repositories will serve as a national resource for ancillary studies investigating the pathogenesis of FSGS. Duration of Therapeutic Regimens and Follow-up. The study treatment duration for a randomized patient depends on the level of response to treatment as follows: 26 weeks if neither a partial or complete remission occurs at the 26-week visit; 52 weeks if there is a partial or complete remission at 26 weeks but not at 52 weeks, and 78 weeks if partial or complete remissions are recorded at both the 26- and 52-week visits. For all patients low intensity follow-up for long-term assessment of renal function is maintained after termination of the therapeutic regimens until September, 2008. Inclusion Criteria.\n\n[Passage 5 | doc=NCT00135811 | section=detailed_description]\n- Age 2-40 years at onset of signs or symptoms of FSGS, - Age \u2264 40 years at randomization, - Estimated glomerular filtration rate (GFR) \u2265 40 ml/min/1.73 m2, - Urine protein/creatinine (Up/c) > 1.0 on first am void, - Biopsy confirmed primary FSGS (including all subtypes), - Steroid resistance established by failure to achieve a sustained Up/c < 1.0 following a steroid treatment course of at least 4 weeks with a minimum cumulative dose of 56 mg/kg or 1,680 mg of prednisone, and - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. Exclusion Criteria.\n\n[Passage 6 | doc=NCT00135811 | section=detailed_description]\n- Secondary FSGS, - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran), - - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days, - Lactation, pregnancy, or refusal of birth control in women of child bearing potential, - Participation in another therapeutic trial concurrently or 30 days prior to randomization, - Active/serious infection, - Malignancy, - Blood pressure > 140/95 or > 95th percentile for age/height, - Use of 4 or more antihypertensive agents for the primary purpose of controlling blood pressure, - Previously diagnosed diabetes mellitus type I or II (DM I or II), - Clinical evidence of cirrhosis or chronic active liver disease, - Absolute neutrophil count (ANC) < 2000/mm3 or hematocrit (HCT) < 28%, - History of significant gastrointestinal disorder, - Organ transplantation, - Obesity (based on estimated dry weight at onset of disease prior to steroid therapy) defined as body mass index (BMI) > 97th percentile for ages 2-20 years, and BMI > 40 kg/m2 for age \u226521 years, - Allergy to study medications, and 17) Inability to consent/assent. Therapeutic Regimens.",
+  "passages": [
+    {
+      "passage_id": "NCT00135811::detailed_description::0",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "Background/Rationale. Primary FSGS is a leading cause of end stage renal disease in both children and adults, with complete loss of kidney function in 50% of patients over 10 years. Evidence-based treatment guidelines for FSGS have not been developed because of the lack of controlled studies and the small number of patients included in most reports. Over the past decade, a number of studies have reported therapeutic efficacy for treatment with Cyclosporine-A (CSA) in patients with nephrotic syndrome including patients with steroid resistant FSGS. There have been two controlled trials of treatment with CSA in steroid resistant FSGS, one in children and one in adult patients. Consequently, CSA is the only medication that has been documented to be efficacious in a controlled trial in both children and adults with steroid resistant FSGS. The experience with mycophenolate mofetil (MMF) in the treatment of patients with steroid resistant FSGS has been limited to uncontrolled trials in adult patients and children. Patient Population. The patient population consists of children and adults between the ages of 2 and 40 years with steroid resistant FSGS. Study Design.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00135811::detailed_description::1",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "The experimental design is a multi-center, prospective, controlled, open label randomized trial comparing two treatment regimens, CSA vs. MMF/Pulse Steroids. The treatment regimens in both arms also include angiotensin converting enzyme inhibitor (ACEI) therapy and alternate day low dose prednisone. The CSA and MMF/Pulse steroid treatment regimens will be implemented over the first 26 weeks after randomization and continued to 52 weeks if a response in proteinuria occurs. The ACE inhibitor component continues for an additional 26 weeks after withdrawal of initial therapies. Logistical Structure. Participants are recruited at over 130 participating sites in North America which are affiliated with one of five Core Coordinating Centers. Primary Objectives. The primary objective of the trial is to determine if treatment with MMF/Pulse steroids is superior to treatment with CSA in inducing remission from proteinuria over 12 months.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00135811::detailed_description::10",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "Primary Analysis. The primary statistical analysis will compare the six-level primary outcome variable between the randomized treatment groups. The six levels will be assigned scores ranging from 1 (for the most favorable category) to 6 (for the least favorable category), and the mean response score will be compared between the CSA and MMF/Pulse steroid groups within each of the four randomization strata defined by baseline estimated GFR and race. The analysis will be carried out by intent-to-treat. A 2-sided test will be conducted at the 5% significance level. Study Power. Depending on the remission rate in the control group (classified as levels 1, 2, or 3 for the primary outcome), the sample size of 500 randomized patients is sufficient to obtain 80% power to detect an absolute increase in remission rate of between 10.8% and 11.5% between the MMF/Pulse Steroid and the CSA groups.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00135811::detailed_description::2",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "The main secondary objective is to determine if treatment with MMF/Pulse steroids is superior to treatment with CSA in inducing remissions which persist for at least 6 months following withdrawal of immunosuppressive therapy but while maintaining ACEI or angiotensin receptor blocker (ARB) therapy. Biorepository Specimens. Collection of specimens for biological and DNA repositories will serve as a national resource for ancillary studies investigating the pathogenesis of FSGS. Duration of Therapeutic Regimens and Follow-up. The study treatment duration for a randomized patient depends on the level of response to treatment as follows: 26 weeks if neither a partial or complete remission occurs at the 26-week visit; 52 weeks if there is a partial or complete remission at 26 weeks but not at 52 weeks, and 78 weeks if partial or complete remissions are recorded at both the 26- and 52-week visits. For all patients low intensity follow-up for long-term assessment of renal function is maintained after termination of the therapeutic regimens until September, 2008. Inclusion Criteria.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00135811::detailed_description::3",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "- Age 2-40 years at onset of signs or symptoms of FSGS, - Age \u2264 40 years at randomization, - Estimated glomerular filtration rate (GFR) \u2265 40 ml/min/1.73 m2, - Urine protein/creatinine (Up/c) > 1.0 on first am void, - Biopsy confirmed primary FSGS (including all subtypes), - Steroid resistance established by failure to achieve a sustained Up/c < 1.0 following a steroid treatment course of at least 4 weeks with a minimum cumulative dose of 56 mg/kg or 1,680 mg of prednisone, and - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. Exclusion Criteria.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00135811::detailed_description::4",
+      "doc_id": "NCT00135811",
+      "section": "detailed_description",
+      "passage_text": "- Secondary FSGS, - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran), - - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days, - Lactation, pregnancy, or refusal of birth control in women of child bearing potential, - Participation in another therapeutic trial concurrently or 30 days prior to randomization, - Active/serious infection, - Malignancy, - Blood pressure > 140/95 or > 95th percentile for age/height, - Use of 4 or more antihypertensive agents for the primary purpose of controlling blood pressure, - Previously diagnosed diabetes mellitus type I or II (DM I or II), - Clinical evidence of cirrhosis or chronic active liver disease, - Absolute neutrophil count (ANC) < 2000/mm3 or hematocrit (HCT) < 28%, - History of significant gastrointestinal disorder, - Organ transplantation, - Obesity (based on estimated dry weight at onset of disease prior to steroid therapy) defined as body mass index (BMI) > 97th percentile for ages 2-20 years, and BMI > 40 kg/m2 for age \u226521 years, - Allergy to study medications, and 17) Inability to consent/assent. Therapeutic Regimens.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, this clinical trial is unlikely to be a match for your situation. This study is specifically designed for patients with a kidney condition called steroid-resistant focal segmental glomerulosclerosis (FSGS), which causes significant protein loss in the urine and can lead to kidney failure.\\n\\nYour 4-year-old's medical situation describes oculocutaneous albinism, which is a completely different condition affecting skin and eye pigmentation. There is no mention of kidney problems, protein in the urine, or the other kidney-related issues that this trial is designed to address.\\n\\nI recommend discussing clinical trial options specifically designed for albinism or your child's particular health concerns with your healthcare provider.\",\n  \"supported_patient_facts\": [\n    \"4-year-old male child\",\n    \"Confirmed diagnosis of oculocutaneous albinism\",\n    \"Born at 38 weeks gestation with no complications\",\n    \"Normal vital signs\",\n    \"Weight and height at 50th percentile\",\n    \"Physical findings consistent with albinism: iris transillumination, absent foveae, small gray optic nerves, white hair/eyebrows/lashes\"\n  ],\n  \"missing_patient_facts\": [\n    \"No information about kidney function or glomerular filtration rate (GFR)\",\n    \"No information about protein in urine\",\n    \"No information about any kidney disease diagnosis\",\n    \"No information about prior steroid treatment\",\n    \"No information about blood pressure\",\n    \"No history of FSGS or nephrotic syndrome mentioned\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Study requires confirmed primary FSGS on biopsy - patient has albinism instead\",\n    \"Study requires steroid-resistant proteinuria - no evidence of kidney involvement\",\n    \"Study requires urine protein/creatinine ratio >1.0 - no urinary findings mentioned\",\n    \"Study requires estimated GFR \u226540 ml/min/1.73 m\u00b2 - no kidney function data provided\",\n    \"Study requires age 2-40 years at onset of FSGS symptoms - patient has different condition entirely\"\n  ],\n  \"reasoning_summary\": \"This is a clear mismatch between patient condition and trial focus. The trial (NCT00135811) is exclusively for patients with steroid-resistant focal segmental glomerulosclerosis (FSGS), a serious kidney disease. The patient described has oculocutaneous albinism, a genetic condition affecting melanin production with no mention of kidney involvement. The trial's inclusion criteria specifically require biopsy-confirmed FSGS, steroid resistance, significant proteinuria, and preserved kidney function. None of these kidney-related criteria are mentioned in the patient's clinical presentation, which focuses entirely on pigmentation and eye findings typical of albinism. This represents a fundamental disease mismatch rather than simply missing information.\",\n  \"safety_note\": \"This response does not constitute medical advice or a definitive eligibility determination. Only the clinical trial team and your healthcare providers can make official eligibility decisions. Please consult with your child's doctor to find clinical trials appropriate for oculocutaneous albinism or your child's specific health needs.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, this clinical trial is unlikely to be a match for your situation. This study is specifically designed for patients with a kidney condition called steroid-resistant focal segmental glomerulosclerosis (FSGS), which causes significant protein loss in the urine and can lead to kidney failure.\n\nYour 4-year-old's medical situation describes oculocutaneous albinism, which is a completely different condition affecting skin and eye pigmentation. There is no mention of kidney problems, protein in the urine, or the other kidney-related issues that this trial is designed to address.\n\nI recommend discussing clinical trial options specifically designed for albinism or your child's particular health concerns with your healthcare provider.",
+    "supported_patient_facts": [
+      "4-year-old male child",
+      "Confirmed diagnosis of oculocutaneous albinism",
+      "Born at 38 weeks gestation with no complications",
+      "Normal vital signs",
+      "Weight and height at 50th percentile",
+      "Physical findings consistent with albinism: iris transillumination, absent foveae, small gray optic nerves, white hair/eyebrows/lashes"
+    ],
+    "missing_patient_facts": [
+      "No information about kidney function or glomerular filtration rate (GFR)",
+      "No information about protein in urine",
+      "No information about any kidney disease diagnosis",
+      "No information about prior steroid treatment",
+      "No information about blood pressure",
+      "No history of FSGS or nephrotic syndrome mentioned"
+    ],
+    "unresolved_study_requirements": [
+      "Study requires confirmed primary FSGS on biopsy - patient has albinism instead",
+      "Study requires steroid-resistant proteinuria - no evidence of kidney involvement",
+      "Study requires urine protein/creatinine ratio >1.0 - no urinary findings mentioned",
+      "Study requires estimated GFR \u226540 ml/min/1.73 m\u00b2 - no kidney function data provided",
+      "Study requires age 2-40 years at onset of FSGS symptoms - patient has different condition entirely"
+    ],
+    "reasoning_summary": "This is a clear mismatch between patient condition and trial focus. The trial (NCT00135811) is exclusively for patients with steroid-resistant focal segmental glomerulosclerosis (FSGS), a serious kidney disease. The patient described has oculocutaneous albinism, a genetic condition affecting melanin production with no mention of kidney involvement. The trial's inclusion criteria specifically require biopsy-confirmed FSGS, steroid resistance, significant proteinuria, and preserved kidney function. None of these kidney-related criteria are mentioned in the patient's clinical presentation, which focuses entirely on pigmentation and eye findings typical of albinism. This represents a fundamental disease mismatch rather than simply missing information.",
+    "safety_note": "This response does not constitute medical advice or a definitive eligibility determination. Only the clinical trial team and your healthcare providers can make official eligibility decisions. Please consult with your child's doctor to find clinical trials appropriate for oculocutaneous albinism or your child's specific health needs."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, this clinical trial is unlikely to be a match for your situation. This study is specifically designed for patients with a kidney condition called steroid-resistant focal segmental glomerulosclerosis (FSGS), which causes significant protein loss in the urine and can lead to kidney failure.\n\nYour 4-year-old's medical situation describes oculocutaneous albinism, which is a completely different condition affecting skin and eye pigmentation. There is no mention of kidney problems, protein in the urine, or the other kidney-related issues that this trial is designed to address.\n\nI recommend discussing clinical trial options specifically designed for albinism or your child's particular health concerns with your healthcare provider.",
+  "missing_patient_facts": [
+    "No information about kidney function or glomerular filtration rate (GFR)",
+    "No information about protein in urine",
+    "No information about any kidney disease diagnosis",
+    "No information about prior steroid treatment",
+    "No information about blood pressure",
+    "No history of FSGS or nephrotic syndrome mentioned"
+  ],
+  "unresolved_study_requirements": [
+    "Study requires confirmed primary FSGS on biopsy - patient has albinism instead",
+    "Study requires steroid-resistant proteinuria - no evidence of kidney involvement",
+    "Study requires urine protein/creatinine ratio >1.0 - no urinary findings mentioned",
+    "Study requires estimated GFR \u226540 ml/min/1.73 m\u00b2 - no kidney function data provided",
+    "Study requires age 2-40 years at onset of FSGS symptoms - patient has different condition entirely"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 15.970299078850076
+}

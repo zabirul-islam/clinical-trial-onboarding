@@ -1,0 +1,76 @@
+{
+  "input_question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you may be eligible to participate in the study, but we need to check a few details.",
+    "supported_patient_facts": [
+      "you had fractures in the past",
+      "your doctor mentioned weak bones"
+    ],
+    "missing_patient_facts": [
+      "your current bone mineral density",
+      "the type and severity of your past fractures",
+      "your current vitamin D and calcium levels"
+    ],
+    "unresolved_study_requirements": [
+      "we need to confirm your current bone health status",
+      "we need to check if you have a history of bone fractures in your family",
+      "we need to ensure you are not currently taking medications that could interfere with the study"
+    ],
+    "reasoning_summary": "Your history of fractures and concerns about weak bones suggest you might be eligible, but we need to verify your current bone health and other factors before making a definitive decision.",
+    "safety_note": "We will ensure your safety throughout the study and will monitor your bone health closely."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "Children with autism spectrum disorder aged 6-12 who can walk independently may join the study.",
+      "support_passages": [
+        1
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "risks_or_burdens": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "time_commitment": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "what_is_unclear": [
+      "Specific risks or burdens associated with the study.",
+      "Time commitment required for participation."
+    ],
+    "patient_facing_summary": {
+      "text": "This study aims to help children with autism who can walk. They may need to visit the clinic and do tests. But we don't know if there are any risks or how much time it will take.",
+      "support_passages": [
+        1
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Who may join: Children with autism spectrum disorder aged 6-12 who can walk independently may join the study. What is still unclear: Specific risks or burdens associated with the study.; Time commitment required for participation.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who can join this study?",
+      "What tests and procedures will be done before radiation therapy?",
+      "What happens after I complete the study?"
+    ],
+    "checked_concepts": [
+      "Who may join the study",
+      "What the study involves",
+      "Major requirements",
+      "What remains uncertain"
+    ]
+  }
+}

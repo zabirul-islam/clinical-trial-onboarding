@@ -1,0 +1,2 @@
+run_name,model_name,text_col,n_queries,nDCG@10,nDCG@20,Recall@10,Recall@20,Recall@100
+dense__BAAI__bge_base_en_v1.5__text_all,BAAI/bge-base-en-v1.5,text_all,75,0.3264037947497678,0.3067608777017401,0.08257484414415044,0.13365727897707097,0.3686941728802206

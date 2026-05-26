@@ -1,0 +1,97 @@
+{
+  "case_id": "case_04",
+  "backbone": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00800644",
+  "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+  "evidence": "[Passage 1 | doc=NCT00800644 | section=detailed_description]\nIf you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).\n\n[Passage 2 | doc=NCT00800644 | section=detailed_description]\n- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.\n\n[Passage 3 | doc=NCT00800644 | section=detailed_description]\nUp to 300 women will take part in the study. All will be enrolled at MD Anderson.\n\n[Passage 4 | doc=NCT00800644 | section=eligibility]\nInclusion Criteria: 1. Patients with histologically confirmed primary or recurrent cervical , endometrial or vaginal cancer. All stages, grades and histologic subtypes will be eligible except neuroendocrine. 2. Patients treated with definitive radiation therapy. Patients receiving extended field radiation or brachytherapy in addition to pelvic radiation are eligible. Patients treated with surgery, chemotherapy and/or hormonal therapy in addition to radiation therapy are also eligible. 3. Patients must sign an approved informed consent document. Exclusion Criteria: 1. Patients undergoing palliative intent radiation therapy for advanced disease. 2. Patients who received prior radiation to the pelvis. 3. Patients with an existing pelvic fracture within the proposed radiation field. 4. Patients unwilling or unable to provide informed consent for the study. 5. Patients with bone metastases. 6. Neuroendocrine features present. 7. Patients weighing more than 300 lbs are excluded as they cannot be adequately studied in axial skeleton with current bone mineral density software.\n\n[Passage 5 | doc=NCT00800644 | section=summary]\nThe goal of this study is to estimate how often pelvic fractures occur in women treated with radiation therapy for either newly diagnosed or recurrent cervical, endometrial, or vaginal cancer. The study will also estimate the changes in bone mineral density and the changes in the blood that relate to \"bone turnover\". High bone turnover can weaken bones and make you more likely to break a bone.",
+  "passages": [
+    {
+      "passage_id": "NCT00800644::detailed_description::0",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00800644::detailed_description::1",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00800644::detailed_description::2",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "Up to 300 women will take part in the study. All will be enrolled at MD Anderson.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00800644::eligibility::0",
+      "doc_id": "NCT00800644",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Patients with histologically confirmed primary or recurrent cervical , endometrial or vaginal cancer. All stages, grades and histologic subtypes will be eligible except neuroendocrine. 2. Patients treated with definitive radiation therapy. Patients receiving extended field radiation or brachytherapy in addition to pelvic radiation are eligible. Patients treated with surgery, chemotherapy and/or hormonal therapy in addition to radiation therapy are also eligible. 3. Patients must sign an approved informed consent document. Exclusion Criteria: 1. Patients undergoing palliative intent radiation therapy for advanced disease. 2. Patients who received prior radiation to the pelvis. 3. Patients with an existing pelvic fracture within the proposed radiation field. 4. Patients unwilling or unable to provide informed consent for the study. 5. Patients with bone metastases. 6. Neuroendocrine features present. 7. Patients weighing more than 300 lbs are excluded as they cannot be adequately studied in axial skeleton with current bone mineral density software.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00800644::summary::0",
+      "doc_id": "NCT00800644",
+      "section": "summary",
+      "passage_text": "The goal of this study is to estimate how often pelvic fractures occur in women treated with radiation therapy for either newly diagnosed or recurrent cervical, endometrial, or vaginal cancer. The study will also estimate the changes in bone mineral density and the changes in the blood that relate to \"bone turnover\". High bone turnover can weaken bones and make you more likely to break a bone.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"We need more information about your medical history and current health to determine if you're eligible for this study. We'll need to know if you have a history of bone fractures, if you have a family history of bone fractures, and if you've had any bone fractures in the past. We'll also need to review your medical records to see if you've had any radiation therapy or other treatments that might affect your eligibility.\",\n  \"supported_patient_facts\": [\"you had some fractures years ago\", \"your doctor once mentioned weak bones\"],\n  \"missing_patient_facts\": [\"medical history\", \"family history of bone fractures\", \"radiation therapy or other treatments\"],\n  \"unresolved_study_requirements\": [\"radiation therapy for cervical, endometrial, or vaginal cancer\", \"no prior radiation to the pelvis\", \"no existing pelvic fracture within the proposed radiation field\", \"no bone metastases\", \"no neuroendocrine features\"],\n  \"reasoning_summary\": \"Based on your history of fractures and your doctor's mention of weak bones, you may be a good candidate for this study. However, we need more information about your medical history and current health to confirm your eligibility.\",\n  \"safety_note\": \"Please consult with your doctor or a study team member to discuss your individual situation and determine if this study is right for you.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "We need more information about your medical history and current health to determine if you're eligible for this study. We'll need to know if you have a history of bone fractures, if you have a family history of bone fractures, and if you've had any bone fractures in the past. We'll also need to review your medical records to see if you've had any radiation therapy or other treatments that might affect your eligibility.",
+    "supported_patient_facts": [
+      "you had some fractures years ago",
+      "your doctor once mentioned weak bones"
+    ],
+    "missing_patient_facts": [
+      "medical history",
+      "family history of bone fractures",
+      "radiation therapy or other treatments"
+    ],
+    "unresolved_study_requirements": [
+      "radiation therapy for cervical, endometrial, or vaginal cancer",
+      "no prior radiation to the pelvis",
+      "no existing pelvic fracture within the proposed radiation field",
+      "no bone metastases",
+      "no neuroendocrine features"
+    ],
+    "reasoning_summary": "Based on your history of fractures and your doctor's mention of weak bones, you may be a good candidate for this study. However, we need more information about your medical history and current health to confirm your eligibility.",
+    "safety_note": "Please consult with your doctor or a study team member to discuss your individual situation and determine if this study is right for you."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "We need more information about your medical history and current health to determine if you're eligible for this study. We'll need to know if you have a history of bone fractures, if you have a family history of bone fractures, and if you've had any bone fractures in the past. We'll also need to review your medical records to see if you've had any radiation therapy or other treatments that might affect your eligibility.",
+  "missing_patient_facts": [
+    "medical history",
+    "family history of bone fractures",
+    "radiation therapy or other treatments"
+  ],
+  "unresolved_study_requirements": [
+    "radiation therapy for cervical, endometrial, or vaginal cancer",
+    "no prior radiation to the pelvis",
+    "no existing pelvic fracture within the proposed radiation field",
+    "no bone metastases",
+    "no neuroendocrine features"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 21.458
+}

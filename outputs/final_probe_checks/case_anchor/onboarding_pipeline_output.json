@@ -1,0 +1,103 @@
+{
+  "input_question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "context_control": {
+    "status": "trial_first_ok",
+    "selected_doc_id": "NCT00543023",
+    "selected_trial_score": 2.1245282605,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.593305,
+    "trial_score_share": 0.297941,
+    "raw_max_cross": 3.80746,
+    "best_rank": 1,
+    "generic_question": false,
+    "n_unique_docs_in_raw_context": 7,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.",
+    "supported_patient_facts": [
+      "you are a 55-year-old woman",
+      "you have osteoporosis",
+      "you have had a prior vertebral fracture"
+    ],
+    "missing_patient_facts": [
+      "your current health status and whether you have any severe or chronically disabling conditions",
+      "the results of your bone density test (BMD) and T-score"
+    ],
+    "unresolved_study_requirements": [
+      "we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+      "we need to confirm your age and menopause status"
+    ],
+    "reasoning_summary": "You are within the age range and have osteoporosis and a prior vertebral fracture. However, we need to verify your BMD results and X-rays to ensure they meet the study's standards.",
+    "safety_note": "Please let us know if you have any concerns about participating in the study."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones.",
+      "support_passages": [
+        1
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density.",
+      "support_passages": [
+        1
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "time_commitment": {
+      "text": "It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments.",
+      "support_passages": [
+        1
+      ]
+    },
+    "what_is_unclear": [
+      "Your current health status and whether you have any severe or chronically disabling conditions",
+      "The results of your bone density test (BMD) and T-score",
+      "We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+      "We need to confirm your age and menopause status"
+    ],
+    "patient_facing_summary": {
+      "text": "Older women who have had broken bones in their spines or other parts of their body due to weak bones can join this study. They need to have X-rays taken and a bone density test. There are no specific risks, but it's not clear how much time they need to commit.",
+      "support_passages": [
+        1
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Who may join: The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones. What participation may involve: Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density. Time commitment: It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments. What is still unclear: Your current health status and whether you have any severe or chronically disabling conditions; The results of your bone density test (BMD) and T-score; We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts; We need to confirm your age and menopause status",
+      "source": "rebuilt_from_trial_first_gated_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Based on what we discussed, who seems to be the kind of person this study is looking for?",
+      "Can you tell me what part of your medical history or current condition still needs to be confirmed?",
+      "Can you explain what information still needs to be confirmed before joining this study?",
+      "Can you explain what the study team would still need to verify before confirming eligibility?"
+    ],
+    "checked_concepts": [
+      "basic join profile",
+      "your current health status and whether you have any severe or chronically disabling conditions",
+      "the results of your bone density test (BMD) and T-score",
+      "unresolved study requirements"
+    ]
+  }
+}

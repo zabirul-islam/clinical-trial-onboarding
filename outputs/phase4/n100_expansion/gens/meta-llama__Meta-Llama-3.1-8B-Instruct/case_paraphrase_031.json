@@ -1,0 +1,80 @@
+{
+  "case_id": "case_paraphrase_031",
+  "backbone": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04322422",
+  "question": "I am considering a clinical trial. Here is my situation: This is a 44 year old female with PMH of PCOS, Obesity, HTN who presented with symptoms of cholecystitis and was found incidentally to have a large pericardial effusion. A pericardiocentesis was performed and the fluid analysis was consistent with Burkitt's lymphoma. Pericardial fluid was kappa light chain restricted CD10 positive monotypic B cells expressing FMC-7, CD19, CD20, and myc rearrangement consistent with Burkitt's Lymphoma. A subsequent lumbar puncture and bone marrow biopsy were negative for any involvement which made this a primary cardiac lymphoma. A cardiac MRI showed a mass that was 3cm x 1cm on the lateral wall of the right atrium adjacent to the AV junction. Past Medical History: 1. Rare migraines 2. HTN 3. Obesity 4. PCOS/infertility 5. Viral encephalitis/meningitis-->ICH-->seizure/stroke ([**2137**]) =- from severe sinus infxn, caused mild non-focal residual deficits 6. CSF leak w/ meningitis s/p lumbar drain placement 7. R LE DVT s/p IVC filter placement 8. Knee surgery Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT04322422 | section=eligibility]\nInclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.\n\n[Passage 2 | doc=NCT04322422 | section=eligibility]\npatients with chronic obstructive pulmonary disease, interstitial pneumonia, active tuberculosis, community acquired pneumonia, lung cancer, bronchiectasis, cor pulmonale, pulmonary embolism, and accompanied with serious systematic disease (such as coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease, neuromuscular disease, etc); 3. history of drug abuse, alcohol abuse or anesthesia or with a history of mental illness (schizophrenia, obsessive-compulsive disorder, depression) and against personality, motivation, suspicious, or other emotional or mental issues that may affect participation in the study; 4. taking part in other drug clinical trial project, or drop out less than 3 months; 5. during pregnancy, lactation women; 6. obvious abnormal of High Resolution CT.\n\n[Passage 3 | doc=NCT04322422 | section=summary]\nAsthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.",
+  "passages": [
+    {
+      "passage_id": "NCT04322422::eligibility::0",
+      "doc_id": "NCT04322422",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04322422::eligibility::1",
+      "doc_id": "NCT04322422",
+      "section": "eligibility",
+      "passage_text": "patients with chronic obstructive pulmonary disease, interstitial pneumonia, active tuberculosis, community acquired pneumonia, lung cancer, bronchiectasis, cor pulmonale, pulmonary embolism, and accompanied with serious systematic disease (such as coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease, neuromuscular disease, etc); 3. history of drug abuse, alcohol abuse or anesthesia or with a history of mental illness (schizophrenia, obsessive-compulsive disorder, depression) and against personality, motivation, suspicious, or other emotional or mental issues that may affect participation in the study; 4. taking part in other drug clinical trial project, or drop out less than 3 months; 5. during pregnancy, lactation women; 6. obvious abnormal of High Resolution CT.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04322422::summary::0",
+      "doc_id": "NCT04322422",
+      "section": "summary",
+      "passage_text": "Asthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"This clinical trial is focused on a specific type of asthma called chest tightness variant asthma (CTVA). It's not clear if this trial is relevant to your situation, which involves a diagnosis of Burkitt's lymphoma and other health conditions.\",\n  \"supported_patient_facts\": [\"age 44\", \"female\", \"PCOS\", \"HTN\", \"obesity\"],\n  \"missing_patient_facts\": [\"asthma diagnosis\", \"asthma symptoms\", \"FEV1 measurement\", \"bronchodilator and glucocorticoid treatment effectiveness\"],\n  \"unresolved_study_requirements\": [\"cardiac MRI findings\", \"pericardial effusion treatment\", \"Burkitt's lymphoma treatment\"],\n  \"reasoning_summary\": \"The trial is focused on patients with chest tightness variant asthma, which doesn't seem to match your situation. You have a diagnosis of Burkitt's lymphoma and other health conditions, but there's no mention of asthma or asthma symptoms in your medical history. Additionally, the trial requires specific criteria such as asthma diagnosis, FEV1 measurement, and bronchodilator and glucocorticoid treatment effectiveness, which are not mentioned in your situation.\",\n  \"safety_note\": \"Please consult with your doctor to discuss your treatment options and determine the best course of action for your Burkitt's lymphoma and other health conditions.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "This clinical trial is focused on a specific type of asthma called chest tightness variant asthma (CTVA). It's not clear if this trial is relevant to your situation, which involves a diagnosis of Burkitt's lymphoma and other health conditions.",
+    "supported_patient_facts": [
+      "age 44",
+      "female",
+      "PCOS",
+      "HTN",
+      "obesity"
+    ],
+    "missing_patient_facts": [
+      "asthma diagnosis",
+      "asthma symptoms",
+      "FEV1 measurement",
+      "bronchodilator and glucocorticoid treatment effectiveness"
+    ],
+    "unresolved_study_requirements": [
+      "cardiac MRI findings",
+      "pericardial effusion treatment",
+      "Burkitt's lymphoma treatment"
+    ],
+    "reasoning_summary": "The trial is focused on patients with chest tightness variant asthma, which doesn't seem to match your situation. You have a diagnosis of Burkitt's lymphoma and other health conditions, but there's no mention of asthma or asthma symptoms in your medical history. Additionally, the trial requires specific criteria such as asthma diagnosis, FEV1 measurement, and bronchodilator and glucocorticoid treatment effectiveness, which are not mentioned in your situation.",
+    "safety_note": "Please consult with your doctor to discuss your treatment options and determine the best course of action for your Burkitt's lymphoma and other health conditions."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "This clinical trial is focused on a specific type of asthma called chest tightness variant asthma (CTVA). It's not clear if this trial is relevant to your situation, which involves a diagnosis of Burkitt's lymphoma and other health conditions.",
+  "missing_patient_facts": [
+    "asthma diagnosis",
+    "asthma symptoms",
+    "FEV1 measurement",
+    "bronchodilator and glucocorticoid treatment effectiveness"
+  ],
+  "unresolved_study_requirements": [
+    "cardiac MRI findings",
+    "pericardial effusion treatment",
+    "Burkitt's lymphoma treatment"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 21.743
+}

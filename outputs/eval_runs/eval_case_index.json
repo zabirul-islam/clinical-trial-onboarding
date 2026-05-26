@@ -1,0 +1,212 @@
+[
+  {
+    "case_id": "case_01",
+    "category": "possible_match_insufficient_evidence",
+    "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+    "notes": "Anchor osteoporosis example already used in worked example.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_01/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_02",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+    "notes": "Tests fracture documentation and uncertainty.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_02/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_03",
+    "category": "likely_mismatch_or_unlikely_match",
+    "question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+    "notes": "Tests sex and age mismatch against osteoporosis-style trials.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_03/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_04",
+    "category": "cannot_determine",
+    "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+    "notes": "Very incomplete patient information.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_04/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_05",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+    "notes": "Tests chronic disabling condition exclusion logic.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_05/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_06",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+    "notes": "Tests coagulation and safety screening requirements.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_06/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_07",
+    "category": "explanation_request",
+    "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+    "notes": "Pure explanation request.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_07/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_08",
+    "category": "explanation_request",
+    "question": "What parts of joining this study are still unclear from the available information?",
+    "notes": "Tests uncertainty surfacing.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_08/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_09",
+    "category": "participation_request",
+    "question": "What would I actually need to do if I joined this study?",
+    "notes": "Tests whether system avoids inventing procedures.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_09/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_10",
+    "category": "participation_request",
+    "question": "How much time would this study probably take from me?",
+    "notes": "Tests fallback on time commitment when unsupported.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_10/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_11",
+    "category": "risk_request",
+    "question": "What risks or burdens are described for participants in this study?",
+    "notes": "Tests fallback on unsupported risk content.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_11/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_12",
+    "category": "consent_understanding",
+    "question": "What would the study team still need to confirm before saying I am eligible?",
+    "notes": "Tests unresolved study requirements.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_12/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_13",
+    "category": "consent_understanding",
+    "question": "Can you tell me what information from my medical records would still need to be checked?",
+    "notes": "Tests missing patient facts extraction.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_13/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_14",
+    "category": "teachback_style",
+    "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+    "notes": "Tests focused clarification.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_14/teachback_questions_targeted.json"
+    }
+  },
+  {
+    "case_id": "case_15",
+    "category": "cannot_determine",
+    "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+    "notes": "Tests conservative handling of vague lay language.",
+    "case_dir": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15",
+    "files": {
+      "onboarding_pipeline_output.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15/onboarding_pipeline_output.json",
+      "grounding_evidence_top_passages.csv": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15/grounding_evidence_top_passages.csv",
+      "guarded_eligibility_v3.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15/guarded_eligibility_v3.json",
+      "consent_explanation_strict_postprocessed.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15/consent_explanation_strict_postprocessed.json",
+      "teachback_questions_targeted.json": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/eval_runs/case_15/teachback_questions_targeted.json"
+    }
+  }
+]

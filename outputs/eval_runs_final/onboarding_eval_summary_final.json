@@ -1,0 +1,1239 @@
+[
+  {
+    "case_id": "case_01",
+    "category": "possible_match_insufficient_evidence",
+    "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+    "notes": "Anchor osteoporosis example already used in worked example.",
+    "context_control": {
+      "status": "trial_first_ok",
+      "selected_doc_id": "NCT00543023",
+      "selected_trial_score": 2.1245282605,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.593305,
+      "trial_score_share": 0.297941,
+      "raw_max_cross": 3.80746,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "possible_match_insufficient_evidence",
+      "patient_facing_answer": "You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.",
+      "supported_patient_facts": [
+        "you are a 55-year-old woman",
+        "you have osteoporosis",
+        "you have had a prior vertebral fracture"
+      ],
+      "missing_patient_facts": [
+        "your current health status and whether you have any severe or chronically disabling conditions",
+        "the results of your bone density test (BMD) and T-score"
+      ],
+      "unresolved_study_requirements": [
+        "we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+        "we need to confirm your age and menopause status"
+      ],
+      "reasoning_summary": "You are within the age range and have osteoporosis and a prior vertebral fracture. However, we need to verify your BMD results and X-rays to ensure they meet the study's standards.",
+      "safety_note": "Please let us know if you have any concerns about participating in the study."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones.",
+        "support_passages": [
+          1
+        ]
+      },
+      "procedures_or_participation": {
+        "text": "Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density.",
+        "support_passages": [
+          1
+        ]
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments.",
+        "support_passages": [
+          1
+        ]
+      },
+      "what_is_unclear": [
+        "Your current health status and whether you have any severe or chronically disabling conditions",
+        "The results of your bone density test (BMD) and T-score",
+        "We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+        "We need to confirm your age and menopause status"
+      ],
+      "patient_facing_summary": {
+        "text": "Older women who have had broken bones in their spines or other parts of their body due to weak bones can join this study. They need to have X-rays taken and a bone density test. There are no specific risks, but it's not clear how much time they need to commit.",
+        "support_passages": [
+          1
+        ]
+      },
+      "patient_facing_summary_rebuilt": {
+        "text": "Who may join: The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones. What participation may involve: Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density. Time commitment: It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments. What is still unclear: Your current health status and whether you have any severe or chronically disabling conditions; The results of your bone density test (BMD) and T-score; We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts; We need to confirm your age and menopause status",
+        "source": "rebuilt_from_trial_first_gated_fields"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Based on what we discussed, who seems to be the kind of person this study is looking for?",
+        "Can you tell me what part of your medical history or current condition still needs to be confirmed?",
+        "Can you explain what information still needs to be confirmed before joining this study?",
+        "Can you explain what the study team would still need to verify before confirming eligibility?"
+      ],
+      "checked_concepts": [
+        "basic join profile",
+        "your current health status and whether you have any severe or chronically disabling conditions",
+        "the results of your bone density test (BMD) and T-score",
+        "unresolved study requirements"
+      ]
+    }
+  },
+  {
+    "case_id": "case_02",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+    "notes": "Tests fracture documentation and uncertainty.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT01482130",
+      "selected_trial_score": 1.1138245300000005,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.186686,
+      "trial_score_share": 0.216585,
+      "raw_max_cross": 2.291513,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 8,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT01482130, dominance ratio: 1.187, score share: 0.217, raw max cross-score: 2.292.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_03",
+    "category": "likely_mismatch_or_unlikely_match",
+    "question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+    "notes": "Tests sex and age mismatch against osteoporosis-style trials.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT00865358",
+      "selected_trial_score": 1.887994685,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 2.404116,
+      "trial_score_share": 0.453352,
+      "raw_max_cross": -1.827715,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00865358, dominance ratio: 2.404, score share: 0.453, raw max cross-score: -1.828.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_04",
+    "category": "cannot_determine",
+    "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+    "notes": "Very incomplete patient information.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT00800644",
+      "selected_trial_score": 2.39006765,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.562163,
+      "trial_score_share": 0.383823,
+      "raw_max_cross": -2.487113,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00800644, dominance ratio: 1.562, score share: 0.384, raw max cross-score: -2.487.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_05",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+    "notes": "Tests chronic disabling condition exclusion logic.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT02584972",
+      "selected_trial_score": 1.7996134465000002,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.563992,
+      "trial_score_share": 0.335237,
+      "raw_max_cross": 0.567094,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT02584972, dominance ratio: 1.564, score share: 0.335, raw max cross-score: 0.567.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_06",
+    "category": "possible_match_insufficient_evidence",
+    "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+    "notes": "Tests coagulation and safety screening requirements.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT02984384",
+      "selected_trial_score": 1.6097172050000002,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.085771,
+      "trial_score_share": 0.278448,
+      "raw_max_cross": -5.396439,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT02984384, dominance ratio: 1.086, score share: 0.278, raw max cross-score: -5.396.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_07",
+    "category": "explanation_request",
+    "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+    "notes": "Pure explanation request.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT04660656",
+      "selected_trial_score": 1.1707866999999998,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.111186,
+      "trial_score_share": 0.251497,
+      "raw_max_cross": -3.843278,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT04660656, dominance ratio: 1.111, score share: 0.251, raw max cross-score: -3.843.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_08",
+    "category": "explanation_request",
+    "question": "What parts of joining this study are still unclear from the available information?",
+    "notes": "Tests uncertainty surfacing.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT01737242",
+      "selected_trial_score": 2.0687436415,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.41005,
+      "trial_score_share": 0.383813,
+      "raw_max_cross": 0.172896,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT01737242, dominance ratio: 1.410, score share: 0.384, raw max cross-score: 0.173.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_09",
+    "category": "participation_request",
+    "question": "What would I actually need to do if I joined this study?",
+    "notes": "Tests whether system avoids inventing procedures.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT01645904",
+      "selected_trial_score": 4.377459755,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.810716,
+      "trial_score_share": 0.513167,
+      "raw_max_cross": 3.004534,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT01645904, dominance ratio: 1.811, score share: 0.513, raw max cross-score: 3.005.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_10",
+    "category": "participation_request",
+    "question": "How much time would this study probably take from me?",
+    "notes": "Tests fallback on time commitment when unsupported.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT02432339",
+      "selected_trial_score": 2.1077387750000005,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.091409,
+      "trial_score_share": 0.310561,
+      "raw_max_cross": 0.563777,
+      "best_rank": 2,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT02432339, dominance ratio: 1.091, score share: 0.311, raw max cross-score: 0.564.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_11",
+    "category": "risk_request",
+    "question": "What risks or burdens are described for participants in this study?",
+    "notes": "Tests fallback on unsupported risk content.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT02830828",
+      "selected_trial_score": 1.41492565,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.228186,
+      "trial_score_share": 0.228894,
+      "raw_max_cross": 4.127476,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 8,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT02830828, dominance ratio: 1.228, score share: 0.229, raw max cross-score: 4.127.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_12",
+    "category": "consent_understanding",
+    "question": "What would the study team still need to confirm before saying I am eligible?",
+    "notes": "Tests unresolved study requirements.",
+    "context_control": {
+      "status": "trial_first_ok",
+      "selected_doc_id": "NCT04471363",
+      "selected_trial_score": 3.5816137300000004,
+      "selected_doc_passage_count": 1,
+      "dominance_ratio": 1.576307,
+      "trial_score_share": 0.366926,
+      "raw_max_cross": 3.162212,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 5,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 1,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "possible_match_insufficient_evidence",
+      "patient_facing_answer": "The study team still needs to confirm your answers to the eligibility questions.",
+      "supported_patient_facts": [
+        "I am a cancer survivor",
+        "I am the romantic partner of a cancer survivor",
+        "I am not currently undergoing chemotherapy, radiation or surgery",
+        "I am in a committed, romantic relationship",
+        "I have access to a computer or tablet with internet",
+        "I have an email address that I am willing to share with the study team",
+        "I am at least 18 years of age and less than 90 years of age"
+      ],
+      "missing_patient_facts": [],
+      "unresolved_study_requirements": [],
+      "reasoning_summary": "While you have answered 'Yes' to most of the eligibility criteria, there are no missing facts or unresolved requirements. However, the study team needs to verify your answers to ensure they align with the full eligibility profile.",
+      "safety_note": "Please continue to follow any safety guidelines provided by the study team."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "Eligible participants are cancer survivors or their romantic partners who meet specific criteria.",
+        "support_passages": [
+          1
+        ]
+      },
+      "procedures_or_participation": {
+        "text": "Participants need to complete online questionnaires and provide personal information.",
+        "support_passages": [
+          1
+        ]
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "It takes approximately several hours to complete the online questionnaires.",
+        "support_passages": [
+          1
+        ]
+      },
+      "what_is_unclear": [
+        "Not clearly stated in the retrieved evidence"
+      ],
+      "patient_facing_summary": {
+        "text": "This study involves cancer survivors and their partners answering online questions about their experiences.",
+        "support_passages": [
+          1
+        ]
+      },
+      "patient_facing_summary_rebuilt": {
+        "text": "Who may join: Eligible participants are cancer survivors or their romantic partners who meet specific criteria. What participation may involve: Participants need to complete online questionnaires and provide personal information. Time commitment: It takes approximately several hours to complete the online questionnaires.",
+        "source": "rebuilt_from_trial_first_gated_fields"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Based on what we discussed, who seems to be the kind of person this study is looking for?"
+      ],
+      "checked_concepts": [
+        "basic join profile"
+      ]
+    }
+  },
+  {
+    "case_id": "case_13",
+    "category": "consent_understanding",
+    "question": "Can you tell me what information from my medical records would still need to be checked?",
+    "notes": "Tests missing patient facts extraction.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT01710072",
+      "selected_trial_score": 2.314303464285714,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.528244,
+      "trial_score_share": 0.303962,
+      "raw_max_cross": -1.646705,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT01710072, dominance ratio: 1.528, score share: 0.304, raw max cross-score: -1.647.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_14",
+    "category": "teachback_style",
+    "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+    "notes": "Tests focused clarification.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT00816998",
+      "selected_trial_score": 5.45357519,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 4.611921,
+      "trial_score_share": 0.639183,
+      "raw_max_cross": -1.937021,
+      "best_rank": 1,
+      "generic_question": false,
+      "n_unique_docs_in_raw_context": 6,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00816998, dominance ratio: 4.612, score share: 0.639, raw max cross-score: -1.937.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  },
+  {
+    "case_id": "case_15",
+    "category": "cannot_determine",
+    "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+    "notes": "Tests conservative handling of vague lay language.",
+    "context_control": {
+      "status": "abstain_no_reliable_trial",
+      "selected_doc_id": "NCT00738998",
+      "selected_trial_score": 1.7648972750000005,
+      "selected_doc_passage_count": 2,
+      "dominance_ratio": 1.523087,
+      "trial_score_share": 0.379915,
+      "raw_max_cross": -3.816997,
+      "best_rank": 1,
+      "generic_question": true,
+      "n_unique_docs_in_raw_context": 7,
+      "raw_context_rows": 8,
+      "filtered_context_rows": 2,
+      "thresholds": {
+        "min_dominance_ratio": 1.35,
+        "min_trial_score_share": 0.28,
+        "min_selected_raw_max_cross": 1.0,
+        "max_best_rank": 2,
+        "keep_trial_passages": 6
+      }
+    },
+    "eligibility_assessment": {
+      "decision": "cannot_determine",
+      "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+      "supported_patient_facts": [],
+      "missing_patient_facts": [
+        "the exact study you want to ask about"
+      ],
+      "unresolved_study_requirements": [
+        "a reliable dominant single-trial context could not be established"
+      ],
+      "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00738998, dominance ratio: 1.523, score share: 0.380, raw max cross-score: -3.817.",
+      "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+    },
+    "consent_explanation": {
+      "study_purpose": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "who_may_join": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "procedures_or_participation": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "risks_or_burdens": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "time_commitment": {
+        "text": "not clearly stated in the retrieved evidence",
+        "support_passages": []
+      },
+      "what_is_unclear": [
+        "A reliable dominant single-trial context could not be established from the retrieved evidence.",
+        "The system needs one specific trial before it can answer safely."
+      ],
+      "patient_facing_summary_rebuilt": {
+        "text": "I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.",
+        "source": "trial_first_abstention"
+      }
+    },
+    "teachback": {
+      "teachback_questions": [
+        "Can you share the study title or NCT number you want to ask about?",
+        "Would you like help narrowing this to one specific trial?"
+      ],
+      "checked_concepts": [
+        "single-trial identification",
+        "study disambiguation"
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+y_variant,feature,coef
+any,trial_score_share,0.46359324555912407
+any,dominance_ratio,-0.6438657890378278
+any,raw_max_cross,0.6613290526147715
+any,best_rank,0.15895828668749046
+any,(intercept),-0.36791031223220116
+strict,trial_score_share,0.13223893972700576
+strict,dominance_ratio,0.0489410860912545
+strict,raw_max_cross,0.3382335829934955
+strict,best_rank,0.6755087386381249
+strict,(intercept),-1.6731228636022173

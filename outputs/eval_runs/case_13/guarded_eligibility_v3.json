@@ -1,0 +1,18 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "For your specific study, we will need to check certain information from your medical records to ensure you meet the eligibility criteria. Specifically, we will look into your medical history, including any previous sleep studies, dietary habits, and any treatments for your sleep disorder. Additionally, we will review your medical records from your pulmonary doctor to gather information about your sleep study results.",
+  "supported_patient_facts": [
+    "you have a sleep disorder",
+    "you had a sleep study that determined you have a sleep disorder",
+    "you will be asked to keep a diary of your sleep treatment usage for the first six weeks"
+  ],
+  "missing_patient_facts": [
+    "your previous medical records from your pulmonary doctor",
+    "the results of your sleep study"
+  ],
+  "unresolved_study_requirements": [
+    "we will review your medical records from your pulmonary doctor to gather information about your sleep study results"
+  ],
+  "reasoning_summary": "The patient has a confirmed sleep disorder and has undergone a sleep study. However, the exact results of the sleep study and the medical records from the pulmonary doctor are still pending. Therefore, we cannot definitively confirm eligibility without these pieces of information.",
+  "safety_note": "Taking part in this study is completely voluntary. You may choose not to take part at all. If you decide to be in this study, you may stop participating at any time. If you decide not to be in this study, or if you stop participating at any time, you won't be penalized or lose any benefits for which you otherwise qualify."
+}

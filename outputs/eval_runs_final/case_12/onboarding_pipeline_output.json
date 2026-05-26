@@ -1,0 +1,92 @@
+{
+  "input_question": "What would the study team still need to confirm before saying I am eligible?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "context_control": {
+    "status": "trial_first_ok",
+    "selected_doc_id": "NCT04471363",
+    "selected_trial_score": 3.5816137300000004,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.576307,
+    "trial_score_share": 0.366926,
+    "raw_max_cross": 3.162212,
+    "best_rank": 1,
+    "generic_question": false,
+    "n_unique_docs_in_raw_context": 5,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study team still needs to confirm your answers to the eligibility questions.",
+    "supported_patient_facts": [
+      "I am a cancer survivor",
+      "I am the romantic partner of a cancer survivor",
+      "I am not currently undergoing chemotherapy, radiation or surgery",
+      "I am in a committed, romantic relationship",
+      "I have access to a computer or tablet with internet",
+      "I have an email address that I am willing to share with the study team",
+      "I am at least 18 years of age and less than 90 years of age"
+    ],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "While you have answered 'Yes' to most of the eligibility criteria, there are no missing facts or unresolved requirements. However, the study team needs to verify your answers to ensure they align with the full eligibility profile.",
+    "safety_note": "Please continue to follow any safety guidelines provided by the study team."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "who_may_join": {
+      "text": "Eligible participants are cancer survivors or their romantic partners who meet specific criteria.",
+      "support_passages": [
+        1
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants need to complete online questionnaires and provide personal information.",
+      "support_passages": [
+        1
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "not clearly stated in the retrieved evidence",
+      "support_passages": []
+    },
+    "time_commitment": {
+      "text": "It takes approximately several hours to complete the online questionnaires.",
+      "support_passages": [
+        1
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study involves cancer survivors and their partners answering online questions about their experiences.",
+      "support_passages": [
+        1
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Who may join: Eligible participants are cancer survivors or their romantic partners who meet specific criteria. What participation may involve: Participants need to complete online questionnaires and provide personal information. Time commitment: It takes approximately several hours to complete the online questionnaires.",
+      "source": "rebuilt_from_trial_first_gated_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Based on what we discussed, who seems to be the kind of person this study is looking for?"
+    ],
+    "checked_concepts": [
+      "basic join profile"
+    ]
+  }
+}

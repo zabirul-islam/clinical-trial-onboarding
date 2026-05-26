@@ -1,0 +1,86 @@
+{
+  "case_id": "case_trec2022_033",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the clinic for his routine checkup. The patient wears glasses for myopia and takes no medications. Vital signs are normal. On physical examination, the patient is tall with long upper extremities and fingers. The face appears narrow with down-slanted palpebral fissures, flattened malar bones, and a small jaw. The lungs are clear on auscultation. The abdomen is soft with no organomegaly. The patient is diagnosed with Marfan syndrome, and he is cooperative with his medical appointments. He is working as driver. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.\n\n[Passage 2 | doc=NCT03985540 | section=eligibility]\nInclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.\n\n[Passage 3 | doc=NCT03985540 | section=summary]\nThe purpose of this research study is to investigate the effectiveness of a memory retraining program and a processing speed program in a spinal cord injured (SCI) population. The study is designed to research how well different types of techniques can help people with SCI improve in areas where they might have difficulties such as memory or processing speed, (time it takes to process information provided).",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03985540::eligibility::0",
+      "doc_id": "NCT03985540",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03985540::summary::0",
+      "doc_id": "NCT03985540",
+      "section": "summary",
+      "passage_text": "The purpose of this research study is to investigate the effectiveness of a memory retraining program and a processing speed program in a spinal cord injured (SCI) population. The study is designed to research how well different types of techniques can help people with SCI improve in areas where they might have difficulties such as memory or processing speed, (time it takes to process information provided).",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": "",
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you are unlikely to be a match for this clinical trial. This study is specifically designed for people with spinal cord injuries who use wheelchairs as their primary means of getting around. You described having Marfan syndrome and working as a driver, but you did not mention having a spinal cord injury or using a wheelchair. This trial is testing memory and processing speed training programs for individuals with spinal cord injuries, which does not appear to match your medical situation. I recommend speaking with your healthcare provider about clinical trials that may be appropriate for Marfan syndrome or discussing any specific health concerns you may have.\",\n  \"supported_patient_facts\": [\n    \"20-year-old male\",\n    \"Diagnosed with Marfan syndrome\",\n    \"Wears glasses for myopia\",\n    \"Takes no medications\",\n    \"Normal vital signs\",\n    \"Working as a driver\",\n    \"Cooperative with medical appointments\"\n  ],\n  \"missing_patient_facts\": [\n    \"No mention of spinal cord injury\",\n    \"No indication of wheelchair use or non-ambulatory status\",\n    \"No information about neurological deficits or cognitive impairments\",\n    \"No mention of memory or processing speed difficulties\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Study requires spinal cord injury between C1-T12 levels\",\n    \"Study requires non-ambulatory status (wheelchair as primary mobility)\",\n    \"Study requires AIS grade A, B, or C classification\",\n    \"Study requires injury occurred at least 1 year ago\",\n    \"Vision must be better than 20/60 in worst eye with corrective lenses\"\n  ],\n  \"reasoning_summary\": \"This is a mismatch between patient condition and study population. The trial (NCT03985540) is exclusively for individuals with spinal cord injuries who have cognitive deficits in memory or processing speed. The fundamental inclusion criteria are: (1) spinal cord injury, (2) non-ambulatory/wheelchair user, and (3) specific injury classification. The patient presents with Marfan syndrome without any mention of spinal cord injury or mobility limitations. Working as a driver suggests ambulatory status. The core disease condition does not align with study requirements.\",\n  \"safety_note\": \"This response is based solely on the limited clinical trial information provided. I cannot provide medical advice about your Marfan syndrome or recommend specific treatments. Please consult with your healthcare provider about appropriate clinical trials for your condition and any concerns about your diagnosis.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you are unlikely to be a match for this clinical trial. This study is specifically designed for people with spinal cord injuries who use wheelchairs as their primary means of getting around. You described having Marfan syndrome and working as a driver, but you did not mention having a spinal cord injury or using a wheelchair. This trial is testing memory and processing speed training programs for individuals with spinal cord injuries, which does not appear to match your medical situation. I recommend speaking with your healthcare provider about clinical trials that may be appropriate for Marfan syndrome or discussing any specific health concerns you may have.",
+    "supported_patient_facts": [
+      "20-year-old male",
+      "Diagnosed with Marfan syndrome",
+      "Wears glasses for myopia",
+      "Takes no medications",
+      "Normal vital signs",
+      "Working as a driver",
+      "Cooperative with medical appointments"
+    ],
+    "missing_patient_facts": [
+      "No mention of spinal cord injury",
+      "No indication of wheelchair use or non-ambulatory status",
+      "No information about neurological deficits or cognitive impairments",
+      "No mention of memory or processing speed difficulties"
+    ],
+    "unresolved_study_requirements": [
+      "Study requires spinal cord injury between C1-T12 levels",
+      "Study requires non-ambulatory status (wheelchair as primary mobility)",
+      "Study requires AIS grade A, B, or C classification",
+      "Study requires injury occurred at least 1 year ago",
+      "Vision must be better than 20/60 in worst eye with corrective lenses"
+    ],
+    "reasoning_summary": "This is a mismatch between patient condition and study population. The trial (NCT03985540) is exclusively for individuals with spinal cord injuries who have cognitive deficits in memory or processing speed. The fundamental inclusion criteria are: (1) spinal cord injury, (2) non-ambulatory/wheelchair user, and (3) specific injury classification. The patient presents with Marfan syndrome without any mention of spinal cord injury or mobility limitations. Working as a driver suggests ambulatory status. The core disease condition does not align with study requirements.",
+    "safety_note": "This response is based solely on the limited clinical trial information provided. I cannot provide medical advice about your Marfan syndrome or recommend specific treatments. Please consult with your healthcare provider about appropriate clinical trials for your condition and any concerns about your diagnosis."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you are unlikely to be a match for this clinical trial. This study is specifically designed for people with spinal cord injuries who use wheelchairs as their primary means of getting around. You described having Marfan syndrome and working as a driver, but you did not mention having a spinal cord injury or using a wheelchair. This trial is testing memory and processing speed training programs for individuals with spinal cord injuries, which does not appear to match your medical situation. I recommend speaking with your healthcare provider about clinical trials that may be appropriate for Marfan syndrome or discussing any specific health concerns you may have.",
+  "missing_patient_facts": [
+    "No mention of spinal cord injury",
+    "No indication of wheelchair use or non-ambulatory status",
+    "No information about neurological deficits or cognitive impairments",
+    "No mention of memory or processing speed difficulties"
+  ],
+  "unresolved_study_requirements": [
+    "Study requires spinal cord injury between C1-T12 levels",
+    "Study requires non-ambulatory status (wheelchair as primary mobility)",
+    "Study requires AIS grade A, B, or C classification",
+    "Study requires injury occurred at least 1 year ago",
+    "Vision must be better than 20/60 in worst eye with corrective lenses"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 12.18253416987136
+}

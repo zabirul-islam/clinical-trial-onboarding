@@ -1,0 +1,106 @@
+{
+  "case_id": "case_trec2022_048",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03003533",
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the emergency due to bleeding after a tooth extraction. The bleeding has persisted for approximately 30 minutes despite constant direct pressure. He is a known case of Hemophilia type A treated with FVIII. Blood pressure is 95/60 mm Hg and pulse is 105/min. His weight is 70 Kg. Family history is positive for Hemophilia type A in his maternal uncle. He also has a lipoma on his left arm which he plans to remove surgically. His FVIII activity is 40%. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03003533 | section=detailed_description]\nHemophilia A is a condition in which blood is unable to clot effectively. It is caused by a mutation or deletion in the gene that is responsible for producing blood-clotting factor VIII protein. Individuals with hemophilia A suffer from repeated bleeding episodes, often into the joints, which can cause chronic joint disease and sometime results in death due to the inability of the blood to clot efficiently. This chronic joint disease can have significant physical, psychosocial, and quality-of-life effects, including financial burden. The current treatment is intravenous (i.v.) injections of factor VIII protein products, either 2-3 times weekly or in response to bleeding. Recent preliminary clinical data of a hemophilia B gene transfer study (which is also being conducted by Spark Therapeutics) shows all study participants achieving therapeutic factor IX activity levels (average of maintaining factor IX activity levels around 30% of normal with no confirmed bleeds, after receiving Spark gene transfer, with the approach of using the novel bio-engineered recombinant adeno-associated viral (rAAV) vector carrying a high specific activity of a factor IX gene.\n\n[Passage 2 | doc=NCT03003533 | section=detailed_description]\nThe approach being tested in this clinical research study uses a further modified novel AAV vector (with a stronger attraction to the human liver) to deliver the human factor VIII (hFVIII) gene into liver cells so that they can produce factor VIII protein.\n\n[Passage 3 | doc=NCT03003533 | section=eligibility]\nInclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th\n\n[Passage 4 | doc=NCT03003533 | section=summary]\nThis clinical research study is being conducted by Spark Therapeutics, Inc. to determine the safety and efficacy of the factor VIII gene transfer treatment with SPK-8011 in individuals with hemophilia A.",
+  "passages": [
+    {
+      "passage_id": "NCT03003533::detailed_description::0",
+      "doc_id": "NCT03003533",
+      "section": "detailed_description",
+      "passage_text": "Hemophilia A is a condition in which blood is unable to clot effectively. It is caused by a mutation or deletion in the gene that is responsible for producing blood-clotting factor VIII protein. Individuals with hemophilia A suffer from repeated bleeding episodes, often into the joints, which can cause chronic joint disease and sometime results in death due to the inability of the blood to clot efficiently. This chronic joint disease can have significant physical, psychosocial, and quality-of-life effects, including financial burden. The current treatment is intravenous (i.v.) injections of factor VIII protein products, either 2-3 times weekly or in response to bleeding. Recent preliminary clinical data of a hemophilia B gene transfer study (which is also being conducted by Spark Therapeutics) shows all study participants achieving therapeutic factor IX activity levels (average of maintaining factor IX activity levels around 30% of normal with no confirmed bleeds, after receiving Spark gene transfer, with the approach of using the novel bio-engineered recombinant adeno-associated viral (rAAV) vector carrying a high specific activity of a factor IX gene.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03003533::detailed_description::1",
+      "doc_id": "NCT03003533",
+      "section": "detailed_description",
+      "passage_text": "The approach being tested in this clinical research study uses a further modified novel AAV vector (with a stronger attraction to the human liver) to deliver the human factor VIII (hFVIII) gene into liver cells so that they can produce factor VIII protein.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03003533::eligibility::0",
+      "doc_id": "NCT03003533",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03003533::summary::0",
+      "doc_id": "NCT03003533",
+      "section": "summary",
+      "passage_text": "This clinical research study is being conducted by Spark Therapeutics, Inc. to determine the safety and efficacy of the factor VIII gene transfer treatment with SPK-8011 in individuals with hemophilia A.",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you are unlikely to match this hemophilia A gene therapy trial. The main concern is that your Factor VIII activity level is 40%, but the trial requires patients to have Factor VIII activity levels at or below 2% of normal (severe hemophilia A). Your level indicates you have mild hemophilia A, which doesn't meet this key requirement. Additionally, the trial requires participants to have received more than 150 exposure days to Factor VIII concentrates and experienced more than 10 bleeding events in the past year (if on on-demand therapy), which we cannot confirm from your information. However, I cannot definitively say you are ineligible - only the study team can make that determination after reviewing your complete medical history.\",\n  \"supported_patient_facts\": [\n    \"20-year-old male (meets age requirement of 18+)\",\n    \"Confirmed diagnosis of Hemophilia type A\",\n    \"Currently treated with Factor VIII\",\n    \"Factor VIII activity level is 40%\",\n    \"Family history positive for Hemophilia A\",\n    \"Currently experiencing bleeding episode (tooth extraction bleeding)\"\n  ],\n  \"missing_patient_facts\": [\n    \"Number of exposure days to Factor VIII concentrates (need >150)\",\n    \"Number of bleeding events in the previous 12 months (need >10 if on on-demand therapy)\",\n    \"History of allergic reactions to Factor VIII products\",\n    \"Current or prior inhibitor status against Factor VIII\",\n    \"Hepatitis B or C status\",\n    \"HIV status and CD4 count if positive\",\n    \"Liver disease status\",\n    \"Antibodies reactive with AAV-Spark200 capsid\",\n    \"Recent participation in other gene transfer or investigational trials\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Trial requires Factor VIII activity \u22642% of normal; patient has 40% (does not meet this requirement)\",\n    \"Whether patient is on on-demand therapy or prophylaxis (affects bleeding event requirement)\",\n    \"Laboratory confirmation of no Factor VIII inhibitors\",\n    \"Serological testing for hepatitis and HIV\",\n    \"Testing for AAV-Spark200 antibodies\",\n    \"Confirmation of exposure day history\"\n  ],\n  \"reasoning_summary\": \"This trial (NCT03003533) is testing a gene therapy approach for severe hemophilia A. The critical mismatch is the Factor VIII activity level: the patient has 40% activity (mild hemophilia), but the trial specifically requires \u22642% activity (severe hemophilia). This fundamental criterion means the patient's condition is not severe enough for this particular gene therapy study, which targets patients with very low or absent Factor VIII production. Even though the patient has hemophilia A and is the correct age and gender, the severity level does not align with the trial's target population.\",\n  \"safety_note\": \"This assessment is based solely on matching your information against the trial's published criteria and cannot replace an official eligibility determination by the study team. Your current bleeding episode from tooth extraction requires immediate medical attention and should be managed by your treating physician, not through trial enrollment considerations. Please seek appropriate emergency care for your current bleeding. If interested in this or other trials, discuss with your hemophilia treatment center after your acute issue is resolved.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you are unlikely to match this hemophilia A gene therapy trial. The main concern is that your Factor VIII activity level is 40%, but the trial requires patients to have Factor VIII activity levels at or below 2% of normal (severe hemophilia A). Your level indicates you have mild hemophilia A, which doesn't meet this key requirement. Additionally, the trial requires participants to have received more than 150 exposure days to Factor VIII concentrates and experienced more than 10 bleeding events in the past year (if on on-demand therapy), which we cannot confirm from your information. However, I cannot definitively say you are ineligible - only the study team can make that determination after reviewing your complete medical history.",
+    "supported_patient_facts": [
+      "20-year-old male (meets age requirement of 18+)",
+      "Confirmed diagnosis of Hemophilia type A",
+      "Currently treated with Factor VIII",
+      "Factor VIII activity level is 40%",
+      "Family history positive for Hemophilia A",
+      "Currently experiencing bleeding episode (tooth extraction bleeding)"
+    ],
+    "missing_patient_facts": [
+      "Number of exposure days to Factor VIII concentrates (need >150)",
+      "Number of bleeding events in the previous 12 months (need >10 if on on-demand therapy)",
+      "History of allergic reactions to Factor VIII products",
+      "Current or prior inhibitor status against Factor VIII",
+      "Hepatitis B or C status",
+      "HIV status and CD4 count if positive",
+      "Liver disease status",
+      "Antibodies reactive with AAV-Spark200 capsid",
+      "Recent participation in other gene transfer or investigational trials"
+    ],
+    "unresolved_study_requirements": [
+      "Trial requires Factor VIII activity \u22642% of normal; patient has 40% (does not meet this requirement)",
+      "Whether patient is on on-demand therapy or prophylaxis (affects bleeding event requirement)",
+      "Laboratory confirmation of no Factor VIII inhibitors",
+      "Serological testing for hepatitis and HIV",
+      "Testing for AAV-Spark200 antibodies",
+      "Confirmation of exposure day history"
+    ],
+    "reasoning_summary": "This trial (NCT03003533) is testing a gene therapy approach for severe hemophilia A. The critical mismatch is the Factor VIII activity level: the patient has 40% activity (mild hemophilia), but the trial specifically requires \u22642% activity (severe hemophilia). This fundamental criterion means the patient's condition is not severe enough for this particular gene therapy study, which targets patients with very low or absent Factor VIII production. Even though the patient has hemophilia A and is the correct age and gender, the severity level does not align with the trial's target population.",
+    "safety_note": "This assessment is based solely on matching your information against the trial's published criteria and cannot replace an official eligibility determination by the study team. Your current bleeding episode from tooth extraction requires immediate medical attention and should be managed by your treating physician, not through trial enrollment considerations. Please seek appropriate emergency care for your current bleeding. If interested in this or other trials, discuss with your hemophilia treatment center after your acute issue is resolved."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you are unlikely to match this hemophilia A gene therapy trial. The main concern is that your Factor VIII activity level is 40%, but the trial requires patients to have Factor VIII activity levels at or below 2% of normal (severe hemophilia A). Your level indicates you have mild hemophilia A, which doesn't meet this key requirement. Additionally, the trial requires participants to have received more than 150 exposure days to Factor VIII concentrates and experienced more than 10 bleeding events in the past year (if on on-demand therapy), which we cannot confirm from your information. However, I cannot definitively say you are ineligible - only the study team can make that determination after reviewing your complete medical history.",
+  "missing_patient_facts": [
+    "Number of exposure days to Factor VIII concentrates (need >150)",
+    "Number of bleeding events in the previous 12 months (need >10 if on on-demand therapy)",
+    "History of allergic reactions to Factor VIII products",
+    "Current or prior inhibitor status against Factor VIII",
+    "Hepatitis B or C status",
+    "HIV status and CD4 count if positive",
+    "Liver disease status",
+    "Antibodies reactive with AAV-Spark200 capsid",
+    "Recent participation in other gene transfer or investigational trials"
+  ],
+  "unresolved_study_requirements": [
+    "Trial requires Factor VIII activity \u22642% of normal; patient has 40% (does not meet this requirement)",
+    "Whether patient is on on-demand therapy or prophylaxis (affects bleeding event requirement)",
+    "Laboratory confirmation of no Factor VIII inhibitors",
+    "Serological testing for hepatitis and HIV",
+    "Testing for AAV-Spark200 antibodies",
+    "Confirmation of exposure day history"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 17.960080215940252
+}

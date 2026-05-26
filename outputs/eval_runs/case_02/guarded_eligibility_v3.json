@@ -1,0 +1,18 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you seem to meet some key criteria for the study, but we need more details to confirm your eligibility. You are a postmenopausal woman with osteoporosis and a history of a fragility fracture, which aligns with the inclusion criteria. However, we need to check your medical records to see if they include the required imaging. This is an important step to ensure you can participate fully.",
+  "supported_patient_facts": [
+    "you are a postmenopausal woman",
+    "you have osteoporosis",
+    "you have a history of a fragility fracture"
+  ],
+  "missing_patient_facts": [
+    "whether your medical records include the required imaging",
+    "your current bone density status"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of required imaging in your medical records"
+  ],
+  "reasoning_summary": "Your medical history matches the inclusion criteria, but we need to verify the presence of required imaging in your medical records to finalize your eligibility.",
+  "safety_note": "It's important to ensure that you meet all study requirements to stay safe and benefit fully from the research."
+}

@@ -1,0 +1,36 @@
+{
+  "study_purpose": {
+    "text": "This study examines whether adding a leg compression device to low-dose blood thinners reduces clot formation in critically ill patients.",
+    "support_passages": [
+      6
+    ]
+  },
+  "who_may_join": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "procedures_or_participation": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "risks_or_burdens": {
+    "text": "The main burden is the possibility of skin abrasions from the leg compression device.",
+    "support_passages": [
+      6
+    ]
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "Time commitment",
+    "Risks or burdens"
+  ],
+  "patient_facing_summary": {
+    "text": "This study looks at whether adding a leg compression device to blood thinners helps prevent clots in critically ill patients. Anyone admitted to ICU with low-dose blood thinners might join. They'll keep taking blood thinners but some will get the leg compression device. Possible side effects are skin abrasions.",
+    "support_passages": [
+      6
+    ]
+  }
+}

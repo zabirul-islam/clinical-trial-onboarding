@@ -1,0 +1,114 @@
+{
+  "case_id": "case_03",
+  "backbone": "V1",
+  "source": "handcrafted",
+  "category": "likely_mismatch_or_unlikely_match",
+  "gold_nct": "",
+  "selected_doc": "NCT00865358",
+  "question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+  "evidence": "[Passage 1 | doc=NCT00865358 | section=eligibility]\nInclusion Criteria: 1. 18-64 years old. The rationale for including adults only less than 65 years old is that the causes of low back pain in older persons are more likely to be multifactorial (e.g., degenerative disk disease, spinal canal stenosis, fractures) and less likely to be the non-specific muscular type that our yoga protocol was designed to address. A study of yoga for low back pain in individuals > 65 years old is important. However, the ideal design would likely benefit from a yoga protocol specifically designed for this purpose. 2. Current non-specific low back pain lasting at least 12 weeks. Non-specific refers to predominantly muscular and ligamentous causes for the low back pain, and the absence of clear symptoms and signs of other causes of low back pain (e.g., herniated disk). This will be ascertained during the eligibility screening process using the Eligibility Screening Instrument (see Sect. S). This instrument was adapted from eligibility screening tools used in multiple published trials of CAM therapies for chronic low back pain by Karen Sherman PhD and Daniel Cherkin PhD.\n\n[Passage 2 | doc=NCT04155970 | section=eligibility]\nInclusion Criteria: - Patients with acute non-specific low back pain (NSLBP), without leg pain, of at least 2 weeks duration, but no more than 4 weeks duration - Patients between the ages of 18 and 65 Exclusion Criteria: - Patients who cannot understand written English and unable to provide full informed consent. - Patients who are currently involved in another research study - Patients with a BMI over 30 (less likely to obtain the required information from the images) - Pregnancy or potentially pregnant - Previous ionising radiation exposure within the last 6 months greater than 8mSv. - Previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months). - Scoliosis or positive Adams forward Bending Test for Scoliosis. - Diagnosed Osteoporosis (Bone Density Scan) - Patients with a numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment. - Manual therapy already received for this episode of NSLBP - Litigation or compensation pending - Diagnosis of depression (by a medical doctor) within the last 12 months.\n\n[Passage 3 | doc=NCT00865358 | section=eligibility]\nHowever, since this pilot study is specifically targeting minorities with chronic low back pain, we will purposefully allocate 80% (24 of 30) of the openings in the study to minority subjects (ascertained by self-report). 7. Consent to participate. Exclusion Criteria: 1. Age > 64 years old. 2. Yoga use in the previous 12 months. 3. Inability to understand English at a level necessary to follow yoga class instructions. 4. Pregnancy - although back pain in pregnancy is common and may be amenable to yoga, the causes of the pain are likely different than non specific chronic low back pain in nonpregnant adults. 5. Change in pain medications four weeks or fewer prior to enrollment. 6. Other back pain treatments (e.g., physical therapy, epidural steroid injection, chiropractic, acupuncture) anticipated to begin in the next 6 months or initiated less than four weeks prior to enrollment. 7. Ongoing or planned litigation related to back pain. Ongoing or planned workers' compensation, disability, or personal injury claims related to back pain. Litigation or claims that have been resolved or settled are not exclusion criteria. 8.\n\n[Passage 4 | doc=NCT02108509 | section=detailed_description]\nA meta-analysis of 11 observational studies of chronic pancreatitis reported the prevalence of osteopenia to be 39.8% and osteoporosis 23.4%, with the cumulative prevalence of low bone density (osteopenia and osteoporosis) being almost 65%. Interestingly, out of the eleven studies in this meta-analysis, eight were performed in Europe, two in India, and one in South America. Some studies in chronic pancreatitis have described a link between Vitamin D deficiency and risk for low bone density. Other proposed risk factors for low bone density in this patient population include age, gender, malnutrition, alcohol use, smoking, and variation and duration of pancreatitis. However, other potential novel risk factors for low bone density exist in patients with chronic pancreatitis. These factors include chronic use of opioid medications and hypogonadism. Opioid use is prominent in patients with chronic pancreatitis. At least 85% of patients suffering from chronic pancreatitis will develop pain and despite many different treatment methods, many patients with chronic pancreatitis do not get respite from their pain, even after several years.\n\n[Passage 5 | doc=NCT00290589 | section=eligibility]\nInclusion Criteria: - 21-50 years old, non-traumatic low back pain for one week or less, Exclusion Criteria: - fever, pregnancy, lactation, allergy or intolerance to study medication, suspected active oncologic, urologic, or gynecologic disease\n\n[Passage 6 | doc=NCT03065894 | section=summary]\nThis study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy (PT - i.e., stratified-specific PT) treatments or current treatment in primary care across The University of Vermont Health Network.\n\n[Passage 7 | doc=NCT00101790 | section=eligibility]\nInclusion Criteria: - Males and females, 21 years of age or older - Having mechanical low back pain (LBP) that is predominantly axial, i.e., subjects with low back pain with proximal radiation (above the knee), or subjects with low back pain with distal radiation of pain (below the knee), only if their low back pain component is 50% or more than their leg pain component. This pain will have been present for at least 3 months, with a minimum, average pain score of 4 on a 0-10 numeric rating scale [NRS; a score of 4 is associated with pain of \"moderate\" intensity, and its use as a cutoff value is supported by the clinical relevance of similar scores found by others. - MRI evidence of multiple level disc degeneration and vertebral changes consistent with the diagnosis of degenerative disc disease or spondylotic disease of the spine. - Being capable of reading at a sixth-grade level.\n\n[Passage 8 | doc=NCT02108509 | section=summary]\nThe purpose of this study is to define the prevalence of low bone density (osteopenia/osteoporosis) in patients with chronic pancreatitis. Secondary aims include investigating the prevalence of hypogonadism (low sex hormones) in patients with chronic pancreatitis and determining if hypogonadism and/or use of narcotic pain medications are risk factors for low bone density in this patient population. 1. Hypothesis: Patients with chronic pancreatitis are at increased risk of low bone density (osteopenia/osteoporosis), and hypogonadism (low sex hormone levels) and narcotic pain medication use are independent risk factors for the development of low bone density in this patient population. 2. The outcome measures include: i) Prevalence of low bone density (osteopenia/osteoporosis) in patients with chronic pancreatitis (as determined by DXA scan and fracture history). ii) Prevalence of hypogonadism (low sex hormones) in patients with chronic pancreatitis (as determined by sex hormone levels and clinical history). iii) Identification of hypogonadism and/or opioid use as risk factors for low bone density in patients with chronic pancreatitis (as determined by univariate and multivariate analysis of multiple risk factors). 3. After obtaining written consent from potential subjects, a questionnaire will be performed outlining risk factors for low bone density. Dual X-ray absorptiometry (DXA scan) will be performed to evaluate for low bone density and a blood test will be performed to evaluate for low sex hormones, low levels of vitamin D, and other risk factors for low bone density.",
+  "passages": [
+    {
+      "passage_id": "NCT00865358::eligibility::0",
+      "doc_id": "NCT00865358",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: 1. 18-64 years old. The rationale for including adults only less than 65 years old is that the causes of low back pain in older persons are more likely to be multifactorial (e.g., degenerative disk disease, spinal canal stenosis, fractures) and less likely to be the non-specific muscular type that our yoga protocol was designed to address. A study of yoga for low back pain in individuals > 65 years old is important. However, the ideal design would likely benefit from a yoga protocol specifically designed for this purpose. 2. Current non-specific low back pain lasting at least 12 weeks. Non-specific refers to predominantly muscular and ligamentous causes for the low back pain, and the absence of clear symptoms and signs of other causes of low back pain (e.g., herniated disk). This will be ascertained during the eligibility screening process using the Eligibility Screening Instrument (see Sect. S). This instrument was adapted from eligibility screening tools used in multiple published trials of CAM therapies for chronic low back pain by Karen Sherman PhD and Daniel Cherkin PhD.",
+      "score": -1.8277149
+    },
+    {
+      "passage_id": "NCT04155970::eligibility::0",
+      "doc_id": "NCT04155970",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: - Patients with acute non-specific low back pain (NSLBP), without leg pain, of at least 2 weeks duration, but no more than 4 weeks duration - Patients between the ages of 18 and 65 Exclusion Criteria: - Patients who cannot understand written English and unable to provide full informed consent. - Patients who are currently involved in another research study - Patients with a BMI over 30 (less likely to obtain the required information from the images) - Pregnancy or potentially pregnant - Previous ionising radiation exposure within the last 6 months greater than 8mSv. - Previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months). - Scoliosis or positive Adams forward Bending Test for Scoliosis. - Diagnosed Osteoporosis (Bone Density Scan) - Patients with a numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment. - Manual therapy already received for this episode of NSLBP - Litigation or compensation pending - Diagnosis of depression (by a medical doctor) within the last 12 months.",
+      "score": -2.8327327
+    },
+    {
+      "passage_id": "NCT00865358::eligibility::2",
+      "doc_id": "NCT00865358",
+      "section": "eligibility",
+      "text": "However, since this pilot study is specifically targeting minorities with chronic low back pain, we will purposefully allocate 80% (24 of 30) of the openings in the study to minority subjects (ascertained by self-report). 7. Consent to participate. Exclusion Criteria: 1. Age > 64 years old. 2. Yoga use in the previous 12 months. 3. Inability to understand English at a level necessary to follow yoga class instructions. 4. Pregnancy - although back pain in pregnancy is common and may be amenable to yoga, the causes of the pain are likely different than non specific chronic low back pain in nonpregnant adults. 5. Change in pain medications four weeks or fewer prior to enrollment. 6. Other back pain treatments (e.g., physical therapy, epidural steroid injection, chiropractic, acupuncture) anticipated to begin in the next 6 months or initiated less than four weeks prior to enrollment. 7. Ongoing or planned litigation related to back pain. Ongoing or planned workers' compensation, disability, or personal injury claims related to back pain. Litigation or claims that have been resolved or settled are not exclusion criteria. 8.",
+      "score": -3.2158408
+    },
+    {
+      "passage_id": "NCT02108509::detailed_description::1",
+      "doc_id": "NCT02108509",
+      "section": "detailed_description",
+      "text": "A meta-analysis of 11 observational studies of chronic pancreatitis reported the prevalence of osteopenia to be 39.8% and osteoporosis 23.4%, with the cumulative prevalence of low bone density (osteopenia and osteoporosis) being almost 65%. Interestingly, out of the eleven studies in this meta-analysis, eight were performed in Europe, two in India, and one in South America. Some studies in chronic pancreatitis have described a link between Vitamin D deficiency and risk for low bone density. Other proposed risk factors for low bone density in this patient population include age, gender, malnutrition, alcohol use, smoking, and variation and duration of pancreatitis. However, other potential novel risk factors for low bone density exist in patients with chronic pancreatitis. These factors include chronic use of opioid medications and hypogonadism. Opioid use is prominent in patients with chronic pancreatitis. At least 85% of patients suffering from chronic pancreatitis will develop pain and despite many different treatment methods, many patients with chronic pancreatitis do not get respite from their pain, even after several years.",
+      "score": -3.4044552
+    },
+    {
+      "passage_id": "NCT00290589::eligibility::0",
+      "doc_id": "NCT00290589",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: - 21-50 years old, non-traumatic low back pain for one week or less, Exclusion Criteria: - fever, pregnancy, lactation, allergy or intolerance to study medication, suspected active oncologic, urologic, or gynecologic disease",
+      "score": -3.4572952
+    },
+    {
+      "passage_id": "NCT03065894::summary::0",
+      "doc_id": "NCT03065894",
+      "section": "summary",
+      "text": "This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy (PT - i.e., stratified-specific PT) treatments or current treatment in primary care across The University of Vermont Health Network.",
+      "score": -3.862368
+    },
+    {
+      "passage_id": "NCT00101790::eligibility::0",
+      "doc_id": "NCT00101790",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: - Males and females, 21 years of age or older - Having mechanical low back pain (LBP) that is predominantly axial, i.e., subjects with low back pain with proximal radiation (above the knee), or subjects with low back pain with distal radiation of pain (below the knee), only if their low back pain component is 50% or more than their leg pain component. This pain will have been present for at least 3 months, with a minimum, average pain score of 4 on a 0-10 numeric rating scale [NRS; a score of 4 is associated with pain of \"moderate\" intensity, and its use as a cutoff value is supported by the clinical relevance of similar scores found by others. - MRI evidence of multiple level disc degeneration and vertebral changes consistent with the diagnosis of degenerative disc disease or spondylotic disease of the spine. - Being capable of reading at a sixth-grade level.",
+      "score": -3.9081411
+    },
+    {
+      "passage_id": "NCT02108509::summary::0",
+      "doc_id": "NCT02108509",
+      "section": "summary",
+      "text": "The purpose of this study is to define the prevalence of low bone density (osteopenia/osteoporosis) in patients with chronic pancreatitis. Secondary aims include investigating the prevalence of hypogonadism (low sex hormones) in patients with chronic pancreatitis and determining if hypogonadism and/or use of narcotic pain medications are risk factors for low bone density in this patient population. 1. Hypothesis: Patients with chronic pancreatitis are at increased risk of low bone density (osteopenia/osteoporosis), and hypogonadism (low sex hormone levels) and narcotic pain medication use are independent risk factors for the development of low bone density in this patient population. 2. The outcome measures include: i) Prevalence of low bone density (osteopenia/osteoporosis) in patients with chronic pancreatitis (as determined by DXA scan and fracture history). ii) Prevalence of hypogonadism (low sex hormones) in patients with chronic pancreatitis (as determined by sex hormone levels and clinical history). iii) Identification of hypogonadism and/or opioid use as risk factors for low bone density in patients with chronic pancreatitis (as determined by univariate and multivariate analysis of multiple risk factors). 3. After obtaining written consent from potential subjects, a questionnaire will be performed outlining risk factors for low bone density. Dual X-ray absorptiometry (DXA scan) will be performed to evaluate for low bone density and a blood test will be performed to evaluate for low sex hormones, low levels of vitamin D, and other risk factors for low bone density.",
+      "score": -4.0223265
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: possible_match_insufficient_evidence\nPatient-facing answer: \nMissing patient facts: current non-specific low back pain lasting at least 12 weeks; understanding of English necessary to follow yoga class instructions; no clear symptoms and signs of other causes of low back pain\nUnresolved study requirements: BMI over 30 (less likely to obtain the required information from the images); previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months); diagnosed Osteoporosis (Bone Density Scan); numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment; manual therapy already received for this episode of NSLBP; litigation or compensation pending; diagnosis of depression (by a medical doctor) within the last 12 months\nReasoning: The patient meets the age requirement and has back pain and low bone density, which aligns with the study's focus on chronic low back pain and osteoporosis. However, the patient needs to confirm he has current non-specific low back pain lasting at least 12 weeks, and the study requires certain medical tests and information that are not yet confirmed.\n\n=== Consent-style explanation ===\nstudy_purpose: This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy or current treatment. (supports: 6)\nwho_may_join: Eligible participants are adults aged 18-64 with non-specific low back pain lasting at least 12 weeks. (supports: 1,2)\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: There are no specific risks or burdens mentioned. (supports: 1,2)\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: What types of yoga classes will be offered?; How long will the study last?\n\nPatient-facing summary (rebuilt): Study purpose: This study aims to examine patient outcomes following risk stratification for low back pain in Family Medicine combined with either matched physical therapy or current treatment. Who may join: Eligible participants are adults aged 18-64 with non-specific low back pain lasting at least 12 weeks. Risks or burdens: There are no specific risks or burdens mentioned. What is still unclear: What types of yoga classes will be offered?; How long will the study last?\n\n=== Teach-back questions ===\n- Who can join this study?\n- What does the study involve?\n- What are the main things you need to do for the study?",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facts": [
+      "42-year-old man",
+      "back pain",
+      "low bone density"
+    ],
+    "missing_patient_facts": [
+      "current non-specific low back pain lasting at least 12 weeks",
+      "understanding of English necessary to follow yoga class instructions",
+      "no clear symptoms and signs of other causes of low back pain"
+    ],
+    "unresolved_study_requirements": [
+      "BMI over 30 (less likely to obtain the required information from the images)",
+      "previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months)",
+      "diagnosed Osteoporosis (Bone Density Scan)",
+      "numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment",
+      "manual therapy already received for this episode of NSLBP",
+      "litigation or compensation pending",
+      "diagnosis of depression (by a medical doctor) within the last 12 months"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has back pain and low bone density, which aligns with the study's focus on chronic low back pain and osteoporosis. However, the patient needs to confirm he has current non-specific low back pain lasting at least 12 weeks, and the study requires certain medical tests and information that are not yet confirmed.",
+    "safety_note": "The patient should ensure they can understand written English and provide full informed consent before participating."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [
+    "current non-specific low back pain lasting at least 12 weeks",
+    "understanding of English necessary to follow yoga class instructions",
+    "no clear symptoms and signs of other causes of low back pain"
+  ],
+  "unresolved_study_requirements": [
+    "BMI over 30 (less likely to obtain the required information from the images)",
+    "previous lumbar spine surgery, as well as recent abdominal or pelvic surgery (within the last 12 months)",
+    "diagnosed Osteoporosis (Bone Density Scan)",
+    "numeric pain scale of 8 or more, or 2 or less, taken at the New Patient Examination Appointment",
+    "manual therapy already received for this episode of NSLBP",
+    "litigation or compensation pending",
+    "diagnosis of depression (by a medical doctor) within the last 12 months"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": null,
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

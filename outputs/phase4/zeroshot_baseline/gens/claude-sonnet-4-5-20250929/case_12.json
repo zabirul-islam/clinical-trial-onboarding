@@ -1,0 +1,85 @@
+{
+  "case_id": "case_12",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=detailed_description]\nThis study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.\n\n[Passage 2 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age\n\n[Passage 3 | doc=NCT04471363 | section=summary]\nThe goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.\n\n[Passage 4 | doc=NCT04471363 | section=title]\nCancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::detailed_description::0",
+      "doc_id": "NCT04471363",
+      "section": "detailed_description",
+      "passage_text": "This study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04471363::summary::0",
+      "doc_id": "NCT04471363",
+      "section": "summary",
+      "passage_text": "The goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04471363::title::0",
+      "doc_id": "NCT04471363",
+      "section": "title",
+      "passage_text": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"cannot_determine\",\n  \"patient_facing_answer\": \"Based on the study requirements, the study team would need to confirm several things before determining your eligibility:\\n\\n**They would need to verify:**\\n\\n1. **Your cancer survivor or partner status** - Whether you are a cancer survivor yourself OR the romantic partner of a cancer survivor\\n\\n2. **Your treatment timeline** - That you are not currently receiving chemotherapy, radiation, or surgery, and don't have any of these treatments planned for the next 6 months\\n\\n3. **Your relationship status** - That you are in a committed, romantic relationship\\n\\n4. **Your technology access** - That you have access to a computer or tablet with internet connection\\n\\n5. **Your email availability** - That you have an email address you're willing to share with the study team\\n\\n6. **Your age** - That you are between 18 and 90 years old\\n\\nSince I don't have information about your specific situation regarding any of these requirements, I cannot determine which of these the study team would still need to confirm for you personally. You would need to discuss your individual circumstances with the study team to understand what specific information they still need from you.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Whether patient is a cancer survivor or partner of a cancer survivor\",\n    \"Current treatment status (chemotherapy, radiation, or surgery)\",\n    \"Plans for treatment in next 6 months\",\n    \"Relationship status (committed romantic relationship)\",\n    \"Access to computer or tablet with internet\",\n    \"Email address availability\",\n    \"Age (between 18-90 years)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"All six eligibility criteria need verification as no patient information was provided\"\n  ],\n  \"reasoning_summary\": \"The patient asked what would need to be confirmed for eligibility, but provided no information about their own situation. The study has 6 clear eligibility requirements covering survivor/partner status, treatment timeline, relationship status, technology access, email, and age. Without any patient facts provided, all requirements remain unverified.\",\n  \"safety_note\": \"This response appropriately avoids making eligibility determinations and directs the patient to discuss their specific situation with the study team. No medical advice was provided.\"\n}\n```",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "Based on the study requirements, the study team would need to confirm several things before determining your eligibility:\n\n**They would need to verify:**\n\n1. **Your cancer survivor or partner status** - Whether you are a cancer survivor yourself OR the romantic partner of a cancer survivor\n\n2. **Your treatment timeline** - That you are not currently receiving chemotherapy, radiation, or surgery, and don't have any of these treatments planned for the next 6 months\n\n3. **Your relationship status** - That you are in a committed, romantic relationship\n\n4. **Your technology access** - That you have access to a computer or tablet with internet connection\n\n5. **Your email availability** - That you have an email address you're willing to share with the study team\n\n6. **Your age** - That you are between 18 and 90 years old\n\nSince I don't have information about your specific situation regarding any of these requirements, I cannot determine which of these the study team would still need to confirm for you personally. You would need to discuss your individual circumstances with the study team to understand what specific information they still need from you.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Whether patient is a cancer survivor or partner of a cancer survivor",
+      "Current treatment status (chemotherapy, radiation, or surgery)",
+      "Plans for treatment in next 6 months",
+      "Relationship status (committed romantic relationship)",
+      "Access to computer or tablet with internet",
+      "Email address availability",
+      "Age (between 18-90 years)"
+    ],
+    "unresolved_study_requirements": [
+      "All six eligibility criteria need verification as no patient information was provided"
+    ],
+    "reasoning_summary": "The patient asked what would need to be confirmed for eligibility, but provided no information about their own situation. The study has 6 clear eligibility requirements covering survivor/partner status, treatment timeline, relationship status, technology access, email, and age. Without any patient facts provided, all requirements remain unverified.",
+    "safety_note": "This response appropriately avoids making eligibility determinations and directs the patient to discuss their specific situation with the study team. No medical advice was provided."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "Based on the study requirements, the study team would need to confirm several things before determining your eligibility:\n\n**They would need to verify:**\n\n1. **Your cancer survivor or partner status** - Whether you are a cancer survivor yourself OR the romantic partner of a cancer survivor\n\n2. **Your treatment timeline** - That you are not currently receiving chemotherapy, radiation, or surgery, and don't have any of these treatments planned for the next 6 months\n\n3. **Your relationship status** - That you are in a committed, romantic relationship\n\n4. **Your technology access** - That you have access to a computer or tablet with internet connection\n\n5. **Your email availability** - That you have an email address you're willing to share with the study team\n\n6. **Your age** - That you are between 18 and 90 years old\n\nSince I don't have information about your specific situation regarding any of these requirements, I cannot determine which of these the study team would still need to confirm for you personally. You would need to discuss your individual circumstances with the study team to understand what specific information they still need from you.",
+  "missing_patient_facts": [
+    "Whether patient is a cancer survivor or partner of a cancer survivor",
+    "Current treatment status (chemotherapy, radiation, or surgery)",
+    "Plans for treatment in next 6 months",
+    "Relationship status (committed romantic relationship)",
+    "Access to computer or tablet with internet",
+    "Email address availability",
+    "Age (between 18-90 years)"
+  ],
+  "unresolved_study_requirements": [
+    "All six eligibility criteria need verification as no patient information was provided"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 11.29430826799944
+}

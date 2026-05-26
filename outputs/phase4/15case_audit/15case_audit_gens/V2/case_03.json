@@ -1,0 +1,105 @@
+{
+  "case_id": "case_03",
+  "backbone": "V2",
+  "source": "handcrafted",
+  "category": "likely_mismatch_or_unlikely_match",
+  "gold_nct": "",
+  "selected_doc": "NCT00865358",
+  "question": "I am a 42-year-old man with back pain and low bone density. Is this study likely a match for me?",
+  "evidence": "[Passage 1 | doc=NCT00865358 | section=eligibility]\nInclusion Criteria: 1. 18-64 years old. The rationale for including adults only less than 65 years old is that the causes of low back pain in older persons are more likely to be multifactorial (e.g., degenerative disk disease, spinal canal stenosis, fractures) and less likely to be the non-specific muscular type that our yoga protocol was designed to address. A study of yoga for low back pain in individuals > 65 years old is important. However, the ideal design would likely benefit from a yoga protocol specifically designed for this purpose. 2. Current non-specific low back pain lasting at least 12 weeks. Non-specific refers to predominantly muscular and ligamentous causes for the low back pain, and the absence of clear symptoms and signs of other causes of low back pain (e.g., herniated disk). This will be ascertained during the eligibility screening process using the Eligibility Screening Instrument (see Sect. S). This instrument was adapted from eligibility screening tools used in multiple published trials of CAM therapies for chronic low back pain by Karen Sherman PhD and Daniel Cherkin PhD.\n\n[Passage 2 | doc=NCT00865358 | section=eligibility]\nHowever, since this pilot study is specifically targeting minorities with chronic low back pain, we will purposefully allocate 80% (24 of 30) of the openings in the study to minority subjects (ascertained by self-report). 7. Consent to participate. Exclusion Criteria: 1. Age > 64 years old. 2. Yoga use in the previous 12 months. 3. Inability to understand English at a level necessary to follow yoga class instructions. 4. Pregnancy - although back pain in pregnancy is common and may be amenable to yoga, the causes of the pain are likely different than non specific chronic low back pain in nonpregnant adults. 5. Change in pain medications four weeks or fewer prior to enrollment. 6. Other back pain treatments (e.g., physical therapy, epidural steroid injection, chiropractic, acupuncture) anticipated to begin in the next 6 months or initiated less than four weeks prior to enrollment. 7. Ongoing or planned litigation related to back pain. Ongoing or planned workers' compensation, disability, or personal injury claims related to back pain. Litigation or claims that have been resolved or settled are not exclusion criteria. 8.",
+  "passages": [
+    {
+      "passage_id": "NCT00865358::eligibility::0",
+      "doc_id": "NCT00865358",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: 1. 18-64 years old. The rationale for including adults only less than 65 years old is that the causes of low back pain in older persons are more likely to be multifactorial (e.g., degenerative disk disease, spinal canal stenosis, fractures) and less likely to be the non-specific muscular type that our yoga protocol was designed to address. A study of yoga for low back pain in individuals > 65 years old is important. However, the ideal design would likely benefit from a yoga protocol specifically designed for this purpose. 2. Current non-specific low back pain lasting at least 12 weeks. Non-specific refers to predominantly muscular and ligamentous causes for the low back pain, and the absence of clear symptoms and signs of other causes of low back pain (e.g., herniated disk). This will be ascertained during the eligibility screening process using the Eligibility Screening Instrument (see Sect. S). This instrument was adapted from eligibility screening tools used in multiple published trials of CAM therapies for chronic low back pain by Karen Sherman PhD and Daniel Cherkin PhD.",
+      "score": -1.8277149
+    },
+    {
+      "passage_id": "NCT00865358::eligibility::2",
+      "doc_id": "NCT00865358",
+      "section": "eligibility",
+      "text": "However, since this pilot study is specifically targeting minorities with chronic low back pain, we will purposefully allocate 80% (24 of 30) of the openings in the study to minority subjects (ascertained by self-report). 7. Consent to participate. Exclusion Criteria: 1. Age > 64 years old. 2. Yoga use in the previous 12 months. 3. Inability to understand English at a level necessary to follow yoga class instructions. 4. Pregnancy - although back pain in pregnancy is common and may be amenable to yoga, the causes of the pain are likely different than non specific chronic low back pain in nonpregnant adults. 5. Change in pain medications four weeks or fewer prior to enrollment. 6. Other back pain treatments (e.g., physical therapy, epidural steroid injection, chiropractic, acupuncture) anticipated to begin in the next 6 months or initiated less than four weeks prior to enrollment. 7. Ongoing or planned litigation related to back pain. Ongoing or planned workers' compensation, disability, or personal injury claims related to back pain. Litigation or claims that have been resolved or settled are not exclusion criteria. 8.",
+      "score": -3.2158408
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a single dominant trial context could not be established from the retrieved evidence\nReasoning: Retrieved evidence was split across multiple trials. The top candidate trial was NCT00865358 with weight share 0.491, which was not strong enough for a reliable single-trial answer.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A single study context could not be established from the retrieved evidence.; The system needs one specific trial before it can explain study details safely.\n\nPatient-facing summary (rebuilt): I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Do you want help with one specific trial rather than a general study search?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00865358 with weight share 0.491, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT00865358",
+    "selected_doc_weight_share": 0.490583,
+    "selected_doc_passage_count": 2,
+    "n_unique_docs_in_raw_context": 6,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 2,
+    "doc_scores": [
+      {
+        "doc_id": "NCT00865358",
+        "weighted_score": 1.3333333333333333,
+        "passage_count": 2,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT04155970",
+        "weighted_score": 0.5,
+        "passage_count": 1,
+        "best_rank": 2
+      },
+      {
+        "doc_id": "NCT02108509",
+        "weighted_score": 0.375,
+        "passage_count": 2,
+        "best_rank": 4
+      },
+      {
+        "doc_id": "NCT00290589",
+        "weighted_score": 0.2,
+        "passage_count": 1,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT03065894",
+        "weighted_score": 0.16666666666666666,
+        "passage_count": 1,
+        "best_rank": 6
+      },
+      {
+        "doc_id": "NCT00101790",
+        "weighted_score": 0.14285714285714285,
+        "passage_count": 1,
+        "best_rank": 7
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

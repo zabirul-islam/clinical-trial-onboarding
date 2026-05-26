@@ -1,0 +1,23 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study team still needs to confirm several things before saying you are eligible, such as your age, health status, and whether you meet all the eligibility criteria listed.",
+  "supported_patient_facts": [
+    "I am a cancer survivor",
+    "I am not currently undergoing chemotherapy, radiation or surgery",
+    "I am in a committed, romantic relationship",
+    "I have access to a computer or tablet with internet",
+    "I have an email address that I am willing to share with the study team",
+    "I am at least 18 years of age and less than 90 years of age"
+  ],
+  "missing_patient_facts": [
+    "My current health status and whether I am undergoing any treatments",
+    "Whether I have access to a computer or tablet with internet",
+    "Whether I have an email address that I am willing to share with the study team"
+  ],
+  "unresolved_study_requirements": [
+    "Whether I am in a committed, romantic relationship",
+    "Whether I am a cancer survivor or the romantic partner of a cancer survivor"
+  ],
+  "reasoning_summary": "While you have confirmed some eligibility criteria, others remain unclear. The study team needs to verify your health status and relationship status to finalize your eligibility.",
+  "safety_note": "Please continue to follow any safety guidelines provided by the study team."
+}

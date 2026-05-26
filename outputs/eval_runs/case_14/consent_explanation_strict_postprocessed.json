@@ -1,0 +1,37 @@
+{
+  "study_purpose": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "who_may_join": {
+    "text": "Adult males and females aged 18 and older with specific wrist fractures who meet inclusion criteria and do not have exclusion criteria.",
+    "support_passages": [
+      1
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will undergo surgery to treat their wrist fracture and then be assigned to one of four groups based on the type of fracture. They will start range of motion exercises either 7 days or about 5 weeks after surgery, depending on their group.",
+    "support_passages": [
+      2
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "time_commitment": {
+    "text": "not clearly stated in the retrieved evidence",
+    "support_passages": []
+  },
+  "what_is_unclear": [
+    "Risks and burdens involved in the study.",
+    "Time commitment required for participation."
+  ],
+  "patient_facing_summary": {
+    "text": "This study aims to compare early and delayed range of motion exercises for wrist recovery. Adults with specific wrist fractures can join if they meet the criteria and do not have exclusions. They will have surgery and start exercises either 7 days or 5 weeks later.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

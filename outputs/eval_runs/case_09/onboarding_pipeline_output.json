@@ -1,0 +1,96 @@
+{
+  "input_question": "What would I actually need to do if I joined this study?",
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "evidence_file": "/home/islamm11/Desktop/islamm11/avatar_trial_onboarding/outputs/tables/grounding_evidence_top_passages.csv",
+  "eligibility_assessment": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study aims to investigate if a test called the 5R-STS, which measures how quickly someone can stand up and sit down from a chair, can predict how well they will do after back surgery. It's for people who have back pain and might need surgery.",
+    "supported_patient_facts": [
+      "the study is about back pain",
+      "it involves a test called the 5R-STS",
+      "it aims to see if the test can predict surgery outcomes"
+    ],
+    "missing_patient_facts": [
+      "the exact eligibility criteria",
+      "the full details of the 5R-STS test",
+      "the expected duration of the study"
+    ],
+    "unresolved_study_requirements": [
+      "the full inclusion/exclusion criteria",
+      "the specific details of the 5R-STS test",
+      "the full timeline of the study"
+    ],
+    "reasoning_summary": "The study description matches the patient's query about investigating the 5R-STS test and its relation to back surgery outcomes. However, important details like exact eligibility criteria and full study timeline are not fully resolved.",
+    "safety_note": "No specific safety concerns are mentioned in the provided passages."
+  },
+  "consent_explanation": {
+    "study_purpose": {
+      "text": "This study aims to understand what features families want in a web-based program for communicating health information and to test a new website designed to teach new ways of communicating about Lynch Syndrome.",
+      "support_passages": [
+        1,
+        3
+      ]
+    },
+    "who_may_join": {
+      "text": "Eligible participants are those who are affected by Lynch syndrome and are willing to provide feedback on a web-based program or use a new website designed to teach about Lynch Syndrome.",
+      "support_passages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "procedures_or_participation": {
+      "text": "Participants will be asked about their preferences for a web-based program, complete questionnaires, and use a new website designed to teach about Lynch Syndrome. They will also provide feedback on the website.",
+      "support_passages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "risks_or_burdens": {
+      "text": "There are no specific risks mentioned. Participants may spend time filling out questionnaires and using the website.",
+      "support_passages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time_commitment": {
+      "text": "The time commitment varies depending on the group. It takes about 1 hour for Group 1, 90 minutes for Group 2, and 1 hour for Group 3.",
+      "support_passages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "what_is_unclear": [
+      "Not clearly stated in the retrieved evidence",
+      "Not clearly stated in the retrieved evidence"
+    ],
+    "patient_facing_summary": {
+      "text": "This study involves providing feedback on a web-based program or using a new website designed to teach about Lynch Syndrome. Participants may spend time filling out questionnaires and using the website.",
+      "support_passages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "patient_facing_summary_rebuilt": {
+      "text": "Study purpose: This study aims to understand what features families want in a web-based program for communicating health information and to test a new website designed to teach new ways of communicating about Lynch Syndrome. Who may join: Eligible participants are those who are affected by Lynch syndrome and are willing to provide feedback on a web-based program or use a new website designed to teach about Lynch Syndrome. What participation may involve: Participants will be asked about their preferences for a web-based program, complete questionnaires, and use a new website designed to teach about Lynch Syndrome. They will also provide feedback on the website. Risks or burdens: There are no specific risks mentioned. Participants may spend time filling out questionnaires and using the website. Time commitment: The time commitment varies depending on the group. It takes about 1 hour for Group 1, 90 minutes for Group 2, and 1 hour for Group 3.",
+      "source": "rebuilt_from_postprocessed_fields"
+    }
+  },
+  "teachback": {
+    "teachback_questions": [
+      "Who decides which group you will be in for the study?",
+      "What happens in the first group of the study?",
+      "How often will you be contacted after the study ends?"
+    ],
+    "checked_concepts": [
+      "who may join",
+      "what the study involves",
+      "major requirements",
+      "what remains uncertain"
+    ]
+  }
+}

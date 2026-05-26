@@ -1,0 +1,122 @@
+{
+  "case_id": "case_trec2021_033",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00006146",
+  "selected_doc": "NCT00922233",
+  "question": "I am considering a clinical trial. Here is my situation: A 42-year-old healthy woman came to the clinic to have her flu shot in early October. She works in a rehab center and has no underlying disease. It's her first time getting the vaccine this year. She is married for 5 years and uses barrier methods of contraception. Her menstrual cycle is irregular. She does not smoke. She is not on any medications. She exercises regularly for 30 minutes a day at least 5 days a week. She has no history of allergies to any food or drugs. Her past surgical history is significant for tonsillectomy and she is otherwise healthy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00922233 | section=detailed_description]\nThis is a prospective, open-label, single arm, multicenter study to evaluate efficacy, safety and acceptability of pericoital oral contraception with levonorgestrel (LNG). The objectives of the study as stated in the study protocol are as follows: - To evaluate the efficacy of the study regimen among women who have sex 1-4 days a month and who are relying on the study regimen as their primary method of contraception - To evaluate the safety of this regimen, with particular emphasis on its effects on vaginal bleeding patterns and anemia - To evaluate the acceptability of the regimen The study will enroll fertile women of reproductive age who have sex up to 6 days a month, are at low risk for sexually transmitted infections (STIs), have no contraindications to progestin-only oral contraceptives,have no serious contraindications to pregnancy, and are willing to use an investigational method of contraception as their only contraceptive method for 6.5 months (each tablet contains 0.75 mg LNG to be used after every sex act).\n\n[Passage 2 | doc=NCT00922233 | section=eligibility]\nInclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.\n\n[Passage 3 | doc=NCT00922233 | section=eligibility]\n- Gives correct answers to the informed consent quiz. - Willing and able to follow all study requirements. Exclusion Criteria: To be eligible for enrollment, a woman must not meet any of the following exclusion criteria: - Pregnant as verified by a pregnancy test at enrollment. - Has an indication of current subfecundity, specifically: - Her last pregnancy ended within the last 8 weeks, or she has had fewer than two menstrual periods since resolution of last pregnancy - She has not had normal monthly menses for the past 2 months - She is currently breastfeeding - She has used any hormonal contraceptive other than emergency contraceptive pills since the onset of her last menstrual period - Has received an injection of a long term injectable contraceptive in the last 9 months - Currently has an intrauterine device - Has had a sterilization procedure or ectopic pregnancy - Has been diagnosed by a clinician as having a fertility problem - Her partner has had a sterilization procedure or infertility diagnosis, to her knowledge.\n\n[Passage 4 | doc=NCT00922233 | section=eligibility]\n- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.\n\n[Passage 5 | doc=NCT00922233 | section=summary]\nA prospective, open-label, single arm, multicenter study to evaluate efficacy, safety and acceptability of pericoital oral contraception with levonorgestrel",
+  "passages": [
+    {
+      "passage_id": "NCT00922233::detailed_description::0",
+      "doc_id": "NCT00922233",
+      "section": "detailed_description",
+      "passage_text": "This is a prospective, open-label, single arm, multicenter study to evaluate efficacy, safety and acceptability of pericoital oral contraception with levonorgestrel (LNG). The objectives of the study as stated in the study protocol are as follows: - To evaluate the efficacy of the study regimen among women who have sex 1-4 days a month and who are relying on the study regimen as their primary method of contraception - To evaluate the safety of this regimen, with particular emphasis on its effects on vaginal bleeding patterns and anemia - To evaluate the acceptability of the regimen The study will enroll fertile women of reproductive age who have sex up to 6 days a month, are at low risk for sexually transmitted infections (STIs), have no contraindications to progestin-only oral contraceptives,have no serious contraindications to pregnancy, and are willing to use an investigational method of contraception as their only contraceptive method for 6.5 months (each tablet contains 0.75 mg LNG to be used after every sex act).",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00922233::eligibility::0",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00922233::eligibility::1",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "- Gives correct answers to the informed consent quiz. - Willing and able to follow all study requirements. Exclusion Criteria: To be eligible for enrollment, a woman must not meet any of the following exclusion criteria: - Pregnant as verified by a pregnancy test at enrollment. - Has an indication of current subfecundity, specifically: - Her last pregnancy ended within the last 8 weeks, or she has had fewer than two menstrual periods since resolution of last pregnancy - She has not had normal monthly menses for the past 2 months - She is currently breastfeeding - She has used any hormonal contraceptive other than emergency contraceptive pills since the onset of her last menstrual period - Has received an injection of a long term injectable contraceptive in the last 9 months - Currently has an intrauterine device - Has had a sterilization procedure or ectopic pregnancy - Has been diagnosed by a clinician as having a fertility problem - Her partner has had a sterilization procedure or infertility diagnosis, to her knowledge.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00922233::eligibility::2",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00922233::summary::0",
+      "doc_id": "NCT00922233",
+      "section": "summary",
+      "passage_text": "A prospective, open-label, single arm, multicenter study to evaluate efficacy, safety and acceptability of pericoital oral contraception with levonorgestrel",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, this trial does not appear to be a good match for your situation. This study is evaluating a pericoital (used around the time of sex) contraceptive method and requires participants to have sex 1-4 days per month and be willing to rely only on the study contraceptive for 6.5 months. Since you mentioned you currently use barrier methods of contraception, this would require you to stop your current contraceptive method and switch to using only the study pills after each sexual encounter. Additionally, the trial requires participants to have regular monthly menses for the past 2 months, but you mentioned having irregular menstrual cycles, which may be an exclusion criterion. However, only the study team can make a final determination about eligibility after a full screening evaluation.\",\n  \"supported_patient_facts\": [\n    \"42 years old (within age range 18-45)\",\n    \"Healthy with no underlying disease\",\n    \"Not pregnant (getting flu shot, working)\",\n    \"Not breastfeeding\",\n    \"Married for 5 years (suggests stable partner/low STI risk)\",\n    \"Currently uses barrier contraception\",\n    \"No medications\",\n    \"No allergies\",\n    \"Irregular menstrual cycles\"\n  ],\n  \"missing_patient_facts\": [\n    \"Sexual frequency (1-4 days per month requirement not addressed)\",\n    \"Willingness to use only the study contraceptive for 6.5 months\",\n    \"Desire to avoid pregnancy for at least 6.5 months\",\n    \"Whether she wants contraception at all\",\n    \"Whether menstrual irregularity means she has not had 'normal monthly menses for past 2 months'\",\n    \"Number of current sexual partners\",\n    \"Partner's sexual history and STI risk factors\",\n    \"History of pregnancy and timing of last pregnancy\",\n    \"Presence of breast masses\",\n    \"Family history of thrombosis\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Would need to verify sexual frequency meets 1-4 days/month criterion\",\n    \"Would need clinical assessment of whether irregular cycles constitute exclusionary 'lack of normal monthly menses for past 2 months'\",\n    \"Would need to assess STI risk factors in detail for both patient and partner\",\n    \"Would need breast examination\",\n    \"Would require pregnancy test at enrollment\",\n    \"Would need informed consent quiz completion\",\n    \"Would need investigator assessment for any other exclusion reasons\"\n  ],\n  \"reasoning_summary\": \"The patient appears healthy and within the age range, but several key factors suggest this may not be a suitable match. First, the trial requires participants to have sex 1-4 days per month - this frequency is not mentioned in the patient's description. Second, participants must be willing to use ONLY the study contraceptive (pericoital levonorgestrel pills) for 6.5 months, which means discontinuing current barrier methods. Third, the trial excludes women who have not had 'normal monthly menses for the past 2 months,' and the patient reports irregular menstrual cycles - though the clinical significance of her irregularity would need professional assessment. The patient came for a flu shot with no mention of seeking contraception, suggesting this trial may not align with her current needs or interests.\",\n  \"safety_note\": \"This response is based solely on matching your described situation to the study criteria and cannot determine definitive eligibility. Only the clinical trial team can make eligibility decisions after proper screening, examination, and testing. This is not medical advice. If you are interested in clinical trials or have questions about contraception, please consult with a healthcare provider or contact the study team directly.\"\n}\n```",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, this trial does not appear to be a good match for your situation. This study is evaluating a pericoital (used around the time of sex) contraceptive method and requires participants to have sex 1-4 days per month and be willing to rely only on the study contraceptive for 6.5 months. Since you mentioned you currently use barrier methods of contraception, this would require you to stop your current contraceptive method and switch to using only the study pills after each sexual encounter. Additionally, the trial requires participants to have regular monthly menses for the past 2 months, but you mentioned having irregular menstrual cycles, which may be an exclusion criterion. However, only the study team can make a final determination about eligibility after a full screening evaluation.",
+    "supported_patient_facts": [
+      "42 years old (within age range 18-45)",
+      "Healthy with no underlying disease",
+      "Not pregnant (getting flu shot, working)",
+      "Not breastfeeding",
+      "Married for 5 years (suggests stable partner/low STI risk)",
+      "Currently uses barrier contraception",
+      "No medications",
+      "No allergies",
+      "Irregular menstrual cycles"
+    ],
+    "missing_patient_facts": [
+      "Sexual frequency (1-4 days per month requirement not addressed)",
+      "Willingness to use only the study contraceptive for 6.5 months",
+      "Desire to avoid pregnancy for at least 6.5 months",
+      "Whether she wants contraception at all",
+      "Whether menstrual irregularity means she has not had 'normal monthly menses for past 2 months'",
+      "Number of current sexual partners",
+      "Partner's sexual history and STI risk factors",
+      "History of pregnancy and timing of last pregnancy",
+      "Presence of breast masses",
+      "Family history of thrombosis"
+    ],
+    "unresolved_study_requirements": [
+      "Would need to verify sexual frequency meets 1-4 days/month criterion",
+      "Would need clinical assessment of whether irregular cycles constitute exclusionary 'lack of normal monthly menses for past 2 months'",
+      "Would need to assess STI risk factors in detail for both patient and partner",
+      "Would need breast examination",
+      "Would require pregnancy test at enrollment",
+      "Would need informed consent quiz completion",
+      "Would need investigator assessment for any other exclusion reasons"
+    ],
+    "reasoning_summary": "The patient appears healthy and within the age range, but several key factors suggest this may not be a suitable match. First, the trial requires participants to have sex 1-4 days per month - this frequency is not mentioned in the patient's description. Second, participants must be willing to use ONLY the study contraceptive (pericoital levonorgestrel pills) for 6.5 months, which means discontinuing current barrier methods. Third, the trial excludes women who have not had 'normal monthly menses for the past 2 months,' and the patient reports irregular menstrual cycles - though the clinical significance of her irregularity would need professional assessment. The patient came for a flu shot with no mention of seeking contraception, suggesting this trial may not align with her current needs or interests.",
+    "safety_note": "This response is based solely on matching your described situation to the study criteria and cannot determine definitive eligibility. Only the clinical trial team can make eligibility decisions after proper screening, examination, and testing. This is not medical advice. If you are interested in clinical trials or have questions about contraception, please consult with a healthcare provider or contact the study team directly."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, this trial does not appear to be a good match for your situation. This study is evaluating a pericoital (used around the time of sex) contraceptive method and requires participants to have sex 1-4 days per month and be willing to rely only on the study contraceptive for 6.5 months. Since you mentioned you currently use barrier methods of contraception, this would require you to stop your current contraceptive method and switch to using only the study pills after each sexual encounter. Additionally, the trial requires participants to have regular monthly menses for the past 2 months, but you mentioned having irregular menstrual cycles, which may be an exclusion criterion. However, only the study team can make a final determination about eligibility after a full screening evaluation.",
+  "missing_patient_facts": [
+    "Sexual frequency (1-4 days per month requirement not addressed)",
+    "Willingness to use only the study contraceptive for 6.5 months",
+    "Desire to avoid pregnancy for at least 6.5 months",
+    "Whether she wants contraception at all",
+    "Whether menstrual irregularity means she has not had 'normal monthly menses for past 2 months'",
+    "Number of current sexual partners",
+    "Partner's sexual history and STI risk factors",
+    "History of pregnancy and timing of last pregnancy",
+    "Presence of breast masses",
+    "Family history of thrombosis"
+  ],
+  "unresolved_study_requirements": [
+    "Would need to verify sexual frequency meets 1-4 days/month criterion",
+    "Would need clinical assessment of whether irregular cycles constitute exclusionary 'lack of normal monthly menses for past 2 months'",
+    "Would need to assess STI risk factors in detail for both patient and partner",
+    "Would need breast examination",
+    "Would require pregnancy test at enrollment",
+    "Would need informed consent quiz completion",
+    "Would need investigator assessment for any other exclusion reasons"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 20.244973157998174
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "NLI4PR",
+    "split": "train",
+    "n_rows": 4904,
+    "columns": [
+      "id",
+      "topic_id",
+      "statement_medical",
+      "statement_pol",
+      "premise",
+      "NCT_title",
+      "NCT_id",
+      "label",
+      "text_len_1",
+      "text_len_2"
+    ],
+    "label_col": "label",
+    "label_counts": {
+      "Entailment": 2757,
+      "Contradiction": 2147
+    },
+    "avg_text_len_1": 1.78,
+    "avg_text_len_2": 602.66
+  },
+  {
+    "dataset": "NLI4PR",
+    "split": "validation",
+    "n_rows": 525,
+    "columns": [
+      "id",
+      "topic_id",
+      "statement_medical",
+      "statement_pol",
+      "premise",
+      "NCT_title",
+      "NCT_id",
+      "label",
+      "text_len_1",
+      "text_len_2"
+    ],
+    "label_col": "label",
+    "label_counts": {
+      "Contradiction": 230,
+      "Entailment": 295
+    },
+    "avg_text_len_1": 1.76,
+    "avg_text_len_2": 602.71
+  },
+  {
+    "dataset": "NLI4PR",
+    "split": "test",
+    "n_rows": 1578,
+    "columns": [
+      "id",
+      "topic_id",
+      "statement_medical",
+      "statement_pol",
+      "premise",
+      "NCT_title",
+      "NCT_id",
+      "label",
+      "text_len_1",
+      "text_len_2"
+    ],
+    "label_col": "label",
+    "label_counts": {
+      "Entailment": 887,
+      "Contradiction": 691
+    },
+    "avg_text_len_1": 1.79,
+    "avg_text_len_2": 601.02
+  }
+]

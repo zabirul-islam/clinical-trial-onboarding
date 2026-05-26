@@ -1,0 +1,83 @@
+{
+  "case_id": "case_12",
+  "backbone": "mistralai/Mistral-7B-Instruct-v0.3",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=detailed_description]\nThis study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.\n\n[Passage 2 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age\n\n[Passage 3 | doc=NCT04471363 | section=summary]\nThe goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.\n\n[Passage 4 | doc=NCT04471363 | section=title]\nCancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::detailed_description::0",
+      "doc_id": "NCT04471363",
+      "section": "detailed_description",
+      "passage_text": "This study will assess multiple predictors of couples-based physical activity interest among both survivors and partners including gender, age, current exercise, relationship satisfaction and partner support for exercise. Additionally, this study will include an experimental manipulation in which half of the sample will be randomized to receive cancer-specific exercise education.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04471363::summary::0",
+      "doc_id": "NCT04471363",
+      "section": "summary",
+      "passage_text": "The goal of this research is to explore cancer survivors' and their romantic partners' interest in a couples-based physical activity intervention and whether cancer-specific exercise education influences exercise beliefs and intentions.",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04471363::title::0",
+      "doc_id": "NCT04471363",
+      "section": "title",
+      "passage_text": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"We can't say for certain yet, but it seems you might be a potential match for this study. We still need to confirm some details.\",\n  \"supported_patient_facts\": [\"You are a cancer survivor or the romantic partner of a cancer survivor\", \"You are in a committed, romantic relationship\", \"You have access to a computer or tablet with internet\", \"You have an email address that you are willing to share with the study team\", \"You are at least 18 years of age and less than 90 years of age\"],\n  \"missing_patient_facts\": [\"We don't have information about your current exercise habits\", \"We don't have information about your relationship satisfaction\", \"We don't have information about partner support for exercise\"],\n  \"unresolved_study_requirements\": [\"We don't know if you are currently undergoing chemotherapy, radiation or surgery nor do you have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months\"],\n  \"reasoning_summary\": \"The patient meets several eligibility criteria, but we are missing information about current health status and some relationship factors. Additionally, there is an unresolved requirement about the patient's health status.\",\n  \"safety_note\": \"Please consult with your healthcare provider before making any decisions about participating in this study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "We can't say for certain yet, but it seems you might be a potential match for this study. We still need to confirm some details.",
+    "supported_patient_facts": [
+      "You are a cancer survivor or the romantic partner of a cancer survivor",
+      "You are in a committed, romantic relationship",
+      "You have access to a computer or tablet with internet",
+      "You have an email address that you are willing to share with the study team",
+      "You are at least 18 years of age and less than 90 years of age"
+    ],
+    "missing_patient_facts": [
+      "We don't have information about your current exercise habits",
+      "We don't have information about your relationship satisfaction",
+      "We don't have information about partner support for exercise"
+    ],
+    "unresolved_study_requirements": [
+      "We don't know if you are currently undergoing chemotherapy, radiation or surgery nor do you have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months"
+    ],
+    "reasoning_summary": "The patient meets several eligibility criteria, but we are missing information about current health status and some relationship factors. Additionally, there is an unresolved requirement about the patient's health status.",
+    "safety_note": "Please consult with your healthcare provider before making any decisions about participating in this study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "We can't say for certain yet, but it seems you might be a potential match for this study. We still need to confirm some details.",
+  "missing_patient_facts": [
+    "We don't have information about your current exercise habits",
+    "We don't have information about your relationship satisfaction",
+    "We don't have information about partner support for exercise"
+  ],
+  "unresolved_study_requirements": [
+    "We don't know if you are currently undergoing chemotherapy, radiation or surgery nor do you have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 22.455
+}

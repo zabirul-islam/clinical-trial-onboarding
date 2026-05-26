@@ -1,0 +1,104 @@
+{
+  "case_id": "case_01",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00543023",
+  "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "evidence": "[Passage 1 | doc=NCT00543023 | section=eligibility]\nInclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).\n\n[Passage 2 | doc=NCT00543023 | section=eligibility]\nThe initial lumbar spine and femoral neck BMD assessment and the determination of the patient's eligibility for entry into the screening phase will be made by the central quality assurance for BMD. The central quality assurance center will determine the patient's eligibility for enrollment into the treatment phase. If the L-1 vertebra cannot be analyzed due to artifacts, vertebral fracture, osteophytes, or other abnormalities, that vertebra should be excluded from the analysis. - Women without language barriers, cooperative and expected to return for all follow-up procedures and who have given informed consent before entering the study and after being informed of the risks, medications, and procedures to be used in the study. - Normal or clinically insignificant abnormal laboratory values including serum calcium, PTH (1-84) levels and alkaline phosphatase. Exclusion Criteria: - History of sprue, inflammatory bowel disease, or malabsorption syndrome in the 1 year prior to Visit 2. - History of nephrolithiasis or urolithiasis in the 2 years prior to Visit 2. Patients with any history of nephro- or urolithiasis must have an appropriate radiology study within 6 months prior to Visit 2.\n\n[Passage 3 | doc=NCT00543023 | section=eligibility]\nThis radiology study, such as an intravenous pyelogram or a supine radiograph of the kidney-ureter-bladder, must document the absence of active disease. - History of other malignant neoplasms in the 5 years prior to screening, with the exception of superficial basal cell carcinoma or squamous cell carcinoma of the skin that has been definitively treated. Patients with carcinoma in situ of the uterine cervix treated definitively more than 1 year prior to entry into the study may enter the study. - Patients who have an increased baseline risk of osteosarcoma: Paget's disease of the bone or unexplained elevations of alkaline phosphatase; patients who have received radiation therapy involving the skeleton. - History of diseases which affect bone metabolism other than postmenopausal osteoporosis such as Paget's disease, renal osteodystrophy, osteomalacia, any secondary causes of osteoporosis, hypoparathyroidism, hyperparathyroidism, or hyperthyroidism.\n\n[Passage 4 | doc=NCT00543023 | section=summary]\nTo compare the effect of treatment with teriparatide with that of salmon calcitonin in postmenopausal women with osteoporosis.",
+  "passages": [
+    {
+      "passage_id": "NCT00543023::eligibility::0",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00543023::eligibility::1",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "passage_text": "The initial lumbar spine and femoral neck BMD assessment and the determination of the patient's eligibility for entry into the screening phase will be made by the central quality assurance for BMD. The central quality assurance center will determine the patient's eligibility for enrollment into the treatment phase. If the L-1 vertebra cannot be analyzed due to artifacts, vertebral fracture, osteophytes, or other abnormalities, that vertebra should be excluded from the analysis. - Women without language barriers, cooperative and expected to return for all follow-up procedures and who have given informed consent before entering the study and after being informed of the risks, medications, and procedures to be used in the study. - Normal or clinically insignificant abnormal laboratory values including serum calcium, PTH (1-84) levels and alkaline phosphatase. Exclusion Criteria: - History of sprue, inflammatory bowel disease, or malabsorption syndrome in the 1 year prior to Visit 2. - History of nephrolithiasis or urolithiasis in the 2 years prior to Visit 2. Patients with any history of nephro- or urolithiasis must have an appropriate radiology study within 6 months prior to Visit 2.",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00543023::eligibility::2",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "passage_text": "This radiology study, such as an intravenous pyelogram or a supine radiograph of the kidney-ureter-bladder, must document the absence of active disease. - History of other malignant neoplasms in the 5 years prior to screening, with the exception of superficial basal cell carcinoma or squamous cell carcinoma of the skin that has been definitively treated. Patients with carcinoma in situ of the uterine cervix treated definitively more than 1 year prior to entry into the study may enter the study. - Patients who have an increased baseline risk of osteosarcoma: Paget's disease of the bone or unexplained elevations of alkaline phosphatase; patients who have received radiation therapy involving the skeleton. - History of diseases which affect bone metabolism other than postmenopausal osteoporosis such as Paget's disease, renal osteodystrophy, osteomalacia, any secondary causes of osteoporosis, hypoparathyroidism, hyperparathyroidism, or hyperthyroidism.",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00543023::summary::0",
+      "doc_id": "NCT00543023",
+      "section": "summary",
+      "passage_text": "To compare the effect of treatment with teriparatide with that of salmon calcitonin in postmenopausal women with osteoporosis.",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be a potential candidate for this study, but more information is needed to determine eligibility. The study is enrolling postmenopausal women aged 55-85 with osteoporosis and a prior vertebral fracture, which matches your basic profile. However, the study has specific requirements that need to be checked, including bone density measurements, lab tests, imaging requirements, and various medical history exclusions that haven't been confirmed yet. You would need to undergo screening tests including bone density scans of your spine and hip, blood tests, and X-rays to determine if you meet all the criteria. I recommend discussing this study with your healthcare provider who can review your complete medical history and arrange the necessary tests.\",\n  \"supported_patient_facts\": [\n    \"Age 55 years (within the 55-85 year range required)\",\n    \"Female gender (study requires postmenopausal women)\",\n    \"Diagnosis of osteoporosis\",\n    \"History of prior vertebral fracture\"\n  ],\n  \"missing_patient_facts\": [\n    \"Menopausal status confirmation (must be at least 3 years postmenopausal)\",\n    \"Bone mineral density (BMD) T-score at spine or hip (must be between -2.0 and -4.0)\",\n    \"Number and location of vertebral fractures (need at least 3 intact vertebrae L1-L4 for measurement)\",\n    \"Laboratory values (serum calcium, PTH levels, alkaline phosphatase)\",\n    \"History of malabsorption conditions (sprue, inflammatory bowel disease) in past year\",\n    \"History of kidney stones in past 2 years\",\n    \"History of cancer in past 5 years\",\n    \"History of other bone metabolism diseases\",\n    \"History of radiation therapy to skeleton\",\n    \"Current medications\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Central quality assurance review of BMD measurements required for final eligibility\",\n    \"Specific imaging protocol for spine X-rays (T4-L4 visibility)\",\n    \"Verification that at least 3 vertebrae L1-L4 are analyzable without fractures or artifacts\",\n    \"If patient has any kidney stone history, radiology study within 6 months documenting no active disease\",\n    \"Normal or clinically insignificant lab values confirmation\"\n  ],\n  \"reasoning_summary\": \"The patient meets several basic inclusion criteria: age 55 (within 55-85 range), female gender, osteoporosis diagnosis, and documented vertebral fracture. However, critical eligibility factors remain unknown, including: (1) whether she is at least 3 years postmenopausal, (2) her BMD T-scores at spine/hip (must be -2.0 to -4.0), (3) whether she has enough intact vertebrae for proper measurement, (4) lab values, and (5) numerous exclusionary medical history items. The study also requires central quality assurance approval of BMD measurements. Without confirmation of these requirements, definitive eligibility cannot be determined.\",\n  \"safety_note\": \"This response does not determine your actual eligibility or constitute medical advice. Only the study team and your healthcare provider can make an eligibility determination after reviewing your complete medical records, conducting required tests, and verifying all inclusion and exclusion criteria. Please consult with your doctor before pursuing enrollment in any clinical trial.\"\n}\n```",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be a potential candidate for this study, but more information is needed to determine eligibility. The study is enrolling postmenopausal women aged 55-85 with osteoporosis and a prior vertebral fracture, which matches your basic profile. However, the study has specific requirements that need to be checked, including bone density measurements, lab tests, imaging requirements, and various medical history exclusions that haven't been confirmed yet. You would need to undergo screening tests including bone density scans of your spine and hip, blood tests, and X-rays to determine if you meet all the criteria. I recommend discussing this study with your healthcare provider who can review your complete medical history and arrange the necessary tests.",
+    "supported_patient_facts": [
+      "Age 55 years (within the 55-85 year range required)",
+      "Female gender (study requires postmenopausal women)",
+      "Diagnosis of osteoporosis",
+      "History of prior vertebral fracture"
+    ],
+    "missing_patient_facts": [
+      "Menopausal status confirmation (must be at least 3 years postmenopausal)",
+      "Bone mineral density (BMD) T-score at spine or hip (must be between -2.0 and -4.0)",
+      "Number and location of vertebral fractures (need at least 3 intact vertebrae L1-L4 for measurement)",
+      "Laboratory values (serum calcium, PTH levels, alkaline phosphatase)",
+      "History of malabsorption conditions (sprue, inflammatory bowel disease) in past year",
+      "History of kidney stones in past 2 years",
+      "History of cancer in past 5 years",
+      "History of other bone metabolism diseases",
+      "History of radiation therapy to skeleton",
+      "Current medications"
+    ],
+    "unresolved_study_requirements": [
+      "Central quality assurance review of BMD measurements required for final eligibility",
+      "Specific imaging protocol for spine X-rays (T4-L4 visibility)",
+      "Verification that at least 3 vertebrae L1-L4 are analyzable without fractures or artifacts",
+      "If patient has any kidney stone history, radiology study within 6 months documenting no active disease",
+      "Normal or clinically insignificant lab values confirmation"
+    ],
+    "reasoning_summary": "The patient meets several basic inclusion criteria: age 55 (within 55-85 range), female gender, osteoporosis diagnosis, and documented vertebral fracture. However, critical eligibility factors remain unknown, including: (1) whether she is at least 3 years postmenopausal, (2) her BMD T-scores at spine/hip (must be -2.0 to -4.0), (3) whether she has enough intact vertebrae for proper measurement, (4) lab values, and (5) numerous exclusionary medical history items. The study also requires central quality assurance approval of BMD measurements. Without confirmation of these requirements, definitive eligibility cannot be determined.",
+    "safety_note": "This response does not determine your actual eligibility or constitute medical advice. Only the study team and your healthcare provider can make an eligibility determination after reviewing your complete medical records, conducting required tests, and verifying all inclusion and exclusion criteria. Please consult with your doctor before pursuing enrollment in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be a potential candidate for this study, but more information is needed to determine eligibility. The study is enrolling postmenopausal women aged 55-85 with osteoporosis and a prior vertebral fracture, which matches your basic profile. However, the study has specific requirements that need to be checked, including bone density measurements, lab tests, imaging requirements, and various medical history exclusions that haven't been confirmed yet. You would need to undergo screening tests including bone density scans of your spine and hip, blood tests, and X-rays to determine if you meet all the criteria. I recommend discussing this study with your healthcare provider who can review your complete medical history and arrange the necessary tests.",
+  "missing_patient_facts": [
+    "Menopausal status confirmation (must be at least 3 years postmenopausal)",
+    "Bone mineral density (BMD) T-score at spine or hip (must be between -2.0 and -4.0)",
+    "Number and location of vertebral fractures (need at least 3 intact vertebrae L1-L4 for measurement)",
+    "Laboratory values (serum calcium, PTH levels, alkaline phosphatase)",
+    "History of malabsorption conditions (sprue, inflammatory bowel disease) in past year",
+    "History of kidney stones in past 2 years",
+    "History of cancer in past 5 years",
+    "History of other bone metabolism diseases",
+    "History of radiation therapy to skeleton",
+    "Current medications"
+  ],
+  "unresolved_study_requirements": [
+    "Central quality assurance review of BMD measurements required for final eligibility",
+    "Specific imaging protocol for spine X-rays (T4-L4 visibility)",
+    "Verification that at least 3 vertebrae L1-L4 are analyzable without fractures or artifacts",
+    "If patient has any kidney stone history, radiology study within 6 months documenting no active disease",
+    "Normal or clinically insignificant lab values confirmation"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 17.110830598976463
+}

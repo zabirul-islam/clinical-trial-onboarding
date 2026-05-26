@@ -1,0 +1,73 @@
+{
+  "case_id": "case_15",
+  "backbone": "V-final",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00738998",
+  "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+  "evidence": "[Passage 1 | doc=NCT00738998 | section=detailed_description]\nThe cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.\n\n[Passage 2 | doc=NCT00738998 | section=detailed_description]\nThis form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.",
+  "passages": [
+    {
+      "passage_id": "NCT00738998::detailed_description::1",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "text": "The cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.",
+      "score": -3.8169975
+    },
+    {
+      "passage_id": "NCT00738998::detailed_description::2",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "text": "This form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.",
+      "score": -5.294199
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a reliable dominant single-trial context could not be established\nReasoning: Trial selection was not reliable enough for safe answering. Top trial: NCT00738998, dominance ratio: 1.523, score share: 0.380, raw max cross-score: -3.817.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A reliable dominant single-trial context could not be established from the retrieved evidence.; The system needs one specific trial before it can answer safely.\n\nPatient-facing summary (rebuilt): I could not identify one reliable study from the retrieved evidence, so I cannot safely summarize a single trial yet.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Would you like help narrowing this to one specific trial?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a reliable dominant single-trial context could not be established"
+    ],
+    "reasoning_summary": "Trial selection was not reliable enough for safe answering. Top trial: NCT00738998, dominance ratio: 1.523, score share: 0.380, raw max cross-score: -3.817.",
+    "safety_note": "Please provide a study title, NCT number, or direct protocol reference."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I could not identify one reliable study from the retrieved evidence. Please provide a study title or NCT number so I can answer from a single trial context.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a reliable dominant single-trial context could not be established"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_no_reliable_trial",
+    "selected_doc_id": "NCT00738998",
+    "selected_trial_score": 1.7648972750000005,
+    "selected_doc_passage_count": 2,
+    "dominance_ratio": 1.523087,
+    "trial_score_share": 0.379915,
+    "raw_max_cross": -3.816997,
+    "best_rank": 1,
+    "generic_question": true,
+    "n_unique_docs_in_raw_context": 7,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 2,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

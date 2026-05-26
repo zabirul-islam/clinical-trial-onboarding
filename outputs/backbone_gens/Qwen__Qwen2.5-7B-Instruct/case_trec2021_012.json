@@ -1,0 +1,81 @@
+{
+  "case_id": "case_trec2021_012",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001314",
+  "selected_doc": "NCT03975998",
+  "question": "I am considering a clinical trial. Here is my situation: 34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03975998 | section=eligibility]\nInclusion Criteria: - 18-75 years. - Asymptomatic patients. \"Asymptomatic\" is defined as absence of subjective limitations of exercise capacity or complaints expressed by the patient and confirmed by the treating cardiologist. - Severe organic mitral valve regurgitation. \"Severe organic mitral valve regurgitation\" is defined as non-ischemic mitral valve regurgitation with an organic cause (intrinsic valve lesion) as determined by echocardiographic core-lab reading based on the criteria for definition of severe MR as issued by the ESC guidelines [4]. For practical reasons, referring cardiologists can use an ESC guidelines based index that was validated in the investigator's core-lab (Jansen et al, Practical echocardiographic semi-quantitative scoring system to determine severity of mitral regurgitation. Abstract presentation at ESC EUROECHO Congress 2011 and annual spring congress 2012 Netherlands Society of Cardiology). - Preserved left ventricular function, \"Preserved left ventricular function\" is defined as left ventricular ejection fraction >60% and left ventricular end-systolic dimension <45 mm (no indexed value, measured by echocardiography).\n\n[Passage 2 | doc=NCT03975998 | section=eligibility]\n- The likelihood of MV repair should be more than 90% determined by the local heart team with a cardiologist and cardiothoracic surgeon. Exclusion Criteria: - Pulmonary hypertension (>50 mmHg at rest). - Atrial fibrillation, either on 12-lead ECG or holter-monitoring. - Physical inability as determined by the heart team to undergo surgery. - Other life-threatening morbidity. - Higher expected surgical risks in advance, according to the dedicated heart team. - Patients with moderate to severe kidney disease (estimated glomerular filtration rate (eGFR) less than 30 mL/min). - Flail leaflet together with a left ventricular end systolic diameter (LVESD) \u226540 mm (no indexed value)\n\n[Passage 3 | doc=NCT03975998 | section=summary]\nRationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.\n\n[Passage 4 | doc=NCT03975998 | section=title]\nDutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+  "passages": [
+    {
+      "passage_id": "NCT03975998::eligibility::0",
+      "doc_id": "NCT03975998",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - 18-75 years. - Asymptomatic patients. \"Asymptomatic\" is defined as absence of subjective limitations of exercise capacity or complaints expressed by the patient and confirmed by the treating cardiologist. - Severe organic mitral valve regurgitation. \"Severe organic mitral valve regurgitation\" is defined as non-ischemic mitral valve regurgitation with an organic cause (intrinsic valve lesion) as determined by echocardiographic core-lab reading based on the criteria for definition of severe MR as issued by the ESC guidelines [4]. For practical reasons, referring cardiologists can use an ESC guidelines based index that was validated in the investigator's core-lab (Jansen et al, Practical echocardiographic semi-quantitative scoring system to determine severity of mitral regurgitation. Abstract presentation at ESC EUROECHO Congress 2011 and annual spring congress 2012 Netherlands Society of Cardiology). - Preserved left ventricular function, \"Preserved left ventricular function\" is defined as left ventricular ejection fraction >60% and left ventricular end-systolic dimension <45 mm (no indexed value, measured by echocardiography).",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03975998::eligibility::1",
+      "doc_id": "NCT03975998",
+      "section": "eligibility",
+      "passage_text": "- The likelihood of MV repair should be more than 90% determined by the local heart team with a cardiologist and cardiothoracic surgeon. Exclusion Criteria: - Pulmonary hypertension (>50 mmHg at rest). - Atrial fibrillation, either on 12-lead ECG or holter-monitoring. - Physical inability as determined by the heart team to undergo surgery. - Other life-threatening morbidity. - Higher expected surgical risks in advance, according to the dedicated heart team. - Patients with moderate to severe kidney disease (estimated glomerular filtration rate (eGFR) less than 30 mL/min). - Flail leaflet together with a left ventricular end systolic diameter (LVESD) \u226540 mm (no indexed value)",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03975998::summary::0",
+      "doc_id": "NCT03975998",
+      "section": "summary",
+      "passage_text": "Rationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03975998::title::0",
+      "doc_id": "NCT03975998",
+      "section": "title",
+      "passage_text": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": "",
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.\",\n  \"supported_patient_facts\": [\n    \"Age (34 years old, within the range of 18-75 years)\",\n    \"Severe organic mitral valve regurgitation\",\n    \"Preserved left ventricular function (EF of 65%)\"\n  ],\n  \"missing_patient_facts\": [\n    \"Likelihood of MV repair (more than 90%) determined by the local heart team\",\n    \"Physical ability to undergo surgery as determined by the heart team\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of the likelihood of MV repair by the local heart team\",\n    \"Assessment of physical ability to undergo surgery by the heart team\"\n  ],\n  \"reasoning_summary\": \"The patient meets the age, severe organic mitral valve regurgitation, and preserved left ventricular function criteria. However, the likelihood of MV repair and physical ability to undergo surgery have not been confirmed by the local heart team, which are critical requirements for eligibility.\",\n  \"safety_note\": \"It is important to confirm the likelihood of MV repair and physical ability to undergo surgery before proceeding with further evaluation.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+    "supported_patient_facts": [
+      "Age (34 years old, within the range of 18-75 years)",
+      "Severe organic mitral valve regurgitation",
+      "Preserved left ventricular function (EF of 65%)"
+    ],
+    "missing_patient_facts": [
+      "Likelihood of MV repair (more than 90%) determined by the local heart team",
+      "Physical ability to undergo surgery as determined by the heart team"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of the likelihood of MV repair by the local heart team",
+      "Assessment of physical ability to undergo surgery by the heart team"
+    ],
+    "reasoning_summary": "The patient meets the age, severe organic mitral valve regurgitation, and preserved left ventricular function criteria. However, the likelihood of MV repair and physical ability to undergo surgery have not been confirmed by the local heart team, which are critical requirements for eligibility.",
+    "safety_note": "It is important to confirm the likelihood of MV repair and physical ability to undergo surgery before proceeding with further evaluation."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+  "missing_patient_facts": [
+    "Likelihood of MV repair (more than 90%) determined by the local heart team",
+    "Physical ability to undergo surgery as determined by the heart team"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of the likelihood of MV repair by the local heart team",
+    "Assessment of physical ability to undergo surgery by the heart team"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 22.12
+}

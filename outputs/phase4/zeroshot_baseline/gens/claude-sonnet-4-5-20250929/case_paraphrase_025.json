@@ -1,0 +1,109 @@
+{
+  "case_id": "case_paraphrase_025",
+  "backbone": "claude-sonnet-4-5-20250929",
+  "source": "paraphrase_trec2021",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT02629549",
+  "question": "I am considering a clinical trial. Here is my situation: A 35-year-old woman presents with history of acne and mild hirsutism. The primary evaluation revealed elevated testosterone levels. She recently noticed gradual enlargement of her hands and feet and recognized that her ring is getting small for her finger. There is some irregularity in her menstrual cycle as well as some nipple discharge. She also has positive history for snoring and headache. The physical examination revealed subtle facial features of acromegaly and prognathism. Visual fields are normal by confrontation. Hirsutism, soft tissue thickening and diaphoresis of the hands and feet are noted. Laboratory evaluation in the fasting state reveals IGF-1 of 968 ng/mL and random GH of 19.7 ng/mL. MRI reveals a macroadenoma with no invasion. She is on stable doses of octreotide LAR since her diagnosis was confirmed. She is married and has 2 children. She is using IUD as her contraceptive method. Before I agree to anything, what is the study team going to confirm with me?",
+  "evidence": "[Passage 1 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.\n\n[Passage 2 | doc=NCT02629549 | section=detailed_description]\nGross total resection (GTR) of a pituitary adenoma is theoretically simple but practically difficult given the intimate association of the pituitary gland with critical neurovascular structures including the internal carotid artery, optic nerves, cavernous sinus contents and adjacent frontal lobe and third ventricle. In a recent meta-analysis, functioning pituitary adenoma (Cushing's disease, prolactinoma, acromegaly) was demonstrated to have a gross total resection rate of only 78% (n=664). In another review, tabulated through multiple studies, demonstrated that for nonfunctioning pituitary adenoma, gross total resection rate ranged from 66 to 93% (n=778). Moreover, a comparison of endoscopic and microscopic removal of pituitary adenoma found the gross total resection rate was 66% using endoscopic pituitary techniques. In this context of limited ability to achieve GTR, intraoperative MRI was introduced for assessment of the degree of resection for pituitary adenoma. The intraoperative MRI is expensive, cumbersome, and impractical. A simpler means of determining the degree of resection is greatly needed in the field of brain surgery, and specifically pituitary surgery.\n\n[Passage 3 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas are the ideal disease to investigate intra-operative imaging. Multiple studies have demonstrated that nonfunctioning pituitary adenomas express folate receptor alpha (FR\u03b1), therefore making folate receptors (FR) the ideal targets for imaging agents. While folate will initially distribute to all cells, redistribution, metabolism, and excretion will eliminate most of this agent from healthy tissues within 2-3 hours. Tumor cells that over express FR\u03b1 will retain folate and any fluorescent labeled folate conjugate (such as OTL38) and internalize this.\n\n[Passage 4 | doc=NCT02629549 | section=eligibility]\nInclusion Criteria: 1. Adult patients over 18 years of age 2. Patients presenting with a pituitary nodule presumed to be resectable on pre-operative assessment 3. Good operative candidate 4. Subject capable of giving informed consent and participating in the process of consent. Exclusion Criteria: 1. Pregnant women as determined by urinary or serum beta human chorionic gonadotropin (hCG) within 72 hours of surgery 2. Patients with a history of anaphylactic reactions to OTL38 3. Patients with a known allergy to Benadryl 4. Previous exposure to OTL38\n\n[Passage 5 | doc=NCT02629549 | section=summary]\nThe primary end-point of the study is to determine the specificity and sensitivity of OTL38 in identifying pituitary adenomas when excited by an imaging probe. The investigators intend to enroll 50 patients in this study. The study is focusing on patients presenting with suspected pituitary adenomas who are considered to be good surgical candidates.",
+  "passages": [
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02629549::detailed_description::1",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Gross total resection (GTR) of a pituitary adenoma is theoretically simple but practically difficult given the intimate association of the pituitary gland with critical neurovascular structures including the internal carotid artery, optic nerves, cavernous sinus contents and adjacent frontal lobe and third ventricle. In a recent meta-analysis, functioning pituitary adenoma (Cushing's disease, prolactinoma, acromegaly) was demonstrated to have a gross total resection rate of only 78% (n=664). In another review, tabulated through multiple studies, demonstrated that for nonfunctioning pituitary adenoma, gross total resection rate ranged from 66 to 93% (n=778). Moreover, a comparison of endoscopic and microscopic removal of pituitary adenoma found the gross total resection rate was 66% using endoscopic pituitary techniques. In this context of limited ability to achieve GTR, intraoperative MRI was introduced for assessment of the degree of resection for pituitary adenoma. The intraoperative MRI is expensive, cumbersome, and impractical. A simpler means of determining the degree of resection is greatly needed in the field of brain surgery, and specifically pituitary surgery.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02629549::detailed_description::2",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas are the ideal disease to investigate intra-operative imaging. Multiple studies have demonstrated that nonfunctioning pituitary adenomas express folate receptor alpha (FR\u03b1), therefore making folate receptors (FR) the ideal targets for imaging agents. While folate will initially distribute to all cells, redistribution, metabolism, and excretion will eliminate most of this agent from healthy tissues within 2-3 hours. Tumor cells that over express FR\u03b1 will retain folate and any fluorescent labeled folate conjugate (such as OTL38) and internalize this.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02629549::eligibility::0",
+      "doc_id": "NCT02629549",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Adult patients over 18 years of age 2. Patients presenting with a pituitary nodule presumed to be resectable on pre-operative assessment 3. Good operative candidate 4. Subject capable of giving informed consent and participating in the process of consent. Exclusion Criteria: 1. Pregnant women as determined by urinary or serum beta human chorionic gonadotropin (hCG) within 72 hours of surgery 2. Patients with a history of anaphylactic reactions to OTL38 3. Patients with a known allergy to Benadryl 4. Previous exposure to OTL38",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02629549::summary::0",
+      "doc_id": "NCT02629549",
+      "section": "summary",
+      "passage_text": "The primary end-point of the study is to determine the specificity and sensitivity of OTL38 in identifying pituitary adenomas when excited by an imaging probe. The investigators intend to enroll 50 patients in this study. The study is focusing on patients presenting with suspected pituitary adenomas who are considered to be good surgical candidates.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": "",
+      "passage_rank": 5
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your situation, you may be a candidate for this pituitary tumor imaging study, but the study team will need to confirm several important details with you before enrollment.\\n\\nWhat the study team will likely confirm:\\n\\n1. **Pregnancy status**: They will perform a pregnancy test within 72 hours of surgery, as pregnant women cannot participate.\\n\\n2. **Allergy history**: They'll ask about any allergies to the imaging agent (OTL38) or Benadryl, as these would prevent participation.\\n\\n3. **Surgical candidacy**: They'll verify that you're a good candidate for surgery based on your overall health and the tumor characteristics.\\n\\n4. **Surgical plan**: They'll confirm whether surgery is being recommended for your pituitary macroadenoma, as this study is specifically for patients undergoing surgical resection.\\n\\n5. **Previous exposure**: They'll confirm you haven't been exposed to the imaging agent OTL38 before.\\n\\n6. **Consent understanding**: They'll ensure you understand the study involves using a fluorescent imaging agent during surgery to help identify tumor tissue.\\n\\nImportant context: This study is investigating an imaging technique during pituitary surgery, not a treatment study. You appear to have acromegaly from a pituitary macroadenoma and are currently on medical therapy (octreotide). Whether surgery is recommended for you would be a separate medical decision from study participation.\",\n  \"supported_patient_facts\": [\n    \"35-year-old woman\",\n    \"Diagnosed with pituitary macroadenoma (no invasion)\",\n    \"Clinical features consistent with acromegaly\",\n    \"Currently on stable octreotide LAR therapy\",\n    \"Has 2 children\",\n    \"Uses IUD for contraception (non-hormonal method)\",\n    \"Elevated IGF-1 (968 ng/mL) and GH (19.7 ng/mL)\",\n    \"Normal visual fields\"\n  ],\n  \"missing_patient_facts\": [\n    \"Whether surgical resection is planned or recommended\",\n    \"Current pregnancy status\",\n    \"History of allergies to OTL38 or Benadryl\",\n    \"Previous exposure to OTL38\",\n    \"Overall surgical candidacy assessment\",\n    \"Whether patient is considering surgery as next treatment step\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Study requires patients presenting for surgical resection - unclear if surgery is planned for this patient currently on medical therapy\",\n    \"Study site availability and enrollment status unknown\",\n    \"Timing of potential surgery if planned\",\n    \"Whether patient's tumor characteristics meet study criteria for resectable disease\",\n    \"Pre-operative assessment results not available\"\n  ],\n  \"reasoning_summary\": \"The patient has a confirmed pituitary macroadenoma causing acromegaly and meets basic eligibility (adult, appears to be good health candidate). However, this is a surgical imaging study requiring patients undergoing transsphenoidal surgery. The key uncertainty is whether surgery is being planned, as the patient is currently stable on medical therapy (octreotide). Medical therapy is often first-line for acromegaly, with surgery considered if medical therapy fails or as primary treatment depending on tumor characteristics. The study team would need to confirm: (1) surgery is planned, (2) pregnancy test negative, (3) no relevant allergies, (4) no prior OTL38 exposure. The patient's use of IUD is relevant as it suggests she could potentially become pregnant, making pregnancy testing critical.\",\n  \"safety_note\": \"This response does not recommend whether you should have surgery or participate in this study. These are decisions to be made with your endocrinologist and neurosurgeon based on your medical condition, treatment response, and personal circumstances. I cannot determine if you are definitively eligible until all requirements are verified by the study team.\"\n}\n```",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on your situation, you may be a candidate for this pituitary tumor imaging study, but the study team will need to confirm several important details with you before enrollment.\n\nWhat the study team will likely confirm:\n\n1. **Pregnancy status**: They will perform a pregnancy test within 72 hours of surgery, as pregnant women cannot participate.\n\n2. **Allergy history**: They'll ask about any allergies to the imaging agent (OTL38) or Benadryl, as these would prevent participation.\n\n3. **Surgical candidacy**: They'll verify that you're a good candidate for surgery based on your overall health and the tumor characteristics.\n\n4. **Surgical plan**: They'll confirm whether surgery is being recommended for your pituitary macroadenoma, as this study is specifically for patients undergoing surgical resection.\n\n5. **Previous exposure**: They'll confirm you haven't been exposed to the imaging agent OTL38 before.\n\n6. **Consent understanding**: They'll ensure you understand the study involves using a fluorescent imaging agent during surgery to help identify tumor tissue.\n\nImportant context: This study is investigating an imaging technique during pituitary surgery, not a treatment study. You appear to have acromegaly from a pituitary macroadenoma and are currently on medical therapy (octreotide). Whether surgery is recommended for you would be a separate medical decision from study participation.",
+    "supported_patient_facts": [
+      "35-year-old woman",
+      "Diagnosed with pituitary macroadenoma (no invasion)",
+      "Clinical features consistent with acromegaly",
+      "Currently on stable octreotide LAR therapy",
+      "Has 2 children",
+      "Uses IUD for contraception (non-hormonal method)",
+      "Elevated IGF-1 (968 ng/mL) and GH (19.7 ng/mL)",
+      "Normal visual fields"
+    ],
+    "missing_patient_facts": [
+      "Whether surgical resection is planned or recommended",
+      "Current pregnancy status",
+      "History of allergies to OTL38 or Benadryl",
+      "Previous exposure to OTL38",
+      "Overall surgical candidacy assessment",
+      "Whether patient is considering surgery as next treatment step"
+    ],
+    "unresolved_study_requirements": [
+      "Study requires patients presenting for surgical resection - unclear if surgery is planned for this patient currently on medical therapy",
+      "Study site availability and enrollment status unknown",
+      "Timing of potential surgery if planned",
+      "Whether patient's tumor characteristics meet study criteria for resectable disease",
+      "Pre-operative assessment results not available"
+    ],
+    "reasoning_summary": "The patient has a confirmed pituitary macroadenoma causing acromegaly and meets basic eligibility (adult, appears to be good health candidate). However, this is a surgical imaging study requiring patients undergoing transsphenoidal surgery. The key uncertainty is whether surgery is being planned, as the patient is currently stable on medical therapy (octreotide). Medical therapy is often first-line for acromegaly, with surgery considered if medical therapy fails or as primary treatment depending on tumor characteristics. The study team would need to confirm: (1) surgery is planned, (2) pregnancy test negative, (3) no relevant allergies, (4) no prior OTL38 exposure. The patient's use of IUD is relevant as it suggests she could potentially become pregnant, making pregnancy testing critical.",
+    "safety_note": "This response does not recommend whether you should have surgery or participate in this study. These are decisions to be made with your endocrinologist and neurosurgeon based on your medical condition, treatment response, and personal circumstances. I cannot determine if you are definitively eligible until all requirements are verified by the study team."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on your situation, you may be a candidate for this pituitary tumor imaging study, but the study team will need to confirm several important details with you before enrollment.\n\nWhat the study team will likely confirm:\n\n1. **Pregnancy status**: They will perform a pregnancy test within 72 hours of surgery, as pregnant women cannot participate.\n\n2. **Allergy history**: They'll ask about any allergies to the imaging agent (OTL38) or Benadryl, as these would prevent participation.\n\n3. **Surgical candidacy**: They'll verify that you're a good candidate for surgery based on your overall health and the tumor characteristics.\n\n4. **Surgical plan**: They'll confirm whether surgery is being recommended for your pituitary macroadenoma, as this study is specifically for patients undergoing surgical resection.\n\n5. **Previous exposure**: They'll confirm you haven't been exposed to the imaging agent OTL38 before.\n\n6. **Consent understanding**: They'll ensure you understand the study involves using a fluorescent imaging agent during surgery to help identify tumor tissue.\n\nImportant context: This study is investigating an imaging technique during pituitary surgery, not a treatment study. You appear to have acromegaly from a pituitary macroadenoma and are currently on medical therapy (octreotide). Whether surgery is recommended for you would be a separate medical decision from study participation.",
+  "missing_patient_facts": [
+    "Whether surgical resection is planned or recommended",
+    "Current pregnancy status",
+    "History of allergies to OTL38 or Benadryl",
+    "Previous exposure to OTL38",
+    "Overall surgical candidacy assessment",
+    "Whether patient is considering surgery as next treatment step"
+  ],
+  "unresolved_study_requirements": [
+    "Study requires patients presenting for surgical resection - unclear if surgery is planned for this patient currently on medical therapy",
+    "Study site availability and enrollment status unknown",
+    "Timing of potential surgery if planned",
+    "Whether patient's tumor characteristics meet study criteria for resectable disease",
+    "Pre-operative assessment results not available"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 21.520430675940588
+}

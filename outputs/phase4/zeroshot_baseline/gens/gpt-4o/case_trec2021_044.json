@@ -1,0 +1,101 @@
+{
+  "case_id": "case_trec2021_044",
+  "backbone": "gpt-4o",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00323752",
+  "selected_doc": "NCT02609009",
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition. He used to be able to play routine activities such as basketball and soccer, however, he recently has problem doing them. The pain is in his leg and back and aggravated by physical activities. He prefer lying down most of the time. He is not happy with his body gesture and complaints of shoulder imbalance and shifting his head to right. Patient is a well-dressed and well-nourished adolescent who is alert and cooperative. The left shoulder is slightly higher than the right shoulder. The scoliotic curve is measured as 45 degree. The patients is candidate for scoliosis surgery according to perioperative MEP monitoring Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02609009 | section=detailed_description]\nIntroduction Adolescent Idiopathic Scoliosis (AIS) is defined by the Scoliosis Research Society (SRS) has a three-dimensional deviation of the vertebral column of unknown origin appearing in adolescents older than 10 years. Chronic non-specific back pain (CNSBP) is often associated with adolescent scoliosis patients, and the associated prevalence is almost double that of non-scoliosis healthy adolescents. Furthermore, CNSBP seems to be a predictor of CNSBP in adulthood. Few studies evaluated BP among AIS patients and in those who did, conflicting results, regarding back pain prevalence, were observed. Among these, only two studies looked at back pain in adolescent idiopathic scoliosis. Ramirez et al. retrospectively evaluated, 2442 scoliosis adolescent patients' files establishing BP prevalence at 32%. He concluded that the established prevalence was similar to the one encountered in a general non-scoliotic adolescent population. Joncas and Labelle prospectively evaluated 239 adolescents with idiopathic scoliosis for the prevalence of BP. They observed that BP occurred in 54% of patients, and the average pain intensity was 49,4 mm.\n\n[Passage 2 | doc=NCT02609009 | section=detailed_description]\nMore recently, Sato's studied back pain prevalence in adolescents with idiopathic scoliosis. He conducted a large-scale cross-sectional epidemiological study, where 43 630 children aged 9 to 15-year-old were required to complete a take-home questionnaire. They reported a back pain prevalence of 58.8% in scoliosis patients compared to 32.9% in non-scoliosis patients. Regarding BP Management in AIS Patients, a comprehensive review of the literature did not yield any study on BP management in AIS patients. Spinal manipulation therapy (SMT) is a recognised and safe treatment for low back pain and is performed primarily by chiropractors, physical therapists, and osteopaths. To the best of the investigators' knowledge, only one pilot clinical trial (Rowe 2006) has been conducted with children and adolescents diagnosed with AIS. Though under powered, results showed that SMT was associated with only minor adverse events, there was no curve progression in the treatment group, and quality of life, evaluated by the Scoliosis Quality of life Index, has not been negatively impacted.\n\n[Passage 3 | doc=NCT02609009 | section=detailed_description]\nIn light of the paucity of literature on the management of back pain in nonsurgical AIS patients, and considering the lack of evidence in regards to the efficacy of SMT for back pain in adolescents, and the lack of guidance regarding management of back pain in adolescents, it would be important to evaluate the effectiveness of SMT compared to usual medical care for back pain among adolescents with idiopathic nonsurgical scoliosis. The primary objective of this pilot study is to verify the effect of Spinal Manipulative Therapy on back pain management of adolescents with idiopathic nonsurgical scoliosis. The secondary objectives are two-fold: 1) to verify the effect of SMT on low back function, 2) to verify the feasibility and acceptability of SMT according to patients' level of satisfaction. This pilot study will be used to verify some implementation strategies before proceeding to a subsequent larger trial, such as recruitment rate, treatment compliance and loss to follow up, and adverse events. Methods: Study Design This pilot study is a single prospective centre randomised controlled trial with one experimental and one control group.\n\n[Passage 4 | doc=NCT02609009 | section=detailed_description]\nThis study will be recruiting from Ste-Justine University Hospital in Montreal, Canada, and patients will be required to attend at least 80% of the treatment sessions otherwise they will be considered as non-compliant. Chiropractors will be recruited from their professional regulatory board. Different instruments will be used during this trial: questionnaires; the Brief Pain Inventory Questionnaire, and the Roland-Morris Disability Questionnaire; the modified Fingertip-to-floor distance, the modified-modified Sch\u00f6ber test, and the Biering-Sorenson back muscles extensor test. Patients will be evaluated upon trial entry and at 4 weeks (end of trial). Co-interventions will be documented and accounted in the analysis. Eligible patients will be randomized according to blocks of 4 to either the experimental (SMT) or the control (UMC) arm after informed consent has been obtained. The randomisation list will be generated and managed by an independent statistician. Statistical software SPSS version 22 will be used for data analyses. All analyses will be conducted under the intention-to-treat principle.\n\n[Passage 5 | doc=NCT02609009 | section=detailed_description]\nTo ensure balance, groups will be compared for possible confounders (age, gender, brace) at baseline. The group mean (Std. Deviation) and frequencies will be presented. Tests will be 2-tailed, and the significance level will be set at 0.05. Statistical analysis will include t-test (or Mann-Whitney) for continuous variables and \u03c72 for categorical variables. Considering that patient's inclusion criterion is chronic pain, and that by definition chronic pain is defined as constant over a period; the investigators expect this variable not to be time influenced. Ste-Justine University Hospital ethical committee has approved this study.\n\n[Passage 6 | doc=NCT02609009 | section=eligibility]\nInclusion Criteria: 1. Adolescents 10 to 17-year-old of either gender 2. Both, parents and adolescents speak either English or French 3. Adolescents with a diagnosis of AIS established by one of the participating orthopaedists. 4. Pain score over 3 on scale of 0-10 5. AIS associated with mechanical back pain of at least six consecutive weeks duration with or without radiating pain to the lower extremity. Mechanical back pain is defined as pain not associated with specific identifiable aetiologies Exclusion Criteria: 1. suffering from any metabolic, malignant or any serious organic or progressive neurological deficit. 2. any structural disturbances of the spine is present (e.g.: osteoporosis, disc herniation, spondylolisthesis, hip dysplasia and others), 3. previous back surgery for AIS 4. ongoing treatment for back pain by other health care providers 5. pregnancy 6. contraindications to SMT, other than previously mentioned, such as inflammatory or infectious conditions, blood clotting and connective tissue disorders",
+  "passages": [
+    {
+      "passage_id": "NCT02609009::detailed_description::0",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "Introduction Adolescent Idiopathic Scoliosis (AIS) is defined by the Scoliosis Research Society (SRS) has a three-dimensional deviation of the vertebral column of unknown origin appearing in adolescents older than 10 years. Chronic non-specific back pain (CNSBP) is often associated with adolescent scoliosis patients, and the associated prevalence is almost double that of non-scoliosis healthy adolescents. Furthermore, CNSBP seems to be a predictor of CNSBP in adulthood. Few studies evaluated BP among AIS patients and in those who did, conflicting results, regarding back pain prevalence, were observed. Among these, only two studies looked at back pain in adolescent idiopathic scoliosis. Ramirez et al. retrospectively evaluated, 2442 scoliosis adolescent patients' files establishing BP prevalence at 32%. He concluded that the established prevalence was similar to the one encountered in a general non-scoliotic adolescent population. Joncas and Labelle prospectively evaluated 239 adolescents with idiopathic scoliosis for the prevalence of BP. They observed that BP occurred in 54% of patients, and the average pain intensity was 49,4 mm.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02609009::detailed_description::1",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "More recently, Sato's studied back pain prevalence in adolescents with idiopathic scoliosis. He conducted a large-scale cross-sectional epidemiological study, where 43 630 children aged 9 to 15-year-old were required to complete a take-home questionnaire. They reported a back pain prevalence of 58.8% in scoliosis patients compared to 32.9% in non-scoliosis patients. Regarding BP Management in AIS Patients, a comprehensive review of the literature did not yield any study on BP management in AIS patients. Spinal manipulation therapy (SMT) is a recognised and safe treatment for low back pain and is performed primarily by chiropractors, physical therapists, and osteopaths. To the best of the investigators' knowledge, only one pilot clinical trial (Rowe 2006) has been conducted with children and adolescents diagnosed with AIS. Though under powered, results showed that SMT was associated with only minor adverse events, there was no curve progression in the treatment group, and quality of life, evaluated by the Scoliosis Quality of life Index, has not been negatively impacted.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02609009::detailed_description::2",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "In light of the paucity of literature on the management of back pain in nonsurgical AIS patients, and considering the lack of evidence in regards to the efficacy of SMT for back pain in adolescents, and the lack of guidance regarding management of back pain in adolescents, it would be important to evaluate the effectiveness of SMT compared to usual medical care for back pain among adolescents with idiopathic nonsurgical scoliosis. The primary objective of this pilot study is to verify the effect of Spinal Manipulative Therapy on back pain management of adolescents with idiopathic nonsurgical scoliosis. The secondary objectives are two-fold: 1) to verify the effect of SMT on low back function, 2) to verify the feasibility and acceptability of SMT according to patients' level of satisfaction. This pilot study will be used to verify some implementation strategies before proceeding to a subsequent larger trial, such as recruitment rate, treatment compliance and loss to follow up, and adverse events. Methods: Study Design This pilot study is a single prospective centre randomised controlled trial with one experimental and one control group.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02609009::detailed_description::3",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "This study will be recruiting from Ste-Justine University Hospital in Montreal, Canada, and patients will be required to attend at least 80% of the treatment sessions otherwise they will be considered as non-compliant. Chiropractors will be recruited from their professional regulatory board. Different instruments will be used during this trial: questionnaires; the Brief Pain Inventory Questionnaire, and the Roland-Morris Disability Questionnaire; the modified Fingertip-to-floor distance, the modified-modified Sch\u00f6ber test, and the Biering-Sorenson back muscles extensor test. Patients will be evaluated upon trial entry and at 4 weeks (end of trial). Co-interventions will be documented and accounted in the analysis. Eligible patients will be randomized according to blocks of 4 to either the experimental (SMT) or the control (UMC) arm after informed consent has been obtained. The randomisation list will be generated and managed by an independent statistician. Statistical software SPSS version 22 will be used for data analyses. All analyses will be conducted under the intention-to-treat principle.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02609009::detailed_description::4",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "To ensure balance, groups will be compared for possible confounders (age, gender, brace) at baseline. The group mean (Std. Deviation) and frequencies will be presented. Tests will be 2-tailed, and the significance level will be set at 0.05. Statistical analysis will include t-test (or Mann-Whitney) for continuous variables and \u03c72 for categorical variables. Considering that patient's inclusion criterion is chronic pain, and that by definition chronic pain is defined as constant over a period; the investigators expect this variable not to be time influenced. Ste-Justine University Hospital ethical committee has approved this study.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02609009::eligibility::0",
+      "doc_id": "NCT02609009",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Adolescents 10 to 17-year-old of either gender 2. Both, parents and adolescents speak either English or French 3. Adolescents with a diagnosis of AIS established by one of the participating orthopaedists. 4. Pain score over 3 on scale of 0-10 5. AIS associated with mechanical back pain of at least six consecutive weeks duration with or without radiating pain to the lower extremity. Mechanical back pain is defined as pain not associated with specific identifiable aetiologies Exclusion Criteria: 1. suffering from any metabolic, malignant or any serious organic or progressive neurological deficit. 2. any structural disturbances of the spine is present (e.g.: osteoporosis, disc herniation, spondylolisthesis, hip dysplasia and others), 3. previous back surgery for AIS 4. ongoing treatment for back pain by other health care providers 5. pregnancy 6. contraindications to SMT, other than previously mentioned, such as inflammatory or infectious conditions, blood clotting and connective tissue disorders",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": "",
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "```json\n{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might be a possible match for the clinical trial, but there are some details that need further clarification.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 14-year-old boy.\",\n    \"The patient has a scoliotic curve measured as 45 degrees.\",\n    \"The patient experiences back pain aggravated by physical activities.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Pain score on a scale of 0-10.\",\n    \"Duration of back pain (at least six consecutive weeks required).\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of AIS diagnosis by a participating orthopaedist.\",\n    \"Language proficiency in English or French for both patient and parents.\",\n    \"Exclusion of any metabolic, malignant, or serious organic or progressive neurological deficit.\"\n  ],\n  \"reasoning_summary\": \"The patient meets some of the inclusion criteria such as age and having scoliosis with back pain. However, specific details like the pain score and duration of back pain are missing. Additionally, confirmation of AIS diagnosis by a participating orthopaedist and language proficiency are required. Exclusion criteria need to be checked to ensure no disqualifying conditions are present.\",\n  \"safety_note\": \"This response does not confirm eligibility or enrollment. Further evaluation by the study team is necessary.\"\n}\n```",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you might be a possible match for the clinical trial, but there are some details that need further clarification.",
+    "supported_patient_facts": [
+      "The patient is a 14-year-old boy.",
+      "The patient has a scoliotic curve measured as 45 degrees.",
+      "The patient experiences back pain aggravated by physical activities."
+    ],
+    "missing_patient_facts": [
+      "Pain score on a scale of 0-10.",
+      "Duration of back pain (at least six consecutive weeks required)."
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of AIS diagnosis by a participating orthopaedist.",
+      "Language proficiency in English or French for both patient and parents.",
+      "Exclusion of any metabolic, malignant, or serious organic or progressive neurological deficit."
+    ],
+    "reasoning_summary": "The patient meets some of the inclusion criteria such as age and having scoliosis with back pain. However, specific details like the pain score and duration of back pain are missing. Additionally, confirmation of AIS diagnosis by a participating orthopaedist and language proficiency are required. Exclusion criteria need to be checked to ensure no disqualifying conditions are present.",
+    "safety_note": "This response does not confirm eligibility or enrollment. Further evaluation by the study team is necessary."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you might be a possible match for the clinical trial, but there are some details that need further clarification.",
+  "missing_patient_facts": [
+    "Pain score on a scale of 0-10.",
+    "Duration of back pain (at least six consecutive weeks required)."
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of AIS diagnosis by a participating orthopaedist.",
+    "Language proficiency in English or French for both patient and parents.",
+    "Exclusion of any metabolic, malignant, or serious organic or progressive neurological deficit."
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 3.1801997690927237
+}

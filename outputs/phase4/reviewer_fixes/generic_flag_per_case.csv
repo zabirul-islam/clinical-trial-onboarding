@@ -1,0 +1,16 @@
+case_id,pred,gold,q_first40
+case_01,0,0,am i eligible for this study if i am a 5
+case_02,0,0,i am a 63-year-old postmenopausal woman 
+case_03,0,1,i am a 42-year-old man with back pain an
+case_04,1,0,i had some fractures years ago and my do
+case_05,0,0,"i am 70 years old, i can walk independen"
+case_06,0,0,i think i meet the age and fracture requ
+case_07,1,1,can you explain in simple words what thi
+case_08,1,1,what parts of joining this study are sti
+case_09,1,1,what would i actually need to do if i jo
+case_10,1,1,how much time would this study probably 
+case_11,1,1,what risks or burdens are described for 
+case_12,1,0,what would the study team still need to 
+case_13,0,0,can you tell me what information from my
+case_14,0,0,can you help me understand what kind of 
+case_15,1,1,"i want to know if this study is for me, "

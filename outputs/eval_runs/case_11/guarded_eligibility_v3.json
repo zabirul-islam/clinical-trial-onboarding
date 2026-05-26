@@ -1,0 +1,19 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The risks and burdens of participating in this study include the need to attend three subsequent follow-up appointments, which may cause inconvenience. Additionally, there is a small risk of distress during an interview when recalling memories and experiences.",
+  "supported_patient_facts": [
+    "patients will have been consented for the 'pinch-grip' test",
+    "the study requires patients to attend three subsequent follow-up appointments",
+    "there is a small risk of distress for the patient and/or their carer during the interview"
+  ],
+  "missing_patient_facts": [
+    "the specific nature and frequency of the follow-up appointments",
+    "the exact duration of the interview"
+  ],
+  "unresolved_study_requirements": [
+    "the exact timing and location of the follow-up appointments",
+    "the duration of the interview"
+  ],
+  "reasoning_summary": "The passage provides information about the need for follow-up appointments and the potential for distress during an interview. However, specific details such as the timing, frequency, and duration of these requirements are not fully resolved.",
+  "safety_note": "The study acknowledges the burden of attending follow-up appointments and the potential for distress during interviews. These risks are communicated in the Participant Information Sheet."
+}

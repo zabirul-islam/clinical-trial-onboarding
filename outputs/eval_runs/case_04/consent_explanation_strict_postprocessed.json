@@ -1,0 +1,44 @@
+{
+  "study_purpose": {
+    "text": "The study aims to investigate how vitamin D supplementation during pregnancy affects the response of bone to vibration in children.",
+    "support_passages": [
+      2
+    ]
+  },
+  "who_may_join": {
+    "text": "Children whose mothers participated in the Maternal Vitamin D Osteoporosis Study (MAVIDOS) in Sheffield are eligible for this study.",
+    "support_passages": [
+      2
+    ]
+  },
+  "procedures_or_participation": {
+    "text": "Participants will undergo various tests and procedures, including bone mineral density tests, MRI/CT scans, and blood tests to measure vitamin D, calcium, phosphorus, and PTH levels.",
+    "support_passages": [
+      1,
+      4
+    ]
+  },
+  "risks_or_burdens": {
+    "text": "There are no specific risks or burdens mentioned in the provided evidence.",
+    "support_passages": [
+      1,
+      4
+    ]
+  },
+  "time_commitment": {
+    "text": "The study length is 2 years after completing radiation therapy, with additional follow-ups for up to 5 years.",
+    "support_passages": [
+      1
+    ]
+  },
+  "what_is_unclear": [
+    "Not clearly stated in the retrieved evidence"
+  ],
+  "patient_facing_summary": {
+    "text": "This study investigates how vitamin D supplementation during pregnancy affects bone health in children. Participants will undergo tests and procedures related to bone health, including bone density tests, scans, and blood tests. The study involves no known risks or burdens.",
+    "support_passages": [
+      1,
+      2
+    ]
+  }
+}

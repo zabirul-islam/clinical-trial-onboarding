@@ -1,0 +1,19 @@
+{
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.",
+  "supported_patient_facts": [
+    "you are a 55-year-old woman",
+    "you have osteoporosis",
+    "you have had a prior vertebral fracture"
+  ],
+  "missing_patient_facts": [
+    "your current health status and whether you have any severe or chronically disabling conditions",
+    "the results of your bone density test (BMD) and T-score"
+  ],
+  "unresolved_study_requirements": [
+    "we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+    "we need to confirm your age and menopause status"
+  ],
+  "reasoning_summary": "You are within the age range and have osteoporosis and a prior vertebral fracture. However, we need to verify your BMD results and X-rays to ensure they meet the study's standards.",
+  "safety_note": "Please let us know if you have any concerns about participating in the study."
+}

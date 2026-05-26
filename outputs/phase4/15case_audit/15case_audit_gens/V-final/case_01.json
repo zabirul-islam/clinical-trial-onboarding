@@ -1,0 +1,74 @@
+{
+  "case_id": "case_01",
+  "backbone": "V-final",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00543023",
+  "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "evidence": "[Passage 1 | doc=NCT00543023 | section=eligibility]\nInclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+  "passages": [
+    {
+      "passage_id": "NCT00543023::eligibility::0",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+      "score": 3.8074598
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: possible_match_insufficient_evidence\nPatient-facing answer: You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.\nSupported facts: you are a 55-year-old woman; you have osteoporosis; you have had a prior vertebral fracture\nMissing patient facts: your current health status and whether you have any severe or chronically disabling conditions; the results of your bone density test (BMD) and T-score\nUnresolved study requirements: we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts; we need to confirm your age and menopause status\nReasoning: You are within the age range and have osteoporosis and a prior vertebral fracture. However, we need to verify your BMD results and X-rays to ensure they meet the study's standards.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones. (supports: 1)\nprocedures_or_participation: Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density. (supports: 1)\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments. (supports: 1)\nWhat is unclear: Your current health status and whether you have any severe or chronically disabling conditions; The results of your bone density test (BMD) and T-score; We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts; We need to confirm your age and menopause status\n\nPatient-facing summary (rebuilt): Who may join: The study includes women over 55 who have had no major health problems and have had a broken bone in their spine or another part of their body due to weak bones. What participation may involve: Women in the study need to have X-rays taken of their back and lower part of their body to check their bone strength. They also need to take a special test to measure their bone density. Time commitment: It's not clear how much time women need to commit to the study. They might need to go to the hospital for tests and treatments. What is still unclear: Your current health status and whether you have any severe or chronically disabling conditions; The results of your bone density test (BMD) and T-score; We need to see your X-rays to evaluate the presence of vertebral fractures and artifacts; We need to confirm your age and menopause status\n\n=== Teach-back questions ===\n- Based on what we discussed, who seems to be the kind of person this study is looking for?\n- Can you tell me what part of your medical history or current condition still needs to be confirmed?\n- Can you explain what information still needs to be confirmed before joining this study?\n- Can you explain what the study team would still need to verify before confirming eligibility?",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.",
+    "supported_patient_facts": [
+      "you are a 55-year-old woman",
+      "you have osteoporosis",
+      "you have had a prior vertebral fracture"
+    ],
+    "missing_patient_facts": [
+      "your current health status and whether you have any severe or chronically disabling conditions",
+      "the results of your bone density test (BMD) and T-score"
+    ],
+    "unresolved_study_requirements": [
+      "we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+      "we need to confirm your age and menopause status"
+    ],
+    "reasoning_summary": "You are within the age range and have osteoporosis and a prior vertebral fracture. However, we need to verify your BMD results and X-rays to ensure they meet the study's standards.",
+    "safety_note": "Please let us know if you have any concerns about participating in the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "You seem to meet most of the study's eligibility criteria, but we need more information to confirm everything.",
+  "missing_patient_facts": [
+    "your current health status and whether you have any severe or chronically disabling conditions",
+    "the results of your bone density test (BMD) and T-score"
+  ],
+  "unresolved_study_requirements": [
+    "we need to see your X-rays to evaluate the presence of vertebral fractures and artifacts",
+    "we need to confirm your age and menopause status"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "trial_first_ok",
+    "selected_doc_id": "NCT00543023",
+    "selected_trial_score": 2.1245282605,
+    "selected_doc_passage_count": 1,
+    "dominance_ratio": 1.593305,
+    "trial_score_share": 0.297941,
+    "raw_max_cross": 3.80746,
+    "best_rank": 1,
+    "generic_question": false,
+    "n_unique_docs_in_raw_context": 7,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 1,
+    "thresholds": {
+      "min_dominance_ratio": 1.35,
+      "min_trial_score_share": 0.28,
+      "min_selected_raw_max_cross": 1.0,
+      "max_best_rank": 2,
+      "keep_trial_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}

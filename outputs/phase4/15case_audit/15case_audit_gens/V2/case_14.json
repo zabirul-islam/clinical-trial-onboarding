@@ -1,0 +1,105 @@
+{
+  "case_id": "case_14",
+  "backbone": "V2",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT00816998",
+  "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+  "evidence": "[Passage 1 | doc=NCT00816998 | section=eligibility]\nInclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.\n\n[Passage 2 | doc=NCT00816998 | section=detailed_description]\nYou are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.",
+  "passages": [
+    {
+      "passage_id": "NCT00816998::eligibility::0",
+      "doc_id": "NCT00816998",
+      "section": "eligibility",
+      "text": "Inclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.",
+      "score": -1.9370208
+    },
+    {
+      "passage_id": "NCT00816998::detailed_description::0",
+      "doc_id": "NCT00816998",
+      "section": "detailed_description",
+      "text": "You are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.",
+      "score": -3.830285
+    }
+  ],
+  "raw_generation": "=== Eligibility ===\nDecision: cannot_determine\nPatient-facing answer: I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.\nMissing patient facts: the exact study you want to ask about\nUnresolved study requirements: a single dominant trial context could not be established from the retrieved evidence\nReasoning: Retrieved evidence was split across multiple trials. The top candidate trial was NCT00816998 with weight share 0.552, which was not strong enough for a reliable single-trial answer.\n\n=== Consent-style explanation ===\nstudy_purpose: not clearly stated in the retrieved evidence\nwho_may_join: not clearly stated in the retrieved evidence\nprocedures_or_participation: not clearly stated in the retrieved evidence\nrisks_or_burdens: not clearly stated in the retrieved evidence\ntime_commitment: not clearly stated in the retrieved evidence\nWhat is unclear: A single study context could not be established from the retrieved evidence.; The system needs one specific trial before it can explain study details safely.\n\nPatient-facing summary (rebuilt): I found multiple partially related studies and cannot safely summarize one trial without a more specific study identifier.\n\n=== Teach-back questions ===\n- Can you share the study title or NCT number you want to ask about?\n- Do you want help with one specific trial rather than a general study search?",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "the exact study you want to ask about"
+    ],
+    "unresolved_study_requirements": [
+      "a single dominant trial context could not be established from the retrieved evidence"
+    ],
+    "reasoning_summary": "Retrieved evidence was split across multiple trials. The top candidate trial was NCT00816998 with weight share 0.552, which was not strong enough for a reliable single-trial answer.",
+    "safety_note": "Please provide the study title, trial name, or NCT number so the system can answer from one specific protocol."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "I found multiple partially related studies and cannot reliably answer from a single trial context. Please provide a specific study title or NCT number.",
+  "missing_patient_facts": [
+    "the exact study you want to ask about"
+  ],
+  "unresolved_study_requirements": [
+    "a single dominant trial context could not be established from the retrieved evidence"
+  ],
+  "cross_trial_leak_n": 0,
+  "latency_sec": 0.0,
+  "context_control": {
+    "status": "abstain_mixed_context",
+    "reason": "mixed_trial_context",
+    "selected_doc_id": "NCT00816998",
+    "selected_doc_weight_share": 0.551905,
+    "selected_doc_passage_count": 2,
+    "n_unique_docs_in_raw_context": 6,
+    "raw_context_rows": 8,
+    "filtered_context_rows": 2,
+    "doc_scores": [
+      {
+        "doc_id": "NCT00816998",
+        "weighted_score": 1.5,
+        "passage_count": 2,
+        "best_rank": 1
+      },
+      {
+        "doc_id": "NCT01710072",
+        "weighted_score": 0.47619047619047616,
+        "passage_count": 2,
+        "best_rank": 3
+      },
+      {
+        "doc_id": "NCT04166539",
+        "weighted_score": 0.25,
+        "passage_count": 1,
+        "best_rank": 4
+      },
+      {
+        "doc_id": "NCT03187951",
+        "weighted_score": 0.2,
+        "passage_count": 1,
+        "best_rank": 5
+      },
+      {
+        "doc_id": "NCT01605656",
+        "weighted_score": 0.16666666666666666,
+        "passage_count": 1,
+        "best_rank": 6
+      },
+      {
+        "doc_id": "NCT01212939",
+        "weighted_score": 0.125,
+        "passage_count": 1,
+        "best_rank": 8
+      }
+    ],
+    "thresholds": {
+      "min_weight_share": 0.55,
+      "min_passage_count": 3,
+      "keep_top_passages": 6
+    }
+  },
+  "model_name": "Qwen/Qwen2.5-3B-Instruct"
+}
