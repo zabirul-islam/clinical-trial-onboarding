@@ -1,0 +1,35 @@
+{
+  "n": 500,
+  "accuracy": 0.498,
+  "macro_f1": 0.2556214479861626,
+  "f1_per_class": {
+    "match": 0.7105263157894737,
+    "mismatch": 0.056338028169014086,
+    "undetermined": 0.0
+  },
+  "cohens_kappa": 0.058627621590806735,
+  "labels": [
+    "match",
+    "mismatch",
+    "undetermined"
+  ],
+  "confusion": [
+    [
+      243,
+      3,
+      50
+    ],
+    [
+      145,
+      6,
+      53
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "parse_ok_rate": 0.794
+}

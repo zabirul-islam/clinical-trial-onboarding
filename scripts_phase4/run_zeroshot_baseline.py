@@ -147,7 +147,7 @@ def _call_openai(client, model_id: str, system: str, user: str) -> tuple[str, fl
             {"role": "user", "content": user},
         ],
         temperature=0.0,
-        max_tokens=512,
+        max_tokens=1500,
     )
     dt = time.monotonic() - t0
     return resp.choices[0].message.content, dt
@@ -157,7 +157,7 @@ def _call_anthropic(client, model_id: str, system: str, user: str) -> tuple[str,
     t0 = time.monotonic()
     resp = client.messages.create(
         model=model_id,
-        max_tokens=512,
+        max_tokens=1500,
         system=system,
         messages=[{"role": "user", "content": user}],
     )

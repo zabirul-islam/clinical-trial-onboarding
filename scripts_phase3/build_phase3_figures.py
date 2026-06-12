@@ -42,8 +42,8 @@ DIM_LABELS = {
     "patient_utility":          "Patient\nutility",
 }
 SHORT_BB = {
-    "Qwen/Qwen2.5-3B-Instruct":           "Qwen-3B (prod)",
-    "Qwen/Qwen2.5-7B-Instruct":           "Qwen-7B",
+    "Qwen/Qwen2.5-3B-Instruct":           "Qwen-2.5-3B",
+    "Qwen/Qwen2.5-7B-Instruct":           "Qwen-2.5-7B",
     "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-3.1-8B",
     "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B",
 }

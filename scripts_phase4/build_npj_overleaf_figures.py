@@ -99,7 +99,7 @@ def fig_retrieval_comparison():
             ax.text(i, v + 0.01, f"{v:.3f}", ha="center", fontsize=7)
     fig.suptitle("TREC CT 2021 retrieval comparison (single-stage vs two-stage)", fontsize=11)
     plt.tight_layout()
-    fig.savefig(FIG / "retrieval_comparison.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "retrieval_comparison.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] retrieval_comparison.png")
 
@@ -126,7 +126,7 @@ def fig_ablation_safety_utility():
     ax.legend(fontsize=7, ncol=2, frameon=False, loc="upper right")
     ax.set_ylim(0, 105)
     plt.tight_layout()
-    fig.savefig(FIG / "ablation_safety_utility.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "ablation_safety_utility.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] ablation_safety_utility.png")
 
@@ -165,7 +165,7 @@ def fig_rubric_heatmap():
             ax.text(j, i, f"{data[i,j]:.0f}", ha="center", va="center", fontsize=7)
     fig.colorbar(im, ax=ax, fraction=0.03)
     plt.tight_layout()
-    fig.savefig(FIG / "rubric_heatmap.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "rubric_heatmap.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] rubric_heatmap.png (qualitative recreation)")
 
@@ -186,7 +186,7 @@ def fig_probe_thresholds():
         ax.tick_params(axis="x", rotation=12)
     fig.suptitle("Decisive probes vs deployment floors " r"($\rho_{\min},\tau_{\min},\mu_{\min}$)", fontsize=11)
     plt.tight_layout()
-    fig.savefig(FIG / "probe_thresholds.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "probe_thresholds.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] probe_thresholds.png")
 
@@ -224,7 +224,7 @@ def fig_pipeline_architecture():
         )
     ax.set_title("Grounded onboarding pipeline (schematic for Overleaf bundle)", fontsize=10, loc="left")
     plt.tight_layout()
-    fig.savefig(FIG / "pipeline_architecture.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "pipeline_architecture.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] pipeline_architecture.png (schematic placeholder)")
 
@@ -241,7 +241,7 @@ def fig_trec_ct2022_lengths():
     ax.set_ylabel("Mean characters")
     ax.set_title("TREC CT 2022 — field lengths (1k-doc sample)")
     plt.tight_layout()
-    fig.savefig(FIG / "trec_ct2022_field_lengths.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "trec_ct2022_field_lengths.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] trec_ct2022_field_lengths.png")
 
@@ -256,7 +256,7 @@ def fig_trec_qrel_distribution():
     ax.set_ylabel("Count")
     ax.set_title("TREC CT 2021 qrel distribution")
     plt.tight_layout()
-    fig.savefig(FIG / "trec_ct2021_qrel_distribution.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "trec_ct2021_qrel_distribution.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] trec_ct2021_qrel_distribution.png")
 
@@ -269,7 +269,7 @@ def fig_nli4pr_labels():
     ax.bar(list(labels.keys()), list(labels.values()), color="#fdae61", edgecolor="black")
     ax.set_title("NLI4PR label counts (test split)")
     plt.tight_layout()
-    fig.savefig(FIG / "nli4pr_label_distribution.png", dpi=160, bbox_inches="tight")
+    fig.savefig(FIG / "nli4pr_label_distribution.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
     print("[wrote] nli4pr_label_distribution.png")
 
@@ -327,7 +327,7 @@ def fig_phase2_threshold_pareto():
             s=90,
             marker="*",
             zorder=5,
-            label="Deployed tuple",
+            label="Evaluated configuration",
         )
     ax.set_xlabel("Accept rate")
     ax.set_ylabel("F1 (any-match surrogate)")

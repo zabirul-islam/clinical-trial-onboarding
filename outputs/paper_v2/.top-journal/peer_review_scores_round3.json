@@ -1,0 +1,44 @@
+{
+  "round": 3,
+  "mode": "re-review",
+  "date": "2026-05-26",
+  "manuscript": "main.tex (and mirrored main_npj.tex)",
+  "venue_target": "npj Digital Medicine",
+  "verdict": "Accept (no further revision required)",
+  "round3_scope": "Author-elective polish: abstract citation removal, ad-hoc ABC label removal, paper-wide Spearman rho -> r_s symbol-overload fix, exact-numeric replacement of latency/CI hedges, softplus-threshold rationale, URL overfull guard, sentence-level grammar/cadence pass on abstract + intro. Zero changes to figures, numerics, sections, or bibliography.",
+  "scores": {
+    "novelty": {"round2": 8, "round3": 8, "delta": 0},
+    "methodological_credibility": {"round2": 9, "round3": 9, "delta": 0},
+    "data_quality": {"round2": 6, "round3": 6, "delta": 0},
+    "clarity": {"round2": 9, "round3": 9.5, "delta": 0.5},
+    "clinical_policy_relevance": {"round2": 9, "round3": 9, "delta": 0}
+  },
+  "mean_score": {"round2": 8.20, "round3": 8.30, "delta": 0.10},
+  "five_dim_floor": 6,
+  "five_dim_min_score": 6,
+  "all_dims_meet_floor": true,
+  "blocking_issues": [],
+  "non_blocking_flags": [
+    "Abstract length ~410 words exceeds npj Digital Medicine ~250-300 structured-abstract soft cap; not cut unilaterally because density preserves substance and author can decide at submission.",
+    "Methods 'roughly 78%' selector-expected match rate not converted to exact count because the underlying audit artifact does not expose the exact count; author should expose or rephrase at submission time."
+  ],
+  "verified_edits": [
+    "R3-1 abstract citations removed",
+    "R3-2 trial A/B/C labels removed",
+    "R3-3 Spearman rho overload resolved paper-wide",
+    "R3-4 latency hedge -> exact 44% / 11.0 vs 19.8 s",
+    "R3-5 softplus negative-threshold rationale added",
+    "R3-6 URL overfull guard wraps Data/Code Availability",
+    "R3-7 sentence-level grammar/cadence pass on abstract + intro",
+    "R3-8 symbol-overload fix propagated to supplements"
+  ],
+  "build_state": {
+    "main_pdf_pages": 20,
+    "main_npj_pdf_pages": 23,
+    "supplement_pdf_pages": 20,
+    "supplement_npj_pdf_pages": 22,
+    "main_log_overfull": 1,
+    "main_log_overfull_round2_baseline": 2,
+    "regression": false
+  }
+}

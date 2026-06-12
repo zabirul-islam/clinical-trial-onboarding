@@ -32,15 +32,15 @@ OUT = ROOT / "outputs/paper_v2/figures"
 OUT.mkdir(parents=True, exist_ok=True)
 
 BACKBONE_SHORT = {
-    "Qwen/Qwen2.5-3B-Instruct": "Qwen-3B (prod)",
-    "Qwen/Qwen2.5-7B-Instruct": "Qwen-7B",
+    "Qwen/Qwen2.5-3B-Instruct": "Qwen-2.5-3B",
+    "Qwen/Qwen2.5-7B-Instruct": "Qwen-2.5-7B",
     "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-3.1-8B",
     "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B",
 }
 BACKBONE_ORDER = list(BACKBONE_SHORT.keys())
 BACKBONE_COLORS = {
-    "Qwen-3B (prod)": "#1f77b4",
-    "Qwen-7B": "#2ca02c",
+    "Qwen-2.5-3B": "#1f77b4",
+    "Qwen-2.5-7B": "#2ca02c",
     "Llama-3.1-8B": "#d62728",
     "Mistral-7B": "#9467bd",
     "GPT-4o": "#ff7f0e",
@@ -243,7 +243,7 @@ def fig_open_vs_closed_bars():
             "abstain_rate": float(r["abstain_rate"]),
         })
     df = pd.DataFrame(rows)
-    order = ["Qwen-3B (prod)", "Qwen-7B", "Llama-3.1-8B", "Mistral-7B",
+    order = ["Qwen-2.5-3B", "Qwen-2.5-7B", "Llama-3.1-8B", "Mistral-7B",
              "GPT-4o", "Sonnet 4.5"]
     df["model"] = pd.Categorical(df["model"], categories=order, ordered=True)
     df = df.sort_values("model").reset_index(drop=True)

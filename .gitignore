@@ -51,3 +51,5 @@ data/
 outputs/paper_v2/main.OLD.tex
 outputs/paper_v2/*.OLD
 outputs/paper_v2/*.OLD.*
+.playwright-mcp/
+texput.log

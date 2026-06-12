@@ -1,0 +1,118 @@
+{
+  "n_total": 500,
+  "parse_ok_rate": 0.794,
+  "decision_histogram": {
+    "possible_match_insufficient_evidence": 383,
+    "cannot_determine": 103,
+    "unlikely_match": 9,
+    "likely_match": 5
+  },
+  "scorings": [
+    {
+      "name": "A_strict",
+      "n": 500,
+      "accuracy": 0.418,
+      "majority_baseline_acc": 0.592,
+      "macro_f1": 0.3084567892432949,
+      "f1_per_class": {
+        "entail": 0.03322259136212625,
+        "contradict": 0.5836909871244635
+      },
+      "cohens_kappa": 0.013826758845058967,
+      "confusion": [
+        [
+          5,
+          291
+        ],
+        [
+          0,
+          204
+        ]
+      ],
+      "labels": [
+        "entail",
+        "contradict"
+      ]
+    },
+    {
+      "name": "B_lenient",
+      "n": 500,
+      "accuracy": 0.604,
+      "majority_baseline_acc": 0.592,
+      "macro_f1": 0.5419720186542305,
+      "f1_per_class": {
+        "entail": 0.7105263157894737,
+        "contradict": 0.3734177215189874
+      },
+      "cohens_kappa": 0.11846416868499772,
+      "confusion": [
+        [
+          243,
+          53
+        ],
+        [
+          145,
+          59
+        ]
+      ],
+      "labels": [
+        "entail",
+        "contradict"
+      ]
+    },
+    {
+      "name": "C_abstention_aware",
+      "n": 14,
+      "accuracy": 0.7857142857142857,
+      "majority_baseline_acc": 0.5714285714285714,
+      "macro_f1": 0.7846153846153847,
+      "f1_per_class": {
+        "entail": 0.7692307692307693,
+        "contradict": 0.8
+      },
+      "cohens_kappa": 0.5882352941176471,
+      "confusion": [
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "labels": [
+        "entail",
+        "contradict"
+      ],
+      "coverage": 0.028,
+      "abstained_n": 486
+    },
+    {
+      "name": "D_forced_pick",
+      "n": 500,
+      "accuracy": 0.538,
+      "majority_baseline_acc": 0.592,
+      "macro_f1": 0.5235757803251235,
+      "f1_per_class": {
+        "entail": 0.606473594548552,
+        "contradict": 0.44067796610169496
+      },
+      "cohens_kappa": 0.04724981027485408,
+      "confusion": [
+        [
+          178,
+          118
+        ],
+        [
+          113,
+          91
+        ]
+      ],
+      "labels": [
+        "entail",
+        "contradict"
+      ]
+    }
+  ]
+}

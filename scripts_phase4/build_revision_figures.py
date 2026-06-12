@@ -35,8 +35,8 @@ def fig_abstain_regime_quality():
     DIM_LABELS = ["Fact.", "Ground.", "Abst.", "Safety", "Utility"]
     backbones = list(df["backbone"].unique())
     short = {
-        "Qwen/Qwen2.5-3B-Instruct": "Qwen-3B",
-        "Qwen/Qwen2.5-7B-Instruct": "Qwen-7B",
+        "Qwen/Qwen2.5-3B-Instruct": "Qwen-2.5-3B",
+        "Qwen/Qwen2.5-7B-Instruct": "Qwen-2.5-7B",
         "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-8B",
         "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B",
     }
@@ -85,8 +85,8 @@ def fig_leak_grid():
     zero = pd.read_csv(REPO / "outputs" / "phase4"
                        / "zeroshot_baseline" / "zeroshot_summary.csv")
     short_map = {
-        "Qwen/Qwen2.5-3B-Instruct": "Qwen-3B",
-        "Qwen/Qwen2.5-7B-Instruct": "Qwen-7B",
+        "Qwen/Qwen2.5-3B-Instruct": "Qwen-2.5-3B",
+        "Qwen/Qwen2.5-7B-Instruct": "Qwen-2.5-7B",
         "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-8B",
         "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B",
         "gpt-4o": "GPT-4o",

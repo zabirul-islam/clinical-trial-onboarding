@@ -1,0 +1,71 @@
+# configs/phase5_baselines.yaml
+# Frozen pre-registration for phase-5 runs (spec §1, §2 — committed BEFORE any run).
+# Spec: docs/superpowers/specs/2026-06-12-npj-revision-design.md
+# Plan: docs/superpowers/plans/2026-06-12-npj-revision.md
+
+backbones:
+  - Qwen/Qwen2.5-7B-Instruct
+  - Qwen/Qwen2.5-3B-Instruct
+
+decoding:
+  do_sample: false          # greedy, matches phase-4 open-weight protocol
+  temperature: 0.0
+  max_new_tokens: 1500
+  dtype: bfloat16
+
+evidence:
+  multi_trial_k: 6          # passages across trials for B1-B3, rank order preserved
+  source: per-case reranked cross-encoder pool (same artifact V-final consumes)
+  reference_trial: trial owning the rank-1 passage   # leak detectors evaluate
+                                                     # "other trial" relative to this
+                                                     # for B1-B3; B4 selects it outright
+
+baselines:
+  B1_multi_rag:
+    evidence: multi_trial
+    guard: none
+    note: standard RAG control — selector bypassed entirely
+  B2_prompt_guard:
+    evidence: multi_trial
+    guard: prompt_instruction_only
+    extra_instruction: >-
+      CRITICAL SAFETY RULE: The evidence below may contain passages from
+      MULTIPLE different clinical trials. You must first identify the single
+      trial most relevant to the patient's question, then answer using ONLY
+      passages from that one trial. Never combine eligibility criteria,
+      procedures, schedules, time commitments, or any other details from
+      different trials in one answer. If you cannot identify a single clearly
+      most-relevant trial, say so and ask the patient for the study title or
+      NCT number instead of answering.
+  B3_citation_enforced:
+    evidence: multi_trial
+    guard: citation_postprocessor
+    note: every field must cite support_passages ids; uncited fields dropped
+          to fallback string; NO single-trial gate
+  B4_top1:
+    evidence: single_trial_rank1
+    guard: trivial_structural
+    note: trial of rank-1 passage accepted unconditionally; 5-gate ensemble OFF;
+          downstream guarded eligibility/consent/teach-back identical to V-final
+
+nli:
+  checkpoint: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+  premise: concatenated accepted-trial passages (chunked to max length,
+           max-entailment over chunks)
+  hypothesis: each sentence of patient-facing fields
+  calibration:
+    pool: 15-case dev audit pool ONLY (never the 12 consensus-flagged cases)
+    objective: highest threshold T in {0.50,0.55,...,0.95} with
+               benign-sentence drop rate <= 0.10 on dev pool;
+               ties broken toward stricter (higher) T
+    chosen_threshold: null   # filled by Task 6 Step 6.3 and re-committed before 6.4
+
+taxonomy:
+  T1: cross_trial_contamination   # claim supported only by a non-selected pool trial
+  T2: unsupported_completion      # claim supported by no pool trial; plausible protocol-style content
+  T3: ordinary_hallucination      # claim false on its face or incoherent with the case
+
+judging:
+  semantic: {judges: [sonnet, gpt4o], min_interval_s: 6.0, k_candidates: 4}
+  rubric:   {judges: [sonnet, gpt4o], dims: [factuality, groundedness, abstain_appropriateness, safety, patient_utility]}
+  budget_calls: 4016   # 1824 semantic + 1824 rubric + 208 taxonomy re-annotation + 160 NLI pre/post sample

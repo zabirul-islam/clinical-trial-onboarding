@@ -419,7 +419,7 @@ patient\_utility        & patient\_facing\_clarity, teachback\_targeted, overall
 \small
 \begin{tabular}{lcccccc}
 \toprule
-Dim & $\kappa_{\text{lin}}$ & $\kappa_{\text{quad}}$ & ICC(2,1) & Spearman $\rho$ & Exact & MAE \\
+Dim & $\kappa_{\text{lin}}$ & $\kappa_{\text{quad}}$ & ICC(2,1) & Spearman $r_s$ & Exact & MAE \\
 \midrule
 factuality               & 0.175 & 0.281 & 0.283 & 0.532 & 0.183 & 1.50 \\
 groundedness             & 0.217 & 0.381 & 0.383 & 0.556 & 0.217 & 1.17 \\
@@ -466,10 +466,10 @@ V-final       & $-0.18$ & $-0.32$ & $-0.29$ & $-0.17$ & $-0.17$ \\
 \label{fig:krippendorff}
 \end{figure}
 
-\subsection{Per-variant 3-way Spearman $\rho$ between rater pairs}
+\subsection{Per-variant 3-way Spearman $r_s$ between rater pairs}
 \begin{table}[!htbp]
 \centering
-\caption{Per-variant 3-way agreement (Spearman $\rho$) on the V1 stratum of the 15-case audit. Cells in bold indicate moderate ($\rho \geq 0.45$) agreement.}
+\caption{Per-variant 3-way agreement (Spearman $r_s$) on the V1 stratum of the 15-case audit. Cells in bold indicate moderate ($r_s \geq 0.45$) agreement.}
 \label{tab:3way_agreement}
 \small
 \setlength{\tabcolsep}{6pt}
@@ -489,6 +489,9 @@ safety                    & 0.21 & \textbf{0.55} & 0.16 \\
 % ============================================================
 \section{Dual-judge rubric scores at $n=114$}
 \label{sup:rubric_n114}
+
+\paragraph{Evaluation infrastructure and rate-limit handling.}
+The dual-judge rubric evaluation is resumable: judge outputs are appended as JSON Lines records keyed by \path{(case_id, backbone)}, and on re-run only missing pairs are re-scored. Error lines, including rate-limit and timeout failures, are automatically filtered and retried rather than counted as completed. To remain within tier-1 tokens-per-minute limits for both providers, every API call is throttled through a per-judge rate gate that enforces a minimum inter-call interval of 8\,s in our run, with exponential-backoff retry and honoring of the \path{Retry-After} header. The blinding identifier assigned to each $(\text{case}, \text{backbone})$ pair is stored in the audit trail so that blinding can be verified post hoc; case order is shuffled with a different random seed for each judge.
 
 \begin{figure}[!htbp]
 \centering
