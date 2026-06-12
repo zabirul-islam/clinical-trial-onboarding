@@ -16,9 +16,9 @@ The paper currently has no contrast: every leak cell is 0.00. Baselines give the
 
 - Compute: NVIDIA DGX Spark server, project at `~/Desktop/islamm11/avatar_trial_onboarding`, conda env `avatar_trial`. SSH from this Mac to be tested; fallback = runbook executed by author.
 - Baseline matrix: 4 configs × 2 backbones (Qwen-2.5-7B-Instruct, Qwen-2.5-3B-Instruct) × 114 cases = 912 generations.
-- Judge budget: semantic dual-judge + 5-dim rubric on all 912 (~3.6k API calls) approved.
+- Judge budget: semantic dual-judge + 5-dim rubric on all 912 (~3.6k API calls), plus one taxonomy re-annotation sweep over the 104 either-judge-flagged existing generations (~0.2k calls); ~3.8k total approved.
 - NLI: build the actual redaction module, not measurement-only.
-- Expert review: packet ships first; submission waits for and integrates expert results.
+- Expert review: packet instrument built first; full packet ships right after Phase 2 generation; submission waits for and integrates expert results.
 - Phasing: Phase 1 packet + text items → Phase 2 compute → Phase 3 integration.
 
 ## Components
@@ -30,7 +30,7 @@ Reuses existing retrieval (BM25→cross-encoder), prompt templates, postprocesso
 | ID | Config | Evidence handed to generator | Guard |
 |----|--------|------------------------------|-------|
 | B1 | Standard multi-trial RAG | top-6 passages across trials | none (selector bypassed) |
-| B2 | Prompt-only safeguard | same as B1 | instruction: "use only the single most relevant trial; never mix trials" |
+| B2 | Prompt-only safeguard | same as B1 | strong anti-mixing instruction; exact wording frozen in a config file before generation (preempts weak-prompt-strawman objection) |
 | B3 | Citation-enforced | same as B1 | every field must cite passage IDs; uncited fields dropped (existing postprocessor logic); no single-trial gate |
 | B4 | Top-1 selection | passages of the trial owning the rank-1 passage | trivial structural guard; no 5-gate ensemble |
 
@@ -43,7 +43,7 @@ Expected result (falsifiable): B1/B2 show non-zero lexical and/or semantic leak;
 - Sentence-split patient-facing fields (consent explanation, eligibility narrative, rebuilt summary).
 - Premise: accepted-trial passages E*; hypothesis: each sentence; model: DeBERTa-v3-large-MNLI (or equivalent local NLI checkpoint already downloadable on DGX).
 - Sentences below entailment threshold are dropped; summary rebuilt from surviving fields; dropped content logged to audit JSON.
-- **Threshold calibrated on the 15-case dev pool only** — never on the 12 consensus-flagged cases (design-before-results).
+- **Threshold calibrated on the 15-case dev pool only** — never on the 12 consensus-flagged cases (design-before-results). Calibration objective, fixed in advance: choose the highest entailment threshold whose benign-sentence drop rate on the dev pool stays $\leq$ 10%; ties broken toward stricter redaction. The exact NLI checkpoint is pinned in the implementation plan before any DGX run.
 - Counterfactual evaluation: apply to frozen 684 generations + new 912. Report: (a) how many of the 12 consensus semantic leaks are redacted; (b) collateral cost = fraction of benign sentences dropped + pre/post rubric delta on a judge-scored sample; (c) updated Theorem boundary (iv) text.
 
 ### 3. Failure taxonomy (text + re-annotation)
@@ -54,7 +54,7 @@ Three exclusive categories, formally defined in Methods:
 - **T2 unsupported clinical completion**: claim supported by no pool trial; plausible protocol-style content generated from parametric memory.
 - **T3 ordinary hallucination**: claim false on its face or incoherent with the case.
 
-Re-annotate the 12 consensus-flagged and 104 either-judge-flagged generations; annotate all baseline flags the same way. New table: taxonomy × system × backbone.
+Annotation mechanism: the semantic-judge prompt is extended to return a taxonomy label (T1/T2/T3) alongside the leak flag. For the new 912 baseline generations the label comes free inside the already-budgeted judging sweep; the 104 either-judge-flagged existing generations get one re-annotation sweep (~208 calls, both judges); the author manually adjudicates all consensus-flagged cases (final label = author's, judge labels reported for agreement). New table: taxonomy × system × backbone.
 
 ### 4. Safety–utility analysis
 
@@ -68,7 +68,8 @@ Global pass over master + npj tex: "zero leakage" → "zero detected lexical lea
 
 ### 6. Expert review packet — `outputs/expert_review/`
 
-- ~30 generations, stratified: accept/abstain regime × semantically-flagged/clean × system (V-final + B1 + B4 for contrast), blinded IDs, randomized order.
+- ~30 generations, stratified: accept/abstain regime × semantically-flagged/clean × system (V-final + B1 + B4 for contrast), blinded IDs, randomized order. Stratification uses existing phase-4 V-final flags only; the matching B1/B4 dossiers for the same cases are appended unscored (no dependency on baseline judge flags).
+- Two-step assembly to resolve the phase dependency: Phase 1 produces the complete packet *instrument* (instructions document, scoring rubric + CSV sheets, analysis script, blinding scheme, and the V-final case selection); the B1/B4 contrast dossiers are added immediately after the Phase 2 baseline generations finish (generation only — judge scoring not required for packet assembly). The packet ships to collaborators at that point, days not weeks into the project, while judge scoring and analysis continue in parallel.
 - Per-case dossier: patient question, selected-trial passages, full patient-facing response.
 - Scoring instrument: 5-dim rubric (mirrors LLM-judge rubric) + binary leak judgment + taxonomy label (T1/T2/T3) + free-text comment. CSV scoring sheets + instructions document.
 - Pre-written analysis script: expert-vs-LLM-judge agreement (κ, Spearman), expert leak rate with CIs.
