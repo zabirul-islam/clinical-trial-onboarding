@@ -1,0 +1,41 @@
+# Case f89ccfeefc
+
+## Patient question
+
+I am considering a clinical trial. Here is my situation: The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities. He claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2). He is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers. His takes 70/30 Insulin and vitamin D supplements. His past medical history is not significant for any other medical issues. His family history is positive for DM type 1 in his uncle and his grandfather. His lab study is as bellow: FBS: 100 mg/dl HbA1c: 6.5% Cholesterol: 190 mg/dl TG: 140 mg/dl LDL: 125 mg/dl HDL: 40 mg/dl Am I eligible?
+
+## Evidence shown to the system
+
+```
+[Passage 1 | doc=NCT00419562 | section=detailed_description]
+Eligible participants will be randomized to receive either oral insulin (7.5 mg of recombinant human insulin crystals) or placebo daily. All participants randomized into this study will be seen at a study site for a follow-up evaluation, three and six months after randomization, and every six months thereafter. Participants will be contacted by phone between 6-monthly clinic visits to assess changes in diabetes status, medication compliance and adverse events. These phone contacts will occur approximately 3 months from the date of the participants previous clinic visit. At the study visits, participants will undergo assessments of their insulin production, immunologic status, and overall health. As the primary outcome measure, subjects will be followed until development of type 1 diabetes or the conclusion of the study. The trial is expected to last approximately 7-8 years or until the required amount of information is gathered.
+
+[Passage 2 | doc=NCT00419562 | section=eligibility]
+Inclusion Criteria: 1. Have a proband with Type 1 diabetes mellitus (T1DM). A proband is an individual diagnosed with diabetes before age 40 and started on insulin therapy within 1-year of diagnosis. Probands considered to have type 1 diabetes by their physician who do not meet this definition will be referred to the TrialNet Eligibility Committee. 2. If the proband is a parent, sibling or a child, the study participant must be 3 -45 years of age. If the proband is a second or third degree relative (i.e. niece, nephew, aunt, uncle, grandparent, cousin, or half-sibling), the study participant must be 3-20 years of age. 3. Willing to sign Informed Consent Form. 4. Oral glucose tolerance test (OGTT) performed within 7 weeks prior to randomization in which: - fasting plasma glucose < 110 mg/dL (6.1 mmol/l), and - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 5. mIAA confirmed positive within the previous six months. 6. Two samples with at least one autoantibody other than mIAA positive within the previous six months. Exclusion Criteria: 1. Does not satisfy the above inclusion criteria. Subjects with mIAA positive but no other autoantibodies positive are not eligible for randomization.
+
+[Passage 3 | doc=NCT00419562 | section=eligibility]
+2. Has severe active disease, e.g. chronic active hepatitis, severe cardiac, pulmonary, renal, hepatic, immune deficiency and/or disease that is likely to limit life expectancy or lead to therapies such as immunosuppression during the time of the study. 3. Prior participation in a trial for prevention of T1DM, e.g. nicotinamide, insulin, immunosuppressive drugs. 4. History of treatment with insulin or oral hypoglycemic agent. 5. History of therapy with immunosuppressive drugs or glucocorticoids within the past two years for a period of more than three months. 6. Ongoing use of medications known to influence glucose, i.e. sulfonylureas, growth hormone, metformin, anticonvulsants, thiazide or potassium depleting diuretics, beta adrenergic blockers, niacin. Subjects on such medications should be changed to a suitable alternative, if available, and will become eligible one month after medication is discontinued. 7. Pregnant or intends to become pregnant while on study or lactating. 8. Deemed unlikely or unable to comply with the protocol. 9. OGTT that reveals Diabetes, Impaired Glucose Tolerance (IGT), or Impaired Fasting Glucose (IFG).
+
+[Passage 4 | doc=NCT00419562 | section=eligibility]
+Diabetes is defined by: - fasting plasma glucose ³ 126 mg/dL (7 mmol/l), OR - 2 hour plasma glucose ³ 200 mg/dL (11.1 mmol/l) IGT is defined by: - fasting plasma glucose < 126 mg/dL (7 mmol/l), and - 2 hour plasma glucose 140-199 mg/dL (7.8 - 11mmol/l), IFG is defined by: - fasting plasma glucose 110-125 mg/dL (6.1-6.9 mmol/l) AND - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 10. Subject has HLA DQA1*0102, DQB1*0602 haplotype.
+
+[Passage 5 | doc=NCT00419562 | section=summary]
+Type 1 diabetes (T1D) is an autoimmune disease. This means that the immune system (the part of the body which helps fight infections) mistakenly attacks and destroys the cells that produce insulin (islet cells found in the pancreas). As these cells are destroyed, the body's ability to produce insulin decreases. There is evidence suggesting that repeated oral administration of an autoantigen (the same protein that the immune system is reacting to) may introduce a protective immunity and cause the immune system to stop its attack. An earlier, large scale study was done to see if oral insulin could delay or prevent the development of Type 1 diabetes in relatives at risk for developing Type 1 diabetes. The overall results showed that for the entire study population, oral insulin did not delay or prevent Type 1 diabetes. However, an analysis that was done after the conclusion of the trial suggested a potential beneficial effect in a subgroup of participants. The participants who seemed to benefit from oral insulin had higher levels of insulin autoantibodies which are directed against insulin itself ( called mIAA). The Type 1 Diabetes TrialNet study group will further explore the potential role of oral insulin to delay or prevent Type 1 diabetes in a similar group of people. The study will also include a secondary group of individuals at different levels of risk than those in the primary cohort to gather information for future studies.
+
+[Passage 6 | doc=NCT00419562 | section=title]
+Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus
+```
+
+## System response
+
+**Eligibility decision:** parse_fail
+
+**Patient-facing answer:** 
+
+**Supported patient facts:** []
+
+**Missing patient facts:** []
+
+**Unresolved study requirements:** []
+
+**Safety note:** 
