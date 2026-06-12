@@ -85,7 +85,12 @@ Global pass over master + npj tex: "zero leakage" → "zero detected lexical lea
 
 ### 8. Execution mechanics and rails
 
-- Test SSH to DGX from this Mac; verify server `outputs/` matches local before any run (case manifest hash, generation counts). Fallback: runbook with exact commands for author.
+- **Phase 0 — full server/local synchronization (hard gate before any other work):**
+  - Test SSH to DGX from this Mac; fallback: runbook with exact commands for author.
+  - Reconcile code: diff `scripts/`, `scripts_phase3/`, `scripts_phase4/`, `src/`, `configs/` between local repo and server `~/Desktop/islamm11/avatar_trial_onboarding/`; resolve every divergent file deliberately (newest-correct wins, decision logged), never blind-overwrite.
+  - Reconcile data + outputs: checksum manifests (file list + SHA256) for `data/`, `indices/`, `outputs/` on both sides; verify case manifest, selector-signal cache, 684 generation JSONs, and judge JSONL counts match the numbers in the paper (114 cases, 684 gens, 1,368 judge calls).
+  - Produce a written sync report (`docs/superpowers/sync_report.md`): what matched, what diverged, what was resolved and how. Hard stop on unresolved mismatch.
+  - Ongoing discipline for Phases 1–3: new scripts authored locally, pushed to server via git (server pulls same commit); new server outputs rsynced back to local `outputs/` immediately after each run; every analysis/figure/paper number reads from the local synced copy. Re-run checksum manifest after each major output batch.
 - Smoke-test each baseline config on 3 cases before the full 114-case sweep.
 - All reported numbers derive from persisted JSON via scripts (reproducibility gate).
 - Phase order: (1) expert packet + text items → (2) DGX compute → (3) annotation + analysis + integration → submit after expert data lands.
