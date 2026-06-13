@@ -41,11 +41,11 @@
 
 \abstract{\textbf{Background.} Patient-facing artificial intelligence (AI) systems for clinical trial onboarding may improve access to study information, but they also introduce a specific safety risk: \emph{cross-trial conflation}, in which a single response combines eligibility criteria, procedures, or time commitments from different trials. Existing trial-matching systems typically optimize patient--trial matching accuracy and do not explicitly enforce single-trial consistency across patient-facing outputs.
 
-\textbf{Methods.} We developed a grounded onboarding pipeline in which a five-gate selector either accepts one dominant trial as the evidence source or abstains with a patient-facing clarification prompt. Eligibility triage, consent-style explanation, and teach-back generation are then constrained to the accepted trial. We evaluated the pipeline on 114 cases across six therapeutic areas and two selector regimes. Six model families produced 684 generations under identical guarded conditions. Outputs were audited using three pre-specified leak detectors: two deterministic lexical detectors and one semantic auditor based on two independent large language model (LLM) judges. Outputs were also blind-scored by two LLM judges using a five-dimension rubric.
+\textbf{Methods.} We developed a grounded onboarding pipeline in which a five-gate selector either accepts one dominant trial as the evidence source or abstains with a patient-facing clarification prompt. Eligibility triage, consent-style explanation, and teach-back generation are then constrained to the accepted trial. We evaluated the pipeline on 114 cases across six therapeutic areas and two selector regimes. Six model families produced 684 generations under identical guarded conditions. Outputs were audited using three pre-specified leak detectors: two deterministic lexical detectors and one semantic auditor based on two independent large language model (LLM) judges, and blind-scored by two LLM judges using a five-dimension rubric. We further contrasted the pipeline against four pre-registered evidence-control baselines (standard multi-trial retrieval-augmented generation, prompt-only guarding, citation-enforced generation, and trivial top-1 selection; 912 additional generations), classified flagged generations into a three-way failure taxonomy, and implemented a claim-level natural-language-inference (NLI) verifier for the residual semantic channel.
 
-\textbf{Results.} The lexical detectors flagged $0/684$ generations, corresponding to Clopper--Pearson upper 95\% bounds of $0.54\%$ pooled and $3.2\%$ stem-clustered. The semantic auditor flagged $12/684$ generations ($1.75\%$) under both-judges-agree consensus (Cohen's $\kappa = 0.16$; raw agreement, $86.5\%$). Manual review classified eight of these cases as paraphrased cross-trial content, two as mixed-attribution errors, and two as likely judge over-flags. Semantic leakage was concentrated in the structurally adversarial subset, defined by dominance ratio $\rho < 1.5$ and at least two trials in the candidate pool, and was highest for the smallest backbone. Qwen-2.5-7B achieved the highest overall rubric score ($3.95/5$; 95\% confidence interval, $3.76$--$4.14$). The lower-latency Qwen-2.5-3B candidate preserved high safety scores while reducing mean latency by $44\%$ ($11.0$ vs.\ $19.8$ s). Inter-judge agreement was moderate on substantive rubric dimensions (Spearman $r_s = 0.52$--$0.56$). The selector score share showed negative Brier skill and should not be interpreted as a calibrated triage probability.
+\textbf{Results.} The lexical detectors flagged $0/684$ generations, corresponding to Clopper--Pearson upper 95\% bounds of $0.54\%$ pooled and $3.2\%$ stem-clustered. The semantic auditor flagged $12/684$ generations ($1.75\%$) under both-judges-agree consensus (Cohen's $\kappa = 0.16$; raw agreement, $86.5\%$). Manual review classified eight of these cases as paraphrased cross-trial content, two as mixed-attribution errors, and two as likely judge over-flags. Semantic leakage was concentrated in the structurally adversarial subset, defined by dominance ratio $\rho < 1.5$ and at least two trials in the candidate pool, and was highest for the smallest backbone. Qwen-2.5-7B achieved the highest overall rubric score ($3.95/5$; 95\% confidence interval, $3.76$--$4.14$). The lower-latency Qwen-2.5-3B candidate preserved high safety scores while reducing mean latency by $44\%$ ($11.0$ vs.\ $19.8$ s). Inter-judge agreement was moderate on substantive rubric dimensions (Spearman $r_s = 0.52$--$0.56$). The selector score share showed negative Brier skill and should not be interpreted as a calibrated triage probability. The baseline contrast was decisive: standard multi-trial RAG, prompt-only guarding, and citation enforcement leaked under the dual-judge semantic consensus at $50.9$--$59.0\%$ (predominantly cross-trial contamination), whereas the two structural single-trial systems---trivial top-1 selection and the deployed pipeline---held semantic-consensus leakage at $1.3\%$ and $1.8\%$ with zero contamination-class failures, and top-1 selection simultaneously attained the highest baseline utility. A claim-level NLI verifier removed $8$ of the $12$ consensus semantic leaks (exactly those manual review deemed genuine cross-trial content) at a $15.1\%$ per-claim utility cost.
 
-\textbf{Conclusions.} Cross-trial conflation can be reduced by enforcing single-trial evidence control before generation rather than relying only on the generator. In this audited cohort, lexical cross-trial leakage was not observed, while a smaller semantic paraphrase channel persisted and was empirically bounded. The proposed pipeline is end-to-end auditable and produces either a coordinator-reviewable pre-screening bundle or a clarification prompt, rather than issuing eligibility verdicts directly to patients.}
+\textbf{Conclusions.} Cross-trial conflation can be reduced by enforcing single-trial evidence control before generation rather than relying only on the generator; the baseline comparison shows that only structural single-trial control closes the channel, while prompt-only and citation-based mitigations do not. In this audited cohort, no lexical cross-trial leakage was detected, while a smaller semantic paraphrase channel persisted, was empirically bounded, and was further reduced by claim-level NLI verification. The proposed pipeline is end-to-end auditable and produces either a coordinator-reviewable pre-screening bundle or a clarification prompt, rather than issuing eligibility verdicts directly to patients.}
 
 \keywords{clinical trial onboarding, patient-facing artificial intelligence, cross-trial leakage, informed consent, teach-back, safety-first artificial intelligence}
 
@@ -97,7 +97,7 @@ We make four contributions:
 \section{Results}
 \label{sec:results}
 
-\subsection{Zero lexical cross-trial leakage with residual semantic leakage quantified}
+\subsection{Zero detected lexical cross-trial leakage under the audited conditions; residual semantic leakage quantified}
 \label{sec:results_leak}
 
 Across 114 onboarding cases, six model families, two selector regimes, and two pre-specified \emph{lexical} leak definitions, the cross-trial leak rate was $0\%$ (Table~\ref{tab:six_backbone}; per-cell heatmap in Supplementary Information \S~5). The narrow definition flagged any \texttt{NCT} identifier other than the selected trial in any model-emitted text field. The wide definition additionally matched distinctive non-stop title tokens unique to a single non-selected trial. Both definitions produced the same result: $0/684$ generations.
@@ -168,7 +168,7 @@ We then examined whether the residual semantic leakage signal was uniformly dist
 
 \begin{table}[!htbp]
 \centering
-\caption{\textbf{Adversarial-subset stratification of the 456 open-weight case-by-backbone cells.} The adversarial subset was defined pre hoc as dominance ratio $\rho < 1.5$ and at least two trials in the candidate pool. Lexical detectors flagged zero leakage in both strata. The semantic detector's both-judges-agree rate was approximately $3$--$5\times$ higher in the adversarial subset than in the non-adversarial subset and was highest for Qwen-2.5-3B. Either-judge rates are shown in parentheses.}
+\caption{\textbf{Adversarial-subset stratification of the 456 open-weight case-by-backbone cells.} The adversarial subset was defined pre hoc as dominance ratio $\rho < 1.5$ and at least two trials in the candidate pool. Lexical detectors flagged no leakage in either stratum. The semantic detector's both-judges-agree rate was approximately $3$--$5\times$ higher in the adversarial subset than in the non-adversarial subset and was highest for Qwen-2.5-3B. Either-judge rates are shown in parentheses.}
 \label{tab:adv_subset}
 \small
 \setlength{\tabcolsep}{4pt}
@@ -191,7 +191,52 @@ Mistral-7B    & \textbf{adversarial} & 53 & 0.00 & 0.00 & \textbf{0.019} (0.321)
 \end{tabular}
 \end{table}
 
-This pattern is consistent with the design intent of the gate ensemble. Lexical leakage remained absent in the adversarial subset, whereas the semantic detector localized residual paraphrase leakage to cases that were structurally difficult for single-trial selection. The strongest residual was observed for Qwen-2.5-3B ($5.7\%$ adversarial vs.\ $1.6\%$ non-adversarial). These results suggest two possible mitigation strategies for future deployment-oriented evaluation: raising the abstention threshold for cases with $\rho < 1.5$, or adding the post-hoc semantic-redaction step discussed under Theorem~\ref{thm:safety}.
+This pattern is consistent with the design intent of the gate ensemble. Lexical leakage remained absent in the adversarial subset, whereas the semantic detector localized residual paraphrase leakage to cases that were structurally difficult for single-trial selection. The strongest residual was observed for Qwen-2.5-3B ($5.7\%$ adversarial vs.\ $1.6\%$ non-adversarial). These results suggest two mitigations, the second of which we evaluate below: raising the abstention threshold for cases with $\rho < 1.5$, or adding the claim-level NLI verification step (\S\ref{sec:results_nli}).
+
+\subsection{Baseline comparison: only structural single-trial control closes the channel}
+\label{sec:results_baselines}
+
+To test whether the structural single-trial guard is necessary, we evaluated four pre-registered baselines on the same pool and the two deployment backbones (912 generations), holding retrieval, prompt, and post-processor fixed and varying only the evidence-control mechanism (Methods, \S\ref{sec:methods_baselines}): standard multi-trial RAG (B1), a prompt-only anti-mixing instruction (B2), citation-enforced generation (B3), and trivial top-1 selection (B4). All baselines were audited by the same three detectors. Under the both-judges-agree semantic consensus, the non-structural baselines leaked heavily---B1 $58.3\%$, B2 $50.9\%$, B3 $59.0\%$---with lexical wide-leak rates of $2.2\%$, $5.3\%$, and $21.1\%$ respectively; citation enforcement was the worst lexical configuration because requiring passage citations surfaces multi-trial content. In contrast, trivial top-1 selection (B4) matched the deployed pipeline: $0\%$ lexical and $1.3\%$ semantic-consensus leakage versus V-final's $0\%$ and $1.8\%$ (Table~\ref{tab:baselines}; Fig.~\ref{fig:baseline_leak}). Prompt-only and citation-based mitigations do not close the channel; the structural single-trial property does.
+
+\begin{table}[!htbp]
+\centering
+\caption{\textbf{Four-baseline comparison ($n=114$; 912 generations) vs.\ the deployed V-final pipeline.} Lexical = wide entity-resolved detector; Semantic = both-judges-agree consensus (Sonnet~4.5 + GPT-4o). Taxonomy columns count consensus-flagged generations (T1 cross-trial contamination, T2 unsupported completion, T3 ordinary hallucination). Only structural single-trial control (B4, V-final) drives both channels near zero and eliminates T1.}
+\label{tab:baselines}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{l c c c c c}
+\toprule
+System & Lexical (wide) & Semantic (consensus) & T1 & T2 & T3 \\
+\midrule
+V-final (single-trial guard) & \textbf{0.000} & \textbf{0.018} & --- & --- & --- \\
+B1: multi-trial RAG          & 0.022 & 0.583 & 124 & 9 & 0 \\
+B2: prompt-only guard        & 0.053 & 0.509 & 107 & 8 & 0 \\
+B3: citation-enforced        & 0.211 & 0.590 & 125 & 9 & 0 \\
+B4: top-1 selection          & \textbf{0.000} & \textbf{0.013} & \textbf{0} & 2 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.9\linewidth]{figures/phase5_baseline_leak_bars.pdf}
+\caption{\textbf{Cross-trial leakage by system.} Lexical (wide) and dual-judge-consensus semantic leak for the four baselines and V-final. Multi-trial RAG, prompt-only guarding, and citation enforcement all leak; structural single-trial control (B4, V-final) closes both channels.}
+\label{fig:baseline_leak}
+\end{figure}
+
+\subsection{Failure taxonomy and claim-level NLI verification}
+\label{sec:results_nli}
+
+We classify every consensus-flagged generation into three mutually exclusive categories (Methods, \S\ref{sec:methods_taxonomy}): T1 cross-trial contamination (supported only by a non-selected pool trial), T2 unsupported clinical completion (supported by no pool trial), and T3 ordinary hallucination. This separates the evidence-layer failure the pipeline targets (T1) from generator-level errors (T2/T3). The taxonomy makes the mechanism explicit (Table~\ref{tab:baselines}; Fig.~\ref{fig:taxonomy}): the multi-trial baselines are T1-dominated ($107$--$125$ flags each), whereas structural top-1 selection has \emph{zero} T1, leaving only two T2 and one T3.
+
+We then implement the claim-level verification step the original design only proposed. A natural-language-inference (NLI) post-processor (DeBERTa-v3-large MNLI) redacts an asserted claim when a non-selected pool trial entails it better than the selected trial ($e_{\mathrm{other}} \ge \tau_{\mathrm{NLI}}$ and $e_{\mathrm{other}} > e_{\mathrm{sel}}$), the operational definition of T1 (Methods, \S\ref{sec:methods_nli}). With the threshold fixed on the development pool alone ($\tau_{\mathrm{NLI}}=0.95$), the verifier redacts $8$ of the $12$ both-judges-consensus semantic leaks---exactly the eight that manual review deemed genuine cross-trial content, correctly retaining the two mixed-attribution errors and two judge over-flags---at a $15.1\%$ per-claim utility cost. This converts Theorem~\ref{thm:safety} boundary (iv) into an evaluated mitigation and is the recommended hardening for the smallest backbone.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.78\linewidth]{figures/phase5_taxonomy_breakdown.pdf}
+\caption{\textbf{Failure taxonomy by system.} Consensus-flagged generations partitioned into T1 cross-trial contamination, T2 unsupported completion, and T3 ordinary hallucination. Multi-trial baselines are T1-dominated; structural top-1 control removes T1 entirely.}
+\label{fig:taxonomy}
+\end{figure}
 
 \subsection{Lexical safety is stable across backbones, but fluency is not}
 \label{sec:results_backbone_gate}
@@ -202,6 +247,15 @@ Lexical leak rate was uniform across the six model families, but parse-ok, commi
 \label{sec:results_abstain}
 
 Real-world onboarding queries frequently fall into the abstain regime, where no single trial dominates the candidate pool. To evaluate this setting, the dual-judge protocol scored all generations on the 82 abstain-regime cases probed with the gate disabled. The narrowing-prompt response, such as ``I could not identify one reliable study; please share the study title or NCT number,'' provides a patient-facing clarification pathway when the system declines to commit. The abstain-regime safety score was at or above $4.0/5$ for every backbone, and the overall rubric mean in the abstain regime was comparable to or higher than the accept-regime mean for the three top backbones (Fig.~\ref{fig:abstain}; Supplementary Table~S12). Operationally, abstention functions as a workflow safeguard rather than a failure mode: it asks the patient for the study title or \texttt{NCT} number, improves the evidence basis for the next interaction, and avoids presenting weakly grounded eligibility content that a coordinator would later need to correct.
+
+To quantify the cost of the high abstention rate, we measured how often an abstained case actually had a relevant trial in its candidate pool. Of the 82 abstain-regime cases, only $18$ ($22.0\%$; 95\% CI $13.6$--$32.5\%$) had a relevant trial available, while $64$ ($78.0\%$) had none, meaning abstention was the correct action. The abstention rate is therefore dominated by cases where committing would have been unsafe rather than by discarded opportunities. Across all five systems (Fig.~\ref{fig:frontier}), the structural single-trial systems occupy the low-leakage region, and top-1 selection attains the highest baseline rubric utility ($4.21/5$) while holding leakage near zero, indicating that structural control is Pareto-favourable rather than a safety--utility trade.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.78\linewidth]{figures/phase5_safety_utility_frontier.pdf}
+\caption{\textbf{Safety--utility trade-off across systems.} $x$-axis: rubric overall utility (baselines scored by GPT-4o; V-final by the dual-judge pool over the harder full $n=114$ regime). $y$-axis: dual-judge-consensus semantic leak rate. Only the structural single-trial systems (B4, V-final) reach the low-leak region.}
+\label{fig:frontier}
+\end{figure}
 
 \begin{figure}[!htbp]
 \centering
@@ -246,7 +300,7 @@ Let $L \in \{0, 1\}$ denote a lexical cross-trial leak event under either operat
 A lexical leak requires a non-selected trial identifier or distinctive non-selected-trial vocabulary to appear in a model-emitted text field. By (C1), the only trial evidence passed to the generator is from the selected trial $t^\star$. By (C2), every consent field that lacks a cited passage in $\mathcal{E}^\star$ is rewritten to an explicit fallback string by the postprocessor, which prevents uncited consent explanations from introducing non-selected-trial content. By (C3), non-parsing eligibility outputs collapse to \emph{cannot-determine}, which prevents narrative drift from entering the rendered eligibility output. The remaining channel is direct generation of non-$t^\star$ content from parametric memory. We instrument this channel with three detectors: a narrow \texttt{NCT}-identifier detector, a wide entity-resolved token detector, and a semantic LLM-judge detector. The two lexical detectors identify $0/684$ leaks, while the semantic detector identifies $12/684$ generations ($1.75\%$) under both-judges-agree consensus. Thus, the schema-constrained lexical channels are closed by construction under (C1)--(C3), while the residual paraphrased semantic channel is empirically bounded rather than eliminated.
 \end{proof}
 
-This sufficiency claim is conditional and has explicit boundary conditions. The lexical bound may fail if: (i) prompts pass unvalidated raw multi-trial context to the generator; (ii) a backbone emits text outside the schema and the postprocessor fails to recover a safe fallback; (iii) corpus updates introduce new trials with overlapping distinctive vocabulary and the wide-leak vocabulary is not recomputed; or (iv) the model generates paraphrased cross-trial content that contains neither a non-selected \texttt{NCT} identifier nor distinctive non-selected-trial vocabulary. The fourth case is the residual semantic channel measured by the LLM-judge detector. In our audit, this channel appears in $12/684$ generations under both-judges-agree consensus and is concentrated in structurally adversarial cases (\S\ref{sec:results_adversarial}). A natural language inference (NLI) redaction step that removes any sentence not entailed by the accepted evidence $\mathcal{E}^\star$ could close this channel more constructively and should be evaluated before any clinical deployment.
+This sufficiency claim is conditional and has explicit boundary conditions. The lexical bound may fail if: (i) prompts pass unvalidated raw multi-trial context to the generator; (ii) a backbone emits text outside the schema and the postprocessor fails to recover a safe fallback; (iii) corpus updates introduce new trials with overlapping distinctive vocabulary and the wide-leak vocabulary is not recomputed; or (iv) the model generates paraphrased cross-trial content that contains neither a non-selected \texttt{NCT} identifier nor distinctive non-selected-trial vocabulary. The fourth case is the residual semantic channel measured by the LLM-judge detector. In our audit, this channel appears in $12/684$ generations under both-judges-agree consensus and is concentrated in structurally adversarial cases (\S\ref{sec:results_adversarial}). We implement and evaluate a claim-level NLI verification step for this channel (\S\ref{sec:results_nli}): it redacts $8$ of the $12$ consensus leaks---exactly those manual review deems genuine cross-trial content---at a $15.1\%$ per-claim utility cost, converting this boundary condition from a proposed mitigation into an evaluated one.
 
 \paragraph{Positioning relative to prior trial-matching systems.}
 Existing AI-assisted trial-matching systems and the proposed pipeline target different outputs. DeepEnroll \citep{zhang2020deepenroll}, COMPOSE \citep{gao2020compose}, TrialGPT \citep{jin2024trialgpt}, and PRISM \citep{gupta2024prism} focus primarily on per-(patient, trial) eligibility prediction, ranking, or criterion-level reasoning. In contrast, the proposed pipeline produces a multi-field onboarding bundle that includes an eligibility triage label, supported and missing facts, consent-style explanation, and teach-back prompts. Its design objective is not to improve match accuracy directly, but to enforce single-trial consistency and audit traceability in patient-facing outputs.
@@ -300,9 +354,9 @@ This study has six main limitations. \emph{First, the rubric-and-rater design is
 
 \emph{Fourth, the selector score share is not calibrated.} The selector score share $\tau$ has a negative Brier Skill Score against held-out relevance targets and should not be used as a per-case triage probability. In patient-facing interfaces, the system should expose only the binary accept/abstain behavior, while using $\tau$ only as an internal monitoring signal.
 
-\emph{Fifth, baseline parity is incomplete.} The closed-API baselines, GPT-4o and Claude Sonnet~4.5, are evaluated zero-shot with the same guarded prompt and evidence. A stronger baseline comparison would evaluate published trial-matching systems within their own full pipelines or apply the proposed guard to their retrieved evidence and patient-facing outputs. We leave this to future work because the output type and available artifacts differ across systems.
+\emph{Fifth, human evaluation is LLM-judge-based pending independent clinical review.} The headline safety and utility signals rest on two LLM judges; we have prepared a blinded clinical-expert review packet and protocol (Methods, \S\ref{sec:methods_expert}), and recruitment through clinical collaborators is in progress, with independent-reviewer results to be incorporated prior to publication. Until then, these findings should be read as a pre-clinical technical audit. A complementary stronger baseline would also evaluate published trial-matching systems within their own pipelines, which we leave to future work because the output type and available artifacts differ across systems.
 
-\emph{Sixth, semantic leakage is not yet removed in the render path.} The two lexical detectors flagged $0/684$ generations, but the semantic LLM-judge detector flagged $12/684$ generations ($1.75\%$) under both-judges-agree consensus. Manual review classified eight of these as unambiguous paraphrased cross-trial content, two as mixed-attribution errors, and two as likely judge over-flags. Because the current patient-facing render path does not remove these paraphrased semantic errors, an NLI postprocessor that drops sentences not entailed by the accepted evidence $\mathcal{E}^\star$ is a recommended hardening step, especially for the smallest open-weight backbone, Qwen-2.5-3B, where the residual was concentrated in the adversarial subset.
+\emph{Sixth, the residual semantic channel is reduced but not eliminated.} The claim-level NLI verifier (\S\ref{sec:results_nli}) redacts $8$ of the $12$ both-judges-consensus semantic leaks---the eight that manual review deems genuine cross-trial content---at a $15.1\%$ per-claim utility cost, and is the recommended deployment hardening for the smallest backbone, Qwen-2.5-3B, where the residual concentrates. It does not remove generator-level unsupported-completion errors, and its utility cost argues for selective application (for example, on the adversarial subset with $\rho < 1.5$) rather than globally.
 
 
 
@@ -340,6 +394,26 @@ Each case includes a gold \texttt{NCT} identifier where applicable, an intent ca
 \label{sec:methods_pergate}
 
 For each gate $X \in \{\rho, \tau, \mu, \kappa, \mathrm{generic}\}$, we defined a variant \emph{V-final-no-}$X$ that dropped gate $X$ while keeping the other gates active. Because the broader 84-case extension was generated with the gate disabled, leak, commit, and abstain rates for each variant-by-backbone combination were computed from existing JSON records without additional inference. The full per-variant accepted-case lists are released as Supplementary Data.
+
+\subsection{Baseline configurations}
+\label{sec:methods_baselines}
+
+Four baselines were pre-registered in a frozen configuration (committed before any baseline generation) and run on the two deployment backbones over the same $n=114$ pool, holding retrieval, the JSON-schema prompt, and the post-processor identical to V-final and varying only the evidence-control mechanism. \textbf{B1} (multi-trial RAG) passes the top-6 reranked passages across all pool trials with no single-trial guard. \textbf{B2} (prompt-only guard) adds a strong anti-mixing instruction (identify the single most relevant trial and answer only from it; otherwise ask for the study title or \texttt{NCT} number). \textbf{B3} (citation-enforced) requires passage-identifier citations for every narrative field and drops uncited fields to the fallback string. \textbf{B4} (top-1 selection) accepts the trial owning the rank-1 passage unconditionally, bypassing the five-gate ensemble while retaining the downstream guarded modules. For B1--B3 the reference trial for the leak detectors is the rank-1 passage's trial. All 912 baseline generations were audited by the same narrow, wide, and dual-judge semantic detectors and scored on the five-dimension rubric.
+
+\subsection{Failure taxonomy}
+\label{sec:methods_taxonomy}
+
+Every consensus-flagged generation was classified into three mutually exclusive categories: \textbf{T1} cross-trial contamination (the claim is supported only by a non-selected pool trial), \textbf{T2} unsupported clinical completion (plausible protocol content supported by no pool trial), and \textbf{T3} ordinary hallucination (false or incoherent, not attributable to any trial). The semantic-judge prompt returns a taxonomy label alongside the binary leak flag, and the consensus-flagged cases were adjudicated by the first author. T1 is the evidence-layer failure the pipeline targets; T2 and T3 are generator-level errors that single-trial control is not expected to remove.
+
+\subsection{Claim-level NLI verification}
+\label{sec:methods_nli}
+
+The claim-level verifier scores each asserted patient-facing claim with a natural-language-inference model (\texttt{DeBERTa-v3-large-mnli-fever-anli-ling-wanli}), computing the maximum entailment by the selected trial's passages ($e_{\mathrm{sel}}$) and by any non-selected pool trial's passages ($e_{\mathrm{other}}$). A claim is redacted iff $e_{\mathrm{other}} \ge \tau_{\mathrm{NLI}}$ and $e_{\mathrm{other}} > e_{\mathrm{sel}}$---the operational definition of T1 cross-trial contamination---so single-trial-evidence outputs are never modified. The threshold was calibrated on the 15-case development pool alone (highest $\tau_{\mathrm{NLI}}$ with development benign-drop $\le 10\%$; $\tau_{\mathrm{NLI}}=0.95$) before any application to the audit pool, and the frozen verifier was reapplied to all 684 deployed and 912 baseline generations.
+
+\subsection{Independent clinical-expert review protocol}
+\label{sec:methods_expert}
+
+To complement the LLM-judge evaluation, we prepared a blinded expert-review packet of 30 generations stratified across selector regime, semantic-flag status, and backbone, including the deployed pipeline and two contrast baselines (B1, B4). Each de-identified dossier presents the patient question, the trial passages shown to the system, and the full patient-facing response under a randomized blinded identifier. Reviewers score each case on the five-dimension rubric plus a binary cross-trial-leak judgment and a T1/T2/T3 label. All queries are synthetic; the packet and scoring instrument are released. Reviewer recruitment through clinical collaborators is in progress, and independent-review results will be incorporated prior to publication.
 
 \subsection{Blind dual-judge evaluation and blinding mechanics}
 \label{sec:methods_judge}
