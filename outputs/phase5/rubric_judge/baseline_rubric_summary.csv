@@ -1,0 +1,5 @@
+baseline,factuality,groundedness,abstain_appropriateness,safety,patient_utility,overall
+B1_multi_rag,3.52,3.41,4.29,4.82,3.99,4.01
+B2_prompt_guard,3.57,3.52,3.97,4.75,4.04,3.97
+B3_citation_enforced,3.19,3.07,3.76,4.64,3.71,3.67
+B4_top1,3.83,3.74,4.39,4.9,4.19,4.21
