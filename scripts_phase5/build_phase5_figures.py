@@ -71,8 +71,12 @@ def fig_taxonomy():
     ax.bar(x, T3, bottom=T1 + T2, label="T3 ordinary hallucination", color="#7f7f7f")
     ax.set_xticks(x); ax.set_xticklabels([SYS_LABEL[s] for s in sub.index], fontsize=8)
     ax.set_ylabel("Consensus-flagged generations (dual-judge)")
-    ax.set_title("Failure taxonomy by system: structural control removes T1, not T2/T3")
-    ax.legend(fontsize=8, frameon=False)
+    ax.set_ylim(0, float((T1 + T2 + T3).max()) * 1.18)
+    ax.set_title("Failure taxonomy by system: structural control removes T1, not T2/T3",
+                 fontsize=10, pad=24)
+    # legend above the plot (ncol=3) so it never overlaps the tall T1 bars
+    ax.legend(fontsize=8, frameon=False, ncol=3, loc="lower center",
+              bbox_to_anchor=(0.5, 1.01), columnspacing=1.4, handletextpad=0.4)
     plt.tight_layout()
     fig.savefig(FIG / "phase5_taxonomy_breakdown.pdf", bbox_inches="tight")
     fig.savefig(FIG / "phase5_taxonomy_breakdown.png", dpi=160, bbox_inches="tight")
@@ -121,14 +125,25 @@ def fig_frontier():
     if not pts:
         print("[skip] frontier — no rubric scores yet")
         return
-    fig, ax = plt.subplots(figsize=(7, 5))
+    # per-point label offsets so the two close low-leak points (B4, V-final) don't collide
+    OFFSET = {
+        "B4_top1": (0, -16, "center"),
+        "V-final (guarded)": (8, 10, "left"),
+        "B1_multi_rag": (10, 13, "left"),
+        "B2_prompt_guard": (10, 2, "left"),
+        "B3_citation_enforced": (0, 12, "center"),
+    }
+    fig, ax = plt.subplots(figsize=(7.5, 5))
     for name, u, leak in pts:
         ax.scatter(u, leak, s=120, zorder=3)
+        dx, dy, ha = OFFSET.get(name, (8, 4, "left"))
         ax.annotate(SYS_LABEL[name].replace("\n", " "), (u, leak),
-                    textcoords="offset points", xytext=(8, 4), fontsize=8)
+                    textcoords="offset points", xytext=(dx, dy), fontsize=8, ha=ha)
     ax.set_xlabel("Utility — dual-judge rubric overall mean (1–5)")
     ax.set_ylabel("Semantic cross-trial leak rate (dual-judge consensus)")
     ax.set_title("Safety–utility: single-trial control reaches low leakage\nwithout sacrificing utility")
+    ax.set_ylim(-0.05, 0.72)
+    ax.margins(x=0.18)
     ax.grid(alpha=0.3)
     plt.tight_layout()
     fig.savefig(FIG / "phase5_safety_utility_frontier.pdf", bbox_inches="tight")
