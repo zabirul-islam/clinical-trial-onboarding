@@ -173,14 +173,14 @@ def main() -> int:
     cfg = yaml.safe_load((ROOT / "configs" / "phase5_baselines.yaml").read_text())
     checkpoint = cfg["nli"]["checkpoint"]
 
-    DEV_DIR = REPO / "outputs/phase4/15case_audit/15case_audit_gens/V-final"
+    DEV_DIR = ROOT / "outputs/phase4/15case_audit/15case_audit_gens/V-final"
     FROZEN_ROOTS = [
-        REPO / "outputs/backbone_gens",
-        REPO / "outputs/phase4/n100_expansion/gens",
-        REPO / "outputs/phase4/zeroshot_baseline/gens",
+        ROOT / "outputs/backbone_gens",
+        ROOT / "outputs/phase4/n100_expansion/gens",
+        ROOT / "outputs/phase4/zeroshot_baseline/gens",
     ]
-    BASELINE_ROOT = REPO / "outputs/phase5/baseline_gens"
-    NLI_OUT = REPO / "outputs/phase5/nli"
+    BASELINE_ROOT = ROOT / "outputs/phase5/baseline_gens"
+    NLI_OUT = ROOT / "outputs/phase5/nli"
     NLI_OUT.mkdir(parents=True, exist_ok=True)
 
     def load_dir_recs(root: Path):
@@ -237,7 +237,7 @@ def main() -> int:
             import collections
             cnt = collections.Counter()
             for j in ("sonnet", "gpt4o"):
-                p = REPO / "outputs/phase4/reviewer_fixes" / f"semantic_leak_judge_{j}.jsonl"
+                p = ROOT / "outputs/phase4/reviewer_fixes" / f"semantic_leak_judge_{j}.jsonl"
                 if not p.exists():
                     continue
                 for line in p.read_text().splitlines():
