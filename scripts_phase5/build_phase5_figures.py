@@ -42,12 +42,12 @@ def fig_leak_bars():
     x = np.arange(len(t)); w = 0.38
     fig, ax = plt.subplots(figsize=(8, 4.2))
     ax.bar(x - w/2, t["lexical_wide_leak"], w, label="Lexical (wide) leak", color="#1f77b4")
-    ax.bar(x + w/2, t["gpt4o_semantic_leak"], w, label="Semantic leak (GPT-4o judge)", color="#d62728")
+    ax.bar(x + w/2, t["semantic_consensus"], w, label="Semantic leak (dual-judge consensus)", color="#d62728")
     ax.set_xticks(x); ax.set_xticklabels([SYS_LABEL[s] for s in t.index], fontsize=8)
     ax.set_ylabel("Cross-trial leak rate")
     ax.set_title("Cross-trial leakage by system: structural single-trial control vs alternatives")
     ax.legend(fontsize=8, frameon=False)
-    for i, (lx, sm) in enumerate(zip(t["lexical_wide_leak"], t["gpt4o_semantic_leak"])):
+    for i, (lx, sm) in enumerate(zip(t["lexical_wide_leak"], t["semantic_consensus"])):
         ax.text(i - w/2, lx + 0.01, f"{lx:.2f}", ha="center", fontsize=7)
         ax.text(i + w/2, sm + 0.01, f"{sm:.2f}", ha="center", fontsize=7)
     plt.tight_layout()
@@ -70,7 +70,7 @@ def fig_taxonomy():
     ax.bar(x, T2, bottom=T1, label="T2 unsupported completion", color="#ff7f0e")
     ax.bar(x, T3, bottom=T1 + T2, label="T3 ordinary hallucination", color="#7f7f7f")
     ax.set_xticks(x); ax.set_xticklabels([SYS_LABEL[s] for s in sub.index], fontsize=8)
-    ax.set_ylabel("Flagged generations (GPT-4o judge)")
+    ax.set_ylabel("Consensus-flagged generations (dual-judge)")
     ax.set_title("Failure taxonomy by system: structural control removes T1, not T2/T3")
     ax.legend(fontsize=8, frameon=False)
     plt.tight_layout()
@@ -102,7 +102,7 @@ def fig_frontier():
     for b in ["B1_multi_rag", "B2_prompt_guard", "B3_citation_enforced", "B4_top1"]:
         u = _rubric_overall(P5 / "rubric_judge" / b / "judge_gpt4o.jsonl")
         if u is not None:
-            pts.append((b, u, float(t.loc[b, "gpt4o_semantic_leak"])))
+            pts.append((b, u, float(t.loc[b, "semantic_consensus"])))
     # V-final: existing phase-4 judge-pooled overall
     jp = ROOT / "outputs/phase4/n114_aggregate/judge_pooled_n114.csv"
     if jp.exists():
@@ -110,7 +110,7 @@ def fig_frontier():
         meancols = [f"{d}_mean" for d in DIMS if f"{d}_mean" in df.columns]
         if meancols:
             u = float(df[meancols].mean(axis=1).mean())
-            pts.append(("V-final (guarded)", u, float(t.loc["V-final (guarded)", "gpt4o_semantic_leak"])))
+            pts.append(("V-final (guarded)", u, float(t.loc["V-final (guarded)", "semantic_consensus"])))
     if not pts:
         print("[skip] frontier — no rubric scores yet")
         return

@@ -1,6 +1,6 @@
-system,n,lexical_wide_leak,gpt4o_semantic_leak,T1,T2,T3,note
-V-final (guarded),684,0.0,0.136,-,-,-,phase-4 single-trial guard
-B1_multi_rag,228,0.022,0.732,141,26,0,
-B2_prompt_guard,228,0.053,0.689,130,27,0,
-B3_citation_enforced,228,0.211,0.807,153,31,0,
-B4_top1,228,0.0,0.022,0,3,2,
+system,n,lexical_wide_leak,semantic_consensus,T1,T2,T3
+V-final (guarded),681,0.0,0.018,-,-,-
+B1_multi_rag,228,0.022,0.583,124,9,0
+B2_prompt_guard,226,0.053,0.509,107,8,0
+B3_citation_enforced,227,0.211,0.59,125,9,0
+B4_top1,228,0.0,0.013,0,2,1
