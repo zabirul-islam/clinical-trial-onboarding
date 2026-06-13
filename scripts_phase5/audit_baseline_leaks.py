@@ -57,7 +57,10 @@ _GENERIC_STOP = {
 
 def build_vocab() -> dict[str, list[str]]:
     """Distinctive (corpus-unique) >=6-char title tokens per trial."""
-    corpus = pd.read_parquet(ROOT / "processed" / "trial_evidence_passages.parquet")
+    pq = ROOT / "data" / "processed" / "trial_evidence_passages.parquet"
+    if not pq.exists():
+        pq = ROOT / "processed" / "trial_evidence_passages.parquet"
+    corpus = pd.read_parquet(pq)
     title_col = "title" if "title" in corpus.columns else "trial_title"
     head = corpus.dropna(subset=[title_col]).drop_duplicates("doc_id")[["doc_id", title_col]]
     raw = {}
