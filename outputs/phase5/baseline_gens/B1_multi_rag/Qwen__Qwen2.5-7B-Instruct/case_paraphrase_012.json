@@ -1,0 +1,128 @@
+{
+  "case_id": "case_paraphrase_012",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "paraphrase_trec2021",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01207765",
+  "reference_trial": "NCT01207765",
+  "evidence_trials": [
+    "NCT00135200",
+    "NCT00306813",
+    "NCT00792142",
+    "NCT00843310",
+    "NCT00981708",
+    "NCT01207765"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function. What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT01207765 | section=summary]\nThe study involves the use of a targeted form of radiation, in addition to standard high dose chemotherapy and stem cell transplant for multiple myeloma. The use of targeted radiation is designed to kill more multiple myeloma cells while avoiding the side effects of standard radiation. This type of targeted radiation (also known as radioimmunotherapy) has been approved by the Food and Drug Administration (FDA) for the treatment of a related disease, lymphoma under the trade name, Zevalin\u00a9. Zevalin\u00a9 has been added to high dose chemotherapy and stem cell transplants for patients with lymphoma and is now being studied in this clinical trial for patients with multiple myeloma. This trial is only available at Tufts Medical Center. The proposed clinical trial will test whether CD20-targeted radio-immunotherapy can be safe and effective when integrated into a standard regimen of myeloablative chemotherapy and autologous stem cell rescue in patients with measurable disease prior to high dose chemotherapy and autologous stem cell transplant for multiple myeloma.\n\n[Passage 2 | doc=NCT00843310 | section=detailed_description]\nCurrent multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.\n\n[Passage 3 | doc=NCT00792142 | section=summary]\nRATIONALE: Bortezomib and thalidomide may stop the growth of multiple myeloma by blocking blood flow to the cancer. Bortezomib may also stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving bortezomib together with thalidomide and dexamethasone may kill any cancer cells that remain after high-dose melphalan and stem cell transplant in patients with multiple myeloma. PURPOSE: This phase II trial is studying the side effects of giving bortezomib together with thalidomide and dexamethasone after melphalan and stem cell transplant and to see how well it works in treating patients with stage I-III multiple myeloma.\n\n[Passage 4 | doc=NCT00981708 | section=detailed_description]\nThalidomide has shown significant activity in multiple myeloma patients with relapsing or refractory disease and even more in newly diagnosed patients. However, thalidomide causes somnolence, fatigue, constipation, and peripheral neuropathy and is not well tolerated in patients with AL amyloidosis. Lenalidomide is a small molecule structurally related to thalidomide with potent immunomodulatory effects. Lenalidomide has been found to be significantly active in relapsed multiple myeloma both in vitro and in Phase I, II and III clinical trials, including patients who had previously failed thalidomide. Unlike thalidomide, lenalidomide causes no significant sedation, constipation, neuropathy, or rash. Deep vein thrombosis ,especially in combination with dexamethasone, has been reported . Combination of thalidomide with with alkylating agents (such as melphalan or cyclophosphamide) have been very active in patients with myeloma and have superior activity than combinations of alkylating agents with steroids alone. However, the toxicity profile of thalidomide is problematic for this combination in patients with AL.\n\n[Passage 5 | doc=NCT00306813 | section=detailed_description]\nMultiple myeloma is an incurable disease that is characterized by the malignant proliferation of plasma cells. It is the second most common hematological malignancy, is invariable fatal. The primary approach for treatment of multiple myeloma is systemic chemotherapy. Conventional chemotherapy with melphalan and prednisone (MP) has increased the survival from 12-17 months to approximately 3 years. But several other studies have shown that combination therapy with addition of other agents such as cyclophosphamide, nitroureas or anthracyclins does not improve the prognosis of patients with multiple myeloma. During the past few years it has been demonstrated that high dose chemotherapy followed by autologous stem cell transplantation can prolong the overall survival of myeloma patients and therefore became the standard of care for younger patients. Since it has been demonstrated that high dose chemotherapy is also well tolerated by the elderly high dose chemotherapy is recommended for patients up to an age of about 70 if there is no relevant comorbidity. Thus, the development of more effective regimens for the teatment of relapsed or refractory myeloma patients is urgently needed.\n\n[Passage 6 | doc=NCT00135200 | section=detailed_description]\nWith the exception of the recent report, which showed a superior response rate to the combination of thalidomide with dexamethasone versus dexamethasone pulses (Rajkumar et al., 2004), multiple other comparative studies did not show superiority of any of these regimens for overall survival. Complete responses to any of these regimens are observed infrequently (< 5%). Patients who complete initial therapy, usually proceed to high dose chemotherapy with autologous stem cell transplant support. Alternatively, patients may be placed on maintenance regimen or can be observed. Except for one study with alternate day high dose of Prednisone (Berenson et al., 2002), no convincing evidence exists that maintenance impacts the natural history of the disease (Kyle, 2002; The Myeloma Trialists' Collaborative Group, 2001). High dose chemotherapy has been used as consolidation in multiple myeloma by a number of investigators (Barlogie et al., 1986; Cunningham et al., 1994; Harousseau et al., 1995).",
+  "passages": [
+    {
+      "passage_id": "NCT01207765::summary::0",
+      "doc_id": "NCT01207765",
+      "section": "summary",
+      "passage_text": "The study involves the use of a targeted form of radiation, in addition to standard high dose chemotherapy and stem cell transplant for multiple myeloma. The use of targeted radiation is designed to kill more multiple myeloma cells while avoiding the side effects of standard radiation. This type of targeted radiation (also known as radioimmunotherapy) has been approved by the Food and Drug Administration (FDA) for the treatment of a related disease, lymphoma under the trade name, Zevalin\u00a9. Zevalin\u00a9 has been added to high dose chemotherapy and stem cell transplants for patients with lymphoma and is now being studied in this clinical trial for patients with multiple myeloma. This trial is only available at Tufts Medical Center. The proposed clinical trial will test whether CD20-targeted radio-immunotherapy can be safe and effective when integrated into a standard regimen of myeloablative chemotherapy and autologous stem cell rescue in patients with measurable disease prior to high dose chemotherapy and autologous stem cell transplant for multiple myeloma.",
+      "title": "Zevalin for Patients With Incomplete Response to Chemo Prior to Autologous Stem Cell Transplant for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 267.3168182060764,
+      "cross_score": -0.95574266,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00843310::detailed_description::0",
+      "doc_id": "NCT00843310",
+      "section": "detailed_description",
+      "passage_text": "Current multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+      "title": "Combination of Revlimid, Melphalan and Dexamethasone as First Line Treatment for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 271.3275196564978,
+      "cross_score": -1.3473303,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00792142::summary::0",
+      "doc_id": "NCT00792142",
+      "section": "summary",
+      "passage_text": "RATIONALE: Bortezomib and thalidomide may stop the growth of multiple myeloma by blocking blood flow to the cancer. Bortezomib may also stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving bortezomib together with thalidomide and dexamethasone may kill any cancer cells that remain after high-dose melphalan and stem cell transplant in patients with multiple myeloma. PURPOSE: This phase II trial is studying the side effects of giving bortezomib together with thalidomide and dexamethasone after melphalan and stem cell transplant and to see how well it works in treating patients with stage I-III multiple myeloma.",
+      "title": "Bortezomib, Thalidomide, and Dexamethasone After Melphalan and Stem Cell Transplant in Treating Patients With Stage I-III Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 274.8942660588219,
+      "cross_score": -2.465917,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00981708::detailed_description::1",
+      "doc_id": "NCT00981708",
+      "section": "detailed_description",
+      "passage_text": "Thalidomide has shown significant activity in multiple myeloma patients with relapsing or refractory disease and even more in newly diagnosed patients. However, thalidomide causes somnolence, fatigue, constipation, and peripheral neuropathy and is not well tolerated in patients with AL amyloidosis. Lenalidomide is a small molecule structurally related to thalidomide with potent immunomodulatory effects. Lenalidomide has been found to be significantly active in relapsed multiple myeloma both in vitro and in Phase I, II and III clinical trials, including patients who had previously failed thalidomide. Unlike thalidomide, lenalidomide causes no significant sedation, constipation, neuropathy, or rash. Deep vein thrombosis ,especially in combination with dexamethasone, has been reported . Combination of thalidomide with with alkylating agents (such as melphalan or cyclophosphamide) have been very active in patients with myeloma and have superior activity than combinations of alkylating agents with steroids alone. However, the toxicity profile of thalidomide is problematic for this combination in patients with AL.",
+      "title": "Lenalidomide, Dexamethasone and Cyclophosphamide in Amyloidosis (AL)",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 281.5796556743508,
+      "cross_score": -2.4869356,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00306813::detailed_description::0",
+      "doc_id": "NCT00306813",
+      "section": "detailed_description",
+      "passage_text": "Multiple myeloma is an incurable disease that is characterized by the malignant proliferation of plasma cells. It is the second most common hematological malignancy, is invariable fatal. The primary approach for treatment of multiple myeloma is systemic chemotherapy. Conventional chemotherapy with melphalan and prednisone (MP) has increased the survival from 12-17 months to approximately 3 years. But several other studies have shown that combination therapy with addition of other agents such as cyclophosphamide, nitroureas or anthracyclins does not improve the prognosis of patients with multiple myeloma. During the past few years it has been demonstrated that high dose chemotherapy followed by autologous stem cell transplantation can prolong the overall survival of myeloma patients and therefore became the standard of care for younger patients. Since it has been demonstrated that high dose chemotherapy is also well tolerated by the elderly high dose chemotherapy is recommended for patients up to an age of about 70 if there is no relevant comorbidity. Thus, the development of more effective regimens for the teatment of relapsed or refractory myeloma patients is urgently needed.",
+      "title": "Evaluation of Lenalidomide, Doxorubicin and Dexamethasone (RAD) in Patients With Relapsed or Refractory Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 267.78056675387825,
+      "cross_score": -2.5651956,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00135200::detailed_description::1",
+      "doc_id": "NCT00135200",
+      "section": "detailed_description",
+      "passage_text": "With the exception of the recent report, which showed a superior response rate to the combination of thalidomide with dexamethasone versus dexamethasone pulses (Rajkumar et al., 2004), multiple other comparative studies did not show superiority of any of these regimens for overall survival. Complete responses to any of these regimens are observed infrequently (< 5%). Patients who complete initial therapy, usually proceed to high dose chemotherapy with autologous stem cell transplant support. Alternatively, patients may be placed on maintenance regimen or can be observed. Except for one study with alternate day high dose of Prednisone (Berenson et al., 2002), no convincing evidence exists that maintenance impacts the natural history of the disease (Kyle, 2002; The Myeloma Trialists' Collaborative Group, 2001). High dose chemotherapy has been used as consolidation in multiple myeloma by a number of investigators (Barlogie et al., 1986; Cunningham et al., 1994; Harousseau et al., 1995).",
+      "title": "Clinical Trial of Consolidation Treatment With Iodine I 131 Tositumomab for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 275.1467343404317,
+      "cross_score": -2.6597931,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you might be eligible for a clinical trial involving targeted radiation and high-dose chemotherapy for multiple myeloma. However, we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"64yo woman with multiple myeloma\", \"history of allogeneic transplant\", \"relapsed disease\", \"on hemodialysis for ESRD\"],\n  \"missing_patient_facts\": [\"specific stage of multiple myeloma\", \"current disease status (measurable disease)\"],\n  \"unresolved_study_requirements\": [\"site availability (only available at Tufts Medical Center)\", \"specific imaging or lab results required for eligibility\"],\n  \"reasoning_summary\": \"The patient's profile aligns with the inclusion criteria for a clinical trial involving targeted radiation and high-dose chemotherapy for multiple myeloma. However, key details such as specific stage of disease and current disease status are missing, and the study is limited to a single site. Additionally, unresolved requirements like specific imaging or lab results are necessary to determine full eligibility.\",\n  \"safety_note\": \"Given the patient's complex medical history, including systemic amyloidosis and renal failure, safety considerations are paramount. Further evaluation by the study team is essential.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you might be eligible for a clinical trial involving targeted radiation and high-dose chemotherapy for multiple myeloma. However, we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "64yo woman with multiple myeloma",
+      "history of allogeneic transplant",
+      "relapsed disease",
+      "on hemodialysis for ESRD"
+    ],
+    "missing_patient_facts": [
+      "specific stage of multiple myeloma",
+      "current disease status (measurable disease)"
+    ],
+    "unresolved_study_requirements": [
+      "site availability (only available at Tufts Medical Center)",
+      "specific imaging or lab results required for eligibility"
+    ],
+    "reasoning_summary": "The patient's profile aligns with the inclusion criteria for a clinical trial involving targeted radiation and high-dose chemotherapy for multiple myeloma. However, key details such as specific stage of disease and current disease status are missing, and the study is limited to a single site. Additionally, unresolved requirements like specific imaging or lab results are necessary to determine full eligibility.",
+    "safety_note": "Given the patient's complex medical history, including systemic amyloidosis and renal failure, safety considerations are paramount. Further evaluation by the study team is essential."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you might be eligible for a clinical trial involving targeted radiation and high-dose chemotherapy for multiple myeloma. However, we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "specific stage of multiple myeloma",
+    "current disease status (measurable disease)"
+  ],
+  "unresolved_study_requirements": [
+    "site availability (only available at Tufts Medical Center)",
+    "specific imaging or lab results required for eligibility"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 21.73
+}

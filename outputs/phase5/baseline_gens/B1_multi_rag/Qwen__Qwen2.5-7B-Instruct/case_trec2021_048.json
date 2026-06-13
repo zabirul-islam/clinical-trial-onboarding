@@ -1,0 +1,108 @@
+{
+  "case_id": "case_trec2021_048",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00750139",
+  "selected_doc": "NCT02411734",
+  "reference_trial": "NCT02411734",
+  "evidence_trials": [
+    "NCT01119742",
+    "NCT02411734",
+    "NCT03745183"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: Fernandez is a 41 year man who is a professional soccer player. He came to the clinic with itchy foot. Physical exam revealed localized scaling and maceration between the third and fourth of his right toe. It became inflamed and sore, with mild fissuring. The dorsum and sole of the foot was unaffected. There is no pus or tearing in the affected area. He didn't use ant topical ointment on the lesion and has no positive history for any underlying disease such as DM. He smokes 15 cigarettes per day and drinks a beer per day. His family history is positive for hyperlipidemia in her mother and MI in her father. He is in relation with several partners and use condom during the intercourse. His physical exam and lab studies were normal otherwise. Tinea pedis infection confirmed as his diagnosis by the observation of segmented fungal hyphae during a microscopic KOH wet mount examination. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02411734 | section=detailed_description]\nThe patient will participate in therapy during their stay, with their participation evaluated by a) amount of time participating in therapy each day, b) need for encouragement by staff to participate. Encouragement will be rated on four point scale: i) no encouragement, ii) minimal encouragement, iii) moderate encouragement, iv) maximum encouragement. 72 hours prior to discharge, they will be asked by Dennise Fernandez to complete again Trail Making Tests. 5. Sample size: 100 patients 6. Study population: All admitted patients who will meet inclusion criteria will be approached until 100 of them signs the Informed Consent Form. Inclusion criteria: 1. Admitted for rehabilitation 2. 65 years old or older 3. Speaks English Exclusion criteria: 1. Unable to read (even with glasses) 2. Unable to write 7. The expected results of the research: Results of this study will be published in a scientific journal. If the results are positive, a scale will be developed that will inform rehabilitation facility about rehabilitation potential of a patient before he/she is admitted for rehabilitation. 8. Principal Investigator: Ladislav Volicer, MD, PhD 9.\n\n[Passage 2 | doc=NCT02411734 | section=detailed_description]\nPotential risk to the subjects: The research will not influence rehabilitation of the patients. The only risk is that they may become frustrated if they difficulty accomplishing the Trail Making Tests. 10. Experimental Procedures: Administration of the Trail Making Tests and recording duration of rehabilitation and possible need for encouragement. Results of Trail Making Test with be correlated with level of participation in therapy. 11. Potential benefit to subjects: None 12. Human subjects considerations: Informed consent will be given to patients only after they express interest in research and they will have one day to decide if they want to sign it. If a patient cannot explain the reason for his/rehabilitation, the study will be explained to his/her proxy and the proxy will receive the informed consent form. Each patient will receive a PIN and all research protocols will be identified only with this PIN. The master list connecting PINs and names will be kept by the rehabilitation facility employee, Dennise Fernandez. 13. The study does not have greater than minimal risk.\n\n[Passage 3 | doc=NCT02411734 | section=detailed_description]\nExecutive function was the most important factor for level of care elderly individuals required (Royall, Chiodo, & Polk, 2005). This study also found that many elderly individuals have impaired executive function even though they have normal cognitive function. Executive function is also related to functional abilities in individuals with mild dementia (Martyr & Clare, 2012). 3. The research question: The hypothesis tested in this study is that rehabilitation potential is decreased in persons with impaired executive function. The purpose of this study is to attempt development of a screening tool that could be used before the patients are admitted for rehabilitation. Results of this screening would alert the rehabilitation facility about possible problems occurring after the patient is admitted for rehabilitation. If such a testing will show that patient's executive function is impaired, rehabilitation results may be improved by treatment of this impairment (Royall et al., 2009). 4. Study design: During admission of a patient, Dennise Fernandez will ask patients to state why they need rehabilitation.\n\n[Passage 4 | doc=NCT03745183 | section=detailed_description]\nTo determine the treatment response at the end of four weeks (28 days +/-3) as measured by disease severity, pruritus visual analogue scale score and potassium hydroxide smear conversion of the patients with tinea imbricata treated once daily with Senna alata leaf decoction 2. To document the adverse reactions associated with Senna alata leaf decoction application. III Methods: This study was a preliminary open label, before-and after clinical trial. This study took place at Kiamba Municipality, Sarangani Province, Mindanao from November 2014 to January 2015. The duration of patient involvement was 4 weeks (28+3 days). Figure 1 shows the flow chart of the study procedure. Recruitment of participants: An outreach skin clinic, manned by dermatology residents and consultants of the University of the Philippines- Philippine General Hospital, was conducted in the local health center. Patients with any skin disease and suspected tinea imbricata cases were invited to consult. Patient recruitment began during the outreach mission and was continued even thereafter.\n\n[Passage 5 | doc=NCT02411734 | section=detailed_description]\nIf they are able to state the reason, Dennise Fernandez will explained the study to them and if the patient is interested she will give him/her the Informed Consent Form. If the patient will be unable to state the reason for rehabilitation, the study will be explained to his/her proxy and informed consent given to the proxy. The patient/proxy will have time to read the Informed Consent on his/her own and ask any questions he/she may have. It the patient/proxy signs the Informed Consent, Dennise Fernandez will ask how old the patient is and the patient will be asked to complete the Trail Making Tests. Both parts of the Trail Making Test consist of 25 circles distributed over a sheet of paper. In Part A, the circles are numbered 1 - 25, and the patient should draw lines to connect the numbers in ascending order. In Part B, the circles include both numbers (1 - 13) and letters (A - L); as in Part A, the patient draws lines to connect the circles in an ascending pattern, but with the added task of alternating between the numbers and letters (i.e., 1-A-2-B-3-C, etc.).\n\n[Passage 6 | doc=NCT01119742 | section=title]\nClinical Equivalence of Two Generic Butenafine Hydrochloride 1% Creams as Compared to Lotrimin Ultra Cream in Patients With Interdigital Tinea Pedis",
+  "passages": [
+    {
+      "passage_id": "NCT02411734::detailed_description::4",
+      "doc_id": "NCT02411734",
+      "section": "detailed_description",
+      "passage_text": "The patient will participate in therapy during their stay, with their participation evaluated by a) amount of time participating in therapy each day, b) need for encouragement by staff to participate. Encouragement will be rated on four point scale: i) no encouragement, ii) minimal encouragement, iii) moderate encouragement, iv) maximum encouragement. 72 hours prior to discharge, they will be asked by Dennise Fernandez to complete again Trail Making Tests. 5. Sample size: 100 patients 6. Study population: All admitted patients who will meet inclusion criteria will be approached until 100 of them signs the Informed Consent Form. Inclusion criteria: 1. Admitted for rehabilitation 2. 65 years old or older 3. Speaks English Exclusion criteria: 1. Unable to read (even with glasses) 2. Unable to write 7. The expected results of the research: Results of this study will be published in a scientific journal. If the results are positive, a scale will be developed that will inform rehabilitation facility about rehabilitation potential of a patient before he/she is admitted for rehabilitation. 8. Principal Investigator: Ladislav Volicer, MD, PhD 9.",
+      "title": "Effect of Executive Dysfunction on Rehabilitation Potential",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 372.9167992771155,
+      "cross_score": -6.488409,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02411734::detailed_description::5",
+      "doc_id": "NCT02411734",
+      "section": "detailed_description",
+      "passage_text": "Potential risk to the subjects: The research will not influence rehabilitation of the patients. The only risk is that they may become frustrated if they difficulty accomplishing the Trail Making Tests. 10. Experimental Procedures: Administration of the Trail Making Tests and recording duration of rehabilitation and possible need for encouragement. Results of Trail Making Test with be correlated with level of participation in therapy. 11. Potential benefit to subjects: None 12. Human subjects considerations: Informed consent will be given to patients only after they express interest in research and they will have one day to decide if they want to sign it. If a patient cannot explain the reason for his/rehabilitation, the study will be explained to his/her proxy and the proxy will receive the informed consent form. Each patient will receive a PIN and all research protocols will be identified only with this PIN. The master list connecting PINs and names will be kept by the rehabilitation facility employee, Dennise Fernandez. 13. The study does not have greater than minimal risk.",
+      "title": "Effect of Executive Dysfunction on Rehabilitation Potential",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 372.9167992771155,
+      "cross_score": -7.1927543,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02411734::detailed_description::1",
+      "doc_id": "NCT02411734",
+      "section": "detailed_description",
+      "passage_text": "Executive function was the most important factor for level of care elderly individuals required (Royall, Chiodo, & Polk, 2005). This study also found that many elderly individuals have impaired executive function even though they have normal cognitive function. Executive function is also related to functional abilities in individuals with mild dementia (Martyr & Clare, 2012). 3. The research question: The hypothesis tested in this study is that rehabilitation potential is decreased in persons with impaired executive function. The purpose of this study is to attempt development of a screening tool that could be used before the patients are admitted for rehabilitation. Results of this screening would alert the rehabilitation facility about possible problems occurring after the patient is admitted for rehabilitation. If such a testing will show that patient's executive function is impaired, rehabilitation results may be improved by treatment of this impairment (Royall et al., 2009). 4. Study design: During admission of a patient, Dennise Fernandez will ask patients to state why they need rehabilitation.",
+      "title": "Effect of Executive Dysfunction on Rehabilitation Potential",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 372.9167992771155,
+      "cross_score": -7.550623,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03745183::detailed_description::4",
+      "doc_id": "NCT03745183",
+      "section": "detailed_description",
+      "passage_text": "To determine the treatment response at the end of four weeks (28 days +/-3) as measured by disease severity, pruritus visual analogue scale score and potassium hydroxide smear conversion of the patients with tinea imbricata treated once daily with Senna alata leaf decoction 2. To document the adverse reactions associated with Senna alata leaf decoction application. III Methods: This study was a preliminary open label, before-and after clinical trial. This study took place at Kiamba Municipality, Sarangani Province, Mindanao from November 2014 to January 2015. The duration of patient involvement was 4 weeks (28+3 days). Figure 1 shows the flow chart of the study procedure. Recruitment of participants: An outreach skin clinic, manned by dermatology residents and consultants of the University of the Philippines- Philippine General Hospital, was conducted in the local health center. Patients with any skin disease and suspected tinea imbricata cases were invited to consult. Patient recruitment began during the outreach mission and was continued even thereafter.",
+      "title": "Senna Alata Leaf Decoction as a Treatment for Tinea Imbricata",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 374.4267823065118,
+      "cross_score": -8.093084,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02411734::detailed_description::2",
+      "doc_id": "NCT02411734",
+      "section": "detailed_description",
+      "passage_text": "If they are able to state the reason, Dennise Fernandez will explained the study to them and if the patient is interested she will give him/her the Informed Consent Form. If the patient will be unable to state the reason for rehabilitation, the study will be explained to his/her proxy and informed consent given to the proxy. The patient/proxy will have time to read the Informed Consent on his/her own and ask any questions he/she may have. It the patient/proxy signs the Informed Consent, Dennise Fernandez will ask how old the patient is and the patient will be asked to complete the Trail Making Tests. Both parts of the Trail Making Test consist of 25 circles distributed over a sheet of paper. In Part A, the circles are numbered 1 - 25, and the patient should draw lines to connect the numbers in ascending order. In Part B, the circles include both numbers (1 - 13) and letters (A - L); as in Part A, the patient draws lines to connect the circles in an ascending pattern, but with the added task of alternating between the numbers and letters (i.e., 1-A-2-B-3-C, etc.).",
+      "title": "Effect of Executive Dysfunction on Rehabilitation Potential",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 372.9167992771155,
+      "cross_score": -8.27623,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01119742::title::0",
+      "doc_id": "NCT01119742",
+      "section": "title",
+      "passage_text": "Clinical Equivalence of Two Generic Butenafine Hydrochloride 1% Creams as Compared to Lotrimin Ultra Cream in Patients With Interdigital Tinea Pedis",
+      "title": "Clinical Equivalence of Two Generic Butenafine Hydrochloride 1% Creams as Compared to Lotrimin Ultra Cream in Patients With Interdigital Tinea Pedis",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 390.9674239740316,
+      "cross_score": -8.276375,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to be eligible for the clinical trial described.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [],\n  \"reasoning_summary\": \"The patient is a 41-year-old male professional soccer player with tinea pedis, which does not align with the study's inclusion criteria of admitted patients aged 65 or older. Additionally, the study focuses on evaluating rehabilitation potential through executive function tests, which is not relevant to the patient's current condition.\",\n  \"safety_note\": \"There are no safety concerns based on the provided information.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not seem to be eligible for the clinical trial described.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "The patient is a 41-year-old male professional soccer player with tinea pedis, which does not align with the study's inclusion criteria of admitted patients aged 65 or older. Additionally, the study focuses on evaluating rehabilitation potential through executive function tests, which is not relevant to the patient's current condition.",
+    "safety_note": "There are no safety concerns based on the provided information."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not seem to be eligible for the clinical trial described.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.985
+}

@@ -1,0 +1,77 @@
+{
+  "case_id": "case_trec2021_001",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00002814",
+  "selected_doc": "NCT01051557",
+  "reference_trial": "NCT01051557",
+  "evidence_trials": [
+    "NCT01051557"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01051557 | section=eligibility]\nic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be eligible if the original histology was low-grade glioma and a subsequent histological diagnosis of a high grade (malignant) glioma is made; OR - Histologically confirmed low grade (World Health Organization [WHO] grade II) gliomas (such as low grade astrocytoma, low grade oligodendroglioma, low grade oligo-astrocytoma (mixed gliomas), or low grade glioma NOS) IF there is radiographic evidence by MRI or CT of malignant transformation but histologic confirmation of high grade (malignant) transformation would not be otherwise undertaken for routine clinical care; inclusion of patients in this group will allow increased accrual rapidity by enrolling patients who are otherwise ineligible for almost all malignant glioma trials yet whom are treated presumptively for malignant glioma - PHASE II: Patients must have a histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplastic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be el\n\n[Passage 2 | doc=NCT01051557 | section=eligibility]\npregnant while participating in this study, she should inform her treating physician immediately - Women of childbearing potential must have a negative beta-human chorionic gonadotropin (B-HCG) pregnancy test documented within 7 days prior to treatment - Women must agree not to breast feed - Patients must have the ability to understand and the willingness to sign a written informed consent document - Measurable disease is not required for eligibility in patients who recently underwent resection as long as progressive disease led to the surgery, and the histology of the most recent surgery documented recurrent/progressive/persistent malignant glioma - If cytoreductive surgery is planned for tumor recurrence at the time of enrollment, such patients may be eligible for the surgical substudy (Phase II only), taking temsirolimus + perifosine pre-operatively and then re-initiating such therapy after recovering from the effects of surgery - PHASE I: Patients must have a EITHER - Histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplast",
+  "passages": [
+    {
+      "passage_id": "NCT01051557::eligibility::5",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "ic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be eligible if the original histology was low-grade glioma and a subsequent histological diagnosis of a high grade (malignant) glioma is made; OR - Histologically confirmed low grade (World Health Organization [WHO] grade II) gliomas (such as low grade astrocytoma, low grade oligodendroglioma, low grade oligo-astrocytoma (mixed gliomas), or low grade glioma NOS) IF there is radiographic evidence by MRI or CT of malignant transformation but histologic confirmation of high grade (malignant) transformation would not be otherwise undertaken for routine clinical care; inclusion of patients in this group will allow increased accrual rapidity by enrolling patients who are otherwise ineligible for almost all malignant glioma trials yet whom are treated presumptively for malignant glioma - PHASE II: Patients must have a histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplastic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be el",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 307.57439289122345,
+      "cross_score": -4.9806137,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::4",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "pregnant while participating in this study, she should inform her treating physician immediately - Women of childbearing potential must have a negative beta-human chorionic gonadotropin (B-HCG) pregnancy test documented within 7 days prior to treatment - Women must agree not to breast feed - Patients must have the ability to understand and the willingness to sign a written informed consent document - Measurable disease is not required for eligibility in patients who recently underwent resection as long as progressive disease led to the surgery, and the histology of the most recent surgery documented recurrent/progressive/persistent malignant glioma - If cytoreductive surgery is planned for tumor recurrence at the time of enrollment, such patients may be eligible for the surgical substudy (Phase II only), taking temsirolimus + perifosine pre-operatively and then re-initiating such therapy after recovering from the effects of surgery - PHASE I: Patients must have a EITHER - Histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplast",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 307.57439289122345,
+      "cross_score": -5.613796,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please let your doctor know so they can check if you meet all the requirements.\",\n  \"supported_patient_facts\": [\"Patient has anaplastic astrocytoma of the spine\", \"Patient has a history of severe lower extremity weakness and urinary retention\", \"Patient has received radiation therapy for the tumor\", \"Patient has a history of chronic pain\"],\n  \"missing_patient_facts\": [\"Specific details about the current status of the tumor (e.g., size, location, response to previous treatments)\", \"Confirmation of the exact type of anaplastic astrocytoma (glioblastoma, AA, AO, AOA)\", \"Information about the patient's ability to understand and provide informed consent\"],\n  \"unresolved_study_requirements\": [\"Confirmation of the patient's ability to understand and provide informed consent\", \"Specific details about the patient's current health status and response to previous treatments\"],\n  \"reasoning_summary\": \"The patient meets the general criteria for anaplastic astrocytoma, but specific details about the current status of the tumor and the patient's ability to provide informed consent are needed to finalize the eligibility.\",\n  \"safety_note\": \"Please consult your healthcare provider before making any decisions regarding participation in the clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please let your doctor know so they can check if you meet all the requirements.",
+    "supported_patient_facts": [
+      "Patient has anaplastic astrocytoma of the spine",
+      "Patient has a history of severe lower extremity weakness and urinary retention",
+      "Patient has received radiation therapy for the tumor",
+      "Patient has a history of chronic pain"
+    ],
+    "missing_patient_facts": [
+      "Specific details about the current status of the tumor (e.g., size, location, response to previous treatments)",
+      "Confirmation of the exact type of anaplastic astrocytoma (glioblastoma, AA, AO, AOA)",
+      "Information about the patient's ability to understand and provide informed consent"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of the patient's ability to understand and provide informed consent",
+      "Specific details about the patient's current health status and response to previous treatments"
+    ],
+    "reasoning_summary": "The patient meets the general criteria for anaplastic astrocytoma, but specific details about the current status of the tumor and the patient's ability to provide informed consent are needed to finalize the eligibility.",
+    "safety_note": "Please consult your healthcare provider before making any decisions regarding participation in the clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please let your doctor know so they can check if you meet all the requirements.",
+  "missing_patient_facts": [
+    "Specific details about the current status of the tumor (e.g., size, location, response to previous treatments)",
+    "Confirmation of the exact type of anaplastic astrocytoma (glioblastoma, AA, AO, AOA)",
+    "Information about the patient's ability to understand and provide informed consent"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of the patient's ability to understand and provide informed consent",
+    "Specific details about the patient's current health status and response to previous treatments"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.85
+}

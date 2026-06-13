@@ -1,0 +1,73 @@
+{
+  "case_id": "case_trec2022_050",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01921972",
+  "reference_trial": "NCT01921972",
+  "evidence_trials": [
+    "NCT01921972"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 70-year-old man comes to the office accompanied by his wife. The patient has experienced progressive memory loss over the last years. He needs help with some of his routine activities, such as paying bills. The patient's wife says, \"He used to be such an independent person, but now he needs help with many things, even finding direction to home!\" Medical history includes hypertension, hyperlipidemia, and type 2 diabetes mellitus. Family history includes Alzheimer disease in his father. MRI reveals diffuse cortical and hippocampal atrophy. The diagnosis of AD is made using the National Institute on Aging and the Alzheimer's Association (NIA-AA) criteria. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01921972 | section=eligibility]\nInclusion Criteria: 1. Willingness to participate, as indicated by written informed consent of the patient. The competence of the participating patient has to be assessed by a physician who is not involved in this trial. 2. Male or postmenopausal female outpatients. 3. Age of > 50 years at time of randomization. 4. Diagnosis of probable Alzheimer's Disease (according to NINCDS-ADRDA criteria). 5. Clinical and psychometric rating cut-off score (valid at randomisation): MMSE range of 15 to 26 points. 6. MRI brain scan not older than 12 months (before randomization) compatible with the diagnosis of Alzheimer's Disease. (The MRI brain scan must be repeated if older than 12 months or if clinically indicated). 7. Patient being ambulatory having adequate vision and hearing abilities to allow neuropsychological testing. 8. Patient with a knowledgeable, cooperative, reliable caregiver/informant who is willing to follow the study procedure as indicated by written informed consent. Exclusion Criteria: 1. Dementia of any other type than AD: 1. vascular dementia - HIS Score (modified acc. to Rosen) > 5 or - evidence for VD acc. to NINCDS-AIREN criteria. 2. depressive pseudodementia defined acc.\n\n[Passage 2 | doc=NCT01921972 | section=eligibility]\nPatient has participated in an investigational clinical trial during the last 2 months.",
+  "passages": [
+    {
+      "passage_id": "NCT01921972::eligibility::0",
+      "doc_id": "NCT01921972",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Willingness to participate, as indicated by written informed consent of the patient. The competence of the participating patient has to be assessed by a physician who is not involved in this trial. 2. Male or postmenopausal female outpatients. 3. Age of > 50 years at time of randomization. 4. Diagnosis of probable Alzheimer's Disease (according to NINCDS-ADRDA criteria). 5. Clinical and psychometric rating cut-off score (valid at randomisation): MMSE range of 15 to 26 points. 6. MRI brain scan not older than 12 months (before randomization) compatible with the diagnosis of Alzheimer's Disease. (The MRI brain scan must be repeated if older than 12 months or if clinically indicated). 7. Patient being ambulatory having adequate vision and hearing abilities to allow neuropsychological testing. 8. Patient with a knowledgeable, cooperative, reliable caregiver/informant who is willing to follow the study procedure as indicated by written informed consent. Exclusion Criteria: 1. Dementia of any other type than AD: 1. vascular dementia - HIS Score (modified acc. to Rosen) > 5 or - evidence for VD acc. to NINCDS-AIREN criteria. 2. depressive pseudodementia defined acc.",
+      "title": "The Efficacy of a Combination Regimen in Patients With Mild to Moderate Probable Alzheimer's Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 260.9940455906098,
+      "cross_score": -5.2351327,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01921972::eligibility::3",
+      "doc_id": "NCT01921972",
+      "section": "eligibility",
+      "passage_text": "Patient has participated in an investigational clinical trial during the last 2 months.",
+      "title": "The Efficacy of a Combination Regimen in Patients With Mild to Moderate Probable Alzheimer's Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 260.9940455906098,
+      "cross_score": -5.8119984,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your age and the results of your MRI brain scan.\",\n  \"supported_patient_facts\": [\"The patient is 70 years old.\", \"MRI brain scan reveals diffuse cortical and hippocampal atrophy.\"],\n  \"missing_patient_facts\": [\"Your age.\", \"MRI brain scan results (whether it is within 12 months or not).\"],\n  \"unresolved_study_requirements\": [\"The MRI brain scan must be within 12 months of the randomization date.\", \"We need to assess the patient's cognitive function using the MMSE test.\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has MRI findings consistent with Alzheimer's Disease. However, we need to verify that the MRI is recent and that the patient's cognitive function is within the required range.\",\n  \"safety_note\": \"Please note that while you seem to meet the eligibility criteria, further assessment is needed to ensure safety and suitability for the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your age and the results of your MRI brain scan.",
+    "supported_patient_facts": [
+      "The patient is 70 years old.",
+      "MRI brain scan reveals diffuse cortical and hippocampal atrophy."
+    ],
+    "missing_patient_facts": [
+      "Your age.",
+      "MRI brain scan results (whether it is within 12 months or not)."
+    ],
+    "unresolved_study_requirements": [
+      "The MRI brain scan must be within 12 months of the randomization date.",
+      "We need to assess the patient's cognitive function using the MMSE test."
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has MRI findings consistent with Alzheimer's Disease. However, we need to verify that the MRI is recent and that the patient's cognitive function is within the required range.",
+    "safety_note": "Please note that while you seem to meet the eligibility criteria, further assessment is needed to ensure safety and suitability for the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your age and the results of your MRI brain scan.",
+  "missing_patient_facts": [
+    "Your age.",
+    "MRI brain scan results (whether it is within 12 months or not)."
+  ],
+  "unresolved_study_requirements": [
+    "The MRI brain scan must be within 12 months of the randomization date.",
+    "We need to assess the patient's cognitive function using the MMSE test."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.821
+}

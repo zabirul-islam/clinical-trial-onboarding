@@ -1,0 +1,73 @@
+{
+  "case_id": "case_trec2022_032",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03570359",
+  "reference_trial": "NCT03570359",
+  "evidence_trials": [
+    "NCT03570359"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 30-year-old man who is a computer scientist came to the clinic with the lab result stating azoospermia. The patient is sexually active with his wife and does not use any contraception methods. They have been trying to conceive for the past year with no success. The patient has a past medical history of recurrent pneumonia, shortness of breath, and persistent cough that produces large amounts of thick sputum. The patient had multiple lung infections during childhood. He does not smoke, use illicit drugs or alcohol. The patient has no history of other medical conditions including allergies or any kind of surgery. On physical examination, the digits show clubbing. An ultrasound shows bilateral absence of the vas deferens, and FEV1 was 75% on the respiratory function test. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.\n\n[Passage 2 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+  "passages": [
+    {
+      "passage_id": "NCT03570359::eligibility::10",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -6.6254754,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03570359::eligibility::7",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -7.016696,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to be a good candidate for the trial, but we need more details to confirm your eligibility. Please provide any missing information.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 30-year-old man with azoospermia.\",\n    \"He is sexually active with his wife and does not use contraception.\"\n  ],\n  \"missing_patient_facts\": [\n    \"His complete medical history, including family history of respiratory issues.\",\n    \"Results of any imaging studies or additional tests that might clarify his lung condition.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to know if he has received any doses of an investigational medicinal product (IMP) containing small molecules or biologicals within the last 12 weeks or 12 months, respectively.\",\n    \"We need to confirm if he has a history of significant underlying medical conditions that could impact the trial's results.\"\n  ],\n  \"reasoning_summary\": \"The patient meets the basic eligibility criteria for the trial, but there are unresolved issues regarding his medical history and recent exposure to investigational products. Additional information is needed to finalize his eligibility.\",\n  \"safety_note\": \"Please note that the patient has a history of recurrent pneumonia, shortness of breath, and persistent cough, which may require careful monitoring during the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to be a good candidate for the trial, but we need more details to confirm your eligibility. Please provide any missing information.",
+    "supported_patient_facts": [
+      "The patient is a 30-year-old man with azoospermia.",
+      "He is sexually active with his wife and does not use contraception."
+    ],
+    "missing_patient_facts": [
+      "His complete medical history, including family history of respiratory issues.",
+      "Results of any imaging studies or additional tests that might clarify his lung condition."
+    ],
+    "unresolved_study_requirements": [
+      "We need to know if he has received any doses of an investigational medicinal product (IMP) containing small molecules or biologicals within the last 12 weeks or 12 months, respectively.",
+      "We need to confirm if he has a history of significant underlying medical conditions that could impact the trial's results."
+    ],
+    "reasoning_summary": "The patient meets the basic eligibility criteria for the trial, but there are unresolved issues regarding his medical history and recent exposure to investigational products. Additional information is needed to finalize his eligibility.",
+    "safety_note": "Please note that the patient has a history of recurrent pneumonia, shortness of breath, and persistent cough, which may require careful monitoring during the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to be a good candidate for the trial, but we need more details to confirm your eligibility. Please provide any missing information.",
+  "missing_patient_facts": [
+    "His complete medical history, including family history of respiratory issues.",
+    "Results of any imaging studies or additional tests that might clarify his lung condition."
+  ],
+  "unresolved_study_requirements": [
+    "We need to know if he has received any doses of an investigational medicinal product (IMP) containing small molecules or biologicals within the last 12 weeks or 12 months, respectively.",
+    "We need to confirm if he has a history of significant underlying medical conditions that could impact the trial's results."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.76
+}

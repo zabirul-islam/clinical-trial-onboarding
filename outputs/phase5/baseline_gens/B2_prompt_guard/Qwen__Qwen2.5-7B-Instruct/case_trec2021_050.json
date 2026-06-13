@@ -1,0 +1,110 @@
+{
+  "case_id": "case_trec2021_050",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00026923",
+  "selected_doc": "NCT02158780",
+  "reference_trial": "NCT02158780",
+  "evidence_trials": [
+    "NCT01812109",
+    "NCT02158780",
+    "NCT02606526",
+    "NCT02936024",
+    "NCT04821167"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother. The mother had a normal pregnancy with no complication. The baby boy weighted 3200 gr with the height of 50 cm. He is breast feeding and now weighted as 6.5 kg with the height of 62 cm. He has no developmental delay in the physical assessment. There is a palpable testis is the left scrotum with non-palpable testis in the right scrotum. The penis is normal in shape and size and he is not circumcised. The diagnostic laparoscopy showed an abdominal undescended testis. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02158780 | section=detailed_description]\nUndescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy. At the first pre-operative clinic visit participating paediatric urologist will diagnose patients with low-lying palpable UDT. Patients who meet eligibility criteria will be invited to participate in this trial. A computer generated randomization list will be created using random blocks of multiple sizes (4, 6 and 8), by the McMaster Paediatric Surgery Research Collaborative's web-based randomization system. Patients will be allocated to intervention (scrotal orchidopexy) or control (standard inguinal orchidopexy) groups by logging in to the secure central randomization website.\n\n[Passage 2 | doc=NCT04821167 | section=detailed_description]\nAim of the study: Herein, the study aims to evaluate the laparoscopic procedure for management of canalicular testis regarding operative safety, efficacy and post-operative outcomes. Brief review of literature: - Different management modalities for intra-canalicular (emergent) testes in male children (open surgery, Laparoscopy). - Advantages of laparoscopic orchiopexy for intra-canalicular (emergent) testes. Patients and Methods: This is a prospective study, will be conducted out at pediatric surgery tertiary centers (Maternity & Children's Hospital in Bisha, KSA and Al-Azhar University hospitals in Cairo, Egypt) on pediatric patients presenting at the pediatric surgery OPD clinic by intra-canalicular (emergent/peeping) testes in the period from January 2019 to October 2020. Enrolled patients will be managed by laparoscopic orchiopexy. All patients enrolled in the study will give a written informed consent. The study will be approved by the Institutional Review Board and ethics committee of the hospitals. The main objective is to assess safety and efficacy of laparoscopic orchiopexy for intra-canalicular (emergent/peeping) testes in male patients.\n\n[Passage 3 | doc=NCT02606526 | section=eligibility]\nInclusion Criteria: A baby born at a participating study clinic will be included if s/he: 1. has a mother with a positive HIV test (ELISA or rapid test) 2. is receiving peri-exposure prophylaxis as part of the standard/national guidelines in Uganda 3. has a mother that is of legal age for participation in clinical research studies in Uganda or is an emancipated minor 4. has a mother/caregiver that resides within the study area, is not intending to move out of the area in the next 4 months and is likely to be traceable for up to 12 months 5. has a mother/caregiver that gives informed consent to random assignment to either of the two trial arms 6. has a mother that has received antiretroviral therapy (ART) for at least 4 weeks Exclusion Criteria: A new-born child will be excluded if she/he has: 1. serious congenital malformation(s) 2. severe illness requiring hospitalization 3. a birth weight < 2.0 kg 4. a mother participating in another clinical trial on the day of enrolment or a mother who will participate in another clinical trial within the next month. 5. a mother or other household member with symptoms and signs of tuberculosis on the day of enrolment 6.\n\n[Passage 4 | doc=NCT04821167 | section=detailed_description]\nInstitutes of the study: A multicenter study at Pediatric Surgery Departments, Maternity & Children's hospital in Bisha, KSA and Al-Azhar University hospitals in Cairo. Number of cases: Sixty two male children. Time frame: period of 1.10 years. Ethical Consideration: The protocol will be discussed and approved for clinical study by the Ethical Research Committee at MCH at Bisha, KSA, and other participating hospitals. The procedures and the aim of the study will be clearly explained to the patient and the family. A written informed consent will be obtained before enrollment of the patients into the study. The family refusal to give consent for laparoscopic management is respected but does not deprive the patient from getting open orchiopexy. Preoperative preparation: Proper examination done for patients using flat and frog leg position with gentile squeezing of testis down, proved by preoperative inguinoscrotal ultrasonography. Follow-up: Patients will be reviewed at the OPD clinic. Patients who could not attend the clinic will be contacted by phone. Postoperative Doppler ultrasonography will be done to assess testicular size and vascularity.\n\n[Passage 5 | doc=NCT01812109 | section=detailed_description]\nAt the surgeon's decision and discretion, either a scrotal Doppler/B-mode ultrasound or emergent surgical exploration will be planned as the next step per standard of care. While waiting for this to occur, the NIRS #1 measurement will be obtained. NIRS #1 is a series of 6 transcutaneous scrotal measurements, three on the left and three on the right. Each measurement is completely non-invasive, painless and takes <15 seconds each. Thus, no sedation or supplemental analgesia will be needed for NIRS. The NIRS probe will be placed on the anterior scrotum on the left and right sides, immediately overlying the testis but on the skin, to obtain the six total measurements. Thus, the unaffected testis will serve as the patient's own control. NIRS #1 will not delay the scrotal Doppler/B-mode ultrasound or emergent surgical exploration. If the surgeon decides against surgical exploration, then standard care for the other causes of acute scrotum will be provided and the diagnosis will be no testicular torsion. The patient will be discharged home with a standard care follow-up in approximately two weeks in an outpatient urology clinic appointment.\n\n[Passage 6 | doc=NCT02936024 | section=eligibility]\nInclusion Criteria: - boys 1-5 years of age at presentation to Pediatric Urology Clinics - patients diagnosed with intraabdominal UDT - patients who require one- or two-stage repair performed by fellowship-trained Pediatric Urologists Exclusion Criteria: - patients who have undergone previous laparoscopic orchidopexy - patients with palpable testes - patients requiring orchiectomy",
+  "passages": [
+    {
+      "passage_id": "NCT02158780::detailed_description::0",
+      "doc_id": "NCT02158780",
+      "section": "detailed_description",
+      "passage_text": "Undescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy. At the first pre-operative clinic visit participating paediatric urologist will diagnose patients with low-lying palpable UDT. Patients who meet eligibility criteria will be invited to participate in this trial. A computer generated randomization list will be created using random blocks of multiple sizes (4, 6 and 8), by the McMaster Paediatric Surgery Research Collaborative's web-based randomization system. Patients will be allocated to intervention (scrotal orchidopexy) or control (standard inguinal orchidopexy) groups by logging in to the secure central randomization website.",
+      "title": "Expertise-Based Randomized Controlled Trial of Scrotal Versus Inguinal Orchidopexy on Post-operative Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 407.3002612793208,
+      "cross_score": -3.7878761,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04821167::detailed_description::0",
+      "doc_id": "NCT04821167",
+      "section": "detailed_description",
+      "passage_text": "Aim of the study: Herein, the study aims to evaluate the laparoscopic procedure for management of canalicular testis regarding operative safety, efficacy and post-operative outcomes. Brief review of literature: - Different management modalities for intra-canalicular (emergent) testes in male children (open surgery, Laparoscopy). - Advantages of laparoscopic orchiopexy for intra-canalicular (emergent) testes. Patients and Methods: This is a prospective study, will be conducted out at pediatric surgery tertiary centers (Maternity & Children's Hospital in Bisha, KSA and Al-Azhar University hospitals in Cairo, Egypt) on pediatric patients presenting at the pediatric surgery OPD clinic by intra-canalicular (emergent/peeping) testes in the period from January 2019 to October 2020. Enrolled patients will be managed by laparoscopic orchiopexy. All patients enrolled in the study will give a written informed consent. The study will be approved by the Institutional Review Board and ethics committee of the hospitals. The main objective is to assess safety and efficacy of laparoscopic orchiopexy for intra-canalicular (emergent/peeping) testes in male patients.",
+      "title": "Safety and Efficiency of Laparoscopic Management of Intra-canalicular (Emergent) Testis",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 397.28524940610777,
+      "cross_score": -3.9699218,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02606526::eligibility::0",
+      "doc_id": "NCT02606526",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: A baby born at a participating study clinic will be included if s/he: 1. has a mother with a positive HIV test (ELISA or rapid test) 2. is receiving peri-exposure prophylaxis as part of the standard/national guidelines in Uganda 3. has a mother that is of legal age for participation in clinical research studies in Uganda or is an emancipated minor 4. has a mother/caregiver that resides within the study area, is not intending to move out of the area in the next 4 months and is likely to be traceable for up to 12 months 5. has a mother/caregiver that gives informed consent to random assignment to either of the two trial arms 6. has a mother that has received antiretroviral therapy (ART) for at least 4 weeks Exclusion Criteria: A new-born child will be excluded if she/he has: 1. serious congenital malformation(s) 2. severe illness requiring hospitalization 3. a birth weight < 2.0 kg 4. a mother participating in another clinical trial on the day of enrolment or a mother who will participate in another clinical trial within the next month. 5. a mother or other household member with symptoms and signs of tuberculosis on the day of enrolment 6.",
+      "title": "Early Versus Late BCG Vaccination in HIV-1 Exposed Infants in Uganda in Uganda",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 385.166779795402,
+      "cross_score": -4.532276,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04821167::detailed_description::1",
+      "doc_id": "NCT04821167",
+      "section": "detailed_description",
+      "passage_text": "Institutes of the study: A multicenter study at Pediatric Surgery Departments, Maternity & Children's hospital in Bisha, KSA and Al-Azhar University hospitals in Cairo. Number of cases: Sixty two male children. Time frame: period of 1.10 years. Ethical Consideration: The protocol will be discussed and approved for clinical study by the Ethical Research Committee at MCH at Bisha, KSA, and other participating hospitals. The procedures and the aim of the study will be clearly explained to the patient and the family. A written informed consent will be obtained before enrollment of the patients into the study. The family refusal to give consent for laparoscopic management is respected but does not deprive the patient from getting open orchiopexy. Preoperative preparation: Proper examination done for patients using flat and frog leg position with gentile squeezing of testis down, proved by preoperative inguinoscrotal ultrasonography. Follow-up: Patients will be reviewed at the OPD clinic. Patients who could not attend the clinic will be contacted by phone. Postoperative Doppler ultrasonography will be done to assess testicular size and vascularity.",
+      "title": "Safety and Efficiency of Laparoscopic Management of Intra-canalicular (Emergent) Testis",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 397.28524940610777,
+      "cross_score": -4.644458,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01812109::detailed_description::3",
+      "doc_id": "NCT01812109",
+      "section": "detailed_description",
+      "passage_text": "At the surgeon's decision and discretion, either a scrotal Doppler/B-mode ultrasound or emergent surgical exploration will be planned as the next step per standard of care. While waiting for this to occur, the NIRS #1 measurement will be obtained. NIRS #1 is a series of 6 transcutaneous scrotal measurements, three on the left and three on the right. Each measurement is completely non-invasive, painless and takes <15 seconds each. Thus, no sedation or supplemental analgesia will be needed for NIRS. The NIRS probe will be placed on the anterior scrotum on the left and right sides, immediately overlying the testis but on the skin, to obtain the six total measurements. Thus, the unaffected testis will serve as the patient's own control. NIRS #1 will not delay the scrotal Doppler/B-mode ultrasound or emergent surgical exploration. If the surgeon decides against surgical exploration, then standard care for the other causes of acute scrotum will be provided and the diagnosis will be no testicular torsion. The patient will be discharged home with a standard care follow-up in approximately two weeks in an outpatient urology clinic appointment.",
+      "title": "Near-Infrared Spectroscopy for Pediatric Acute Scrotum and Testicular Torsion",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 422.9813992160964,
+      "cross_score": -4.773888,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02936024::eligibility::0",
+      "doc_id": "NCT02936024",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - boys 1-5 years of age at presentation to Pediatric Urology Clinics - patients diagnosed with intraabdominal UDT - patients who require one- or two-stage repair performed by fellowship-trained Pediatric Urologists Exclusion Criteria: - patients who have undergone previous laparoscopic orchidopexy - patients with palpable testes - patients requiring orchiectomy",
+      "title": "One Stage vs. Two Stage Gubernaculum Sparing Laparoscopic Orchidopexy (GSLO)",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 429.7617363008943,
+      "cross_score": -4.8811007,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to be eligible for the clinical trial described in NCT04821167.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [],\n  \"reasoning_summary\": \"The patient is a 5-month-old male with an undescended testis, which aligns with the inclusion criteria for the NCT04821167 trial. However, the patient's age (1-5 years) does not fit within the specified age range for the trial, making it unlikely that they would be eligible.\",\n  \"safety_note\": \"Please consult with your healthcare provider for further evaluation and guidance.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not seem to be eligible for the clinical trial described in NCT04821167.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "The patient is a 5-month-old male with an undescended testis, which aligns with the inclusion criteria for the NCT04821167 trial. However, the patient's age (1-5 years) does not fit within the specified age range for the trial, making it unlikely that they would be eligible.",
+    "safety_note": "Please consult with your healthcare provider for further evaluation and guidance."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not seem to be eligible for the clinical trial described in NCT04821167.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 1,
+  "latency_sec": 13.52
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "case_paraphrase_024",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT02629549",
+  "reference_trial": "NCT02629549",
+  "evidence_trials": [
+    "NCT02629549"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. I have similar symptoms but I'm not sure if I would qualify. What should I check?",
+  "evidence": "[Passage 1 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+  "passages": [
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 275.07723287992457,
+      "cross_score": -2.747809,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you've provided, you may be eligible for this clinical trial, but we need more details to confirm your eligibility. Please contact the study team for further evaluation.\",\n  \"supported_patient_facts\": [\"41-year-old male\", \"History of acromegaly due to pituitary adenoma\", \"Underwent transsphenoidal surgery 4 months ago\", \"Residual pituitary tumor confirmed by recent MRI\"],\n  \"missing_patient_facts\": [\"Current IGF-1 and GH levels relative to trial criteria\", \"Details on previous surgeries and treatments\", \"Specific inclusion/exclusion criteria related to acromegaly status and surgical history\"],\n  \"unresolved_study_requirements\": [\"Exact IGF-1 and GH level thresholds for inclusion\", \"Details on the specific imaging requirements and criteria for residual tumor size\"],\n  \"reasoning_summary\": \"The patient has a history of acromegaly and has undergone transsphenoidal surgery with residual tumor, which aligns with the inclusion criteria. However, there are unresolved requirements regarding the exact IGF-1 and GH level thresholds, as well as specific imaging criteria that need to be met.\",\n  \"safety_note\": \"It is important to ensure that the patient meets all safety and eligibility criteria before enrolling in the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you've provided, you may be eligible for this clinical trial, but we need more details to confirm your eligibility. Please contact the study team for further evaluation.",
+    "supported_patient_facts": [
+      "41-year-old male",
+      "History of acromegaly due to pituitary adenoma",
+      "Underwent transsphenoidal surgery 4 months ago",
+      "Residual pituitary tumor confirmed by recent MRI"
+    ],
+    "missing_patient_facts": [
+      "Current IGF-1 and GH levels relative to trial criteria",
+      "Details on previous surgeries and treatments",
+      "Specific inclusion/exclusion criteria related to acromegaly status and surgical history"
+    ],
+    "unresolved_study_requirements": [
+      "Exact IGF-1 and GH level thresholds for inclusion",
+      "Details on the specific imaging requirements and criteria for residual tumor size"
+    ],
+    "reasoning_summary": "The patient has a history of acromegaly and has undergone transsphenoidal surgery with residual tumor, which aligns with the inclusion criteria. However, there are unresolved requirements regarding the exact IGF-1 and GH level thresholds, as well as specific imaging criteria that need to be met.",
+    "safety_note": "It is important to ensure that the patient meets all safety and eligibility criteria before enrolling in the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you've provided, you may be eligible for this clinical trial, but we need more details to confirm your eligibility. Please contact the study team for further evaluation.",
+  "missing_patient_facts": [
+    "Current IGF-1 and GH levels relative to trial criteria",
+    "Details on previous surgeries and treatments",
+    "Specific inclusion/exclusion criteria related to acromegaly status and surgical history"
+  ],
+  "unresolved_study_requirements": [
+    "Exact IGF-1 and GH level thresholds for inclusion",
+    "Details on the specific imaging requirements and criteria for residual tumor size"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 22.061
+}

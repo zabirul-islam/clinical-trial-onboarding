@@ -1,0 +1,56 @@
+{
+  "case_id": "case_10",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT03850899",
+  "reference_trial": "NCT03850899",
+  "evidence_trials": [
+    "NCT03850899"
+  ],
+  "question": "How much time would this study probably take from me?",
+  "evidence": "[Passage 1 | doc=NCT03850899 | section=detailed_description]\nWhat should I know about this research? - Someone will explain this research to you. - Taking part in this research is voluntary. Whether you take part is up to you. - If you don't take part, it won't be held against you. - You can take part now and later drop out, and it won't be held against you - If you don't understand, ask questions. - Ask all the questions you want before you decide. How long will I be in this research? We expect that your taking part in this research will last up to 6 months, after the 6 months we will look in your medical records every 180 days for up to five years. Why is this research being done? The purpose of this research is to create a clinical database and bio-repository to study alcoholic hepatitis. What happens to me if I agree to take part in this research? If you decide to take part in this research study, the general procedures include: 1) allowing the investigators to review your medical records, 2) answering questions about you and your health, 3) completing questionnaires about alcohol use, 4) having a physical exam and blood drawn, and 5) providing urine and stool samples. Could being in this research hurt me?",
+  "passages": [
+    {
+      "passage_id": "NCT03850899::detailed_description::0",
+      "doc_id": "NCT03850899",
+      "section": "detailed_description",
+      "passage_text": "What should I know about this research? - Someone will explain this research to you. - Taking part in this research is voluntary. Whether you take part is up to you. - If you don't take part, it won't be held against you. - You can take part now and later drop out, and it won't be held against you - If you don't understand, ask questions. - Ask all the questions you want before you decide. How long will I be in this research? We expect that your taking part in this research will last up to 6 months, after the 6 months we will look in your medical records every 180 days for up to five years. Why is this research being done? The purpose of this research is to create a clinical database and bio-repository to study alcoholic hepatitis. What happens to me if I agree to take part in this research? If you decide to take part in this research study, the general procedures include: 1) allowing the investigators to review your medical records, 2) answering questions about you and your health, 3) completing questionnaires about alcohol use, 4) having a physical exam and blood drawn, and 5) providing urine and stool samples. Could being in this research hurt me?",
+      "title": "Alcoholic Hepatitis Network Observational Study",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 30.710429785306715,
+      "cross_score": 1.2937492,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study is expected to last up to 6 months, during which you will have several visits and procedures. After that, your medical records will be reviewed every 180 days for up to five years.\",\n  \"supported_patient_facts\": [\"The study involves reviewing medical records, answering questions, completing questionnaires, physical exams, blood draws, and providing urine and stool samples.\"],\n  \"missing_patient_facts\": [\"The exact number of visits and the frequency of procedures within the initial 6 months are not specified.\"],\n  \"unresolved_study_requirements\": [\"The specific duration and schedule of the study are not fully detailed.\"],\n  \"reasoning_summary\": \"There is a possibility that the patient could be eligible based on the described procedures and timeline, but there is insufficient detail regarding the exact number of visits and the schedule within the initial 6-month period.\",\n  \"safety_note\": \"It is important to note that the safety of the patient is not compromised by the outlined procedures.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study is expected to last up to 6 months, during which you will have several visits and procedures. After that, your medical records will be reviewed every 180 days for up to five years.",
+    "supported_patient_facts": [
+      "The study involves reviewing medical records, answering questions, completing questionnaires, physical exams, blood draws, and providing urine and stool samples."
+    ],
+    "missing_patient_facts": [
+      "The exact number of visits and the frequency of procedures within the initial 6 months are not specified."
+    ],
+    "unresolved_study_requirements": [
+      "The specific duration and schedule of the study are not fully detailed."
+    ],
+    "reasoning_summary": "There is a possibility that the patient could be eligible based on the described procedures and timeline, but there is insufficient detail regarding the exact number of visits and the schedule within the initial 6-month period.",
+    "safety_note": "It is important to note that the safety of the patient is not compromised by the outlined procedures."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study is expected to last up to 6 months, during which you will have several visits and procedures. After that, your medical records will be reviewed every 180 days for up to five years.",
+  "missing_patient_facts": [
+    "The exact number of visits and the frequency of procedures within the initial 6 months are not specified."
+  ],
+  "unresolved_study_requirements": [
+    "The specific duration and schedule of the study are not fully detailed."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.28
+}

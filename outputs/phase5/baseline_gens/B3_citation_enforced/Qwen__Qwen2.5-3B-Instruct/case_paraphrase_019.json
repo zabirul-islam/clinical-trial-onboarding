@@ -1,0 +1,102 @@
+{
+  "case_id": "case_paraphrase_019",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2022",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT01722578",
+    "NCT02860975",
+    "NCT03103009",
+    "NCT03876652",
+    "NCT04530149"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. I have similar symptoms but I'm not sure if I would qualify. What should I check?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.\n\n[Passage 2 | doc=NCT03103009 | section=eligibility]\nIs not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.\n\n[Passage 3 | doc=NCT02860975 | section=detailed_description]\nSample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.\n\n[Passage 4 | doc=NCT03876652 | section=detailed_description]\nProcedures in case of Adverse Events: In the event of any adverse event related or not to the implant or use of the device or any condition of the patient, the patient must notify the group of researchers in the contact telephone numbers that are delivered and according to the severity and needs of the event will be cited in an additional visit for clinical evaluation and / or electrophysiology or will be redirected to the CES Clinic if the event or situation requires management in the emergency department or intrahospital service. Each of these adverse events must be reported on a form and a communication sent within 72 hours after the group of researchers had knowledge of the Human Research Ethics Committee of the CES University, making the event known to all. the details.\n\n[Passage 5 | doc=NCT03876652 | section=summary]\nVasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.\n\n[Passage 6 | doc=NCT01722578 | section=detailed_description]\nDuration of hospitalization was lower in LOLA group compared to placebo (p=0.025). No side effects were observed in either group. 3. Adverse effects of LOLA L-ornithine- L-aspartate is usually well tolerated (18-25). No serious adverse events have been reported so far in clinical trials. The various adverse events reported in about 14% patients treated with LOLA include: 1. Nausea 2. Vomiting 3. Fatigue B. Materials and Methods 1. Study design and setting: This will be a prospective, randomized, double blind, placebo controlled interventional study. The study will be conducted on patients of cirrhosis admitted with overt HE in the Department of Gastroenterology, Dayanand Medical College and Hospital, Ludhiana and Department of Hepatology, GB Pant Hospital, New Delhi. Informed consent shall be taken from the nearest relative of the patient for enrollment in the trial. The study shall be presented for approval to the Institutional Ethics Committee prior to the enrollment of patients into the study. It shall be registered with Clinical Trial Registry, India and the ClinicalTrials.gov registry. 2. Study population: Inclusion and exclusion criteria have been mentioned elsewhere. 3.",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 226.12732359440665,
+      "cross_score": -4.6300554,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03103009::eligibility::1",
+      "doc_id": "NCT03103009",
+      "section": "eligibility",
+      "passage_text": "Is not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.",
+      "title": "Treatment Plan for an Individual Patient With Pasireotide for Hyperinsulinemic Hypoglycemia",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 220.90759652032887,
+      "cross_score": -5.7864475,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02860975::detailed_description::3",
+      "doc_id": "NCT02860975",
+      "section": "detailed_description",
+      "passage_text": "Sample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.",
+      "title": "Prolonged Hypoxic Breathing in Healthy Volunteers: a Safety Study",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 227.44229048383644,
+      "cross_score": -6.104543,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03876652::detailed_description::11",
+      "doc_id": "NCT03876652",
+      "section": "detailed_description",
+      "passage_text": "Procedures in case of Adverse Events: In the event of any adverse event related or not to the implant or use of the device or any condition of the patient, the patient must notify the group of researchers in the contact telephone numbers that are delivered and according to the severity and needs of the event will be cited in an additional visit for clinical evaluation and / or electrophysiology or will be redirected to the CES Clinic if the event or situation requires management in the emergency department or intrahospital service. Each of these adverse events must be reported on a form and a communication sent within 72 hours after the group of researchers had knowledge of the Human Research Ethics Committee of the CES University, making the event known to all. the details.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 222.6507095570782,
+      "cross_score": -6.1732354,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03876652::summary::0",
+      "doc_id": "NCT03876652",
+      "section": "summary",
+      "passage_text": "Vasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 222.6507095570782,
+      "cross_score": -6.220889,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01722578::detailed_description::8",
+      "doc_id": "NCT01722578",
+      "section": "detailed_description",
+      "passage_text": "Duration of hospitalization was lower in LOLA group compared to placebo (p=0.025). No side effects were observed in either group. 3. Adverse effects of LOLA L-ornithine- L-aspartate is usually well tolerated (18-25). No serious adverse events have been reported so far in clinical trials. The various adverse events reported in about 14% patients treated with LOLA include: 1. Nausea 2. Vomiting 3. Fatigue B. Materials and Methods 1. Study design and setting: This will be a prospective, randomized, double blind, placebo controlled interventional study. The study will be conducted on patients of cirrhosis admitted with overt HE in the Department of Gastroenterology, Dayanand Medical College and Hospital, Ludhiana and Department of Hepatology, GB Pant Hospital, New Delhi. Informed consent shall be taken from the nearest relative of the patient for enrollment in the trial. The study shall be presented for approval to the Institutional Ethics Committee prior to the enrollment of patients into the study. It shall be registered with Clinical Trial Registry, India and the ClinicalTrials.gov registry. 2. Study population: Inclusion and exclusion criteria have been mentioned elsewhere. 3.",
+      "title": "L-ornithine L-aspartate in Overt Hepatic Encephalopathy",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 219.09597655973124,
+      "cross_score": -6.2779245,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your description, it seems like you might be eligible for a clinical trial focused on treating syncope, especially if you have recurrent episodes of syncope during physical activity. However, we need more information to confirm.\",\n  \"supported_patient_facts\": [\"A 23-year-old man came to the emergency department with an episode of syncope following physical activity.\", \"He has had 3 other episodes of light-headedness over the last year, all happening during physical activity.\", \"He has no other medical conditions.\", \"His father died suddenly at age 35.\"],\n  \"missing_patient_facts\": [\"Your medical history, including past surgeries, allergies, and current medications.\", \"Your family history of heart conditions.\", \"Your detailed physical examination findings, such as echocardiography results.\"],\n  \"unresolved_study_requirements\": [\"The specific clinical trial you're inquiring about focuses on patients with neurally mediated syncope, which is a type of vasovagal syncope. Your patient's symptoms align with this, but we need to confirm the exact diagnosis.\", \"We also need to know if you have any contraindications to the treatment being studied, such as a known hypersensitivity to somatostatin analogs or abnormal coagulation.\"],\n  \"reasoning_summary\": \"Your symptoms and family history suggest you might be eligible for a clinical trial focusing on treating syncope. However, we need more information to confirm your eligibility and ensure you do not have any contraindications to the treatment being studied.\",\n  \"safety_note\": \"It's important to note that the specific clinical trial you're inquiring about involves invasive procedures and may carry certain risks. Always discuss these with your healthcare provider.\"\n}\nalso return: \"support_passages\": {\"patient_facing_answer\": [5], \"reasoning_summary\": [5, 1, 2, 3, 4, 6]}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.17
+}

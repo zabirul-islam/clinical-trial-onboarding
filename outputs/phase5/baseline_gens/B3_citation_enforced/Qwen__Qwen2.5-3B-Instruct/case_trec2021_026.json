@@ -1,0 +1,139 @@
+{
+  "case_id": "case_trec2021_026",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00370344",
+  "selected_doc": "NCT04030741",
+  "reference_trial": "NCT04030741",
+  "evidence_trials": [
+    "NCT03529955",
+    "NCT03591419",
+    "NCT04030741",
+    "NCT04033822",
+    "NCT04350346"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 45-year-old woman was referred to the emergency department with abdominal pain lasting about 4 days accompanied by nausea and 2 episodes of vomiting. The pain is localized to the epigastric region and radiates to the right upper quadrant. The pain is worsening after eating fatty food. The patient experienced similar pain twice in the past year. Her past medical history is remarkable for hypercholesterolemia and two C/sections. She has 2 children, and she is menopausal. She doesn't smoke, drink alcohol, or use illicit drugs. She is mildly febrile. Her BP is 150/85, HR 115, RR 15, T 38.2, SpO2 98% on RA. On palpation, she experiences epigastric tenderness and tenderness in the right upper quadrant without rebound. Bowel sounds are normal. Laboratory analysis is remarkable for elevated ESR and leukocytosis with a left shift. The ultrasound revealed several gallstones and biliary sludge. The largest gallstone is 0.7cm. Surgery consultation recommends elective cholecystectomy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04030741 | section=detailed_description]\nAcute appendicitis is one of the most common presenting conditions in pediatric emergencies. It has an estimated lifetime risk of about 8%. Although it commonly occurs in the second decade of life but 11.4% children are diagnosed with acute appendicitis in the pediatric emergency. The rationale of my study is that limited local clinical trial is available regarding the efficacy of non-operative treatment with antibiotics vs operative treatment of acute non-perforated appendicitis in children. All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having pediatric appendicitis score (PAS anexure 1) >7 will be included in the study. All the patients inducted in the study will be randomly divided into two groups: Non-operative treatment (group A) and operative treatment (group B), using computer generated number. Each patient will be evaluated and relevant data according to the predesigned questionnaire will be collected and documented. Age, duration of symptoms, body temperature,C-reactive protein, white blood cell, neutrophil concentrations, Ultrasound findings and PAS score will be noted at the time of admission.\n\n[Passage 2 | doc=NCT04350346 | section=detailed_description]\nAt Severance Hospital, patients with cholelithiasis with symptoms of indigestion are divided into the Motilitone\u00ae and Gasmotin\u00ae groups. Provide sufficient oral and written explanation of the clinical trial and obtain consent from the patient who has revealed his willingness to participate. Randomization uses random numbers, and patient assignment by random numbers is managed by a third party who does not have direct contact with the patient or clinical history, and after obtaining consent, the group according to the random number is given and medication is given. It is provided to. Each drug is prescribed for 6 months. The symptom score check should be completed at the first outpatient visit(3 months after administration). We will Check the following items through abdominal ultrasound examination 6 months after administration. : Gallbladder wall thickening presence and extent, number of gallstones, maximum diameter of gallstones, presence or absence of sludge.\n\n[Passage 3 | doc=NCT04033822 | section=eligibility]\n1. Age \u226545 years; or age \u226518 years and <45 years with at least one of the following co-morbidities: diabetes or chronic respiratory, cardiovascular, or renal disease; 2. Diagnosis of acute cholecystitis defined by the presence of at least 2 of the following: 1. Abdominal pain in upper right quadrant, 2. Murphy's sign, 3. Leukocytosis >10 \u00d7 103/\u03bcl, or 4. Oral temperature <36.5\u00b0C or >38\u00b0C; 3. Cholelithiasis (stones/sludge); 4. Ultrasound signs of cholecystitis; 5. Acute cholecystitis that requires surgery and is diagnosed during working hours; 6. Expected to require at least an overnight hospital admission after surgery; and 7. Provide written informed consent to participate in FAST. Exclusion Criteria 1. Patients requiring emergent surgery or emergent interventions for another reason; 2. Patients whose therapeutic anticoagulation is not reversible; 3. Patients with a history of heparin-induced thrombocytopenia and current use of warfarin with an INR \u22651.5; 4. Pregnant patients; 5. Previous participation in the trial.\n\n[Passage 4 | doc=NCT03591419 | section=detailed_description]\nAppendicitis is defined as an inflammation of the inner lining of the vermiform appendix that spreads to its other parts.[1] Features of acute appendicitis include right lower quadrant pain starting from epigastrium or umblical region which then shifts to right iliac fossa, associated with nausea, vomiting, anorexia or fever. On examination tenderness, rebound tenderness and guarding are usually present in right iliac fossa. Various laboratory investigations to diagnose appendicitis include complete blood count, ultrasound abdomen and CT scan abdomen. A large, single center study found that multi detector CT (MDCT) has a high rate of sensitivity and specificity (98.5% and 98%, respectively) for diagnosing acute appendicitis.[2] Appendicitis may occur for several reasons, such as an infection of the appendix, but the most important factor is the obstruction of the appendiceal lumen. Left untreated, appendicitis has the potential for severe complications, including perforation, peritonitis, sepsis, and may even cause death. Appendectomy is the most effective treatment of acute appendicitis and the most commonly performed operation of emergency surgery worldwide.\n\n[Passage 5 | doc=NCT03529955 | section=detailed_description]\nTulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.\n\n[Passage 6 | doc=NCT04030741 | section=eligibility]\nInclusion Criteria: \u2022 All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having PAS score >7will be included in the study. Exclusion Criteria: - Patient with suspicion of perforated appendicitis on the basis of generalized peritonitis and abscess formation on ultrasound. - Patients with an appendicular mass, diagnosed by clinical examination and ultrasonography. - Patient with previous non-operative treatment of acute appendicitis (recurrent appendicitis) - Patients with C-reactive proteins > 40 mg/L. - Patients with history of any previous abdominal surgery.",
+  "passages": [
+    {
+      "passage_id": "NCT04030741::detailed_description::0",
+      "doc_id": "NCT04030741",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is one of the most common presenting conditions in pediatric emergencies. It has an estimated lifetime risk of about 8%. Although it commonly occurs in the second decade of life but 11.4% children are diagnosed with acute appendicitis in the pediatric emergency. The rationale of my study is that limited local clinical trial is available regarding the efficacy of non-operative treatment with antibiotics vs operative treatment of acute non-perforated appendicitis in children. All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having pediatric appendicitis score (PAS anexure 1) >7 will be included in the study. All the patients inducted in the study will be randomly divided into two groups: Non-operative treatment (group A) and operative treatment (group B), using computer generated number. Each patient will be evaluated and relevant data according to the predesigned questionnaire will be collected and documented. Age, duration of symptoms, body temperature,C-reactive protein, white blood cell, neutrophil concentrations, Ultrasound findings and PAS score will be noted at the time of admission.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 381.8298648051753,
+      "cross_score": -4.9279394,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04350346::detailed_description::0",
+      "doc_id": "NCT04350346",
+      "section": "detailed_description",
+      "passage_text": "At Severance Hospital, patients with cholelithiasis with symptoms of indigestion are divided into the Motilitone\u00ae and Gasmotin\u00ae groups. Provide sufficient oral and written explanation of the clinical trial and obtain consent from the patient who has revealed his willingness to participate. Randomization uses random numbers, and patient assignment by random numbers is managed by a third party who does not have direct contact with the patient or clinical history, and after obtaining consent, the group according to the random number is given and medication is given. It is provided to. Each drug is prescribed for 6 months. The symptom score check should be completed at the first outpatient visit(3 months after administration). We will Check the following items through abdominal ultrasound examination 6 months after administration. : Gallbladder wall thickening presence and extent, number of gallstones, maximum diameter of gallstones, presence or absence of sludge.",
+      "title": "The Comparative Analysis Between Motilitone and Gasmotin for the Symptom Relief in Gallstone Patients With Functional Dyspepsia",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 371.3869652955261,
+      "cross_score": -6.0752625,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04033822::eligibility::0",
+      "doc_id": "NCT04033822",
+      "section": "eligibility",
+      "passage_text": "1. Age \u226545 years; or age \u226518 years and <45 years with at least one of the following co-morbidities: diabetes or chronic respiratory, cardiovascular, or renal disease; 2. Diagnosis of acute cholecystitis defined by the presence of at least 2 of the following: 1. Abdominal pain in upper right quadrant, 2. Murphy's sign, 3. Leukocytosis >10 \u00d7 103/\u03bcl, or 4. Oral temperature <36.5\u00b0C or >38\u00b0C; 3. Cholelithiasis (stones/sludge); 4. Ultrasound signs of cholecystitis; 5. Acute cholecystitis that requires surgery and is diagnosed during working hours; 6. Expected to require at least an overnight hospital admission after surgery; and 7. Provide written informed consent to participate in FAST. Exclusion Criteria 1. Patients requiring emergent surgery or emergent interventions for another reason; 2. Patients whose therapeutic anticoagulation is not reversible; 3. Patients with a history of heparin-induced thrombocytopenia and current use of warfarin with an INR \u22651.5; 4. Pregnant patients; 5. Previous participation in the trial.",
+      "title": "Fast Track Pathway to Accelerated Cholecystectomy",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 376.3002540863482,
+      "cross_score": -6.2007265,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03591419::detailed_description::0",
+      "doc_id": "NCT03591419",
+      "section": "detailed_description",
+      "passage_text": "Appendicitis is defined as an inflammation of the inner lining of the vermiform appendix that spreads to its other parts.[1] Features of acute appendicitis include right lower quadrant pain starting from epigastrium or umblical region which then shifts to right iliac fossa, associated with nausea, vomiting, anorexia or fever. On examination tenderness, rebound tenderness and guarding are usually present in right iliac fossa. Various laboratory investigations to diagnose appendicitis include complete blood count, ultrasound abdomen and CT scan abdomen. A large, single center study found that multi detector CT (MDCT) has a high rate of sensitivity and specificity (98.5% and 98%, respectively) for diagnosing acute appendicitis.[2] Appendicitis may occur for several reasons, such as an infection of the appendix, but the most important factor is the obstruction of the appendiceal lumen. Left untreated, appendicitis has the potential for severe complications, including perforation, peritonitis, sepsis, and may even cause death. Appendectomy is the most effective treatment of acute appendicitis and the most commonly performed operation of emergency surgery worldwide.",
+      "title": "Polymer Clips Vs Endoloop for Appendicular Stump Ligation",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 387.1536450236253,
+      "cross_score": -6.2718687,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::1",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Tulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 371.585701407043,
+      "cross_score": -6.272729,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04030741::eligibility::0",
+      "doc_id": "NCT04030741",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: \u2022 All children between 5 and 15 years of age of both genders admitted in the pediatric surgery emergency with having PAS score >7will be included in the study. Exclusion Criteria: - Patient with suspicion of perforated appendicitis on the basis of generalized peritonitis and abscess formation on ultrasound. - Patients with an appendicular mass, diagnosed by clinical examination and ultrasonography. - Patient with previous non-operative treatment of acute appendicitis (recurrent appendicitis) - Patients with C-reactive proteins > 40 mg/L. - Patients with history of any previous abdominal surgery.",
+      "title": "Non-operative Treatment of Acute Non-perforated Appendicitis",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 381.8298648051753,
+      "cross_score": -6.4669933,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your symptoms, you seem to fit the description of acute cholecystitis, which is a condition that can be treated surgically. However, we need more information to confirm if you meet all the eligibility criteria.\",\n  \"supported_patient_facts\": [\"A 45-year-old woman with abdominal pain in the epigastric region and right upper quadrant, nausea, and vomiting.\", \"The pain is localized and worsens after eating fatty foods.\", \"She has a history of gallstones and biliary sludge as shown by ultrasound.\", \"She has been diagnosed with cholelithiasis and biliary sludge.\", \"She has a history of hypercholesterolemia and two C-sections.\", \"She is menopausal and doesn't smoke, drink alcohol, or use illicit drugs.\", \"She is mildly febrile with a temperature of 38.2\u00b0C.\", \"Her blood pressure is 150/85 mmHg, heart rate is 115 bpm, respiratory rate is 15 breaths/min, and temperature is 38.2\u00b0C.\", \"Laboratory tests show elevated ESR and leukocytosis with a left shift.\", \"Ultrasound reveals several gallstones and biliary sludge.\"],\n  \"missing_patient_facts\": [\"Past surgical history\", \"Current medications\", \"Results of imaging studies other than ultrasound\", \"Specific details of the patient's medical history related to diabetes, chronic respiratory, cardiovascular, or renal disease\"],\n  \"unresolved_study_requirements\": [\"No specific mention of the patient's ability to provide written informed consent.\", \"No specific mention of the patient's eligibility based on the PAS score.\", \"No specific mention of the patient's eligibility based on the presence of co-morbidities like diabetes or chronic respiratory, cardiovascular, or renal disease.\"],\n  \"reasoning_summary\": \"The patient's symptoms and test results align with acute cholecystitis, which is a primary inclusion criterion for this study. However, the patient's eligibility is uncertain due to missing information about their ability to provide written informed consent, their PAS score, and their co-morbidities.\",\n  \"safety_note\": \"Please consult with your healthcare provider before participating in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "A 45-year-old woman with abdominal pain in the epigastric region and right upper quadrant, nausea, and vomiting.",
+      "The pain is localized and worsens after eating fatty foods.",
+      "She has a history of gallstones and biliary sludge as shown by ultrasound.",
+      "She has been diagnosed with cholelithiasis and biliary sludge.",
+      "She has a history of hypercholesterolemia and two C-sections.",
+      "She is menopausal and doesn't smoke, drink alcohol, or use illicit drugs.",
+      "She is mildly febrile with a temperature of 38.2\u00b0C.",
+      "Her blood pressure is 150/85 mmHg, heart rate is 115 bpm, respiratory rate is 15 breaths/min, and temperature is 38.2\u00b0C.",
+      "Laboratory tests show elevated ESR and leukocytosis with a left shift.",
+      "Ultrasound reveals several gallstones and biliary sludge."
+    ],
+    "missing_patient_facts": [
+      "Past surgical history",
+      "Current medications",
+      "Results of imaging studies other than ultrasound",
+      "Specific details of the patient's medical history related to diabetes, chronic respiratory, cardiovascular, or renal disease"
+    ],
+    "unresolved_study_requirements": [
+      "No specific mention of the patient's ability to provide written informed consent.",
+      "No specific mention of the patient's eligibility based on the PAS score.",
+      "No specific mention of the patient's eligibility based on the presence of co-morbidities like diabetes or chronic respiratory, cardiovascular, or renal disease."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "Please consult with your healthcare provider before participating in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "Past surgical history",
+    "Current medications",
+    "Results of imaging studies other than ultrasound",
+    "Specific details of the patient's medical history related to diabetes, chronic respiratory, cardiovascular, or renal disease"
+  ],
+  "unresolved_study_requirements": [
+    "No specific mention of the patient's ability to provide written informed consent.",
+    "No specific mention of the patient's eligibility based on the PAS score.",
+    "No specific mention of the patient's eligibility based on the presence of co-morbidities like diabetes or chronic respiratory, cardiovascular, or renal disease."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.785
+}

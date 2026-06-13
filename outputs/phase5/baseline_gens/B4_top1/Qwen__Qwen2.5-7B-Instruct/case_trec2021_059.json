@@ -1,0 +1,75 @@
+{
+  "case_id": "case_trec2021_059",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001909",
+  "selected_doc": "NCT01634113",
+  "reference_trial": "NCT01634113",
+  "evidence_trials": [
+    "NCT01634113"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough. According to his mother, he didn't respond to the usual corticosteroid inhaler. He was admitted to the emergency department with diagnosis of severe asthma exacerbation. He is a candidate for general corticosteroid therapy. Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted. His past medical history is non-significant. His family history is significant for asthma in his mother and his uncle. He used to be treated with combination of inhaled corticosteroids and Zafirlukast. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.\n\n[Passage 2 | doc=NCT01634113 | section=summary]\nThe primary objective of this trial is to evaluate the safety and efficacy of two doses of tiotropium inhalation solution delivered via the Respimat\u00ae inhaler once daily in the afternoon in patients (1 to 5 years old) with persistent asthma on top of inhaled corticosteroid (ICS) treatment.",
+  "passages": [
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 323.12420722430534,
+      "cross_score": -1.8302563,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01634113::summary::0",
+      "doc_id": "NCT01634113",
+      "section": "summary",
+      "passage_text": "The primary objective of this trial is to evaluate the safety and efficacy of two doses of tiotropium inhalation solution delivered via the Respimat\u00ae inhaler once daily in the afternoon in patients (1 to 5 years old) with persistent asthma on top of inhaled corticosteroid (ICS) treatment.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 323.12420722430534,
+      "cross_score": -3.9159503,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it does not seem that you meet all the eligibility criteria for this clinical trial. However, we recommend discussing your case with the study team to confirm.\",\n  \"supported_patient_facts\": [\"Asthma diagnosis within a year\", \"Shortness of breath, chest tightening, and cough\", \"Family history of asthma\", \"Use of combination of inhaled corticosteroids and Zafirlukast\"],\n  \"missing_patient_facts\": [\"Age (should be 1-5 years old)\", \"Persistent asthma symptoms requiring inhalation corticosteroid maintenance therapy\", \"Impaired lung function (FEV1 \u2264 90% of predicted normal)\"],\n  \"unresolved_study_requirements\": [\"Stable dose of inhaled corticosteroid for at least 4 weeks before Visit 1\"],\n  \"reasoning_summary\": \"The patient is older than the required age range (1-5 years old) and does not have documented impaired lung function (FEV1 \u2264 90% of predicted normal), which are critical criteria for the trial. Additionally, there is no mention of persistent asthma symptoms requiring inhalation corticosteroid maintenance therapy. These factors make it unlikely that the patient meets the eligibility criteria. Further discussion with the study team may be necessary to clarify any unresolved requirements.\",\n  \"safety_note\": \"Given the patient's current condition and the specific age requirement, additional safety considerations should be discussed with the study team.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it does not seem that you meet all the eligibility criteria for this clinical trial. However, we recommend discussing your case with the study team to confirm.",
+    "supported_patient_facts": [
+      "Asthma diagnosis within a year",
+      "Shortness of breath, chest tightening, and cough",
+      "Family history of asthma",
+      "Use of combination of inhaled corticosteroids and Zafirlukast"
+    ],
+    "missing_patient_facts": [
+      "Age (should be 1-5 years old)",
+      "Persistent asthma symptoms requiring inhalation corticosteroid maintenance therapy",
+      "Impaired lung function (FEV1 \u2264 90% of predicted normal)"
+    ],
+    "unresolved_study_requirements": [
+      "Stable dose of inhaled corticosteroid for at least 4 weeks before Visit 1"
+    ],
+    "reasoning_summary": "The patient is older than the required age range (1-5 years old) and does not have documented impaired lung function (FEV1 \u2264 90% of predicted normal), which are critical criteria for the trial. Additionally, there is no mention of persistent asthma symptoms requiring inhalation corticosteroid maintenance therapy. These factors make it unlikely that the patient meets the eligibility criteria. Further discussion with the study team may be necessary to clarify any unresolved requirements.",
+    "safety_note": "Given the patient's current condition and the specific age requirement, additional safety considerations should be discussed with the study team."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it does not seem that you meet all the eligibility criteria for this clinical trial. However, we recommend discussing your case with the study team to confirm.",
+  "missing_patient_facts": [
+    "Age (should be 1-5 years old)",
+    "Persistent asthma symptoms requiring inhalation corticosteroid maintenance therapy",
+    "Impaired lung function (FEV1 \u2264 90% of predicted normal)"
+  ],
+  "unresolved_study_requirements": [
+    "Stable dose of inhaled corticosteroid for at least 4 weeks before Visit 1"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 24.403
+}

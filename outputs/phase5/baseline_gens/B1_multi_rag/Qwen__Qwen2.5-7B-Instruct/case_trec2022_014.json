@@ -1,0 +1,130 @@
+{
+  "case_id": "case_trec2022_014",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04326582",
+  "reference_trial": "NCT04326582",
+  "evidence_trials": [
+    "NCT00549549",
+    "NCT01078389",
+    "NCT03038386",
+    "NCT03128905",
+    "NCT04012294",
+    "NCT04326582"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man comes to the emergency department with an acute onset of severe left toe pain. The toe is red and exhibits swelling. The patient is not febrile, and does not remember any recent trauma. Medical history is not significant except for the similar attacks and the diagnosis of gouty arthritis. His medication history includes Allopurinol to prevent gouty attacks. His father has the same medical condition. However, his older brother who is 41 years old is healthy with no history of gouty arthritis. Physical examination shows a swollen, tender first metatarsophalangeal joint. Aspiration of the joint showed high leukocyte count, negative Gram stain, and numerous needle-shaped crystals, which is compatible with gouty arthritis. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04326582 | section=detailed_description]\n- Although acute monoarthritis (as for instance septic arthritis) is usually considered to be a medical emergency, it is not often realized that patients with polyarthritis also need to be evaluated promptly to ensure timely management. Delays in diagnosis and/or treatment may result in significant morbidity, as for example in rheumatic fever and Kawasaki disease. It cannot be overemphasized enough that the most important clues to underlying etiology in a patient with polyarticular disease are found not in the investigations but in the clinical history and physical examination. Some investigations (e.g. radiographs of joints) are commonly done but may have little or no role in the initial assessment of the patient. Polyarticular joint disease has multi-factorial etiology. It may present acutely as in self limiting viral illnesses or it can be the beginning of a chronic sinister disease. The underlying etiological process can be infectious or post infectious, a rheumatological disease or a manifestation of systemic disease. The disease may evolve over days or sometimes weeks, thereby making the diagnosis difficult at the time of presentation. Viral infections (for e.g.\n\n[Passage 2 | doc=NCT00549549 | section=eligibility]\nInclusion Criteria: - Acute gouty arthritis meeting the American College of Rheumatology (ACR) criteria for acute arthritis of primary gout; - Onset of pain from an acute gouty arthritis attack within 48 hours prior to Screening/Baseline (Visit 1); - A rating of moderate, severe, or extreme (2, 3, or 4, respectively) on the Patient's assessment of pain intensity in the index joint (5-point scale:0-4) at Screening/Baseline. Exclusion Criteria: - Diagnosis of any other type of arthritis including those types suspected of being infectious in origin in the index joint or presence of any acute trauma of the index joint. Patients with osteoarthritis will be included as long as it is mild or moderate (according to investigator's criteria) and it does not affect the index joint; - Acute polyarticular gout involving greater than 4 joints or chronic gout.\n\n[Passage 3 | doc=NCT03128905 | section=eligibility]\nInclusion Criteria: - Patient aged 65 and older - Patient with mono/polyarticular CPPD acute arthritis - Hospitalized patient (without infectious syndrome considered insufficiently controlled by the clinicians and diabetic decompensation) - Diagnosis confirmed : - By the evidence of CPP crystals on synovial fluid examination. - By the existence of a typical clinical arthritis (joint pain, erythema, swelling, maximal intensity in less than 24h) AND presence of chondrocalcinosis signs in knee, wrists, or pubic symphysis on plain X-rays or crowned tooth in cervical rachis scan. - Pain VAS \u2265 40/100 at the enrollment - Duration of symptoms evolution for less than 36h. - No prior intake of oral steroids, colchicine or NSAIDs for this acute arthritis. - Signed patient's consent. - Affiliation to a social security scheme.\n\n[Passage 4 | doc=NCT03038386 | section=eligibility]\nInclusion Criteria: - Age > 18 years - Mono or oligo arthritis (2-3 swollen joints) - Indication for diagnostic aspiration of an inflamed joint in which gout is one of the possibilities Exclusion Criteria: - Polyarthritis ( up to 4 swollen joint); - Chrystal proven gout in history - Patient is on uric acid lowering therapy (Allopurinol, Benzbromaron, Febuxostat) - Hip arthritis* - Metal or prosthesis of the inflamed joint - Highly suspicion of infectious arthritis - Pregnancy - Contra indication of joint aspiration (skin infection, hemophilia) - No informed consent\n\n[Passage 5 | doc=NCT01078389 | section=eligibility]\n- More than one attack of acute arthritis* - maximum inflammation developed within 1 day - monoarticular arthritis - redness observed over joints - first metatarsophalangeal joint painful or swollen - unilateral first metatarsophalangeal joint attack - unilateral tarsal joint attack - tophus (proven or suspected) - hyperuricemia - asymmetric swelling within a joint on x-ray - sub-cortical cysts without erosions on x-ray - joint fluid culture negative for organisms during attacks - *More than one flare criteria will be excluded for the purpose of this study if the participant has a history of only a single acute gout flare. - Is male and at least 18 years of age OR; - Female \u226545 years of age and at least 2 years post-menopausal AND has a Follicle Stimulating Hormone (FSH) level \u226540 IU/L OR - Female receiving hormone replacement therapy (HRT) must be \u226555 years of age (FSH level not required). - Has hyperuricemia defined as serum Uric Acid (sUA) level \u22657.0 mg/dL at Screening. - Has a history of \u22642 (1 or 2) flares. In participants with a history of 2 flares, must have had only one flare in any 12 month period.\n\n[Passage 6 | doc=NCT04012294 | section=eligibility]\nInclusion Criteria: - Individuals with two urate determinations >7 mg/dL in the last year and no clinical sign, past or present, suggestive of joint inflammation (acute gout attack), urolithiasis or uric acid nephropathy - Over 18 years of age - Residents of Mexico City or its metropolitan area - Individuals with a signed informed consent form for the participation in the clinical trial Exclusion Criteria: - Individuals with joint inflammation suggestive of gout during the clinical evaluation - Patients without elemental ultrasonographic lesions (double contour sign, aggregates, tophi) on the first metatarsophalangeal joint, knee, ankle or the tendons of the quadriceps, patella, and calcaneus when evaluated by MSUS - Patients taking thiazides - Patients with history of stroke or coronary artery disease in the last year - Patients with osteoarthritis be it by clinical presentation or imaging - Pregnant women - Neoplasms - Known Hepatitis B Virus (HBV), Hepatitis C Virus (HCV) , Human immunodeficiency Virus (HIV) infection, or any other know active infections - Autoimmune or autoinflammatory disease - Allopurinol hypersensitivity or allergy - Deteriorated kidney function (Glomerular",
+  "passages": [
+    {
+      "passage_id": "NCT04326582::detailed_description::2",
+      "doc_id": "NCT04326582",
+      "section": "detailed_description",
+      "passage_text": "- Although acute monoarthritis (as for instance septic arthritis) is usually considered to be a medical emergency, it is not often realized that patients with polyarthritis also need to be evaluated promptly to ensure timely management. Delays in diagnosis and/or treatment may result in significant morbidity, as for example in rheumatic fever and Kawasaki disease. It cannot be overemphasized enough that the most important clues to underlying etiology in a patient with polyarticular disease are found not in the investigations but in the clinical history and physical examination. Some investigations (e.g. radiographs of joints) are commonly done but may have little or no role in the initial assessment of the patient. Polyarticular joint disease has multi-factorial etiology. It may present acutely as in self limiting viral illnesses or it can be the beginning of a chronic sinister disease. The underlying etiological process can be infectious or post infectious, a rheumatological disease or a manifestation of systemic disease. The disease may evolve over days or sometimes weeks, thereby making the diagnosis difficult at the time of presentation. Viral infections (for e.g.",
+      "title": "Arthritis in Assiut University Children Hospital",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 310.38367939408977,
+      "cross_score": -5.7614417,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00549549::eligibility::0",
+      "doc_id": "NCT00549549",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Acute gouty arthritis meeting the American College of Rheumatology (ACR) criteria for acute arthritis of primary gout; - Onset of pain from an acute gouty arthritis attack within 48 hours prior to Screening/Baseline (Visit 1); - A rating of moderate, severe, or extreme (2, 3, or 4, respectively) on the Patient's assessment of pain intensity in the index joint (5-point scale:0-4) at Screening/Baseline. Exclusion Criteria: - Diagnosis of any other type of arthritis including those types suspected of being infectious in origin in the index joint or presence of any acute trauma of the index joint. Patients with osteoarthritis will be included as long as it is mild or moderate (according to investigator's criteria) and it does not affect the index joint; - Acute polyarticular gout involving greater than 4 joints or chronic gout.",
+      "title": "Celebrex In Acute Gouty Arthritis Study",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 309.36031998193965,
+      "cross_score": -6.3336883,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03128905::eligibility::0",
+      "doc_id": "NCT03128905",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient aged 65 and older - Patient with mono/polyarticular CPPD acute arthritis - Hospitalized patient (without infectious syndrome considered insufficiently controlled by the clinicians and diabetic decompensation) - Diagnosis confirmed : - By the evidence of CPP crystals on synovial fluid examination. - By the existence of a typical clinical arthritis (joint pain, erythema, swelling, maximal intensity in less than 24h) AND presence of chondrocalcinosis signs in knee, wrists, or pubic symphysis on plain X-rays or crowned tooth in cervical rachis scan. - Pain VAS \u2265 40/100 at the enrollment - Duration of symptoms evolution for less than 36h. - No prior intake of oral steroids, colchicine or NSAIDs for this acute arthritis. - Signed patient's consent. - Affiliation to a social security scheme.",
+      "title": "Trial of Colchicine Versus Prednisone for the Treatment of Acute CPPD Arthritis",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 304.2312779861179,
+      "cross_score": -6.4446325,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03038386::eligibility::0",
+      "doc_id": "NCT03038386",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age > 18 years - Mono or oligo arthritis (2-3 swollen joints) - Indication for diagnostic aspiration of an inflamed joint in which gout is one of the possibilities Exclusion Criteria: - Polyarthritis ( up to 4 swollen joint); - Chrystal proven gout in history - Patient is on uric acid lowering therapy (Allopurinol, Benzbromaron, Febuxostat) - Hip arthritis* - Metal or prosthesis of the inflamed joint - Highly suspicion of infectious arthritis - Pregnancy - Contra indication of joint aspiration (skin infection, hemophilia) - No informed consent",
+      "title": "Diagnostic Value of DECT Scan Compared to Diagnostic Needle Aspiration",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 318.7466668003839,
+      "cross_score": -6.4945498,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01078389::eligibility::1",
+      "doc_id": "NCT01078389",
+      "section": "eligibility",
+      "passage_text": "- More than one attack of acute arthritis* - maximum inflammation developed within 1 day - monoarticular arthritis - redness observed over joints - first metatarsophalangeal joint painful or swollen - unilateral first metatarsophalangeal joint attack - unilateral tarsal joint attack - tophus (proven or suspected) - hyperuricemia - asymmetric swelling within a joint on x-ray - sub-cortical cysts without erosions on x-ray - joint fluid culture negative for organisms during attacks - *More than one flare criteria will be excluded for the purpose of this study if the participant has a history of only a single acute gout flare. - Is male and at least 18 years of age OR; - Female \u226545 years of age and at least 2 years post-menopausal AND has a Follicle Stimulating Hormone (FSH) level \u226540 IU/L OR - Female receiving hormone replacement therapy (HRT) must be \u226555 years of age (FSH level not required). - Has hyperuricemia defined as serum Uric Acid (sUA) level \u22657.0 mg/dL at Screening. - Has a history of \u22642 (1 or 2) flares. In participants with a history of 2 flares, must have had only one flare in any 12 month period.",
+      "title": "Effect of Febuxostat on Joint Damage in Hyperuricemic Subjects With Early Gout",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 311.4319693032814,
+      "cross_score": -6.5312576,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04012294::eligibility::0",
+      "doc_id": "NCT04012294",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Individuals with two urate determinations >7 mg/dL in the last year and no clinical sign, past or present, suggestive of joint inflammation (acute gout attack), urolithiasis or uric acid nephropathy - Over 18 years of age - Residents of Mexico City or its metropolitan area - Individuals with a signed informed consent form for the participation in the clinical trial Exclusion Criteria: - Individuals with joint inflammation suggestive of gout during the clinical evaluation - Patients without elemental ultrasonographic lesions (double contour sign, aggregates, tophi) on the first metatarsophalangeal joint, knee, ankle or the tendons of the quadriceps, patella, and calcaneus when evaluated by MSUS - Patients taking thiazides - Patients with history of stroke or coronary artery disease in the last year - Patients with osteoarthritis be it by clinical presentation or imaging - Pregnant women - Neoplasms - Known Hepatitis B Virus (HBV), Hepatitis C Virus (HCV) , Human immunodeficiency Virus (HIV) infection, or any other know active infections - Autoimmune or autoinflammatory disease - Allopurinol hypersensitivity or allergy - Deteriorated kidney function (Glomerular",
+      "title": "Effects of Allopurinol on Inflammation and Ultrasonographic Changes in People With Elevated Uric Acid But no Symptoms",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 312.57845338914285,
+      "cross_score": -6.688905,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for certain clinical trials related to gouty arthritis, but there are some unresolved requirements and missing facts that need to be confirmed.\",\n  \"supported_patient_facts\": [\n    \"Acute onset of severe left toe pain\",\n    \"Swollen, tender first metatarsophalangeal joint\",\n    \"High leukocyte count in joint aspiration\",\n    \"Needle-shaped crystals in joint aspiration\",\n    \"History of gouty arthritis\",\n    \"Age 39\"\n  ],\n  \"missing_patient_facts\": [\n    \"Confirmation of acute gouty arthritis attack within 48 hours prior to screening/baseline\",\n    \"Pain intensity rating on a 5-point scale (2, 3, or 4)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Specific clinical trial to be considered for eligibility\",\n    \"Presence of a signed informed consent form\"\n  ],\n  \"reasoning_summary\": \"The patient's history and physical examination findings are consistent with gouty arthritis, which aligns with the inclusion criteria for several clinical trials. However, specific details such as the timing of the current attack and pain intensity rating are missing. Additionally, the specific clinical trial to be considered for eligibility and the requirement for a signed informed consent form are unresolved.\",\n  \"safety_note\": \"It is important to confirm all necessary details and requirements before proceeding with enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for certain clinical trials related to gouty arthritis, but there are some unresolved requirements and missing facts that need to be confirmed.",
+    "supported_patient_facts": [
+      "Acute onset of severe left toe pain",
+      "Swollen, tender first metatarsophalangeal joint",
+      "High leukocyte count in joint aspiration",
+      "Needle-shaped crystals in joint aspiration",
+      "History of gouty arthritis",
+      "Age 39"
+    ],
+    "missing_patient_facts": [
+      "Confirmation of acute gouty arthritis attack within 48 hours prior to screening/baseline",
+      "Pain intensity rating on a 5-point scale (2, 3, or 4)"
+    ],
+    "unresolved_study_requirements": [
+      "Specific clinical trial to be considered for eligibility",
+      "Presence of a signed informed consent form"
+    ],
+    "reasoning_summary": "The patient's history and physical examination findings are consistent with gouty arthritis, which aligns with the inclusion criteria for several clinical trials. However, specific details such as the timing of the current attack and pain intensity rating are missing. Additionally, the specific clinical trial to be considered for eligibility and the requirement for a signed informed consent form are unresolved.",
+    "safety_note": "It is important to confirm all necessary details and requirements before proceeding with enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for certain clinical trials related to gouty arthritis, but there are some unresolved requirements and missing facts that need to be confirmed.",
+  "missing_patient_facts": [
+    "Confirmation of acute gouty arthritis attack within 48 hours prior to screening/baseline",
+    "Pain intensity rating on a 5-point scale (2, 3, or 4)"
+  ],
+  "unresolved_study_requirements": [
+    "Specific clinical trial to be considered for eligibility",
+    "Presence of a signed informed consent form"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 24.57
+}

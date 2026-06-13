@@ -1,0 +1,124 @@
+{
+  "case_id": "case_10",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT03850899",
+  "reference_trial": "NCT03850899",
+  "evidence_trials": [
+    "NCT02432339",
+    "NCT02919891",
+    "NCT03850899",
+    "NCT04049682"
+  ],
+  "question": "How much time would this study probably take from me?",
+  "evidence": "[Passage 1 | doc=NCT03850899 | section=detailed_description]\nWhat should I know about this research? - Someone will explain this research to you. - Taking part in this research is voluntary. Whether you take part is up to you. - If you don't take part, it won't be held against you. - You can take part now and later drop out, and it won't be held against you - If you don't understand, ask questions. - Ask all the questions you want before you decide. How long will I be in this research? We expect that your taking part in this research will last up to 6 months, after the 6 months we will look in your medical records every 180 days for up to five years. Why is this research being done? The purpose of this research is to create a clinical database and bio-repository to study alcoholic hepatitis. What happens to me if I agree to take part in this research? If you decide to take part in this research study, the general procedures include: 1) allowing the investigators to review your medical records, 2) answering questions about you and your health, 3) completing questionnaires about alcohol use, 4) having a physical exam and blood drawn, and 5) providing urine and stool samples. Could being in this research hurt me?\n\n[Passage 2 | doc=NCT02432339 | section=detailed_description]\nThis study will involve a screening visit and two testing weeks over an approximate 3 week period (this includes a one week \"washout\" period). Each testing week will have a 3 day salt-controlled diet prior to testing and an approximate 3-hour testing period on Day 4. The 3-hour testing period will include 10 minutes of a baseline rest, 45 minutes of mild stress (competitive video game), and 45 minutes of a recovery rest. A total of 4 blood and 4 urine samples will be collected during the 3-hour period. Each blood draw will consist of about 7 teaspoons for a total of 28 teaspoons per testing week. During the screening and testing, I will be asked to take the MoCA (the Montreal Cognitive Assessment) test in order to measure cognitive thinking after stress. It is a brief 30-question test which takes around 10 minutes to complete.\n\n[Passage 3 | doc=NCT04049682 | section=detailed_description]\nThis visit will likely take about 30 minutes. Visit 3: Fall 2020, Start time change, FitBit redistribution. Francis Parker will switch to a 45 minute later start time for the 2020-21 school year. On the same week of school as the first visit, investigators will hold a meeting in which subjects will repeat all study procedures as in visit 1 Subjects will be given the same FitBit as subjects used in the last study period. Investigators will supervise them as subjects install the FitBit and Moment app on their phones. This visit will likely take about 30 minutes. At this meeting, subjects will again be instructed to wear their FitBits as much as possible, especially while sleeping or during physical activity, and to make sure that the screen time app is working on their phone. The Periodic email communications will again be sent out every week reminding them to continue wearing their FitBit. Visit 4: Winter 2020, 12 week time point, final collection. Again, the study period will end on the Thursday before the students go on winter vacation, about 12 weeks from the beginning of the study period.\n\n[Passage 4 | doc=NCT02919891 | section=detailed_description]\nThe information document will include contact details of the principal investigator and research team to allow patients to discuss the study, ask questions that they have, or ask for assistance from the research team in any aspect of completing the documentation. The questionnaires are the only requirement of participants to complete for the study and should take less than 30 minutes to do so. The questionnaires include the Hospital Anxiety and Depression Score (HADS), the EQ-5D, the Brief Pain Inventory (BPI), the Short-form McGill Pain Questionnaire-2 and the Short Leeds Assessment of Neuropathic Symptoms and Signs (S-LANSS) which are all commonly used scoring tools for chronic pain. There is no need for a hospital visit, physical examination,or blood tests. After 4-6 weeks, if no response is received from an individual patient we would send a second letter to ensure that the initial pack had been received. Once a signed consent form and questionnaires have been returned, a paper Case Report Form (CRF) will be created with a unique study number which will be added to the questionnaires as the only identifying information.\n\n[Passage 5 | doc=NCT02432339 | section=detailed_description]\nMy blood pressure will continue to be taken every 10 minutes. Once the 45 minutes has ended the last blood and urine sample will be collected and the testing day will then be completed. Testing Week Two: The procedures for the Testing Week 2 are the same as Week 1. I will be on the controlled salt diet for 3-days, will take the study medication twice a day and will do the 3-hour testing on the 4th day. Like the first week, there will be 10 minute baseline rest period, 45 minutes stress period of the competitive video game and 45 minutes recovery rest period. Blood and urine samples will also be collected and I will be asked to take the MoCA test just like during Week 1 testing. Approximately 56 teaspoons of blood will be collected during the entire study. This blood will be used to examine how biochemical factors (stress hormones) relate to blood pressure and cardiovascular (heart) health. The DNA (genetic material) from the blood will be studied for genes relating to high blood pressure and other genes that may be related to the risk of cardiovascular disease. The blood, urine and DNA samples may be stored and used for other similar studies by Dr. Harshfield, Dr. Harris and Dr.\n\n[Passage 6 | doc=NCT02919891 | section=detailed_description]\nStatistical analysis of the two group's IEFD results and questionnaire responses will then be undertaken with the null hypothesis that the pre-operative IENFD at the site of surgery does not predict or correlate with CPSP. Study Centres Recruitment of all patients will take place from the Edinburgh Cancer Research Centre (ECRC) at the Western General Hospital. Timelines and Consent The investigators would expect that reading the cover letter and information pack, signing the consent form, and completing the questionnaires will take between 20 and 30 minutes. The investigators aim to recruit patients over a 3 - 6 month period before moving on to performing IENFD testing over the next 6 - 9 months. A further 3 - 6 months will be required to analyse and present our results. The patients have already consented for their tissue sample to be used in future research. Consent will be sought for the patient to complete the questionnaires which are essential to the study in order to identify those who have developed CPSP. There is no ongoing intervention or follow-up for the patients themselves after they consent to inclusion in the study.",
+  "passages": [
+    {
+      "passage_id": "NCT03850899::detailed_description::0",
+      "doc_id": "NCT03850899",
+      "section": "detailed_description",
+      "passage_text": "What should I know about this research? - Someone will explain this research to you. - Taking part in this research is voluntary. Whether you take part is up to you. - If you don't take part, it won't be held against you. - You can take part now and later drop out, and it won't be held against you - If you don't understand, ask questions. - Ask all the questions you want before you decide. How long will I be in this research? We expect that your taking part in this research will last up to 6 months, after the 6 months we will look in your medical records every 180 days for up to five years. Why is this research being done? The purpose of this research is to create a clinical database and bio-repository to study alcoholic hepatitis. What happens to me if I agree to take part in this research? If you decide to take part in this research study, the general procedures include: 1) allowing the investigators to review your medical records, 2) answering questions about you and your health, 3) completing questionnaires about alcohol use, 4) having a physical exam and blood drawn, and 5) providing urine and stool samples. Could being in this research hurt me?",
+      "title": "Alcoholic Hepatitis Network Observational Study",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 30.710429785306715,
+      "cross_score": 1.2937492,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02432339::detailed_description::0",
+      "doc_id": "NCT02432339",
+      "section": "detailed_description",
+      "passage_text": "This study will involve a screening visit and two testing weeks over an approximate 3 week period (this includes a one week \"washout\" period). Each testing week will have a 3 day salt-controlled diet prior to testing and an approximate 3-hour testing period on Day 4. The 3-hour testing period will include 10 minutes of a baseline rest, 45 minutes of mild stress (competitive video game), and 45 minutes of a recovery rest. A total of 4 blood and 4 urine samples will be collected during the 3-hour period. Each blood draw will consist of about 7 teaspoons for a total of 28 teaspoons per testing week. During the screening and testing, I will be asked to take the MoCA (the Montreal Cognitive Assessment) test in order to measure cognitive thinking after stress. It is a brief 30-question test which takes around 10 minutes to complete.",
+      "title": "Effects of an Immunosuppressant Mycophenolate Mofetil or MMF on the Urinary Sodium Excretion Response to Mental Stress",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 33.35239998041517,
+      "cross_score": 0.5637766,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04049682::detailed_description::2",
+      "doc_id": "NCT04049682",
+      "section": "detailed_description",
+      "passage_text": "This visit will likely take about 30 minutes. Visit 3: Fall 2020, Start time change, FitBit redistribution. Francis Parker will switch to a 45 minute later start time for the 2020-21 school year. On the same week of school as the first visit, investigators will hold a meeting in which subjects will repeat all study procedures as in visit 1 Subjects will be given the same FitBit as subjects used in the last study period. Investigators will supervise them as subjects install the FitBit and Moment app on their phones. This visit will likely take about 30 minutes. At this meeting, subjects will again be instructed to wear their FitBits as much as possible, especially while sleeping or during physical activity, and to make sure that the screen time app is working on their phone. The Periodic email communications will again be sent out every week reminding them to continue wearing their FitBit. Visit 4: Winter 2020, 12 week time point, final collection. Again, the study period will end on the Thursday before the students go on winter vacation, about 12 weeks from the beginning of the study period.",
+      "title": "Start Times and Restful Sleep",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 30.861686228689045,
+      "cross_score": -0.22743627,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02919891::detailed_description::2",
+      "doc_id": "NCT02919891",
+      "section": "detailed_description",
+      "passage_text": "The information document will include contact details of the principal investigator and research team to allow patients to discuss the study, ask questions that they have, or ask for assistance from the research team in any aspect of completing the documentation. The questionnaires are the only requirement of participants to complete for the study and should take less than 30 minutes to do so. The questionnaires include the Hospital Anxiety and Depression Score (HADS), the EQ-5D, the Brief Pain Inventory (BPI), the Short-form McGill Pain Questionnaire-2 and the Short Leeds Assessment of Neuropathic Symptoms and Signs (S-LANSS) which are all commonly used scoring tools for chronic pain. There is no need for a hospital visit, physical examination,or blood tests. After 4-6 weeks, if no response is received from an individual patient we would send a second letter to ensure that the initial pack had been received. Once a signed consent form and questionnaires have been returned, a paper Case Report Form (CRF) will be created with a unique study number which will be added to the questionnaires as the only identifying information.",
+      "title": "Relationship of Intra-Epidermal Nerve Fibre Density (IENFD) and Structure to Chronic Post-Mastectomy Pain Syndrome (PMPS)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 30.66337130052325,
+      "cross_score": -0.4957993,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02432339::detailed_description::6",
+      "doc_id": "NCT02432339",
+      "section": "detailed_description",
+      "passage_text": "My blood pressure will continue to be taken every 10 minutes. Once the 45 minutes has ended the last blood and urine sample will be collected and the testing day will then be completed. Testing Week Two: The procedures for the Testing Week 2 are the same as Week 1. I will be on the controlled salt diet for 3-days, will take the study medication twice a day and will do the 3-hour testing on the 4th day. Like the first week, there will be 10 minute baseline rest period, 45 minutes stress period of the competitive video game and 45 minutes recovery rest period. Blood and urine samples will also be collected and I will be asked to take the MoCA test just like during Week 1 testing. Approximately 56 teaspoons of blood will be collected during the entire study. This blood will be used to examine how biochemical factors (stress hormones) relate to blood pressure and cardiovascular (heart) health. The DNA (genetic material) from the blood will be studied for genes relating to high blood pressure and other genes that may be related to the risk of cardiovascular disease. The blood, urine and DNA samples may be stored and used for other similar studies by Dr. Harshfield, Dr. Harris and Dr.",
+      "title": "Effects of an Immunosuppressant Mycophenolate Mofetil or MMF on the Urinary Sodium Excretion Response to Mental Stress",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 33.35239998041517,
+      "cross_score": -1.3755647,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02919891::detailed_description::4",
+      "doc_id": "NCT02919891",
+      "section": "detailed_description",
+      "passage_text": "Statistical analysis of the two group's IEFD results and questionnaire responses will then be undertaken with the null hypothesis that the pre-operative IENFD at the site of surgery does not predict or correlate with CPSP. Study Centres Recruitment of all patients will take place from the Edinburgh Cancer Research Centre (ECRC) at the Western General Hospital. Timelines and Consent The investigators would expect that reading the cover letter and information pack, signing the consent form, and completing the questionnaires will take between 20 and 30 minutes. The investigators aim to recruit patients over a 3 - 6 month period before moving on to performing IENFD testing over the next 6 - 9 months. A further 3 - 6 months will be required to analyse and present our results. The patients have already consented for their tissue sample to be used in future research. Consent will be sought for the patient to complete the questionnaires which are essential to the study in order to identify those who have developed CPSP. There is no ongoing intervention or follow-up for the patients themselves after they consent to inclusion in the study.",
+      "title": "Relationship of Intra-Epidermal Nerve Fibre Density (IENFD) and Structure to Chronic Post-Mastectomy Pain Syndrome (PMPS)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 30.66337130052325,
+      "cross_score": -2.0530584,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The length of time you'll spend in this study varies depending on the specific study. For example, some studies might take up to 6 months, including follow-ups, while others might require a shorter period of around 3 weeks. Your exact timeline will depend on the study you're participating in.\",\n  \"supported_patient_facts\": [\"some studies might take up to 6 months\", \"other studies might require a shorter period of around 3 weeks\"],\n  \"missing_patient_facts\": [\"the specific study you're participating in\", \"the exact duration of your participation\"],\n  \"unresolved_study_requirements\": [\"the specific study you're participating in\", \"the exact duration of your participation\"],\n  \"reasoning_summary\": \"The evidence provides examples of different study durations but does not specify the particular study the patient is involved in. Therefore, it is uncertain how long the patient's involvement will last.\",\n  \"safety_note\": \"Please consult the study coordinator or principal investigator for specific safety guidelines and timelines.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The length of time you'll spend in this study varies depending on the specific study. For example, some studies might take up to 6 months, including follow-ups, while others might require a shorter period of around 3 weeks. Your exact timeline will depend on the study you're participating in.",
+    "supported_patient_facts": [
+      "some studies might take up to 6 months",
+      "other studies might require a shorter period of around 3 weeks"
+    ],
+    "missing_patient_facts": [
+      "the specific study you're participating in",
+      "the exact duration of your participation"
+    ],
+    "unresolved_study_requirements": [
+      "the specific study you're participating in",
+      "the exact duration of your participation"
+    ],
+    "reasoning_summary": "The evidence provides examples of different study durations but does not specify the particular study the patient is involved in. Therefore, it is uncertain how long the patient's involvement will last.",
+    "safety_note": "Please consult the study coordinator or principal investigator for specific safety guidelines and timelines."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The length of time you'll spend in this study varies depending on the specific study. For example, some studies might take up to 6 months, including follow-ups, while others might require a shorter period of around 3 weeks. Your exact timeline will depend on the study you're participating in.",
+  "missing_patient_facts": [
+    "the specific study you're participating in",
+    "the exact duration of your participation"
+  ],
+  "unresolved_study_requirements": [
+    "the specific study you're participating in",
+    "the exact duration of your participation"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.372
+}

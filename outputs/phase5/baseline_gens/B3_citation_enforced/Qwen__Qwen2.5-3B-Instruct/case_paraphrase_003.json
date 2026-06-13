@@ -1,0 +1,103 @@
+{
+  "case_id": "case_paraphrase_003",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "reference_trial": "NCT00413855",
+  "evidence_trials": [
+    "NCT00413855",
+    "NCT01203566",
+    "NCT01678365",
+    "NCT02156947",
+    "NCT02497183",
+    "NCT03791229"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).\n\n[Passage 2 | doc=NCT03791229 | section=detailed_description]\nAcute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.\n\n[Passage 3 | doc=NCT01203566 | section=eligibility]\nInclusion Criteria: - History of right lower quadrant pain or periumbilical pain migrating to the right lower quadrant - Fever \u2265 38\u00b0C and/or WCC > 10 X 103 cells per mL, - Right lower quadrant guarding, and tenderness on physical examination. - All patients included were 18-75 years old. Exclusion Criteria: - Patients are excluded if the diagnosis of appendicitis is not clinically established (symptoms attributable to urinary or gynaecological problems). - History of symptoms > 5 days and/or a palpable mass in the right lower quadrant, suggesting an appendiceal abscess treated with antibiotics and possible percutaneous drainage. - Patients with the following conditions are also excluded: history of cirrhosis and coagulation disorders, generalized peritonitis, shock on admission, previous abdominal surgery, ascites, suspected or proven malignancy, contraindication to general anesthesia (severe cardiac and/or pulmonary disease), inability to give informed consent due to mental disability, and pregnancy.\n\n[Passage 4 | doc=NCT02156947 | section=eligibility]\nInclusion Criteria: - Symptomatic chronic cholelithiasis patients, who were accepted to laparoscopic cholecystectomy - Acute cholelithiasis patients, who were accepted to laparoscopic cholecystectomy in first 72-96 hours (from the onset of symptoms), Acute cholecystitis diagnosis was made according to; acute right upper quadrant abdominal pain with positive Murphy's sign, fever, leukocytosis and sonographically; distended GB, presence of gallstones or sludge, GB wall thickness of 3-mm or more, sonographic Murphy's sign. Exclusion Criteria: - Choledocholithiasis - <18 years old\n\n[Passage 5 | doc=NCT02497183 | section=summary]\nAcute appendicitis is the most common cause of abdominal pain requiring surgical intervention. The gold standard test for the diagnosis of acute appendicitis is the CT scan. Despite its effectiveness, the test involves exposure to a high dose of radiation. Using ultrasound to diagnose this condition has been described extensively in the medical literature, and this test has a very high specificity (over 95%), however sensitivity of the test is not as good and varies between 40% and 90%. Major limitations of the Ultrasound test include operator dependency as well as factors such as body habitus of the patient, presence of technical disturbances (artifacts) caused by gas in the large intestine and inadequate cooperation from the patient during the exam. All of these factors may affect the ability to detect sonographic signs of appendicitis. The investigators believe that it is possible to reduce the amount of artifacts caused by the presence of gas in the intestine by filling of the colon with liquid suspension that is routinely given in the investigators' hospital before performing an abdominal CT and performing an additional ultrasound scan to those patients in which the initial ultrasound examination (without any preparation) proved to be equivocal or not diagnostic. The target population for the study is any patient who arrives to the emergency room with complaints of right lower quadrant abdominal pain and it is decided by the referring physician in the ER to start diagnostic workup for suspected appendicitis by performing an ultrasound, if the ultrasound exam proves to be equivocal or not diagnostic and it is decided that the patient needs to continue investigation by performing a CT scan, the patient will receive contrast material orally for approximately 180 minutes and prior to the CT the investigators intend to repeat the ultrasound. The investigators hypothesize that the repeat ultrasound will allow a statistically significant improvement in the detection rate of the appendix.\n\n[Passage 6 | doc=NCT01678365 | section=detailed_description]\nFor patients who were either febrile or had leukocytosis, at day 5 of therapy abdominal ultrasound was obtained to assess for the presence of an abscess. Patients in whom abscesses were delectated undergone per coetaneous drainage (when possible). The original antibiotic regimen was either continued or changed to piperacillin/tazobactam based on the clinical situation. Patients, in whom appendectomy had not been done at admission, were readmitted for appendectomy at 6 weeks. All patients had been followed for a year since the admission for signs of intra abdominal complication such: repeat abscess formation, repeat admission, obstruction etc. Data collection: Data were recorded were: patient's age, weight, gender, maximum daily temperature, duration of fever, results of complete blood count, renal and liver function tests, gentamicin levels (where applicable), intra abdominal complications and duration of hospitalization.",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 413.81793369364544,
+      "cross_score": -3.9897983,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03791229::detailed_description::0",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 412.2410611623385,
+      "cross_score": -3.9969618,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01203566::eligibility::0",
+      "doc_id": "NCT01203566",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - History of right lower quadrant pain or periumbilical pain migrating to the right lower quadrant - Fever \u2265 38\u00b0C and/or WCC > 10 X 103 cells per mL, - Right lower quadrant guarding, and tenderness on physical examination. - All patients included were 18-75 years old. Exclusion Criteria: - Patients are excluded if the diagnosis of appendicitis is not clinically established (symptoms attributable to urinary or gynaecological problems). - History of symptoms > 5 days and/or a palpable mass in the right lower quadrant, suggesting an appendiceal abscess treated with antibiotics and possible percutaneous drainage. - Patients with the following conditions are also excluded: history of cirrhosis and coagulation disorders, generalized peritonitis, shock on admission, previous abdominal surgery, ascites, suspected or proven malignancy, contraindication to general anesthesia (severe cardiac and/or pulmonary disease), inability to give informed consent due to mental disability, and pregnancy.",
+      "title": "A Randomised Controlled Trial on LESS Versus Conventional Laparoscopic Appendicectomy.",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 468.6355773055756,
+      "cross_score": -4.3253036,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02156947::eligibility::0",
+      "doc_id": "NCT02156947",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Symptomatic chronic cholelithiasis patients, who were accepted to laparoscopic cholecystectomy - Acute cholelithiasis patients, who were accepted to laparoscopic cholecystectomy in first 72-96 hours (from the onset of symptoms), Acute cholecystitis diagnosis was made according to; acute right upper quadrant abdominal pain with positive Murphy's sign, fever, leukocytosis and sonographically; distended GB, presence of gallstones or sludge, GB wall thickness of 3-mm or more, sonographic Murphy's sign. Exclusion Criteria: - Choledocholithiasis - <18 years old",
+      "title": "Correlation Between Power Doppler and Intraoperative Findings of Chronic and Acute Cholecystitis",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 435.3528109576777,
+      "cross_score": -4.6402254,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02497183::summary::0",
+      "doc_id": "NCT02497183",
+      "section": "summary",
+      "passage_text": "Acute appendicitis is the most common cause of abdominal pain requiring surgical intervention. The gold standard test for the diagnosis of acute appendicitis is the CT scan. Despite its effectiveness, the test involves exposure to a high dose of radiation. Using ultrasound to diagnose this condition has been described extensively in the medical literature, and this test has a very high specificity (over 95%), however sensitivity of the test is not as good and varies between 40% and 90%. Major limitations of the Ultrasound test include operator dependency as well as factors such as body habitus of the patient, presence of technical disturbances (artifacts) caused by gas in the large intestine and inadequate cooperation from the patient during the exam. All of these factors may affect the ability to detect sonographic signs of appendicitis. The investigators believe that it is possible to reduce the amount of artifacts caused by the presence of gas in the intestine by filling of the colon with liquid suspension that is routinely given in the investigators' hospital before performing an abdominal CT and performing an additional ultrasound scan to those patients in which the initial ultrasound examination (without any preparation) proved to be equivocal or not diagnostic. The target population for the study is any patient who arrives to the emergency room with complaints of right lower quadrant abdominal pain and it is decided by the referring physician in the ER to start diagnostic workup for suspected appendicitis by performing an ultrasound, if the ultrasound exam proves to be equivocal or not diagnostic and it is decided that the patient needs to continue investigation by performing a CT scan, the patient will receive contrast material orally for approximately 180 minutes and prior to the CT the investigators intend to repeat the ultrasound. The investigators hypothesize that the repeat ultrasound will allow a statistically significant improvement in the detection rate of the appendix.",
+      "title": "Impact of Oral Contrast in the Large Intestine on the Recognition of Appendix",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 412.2897485111031,
+      "cross_score": -4.721553,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01678365::detailed_description::2",
+      "doc_id": "NCT01678365",
+      "section": "detailed_description",
+      "passage_text": "For patients who were either febrile or had leukocytosis, at day 5 of therapy abdominal ultrasound was obtained to assess for the presence of an abscess. Patients in whom abscesses were delectated undergone per coetaneous drainage (when possible). The original antibiotic regimen was either continued or changed to piperacillin/tazobactam based on the clinical situation. Patients, in whom appendectomy had not been done at admission, were readmitted for appendectomy at 6 weeks. All patients had been followed for a year since the admission for signs of intra abdominal complication such: repeat abscess formation, repeat admission, obstruction etc. Data collection: Data were recorded were: patient's age, weight, gender, maximum daily temperature, duration of fever, results of complete blood count, renal and liver function tests, gentamicin levels (where applicable), intra abdominal complications and duration of hospitalization.",
+      "title": "Safety and Efficacy of Single Daily Dose of Ceftriaxone and Metronidazole for Treatment of Complicated Appendicitis in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 424.5515229462028,
+      "cross_score": -4.9771743,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The patient appears to meet some eligibility criteria for the clinical trial, but there are some uncertainties regarding her specific suitability.\",\n  \"supported_patient_facts\": [\"She is a 31-year-old woman with abdominal pain that started last night and worsened in the morning.\", \"Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene.\", \"She is a candidate for laparoscopic appendectomy under general anesthesia.\"],\n  \"missing_patient_facts\": [\"Her history of chronic or recurrent right lower abdominal quadrant pain for more than three months.\", \"Whether she has a history of chronic back pain, previous abdominal surgery, specific gastro-intestinal entities, or gynecological disease.\"],\n  \"unresolved_study_requirements\": [\"Whether she meets the age requirement of 18-75 years old.\", \"Whether she has a history of symptoms > 5 days and/or a palpable mass in the right lower quadrant, suggesting an appendiceal abscess treated with antibiotics and possible percutaneous drainage.\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has the necessary imaging findings for appendicitis. However, the exact history of her pain and previous surgeries is unclear, which could impact her eligibility. Also, the study requires a history of symptoms > 5 days and/or a palpable mass in the right lower quadrant, which is not specified in the provided information.\",\n  \"safety_note\": \"The patient should be informed about potential risks and side effects of laparoscopic appendectomy, including wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain.\"\n}\n  \nSupport_passages: {\n  \"patient_facing_answer\": [1, 3, 5, 6],\n  \"reasoning_summary\": [1, 3, 5, 6]\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.544
+}

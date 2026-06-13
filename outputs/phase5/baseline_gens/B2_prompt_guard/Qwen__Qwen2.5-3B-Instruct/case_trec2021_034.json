@@ -1,0 +1,148 @@
+{
+  "case_id": "case_trec2021_034",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00009659",
+  "selected_doc": "NCT02546193",
+  "reference_trial": "NCT02546193",
+  "evidence_trials": [
+    "NCT00799214",
+    "NCT02069366",
+    "NCT02546193",
+    "NCT03008005",
+    "NCT03529955"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 47-year-old Asian woman complaining of persistent feelings of sadness. She lost interest in activities she used to enjoy. She states that her mood is mostly depressed for the past 3 weeks. She also lost her appetite , which led to about 5kg weight loss. She complains of loss of energy and feelings of worthlessness nearly every day. She is not using any drugs and she does not smoke. She doesn't drink alcohol. She used to exercise every day for at least 30 min. But she doesn't have enough energy to do so for the past 3 weeks. She also has some digestive issues recently. She is married and has 4 children. She is menopausal. Her husband was recently diagnosed with colon cancer and he is starting his chemotherapy. There is nothing remarkable in her past medical history and her drug history is only positive for Vit D3 1000 units daily. Her family history is negative for any psychologic problems. Her HAM-D score is 20. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02546193 | section=detailed_description]\nThe randomization will be stratified by parity and BMI. Outpatient Foley catheter group: If the patient was randomized or chose the intervention group (outpatient Foley), she underwent the following. She will present to the Family Birth Center in the evening at 1900. She will undergo a nonstress test (NST), an ultrasound for fetal presentation and amniotic fluid index, and a cervical exam with calculation of a Bishop score. The patient will be asked if she is having regular, painful contractions, decreased fetal movement, vaginal bleeding, leakage of fluid from the vagina concerning for rupture of membranes, or fevers or chills. A Foley catheter will be placed if the following criteria have been met: the nonstress test is reactive and reassuring (without the presence of \u2265 3 variable decelerations in a 20 minute period, late-appearing decelerations, or any deceleration lasting \u22651 minute), the fetal presentation is cephalic, the amniotic fluid index is 5 centimeters or more, the Bishop score is <6, the cervical dilation is <3 cm, and she has no other clinical characteristics that exclude her from the trial as described in the inclusion/exclusion criteria.\n\n[Passage 2 | doc=NCT03529955 | section=detailed_description]\nTulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.\n\n[Passage 3 | doc=NCT02069366 | section=eligibility]\nclaustrophobia) - Left-handed - Presence of ferrous-containing metals within the body (e.g., aneurysm clips, shrapnel/retained particles) - Under 21 or over 45 years of age - Anticipation of a required drug test in the 4 weeks following study participation - Positive urine drug screen and/or alcohol breathalyzer - Current or past allergic or adverse reaction or known sensitivity to cannabinoid-like substances [dronabinol/marijuana/cannabis/thc, cannabinoid oil, sesame oil, gelatin, glycerin, and titanium dioxide] - Participation in an experiment involving white noise bursts or shocks in the last 6 months Exclusion Criteria for Participants with PTSD: - Primary comorbid anxiety disorder (defined by which disorder was the more debilitating and clinically salient) - Life history of bipolar disorder, schizophrenia, or presence of an organic mental syndrome, mental retardation, or pervasive developmental disorder - Current or in the past 6 months alcohol/drug abuse of dependence - Current or in the past 6 months major depressive disorder - Current suicidal ideation - Diagnosis of an Axis II personality disorder - Concomitant treatments with psychotropic/psychoactive medication [includin\n\n[Passage 4 | doc=NCT00799214 | section=summary]\nBacterial vaginosis (BV), the world's most common vaginal infection, continues to cost patients time, energy, comfort and money. BV is associated with increased incidence of sexually transmitted infections (including HIV), spontaneous abortion, pre-term labour, post-surgical infections, and endometritis. Current treatment for those women symptomatic for BV includes both oral and intravaginal antibiotics, such as metronidazole, which have success rates of 70-80 % at 1 month after treatment. These treatments also have high recurrence rates (49-66 % at one year after treatment) and side effects (10-20 % of women) that include secondary vaginal infection with candida. Intravaginal boric acid has been used for >100 years for the treatment of vaginal infections and is quite commonly prescribed today as a treatment for BV. It is cheap, easily accessible, easy to use, and is an effective treatment of other vaginal infections, such as candida. To date, there are no clinical trials studying the effectiveness of boric acid in the treatment of BV. The objective of this study was to determine whether intravaginal BA is comparable to standard treatment, metronidazole, for the cure of BV in symptomatic women. Our research question is: Among women 16-50 years old symptomatic with BV is intravaginal treatment with BA non-inferior to metronidazole to achieve a Nugent score <7 (cure) by day 17. Hypothesis: H0: BA proportion of women cured < metronidazole proportion of women cured - 10%.\n\n[Passage 5 | doc=NCT03008005 | section=eligibility]\nclaustrophobia), as determined by self-report and/or a preliminary session in a mock scanner - left-handed; - presence of ferrous-containing metals within the body (e.g., aneurysm clips, shrapnel/retained particles) - anticipation of a required drug test in the 4 weeks following the study. - current diagnosis of a mood, anxiety, or other disorder that is more clinically salient than PTSD - current moderate or severe alcohol/drug use disorder or in the past 8 weeks - current or past diagnosis of bipolar and other related disorders, schizophrenia spectrum, or other psychotic disorders - concomitant treatments with medication known to have drug interactions with dronabinol, such as, central nervous system depressants (barbiturates, benzodiazepines, buspirone, lithium, etc) and anticholinergic agents (atropine, scopolamine, antihistamines, etc).\n\n[Passage 6 | doc=NCT03529955 | section=detailed_description]\nHer muscle weakness lagged behind and she noticed improvement after 9 months of being on apremilast with normalization of her aldolase and CK. The patient was able to wean off all immunosuppressive agents and prednisone. She was in remission for over 2 years and off all medications. She experienced a mild flare of skin disease recently and she resumed apremilast only and cleared immediately and continues on apremilast as a monotherapy. Patient experienced mild nausea and diarrhea with apremilast that improved four weeks into the treatment. She was able to discontinue insulin, lose weight and she has continued to be clear of both skin and muscle symptoms for over 1.5 years. This case was accepted as a poster presentation at the 2018 Annual Meeting of the American Academy of Dermatology \"Poster #: 6672 - Apremilast: a Potential Treatment for Dermatomyositis.\" Following this successful outcome, the investigators initiated apremilast in 3 other patients with recalcitrant dermatomyositis. Two patients had recalcitrant cutaneous disease and responded to add on therapy of apremilast in 2 months with significant improvement of their skin disease.",
+  "passages": [
+    {
+      "passage_id": "NCT02546193::detailed_description::1",
+      "doc_id": "NCT02546193",
+      "section": "detailed_description",
+      "passage_text": "The randomization will be stratified by parity and BMI. Outpatient Foley catheter group: If the patient was randomized or chose the intervention group (outpatient Foley), she underwent the following. She will present to the Family Birth Center in the evening at 1900. She will undergo a nonstress test (NST), an ultrasound for fetal presentation and amniotic fluid index, and a cervical exam with calculation of a Bishop score. The patient will be asked if she is having regular, painful contractions, decreased fetal movement, vaginal bleeding, leakage of fluid from the vagina concerning for rupture of membranes, or fevers or chills. A Foley catheter will be placed if the following criteria have been met: the nonstress test is reactive and reassuring (without the presence of \u2265 3 variable decelerations in a 20 minute period, late-appearing decelerations, or any deceleration lasting \u22651 minute), the fetal presentation is cephalic, the amniotic fluid index is 5 centimeters or more, the Bishop score is <6, the cervical dilation is <3 cm, and she has no other clinical characteristics that exclude her from the trial as described in the inclusion/exclusion criteria.",
+      "title": "Outpatient Foley Catheter Compared to Usual Inpatient Care for Labor Induction",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 427.0928710864943,
+      "cross_score": -4.93814,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::1",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Tulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 432.8859398927237,
+      "cross_score": -5.049748,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02069366::eligibility::1",
+      "doc_id": "NCT02069366",
+      "section": "eligibility",
+      "passage_text": "claustrophobia) - Left-handed - Presence of ferrous-containing metals within the body (e.g., aneurysm clips, shrapnel/retained particles) - Under 21 or over 45 years of age - Anticipation of a required drug test in the 4 weeks following study participation - Positive urine drug screen and/or alcohol breathalyzer - Current or past allergic or adverse reaction or known sensitivity to cannabinoid-like substances [dronabinol/marijuana/cannabis/thc, cannabinoid oil, sesame oil, gelatin, glycerin, and titanium dioxide] - Participation in an experiment involving white noise bursts or shocks in the last 6 months Exclusion Criteria for Participants with PTSD: - Primary comorbid anxiety disorder (defined by which disorder was the more debilitating and clinically salient) - Life history of bipolar disorder, schizophrenia, or presence of an organic mental syndrome, mental retardation, or pervasive developmental disorder - Current or in the past 6 months alcohol/drug abuse of dependence - Current or in the past 6 months major depressive disorder - Current suicidal ideation - Diagnosis of an Axis II personality disorder - Concomitant treatments with psychotropic/psychoactive medication [includin",
+      "title": "Cannabinoid Control of Fear Extinction Neural Circuits in Post-traumatic Stress Disorder",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 437.4639883402376,
+      "cross_score": -5.1577005,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00799214::summary::0",
+      "doc_id": "NCT00799214",
+      "section": "summary",
+      "passage_text": "Bacterial vaginosis (BV), the world's most common vaginal infection, continues to cost patients time, energy, comfort and money. BV is associated with increased incidence of sexually transmitted infections (including HIV), spontaneous abortion, pre-term labour, post-surgical infections, and endometritis. Current treatment for those women symptomatic for BV includes both oral and intravaginal antibiotics, such as metronidazole, which have success rates of 70-80 % at 1 month after treatment. These treatments also have high recurrence rates (49-66 % at one year after treatment) and side effects (10-20 % of women) that include secondary vaginal infection with candida. Intravaginal boric acid has been used for >100 years for the treatment of vaginal infections and is quite commonly prescribed today as a treatment for BV. It is cheap, easily accessible, easy to use, and is an effective treatment of other vaginal infections, such as candida. To date, there are no clinical trials studying the effectiveness of boric acid in the treatment of BV. The objective of this study was to determine whether intravaginal BA is comparable to standard treatment, metronidazole, for the cure of BV in symptomatic women. Our research question is: Among women 16-50 years old symptomatic with BV is intravaginal treatment with BA non-inferior to metronidazole to achieve a Nugent score <7 (cure) by day 17. Hypothesis: H0: BA proportion of women cured < metronidazole proportion of women cured - 10%.",
+      "title": "BASIC (Boric Acid, Alternate Solution for Intravaginal Colonization) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 427.8381796446149,
+      "cross_score": -5.2522054,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03008005::eligibility::2",
+      "doc_id": "NCT03008005",
+      "section": "eligibility",
+      "passage_text": "claustrophobia), as determined by self-report and/or a preliminary session in a mock scanner - left-handed; - presence of ferrous-containing metals within the body (e.g., aneurysm clips, shrapnel/retained particles) - anticipation of a required drug test in the 4 weeks following the study. - current diagnosis of a mood, anxiety, or other disorder that is more clinically salient than PTSD - current moderate or severe alcohol/drug use disorder or in the past 8 weeks - current or past diagnosis of bipolar and other related disorders, schizophrenia spectrum, or other psychotic disorders - concomitant treatments with medication known to have drug interactions with dronabinol, such as, central nervous system depressants (barbiturates, benzodiazepines, buspirone, lithium, etc) and anticholinergic agents (atropine, scopolamine, antihistamines, etc).",
+      "title": "Effects of Delta-9 Tetrahydrocannabinol (THC) on Retention of Memory for Fear Extinction Learning in PTSD: R61 Study",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 431.6772405263022,
+      "cross_score": -5.2647343,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::2",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Her muscle weakness lagged behind and she noticed improvement after 9 months of being on apremilast with normalization of her aldolase and CK. The patient was able to wean off all immunosuppressive agents and prednisone. She was in remission for over 2 years and off all medications. She experienced a mild flare of skin disease recently and she resumed apremilast only and cleared immediately and continues on apremilast as a monotherapy. Patient experienced mild nausea and diarrhea with apremilast that improved four weeks into the treatment. She was able to discontinue insulin, lose weight and she has continued to be clear of both skin and muscle symptoms for over 1.5 years. This case was accepted as a poster presentation at the 2018 Annual Meeting of the American Academy of Dermatology \"Poster #: 6672 - Apremilast: a Potential Treatment for Dermatomyositis.\" Following this successful outcome, the investigators initiated apremilast in 3 other patients with recalcitrant dermatomyositis. Two patients had recalcitrant cutaneous disease and responded to add on therapy of apremilast in 2 months with significant improvement of their skin disease.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 432.8859398927237,
+      "cross_score": -5.5273275,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might be eligible for the clinical trial. However, there are some details that need further clarification. Please provide your HAM-D score and any additional medical records.\",\n  \"supported_patient_facts\": [\"She is 47 years old.\", \"She is Asian.\", \"She has persistent feelings of sadness and loss of interest in activities.\", \"She has lost 5 kg due to a loss of appetite.\", \"She feels fatigued and worthless.\", \"She has digestive issues.\", \"She is married with 4 children.\", \"She is menopausal.\", \"She has a family history of colon cancer in her husband, who is starting chemotherapy.\", \"She has a history of Vit D3 supplementation.\", \"She has a HAM-D score of 20.\"],\n  \"missing_patient_facts\": [\"Her diagnosis of depression.\", \"Her current treatment plan for depression.\", \"Her response to previous antidepressant treatments.\", \"Any recent changes in her physical activity level.\", \"Her current medication list.\", \"Her full medical history, including surgeries and hospitalizations.\"],\n  \"unresolved_study_requirements\": [\"It is unclear if the patient meets the criteria for depression based on her symptoms and HAM-D score.\", \"There is no mention of the patient's response to previous antidepressant treatments or her current treatment plan.\", \"The patient's physical activity level and its impact on her symptoms is not fully understood.\", \"The patient's full medication list is not provided.\", \"The patient's full medical history, including surgeries and hospitalizations, is not provided.\"],\n  \"reasoning_summary\": \"The patient's symptoms align with major depressive disorder, which is a key inclusion criterion. However, the patient's HAM-D score and response to previous treatments are not specified, making it uncertain if she meets the criteria. Additionally, the patient's physical activity level and full medical history are not provided, which could affect her eligibility.\",\n  \"safety_note\": \"Given the patient's symptoms and the nature of the trial, close monitoring for safety is essential. The patient should be advised to discuss any new symptoms or concerns with the study team promptly.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the clinical trial. However, there are some details that need further clarification. Please provide your HAM-D score and any additional medical records.",
+    "supported_patient_facts": [
+      "She is 47 years old.",
+      "She is Asian.",
+      "She has persistent feelings of sadness and loss of interest in activities.",
+      "She has lost 5 kg due to a loss of appetite.",
+      "She feels fatigued and worthless.",
+      "She has digestive issues.",
+      "She is married with 4 children.",
+      "She is menopausal.",
+      "She has a family history of colon cancer in her husband, who is starting chemotherapy.",
+      "She has a history of Vit D3 supplementation.",
+      "She has a HAM-D score of 20."
+    ],
+    "missing_patient_facts": [
+      "Her diagnosis of depression.",
+      "Her current treatment plan for depression.",
+      "Her response to previous antidepressant treatments.",
+      "Any recent changes in her physical activity level.",
+      "Her current medication list.",
+      "Her full medical history, including surgeries and hospitalizations."
+    ],
+    "unresolved_study_requirements": [
+      "It is unclear if the patient meets the criteria for depression based on her symptoms and HAM-D score.",
+      "There is no mention of the patient's response to previous antidepressant treatments or her current treatment plan.",
+      "The patient's physical activity level and its impact on her symptoms is not fully understood.",
+      "The patient's full medication list is not provided.",
+      "The patient's full medical history, including surgeries and hospitalizations, is not provided."
+    ],
+    "reasoning_summary": "The patient's symptoms align with major depressive disorder, which is a key inclusion criterion. However, the patient's HAM-D score and response to previous treatments are not specified, making it uncertain if she meets the criteria. Additionally, the patient's physical activity level and full medical history are not provided, which could affect her eligibility.",
+    "safety_note": "Given the patient's symptoms and the nature of the trial, close monitoring for safety is essential. The patient should be advised to discuss any new symptoms or concerns with the study team promptly."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the clinical trial. However, there are some details that need further clarification. Please provide your HAM-D score and any additional medical records.",
+  "missing_patient_facts": [
+    "Her diagnosis of depression.",
+    "Her current treatment plan for depression.",
+    "Her response to previous antidepressant treatments.",
+    "Any recent changes in her physical activity level.",
+    "Her current medication list.",
+    "Her full medical history, including surgeries and hospitalizations."
+  ],
+  "unresolved_study_requirements": [
+    "It is unclear if the patient meets the criteria for depression based on her symptoms and HAM-D score.",
+    "There is no mention of the patient's response to previous antidepressant treatments or her current treatment plan.",
+    "The patient's physical activity level and its impact on her symptoms is not fully understood.",
+    "The patient's full medication list is not provided.",
+    "The patient's full medical history, including surgeries and hospitalizations, is not provided."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.008
+}

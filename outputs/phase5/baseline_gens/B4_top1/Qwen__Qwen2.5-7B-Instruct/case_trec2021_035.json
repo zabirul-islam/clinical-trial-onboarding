@@ -1,0 +1,85 @@
+{
+  "case_id": "case_trec2021_035",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00071786",
+  "selected_doc": "NCT04698525",
+  "reference_trial": "NCT04698525",
+  "evidence_trials": [
+    "NCT04698525"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 15 year old girl with the history of recurrent bilateral headache. The attacks come 2 times or more per week and each episode lasts around a day or a half. The pain is pulsating in quality and severe in intensity, causing trouble in her routine physical activity. The attacks are associated with nausea and photophobia. She recently noticed that that there are more attacks around her menstrual period. She is diagnosed with the migraine headache and is under treatment. She is a high-school student and living with her both parents. She is a book worm and spend her free time in a public library near her home. She is also interested in writing stories and has several short stories in English. She rarely does exercise. Her BMI is 21 with the BP of 100/60. There is nothing remarkable in her physical exam. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04698525 | section=summary]\nMigraine is one of the three most disabling diseases worldwide. Constituted by recurrent episodes of headache, characterized by unilateral location, throbbing character, moderate or severe intensity, worsening with physical activity, and association with nausea or photophobia and/or phonophobia. There are two types of drug treatment: abortifacient and prophylactic. The American Academy of Neurology classifies sodium valproate as level A; however, some patients do not obtain a satisfactory response rate and/or have adverse effects. Therefore, the search for new pharmacological treatments continues. In 2015, a double-blind, randomized clinical trial with a placebo was carried out to assess Memantine's efficacy in the prophylactic treatment of migraine without aura, which reported a reduction of 2.3 migraine attacks per month compared to the placebo group. Memantine could be a new effective treatment alternative, which is why we will compare the efficacy of Memantine against sodium valproate as a prophylactic migraine treatment. Main objective: To compare the efficacy of Memantine at a rate of 20mg divided into two doses a day against sodium valproate (VPA) at a rate of 1000mg divided into two doses a day prophylactic treatment of migraine for three months. Study design: a prospective controlled, randomized, double-blind clinical trial. Inclusion criteria: Men and women aged 18 to 65 years with a diagnosis at least one year before the study must present at least 2 to 8 migraine attacks per month and less than 15 days with headache per month, which should not be receiving prophylactic treatment for migraine and sign an informed consent Sample size calculation and statistical analysis: It is calculated using the normal distribution model, where the recommended sample size is 196 participants. Since a pilot study will be conducted, 10% of the sample size will be taken to make it representative, a sample size of 20 participants is decided for each group.\n\n[Passage 2 | doc=NCT04698525 | section=detailed_description]\nMigraine is a primary headache, currently one of the three most disabling diseases globally. It has an annual and lifetime prevalence of 18% and 33% in women, and 6 to 13% in men, respectively, with a predominance in women (3: 1). The age of onset with the highest prevalence is between 25 and 55 years. Migraine is described by the International Headache Society (IHS) as recurrent episodes of headache lasting 4 to 72 hours, characterized by unilateral location, pulsatile character, moderate or severe intensity, worsening with physical activity, and association with nausea or photophobia and phonophobia. The IHS also classifies migraine based on the frequency of attacks: episodic migraine when the headache occurs on less than 15 days a month, and chronic migraine, when the headache occurs 15 or more days a month for three months and at least eight days a month with characteristics of migraine headache. The subtypes of migraine concerning their clinical presentation are migraine with aura and without aura.4 Up to one-third of patients present migraine aura, with visual symptoms being the most frequent.\n\n[Passage 3 | doc=NCT04698525 | section=detailed_description]\nNo better explanation by another diagnosis of ICHD-III. The non-pharmacological treatment of migraine goes hand in hand with the pharmacological one; one is to avoid the triggers of the migraine attacks and carry out the lifestyle modifications. Pharmacological treatment is divided into acute (administered at the time of headache) and prophylactic (administered daily to reduce the chances of migraine episodes). The objective of prophylactic treatment is to reduce the frequency, duration, and severity of migraine attacks, improve the response to acute treatment, improve functionality, and reduce disability. The American Academy of Neurology recommends initiating prophylactic treatment in patients with migraine with one or more of the following characteristics9 1. Recurrent migraine, which interferes with the patient's daily life and quality of life. 2. Frequent headaches. 3. That they have an inadequate response or contraindication to abortive treatment. 4. Adverse events to abortion treatment. 5. Uncommon migraine conditions: ophthalmoplegic migraine, basilar migraine, hemiplegic, prolonged aura, migraine infarction.",
+  "passages": [
+    {
+      "passage_id": "NCT04698525::summary::0",
+      "doc_id": "NCT04698525",
+      "section": "summary",
+      "passage_text": "Migraine is one of the three most disabling diseases worldwide. Constituted by recurrent episodes of headache, characterized by unilateral location, throbbing character, moderate or severe intensity, worsening with physical activity, and association with nausea or photophobia and/or phonophobia. There are two types of drug treatment: abortifacient and prophylactic. The American Academy of Neurology classifies sodium valproate as level A; however, some patients do not obtain a satisfactory response rate and/or have adverse effects. Therefore, the search for new pharmacological treatments continues. In 2015, a double-blind, randomized clinical trial with a placebo was carried out to assess Memantine's efficacy in the prophylactic treatment of migraine without aura, which reported a reduction of 2.3 migraine attacks per month compared to the placebo group. Memantine could be a new effective treatment alternative, which is why we will compare the efficacy of Memantine against sodium valproate as a prophylactic migraine treatment. Main objective: To compare the efficacy of Memantine at a rate of 20mg divided into two doses a day against sodium valproate (VPA) at a rate of 1000mg divided into two doses a day prophylactic treatment of migraine for three months. Study design: a prospective controlled, randomized, double-blind clinical trial. Inclusion criteria: Men and women aged 18 to 65 years with a diagnosis at least one year before the study must present at least 2 to 8 migraine attacks per month and less than 15 days with headache per month, which should not be receiving prophylactic treatment for migraine and sign an informed consent Sample size calculation and statistical analysis: It is calculated using the normal distribution model, where the recommended sample size is 196 participants. Since a pilot study will be conducted, 10% of the sample size will be taken to make it representative, a sample size of 20 participants is decided for each group.",
+      "title": "Comparative Study Between Valproate and Memantine in the Prophylactic Management of Episodic Migraine.",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 438.0262580536289,
+      "cross_score": -3.4992847,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04698525::detailed_description::0",
+      "doc_id": "NCT04698525",
+      "section": "detailed_description",
+      "passage_text": "Migraine is a primary headache, currently one of the three most disabling diseases globally. It has an annual and lifetime prevalence of 18% and 33% in women, and 6 to 13% in men, respectively, with a predominance in women (3: 1). The age of onset with the highest prevalence is between 25 and 55 years. Migraine is described by the International Headache Society (IHS) as recurrent episodes of headache lasting 4 to 72 hours, characterized by unilateral location, pulsatile character, moderate or severe intensity, worsening with physical activity, and association with nausea or photophobia and phonophobia. The IHS also classifies migraine based on the frequency of attacks: episodic migraine when the headache occurs on less than 15 days a month, and chronic migraine, when the headache occurs 15 or more days a month for three months and at least eight days a month with characteristics of migraine headache. The subtypes of migraine concerning their clinical presentation are migraine with aura and without aura.4 Up to one-third of patients present migraine aura, with visual symptoms being the most frequent.",
+      "title": "Comparative Study Between Valproate and Memantine in the Prophylactic Management of Episodic Migraine.",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 438.0262580536289,
+      "cross_score": -4.9103117,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04698525::detailed_description::3",
+      "doc_id": "NCT04698525",
+      "section": "detailed_description",
+      "passage_text": "No better explanation by another diagnosis of ICHD-III. The non-pharmacological treatment of migraine goes hand in hand with the pharmacological one; one is to avoid the triggers of the migraine attacks and carry out the lifestyle modifications. Pharmacological treatment is divided into acute (administered at the time of headache) and prophylactic (administered daily to reduce the chances of migraine episodes). The objective of prophylactic treatment is to reduce the frequency, duration, and severity of migraine attacks, improve the response to acute treatment, improve functionality, and reduce disability. The American Academy of Neurology recommends initiating prophylactic treatment in patients with migraine with one or more of the following characteristics9 1. Recurrent migraine, which interferes with the patient's daily life and quality of life. 2. Frequent headaches. 3. That they have an inadequate response or contraindication to abortive treatment. 4. Adverse events to abortion treatment. 5. Uncommon migraine conditions: ophthalmoplegic migraine, basilar migraine, hemiplegic, prolonged aura, migraine infarction.",
+      "title": "Comparative Study Between Valproate and Memantine in the Prophylactic Management of Episodic Migraine.",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 438.0262580536289,
+      "cross_score": -5.409181,
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.\",\n  \"supported_patient_facts\": [\n    \"The patient experiences recurrent bilateral headache 2 times or more per week, lasting around a day or a half.\",\n    \"The pain is pulsating in quality and severe in intensity, causing trouble in her routine physical activity.\",\n    \"The attacks are associated with nausea and photophobia.\",\n    \"She is diagnosed with migraine and is under treatment.\",\n    \"She is a high-school student and living with both parents.\",\n    \"Her BMI is 21 with the BP of 100/60. There is nothing remarkable in her physical exam.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Age: The patient is 15 years old, while the study includes participants aged 18 to 65 years.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Prophylactic treatment status: The patient is currently under treatment, but it is unclear if she is receiving prophylactic treatment for migraine.\"\n  ],\n  \"reasoning_summary\": \"The patient's symptoms and diagnosis align with the study's inclusion criteria, but her age and current treatment status require further clarification. The patient is below the age range specified in the study, and it is uncertain whether she is receiving prophylactic treatment.\",\n  \"safety_note\": \"Given the patient's young age, it is crucial to confirm her current treatment regimen and ensure she meets all study requirements before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+    "supported_patient_facts": [
+      "The patient experiences recurrent bilateral headache 2 times or more per week, lasting around a day or a half.",
+      "The pain is pulsating in quality and severe in intensity, causing trouble in her routine physical activity.",
+      "The attacks are associated with nausea and photophobia.",
+      "She is diagnosed with migraine and is under treatment.",
+      "She is a high-school student and living with both parents.",
+      "Her BMI is 21 with the BP of 100/60. There is nothing remarkable in her physical exam."
+    ],
+    "missing_patient_facts": [
+      "Age: The patient is 15 years old, while the study includes participants aged 18 to 65 years."
+    ],
+    "unresolved_study_requirements": [
+      "Prophylactic treatment status: The patient is currently under treatment, but it is unclear if she is receiving prophylactic treatment for migraine."
+    ],
+    "reasoning_summary": "The patient's symptoms and diagnosis align with the study's inclusion criteria, but her age and current treatment status require further clarification. The patient is below the age range specified in the study, and it is uncertain whether she is receiving prophylactic treatment.",
+    "safety_note": "Given the patient's young age, it is crucial to confirm her current treatment regimen and ensure she meets all study requirements before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+  "missing_patient_facts": [
+    "Age: The patient is 15 years old, while the study includes participants aged 18 to 65 years."
+  ],
+  "unresolved_study_requirements": [
+    "Prophylactic treatment status: The patient is currently under treatment, but it is unclear if she is receiving prophylactic treatment for migraine."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 26.249
+}

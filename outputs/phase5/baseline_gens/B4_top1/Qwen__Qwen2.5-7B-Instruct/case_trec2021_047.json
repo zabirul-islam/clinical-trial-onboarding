@@ -1,0 +1,54 @@
+{
+  "case_id": "case_trec2021_047",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00004727",
+  "selected_doc": "NCT02651272",
+  "reference_trial": "NCT02651272",
+  "evidence_trials": [
+    "NCT02651272"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness. His medical history was significant for hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week. He is not aware about his family history. He is using Levothyroxine, Atorvastatin and HTCZ. His vital signs were stable in the primary evaluation. Left-sided facial droop, dysarthria, and left-sided hemiplegia were seen in the physical exam. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7. Initial CT angiogram of head and neck reported no acute intracranial findings. Intravenous recombinant tissue plasminogen activator (t-PA) was administered as well as high-dose statin therapy. The patient was admitted to the intensive care unit to be monitored for 24 hours. MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02651272 | section=detailed_description]\nBackground and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.",
+  "passages": [
+    {
+      "passage_id": "NCT02651272::detailed_description::0",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Background and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 382.2681577199368,
+      "cross_score": -6.9914913,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"cannot_determine\",\n  \"patient_facing_answer\": \"Based on the information provided, it is not possible to determine if you are eligible for this clinical trial. Further details are required.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Diagnosis of sickle cell disease (SCD)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of pulmonary hypertension (PH) or other vascular complications related to SCD\"\n  ],\n  \"reasoning_summary\": \"The patient's medical history and symptoms do not align with the inclusion criteria for the described clinical trial, which focuses on sickle cell disease and its vascular complications. Additional information regarding the presence of sickle cell disease and any associated pulmonary hypertension is necessary to make a determination.\",\n  \"safety_note\": \"No safety concerns identified based on the provided information.\"\n}",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "Based on the information provided, it is not possible to determine if you are eligible for this clinical trial. Further details are required.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Diagnosis of sickle cell disease (SCD)"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of pulmonary hypertension (PH) or other vascular complications related to SCD"
+    ],
+    "reasoning_summary": "The patient's medical history and symptoms do not align with the inclusion criteria for the described clinical trial, which focuses on sickle cell disease and its vascular complications. Additional information regarding the presence of sickle cell disease and any associated pulmonary hypertension is necessary to make a determination.",
+    "safety_note": "No safety concerns identified based on the provided information."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "Based on the information provided, it is not possible to determine if you are eligible for this clinical trial. Further details are required.",
+  "missing_patient_facts": [
+    "Diagnosis of sickle cell disease (SCD)"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of pulmonary hypertension (PH) or other vascular complications related to SCD"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.081
+}

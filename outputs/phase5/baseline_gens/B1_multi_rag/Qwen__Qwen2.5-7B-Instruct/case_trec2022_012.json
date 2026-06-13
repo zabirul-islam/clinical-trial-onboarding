@@ -1,0 +1,125 @@
+{
+  "case_id": "case_trec2022_012",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00188890",
+  "reference_trial": "NCT00188890",
+  "evidence_trials": [
+    "NCT00188890",
+    "NCT01264055",
+    "NCT03944928",
+    "NCT04418804"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old man comes to the office for routine checkup. He is complaining of chronic cough and occasional but progressive dyspnea. Other medical conditions include hypertension and osteoarthritis. The patient smokes a pack of cigarettes daily and does not use alcohol or illicit drugs. He used to be a construction worker. On examination, there are decreased breath sounds and percussive dullness at the base of both lungs. Chest CT scan reveals a mild bilateral pleural effusion and diffuse thickening of the pleura. The patient's documents show chronic exposure to asbestosis. The specimen of the lungs reveled pulmonary fibrosis that is most predominant in the lower lobes, characterized by the presence of asbestos bodies (golden-brown beaded rods with translucent centers). Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00188890 | section=eligibility]\nInclusion Criteria: prior asbestos exposure at least 20 years ago and/or documented pleural plaques (chest x-ray evidence) Resident of Ontario, Canada Exclusion Criteria: prior cancer (except non-melanotic skin cancer)\n\n[Passage 2 | doc=NCT00188890 | section=detailed_description]\nBackground and Purpose: Asbestos exposure may result in several different diseases to the lung and to the lining of the lung, the so-called pleura. Mostly they are benign, but there are two common malignant diseases in people with prior asbestos exposure, the so-called mesothelioma - which originates from the pleura - and cancer of the lung. Symptoms of any of these malignant diseases generally do not appear for 10-35 years after the first asbestos exposure, and include shortness of breath, chronic or new cough, coughing of blood, chest pain or weight loss. Unfortunately, these symptoms are most often causes by very advanced diseases, when patients can no longer be cured. Currently there is no accepted tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects available. Standard of care includes regular chest radiographs, which are not sufficient to show mesothelioma or lung cancer in an early stage. A screening CT examination, also called CAT scan, of the lungs will be performed without intravenous contrast. The CT examination as such is not an experimental procedure, CAT scans are performed routinely since decades.\n\n[Passage 3 | doc=NCT04418804 | section=detailed_description]\nBackground and rationale: The Pleura is a double-layered membrane surrounding the lungs. It is anatomically divided into Visceral Pleura, which is attached to the outer part of the lungs, and to the Parietal Pleura, which is attached to the inner side of the rib cage. Pathological processes involving the Pleura are incorporated under the name \"Pleural diseases\" which include, among others, pneumothorax, pleural effusion, and various tumors. This disease group is relatively widespread, and as evidence that the incidence reported in the literature is over 300 to 100,000 people in one year. Diagnosis and evaluation of pleural disease involve the use of various neuroimaging devices such as chest radiographs, ultrasound, CT, and MRI. Most often, chest radiographs are widely accepted as the first means of identifying pleural diseases, with ultrasound, CT, and MRI supplementing or constituting a diagnostic confirmation if necessary. Over the past few years, a significant perceptual change has been made in the use of chest ultrasound to diagnose pleural diseases as part of emergent and none emergent situations.\n\n[Passage 4 | doc=NCT03944928 | section=summary]\nIdiopathic pulmonary fibrosis (IPF) is one of the most common chronic idiopathic fibrotic interstitial lung disease (ILD). IPF is an evolving disease that requires regular follow-up through clinical examination, respiratory functional investigations and thoracic CT. Thoracic CT is necessary for the follow-up, usually performed yearly, and in case of deterioration of respiratory function. The disadvantages to its realization are the repeated irradiation, the cost, the accessibility, and sometimes the difficulties of realization related to the supine position. Several signs of thoracic ultrasound have been described in ILD, including the number of B lines, the irregularity of the pleural line, and the thickening of the pleural line. Cross-sectional studies have correlated the intensity of these signs with the severity of fibrosis lesions on chest CT in patients with ILD, including IPF. However, no studies have prospectively described the evolution of ultrasound signs in the same IPF patient, or their correlation to clinical, functional and CT scan evolution. The hypothesis is that thoracic ultrasound is a relevant tool to highlight the evolution of pulmonary lesions in IPF. The main objective is to show with thoracic ultrasound an increase in one or more of the ultrasound signs: line B score, pleural line irregularity score, and pleural line thickness during the follow-up of patient with IPF. The study will enroll patients with a validated diagnosis of IPF in a multidisciplinary staff. At each follow-up visit, patients will have a clinical examination, pulmonary functional test and thoracic ultrasound. The CT data collected will include the last thoracic CT performed in the 3 months before the inclusion and those performed during the patient's participation. The presence, location and severity of ultrasound signs, will be recorded for each patient during successive reassessments and correlation to clinical, functional and CT scan evolution will be made. This study will add significant knowledge in the study of ultrasound signs evolution in patients with IPF. If there is a correlation with the clinical or CT scores, it will be possible to carry over the realization of the CTs to limit the irradiation of the patients. Conversely, early detection of worsening ultrasound signs may lead to faster therapeutic adjustments to limit the extent of irreversible fibrotic lesions.\n\n[Passage 5 | doc=NCT01264055 | section=summary]\nBackground: - Bronchiectasis is a type of lung condition in which the lungs airways are abnormally stretched and widened. This stretching and widening makes it difficult for mucus and other substances to move out of the lungs, encouraging the growth of bacteria and leading to breathing problems or infection. Bronchiectasis can be caused by genetic disorders or diseases such as tuberculosis or rheumatoid arthritis. Researchers are interested in developing better ways to diagnose and treat a lung problem called idiopathic or unexplained bronchiectasis. Objectives: - To better describe the physical characteristics, radiographic patterns, and airway microbiology of unexplained bronchiectasis and to look for possible genetic links or risk factors. Eligibility: - Individuals at least 18 years of age who have a chronic cough and who have had a CT scan that has revealed signs of bronchiectasis. - Current smokers or those who have smoked for at least 10 years, as well as individuals who have known causes of bronchiectasis or who have had organ transplants, are not eligible to participate. Design: - Participants will have one outpatient clinic visit for evaluation with a physical examination including detailed body size measurements and medical history and for collection of blood samples for routine lab tests and genetic analyses and a chest x-ray if no recent one is available. - Participants will also have tests of lung function, and measurement of a gas called nitric oxide in the nose. Participants whose initial tests show abnormal results may also be asked to have a nasal scrape to collect cell samples and/or a skin sweat test to measure salt concentrations. - Participants will also have a sputum specimen collected during the visit and will be asked to collect two additional early morning sputum samples and a mouth rinse at home within 2 weeks of the clinic visit, and mail the sample collection materials to the research team.\n\n[Passage 6 | doc=NCT00188890 | section=summary]\nOccupational exposure to asbestos is known increase the risk of developing cancer of the lungs (bronchogenic carcinoma) or of the pleura (mesothelioma). Symptoms are subtle and non-specific, diagnosis is often late and the prognosis consequently is dismal. Currently there is no accepted non-invasive tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects. In the last decade, low-dose computed tomography (LDCT) has been successfully developed and validated for the early diagnosis of lung cancer in high-risk smokers. Malignant mesothelioma might, in an early stage, resemble a benign pleural plaque, which is a common finding after asbestos exposure. We target to develop low-dose CT as a tool to serially image the pleural plaques, quantify their individual and overall volume, compute the growth rate with time, and, as such, identify the presence of mesothelioma early, before symptoms occur.",
+  "passages": [
+    {
+      "passage_id": "NCT00188890::eligibility::0",
+      "doc_id": "NCT00188890",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: prior asbestos exposure at least 20 years ago and/or documented pleural plaques (chest x-ray evidence) Resident of Ontario, Canada Exclusion Criteria: prior cancer (except non-melanotic skin cancer)",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 361.72849960290137,
+      "cross_score": -5.3170776,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00188890::detailed_description::0",
+      "doc_id": "NCT00188890",
+      "section": "detailed_description",
+      "passage_text": "Background and Purpose: Asbestos exposure may result in several different diseases to the lung and to the lining of the lung, the so-called pleura. Mostly they are benign, but there are two common malignant diseases in people with prior asbestos exposure, the so-called mesothelioma - which originates from the pleura - and cancer of the lung. Symptoms of any of these malignant diseases generally do not appear for 10-35 years after the first asbestos exposure, and include shortness of breath, chronic or new cough, coughing of blood, chest pain or weight loss. Unfortunately, these symptoms are most often causes by very advanced diseases, when patients can no longer be cured. Currently there is no accepted tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects available. Standard of care includes regular chest radiographs, which are not sufficient to show mesothelioma or lung cancer in an early stage. A screening CT examination, also called CAT scan, of the lungs will be performed without intravenous contrast. The CT examination as such is not an experimental procedure, CAT scans are performed routinely since decades.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 361.72849960290137,
+      "cross_score": -5.496854,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04418804::detailed_description::0",
+      "doc_id": "NCT04418804",
+      "section": "detailed_description",
+      "passage_text": "Background and rationale: The Pleura is a double-layered membrane surrounding the lungs. It is anatomically divided into Visceral Pleura, which is attached to the outer part of the lungs, and to the Parietal Pleura, which is attached to the inner side of the rib cage. Pathological processes involving the Pleura are incorporated under the name \"Pleural diseases\" which include, among others, pneumothorax, pleural effusion, and various tumors. This disease group is relatively widespread, and as evidence that the incidence reported in the literature is over 300 to 100,000 people in one year. Diagnosis and evaluation of pleural disease involve the use of various neuroimaging devices such as chest radiographs, ultrasound, CT, and MRI. Most often, chest radiographs are widely accepted as the first means of identifying pleural diseases, with ultrasound, CT, and MRI supplementing or constituting a diagnostic confirmation if necessary. Over the past few years, a significant perceptual change has been made in the use of chest ultrasound to diagnose pleural diseases as part of emergent and none emergent situations.",
+      "title": "Diagnosis and Classification of Pleural Diseases Using Ultrasound Channel Data",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 327.66557599429166,
+      "cross_score": -5.7693677,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03944928::summary::0",
+      "doc_id": "NCT03944928",
+      "section": "summary",
+      "passage_text": "Idiopathic pulmonary fibrosis (IPF) is one of the most common chronic idiopathic fibrotic interstitial lung disease (ILD). IPF is an evolving disease that requires regular follow-up through clinical examination, respiratory functional investigations and thoracic CT. Thoracic CT is necessary for the follow-up, usually performed yearly, and in case of deterioration of respiratory function. The disadvantages to its realization are the repeated irradiation, the cost, the accessibility, and sometimes the difficulties of realization related to the supine position. Several signs of thoracic ultrasound have been described in ILD, including the number of B lines, the irregularity of the pleural line, and the thickening of the pleural line. Cross-sectional studies have correlated the intensity of these signs with the severity of fibrosis lesions on chest CT in patients with ILD, including IPF. However, no studies have prospectively described the evolution of ultrasound signs in the same IPF patient, or their correlation to clinical, functional and CT scan evolution. The hypothesis is that thoracic ultrasound is a relevant tool to highlight the evolution of pulmonary lesions in IPF. The main objective is to show with thoracic ultrasound an increase in one or more of the ultrasound signs: line B score, pleural line irregularity score, and pleural line thickness during the follow-up of patient with IPF. The study will enroll patients with a validated diagnosis of IPF in a multidisciplinary staff. At each follow-up visit, patients will have a clinical examination, pulmonary functional test and thoracic ultrasound. The CT data collected will include the last thoracic CT performed in the 3 months before the inclusion and those performed during the patient's participation. The presence, location and severity of ultrasound signs, will be recorded for each patient during successive reassessments and correlation to clinical, functional and CT scan evolution will be made. This study will add significant knowledge in the study of ultrasound signs evolution in patients with IPF. If there is a correlation with the clinical or CT scores, it will be possible to carry over the realization of the CTs to limit the irradiation of the patients. Conversely, early detection of worsening ultrasound signs may lead to faster therapeutic adjustments to limit the extent of irreversible fibrotic lesions.",
+      "title": "ThOracic Ultrasound in Idiopathic Pulmonary Fibrosis Evolution",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 330.06659886543787,
+      "cross_score": -5.8276043,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01264055::summary::0",
+      "doc_id": "NCT01264055",
+      "section": "summary",
+      "passage_text": "Background: - Bronchiectasis is a type of lung condition in which the lungs airways are abnormally stretched and widened. This stretching and widening makes it difficult for mucus and other substances to move out of the lungs, encouraging the growth of bacteria and leading to breathing problems or infection. Bronchiectasis can be caused by genetic disorders or diseases such as tuberculosis or rheumatoid arthritis. Researchers are interested in developing better ways to diagnose and treat a lung problem called idiopathic or unexplained bronchiectasis. Objectives: - To better describe the physical characteristics, radiographic patterns, and airway microbiology of unexplained bronchiectasis and to look for possible genetic links or risk factors. Eligibility: - Individuals at least 18 years of age who have a chronic cough and who have had a CT scan that has revealed signs of bronchiectasis. - Current smokers or those who have smoked for at least 10 years, as well as individuals who have known causes of bronchiectasis or who have had organ transplants, are not eligible to participate. Design: - Participants will have one outpatient clinic visit for evaluation with a physical examination including detailed body size measurements and medical history and for collection of blood samples for routine lab tests and genetic analyses and a chest x-ray if no recent one is available. - Participants will also have tests of lung function, and measurement of a gas called nitric oxide in the nose. Participants whose initial tests show abnormal results may also be asked to have a nasal scrape to collect cell samples and/or a skin sweat test to measure salt concentrations. - Participants will also have a sputum specimen collected during the visit and will be asked to collect two additional early morning sputum samples and a mouth rinse at home within 2 weeks of the clinic visit, and mail the sample collection materials to the research team.",
+      "title": "Cross-sectional Characterization of Idiopathic Bronchiectasis",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 321.1100023066035,
+      "cross_score": -5.9930873,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00188890::summary::0",
+      "doc_id": "NCT00188890",
+      "section": "summary",
+      "passage_text": "Occupational exposure to asbestos is known increase the risk of developing cancer of the lungs (bronchogenic carcinoma) or of the pleura (mesothelioma). Symptoms are subtle and non-specific, diagnosis is often late and the prognosis consequently is dismal. Currently there is no accepted non-invasive tool for the early diagnosis of mesothelioma or lung cancer in asbestos-exposed subjects. In the last decade, low-dose computed tomography (LDCT) has been successfully developed and validated for the early diagnosis of lung cancer in high-risk smokers. Malignant mesothelioma might, in an early stage, resemble a benign pleural plaque, which is a common finding after asbestos exposure. We target to develop low-dose CT as a tool to serially image the pleural plaques, quantify their individual and overall volume, compute the growth rate with time, and, as such, identify the presence of mesothelioma early, before symptoms occur.",
+      "title": "Early Diagnosis of Lung Cancer and Mesothelioma in Prior Asbestos Workers",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 361.72849960290137,
+      "cross_score": -6.035139,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.\",\n  \"supported_patient_facts\": [\n    \"Chronic exposure to asbestos\",\n    \"Presence of pulmonary fibrosis with asbestos bodies\",\n    \"Mild bilateral pleural effusion and diffuse pleural thickening\"\n  ],\n  \"missing_patient_facts\": [\n    \"Confirmation of prior asbestos exposure at least 20 years ago\",\n    \"Resident of Ontario, Canada\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Need to confirm if the patient meets the criteria for prior asbestos exposure at least 20 years ago\",\n    \"Need to confirm if the patient is a resident of Ontario, Canada\"\n  ],\n  \"reasoning_summary\": \"The patient has a history of chronic asbestos exposure and pulmonary fibrosis with asbestos bodies, which aligns with the inclusion criteria. However, the specific requirement of prior asbestos exposure at least 20 years ago and residency in Ontario, Canada, remains unresolved.\",\n  \"safety_note\": \"Please ensure all required documentation is complete and accurate.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.",
+    "supported_patient_facts": [
+      "Chronic exposure to asbestos",
+      "Presence of pulmonary fibrosis with asbestos bodies",
+      "Mild bilateral pleural effusion and diffuse pleural thickening"
+    ],
+    "missing_patient_facts": [
+      "Confirmation of prior asbestos exposure at least 20 years ago",
+      "Resident of Ontario, Canada"
+    ],
+    "unresolved_study_requirements": [
+      "Need to confirm if the patient meets the criteria for prior asbestos exposure at least 20 years ago",
+      "Need to confirm if the patient is a resident of Ontario, Canada"
+    ],
+    "reasoning_summary": "The patient has a history of chronic asbestos exposure and pulmonary fibrosis with asbestos bodies, which aligns with the inclusion criteria. However, the specific requirement of prior asbestos exposure at least 20 years ago and residency in Ontario, Canada, remains unresolved.",
+    "safety_note": "Please ensure all required documentation is complete and accurate."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.",
+  "missing_patient_facts": [
+    "Confirmation of prior asbestos exposure at least 20 years ago",
+    "Resident of Ontario, Canada"
+  ],
+  "unresolved_study_requirements": [
+    "Need to confirm if the patient meets the criteria for prior asbestos exposure at least 20 years ago",
+    "Need to confirm if the patient is a resident of Ontario, Canada"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.65
+}

@@ -5,6 +5,8 @@ dev_benign_drop_at_T,0.088
 n_dev_claims,68
 consensus_leaks_total,12
 consensus_leaks_redacted,8
-consensus_not_redacted,"4 (= 2 mixed-attribution + 2 judge-over-flag, correctly retained)"
-frozen_gens_with_drop,314/684
-baseline_gens_with_drop,570/912
+consensus_not_redacted,"4 (2 mixed-attribution + 2 judge-over-flag, correctly retained)"
+per_claim_drop_overall,0.151 (665/4392)
+per_claim_drop_accept_regime,0.179 (209/1167)
+per_claim_drop_abstain_regime,0.141 (456/3225)
+interpretation,removes 8/12 genuine cross-trial leaks at ~15% per-claim utility cost

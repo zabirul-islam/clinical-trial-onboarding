@@ -1,0 +1,132 @@
+{
+  "case_id": "case_trec2021_019",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00000531",
+  "selected_doc": "NCT00487279",
+  "reference_trial": "NCT00487279",
+  "evidence_trials": [
+    "NCT00487279",
+    "NCT02301390",
+    "NCT04765943"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device. It was interrogated at the OSH and per report the monitor read from yesterday: 40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms. Overnight, the patient went into monomorphic VT on telemetry. The patient was found to be unresponsive. CPR was initiated, unclear if the patient had a pulse. Within one minute the patient returned to sinus rhythm. The patient does not report any symptoms prior to this episode. Currently, the patient feels presyncope and nausea, but denies chest pain. Patient is to be transferred to the CCU for catheterization and EPS. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00487279 | section=detailed_description]\nThe secondary objective is to test the hypothesis that therapy with an ICD combined with medical therapy improves arrhythmic survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% and left ventricular dysfunction who do not have an indication for ICD based on the Target Population described above. Recruitment: All patients who have a history of coronary heart disease (CAD) with documentation of either myocardial infarction (MI) or left ventricular dysfunction (LVD), a preliminary ejection fraction (EF) > 35% and have previously undergone a contrast-enhanced MRI (CE-MRI) study for clinical diagnostic reasons or as part of the study entry screening procedure may be further evaluated for eligibility for this trial. In addition, patients with an ejection fraction of 30-35% may be eligible for the study if they do not currently have an indication for an ICD based on Target Population criteria described above. These patients may have NYHA Class I heart failure, no non-sustained VT on holter monitor, or if non-sustained VT is present, there is the absence of inducible VT at EP study.\n\n[Passage 2 | doc=NCT02301390 | section=detailed_description]\nSudden cardiac death (SCD) accounts for approximately 50% of all cardiac death, representing an estimated annual incidence ranging from 250,000 to 350,000 cases in the United States. The pathophysiologic mechanism for sudden death in the majority of these patients is thought to be ventricular tachycardia (VT) related to coronary artery disease (CAD), which can then degenerate to ventricular fibrillation (VF). Patients who survive an initial episode of VT/VF are prone to an extremely high incidence of recurrent life-threatening events (~25% at one year). Even in patients without a history of VT/VF, the presence of CAD and left ventricular (LV) dysfunction confers a two-year mortality rate of 22%. If VT is inducible at electrophysiological testing, the two-year mortality is ~30%. The pathogenesis of VT in the setting of CAD is reentry in the area of the scarred myocardium. After an MI, the tissue can be broadly divided into three zones: the dense scar, the surrounding live myocardial tissue, and the intervening border zone.\n\n[Passage 3 | doc=NCT04765943 | section=detailed_description]\nInterventions to avoid SCD following SVT are based on restoring sinus rhythm as soon as possible. Therefore, preventive strategies with implantable cardioverter-defibrillator (ICD) are the best clinical option for certain patients at higher risk of developing VT leading to life-threating events and, in fact, its implantation can rescue them from SCD. Some patients more prone to suffer STV following AMI are those with prior history of SVT, poorly tolerated VT or previous aborted SCD. Prevention of further lethal VT by ICD implantation, a strategy known as secondary prevention, was proved beneficial by through 3 different early clinical trials, even when compared with antiarrhythmic drugs. The overall evidence clearly demonstrated that IDC reduce global and arrhythmic death and thus, its implantation is now a class I recommendation in the international guidelines for patients with aborted SCD, or potentially lethal VT. On the other hand, despite the fact that NSVT are usually asymptomatic, they often precede SVT especially when recurrent and monomorphic as an expression of a significant ventricular dysfunction.\n\n[Passage 4 | doc=NCT00487279 | section=eligibility]\nInclusion Criteria: Randomized Arm 1. Evidence of Coronary Artery Disease (CAD)a. 2. Evidence of prior Myocardial Infarction defined by either: A. Clinical history of prior myocardial infarction OR B. Mild-moderate systolic LV dysfunction with an EF \u226450% 3. LVEF>35% by any current standard evaluation technique (e.g., echocardiogram, MUGA, angiography). \u2022 Patients who have an EF between 30-35% and NYHA Class I heart failure who do not have a history of ventricular tachyarrhythmias, or inducible ventricular tachycardia during electrophysiological (EP) testing can be enrolled (Target Population). 4. CE-MRI measure of infarct mass > 10% of LV mass (as measured by the MRI core lab) \u2022 If CE-MRI performed \u2264 40 days after myocardial infarction infarct mass must be \u2265 15% of the LV mass. 5. Patients aged 18 years or above 1. CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery.\n\n[Passage 5 | doc=NCT02301390 | section=detailed_description]\nFurthermore, using this high-density electroanatomical mapping 1) this strategy can be utilized to localize the arrhythmogenic substrate in the majority of patients with a history of myocardial infarction and sustained ventricular tachyarrhythmia's, and 2) RF ablation using an irrigated-tip ablation catheter can be effectively and safely used to modify the arrhythmogenic substrate to render VT non-inducible even in the presence of multiple VT morphologies. The favorable results in these non-randomized reports prompted the initiation of SMASH-VT (Substrate Mapping & Ablation in Sinus Rhythm to Halt Ventricular Tachycardia Trial); a prospective randomized clinical trial to objectively assess the clinical utility of substrate ablation of scar-related VT. This trial was a randomized-controlled trial examining the role of substrate mapping and RF ablation in the primary prevention of ICD shocks in patients presenting with clinically life-threatening VT/VF. That is, patients with a history of MI, and who survive an episode of VT/VF are at high-risk for recurrent VT and thus treated with ICDs (in essence, these patients meet AVID/CIDS/CASH criteria).\n\n[Passage 6 | doc=NCT00487279 | section=detailed_description]\nThe Center for Medicare Services (CMS) has recently decided in a coverage decision that patients with left ventricular dysfunction, heart failure, and an ejection fraction of <35% would be eligible to receive an ICD as long as they are enrolled in a prospective registry. Patients with LV ejection fractions greater than 35% or those without heart failure and ejection fractions over 30%, represent a more difficult management dilemma. However, since the majority of out of hospital cardiac arrests occur in patients with EF >35%, managing these patients is crucial in addressing the epidemiologic problem of sudden cardiac death. The primary objective of this trial is to test the hypothesis that therapy with an ICD combined with medical therapy improves long-term survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% of the left ventricle and left ventricular dysfunction who do not have an indication for ICD by either of the following criteria. Patients must have an EF of >35% or have an EF of 30-35% and must not have inducible ventricular tachycardia or have NYHA Class II or greater heart failure (Target Population).",
+  "passages": [
+    {
+      "passage_id": "NCT00487279::detailed_description::3",
+      "doc_id": "NCT00487279",
+      "section": "detailed_description",
+      "passage_text": "The secondary objective is to test the hypothesis that therapy with an ICD combined with medical therapy improves arrhythmic survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% and left ventricular dysfunction who do not have an indication for ICD based on the Target Population described above. Recruitment: All patients who have a history of coronary heart disease (CAD) with documentation of either myocardial infarction (MI) or left ventricular dysfunction (LVD), a preliminary ejection fraction (EF) > 35% and have previously undergone a contrast-enhanced MRI (CE-MRI) study for clinical diagnostic reasons or as part of the study entry screening procedure may be further evaluated for eligibility for this trial. In addition, patients with an ejection fraction of 30-35% may be eligible for the study if they do not currently have an indication for an ICD based on Target Population criteria described above. These patients may have NYHA Class I heart failure, no non-sustained VT on holter monitor, or if non-sustained VT is present, there is the absence of inducible VT at EP study.",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -4.187608,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02301390::detailed_description::0",
+      "doc_id": "NCT02301390",
+      "section": "detailed_description",
+      "passage_text": "Sudden cardiac death (SCD) accounts for approximately 50% of all cardiac death, representing an estimated annual incidence ranging from 250,000 to 350,000 cases in the United States. The pathophysiologic mechanism for sudden death in the majority of these patients is thought to be ventricular tachycardia (VT) related to coronary artery disease (CAD), which can then degenerate to ventricular fibrillation (VF). Patients who survive an initial episode of VT/VF are prone to an extremely high incidence of recurrent life-threatening events (~25% at one year). Even in patients without a history of VT/VF, the presence of CAD and left ventricular (LV) dysfunction confers a two-year mortality rate of 22%. If VT is inducible at electrophysiological testing, the two-year mortality is ~30%. The pathogenesis of VT in the setting of CAD is reentry in the area of the scarred myocardium. After an MI, the tissue can be broadly divided into three zones: the dense scar, the surrounding live myocardial tissue, and the intervening border zone.",
+      "title": "INTERVENE: Indian Trial of Endocardial Ventricular Substrate Ablation to Prevent Recurrent VT Events",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 384.9443026961722,
+      "cross_score": -5.2803535,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04765943::detailed_description::2",
+      "doc_id": "NCT04765943",
+      "section": "detailed_description",
+      "passage_text": "Interventions to avoid SCD following SVT are based on restoring sinus rhythm as soon as possible. Therefore, preventive strategies with implantable cardioverter-defibrillator (ICD) are the best clinical option for certain patients at higher risk of developing VT leading to life-threating events and, in fact, its implantation can rescue them from SCD. Some patients more prone to suffer STV following AMI are those with prior history of SVT, poorly tolerated VT or previous aborted SCD. Prevention of further lethal VT by ICD implantation, a strategy known as secondary prevention, was proved beneficial by through 3 different early clinical trials, even when compared with antiarrhythmic drugs. The overall evidence clearly demonstrated that IDC reduce global and arrhythmic death and thus, its implantation is now a class I recommendation in the international guidelines for patients with aborted SCD, or potentially lethal VT. On the other hand, despite the fact that NSVT are usually asymptomatic, they often precede SVT especially when recurrent and monomorphic as an expression of a significant ventricular dysfunction.",
+      "title": "Prognosis Impact of NSVTs After an AMI (TeVeO Study).",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 387.03334142261394,
+      "cross_score": -5.7599587,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00487279::eligibility::0",
+      "doc_id": "NCT00487279",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Randomized Arm 1. Evidence of Coronary Artery Disease (CAD)a. 2. Evidence of prior Myocardial Infarction defined by either: A. Clinical history of prior myocardial infarction OR B. Mild-moderate systolic LV dysfunction with an EF \u226450% 3. LVEF>35% by any current standard evaluation technique (e.g., echocardiogram, MUGA, angiography). \u2022 Patients who have an EF between 30-35% and NYHA Class I heart failure who do not have a history of ventricular tachyarrhythmias, or inducible ventricular tachycardia during electrophysiological (EP) testing can be enrolled (Target Population). 4. CE-MRI measure of infarct mass > 10% of LV mass (as measured by the MRI core lab) \u2022 If CE-MRI performed \u2264 40 days after myocardial infarction infarct mass must be \u2265 15% of the LV mass. 5. Patients aged 18 years or above 1. CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery.",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -5.801215,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02301390::detailed_description::5",
+      "doc_id": "NCT02301390",
+      "section": "detailed_description",
+      "passage_text": "Furthermore, using this high-density electroanatomical mapping 1) this strategy can be utilized to localize the arrhythmogenic substrate in the majority of patients with a history of myocardial infarction and sustained ventricular tachyarrhythmia's, and 2) RF ablation using an irrigated-tip ablation catheter can be effectively and safely used to modify the arrhythmogenic substrate to render VT non-inducible even in the presence of multiple VT morphologies. The favorable results in these non-randomized reports prompted the initiation of SMASH-VT (Substrate Mapping & Ablation in Sinus Rhythm to Halt Ventricular Tachycardia Trial); a prospective randomized clinical trial to objectively assess the clinical utility of substrate ablation of scar-related VT. This trial was a randomized-controlled trial examining the role of substrate mapping and RF ablation in the primary prevention of ICD shocks in patients presenting with clinically life-threatening VT/VF. That is, patients with a history of MI, and who survive an episode of VT/VF are at high-risk for recurrent VT and thus treated with ICDs (in essence, these patients meet AVID/CIDS/CASH criteria).",
+      "title": "INTERVENE: Indian Trial of Endocardial Ventricular Substrate Ablation to Prevent Recurrent VT Events",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 384.9443026961722,
+      "cross_score": -6.0616016,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00487279::detailed_description::2",
+      "doc_id": "NCT00487279",
+      "section": "detailed_description",
+      "passage_text": "The Center for Medicare Services (CMS) has recently decided in a coverage decision that patients with left ventricular dysfunction, heart failure, and an ejection fraction of <35% would be eligible to receive an ICD as long as they are enrolled in a prospective registry. Patients with LV ejection fractions greater than 35% or those without heart failure and ejection fractions over 30%, represent a more difficult management dilemma. However, since the majority of out of hospital cardiac arrests occur in patients with EF >35%, managing these patients is crucial in addressing the epidemiologic problem of sudden cardiac death. The primary objective of this trial is to test the hypothesis that therapy with an ICD combined with medical therapy improves long-term survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% of the left ventricle and left ventricular dysfunction who do not have an indication for ICD by either of the following criteria. Patients must have an EF of >35% or have an EF of 30-35% and must not have inducible ventricular tachycardia or have NYHA Class II or greater heart failure (Target Population).",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -6.215424,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm your eligibility. Please consult with the study team for further evaluation.\",\n  \"supported_patient_facts\": [\"history of CAD\", \"history of myocardial infarction (MI)\", \"left ventricular dysfunction\"],\n  \"missing_patient_facts\": [\"ejection fraction (EF) measurement\", \"confirmation of infarct mass > 10% of LV mass\"],\n  \"unresolved_study_requirements\": [\"confirmation of EF > 35% or 30-35% with no inducible ventricular tachycardia or NYHA Class II or greater heart failure\"],\n  \"reasoning_summary\": \"The patient has a history of CAD, MI, and left ventricular dysfunction, which aligns with the inclusion criteria. However, the exact EF value and confirmation of infarct mass > 10% of LV mass are required to fully determine eligibility. Additionally, the patient's EF status needs to be assessed to ensure it falls within the specified range for enrollment.\",\n  \"safety_note\": \"Please ensure that all necessary tests and evaluations are completed before proceeding with the trial.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"4\", \"6\"],\n    \"reasoning_summary\": [\"4\", \"6\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "history of CAD",
+      "history of myocardial infarction (MI)",
+      "left ventricular dysfunction"
+    ],
+    "missing_patient_facts": [
+      "ejection fraction (EF) measurement",
+      "confirmation of infarct mass > 10% of LV mass"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of EF > 35% or 30-35% with no inducible ventricular tachycardia or NYHA Class II or greater heart failure"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "Please ensure that all necessary tests and evaluations are completed before proceeding with the trial.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "4",
+        "6"
+      ],
+      "reasoning_summary": [
+        "4",
+        "6"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "ejection fraction (EF) measurement",
+    "confirmation of infarct mass > 10% of LV mass"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of EF > 35% or 30-35% with no inducible ventricular tachycardia or NYHA Class II or greater heart failure"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 24.117
+}

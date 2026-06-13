@@ -1,0 +1,88 @@
+{
+  "case_id": "case_trec2021_065",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005754",
+  "selected_doc": "NCT00419562",
+  "reference_trial": "NCT00419562",
+  "evidence_trials": [
+    "NCT00419562"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities. He claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2). He is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers. His takes 70/30 Insulin and vitamin D supplements. His past medical history is not significant for any other medical issues. His family history is positive for DM type 1 in his uncle and his grandfather. His lab study is as bellow: FBS: 100 mg/dl HbA1c: 6.5% Cholesterol: 190 mg/dl TG: 140 mg/dl LDL: 125 mg/dl HDL: 40 mg/dl Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00419562 | section=detailed_description]\nEligible participants will be randomized to receive either oral insulin (7.5 mg of recombinant human insulin crystals) or placebo daily. All participants randomized into this study will be seen at a study site for a follow-up evaluation, three and six months after randomization, and every six months thereafter. Participants will be contacted by phone between 6-monthly clinic visits to assess changes in diabetes status, medication compliance and adverse events. These phone contacts will occur approximately 3 months from the date of the participants previous clinic visit. At the study visits, participants will undergo assessments of their insulin production, immunologic status, and overall health. As the primary outcome measure, subjects will be followed until development of type 1 diabetes or the conclusion of the study. The trial is expected to last approximately 7-8 years or until the required amount of information is gathered.\n\n[Passage 2 | doc=NCT00419562 | section=summary]\nType 1 diabetes (T1D) is an autoimmune disease. This means that the immune system (the part of the body which helps fight infections) mistakenly attacks and destroys the cells that produce insulin (islet cells found in the pancreas). As these cells are destroyed, the body's ability to produce insulin decreases. There is evidence suggesting that repeated oral administration of an autoantigen (the same protein that the immune system is reacting to) may introduce a protective immunity and cause the immune system to stop its attack. An earlier, large scale study was done to see if oral insulin could delay or prevent the development of Type 1 diabetes in relatives at risk for developing Type 1 diabetes. The overall results showed that for the entire study population, oral insulin did not delay or prevent Type 1 diabetes. However, an analysis that was done after the conclusion of the trial suggested a potential beneficial effect in a subgroup of participants. The participants who seemed to benefit from oral insulin had higher levels of insulin autoantibodies which are directed against insulin itself ( called mIAA). The Type 1 Diabetes TrialNet study group will further explore the potential role of oral insulin to delay or prevent Type 1 diabetes in a similar group of people. The study will also include a secondary group of individuals at different levels of risk than those in the primary cohort to gather information for future studies.\n\n[Passage 3 | doc=NCT00419562 | section=eligibility]\nInclusion Criteria: 1. Have a proband with Type 1 diabetes mellitus (T1DM). A proband is an individual diagnosed with diabetes before age 40 and started on insulin therapy within 1-year of diagnosis. Probands considered to have type 1 diabetes by their physician who do not meet this definition will be referred to the TrialNet Eligibility Committee. 2. If the proband is a parent, sibling or a child, the study participant must be 3 -45 years of age. If the proband is a second or third degree relative (i.e. niece, nephew, aunt, uncle, grandparent, cousin, or half-sibling), the study participant must be 3-20 years of age. 3. Willing to sign Informed Consent Form. 4. Oral glucose tolerance test (OGTT) performed within 7 weeks prior to randomization in which: - fasting plasma glucose < 110 mg/dL (6.1 mmol/l), and - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 5. mIAA confirmed positive within the previous six months. 6. Two samples with at least one autoantibody other than mIAA positive within the previous six months. Exclusion Criteria: 1. Does not satisfy the above inclusion criteria. Subjects with mIAA positive but no other autoantibodies positive are not eligible for randomization.",
+  "passages": [
+    {
+      "passage_id": "NCT00419562::detailed_description::0",
+      "doc_id": "NCT00419562",
+      "section": "detailed_description",
+      "passage_text": "Eligible participants will be randomized to receive either oral insulin (7.5 mg of recombinant human insulin crystals) or placebo daily. All participants randomized into this study will be seen at a study site for a follow-up evaluation, three and six months after randomization, and every six months thereafter. Participants will be contacted by phone between 6-monthly clinic visits to assess changes in diabetes status, medication compliance and adverse events. These phone contacts will occur approximately 3 months from the date of the participants previous clinic visit. At the study visits, participants will undergo assessments of their insulin production, immunologic status, and overall health. As the primary outcome measure, subjects will be followed until development of type 1 diabetes or the conclusion of the study. The trial is expected to last approximately 7-8 years or until the required amount of information is gathered.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.123122,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00419562::summary::0",
+      "doc_id": "NCT00419562",
+      "section": "summary",
+      "passage_text": "Type 1 diabetes (T1D) is an autoimmune disease. This means that the immune system (the part of the body which helps fight infections) mistakenly attacks and destroys the cells that produce insulin (islet cells found in the pancreas). As these cells are destroyed, the body's ability to produce insulin decreases. There is evidence suggesting that repeated oral administration of an autoantigen (the same protein that the immune system is reacting to) may introduce a protective immunity and cause the immune system to stop its attack. An earlier, large scale study was done to see if oral insulin could delay or prevent the development of Type 1 diabetes in relatives at risk for developing Type 1 diabetes. The overall results showed that for the entire study population, oral insulin did not delay or prevent Type 1 diabetes. However, an analysis that was done after the conclusion of the trial suggested a potential beneficial effect in a subgroup of participants. The participants who seemed to benefit from oral insulin had higher levels of insulin autoantibodies which are directed against insulin itself ( called mIAA). The Type 1 Diabetes TrialNet study group will further explore the potential role of oral insulin to delay or prevent Type 1 diabetes in a similar group of people. The study will also include a secondary group of individuals at different levels of risk than those in the primary cohort to gather information for future studies.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.4092846,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00419562::eligibility::0",
+      "doc_id": "NCT00419562",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Have a proband with Type 1 diabetes mellitus (T1DM). A proband is an individual diagnosed with diabetes before age 40 and started on insulin therapy within 1-year of diagnosis. Probands considered to have type 1 diabetes by their physician who do not meet this definition will be referred to the TrialNet Eligibility Committee. 2. If the proband is a parent, sibling or a child, the study participant must be 3 -45 years of age. If the proband is a second or third degree relative (i.e. niece, nephew, aunt, uncle, grandparent, cousin, or half-sibling), the study participant must be 3-20 years of age. 3. Willing to sign Informed Consent Form. 4. Oral glucose tolerance test (OGTT) performed within 7 weeks prior to randomization in which: - fasting plasma glucose < 110 mg/dL (6.1 mmol/l), and - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 5. mIAA confirmed positive within the previous six months. 6. Two samples with at least one autoantibody other than mIAA positive within the previous six months. Exclusion Criteria: 1. Does not satisfy the above inclusion criteria. Subjects with mIAA positive but no other autoantibodies positive are not eligible for randomization.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.7130346,
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you may not be eligible for this clinical trial.\",\n  \"supported_patient_facts\": [\"25-year-old male\", \"Type 1 diabetes confirmed 7 years ago\", \"No other significant medical issues\"],\n  \"missing_patient_facts\": [\"Fasting plasma glucose level\", \"2-hour plasma glucose level\", \"mIAA status\", \"Other autoantibodies status\"],\n  \"unresolved_study_requirements\": [\"OGTT result within 7 weeks prior to randomization\"],\n  \"reasoning_summary\": \"The patient does not meet the inclusion criteria for the trial as they do not have the required autoantibodies and their OGTT results are not available. Additionally, the patient's cardiomyopathy and current medications might pose safety concerns.\",\n  \"safety_note\": \"Given the patient's current health conditions, it is important to consult with the study team regarding potential risks and benefits.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you may not be eligible for this clinical trial.",
+    "supported_patient_facts": [
+      "25-year-old male",
+      "Type 1 diabetes confirmed 7 years ago",
+      "No other significant medical issues"
+    ],
+    "missing_patient_facts": [
+      "Fasting plasma glucose level",
+      "2-hour plasma glucose level",
+      "mIAA status",
+      "Other autoantibodies status"
+    ],
+    "unresolved_study_requirements": [
+      "OGTT result within 7 weeks prior to randomization"
+    ],
+    "reasoning_summary": "The patient does not meet the inclusion criteria for the trial as they do not have the required autoantibodies and their OGTT results are not available. Additionally, the patient's cardiomyopathy and current medications might pose safety concerns.",
+    "safety_note": "Given the patient's current health conditions, it is important to consult with the study team regarding potential risks and benefits."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you may not be eligible for this clinical trial.",
+  "missing_patient_facts": [
+    "Fasting plasma glucose level",
+    "2-hour plasma glucose level",
+    "mIAA status",
+    "Other autoantibodies status"
+  ],
+  "unresolved_study_requirements": [
+    "OGTT result within 7 weeks prior to randomization"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.009
+}

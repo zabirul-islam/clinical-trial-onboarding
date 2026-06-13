@@ -1,0 +1,65 @@
+{
+  "case_id": "case_paraphrase_021",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00921609",
+  "reference_trial": "NCT00921609",
+  "evidence_trials": [
+    "NCT00921609"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT00921609 | section=summary]\nAcromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.",
+  "passages": [
+    {
+      "passage_id": "NCT00921609::summary::0",
+      "doc_id": "NCT00921609",
+      "section": "summary",
+      "passage_text": "Acromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.",
+      "title": "Peri-operative Dynamics of the Growth Hormone Axis in Subjects With Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 317.3107535253961,
+      "cross_score": -3.0262308,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"This study is looking at how well certain tests work after you've had surgery for a condition called acromegaly. These tests include measuring your growth hormone, a hormone related to it called IGF-I, and another hormone called IGF binding proteins. They want to see if these tests can help them know if the surgery worked well.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 41-year-old man with acromegaly.\",\n    \"He has undergone transsphenoidal surgery 4 months ago.\",\n    \"His IGF-1 level is 4.5 ULN adjusted by sex and age.\",\n    \"His random GH level is 4 ug/L.\",\n    \"A residual pituitary tumor was confirmed on recent brain MRI.\",\n    \"He takes only vitamin D and multivitamins post-surgery.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient's current GH levels over time (Day 1, Day 42, Day 84, Day 365).\",\n    \"MRI results at 1 year post-surgery.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Further testing of free IGF-I and IGF binding proteins at specific time points.\",\n    \"OGTT and IGF-I measurements at the day of surgery.\"\n  ],\n  \"reasoning_summary\": \"The patient meets the general criteria for the study, including being diagnosed with acromegaly and having undergone surgery. However, some key details like the patient's current GH levels and MRI results at 1 year post-surgery are missing. Also, the study requires additional testing that hasn't been completed yet.\",\n  \"safety_note\": \"The patient should discuss any concerns about the study with their healthcare provider before deciding to participate.\"\n}",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "This study is looking at how well certain tests work after you've had surgery for a condition called acromegaly. These tests include measuring your growth hormone, a hormone related to it called IGF-I, and another hormone called IGF binding proteins. They want to see if these tests can help them know if the surgery worked well.",
+    "supported_patient_facts": [
+      "The patient is a 41-year-old man with acromegaly.",
+      "He has undergone transsphenoidal surgery 4 months ago.",
+      "His IGF-1 level is 4.5 ULN adjusted by sex and age.",
+      "His random GH level is 4 ug/L.",
+      "A residual pituitary tumor was confirmed on recent brain MRI.",
+      "He takes only vitamin D and multivitamins post-surgery."
+    ],
+    "missing_patient_facts": [
+      "The patient's current GH levels over time (Day 1, Day 42, Day 84, Day 365).",
+      "MRI results at 1 year post-surgery."
+    ],
+    "unresolved_study_requirements": [
+      "Further testing of free IGF-I and IGF binding proteins at specific time points.",
+      "OGTT and IGF-I measurements at the day of surgery."
+    ],
+    "reasoning_summary": "The patient meets the general criteria for the study, including being diagnosed with acromegaly and having undergone surgery. However, some key details like the patient's current GH levels and MRI results at 1 year post-surgery are missing. Also, the study requires additional testing that hasn't been completed yet.",
+    "safety_note": "The patient should discuss any concerns about the study with their healthcare provider before deciding to participate."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "This study is looking at how well certain tests work after you've had surgery for a condition called acromegaly. These tests include measuring your growth hormone, a hormone related to it called IGF-I, and another hormone called IGF binding proteins. They want to see if these tests can help them know if the surgery worked well.",
+  "missing_patient_facts": [
+    "The patient's current GH levels over time (Day 1, Day 42, Day 84, Day 365).",
+    "MRI results at 1 year post-surgery."
+  ],
+  "unresolved_study_requirements": [
+    "Further testing of free IGF-I and IGF binding proteins at specific time points.",
+    "OGTT and IGF-I measurements at the day of surgery."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.92
+}

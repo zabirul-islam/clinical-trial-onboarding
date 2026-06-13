@@ -1,0 +1,131 @@
+{
+  "case_id": "case_trec2022_002",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01166412",
+  "reference_trial": "NCT01166412",
+  "evidence_trials": [
+    "NCT00263341",
+    "NCT00290251",
+    "NCT00330993",
+    "NCT01166412",
+    "NCT04143659"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 32-year-old woman comes to the hospital with vaginal spotting. Her last menstrual period was 10 weeks ago. She has regular menses lasting for 6 days and repeating every 29 days. Medical history is significant for appendectomy and several complicated UTIs. She has multiple male partners, and she is inconsistent with using barrier contraceptives. Vital signs are normal. Serum \u03b2-hCG level is 1800 mIU/mL, and a repeat level after 2 days shows an abnormal rise to 2100 mIU/mL. Pelvic ultrasound reveals a thin endometrium with no gestational sac in the uterus. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01166412 | section=eligibility]\nExclusion Criteria: Contraindications for enrollment will be the same as those for use of combined hormonal contraceptives as referenced in the World Health Organization (WHO) Medical Eligibility Criteria(MEC category 1 or 2) (1), in addition to contra-indications specific to this clinical trial including: - 1. Known hypersensitivity or contraindication to progestins. - 2. Known or suspected pregnancy. - 3. Prior hysterectomy or bilateral oophorectomy. - 4. Prior cervical surgery (LEEP, Cone biopsy, Cryosurgery). - 5. A history (within prior 12 months) or drug or alcohol abuse. - 6. Undiagnosed abnormal genital bleeding. - 7. Undiagnosed vaginal discharge or vaginal lesions or abnormalities. Subjects diagnosed at screening with a Chlamydia or gonococcus infection may not be included in the trial unless they are treated and proof of cure is documented after treatment (i.e. repeat test with negative results). In accordance with PI/medical designee assessment and local standards of practice, women with a history of genital herpes can be included if outbreaks are infrequent. Antiviral prophylactic therapy is permitted. - 8. Uncontrolled thyroid disorder. - 9.\n\n[Passage 2 | doc=NCT00290251 | section=detailed_description]\nUterine leiomyomata (fibroids) are a common benign tumor of the uterine muscle in pre-menopausal women that may cause bleeding, pelvic pain and pressure. Because fibroids grow in the presence of estrogen, medical therapies that decrease estrogen levels (like Gonadotropin releasing hormone,GnRH analog) cause fibroids to shrink and so may relieve symptoms. However, such medication can only be given short-term and has inconvenient side effects such as hot-flashes. Thus, many women with symptomatic fibroids choose to have them removed surgically, either individually or by removing the uterus via hysterectomy. Women between 25 and 50 years of age who have regular menstrual cycles and a history of uterine fibroids that cause heavy bleeding, pressure, or pain may be eligible for this study. Candidates are screened with a medical history and physical examination, including breast and pelvic examination, blood and urine tests, a quality-of-life questionnaire, and a home urine test for leuteinizing hormone (LH) surge. They are given a diary to record the LH surge, days of vaginal spotting or bleeding, and symptoms.\n\n[Passage 3 | doc=NCT04143659 | section=eligibility]\nprevious female permanent contraception procedure; 8c. in a monogamous relationship with a vasectomized partner; 8d. consistent use of a non-hormonal barrier method with every act of intercourse (e.g. condoms or diaphragm + spermicide). 8e. use copper IUD 9. In the opinion of the investigator, subject is willing and able to comply with the protocol requirements. 10. Subject is willing to record requested information in the daily diary. 11. Lives within the study site catchment area or within a reasonable distance from the site. 12. Understand and sign an IRB approved informed consent form prior to undergoing any screening assessments (including fasting blood draw). 13. Agree not to participate in any other clinical trials during the course of this study. Exclusion Criteria: 1. Known hypersensitivity or contraindication to progestins. 2. Abnormal Transvaginal Ultrasound (TVUS) or safety labs done during the screening period recognized as clinically significant by the investigator (or medically qualified designee). 3. Greater than 10% body weight change over previous year or planned significant weight loss during the study related to bariatric surgery, dieting or other causes. 4.\n\n[Passage 4 | doc=NCT00263341 | section=eligibility]\n[For pharmacokinetics study only; 39 subjects already recruited] - Willing to undergo frequent blooding sampling Exclusion Criteria: Contraindications for enrollment will be the same as those for use with combined hormonal contraceptives in addition to contraindications specific to this clinical trial including: - Known hypersensitivity to estrogens or progestins. - Known hypersensitivity to silicone rubber. - Known or suspected pregnancy. - History of infertility of >1.0 year in woman or her male partner. - History of vasectomy or sterility in male partner; tubal ligation (sterilization) in women. - Undiagnosed abnormal genital bleeding. - Undiagnosed vaginal discharge or vaginal lesions or abnormalities. (Subjects diagnosed at screening with a chlamydia or gonococcus infection may be included in the trial following treatment; partner treatment is also recommended. Investigators should make a determination if subjects are at high risk for reinfection, e.g. multiple sex partners, untreated partner, and whether such subjects can be included.) - History of pelvic inflammatory disease since last pregnancy episode. - History of toxic shock syndrome.\n\n[Passage 5 | doc=NCT00330993 | section=detailed_description]\nShe will also have a telephone follow-up on Study Day 36. - If the vaginal ultrasound shows the gestational sac to be present without embryonic cardiac activity, the subject may have a D&C and complete the acceptability questionnaire or can pursue expectant management and return on Study Day 36 (range Day 32-40). - If the vaginal ultrasound demonstrates absence of the gestational sac, she will complete a post-study acceptability questionnaire at the end of her visit which will take about 5 minutes to complete and all further follow up will be performed by telephone. 7. VISIT 4/TELEPHONE FOLLOW_UP #3: Study Day 36 (range Day 32-40). Visit length (if required) 30 minutes-1 hour, call length 10 minutes. 1. Subjects who had expelled the gestational sac as based on prior ultrasound examination or who had a D&C will receive telephone follow-up to assess their clinical status. Appointments to be evaluated by a clinical will be made as necessary. 2. If the subject must return for this visit, endovaginal and abdominal ultrasound examinations will be performed. If the vaginal ultrasound shows the gestational sac to still be present, the patient will be offered a surgical abortion. 3.\n\n[Passage 6 | doc=NCT01166412 | section=eligibility]\nSystolic BP > 140 mm Hg and/or Diastolic blood pressure (BP) > 90 mm Hg after 5-10 minutes rest. - 27. Clinically significant abnormal serum chemistry values according to the Principal Investigator's judgment. - 28. Participation in another clinical trial involving an investigational drug or device within last 30 days (prior to screening). - 29. Use of liver enzyme inducers within last 90 days (prior to screening) or intention to use liver enzyme inducers during the study (see Appendix 2 Exclusionary Medication List). - 30. Known HIV infection. - 31. Women at high risk of contracting HIV, e.g. women with multiple sex partners who need to use condoms consistently, injection drug users. Women enrolled in the study, who use condoms to protect against STIs or pregnancy, should be instructed that they can use condoms that are pre-lubricated with spermicide or lubricated, but they cannot use a spermicide applied separately and they should record all condom use in their diaries. - 32. Women who use any medications on the Exclusionary Medication List (see Appendix 2) OR used any within the past three months prior to the screening visit. - 33. Women with BMI \u226540 kg/m2 are excluded.",
+  "passages": [
+    {
+      "passage_id": "NCT01166412::eligibility::2",
+      "doc_id": "NCT01166412",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: Contraindications for enrollment will be the same as those for use of combined hormonal contraceptives as referenced in the World Health Organization (WHO) Medical Eligibility Criteria(MEC category 1 or 2) (1), in addition to contra-indications specific to this clinical trial including: - 1. Known hypersensitivity or contraindication to progestins. - 2. Known or suspected pregnancy. - 3. Prior hysterectomy or bilateral oophorectomy. - 4. Prior cervical surgery (LEEP, Cone biopsy, Cryosurgery). - 5. A history (within prior 12 months) or drug or alcohol abuse. - 6. Undiagnosed abnormal genital bleeding. - 7. Undiagnosed vaginal discharge or vaginal lesions or abnormalities. Subjects diagnosed at screening with a Chlamydia or gonococcus infection may not be included in the trial unless they are treated and proof of cure is documented after treatment (i.e. repeat test with negative results). In accordance with PI/medical designee assessment and local standards of practice, women with a history of genital herpes can be included if outbreaks are infrequent. Antiviral prophylactic therapy is permitted. - 8. Uncontrolled thyroid disorder. - 9.",
+      "title": "A Multi-center, Open-label, Randomized, Parallel Group Study to Evaluate Pharmacokinetic Profile, Effects on the Mechanisms of Contraceptive Efficacy and Safety of Two Progestin-only Patches Containing Different Doses of Levonorgestrel (LNG)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 218.8894630461305,
+      "cross_score": -3.774629,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00290251::detailed_description::0",
+      "doc_id": "NCT00290251",
+      "section": "detailed_description",
+      "passage_text": "Uterine leiomyomata (fibroids) are a common benign tumor of the uterine muscle in pre-menopausal women that may cause bleeding, pelvic pain and pressure. Because fibroids grow in the presence of estrogen, medical therapies that decrease estrogen levels (like Gonadotropin releasing hormone,GnRH analog) cause fibroids to shrink and so may relieve symptoms. However, such medication can only be given short-term and has inconvenient side effects such as hot-flashes. Thus, many women with symptomatic fibroids choose to have them removed surgically, either individually or by removing the uterus via hysterectomy. Women between 25 and 50 years of age who have regular menstrual cycles and a history of uterine fibroids that cause heavy bleeding, pressure, or pain may be eligible for this study. Candidates are screened with a medical history and physical examination, including breast and pelvic examination, blood and urine tests, a quality-of-life questionnaire, and a home urine test for leuteinizing hormone (LH) surge. They are given a diary to record the LH surge, days of vaginal spotting or bleeding, and symptoms.",
+      "title": "Treatment of Uterine Fibroids With the Selective Progesterone Receptor Modulator CDB-2914",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 213.67687376542295,
+      "cross_score": -3.9407778,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04143659::eligibility::1",
+      "doc_id": "NCT04143659",
+      "section": "eligibility",
+      "passage_text": "previous female permanent contraception procedure; 8c. in a monogamous relationship with a vasectomized partner; 8d. consistent use of a non-hormonal barrier method with every act of intercourse (e.g. condoms or diaphragm + spermicide). 8e. use copper IUD 9. In the opinion of the investigator, subject is willing and able to comply with the protocol requirements. 10. Subject is willing to record requested information in the daily diary. 11. Lives within the study site catchment area or within a reasonable distance from the site. 12. Understand and sign an IRB approved informed consent form prior to undergoing any screening assessments (including fasting blood draw). 13. Agree not to participate in any other clinical trials during the course of this study. Exclusion Criteria: 1. Known hypersensitivity or contraindication to progestins. 2. Abnormal Transvaginal Ultrasound (TVUS) or safety labs done during the screening period recognized as clinically significant by the investigator (or medically qualified designee). 3. Greater than 10% body weight change over previous year or planned significant weight loss during the study related to bariatric surgery, dieting or other causes. 4.",
+      "title": "A Study to Evaluate the PK and PD of IM or SQ Injections of Levonorgestrel Butanoate (LB) for Female Contraception",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 214.5428186249497,
+      "cross_score": -4.462217,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00263341::eligibility::1",
+      "doc_id": "NCT00263341",
+      "section": "eligibility",
+      "passage_text": "[For pharmacokinetics study only; 39 subjects already recruited] - Willing to undergo frequent blooding sampling Exclusion Criteria: Contraindications for enrollment will be the same as those for use with combined hormonal contraceptives in addition to contraindications specific to this clinical trial including: - Known hypersensitivity to estrogens or progestins. - Known hypersensitivity to silicone rubber. - Known or suspected pregnancy. - History of infertility of >1.0 year in woman or her male partner. - History of vasectomy or sterility in male partner; tubal ligation (sterilization) in women. - Undiagnosed abnormal genital bleeding. - Undiagnosed vaginal discharge or vaginal lesions or abnormalities. (Subjects diagnosed at screening with a chlamydia or gonococcus infection may be included in the trial following treatment; partner treatment is also recommended. Investigators should make a determination if subjects are at high risk for reinfection, e.g. multiple sex partners, untreated partner, and whether such subjects can be included.) - History of pelvic inflammatory disease since last pregnancy episode. - History of toxic shock syndrome.",
+      "title": "Safety and Efficacy of a Contraceptive Vaginal Ring Delivering Nestorone\u00ae and Ethinyl Estradiol",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 220.26165664657827,
+      "cross_score": -4.7677956,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00330993::detailed_description::6",
+      "doc_id": "NCT00330993",
+      "section": "detailed_description",
+      "passage_text": "She will also have a telephone follow-up on Study Day 36. - If the vaginal ultrasound shows the gestational sac to be present without embryonic cardiac activity, the subject may have a D&C and complete the acceptability questionnaire or can pursue expectant management and return on Study Day 36 (range Day 32-40). - If the vaginal ultrasound demonstrates absence of the gestational sac, she will complete a post-study acceptability questionnaire at the end of her visit which will take about 5 minutes to complete and all further follow up will be performed by telephone. 7. VISIT 4/TELEPHONE FOLLOW_UP #3: Study Day 36 (range Day 32-40). Visit length (if required) 30 minutes-1 hour, call length 10 minutes. 1. Subjects who had expelled the gestational sac as based on prior ultrasound examination or who had a D&C will receive telephone follow-up to assess their clinical status. Appointments to be evaluated by a clinical will be made as necessary. 2. If the subject must return for this visit, endovaginal and abdominal ultrasound examinations will be performed. If the vaginal ultrasound shows the gestational sac to still be present, the patient will be offered a surgical abortion. 3.",
+      "title": "Oral Mifepristone and Buccal Misoprostol Administered Simultaneously for Abortion Through 63 Days Gestation",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 215.9226371666333,
+      "cross_score": -4.822955,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01166412::eligibility::5",
+      "doc_id": "NCT01166412",
+      "section": "eligibility",
+      "passage_text": "Systolic BP > 140 mm Hg and/or Diastolic blood pressure (BP) > 90 mm Hg after 5-10 minutes rest. - 27. Clinically significant abnormal serum chemistry values according to the Principal Investigator's judgment. - 28. Participation in another clinical trial involving an investigational drug or device within last 30 days (prior to screening). - 29. Use of liver enzyme inducers within last 90 days (prior to screening) or intention to use liver enzyme inducers during the study (see Appendix 2 Exclusionary Medication List). - 30. Known HIV infection. - 31. Women at high risk of contracting HIV, e.g. women with multiple sex partners who need to use condoms consistently, injection drug users. Women enrolled in the study, who use condoms to protect against STIs or pregnancy, should be instructed that they can use condoms that are pre-lubricated with spermicide or lubricated, but they cannot use a spermicide applied separately and they should record all condom use in their diaries. - 32. Women who use any medications on the Exclusionary Medication List (see Appendix 2) OR used any within the past three months prior to the screening visit. - 33. Women with BMI \u226540 kg/m2 are excluded.",
+      "title": "A Multi-center, Open-label, Randomized, Parallel Group Study to Evaluate Pharmacokinetic Profile, Effects on the Mechanisms of Contraceptive Efficacy and Safety of Two Progestin-only Patches Containing Different Doses of Levonorgestrel (LNG)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 218.8894630461305,
+      "cross_score": -4.975651,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems you might not be eligible for this clinical trial due to your recent vaginal spotting and elevated \u03b2-hCG levels. However, we need more details to confirm. Please check with your healthcare provider to ensure you meet all eligibility criteria.\",\n  \"supported_patient_facts\": [\"you are a 32-year-old woman\", \"you experienced vaginal spotting\", \"your last menstrual period was 10 weeks ago\", \"your serum \u03b2-hCG level is 1800 mIU/mL\", \"a repeat level after 2 days shows an abnormal rise to 2100 mIU/mL\", \"pelvic ultrasound revealed a thin endometrium with no gestational sac in the uterus\"],\n  \"missing_patient_facts\": [\"your medical history regarding previous pregnancies or miscarriages\", \"the results of your transvaginal ultrasound or safety labs done during the screening period\", \"whether you have a history of abnormal genital bleeding or vaginal discharge\"],\n  \"unresolved_study_requirements\": [\"confirmation of your medical history regarding previous pregnancies or miscarriages\", \"results of your transvaginal ultrasound or safety labs done during the screening period\"],\n  \"reasoning_summary\": \"The patient meets some key criteria for the trial, such as recent vaginal bleeding and elevated \u03b2-hCG levels. However, there are unresolved issues regarding her medical history and screening lab results, which prevent a definitive decision.\",\n  \"safety_note\": \"Please consult with your healthcare provider before participating in this trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems you might not be eligible for this clinical trial due to your recent vaginal spotting and elevated \u03b2-hCG levels. However, we need more details to confirm. Please check with your healthcare provider to ensure you meet all eligibility criteria.",
+    "supported_patient_facts": [
+      "you are a 32-year-old woman",
+      "you experienced vaginal spotting",
+      "your last menstrual period was 10 weeks ago",
+      "your serum \u03b2-hCG level is 1800 mIU/mL",
+      "a repeat level after 2 days shows an abnormal rise to 2100 mIU/mL",
+      "pelvic ultrasound revealed a thin endometrium with no gestational sac in the uterus"
+    ],
+    "missing_patient_facts": [
+      "your medical history regarding previous pregnancies or miscarriages",
+      "the results of your transvaginal ultrasound or safety labs done during the screening period",
+      "whether you have a history of abnormal genital bleeding or vaginal discharge"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of your medical history regarding previous pregnancies or miscarriages",
+      "results of your transvaginal ultrasound or safety labs done during the screening period"
+    ],
+    "reasoning_summary": "The patient meets some key criteria for the trial, such as recent vaginal bleeding and elevated \u03b2-hCG levels. However, there are unresolved issues regarding her medical history and screening lab results, which prevent a definitive decision.",
+    "safety_note": "Please consult with your healthcare provider before participating in this trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems you might not be eligible for this clinical trial due to your recent vaginal spotting and elevated \u03b2-hCG levels. However, we need more details to confirm. Please check with your healthcare provider to ensure you meet all eligibility criteria.",
+  "missing_patient_facts": [
+    "your medical history regarding previous pregnancies or miscarriages",
+    "the results of your transvaginal ultrasound or safety labs done during the screening period",
+    "whether you have a history of abnormal genital bleeding or vaginal discharge"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of your medical history regarding previous pregnancies or miscarriages",
+    "results of your transvaginal ultrasound or safety labs done during the screening period"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.131
+}

@@ -1,0 +1,132 @@
+{
+  "case_id": "case_trec2022_016",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04480190",
+  "reference_trial": "NCT04480190",
+  "evidence_trials": [
+    "NCT00061048",
+    "NCT00087178",
+    "NCT00176280",
+    "NCT03529955",
+    "NCT03738800",
+    "NCT04480190"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old woman comes to the clinic complaining of arthralgias and nodules on her legs. She has no fever or other skin rashes. The prior medical condition is unremarkable, and she takes no medications. On physical examination, there is moderate hepatomegaly. The lesions on her legs are tender and present predominantly on the anterior surface of the lower extremities. She doesn't smoke and drinks alcohol occasionally. The patient has 2 male sexual partners. Vital signs are normal. Chest x-ray demonstrates enlarged hilar lymph nodes, and laboratory testing reveals an elevated ACE level. Biopsy of the skin lesion shows noncaseating granulomas that stain negative for fungi & acid-fast bacilli. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04480190 | section=eligibility]\nTo be eligible for this trial, patients should be class 2B or better. - Patients must have either biopsy proven biliary adenocarcinoma (Intrahepatic cholangiocarcinoma, hilar cholangiocarcinoma, extrahepatic cholangiocarcinoma), or Gallbladder Adenocarcinoma or cytology with FISH abnormality sufficient for diagnosis. - Patients must be deemed to have tumor that is resectable by the surgical oncologist and must have no medical contraindications to surgery. - All patients must have a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy. - Patients with enlarged regional lymph nodes within the dissection basin are eligible for participation. - Women of child-bearing potential and men must agree to use adequate contraception for 14 months (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.\n\n[Passage 2 | doc=NCT03529955 | section=detailed_description]\nTulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.\n\n[Passage 3 | doc=NCT00061048 | section=eligibility]\n- Eligible patients must be greater than or equal to 18 years old. There is no upper age limit. - Patients must have serum glutamic oxaloacetic transaminase (SGOT) and serum glutamic pyruvic transaminase (SGPT) value less than or equal to 2.5-fold greater than the upper limit of normal and bilirubin less than or equal to 3.0/dl. If a liver function test is judged to be elevated due to the underlying ATL, this parameter will be considered an unevaluable parameter for toxicity determinations. - Patients must be able to understand and sign an Informed Consent form. - All patients must use adequate contraception during participation in this trial and for three months after completing therapy. Exclusion Criteria: - Patients with symptomatic leukemic meningitis will be excluded. However patients that have both ATL and another HTLV-1-associated disease, tropical spastic paraparesis (TSP) will be included. - Pregnant and nursing patients are not eligible for the study. Because the effects of CAMPATH-1H on the developing fetus are unknown pregnant women will be excluded.\n\n[Passage 4 | doc=NCT03738800 | section=eligibility]\nSubject is presumed to be abusing drug or alcohol at Screening or Baseline Visits based on medical history or current clinical symptoms. 19. Subject is participating in another interventional clinical trial. 20. Subject is institutionalized. 21. Subject is in any way related to the sponsor, investigator, or site personnel.\n\n[Passage 5 | doc=NCT00087178 | section=eligibility]\nThis is permissible even if axillary dissection has been performed. Patients in whom tumor is still present at the resected margin after re-excision(s) must undergo total mastectomy to be eligible. - This is a node-negative study, therefore irradiation of regional lymph nodes is prohibited in this trial. - Whole breast irradiation is required unless the patient is assigned to the partial breast irradiation group on NSABP B-39. - Postmastectomy chest wall irradiation at the investigator's discretion is permitted. However, this is a node-negative study; therefore irradiation of regional lymph nodes is prohibited in this trial. Ineligibility - Male patients are not eligible for this study. - Pure tubular or mucinous adenocarcinomas. - Bilateral malignancy (including DCIS) or a mass or mammographic abnormality in the opposite breast suspicious for malignancy unless there is biopsy proof that the mass is not malignant. - Primary tumor staged as T4 for any reason. - Suspicious palpable nodes in the ipsilateral or contralateral axilla or palpable supraclavicular or infraclavicular nodes.\n\n[Passage 6 | doc=NCT00176280 | section=eligibility]\nUncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, uncontrolled or untreated cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements. 3. Patients requiring any non study corticosteroids for any reason are excluded. 4. Pregnant women are excluded from this study because of the teratogenic potential of 5-FU and gemcitabine. Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately. Lactating women are also excluded. Post menopausal women must have been amenorrheic for at least 12 months to be considered of non-childbearing potential. 5. Patients may not be receiving any other investigational agents. 6. Peripheral neuropathy must be \u2264 grade 1. 7.",
+  "passages": [
+    {
+      "passage_id": "NCT04480190::eligibility::1",
+      "doc_id": "NCT04480190",
+      "section": "eligibility",
+      "passage_text": "To be eligible for this trial, patients should be class 2B or better. - Patients must have either biopsy proven biliary adenocarcinoma (Intrahepatic cholangiocarcinoma, hilar cholangiocarcinoma, extrahepatic cholangiocarcinoma), or Gallbladder Adenocarcinoma or cytology with FISH abnormality sufficient for diagnosis. - Patients must be deemed to have tumor that is resectable by the surgical oncologist and must have no medical contraindications to surgery. - All patients must have a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy. - Patients with enlarged regional lymph nodes within the dissection basin are eligible for participation. - Women of child-bearing potential and men must agree to use adequate contraception for 14 months (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.",
+      "title": "Neoadjuvant Therapy in Biliary Adenocarcinoma",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 253.40780477017177,
+      "cross_score": -4.972583,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::1",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Tulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 260.4082000889703,
+      "cross_score": -5.0130053,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00061048::eligibility::1",
+      "doc_id": "NCT00061048",
+      "section": "eligibility",
+      "passage_text": "- Eligible patients must be greater than or equal to 18 years old. There is no upper age limit. - Patients must have serum glutamic oxaloacetic transaminase (SGOT) and serum glutamic pyruvic transaminase (SGPT) value less than or equal to 2.5-fold greater than the upper limit of normal and bilirubin less than or equal to 3.0/dl. If a liver function test is judged to be elevated due to the underlying ATL, this parameter will be considered an unevaluable parameter for toxicity determinations. - Patients must be able to understand and sign an Informed Consent form. - All patients must use adequate contraception during participation in this trial and for three months after completing therapy. Exclusion Criteria: - Patients with symptomatic leukemic meningitis will be excluded. However patients that have both ATL and another HTLV-1-associated disease, tropical spastic paraparesis (TSP) will be included. - Pregnant and nursing patients are not eligible for the study. Because the effects of CAMPATH-1H on the developing fetus are unknown pregnant women will be excluded.",
+      "title": "Campath-1H for Treating Adult T-Cell Leukemia/Lymphoma",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 257.42445208773705,
+      "cross_score": -5.0489473,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03738800::eligibility::6",
+      "doc_id": "NCT03738800",
+      "section": "eligibility",
+      "passage_text": "Subject is presumed to be abusing drug or alcohol at Screening or Baseline Visits based on medical history or current clinical symptoms. 19. Subject is participating in another interventional clinical trial. 20. Subject is institutionalized. 21. Subject is in any way related to the sponsor, investigator, or site personnel.",
+      "title": "A Safety, Efficacy and Systemic Exposure Study of CD5789 Cream in Adults and Adolescents With Lamellar Ichthyosis",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 253.0575024854305,
+      "cross_score": -5.64955,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00087178::eligibility::5",
+      "doc_id": "NCT00087178",
+      "section": "eligibility",
+      "passage_text": "This is permissible even if axillary dissection has been performed. Patients in whom tumor is still present at the resected margin after re-excision(s) must undergo total mastectomy to be eligible. - This is a node-negative study, therefore irradiation of regional lymph nodes is prohibited in this trial. - Whole breast irradiation is required unless the patient is assigned to the partial breast irradiation group on NSABP B-39. - Postmastectomy chest wall irradiation at the investigator's discretion is permitted. However, this is a node-negative study; therefore irradiation of regional lymph nodes is prohibited in this trial. Ineligibility - Male patients are not eligible for this study. - Pure tubular or mucinous adenocarcinomas. - Bilateral malignancy (including DCIS) or a mass or mammographic abnormality in the opposite breast suspicious for malignancy unless there is biopsy proof that the mass is not malignant. - Primary tumor staged as T4 for any reason. - Suspicious palpable nodes in the ipsilateral or contralateral axilla or palpable supraclavicular or infraclavicular nodes.",
+      "title": "Comparison of Two Combination Chemotherapy Regimens in Treating Women With Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 253.1692264027772,
+      "cross_score": -5.7435284,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00176280::eligibility::2",
+      "doc_id": "NCT00176280",
+      "section": "eligibility",
+      "passage_text": "Uncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, uncontrolled or untreated cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements. 3. Patients requiring any non study corticosteroids for any reason are excluded. 4. Pregnant women are excluded from this study because of the teratogenic potential of 5-FU and gemcitabine. Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately. Lactating women are also excluded. Post menopausal women must have been amenorrheic for at least 12 months to be considered of non-childbearing potential. 5. Patients may not be receiving any other investigational agents. 6. Peripheral neuropathy must be \u2264 grade 1. 7.",
+      "title": "Randomized Phase 2 Trial of Pre-chemotherapy Leukine vs. Leukine-Dexamethasone in Combination With Gemzar & 5-FU in Patients With Metastatic Renal Cell Carcinoma",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 253.406833909674,
+      "cross_score": -5.7994804,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it does not seem like you are eligible for the clinical trial. The trial seems to focus on conditions such as biliary cancer, dermatomyositis, and certain types of leukemia, which do not align with your symptoms of arthralgias and nodules on your legs.\",\n  \"supported_patient_facts\": [\"She has no fever or other skin rashes.\", \"The lesions on her legs are tender and present predominantly on the anterior surface of the lower extremities.\"],\n  \"missing_patient_facts\": [\"She has a prior medical condition that is unremarkable.\", \"She takes no medications.\", \"Her vital signs are normal.\", \"There is moderate hepatomegaly.\", \"She has 2 male sexual partners.\"],\n  \"unresolved_study_requirements\": [\"The trial focuses on specific cancers and conditions that do not match your symptoms.\", \"The trial requires a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy.\"],\n  \"reasoning_summary\": \"The patient's symptoms of arthralgias and nodules on her legs do not align with the eligibility criteria of the clinical trial mentioned in Passage 1. Additionally, the trial requires specific diagnostic tests and conditions that are not met by the patient's current health status.\",\n  \"safety_note\": \"It is important to consult with a healthcare provider before enrolling in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "She has no fever or other skin rashes.",
+      "The lesions on her legs are tender and present predominantly on the anterior surface of the lower extremities."
+    ],
+    "missing_patient_facts": [
+      "She has a prior medical condition that is unremarkable.",
+      "She takes no medications.",
+      "Her vital signs are normal.",
+      "There is moderate hepatomegaly.",
+      "She has 2 male sexual partners."
+    ],
+    "unresolved_study_requirements": [
+      "The trial focuses on specific cancers and conditions that do not match your symptoms.",
+      "The trial requires a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to consult with a healthcare provider before enrolling in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "She has a prior medical condition that is unremarkable.",
+    "She takes no medications.",
+    "Her vital signs are normal.",
+    "There is moderate hepatomegaly.",
+    "She has 2 male sexual partners."
+  ],
+  "unresolved_study_requirements": [
+    "The trial focuses on specific cancers and conditions that do not match your symptoms.",
+    "The trial requires a CT scan of the chest, abdomen, and pelvis with contrast or PET scan demonstrating no evidence of metastatic disease within 6 weeks prior to protocol therapy."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.794
+}

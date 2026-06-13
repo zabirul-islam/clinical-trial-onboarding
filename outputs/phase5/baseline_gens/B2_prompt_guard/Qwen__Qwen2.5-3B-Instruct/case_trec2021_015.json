@@ -1,0 +1,127 @@
+{
+  "case_id": "case_trec2021_015",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00003049",
+  "selected_doc": "NCT03358576",
+  "reference_trial": "NCT03358576",
+  "evidence_trials": [
+    "NCT00002561",
+    "NCT00586313",
+    "NCT01710254",
+    "NCT03085004",
+    "NCT03358576",
+    "NCT04753255"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**]) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03358576 | section=eligibility]\nPre-operative enrollment where one of the following surgical procedures are planned within 24 hours prior to the first dose of study drug: i. Open laparotomy, percutaneous drainage of an intra-abdominal abscess, or laparoscopic surgery. 4. Evidence of systemic inflammatory indicators, with at least one of the following: i. Fever (defined as body temperature >38\u00b0C) or hypothermia with a core body temperature <35\u00b0C ii. Elevated white blood cell count (>12,000 cells/mm3) iii. Drop in blood pressure (systolic BP must be <90 mmHg without pressor support) iv. Increased heart rate (>90 bpm) and respiratory rate (>20 breaths/min) v. Hypoxia (oxygen saturation \u226490 percent on room air) 5. Physical findings or symptoms consistent with intra-abdominal infection, with at least one of the following: i. Abdominal pain and/or tenderness, with or without rebound ii. Localized or diffuse abdominal wall rigidity iii. Abdominal mass iv. Nausea/vomiting v. Altered Mental Status 6. Specimen/s from the surgical intervention were sent for culture. Exclusion Criteria: 1.\n\n[Passage 2 | doc=NCT00002561 | section=eligibility]\nBulky adenopathy is defined as a palpable nodal mass greater than 10 cm. in diameter or a mediastinal mass with a maximum mass diameter measuring greater than or equal to 1/3 the maximum chest wall diameter (see Appendix III). - Patients with intra-abdominal disease. (Patients with pelvic disease: ileofemoral, inguinal or parailiac nodes are eligible for this study.) - Patients with B symptoms. - Patients known to have a positive antibody test for the human immunodeficiency virus (HIV) or who have a clinical diagnosis of acquired immunodeficiency syndrome. HIV testing is not a requirement for study entry. - Patients who have undergone a staging laparotomy. - Female patients who are pregnant. Note: men and women of childbearing age must be advised in the use of adequate contraception.\n\n[Passage 3 | doc=NCT03085004 | section=detailed_description]\nBetween November 2011 and December 30, 2015, investigators from interventional endoscopy, surgical oncology, hematology oncology, and pathology of the Penn State Hershey Medical Center conducted the CHARM I clinical trial. This was a prospective, randomized, double-blind, single-center study with an N of 46 patients required for 80% power to prove non-inferiority. Final results from CHARM I were as follows: Patients treated included 23 females and 16 males with the majority of lesions located in the body and head of the pancreas. Both the alcohol and alcohol-free groups recorded a 47% rate of complete ablation at 6 months, which increased to 64% for both groups at the 1 year follow-up. One subject experienced a complication in the alcohol arm (6%), and no subjects experienced complications in the alcohol-free arm. The overall objectives of CHARM II are to verify the significant findings of CHARM I in a multi-center clinical trial as requested by national investigators in this field.\n\n[Passage 4 | doc=NCT01710254 | section=detailed_description]\nScientific Background/Rationale: Atrial fibrillation (AF) is a large and growing healthcare problem worldwide. Over 7 million people in the U.S. and Europe currently suffer from atrial fibrillation, and this number is expected to double before 2050. The lifetime risk of AF is high: ~24% at age 40, and this risk remains fairly constant at older ages, with 22% lifetime risk at age 80 [1]. AF significantly increases the risk of stroke and mortality, and can greatly limit quality of life. Little research has been done on AF and ischemic cardiomyopathy, though it is a relatively common co-morbidity. CT found increased prevalence (41% vs 27%) of coronary artery disease (CAD) in patients with AF compared to patients with similar pre-test risk but no AF [2]. AF patients with a positive SPECT scan for CAD have a worse prognosis for cardiac events than patients with positive SPECT but without AF [3]. It was recently reported that in a study of 253 AF patients, that AF patients with positive SPECT studies had a very high number of false positives - only 15% of patients had significant CAD by angiography (compared to 67% in the control group) [4, 5].\n\n[Passage 5 | doc=NCT00586313 | section=detailed_description]\nThe initial reported use of this device demonstrated its safety and utility for biopsy of major upper abdominal organs (including the liver) in a swine model.31 Its subsequent use for sampling of gastrointestinal stromal tumors (GISTs), pancreatic masses and mediastinal lymph nodes in humans has also been reported.312-35 We have also studied its use in the diagnosis of nonfocal chronic pancreatitis.36 At Indiana University, we our EUS group have used this device in over 30 patients off protocol for various accepted indications without known complications (not published). The use of this EUS-TCBdevice for liver biopsy has been reported in abstract form in only two patients with suspected metastatic malignancy.37 No complications were reported in these two patients. Its use for suspected benign disease of the liver has not been reported to date.\n\n[Passage 6 | doc=NCT04753255 | section=eligibility]\nInclusion Criteria: - ALL GROUPS: All participants must sign an informed consent indicating that they are aware of the investigational nature of this study and willing to undergo study interventions, and authorizing the use of their protected health information for research purposes - ALL GROUPS: Meet one set of group-specific inclusion criteria listed below - ALL GROUPS: All participants must be >= 18 years old and =< 75 years at the time of enrollment - NO PANCREATIC DISEASE: No personal history or symptoms of pancreatic disease - NO PANCREATIC DISEASE: No upper abdominal symptoms - NO PANCREATIC DISEASE: No family history of pancreatic disorders, celiac disease, cystic fibrosis - NO PANCREATIC DISEASE: No history of acute infectious or inflammatory conditions requiring medical treatment or evaluation in the preceding 6 months (per provider clinical judgment) - NO PANCREATIC DISEASE: No history of cancer, except for non-melanoma skin cancers - NO PANCREATIC DISEASE: No known pregnancy at the time of enrollment - NO PANCREATIC DISEASE: No solid organ transplant or history of human immunodeficiency virus/acquired immunodeficiency syndrome (HIV/AIDS) - NO PANCREATIC DISEASE: Able to",
+  "passages": [
+    {
+      "passage_id": "NCT03358576::eligibility::1",
+      "doc_id": "NCT03358576",
+      "section": "eligibility",
+      "passage_text": "Pre-operative enrollment where one of the following surgical procedures are planned within 24 hours prior to the first dose of study drug: i. Open laparotomy, percutaneous drainage of an intra-abdominal abscess, or laparoscopic surgery. 4. Evidence of systemic inflammatory indicators, with at least one of the following: i. Fever (defined as body temperature >38\u00b0C) or hypothermia with a core body temperature <35\u00b0C ii. Elevated white blood cell count (>12,000 cells/mm3) iii. Drop in blood pressure (systolic BP must be <90 mmHg without pressor support) iv. Increased heart rate (>90 bpm) and respiratory rate (>20 breaths/min) v. Hypoxia (oxygen saturation \u226490 percent on room air) 5. Physical findings or symptoms consistent with intra-abdominal infection, with at least one of the following: i. Abdominal pain and/or tenderness, with or without rebound ii. Localized or diffuse abdominal wall rigidity iii. Abdominal mass iv. Nausea/vomiting v. Altered Mental Status 6. Specimen/s from the surgical intervention were sent for culture. Exclusion Criteria: 1.",
+      "title": "Sulopenem Versus Ertapenem for Complicated Intra-abdominal Infection (cIAI)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 471.7219954354018,
+      "cross_score": -4.53413,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00002561::eligibility::5",
+      "doc_id": "NCT00002561",
+      "section": "eligibility",
+      "passage_text": "Bulky adenopathy is defined as a palpable nodal mass greater than 10 cm. in diameter or a mediastinal mass with a maximum mass diameter measuring greater than or equal to 1/3 the maximum chest wall diameter (see Appendix III). - Patients with intra-abdominal disease. (Patients with pelvic disease: ileofemoral, inguinal or parailiac nodes are eligible for this study.) - Patients with B symptoms. - Patients known to have a positive antibody test for the human immunodeficiency virus (HIV) or who have a clinical diagnosis of acquired immunodeficiency syndrome. HIV testing is not a requirement for study entry. - Patients who have undergone a staging laparotomy. - Female patients who are pregnant. Note: men and women of childbearing age must be advised in the use of adequate contraception.",
+      "title": "Radiation Therapy and Chemotherapy in Treating Patients With Hodgkin's Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 468.0215381313136,
+      "cross_score": -5.0893126,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03085004::detailed_description::1",
+      "doc_id": "NCT03085004",
+      "section": "detailed_description",
+      "passage_text": "Between November 2011 and December 30, 2015, investigators from interventional endoscopy, surgical oncology, hematology oncology, and pathology of the Penn State Hershey Medical Center conducted the CHARM I clinical trial. This was a prospective, randomized, double-blind, single-center study with an N of 46 patients required for 80% power to prove non-inferiority. Final results from CHARM I were as follows: Patients treated included 23 females and 16 males with the majority of lesions located in the body and head of the pancreas. Both the alcohol and alcohol-free groups recorded a 47% rate of complete ablation at 6 months, which increased to 64% for both groups at the 1 year follow-up. One subject experienced a complication in the alcohol arm (6%), and no subjects experienced complications in the alcohol-free arm. The overall objectives of CHARM II are to verify the significant findings of CHARM I in a multi-center clinical trial as requested by national investigators in this field.",
+      "title": "CHARM II: Chemotherapy for Ablation and Resolution of Mucinous Pancreatic Cysts",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 462.42011224495616,
+      "cross_score": -5.180329,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01710254::detailed_description::0",
+      "doc_id": "NCT01710254",
+      "section": "detailed_description",
+      "passage_text": "Scientific Background/Rationale: Atrial fibrillation (AF) is a large and growing healthcare problem worldwide. Over 7 million people in the U.S. and Europe currently suffer from atrial fibrillation, and this number is expected to double before 2050. The lifetime risk of AF is high: ~24% at age 40, and this risk remains fairly constant at older ages, with 22% lifetime risk at age 80 [1]. AF significantly increases the risk of stroke and mortality, and can greatly limit quality of life. Little research has been done on AF and ischemic cardiomyopathy, though it is a relatively common co-morbidity. CT found increased prevalence (41% vs 27%) of coronary artery disease (CAD) in patients with AF compared to patients with similar pre-test risk but no AF [2]. AF patients with a positive SPECT scan for CAD have a worse prognosis for cardiac events than patients with positive SPECT but without AF [3]. It was recently reported that in a study of 253 AF patients, that AF patients with positive SPECT studies had a very high number of false positives - only 15% of patients had significant CAD by angiography (compared to 67% in the control group) [4, 5].",
+      "title": "Regadenoson Stress-MRI to Identify Coronary Artery Disease in Atrial Fibrillation Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 464.167432383708,
+      "cross_score": -5.3277225,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00586313::detailed_description::10",
+      "doc_id": "NCT00586313",
+      "section": "detailed_description",
+      "passage_text": "The initial reported use of this device demonstrated its safety and utility for biopsy of major upper abdominal organs (including the liver) in a swine model.31 Its subsequent use for sampling of gastrointestinal stromal tumors (GISTs), pancreatic masses and mediastinal lymph nodes in humans has also been reported.312-35 We have also studied its use in the diagnosis of nonfocal chronic pancreatitis.36 At Indiana University, we our EUS group have used this device in over 30 patients off protocol for various accepted indications without known complications (not published). The use of this EUS-TCBdevice for liver biopsy has been reported in abstract form in only two patients with suspected metastatic malignancy.37 No complications were reported in these two patients. Its use for suspected benign disease of the liver has not been reported to date.",
+      "title": "Endoscopic Ultrasound(EUS)-Guided TRUCUT Biopsy (EUS-TCB) of Suspected Nonalcoholic Fatty Liver Disease(NAFLD.)",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 476.504100340038,
+      "cross_score": -5.3860784,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04753255::eligibility::0",
+      "doc_id": "NCT04753255",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - ALL GROUPS: All participants must sign an informed consent indicating that they are aware of the investigational nature of this study and willing to undergo study interventions, and authorizing the use of their protected health information for research purposes - ALL GROUPS: Meet one set of group-specific inclusion criteria listed below - ALL GROUPS: All participants must be >= 18 years old and =< 75 years at the time of enrollment - NO PANCREATIC DISEASE: No personal history or symptoms of pancreatic disease - NO PANCREATIC DISEASE: No upper abdominal symptoms - NO PANCREATIC DISEASE: No family history of pancreatic disorders, celiac disease, cystic fibrosis - NO PANCREATIC DISEASE: No history of acute infectious or inflammatory conditions requiring medical treatment or evaluation in the preceding 6 months (per provider clinical judgment) - NO PANCREATIC DISEASE: No history of cancer, except for non-melanoma skin cancers - NO PANCREATIC DISEASE: No known pregnancy at the time of enrollment - NO PANCREATIC DISEASE: No solid organ transplant or history of human immunodeficiency virus/acquired immunodeficiency syndrome (HIV/AIDS) - NO PANCREATIC DISEASE: Able to",
+      "title": "Prospective Evaluation of Chronic Pancreatitis for Epidemiologic and Translational Studies, the PROCEED Study",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 482.8545868942561,
+      "cross_score": -5.4039497,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to meet the eligibility criteria for the clinical trial. You are a 70-year-old woman with a history of coronary artery disease and have been diagnosed with pancreatic adenocarcinoma at the head of your pancreas. However, we need to check if you meet all the specific requirements of the trial.\",\n  \"supported_patient_facts\": [\n    \"You are 70 years old.\",\n    \"You have a history of coronary artery disease with a history of angioplasty one year ago.\",\n    \"You have been diagnosed with pancreatic adenocarcinoma at the head of your pancreas.\"\n  ],\n  \"missing_patient_facts\": [\n    \"We do not have information about your spleen or pancreatic tail mass being an infected fluid collection or abscess.\",\n    \"We do not know if you have bulky adenopathy or mediastinal masses.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to confirm if you have a history of acute infectious or inflammatory conditions requiring medical treatment or evaluation in the preceding 6 months.\",\n    \"We need to determine if you have a personal or family history of pancreatic disorders, celiac disease, or cystic fibrosis.\"\n  ],\n  \"reasoning_summary\": \"Your age and history of coronary artery disease align with the inclusion criteria. However, we need more information about your current condition and potential exclusion criteria such as recent infections or pancreatic issues.\",\n  \"safety_note\": \"Given your recent diagnosis and ongoing treatment with antibiotics, please inform the study team if you experience any new symptoms or complications.\"\n}",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "Based on the information provided, you seem to meet the eligibility criteria for the clinical trial. You are a 70-year-old woman with a history of coronary artery disease and have been diagnosed with pancreatic adenocarcinoma at the head of your pancreas. However, we need to check if you meet all the specific requirements of the trial.",
+    "supported_patient_facts": [
+      "You are 70 years old.",
+      "You have a history of coronary artery disease with a history of angioplasty one year ago.",
+      "You have been diagnosed with pancreatic adenocarcinoma at the head of your pancreas."
+    ],
+    "missing_patient_facts": [
+      "We do not have information about your spleen or pancreatic tail mass being an infected fluid collection or abscess.",
+      "We do not know if you have bulky adenopathy or mediastinal masses."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm if you have a history of acute infectious or inflammatory conditions requiring medical treatment or evaluation in the preceding 6 months.",
+      "We need to determine if you have a personal or family history of pancreatic disorders, celiac disease, or cystic fibrosis."
+    ],
+    "reasoning_summary": "Your age and history of coronary artery disease align with the inclusion criteria. However, we need more information about your current condition and potential exclusion criteria such as recent infections or pancreatic issues.",
+    "safety_note": "Given your recent diagnosis and ongoing treatment with antibiotics, please inform the study team if you experience any new symptoms or complications."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "Based on the information provided, you seem to meet the eligibility criteria for the clinical trial. You are a 70-year-old woman with a history of coronary artery disease and have been diagnosed with pancreatic adenocarcinoma at the head of your pancreas. However, we need to check if you meet all the specific requirements of the trial.",
+  "missing_patient_facts": [
+    "We do not have information about your spleen or pancreatic tail mass being an infected fluid collection or abscess.",
+    "We do not know if you have bulky adenopathy or mediastinal masses."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm if you have a history of acute infectious or inflammatory conditions requiring medical treatment or evaluation in the preceding 6 months.",
+    "We need to determine if you have a personal or family history of pancreatic disorders, celiac disease, or cystic fibrosis."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.704
+}

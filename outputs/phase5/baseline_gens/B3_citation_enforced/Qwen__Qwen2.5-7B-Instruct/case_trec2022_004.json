@@ -1,0 +1,137 @@
+{
+  "case_id": "case_trec2022_004",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00726492",
+  "reference_trial": "NCT00726492",
+  "evidence_trials": [
+    "NCT00006292",
+    "NCT00726492",
+    "NCT03008668",
+    "NCT03299439",
+    "NCT03806205",
+    "NCT04612283"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 66-year-old woman comes to the office due to joint pain in the hands and periodic morning stiffness that lasts less than 15 minutes. The pain is moderately severe and worsens with daily activity. The patient used Tylenol with minimal relief. Past medical history is notable for hypertension and hypercholesteremia. Physical examination shows firm nodules over the distal interphalangeal joints, bilaterally. The patient has pain in her knees as well. The knees are stiff in the morning for less than 30 minutes and become worse with climbing stairs. She has some sensation of bone friction during activity. X-ray shows narrowing of the joint space, subchondral bone sclerosis and osteophyte formation along the joints. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00726492 | section=detailed_description]\nMinor et al (1999) noted that lower extremity impairments in older adults have been linked to the reduced ability to use public transportation, climb stairs, perform household chores, shop and engage in leisure activities. Similarly van Barr (1998) noted that disability in patients with lower limb osteoarthritis is significantly related to pain and joint range of motion. Due to the chronic nature of osteoarthritis, physical modalities, lifestyle modification and patient self-management in terms of education and exercise are considered important approaches to treatment (Sangha, 2000). Physiotherapists have an important role to play in the clinical management of osteoarthritis (Green et al, 1993) however, the effect of their involvement has rarely been assessed in terms of randomised controlled trials. Chard et al (2000) examined the research output in relation to a number of physiotherapy interventions available to patients with osteoarthritis of their knees and established that between 1950 to 1998 only 60 research articles were published, the majority of which occurred between 1985 and 1998.\n\n[Passage 2 | doc=NCT00006292 | section=eligibility]\nINCLUSION CRITERIA: Men or non-pregnant, non-breastfeeding women able to provide infomed consent to all aspects of the study after full information is provided. Women of childbearing age practicing effective birth control using either abstinence, birth control pills, barrier methods with spermicides, intrauterine devices (IUD's), Depot provera or surgical sterilization. All must test negative on a pregnancy test. Men should practice birth control while on study. At least 18 years of age. No radiographic evidence of osteoarthritis in hands, feet, or knees. Evidence of active wrist disease. Active synovitis involving 4 or more swollen joints and all of the following: (a) evidence of radiographic erosion in either hands or feet, or MRI erosion in the clinically most severely involved hand; (b) tenderness or pain on movement of at least 4 joints; (c) 45 minutes of morning stiffness in the peripheral joints; (d) elevated acute phase reactants (ESR greater than 20 mm/hr or CRP greater than 0.8 mg/dl). All patients enrolled must have an incomplete response to methotrexate at a dosage of at least 12.5 mg/week and a maximum of 15 mg/week orally for a minimum of 6 weeks.\n\n[Passage 3 | doc=NCT04612283 | section=summary]\nOsteoarthritis is characterized by the breakdown of cartilage in joints. As cartilage deteriorates, the bones of the joint begin to run against one another, causing stiffness and pain, which often impairs movement. Osteoarthritis also can damage ligaments, menisci, and muscles. Bone or cartilage fragments may float in the joint space, causing irritation and pain. Bone spurs, or osteophytes, may also develop, causing additional pain and potentially damaging surrounding tissues. Around the world, an estimated 10%-15% of adults over 60 have some degree of osteoarthritis. It most commonly affects the joints in the knee, hands, feet, and spine, and is also relatively common in other joints such as the shoulder and hip joints. There are two types of osteoarthritis: primary and secondary. Primary osteoarthritis is a chronic degenerative disease that is related to, but not caused by, aging. As a person ages, the water content of their cartilage decreases, thus weakening it and making it less resilient and more susceptible to degradation. There are strong indications that genetic inheritance is a factor, as up to 60% of all OA cases are thought to result from genetic factors. The main symptoms are pain, loss of ability, and \"joint stiffness after exercise or use.\" These symptoms are often aggravated by activity or rigorous exercise and relieved during rest, though the disease may eventually progress to the point where the patient even feels pain when resting, and some people report pain so intense that it wakes them up when they are sleeping. Osteoarthritis, at present, cannot be cured, and will likely get worse over time, but the symptoms can be controlled. Treatments vary widely, from alternative medicine, to lifestyle changes such as exercise and diet, to physical aids such as canes or braces, to medications such as acetaminophen, nonsteroidal anti-inflammatory drugs (NSAIDS), corticosteroids, and more. Osteoarthritis is the most common joint disease of human. Among the elderly knee osteoarthritis is leading cause of chronic disability in developed countries. Some people in India are unable to walk independently from bed and bath-room because of Osteoarthritis of the knee or hip joint. Osteoarthritis (OA) also known as degenerative arthritis or degenerative joint disease, is a group of mechanical abnormalities involving degradation of joints, including articular cartilage and subchondral bone. Symptoms may include joint pain, tenderness, stiffness, locking, and sometimes an effusion. A variety of causes viz. hereditary, developmental, metabolic, and mechanical may initiate processes leading to loss of cartilage. When bone surfaces are not well protected by cartilage, bone may get exposed and damaged. As a result of decreased movement secondary to pain, atrophy of regional muscles, and ligaments may become more lax. The goal of treatment is to reduce or eliminate the signs and symptoms of Osteoarthritis. Mild to moderate disease is often treated with topical therapies. Sponsor has developed the NGA-01Gel containing the fixed dose combination of alcohol and water mixture, with active herbal ingredients, without preservatives and dyes. The Gel is easy to apply, and the cosmetic appearance is that of a white, milky gel, easily-spreadable that absorbs completely into the skin a few minutes after application and it is expected that the Gel will differentiate from marketed formulations by patient preference for the gel and gel.\n\n[Passage 4 | doc=NCT03299439 | section=eligibility]\nInclusion Criteria: - Participants aged 40 years or older and diagnosed with mild or moderate knee osteoarthritis(KOA) are eligible to participate in the study - The following criteria are used for diagnosis of KOA: - refractory knee pain for most days in the last month; - joint space narrowing, sclerosis or cystic change in subchondral bone (as demonstrated in X-ray); - laboratory examinations of arthritis: clear and viscous synovial fluid (\u22652 times) and white blood cell count < 2000/mm3; - morning stiffness continues less than 30 minutes; - bone sound exists when joints was taking flexion and/or extension. If a patient meets criteria 1 and 2, or criteria 1, 3, 4, and 5, a diagnosis of KOA is confirmed.\n\n[Passage 5 | doc=NCT03806205 | section=eligibility]\nInclusion Criteria: - According to the OA diagnostic criteria of knee joint, the side with higher WOMAC score is defined as observing knee joint for patients with both knees conforming to OA diagnostic criteria. 1. Repeated knee pain in the past month 2. X-ray showed narrowing of articular space, subchondral sclerosis and/or cystic degeneration, and formation of osteophyte at articular margin. 3. Joint fluid (> 2 times) is cool and sticky, WBC < 2000/ml 4. Age over 40 5. Morning stiffness less than 30 minutes 6. Bone fricative (sensation) during exercise According to 1+2 or 1+3+5+6 or 1+4+5+6, OA of knee joint can be diagnosed. 7. The informed consent has been signed Exclusion Criteria: - (1) Joint pain caused by other causes (infection, hip, lumbar and other diseases) (2) Secondary arthritis (rheumatoid arthritis, ankylosing spondylitis, etc.) (3) Severe internal medical complications and other inability to participate in the research (4) Pain in other parts exceeds joint pain (5) Contraindications to diclofenac use: active peptic ulcer/allergy/induced asthma (6) Assessment may not complete the study\n\n[Passage 6 | doc=NCT03008668 | section=title]\nA Pilot Trial of Acupuncture for Knee Osteoarthritis With Differential Functional Status of Acupoints",
+  "passages": [
+    {
+      "passage_id": "NCT00726492::detailed_description::2",
+      "doc_id": "NCT00726492",
+      "section": "detailed_description",
+      "passage_text": "Minor et al (1999) noted that lower extremity impairments in older adults have been linked to the reduced ability to use public transportation, climb stairs, perform household chores, shop and engage in leisure activities. Similarly van Barr (1998) noted that disability in patients with lower limb osteoarthritis is significantly related to pain and joint range of motion. Due to the chronic nature of osteoarthritis, physical modalities, lifestyle modification and patient self-management in terms of education and exercise are considered important approaches to treatment (Sangha, 2000). Physiotherapists have an important role to play in the clinical management of osteoarthritis (Green et al, 1993) however, the effect of their involvement has rarely been assessed in terms of randomised controlled trials. Chard et al (2000) examined the research output in relation to a number of physiotherapy interventions available to patients with osteoarthritis of their knees and established that between 1950 to 1998 only 60 research articles were published, the majority of which occurred between 1985 and 1998.",
+      "title": "An Examination of the Value of Shortwave Diathermy and Hydrotherapy for Patients With Osteoarthritis of Their Knees",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 308.85637177404243,
+      "cross_score": -4.4342365,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00006292::eligibility::0",
+      "doc_id": "NCT00006292",
+      "section": "eligibility",
+      "passage_text": "INCLUSION CRITERIA: Men or non-pregnant, non-breastfeeding women able to provide infomed consent to all aspects of the study after full information is provided. Women of childbearing age practicing effective birth control using either abstinence, birth control pills, barrier methods with spermicides, intrauterine devices (IUD's), Depot provera or surgical sterilization. All must test negative on a pregnancy test. Men should practice birth control while on study. At least 18 years of age. No radiographic evidence of osteoarthritis in hands, feet, or knees. Evidence of active wrist disease. Active synovitis involving 4 or more swollen joints and all of the following: (a) evidence of radiographic erosion in either hands or feet, or MRI erosion in the clinically most severely involved hand; (b) tenderness or pain on movement of at least 4 joints; (c) 45 minutes of morning stiffness in the peripheral joints; (d) elevated acute phase reactants (ESR greater than 20 mm/hr or CRP greater than 0.8 mg/dl). All patients enrolled must have an incomplete response to methotrexate at a dosage of at least 12.5 mg/week and a maximum of 15 mg/week orally for a minimum of 6 weeks.",
+      "title": "Infliximab for the Treatment of Early Rheumatoid Arthritis",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 301.8313718404052,
+      "cross_score": -4.6905594,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04612283::summary::0",
+      "doc_id": "NCT04612283",
+      "section": "summary",
+      "passage_text": "Osteoarthritis is characterized by the breakdown of cartilage in joints. As cartilage deteriorates, the bones of the joint begin to run against one another, causing stiffness and pain, which often impairs movement. Osteoarthritis also can damage ligaments, menisci, and muscles. Bone or cartilage fragments may float in the joint space, causing irritation and pain. Bone spurs, or osteophytes, may also develop, causing additional pain and potentially damaging surrounding tissues. Around the world, an estimated 10%-15% of adults over 60 have some degree of osteoarthritis. It most commonly affects the joints in the knee, hands, feet, and spine, and is also relatively common in other joints such as the shoulder and hip joints. There are two types of osteoarthritis: primary and secondary. Primary osteoarthritis is a chronic degenerative disease that is related to, but not caused by, aging. As a person ages, the water content of their cartilage decreases, thus weakening it and making it less resilient and more susceptible to degradation. There are strong indications that genetic inheritance is a factor, as up to 60% of all OA cases are thought to result from genetic factors. The main symptoms are pain, loss of ability, and \"joint stiffness after exercise or use.\" These symptoms are often aggravated by activity or rigorous exercise and relieved during rest, though the disease may eventually progress to the point where the patient even feels pain when resting, and some people report pain so intense that it wakes them up when they are sleeping. Osteoarthritis, at present, cannot be cured, and will likely get worse over time, but the symptoms can be controlled. Treatments vary widely, from alternative medicine, to lifestyle changes such as exercise and diet, to physical aids such as canes or braces, to medications such as acetaminophen, nonsteroidal anti-inflammatory drugs (NSAIDS), corticosteroids, and more. Osteoarthritis is the most common joint disease of human. Among the elderly knee osteoarthritis is leading cause of chronic disability in developed countries. Some people in India are unable to walk independently from bed and bath-room because of Osteoarthritis of the knee or hip joint. Osteoarthritis (OA) also known as degenerative arthritis or degenerative joint disease, is a group of mechanical abnormalities involving degradation of joints, including articular cartilage and subchondral bone. Symptoms may include joint pain, tenderness, stiffness, locking, and sometimes an effusion. A variety of causes viz. hereditary, developmental, metabolic, and mechanical may initiate processes leading to loss of cartilage. When bone surfaces are not well protected by cartilage, bone may get exposed and damaged. As a result of decreased movement secondary to pain, atrophy of regional muscles, and ligaments may become more lax. The goal of treatment is to reduce or eliminate the signs and symptoms of Osteoarthritis. Mild to moderate disease is often treated with topical therapies. Sponsor has developed the NGA-01Gel containing the fixed dose combination of alcohol and water mixture, with active herbal ingredients, without preservatives and dyes. The Gel is easy to apply, and the cosmetic appearance is that of a white, milky gel, easily-spreadable that absorbs completely into the skin a few minutes after application and it is expected that the Gel will differentiate from marketed formulations by patient preference for the gel and gel.",
+      "title": "NGA-01 Gel for the Treatment of Osteoarthritis With Joint Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 315.01408298191274,
+      "cross_score": -5.0343184,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03299439::eligibility::0",
+      "doc_id": "NCT03299439",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Participants aged 40 years or older and diagnosed with mild or moderate knee osteoarthritis(KOA) are eligible to participate in the study - The following criteria are used for diagnosis of KOA: - refractory knee pain for most days in the last month; - joint space narrowing, sclerosis or cystic change in subchondral bone (as demonstrated in X-ray); - laboratory examinations of arthritis: clear and viscous synovial fluid (\u22652 times) and white blood cell count < 2000/mm3; - morning stiffness continues less than 30 minutes; - bone sound exists when joints was taking flexion and/or extension. If a patient meets criteria 1 and 2, or criteria 1, 3, 4, and 5, a diagnosis of KOA is confirmed.",
+      "title": "Acupuncture Treatment for Knee Osteoarthritis With Sensitive Acupoints and Tender Points",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 311.15882749670925,
+      "cross_score": -5.0662417,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03806205::eligibility::0",
+      "doc_id": "NCT03806205",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - According to the OA diagnostic criteria of knee joint, the side with higher WOMAC score is defined as observing knee joint for patients with both knees conforming to OA diagnostic criteria. 1. Repeated knee pain in the past month 2. X-ray showed narrowing of articular space, subchondral sclerosis and/or cystic degeneration, and formation of osteophyte at articular margin. 3. Joint fluid (> 2 times) is cool and sticky, WBC < 2000/ml 4. Age over 40 5. Morning stiffness less than 30 minutes 6. Bone fricative (sensation) during exercise According to 1+2 or 1+3+5+6 or 1+4+5+6, OA of knee joint can be diagnosed. 7. The informed consent has been signed Exclusion Criteria: - (1) Joint pain caused by other causes (infection, hip, lumbar and other diseases) (2) Secondary arthritis (rheumatoid arthritis, ankylosing spondylitis, etc.) (3) Severe internal medical complications and other inability to participate in the research (4) Pain in other parts exceeds joint pain (5) Contraindications to diclofenac use: active peptic ulcer/allergy/induced asthma (6) Assessment may not complete the study",
+      "title": "Efficacy Management and Adherence Evaluation of Diclofenac in the Treatment of Knee Osteoarthritis Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 332.6420680391293,
+      "cross_score": -5.0774903,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03008668::title::0",
+      "doc_id": "NCT03008668",
+      "section": "title",
+      "passage_text": "A Pilot Trial of Acupuncture for Knee Osteoarthritis With Differential Functional Status of Acupoints",
+      "title": "A Pilot Trial of Acupuncture for Knee Osteoarthritis With Differential Functional Status of Acupoints",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 305.6779556223883,
+      "cross_score": -5.7525535,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for certain clinical trials related to osteoarthritis, but further details are needed to confirm your eligibility.\",\n  \"supported_patient_facts\": [\n    \"The patient is 66 years old, which aligns with the age requirement for some studies.\",\n    \"The patient has joint pain and stiffness in the hands and knees, consistent with osteoarthritis.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient's pain level and duration need to be quantified to determine if they meet specific criteria for some studies.\",\n    \"The patient's response to methotrexate needs to be evaluated to see if it meets the criteria for some studies.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Some studies require specific imaging findings, such as narrowing of the joint space, subchondral bone sclerosis, and osteophyte formation, which are present in the patient's case but not explicitly mentioned in the evidence.\",\n    \"The patient's X-ray findings need to be reviewed against specific criteria for some studies.\"\n  ],\n  \"reasoning_summary\": \"The patient's age and symptoms are consistent with osteoarthritis and some clinical trial inclusion criteria. However, specific pain levels, methotrexate response, and detailed X-ray findings need to be confirmed to fully assess eligibility.\",\n  \"safety_note\": \"It is important to ensure that the patient does not have any contraindications or other health issues that could affect their participation in a clinical trial.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"[Passage 3]\", \"[Passage 4]\", \"[Passage 5]\"],\n    \"reasoning_summary\": [\"[Passage 4]\", \"[Passage 5]\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "The patient is 66 years old, which aligns with the age requirement for some studies.",
+      "The patient has joint pain and stiffness in the hands and knees, consistent with osteoarthritis."
+    ],
+    "missing_patient_facts": [
+      "The patient's pain level and duration need to be quantified to determine if they meet specific criteria for some studies.",
+      "The patient's response to methotrexate needs to be evaluated to see if it meets the criteria for some studies."
+    ],
+    "unresolved_study_requirements": [
+      "Some studies require specific imaging findings, such as narrowing of the joint space, subchondral bone sclerosis, and osteophyte formation, which are present in the patient's case but not explicitly mentioned in the evidence.",
+      "The patient's X-ray findings need to be reviewed against specific criteria for some studies."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to ensure that the patient does not have any contraindications or other health issues that could affect their participation in a clinical trial.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "[Passage 3]",
+        "[Passage 4]",
+        "[Passage 5]"
+      ],
+      "reasoning_summary": [
+        "[Passage 4]",
+        "[Passage 5]"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "The patient's pain level and duration need to be quantified to determine if they meet specific criteria for some studies.",
+    "The patient's response to methotrexate needs to be evaluated to see if it meets the criteria for some studies."
+  ],
+  "unresolved_study_requirements": [
+    "Some studies require specific imaging findings, such as narrowing of the joint space, subchondral bone sclerosis, and osteophyte formation, which are present in the patient's case but not explicitly mentioned in the evidence.",
+    "The patient's X-ray findings need to be reviewed against specific criteria for some studies."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 30.718
+}

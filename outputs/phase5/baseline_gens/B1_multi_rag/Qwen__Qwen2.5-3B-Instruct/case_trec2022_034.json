@@ -1,0 +1,132 @@
+{
+  "case_id": "case_trec2022_034",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00119704",
+  "reference_trial": "NCT00119704",
+  "evidence_trials": [
+    "NCT00119704",
+    "NCT00130949",
+    "NCT02986646",
+    "NCT03605563",
+    "NCT04686799"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 17-year-old male comes to the office due to several months of right elbow pain. The pain is worse with activity and limits his workouts and activities. He has tried over-the-counter medications with limited relief. Medical history is notable for eczema, and current medications include a topical hydrocortisone ointment. He is sexually active with his girlfriend and uses condoms. He does not smoke or drink alcohol. He plays tennis most of the days of the week. The comprehensive evaluation shows pain on the lateral side of the elbow, made worse by pressure applied on the lateral epicondyle of the humerus and when making a fist with the elbow joint straightened. The patient has this pain since last year and had several courses of physical therapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00119704 | section=detailed_description]\nTennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.\n\n[Passage 2 | doc=NCT00130949 | section=detailed_description]\nLateral epicondylitis (tennis elbow) is a painful condition that affects 4 to 7 adults per 1000 annually and tends to involve the subject's dominant side. It typically results from repetitive arm movement with over use of muscles leading to small tears in the tendons attaching muscles of the forearm to the epicondyles that may progress to tendonitis. Pain on or around the lateral epicondyle may radiate down the subject's arm. Gripping or extending the wrist often intensifies the pain. More than 40 possible treatments have been proposed, reflecting a lack of consensus about optimal management. Non-steroidal anti-inflammatory drugs (NSAIDs) are commonly used to treat tennis elbow, but there are no trials to date that have compared them with other painkillers and one study found no clinically important benefit over placebo. Use of corticosteroid injections provides mixed results in relief of pain and at times insufficient evidence to support their use. Although complications associated with steroid injection are relatively uncommon, when a complication does occur, it can result in severe and disabling consequences for the subject.\n\n[Passage 3 | doc=NCT04686799 | section=detailed_description]\n: Lateral elbow tendinopathy is a common condition among athletes and the general population. It can result in significant disability and time loss from work. Despite traditional nonsurgical treatment, symptoms often persist for more than 6 months. Second-line treatments, such as platelet rich plasma injections and extracorporeal shock wave therapy, have limited evidence and are often cost-prohibitive. There remains a need for additional cost-effective nonsurgical treatment for lateral elbow tendinopathy. Purpose: To evaluate the feasibility of subantimicrobial -dose (SD) doxycycline to improve outcomes of nonsurgical management of lateral elbow tendinopathy via matrix metalloproteinase (MMP) inhibition as well as evaluate if participants will be compliant to with prescribed medication and exercise treatment. Our working hypothesis is that patients with lateral elbow tendinopathy will be receptive to treatment with SD-doxycycline and compliant with the prescribed treatment. Methods: This study will enroll 25 otherwise healthy males and females ages 18-60 with \u2265 6 weeks of symptomatic lateral elbow tendinopathy. Subjects will receive doxycycline 20 mg BID (twice a day) for 12 weeks.\n\n[Passage 4 | doc=NCT04686799 | section=detailed_description]\nUsual care will also be provided with a home exercise program and a counterforce brace. The proportion of eligible patients who elect to participate in the study will be tracked as a measure of receptiveness. Biweekly logs will be collected to monitor for treatment side effects and track compliance. Patient reported outcomes will include quick Disabilities of the Arm Shoulder and Hand score (qDASH) and Patient-Rated Tennis Elbow Evaluation (PRTEE) at baseline, 4, 8, and 12 weeks. Ultrasound tendinopathy grade and grip strength will be measured at baseline and 12 weeks. Blood will be drawn to assess MMP activity and collagen production/connective tissue anabolism at baseline and 12 weeks. Significance: This study will provide the necessary data to design a phase two-a trial of a safe, low-cost adjuvant treatment for a common condition treated by sports medicine and primary care physicians. If found to be beneficial for lateral elbow tendinopathy, SD-doxycycline may have utility in other types of tendinopathy as well.\n\n[Passage 5 | doc=NCT03605563 | section=summary]\nLateral epicondylitis, also called tennis elbow, is the most common disease in elbow-pain symptoms. The symptoms can have a major impact on the patient's activity of daily life, including turning a doorknob, lifting a full coffee cup to mouth, or wringing out a dish rag. This is a randomized study, the investigators will evaluate the immediate, short-term, and long-term effect of Fu's subcutaneous needling on the patients suffering with lateral epicondylitis.\n\n[Passage 6 | doc=NCT02986646 | section=summary]\nLateral epicondylitis, commonly known as \"tennis elbow\" is a common cause of elbow pain encountered in primary care and specialty clinics. Although lateral epicondylitis is common, little consensus exists on the best way to treat it. Historically 80% of patients will get better with non-operative treatments (rest, NSAIDS, bracing and injections). In regard to efficacy of injections, recent large, prospective, randomized studies have shown minor improvements in the short term, but no long term benefits when compared to saline injection. Consistently, intra-articular injections have not been reported. The investigators suspect that elbow joint inflammation may be an underappreciated source of pain in lateral epicondylitis. The investigators' hypothesis is that patients receiving intra-articular injections will have greater improvement compared to patients receiving either no injection or an intra-tendinous injection.",
+  "passages": [
+    {
+      "passage_id": "NCT00119704::detailed_description::0",
+      "doc_id": "NCT00119704",
+      "section": "detailed_description",
+      "passage_text": "Tennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 380.48619891577073,
+      "cross_score": -1.9238058,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00130949::detailed_description::0",
+      "doc_id": "NCT00130949",
+      "section": "detailed_description",
+      "passage_text": "Lateral epicondylitis (tennis elbow) is a painful condition that affects 4 to 7 adults per 1000 annually and tends to involve the subject's dominant side. It typically results from repetitive arm movement with over use of muscles leading to small tears in the tendons attaching muscles of the forearm to the epicondyles that may progress to tendonitis. Pain on or around the lateral epicondyle may radiate down the subject's arm. Gripping or extending the wrist often intensifies the pain. More than 40 possible treatments have been proposed, reflecting a lack of consensus about optimal management. Non-steroidal anti-inflammatory drugs (NSAIDs) are commonly used to treat tennis elbow, but there are no trials to date that have compared them with other painkillers and one study found no clinically important benefit over placebo. Use of corticosteroid injections provides mixed results in relief of pain and at times insufficient evidence to support their use. Although complications associated with steroid injection are relatively uncommon, when a complication does occur, it can result in severe and disabling consequences for the subject.",
+      "title": "ALGRX 4975 in the Treatment of Tennis Elbow",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 387.7349947259669,
+      "cross_score": -3.9310513,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04686799::detailed_description::0",
+      "doc_id": "NCT04686799",
+      "section": "detailed_description",
+      "passage_text": ": Lateral elbow tendinopathy is a common condition among athletes and the general population. It can result in significant disability and time loss from work. Despite traditional nonsurgical treatment, symptoms often persist for more than 6 months. Second-line treatments, such as platelet rich plasma injections and extracorporeal shock wave therapy, have limited evidence and are often cost-prohibitive. There remains a need for additional cost-effective nonsurgical treatment for lateral elbow tendinopathy. Purpose: To evaluate the feasibility of subantimicrobial -dose (SD) doxycycline to improve outcomes of nonsurgical management of lateral elbow tendinopathy via matrix metalloproteinase (MMP) inhibition as well as evaluate if participants will be compliant to with prescribed medication and exercise treatment. Our working hypothesis is that patients with lateral elbow tendinopathy will be receptive to treatment with SD-doxycycline and compliant with the prescribed treatment. Methods: This study will enroll 25 otherwise healthy males and females ages 18-60 with \u2265 6 weeks of symptomatic lateral elbow tendinopathy. Subjects will receive doxycycline 20 mg BID (twice a day) for 12 weeks.",
+      "title": "Doxycycline for Lateral Elbow Tendinopathy",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 377.8799766857158,
+      "cross_score": -4.1718035,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04686799::detailed_description::1",
+      "doc_id": "NCT04686799",
+      "section": "detailed_description",
+      "passage_text": "Usual care will also be provided with a home exercise program and a counterforce brace. The proportion of eligible patients who elect to participate in the study will be tracked as a measure of receptiveness. Biweekly logs will be collected to monitor for treatment side effects and track compliance. Patient reported outcomes will include quick Disabilities of the Arm Shoulder and Hand score (qDASH) and Patient-Rated Tennis Elbow Evaluation (PRTEE) at baseline, 4, 8, and 12 weeks. Ultrasound tendinopathy grade and grip strength will be measured at baseline and 12 weeks. Blood will be drawn to assess MMP activity and collagen production/connective tissue anabolism at baseline and 12 weeks. Significance: This study will provide the necessary data to design a phase two-a trial of a safe, low-cost adjuvant treatment for a common condition treated by sports medicine and primary care physicians. If found to be beneficial for lateral elbow tendinopathy, SD-doxycycline may have utility in other types of tendinopathy as well.",
+      "title": "Doxycycline for Lateral Elbow Tendinopathy",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 377.8799766857158,
+      "cross_score": -4.257767,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03605563::summary::0",
+      "doc_id": "NCT03605563",
+      "section": "summary",
+      "passage_text": "Lateral epicondylitis, also called tennis elbow, is the most common disease in elbow-pain symptoms. The symptoms can have a major impact on the patient's activity of daily life, including turning a doorknob, lifting a full coffee cup to mouth, or wringing out a dish rag. This is a randomized study, the investigators will evaluate the immediate, short-term, and long-term effect of Fu's subcutaneous needling on the patients suffering with lateral epicondylitis.",
+      "title": "Fu's Subcutaneous Needling on the Myofascial Trigger Points: Lateral Epicondylitis",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 394.7020198351284,
+      "cross_score": -4.2873917,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02986646::summary::0",
+      "doc_id": "NCT02986646",
+      "section": "summary",
+      "passage_text": "Lateral epicondylitis, commonly known as \"tennis elbow\" is a common cause of elbow pain encountered in primary care and specialty clinics. Although lateral epicondylitis is common, little consensus exists on the best way to treat it. Historically 80% of patients will get better with non-operative treatments (rest, NSAIDS, bracing and injections). In regard to efficacy of injections, recent large, prospective, randomized studies have shown minor improvements in the short term, but no long term benefits when compared to saline injection. Consistently, intra-articular injections have not been reported. The investigators suspect that elbow joint inflammation may be an underappreciated source of pain in lateral epicondylitis. The investigators' hypothesis is that patients receiving intra-articular injections will have greater improvement compared to patients receiving either no injection or an intra-tendinous injection.",
+      "title": "Comparison of Intra-articular and Intra-tendinous Injections for Treatment of Lateral Epicondylitis",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 396.8127067407299,
+      "cross_score": -4.3028917,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might be eligible for the clinical trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"the patient is a 17-year-old male\", \"he has right elbow pain that started last year\", \"he has tried over-the-counter medications with limited relief\", \"he plays tennis most of the days of the week\", \"he has eczema and takes a topical hydrocortisone ointment for it\", \"he is sexually active and uses condoms\", \"he does not smoke or drink alcohol\"],\n  \"missing_patient_facts\": [\"his medical history regarding previous elbow injuries or surgeries\", \"the exact nature and severity of his current elbow pain\", \"whether he has any other health conditions that could affect participation in the trial\"],\n  \"unresolved_study_requirements\": [\"the patient needs to be over 18 years old to be eligible for the study\", \"the patient needs to have chronic elbow pain lasting more than 6 weeks\"],\n  \"reasoning_summary\": \"The patient meets some key eligibility criteria, but we need to confirm his age and the duration of his elbow pain before determining if he is definitively eligible.\",\n  \"safety_note\": \"Please consult your healthcare provider before participating in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you might be eligible for the clinical trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "the patient is a 17-year-old male",
+      "he has right elbow pain that started last year",
+      "he has tried over-the-counter medications with limited relief",
+      "he plays tennis most of the days of the week",
+      "he has eczema and takes a topical hydrocortisone ointment for it",
+      "he is sexually active and uses condoms",
+      "he does not smoke or drink alcohol"
+    ],
+    "missing_patient_facts": [
+      "his medical history regarding previous elbow injuries or surgeries",
+      "the exact nature and severity of his current elbow pain",
+      "whether he has any other health conditions that could affect participation in the trial"
+    ],
+    "unresolved_study_requirements": [
+      "the patient needs to be over 18 years old to be eligible for the study",
+      "the patient needs to have chronic elbow pain lasting more than 6 weeks"
+    ],
+    "reasoning_summary": "The patient meets some key eligibility criteria, but we need to confirm his age and the duration of his elbow pain before determining if he is definitively eligible.",
+    "safety_note": "Please consult your healthcare provider before participating in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you might be eligible for the clinical trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "his medical history regarding previous elbow injuries or surgeries",
+    "the exact nature and severity of his current elbow pain",
+    "whether he has any other health conditions that could affect participation in the trial"
+  ],
+  "unresolved_study_requirements": [
+    "the patient needs to be over 18 years old to be eligible for the study",
+    "the patient needs to have chronic elbow pain lasting more than 6 weeks"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.458
+}

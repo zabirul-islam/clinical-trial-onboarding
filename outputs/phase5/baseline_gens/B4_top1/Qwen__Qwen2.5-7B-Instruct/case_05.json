@@ -1,0 +1,52 @@
+{
+  "case_id": "case_05",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02584972",
+  "reference_trial": "NCT02584972",
+  "evidence_trials": [
+    "NCT02584972"
+  ],
+  "question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+  "evidence": "[Passage 1 | doc=NCT02584972 | section=eligibility]\nInclusion Criteria: - children with autism spectrum disorder - 6-12 years old - able to walk independently Exclusion Criteria: - ASD children who were diagnosed with neurological, orthopedic, or psychiatric diagnoses according to DSM-IV criteria that can affect motor control and postural stability; - cerebral palsy; - neuropathic diseases; - limb fracture; - head trauma during the previous year; - who had an IQ score below the normal range (<70), as assessed by the Wechsler Intelligence Scale for Children - Revised (Wisc-R) administered by a child psychologist.",
+  "passages": [
+    {
+      "passage_id": "NCT02584972::eligibility::0",
+      "doc_id": "NCT02584972",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - children with autism spectrum disorder - 6-12 years old - able to walk independently Exclusion Criteria: - ASD children who were diagnosed with neurological, orthopedic, or psychiatric diagnoses according to DSM-IV criteria that can affect motor control and postural stability; - cerebral palsy; - neuropathic diseases; - limb fracture; - head trauma during the previous year; - who had an IQ score below the normal range (<70), as assessed by the Wechsler Intelligence Scale for Children - Revised (Wisc-R) administered by a child psychologist.",
+      "title": "Postural Control During Walking and Standing Among Children With Autism Spectrum Disorder",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 60.61909011252352,
+      "cross_score": 0.56709397,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information you provided, it does not seem like you would be eligible for this study.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"Age: The study includes participants aged 6-12 years old, which excludes individuals over 12 years of age.\",\n    \"Diagnosis: The study specifically excludes children with autism spectrum disorder (ASD) who have certain neurological, orthopedic, or psychiatric diagnoses affecting motor control and postural stability.\"\n  ],\n  \"reasoning_summary\": \"The patient is 70 years old and has a vertebral fracture, both of which are outside the age and exclusion criteria specified in the study. Additionally, the presence of chronic medical conditions and a vertebral fracture may indicate underlying neurological or orthopedic issues that could affect motor control and postural stability, aligning with the exclusion criteria.\",\n  \"safety_note\": \"Please consult with your healthcare provider for further evaluation and guidance regarding eligibility for clinical trials.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information you provided, it does not seem like you would be eligible for this study.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "Age: The study includes participants aged 6-12 years old, which excludes individuals over 12 years of age.",
+      "Diagnosis: The study specifically excludes children with autism spectrum disorder (ASD) who have certain neurological, orthopedic, or psychiatric diagnoses affecting motor control and postural stability."
+    ],
+    "reasoning_summary": "The patient is 70 years old and has a vertebral fracture, both of which are outside the age and exclusion criteria specified in the study. Additionally, the presence of chronic medical conditions and a vertebral fracture may indicate underlying neurological or orthopedic issues that could affect motor control and postural stability, aligning with the exclusion criteria.",
+    "safety_note": "Please consult with your healthcare provider for further evaluation and guidance regarding eligibility for clinical trials."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information you provided, it does not seem like you would be eligible for this study.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "Age: The study includes participants aged 6-12 years old, which excludes individuals over 12 years of age.",
+    "Diagnosis: The study specifically excludes children with autism spectrum disorder (ASD) who have certain neurological, orthopedic, or psychiatric diagnoses affecting motor control and postural stability."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.639
+}

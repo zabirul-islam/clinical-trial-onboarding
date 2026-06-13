@@ -1,0 +1,122 @@
+{
+  "case_id": "case_02",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01482130",
+  "reference_trial": "NCT01482130",
+  "evidence_trials": [
+    "NCT00150969",
+    "NCT00485953",
+    "NCT01112098",
+    "NCT01258036",
+    "NCT01482130",
+    "NCT02861989"
+  ],
+  "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+  "evidence": "[Passage 1 | doc=NCT01482130 | section=detailed_description]\nBackground: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.\n\n[Passage 2 | doc=NCT00485953 | section=eligibility]\nInclusion Criteria: - elderly postmenopausal women (ages 55 and older) - osteopenic (DXA T-score -1.0 to -2.5 SD). However, after full counseling about the risks, benefits, and options regarding therapy for osteoporosis and discussion with her PCP, an osteoporotic woman may enroll in the study. - with breast cancer on aromatase inhibitor therapy - with no evidence of distant metastatic disease or osteoporosis (by BMD or clinical history) - type of surgical procedure or addition of radiation therapy prior to this aromatase inhibitor therapy will not exclude patients - Participants must provide voluntary, written informed consent to participate in the study, which includes understanding of the procedures, medications, and risks and benefits Exclusion Criteria: - Women with stage 4 breast cancer (presence of distant metastases) - Women with normal bone density by DXA (T-score > -1.0 SD)bone density by DXA, except in the instance of a fragility fracture.\n\n[Passage 3 | doc=NCT02861989 | section=eligibility]\nInclusion Criteria: - group 1: women aged 50 to 85 years with a history of fragility fracture or an osteoporosis diagnostic - group 2: women aged 50 to 85 years without a history of fragility fracture or an osteoporosis diagnostic - group 3: men aged 60 to 85 years with a history of fragility fracture or an osteoporosis diagnostic - group 4: men aged 60 to 85 years without a history of fragility fracture or an osteoporosis diagnostic - group 5: general practitioners in Region Rh\u00f4ne-Alpes, France - who signed the consent form Exclusion Criteria: - no signed consent - legal disability - difficulty in understanding French - psychiatric disorder\n\n[Passage 4 | doc=NCT00150969 | section=detailed_description]\nOsteoporosis is major cause of morbidity and mortality in Canadian postmenopausal women. It is a systemic disease characterized by low bone mass and deterioration of bone microarchitecture, resulting in bone fragility and an increased risk of fractures. One in six women over the age of 50 have osteoporosis. The lifetime risk of an osteoporotic fracture for an average 50 year-old Canadian woman is >40%. The annual health care costs for osteoporotic fractures in Canada have been estimated to exceed $1.3 billion. Recent data suggest that vitamin K supplements may decrease bone loss and prevent fractures. Vitamin K is a co-factor of gamma-glutamyl carboxylase, an enzyme that catalyzes the gamma-carboxylation of glutamic acid residues in bone matrix proteins such as osteocalcin. Vitamin K has been reported to enhance bone formation in both in vitro studies and in vivo studies in animals. Vitamin K levels are low in individuals with osteoporosis and in patients with osteoporotic fractures.\n\n[Passage 5 | doc=NCT01112098 | section=detailed_description]\nWhile the occurrence of a fragility fracture (e.g. hip fracture) is indicative of low BMD and a clinical diagnosis of osteoporosis made, osteoporosis can be identified in asymptomatic patients using dual energy x-ray absorptiometry (DXA). United States (U.S.) guidelines recommend screening bone density tests using central DXA in all women 65 years or older. However, fewer than one-third of eligible U.S. women age 65 and older undergo DXA testing. The main barrier to achieving greater rates of osteoporosis screening is identifying a systematic, effective, and generalizable way for healthcare providers and patients to schedule DXA results. Given that national guidelines recommend DXA screening for all older women, the reasons a majority of women do not receive DXA testing are likely multifactorial. Patients and their health care providers may be unaware of preventative screening recommendations and the reasons for these recommendations. Screening tests that are required relatively infrequently (i.e. less than once a year) may be difficult for patients and physicians to remember if there are few triggers (e.g. seasonality as a trigger to motivate influenza vaccination).\n\n[Passage 6 | doc=NCT01258036 | section=eligibility]\nInclusion Criteria: - Case mothers: postmenopausal women who have at least one bone fragility fracture confirmed by radiological examination or by a surgical report. Fragility fracture is a fracture that occurs as a result of a fall from standing height or less. Fractures of the skull, fingers and toes will be excluded. - Control mothers: menopausal women not having suffered from bone fragility fracture. - Daughters: Women aged 20 and older (postmenopausal or not), biological daughters of participating mothers. Several daughters from the same mother may be included. Mothers and some daughters are recruited from the OFELY (Os des FEmmes de LYon) cohort or the FMC (Fili\u00e8re M\u00e9dicoChirurgicale). Exclusion Criteria: - Adoptive daughters - Nonmenopausal mothers",
+  "passages": [
+    {
+      "passage_id": "NCT01482130::detailed_description::0",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "Background: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 71.82124348002223,
+      "cross_score": 2.291513,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00485953::eligibility::0",
+      "doc_id": "NCT00485953",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - elderly postmenopausal women (ages 55 and older) - osteopenic (DXA T-score -1.0 to -2.5 SD). However, after full counseling about the risks, benefits, and options regarding therapy for osteoporosis and discussion with her PCP, an osteoporotic woman may enroll in the study. - with breast cancer on aromatase inhibitor therapy - with no evidence of distant metastatic disease or osteoporosis (by BMD or clinical history) - type of surgical procedure or addition of radiation therapy prior to this aromatase inhibitor therapy will not exclude patients - Participants must provide voluntary, written informed consent to participate in the study, which includes understanding of the procedures, medications, and risks and benefits Exclusion Criteria: - Women with stage 4 breast cancer (presence of distant metastases) - Women with normal bone density by DXA (T-score > -1.0 SD)bone density by DXA, except in the instance of a fragility fracture.",
+      "title": "Effect of Bisphosphonate on Bone Loss in Postmenopausal Women With Breast Cancer Initiating Aromatase Inhibitor Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 69.44961776713416,
+      "cross_score": 2.0687945,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02861989::eligibility::0",
+      "doc_id": "NCT02861989",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - group 1: women aged 50 to 85 years with a history of fragility fracture or an osteoporosis diagnostic - group 2: women aged 50 to 85 years without a history of fragility fracture or an osteoporosis diagnostic - group 3: men aged 60 to 85 years with a history of fragility fracture or an osteoporosis diagnostic - group 4: men aged 60 to 85 years without a history of fragility fracture or an osteoporosis diagnostic - group 5: general practitioners in Region Rh\u00f4ne-Alpes, France - who signed the consent form Exclusion Criteria: - no signed consent - legal disability - difficulty in understanding French - psychiatric disorder",
+      "title": "Qualitative Study on Osteoporosis Representation and Management in the General Population and in General Practitioners.",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 70.49685851263469,
+      "cross_score": 1.850672,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00150969::detailed_description::0",
+      "doc_id": "NCT00150969",
+      "section": "detailed_description",
+      "passage_text": "Osteoporosis is major cause of morbidity and mortality in Canadian postmenopausal women. It is a systemic disease characterized by low bone mass and deterioration of bone microarchitecture, resulting in bone fragility and an increased risk of fractures. One in six women over the age of 50 have osteoporosis. The lifetime risk of an osteoporotic fracture for an average 50 year-old Canadian woman is >40%. The annual health care costs for osteoporotic fractures in Canada have been estimated to exceed $1.3 billion. Recent data suggest that vitamin K supplements may decrease bone loss and prevent fractures. Vitamin K is a co-factor of gamma-glutamyl carboxylase, an enzyme that catalyzes the gamma-carboxylation of glutamic acid residues in bone matrix proteins such as osteocalcin. Vitamin K has been reported to enhance bone formation in both in vitro studies and in vivo studies in animals. Vitamin K levels are low in individuals with osteoporosis and in patients with osteoporotic fractures.",
+      "title": "Vitamin K Supplementation in Post-Menopausal Osteopenia",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 71.77524026776305,
+      "cross_score": 1.598969,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01112098::detailed_description::0",
+      "doc_id": "NCT01112098",
+      "section": "detailed_description",
+      "passage_text": "While the occurrence of a fragility fracture (e.g. hip fracture) is indicative of low BMD and a clinical diagnosis of osteoporosis made, osteoporosis can be identified in asymptomatic patients using dual energy x-ray absorptiometry (DXA). United States (U.S.) guidelines recommend screening bone density tests using central DXA in all women 65 years or older. However, fewer than one-third of eligible U.S. women age 65 and older undergo DXA testing. The main barrier to achieving greater rates of osteoporosis screening is identifying a systematic, effective, and generalizable way for healthcare providers and patients to schedule DXA results. Given that national guidelines recommend DXA screening for all older women, the reasons a majority of women do not receive DXA testing are likely multifactorial. Patients and their health care providers may be unaware of preventative screening recommendations and the reasons for these recommendations. Screening tests that are required relatively infrequently (i.e. less than once a year) may be difficult for patients and physicians to remember if there are few triggers (e.g. seasonality as a trigger to motivate influenza vaccination).",
+      "title": "Improving Quality of Osteoporosis Care Through Patient Storytelling",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 71.67147748545293,
+      "cross_score": 1.4346728,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01258036::eligibility::0",
+      "doc_id": "NCT01258036",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Case mothers: postmenopausal women who have at least one bone fragility fracture confirmed by radiological examination or by a surgical report. Fragility fracture is a fracture that occurs as a result of a fall from standing height or less. Fractures of the skull, fingers and toes will be excluded. - Control mothers: menopausal women not having suffered from bone fragility fracture. - Daughters: Women aged 20 and older (postmenopausal or not), biological daughters of participating mothers. Several daughters from the same mother may be included. Mothers and some daughters are recruited from the OFELY (Os des FEmmes de LYon) cohort or the FMC (Fili\u00e8re M\u00e9dicoChirurgicale). Exclusion Criteria: - Adoptive daughters - Nonmenopausal mothers",
+      "title": "Mother Daughter Bone Microarchitecture",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 70.84416365321238,
+      "cross_score": 1.3455788,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might qualify for the study, but we need to confirm your imaging results.\",\n  \"supported_patient_facts\": [\"63-year-old postmenopausal woman\", \"history of a past fragility fracture\"],\n  \"missing_patient_facts\": [\"required imaging results\"],\n  \"unresolved_study_requirements\": [\"confirmation of osteoporosis diagnosis through imaging\"],\n  \"reasoning_summary\": \"The patient matches the age and postmenopausal status criteria, and has a history of a fragility fracture, which aligns with the inclusion criteria. However, the requirement for specific imaging results remains unresolved, and these results are necessary to confirm the osteoporosis diagnosis.\",\n  \"safety_note\": \"It is crucial to obtain the required imaging results before making a final determination.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you might qualify for the study, but we need to confirm your imaging results.",
+    "supported_patient_facts": [
+      "63-year-old postmenopausal woman",
+      "history of a past fragility fracture"
+    ],
+    "missing_patient_facts": [
+      "required imaging results"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of osteoporosis diagnosis through imaging"
+    ],
+    "reasoning_summary": "The patient matches the age and postmenopausal status criteria, and has a history of a fragility fracture, which aligns with the inclusion criteria. However, the requirement for specific imaging results remains unresolved, and these results are necessary to confirm the osteoporosis diagnosis.",
+    "safety_note": "It is crucial to obtain the required imaging results before making a final determination."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you might qualify for the study, but we need to confirm your imaging results.",
+  "missing_patient_facts": [
+    "required imaging results"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of osteoporosis diagnosis through imaging"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.599
+}

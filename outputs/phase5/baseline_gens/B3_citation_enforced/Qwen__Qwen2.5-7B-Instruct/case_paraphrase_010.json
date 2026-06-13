@@ -1,0 +1,147 @@
+{
+  "case_id": "case_paraphrase_010",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2021",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT02855892",
+  "reference_trial": "NCT02855892",
+  "evidence_trials": [
+    "NCT00939120",
+    "NCT02786290",
+    "NCT02855892"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 63-year-old man presenting to the Emergency Department with a history of acute urinary retention in the past 2 days. Abdominopelvic CT scan revealed a large prostate and a bladder filled with urine. He is a candidate for urethral catheterization and TURP. Further evaluation revealed: Post-void residual: 71 mL Prostate volume (TRUS): 63 mL Prostate-specific antigen (PSA) level: 3.5 ng/mL His recent blood chemistry (3 days ago) was normal: Hgb: 13.6 g/dl WBC: 133000 /mm3 Plt: 370000 /ml PT: 12 second PTT: 34 second INR: 0.9 Creatinine: 0.5 mg/dl BUN: 10 mg/dl U/A: Color: yellow Appearance: cloudy PH: 5.3 Specific gravity: 1.010 Glc: 100 Nitrite: negative Ketone: none Leukocyte esterase: negative RBC: negative WBC: 2 WBCs/hpf U/C: negative Before I agree to anything, what is the study team going to confirm with me?",
+  "evidence": "[Passage 1 | doc=NCT02855892 | section=eligibility]\n[Inclusion Criteria] All of the following criteria should be satisfied to be enrolled in this clinical trial. 1. A male at 50 years of age and older 2. A patient who satisfies the following clinical signs and symptoms of benign prostatic hyperplasia \u2460 A patient with a volume of prostate gland (TRUS) > 30 cc \u2461 A patient with moderate to severe lower urinary tract symptoms with IPSS \u2265 13 \u2462 A patient with 5-15 mL/sec of maximum flow rate (Qmax) measured when urine volume was at least 125 mL 3. A patient with PSA level < 10 ng/mL (however, if 4 ng/mL < PSA < 10 ng/mL, a person with a biopsy result, confirming that he does not have prostate cancer) 4. A patient with residual urine volume \u2264 200 mL 5. A patient with intention of not using drugs which may affect benign prostatic hyperplasia (5-alpha reductase inhibitors, drugs similar to LHRH, alpha blockers, alpha-beta blockers, anticholinergics, antidiuretic hormones, diuretics, PDE-5 inhibitors, beta-3 adrenoceptor antagonists, etc.), drugs affecting immune system (steroids, immunosuppressants), or health functional foods which may affect a prostate gland (saw palmetto, etc.) during the clinical trial period 6.\n\n[Passage 2 | doc=NCT02855892 | section=eligibility]\nA patient who has received an unapproved study drug in the past or the study drug for this clinical trial (One exception: a patient can be enrolled when the drug is considered by an investigator not to affect prostate and urinary function, and the patient is not participating in other ongoing clinical trial.) 5. If diagnosed with prostate cancer in the past or at present 6. A patient who was considered by an investigator to have an influence to an evaluation on urine flow symptoms due to other previous or current diseases besides benign prostatic hyperplasia (e.g., neurogenic bladder, bladder neck contracture, urethral stricture, bladder cancer, malignant tumor in lower urinary tract, etc.) 7. A patient who had surgeries or radiation therapies for prostate gland, bladder or pelvis, or who had invasive treatments for benign prostatic hyperplasia 8. A patient who has severe medical condition which may be cause problem to conduct the clinical trial (e.g., chronic heart failure (CHF), difficult-to-control diabetes (HbA1c > 7%), mental disorder, drug, or alcohol abuse, etc.) 9.\n\n[Passage 3 | doc=NCT02855892 | section=eligibility]\nA patient with moderate to severe liver hypofunction and severe kidney hypofunction (less than 30 mL/min of creatinine clearance) 10. A patient who receives drugs affecting immune system (e.g., immunosuppressives, steroids for systemic action, etc.) 11. Any other patients who are considered to be ineligible for this study by an investigator [Inclusion Criteria for Randomization] 1. A patient who satisfies the following clinical signs and symptoms of benign prostatic hyperplasia \u2460 A patient with a volume of prostate gland (TRUS) > 30 cc * \u2461 A patient with moderate to severe lower urinary tract symptoms with IPSS \u2265 13 \u2462 A patient with 5-15 mL/sec of maximum flow rate (Qmax) measured when urine volume was at least 125 mL 2. A patient with residual urine volume \u2264 200 mL 3. A partner of the patient has to consent to avoid pregnancy by using contraceptive devices or oral contraceptives during the patient's participation in clinical trial and for 90 days after the end of treatment, except if the partner reaches menopause or is surgically sterilized. (* In case that additional TRUS examination has been performed after screening, a decision should be made based on the latest result.)\n\n[Passage 4 | doc=NCT02786290 | section=eligibility]\nInclusion Criteria: 1. 50 to 80 years of age 2. Baseline IPSS score > 13, and a baseline Quality of Life (Qol) question score > 3 3. Prostate volume 25 - 80 cc by Trans Rectal Ultrasound (TRUS), measured within past 90 days 4. Anterior prostatic urethral length 2.5 - 4.0 cm by cystoscopy, as measured from bladder neck to verumontanum. TRUS will be accepted as a primary screening measure. 5. Failed or intolerant to medication regimen for the treatment of LUTS. Exclusion Criteria: New Zealand only: A maximum of 5 participants in acute or chronic urinary retention may be included in the study provided they meet other entry criteria. Exclusion exemptions for these patients are described in 4a, 5a and they are exempt from #6. Participants will be excluded from participating in this trial if they meet any of the following criteria: 1. Obstructive median prostatic lobe or high bladder neck 2. Urethral stricture, meatal stenosis, or bladder neck obstruction - either current, or recurrent requiring 2 or more dilatations 3. Elevated Prostate Specific Antigen (PSA) (age 50-70 PSA \u22654; age 70+ PSA \u22656.5) unless negative biopsy within last 3 months, or a positive biopsy 4.\n\n[Passage 5 | doc=NCT00939120 | section=eligibility]\nMinimally invasive surgery (MIS) such as transurethral microwave treatment (TUMT), transurethral needle ablation (TUNA), laser, or other minimally invasive procedures within 12 months. Those patients who in the opinion of the investigator did not respond adequately to MIS and fulfill the inclusion criteria are eligible to participate 14. A known diagnosis of prostate cancer. 15. A known diagnosis of bladder cancer within 5 years of screening. Those patients with history of non-muscle invasive bladder cancer who have not had a recurrence in the past 5 years are eligible to screen for this study and must maintain continued adequate bladder cancer screening at the discretion of the Investigator 16. Renal or hepatic impairment defined as 2.5 x upper limit of normal. Some isolated abnormalities would be left at the discretion of the investigator with always keeping in mind to not pose a hazard to the patient. 17. PSA > 10 ng/mL (if the PSA is greater than 4 ng/mL and less than or equal to 10 ng/mL, subjects may be included at the discretion of the Investigator if the PSA has been stable and the patient has had a prostate biopsy showing no evidence of prostate cancer) 18.\n\n[Passage 6 | doc=NCT00939120 | section=eligibility]\nInclusion Criteria: This subject population will consist of males \u2265 50 years of age who have lower urinary tract symptoms (LUTS) due to benign prostatic enlargement (BPE) for a minimum of 3 months Inclusion criteria at screening: 1. Subjects who understand and speak English and are able to comply with the protocol, complete the diaries, and other study tools 2. Subject has provided written informed consent and HIPAA authorization 3. Ambulatory male subjects \u2265 50 years of age 4. Able to use the toilet without difficulty 5. History of LUTS due to BPE, as diagnosed by history as well as digital rectal exam (DRE), for \u2265 3 months suitable for medical therapy with 5-ARI in combination with antimuscarinic drugs 6. Prostate volume (PV) \u2265 30 cc as measured by transrectal ultrasound (TRUS) 7. International prostate symptoms score (IPSS) \u226512 8. Post Void Residual Volume < 150 mL at baseline 9. Uroflowmetry-Qmax > 5 mL/sec and \u2264 15 mL/sec 10. Prostate specific antigen (PSA) \u2265 1.5 ng/ml and in normal age-adjusted range.",
+  "passages": [
+    {
+      "passage_id": "NCT02855892::eligibility::0",
+      "doc_id": "NCT02855892",
+      "section": "eligibility",
+      "passage_text": "[Inclusion Criteria] All of the following criteria should be satisfied to be enrolled in this clinical trial. 1. A male at 50 years of age and older 2. A patient who satisfies the following clinical signs and symptoms of benign prostatic hyperplasia \u2460 A patient with a volume of prostate gland (TRUS) > 30 cc \u2461 A patient with moderate to severe lower urinary tract symptoms with IPSS \u2265 13 \u2462 A patient with 5-15 mL/sec of maximum flow rate (Qmax) measured when urine volume was at least 125 mL 3. A patient with PSA level < 10 ng/mL (however, if 4 ng/mL < PSA < 10 ng/mL, a person with a biopsy result, confirming that he does not have prostate cancer) 4. A patient with residual urine volume \u2264 200 mL 5. A patient with intention of not using drugs which may affect benign prostatic hyperplasia (5-alpha reductase inhibitors, drugs similar to LHRH, alpha blockers, alpha-beta blockers, anticholinergics, antidiuretic hormones, diuretics, PDE-5 inhibitors, beta-3 adrenoceptor antagonists, etc.), drugs affecting immune system (steroids, immunosuppressants), or health functional foods which may affect a prostate gland (saw palmetto, etc.) during the clinical trial period 6.",
+      "title": "A Phase II Clinical Trial to Evaluate the Efficacy and Safety of GV1001 in Patients With BPH",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 312.461467010111,
+      "cross_score": -5.881851,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02855892::eligibility::2",
+      "doc_id": "NCT02855892",
+      "section": "eligibility",
+      "passage_text": "A patient who has received an unapproved study drug in the past or the study drug for this clinical trial (One exception: a patient can be enrolled when the drug is considered by an investigator not to affect prostate and urinary function, and the patient is not participating in other ongoing clinical trial.) 5. If diagnosed with prostate cancer in the past or at present 6. A patient who was considered by an investigator to have an influence to an evaluation on urine flow symptoms due to other previous or current diseases besides benign prostatic hyperplasia (e.g., neurogenic bladder, bladder neck contracture, urethral stricture, bladder cancer, malignant tumor in lower urinary tract, etc.) 7. A patient who had surgeries or radiation therapies for prostate gland, bladder or pelvis, or who had invasive treatments for benign prostatic hyperplasia 8. A patient who has severe medical condition which may be cause problem to conduct the clinical trial (e.g., chronic heart failure (CHF), difficult-to-control diabetes (HbA1c > 7%), mental disorder, drug, or alcohol abuse, etc.) 9.",
+      "title": "A Phase II Clinical Trial to Evaluate the Efficacy and Safety of GV1001 in Patients With BPH",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 312.461467010111,
+      "cross_score": -5.9283214,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02855892::eligibility::3",
+      "doc_id": "NCT02855892",
+      "section": "eligibility",
+      "passage_text": "A patient with moderate to severe liver hypofunction and severe kidney hypofunction (less than 30 mL/min of creatinine clearance) 10. A patient who receives drugs affecting immune system (e.g., immunosuppressives, steroids for systemic action, etc.) 11. Any other patients who are considered to be ineligible for this study by an investigator [Inclusion Criteria for Randomization] 1. A patient who satisfies the following clinical signs and symptoms of benign prostatic hyperplasia \u2460 A patient with a volume of prostate gland (TRUS) > 30 cc * \u2461 A patient with moderate to severe lower urinary tract symptoms with IPSS \u2265 13 \u2462 A patient with 5-15 mL/sec of maximum flow rate (Qmax) measured when urine volume was at least 125 mL 2. A patient with residual urine volume \u2264 200 mL 3. A partner of the patient has to consent to avoid pregnancy by using contraceptive devices or oral contraceptives during the patient's participation in clinical trial and for 90 days after the end of treatment, except if the partner reaches menopause or is surgically sterilized. (* In case that additional TRUS examination has been performed after screening, a decision should be made based on the latest result.)",
+      "title": "A Phase II Clinical Trial to Evaluate the Efficacy and Safety of GV1001 in Patients With BPH",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 312.461467010111,
+      "cross_score": -6.2929916,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02786290::eligibility::0",
+      "doc_id": "NCT02786290",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. 50 to 80 years of age 2. Baseline IPSS score > 13, and a baseline Quality of Life (Qol) question score > 3 3. Prostate volume 25 - 80 cc by Trans Rectal Ultrasound (TRUS), measured within past 90 days 4. Anterior prostatic urethral length 2.5 - 4.0 cm by cystoscopy, as measured from bladder neck to verumontanum. TRUS will be accepted as a primary screening measure. 5. Failed or intolerant to medication regimen for the treatment of LUTS. Exclusion Criteria: New Zealand only: A maximum of 5 participants in acute or chronic urinary retention may be included in the study provided they meet other entry criteria. Exclusion exemptions for these patients are described in 4a, 5a and they are exempt from #6. Participants will be excluded from participating in this trial if they meet any of the following criteria: 1. Obstructive median prostatic lobe or high bladder neck 2. Urethral stricture, meatal stenosis, or bladder neck obstruction - either current, or recurrent requiring 2 or more dilatations 3. Elevated Prostate Specific Antigen (PSA) (age 50-70 PSA \u22654; age 70+ PSA \u22656.5) unless negative biopsy within last 3 months, or a positive biopsy 4.",
+      "title": "The Zenflow Spring System Feasibility and Safety Study",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 326.0612453583201,
+      "cross_score": -6.559904,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00939120::eligibility::2",
+      "doc_id": "NCT00939120",
+      "section": "eligibility",
+      "passage_text": "Minimally invasive surgery (MIS) such as transurethral microwave treatment (TUMT), transurethral needle ablation (TUNA), laser, or other minimally invasive procedures within 12 months. Those patients who in the opinion of the investigator did not respond adequately to MIS and fulfill the inclusion criteria are eligible to participate 14. A known diagnosis of prostate cancer. 15. A known diagnosis of bladder cancer within 5 years of screening. Those patients with history of non-muscle invasive bladder cancer who have not had a recurrence in the past 5 years are eligible to screen for this study and must maintain continued adequate bladder cancer screening at the discretion of the Investigator 16. Renal or hepatic impairment defined as 2.5 x upper limit of normal. Some isolated abnormalities would be left at the discretion of the investigator with always keeping in mind to not pose a hazard to the patient. 17. PSA > 10 ng/mL (if the PSA is greater than 4 ng/mL and less than or equal to 10 ng/mL, subjects may be included at the discretion of the Investigator if the PSA has been stable and the patient has had a prostate biopsy showing no evidence of prostate cancer) 18.",
+      "title": "Dutasteride With Tolterodine ER or Placebo to Treat Lower Urinary Tract Symptoms (LUTS)",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.13585951344703,
+      "cross_score": -6.9249897,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00939120::eligibility::0",
+      "doc_id": "NCT00939120",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: This subject population will consist of males \u2265 50 years of age who have lower urinary tract symptoms (LUTS) due to benign prostatic enlargement (BPE) for a minimum of 3 months Inclusion criteria at screening: 1. Subjects who understand and speak English and are able to comply with the protocol, complete the diaries, and other study tools 2. Subject has provided written informed consent and HIPAA authorization 3. Ambulatory male subjects \u2265 50 years of age 4. Able to use the toilet without difficulty 5. History of LUTS due to BPE, as diagnosed by history as well as digital rectal exam (DRE), for \u2265 3 months suitable for medical therapy with 5-ARI in combination with antimuscarinic drugs 6. Prostate volume (PV) \u2265 30 cc as measured by transrectal ultrasound (TRUS) 7. International prostate symptoms score (IPSS) \u226512 8. Post Void Residual Volume < 150 mL at baseline 9. Uroflowmetry-Qmax > 5 mL/sec and \u2264 15 mL/sec 10. Prostate specific antigen (PSA) \u2265 1.5 ng/ml and in normal age-adjusted range.",
+      "title": "Dutasteride With Tolterodine ER or Placebo to Treat Lower Urinary Tract Symptoms (LUTS)",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.13585951344703,
+      "cross_score": -6.9736257,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study team will need to confirm your eligibility based on several factors including your prostate volume, PSA levels, and other clinical parameters. Please discuss these details further with the study team.\",\n  \"supported_patient_facts\": [\"63 years old\", \"History of acute urinary retention\", \"Prostate volume (TRUS): 63 mL\", \"PSA level: 3.5 ng/mL\", \"Post-void residual: 71 mL\", \"Blood chemistry results are normal\"],\n  \"missing_patient_facts\": [\"IPSS score\", \"Maximum flow rate (Qmax)\", \"Urethral catheterization status\", \"TURP status\"],\n  \"unresolved_study_requirements\": [\"Further evaluation of lower urinary tract symptoms\", \"Confirmation of no prostate cancer or bladder cancer\", \"No history of prostate or bladder surgeries or radiation therapies\", \"No severe medical conditions that could interfere with the trial\"],\n  \"reasoning_summary\": \"The patient meets some inclusion criteria such as age, prostate volume, and PSA level. However, there are missing patient facts like IPSS score, Qmax, and TURP status. Additionally, unresolved study-side requirements include confirmation of no prostate cancer, no history of surgeries, and no severe medical conditions.\",\n  \"safety_note\": \"The patient's recent blood chemistry results are normal, but further evaluation is required to ensure safety and suitability for the study.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"doc=NCT02855892 | section=eligibility\", \"doc=NCT02786290 | section=eligibility\", \"doc=NCT00939120 | section=eligibility\"],\n    \"reasoning_summary\": [\"doc=NCT02855892 | section=eligibility\", \"doc=NCT02786290 | section=eligibility\", \"doc=NCT00939120 | section=eligibility\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "63 years old",
+      "History of acute urinary retention",
+      "Prostate volume (TRUS): 63 mL",
+      "PSA level: 3.5 ng/mL",
+      "Post-void residual: 71 mL",
+      "Blood chemistry results are normal"
+    ],
+    "missing_patient_facts": [
+      "IPSS score",
+      "Maximum flow rate (Qmax)",
+      "Urethral catheterization status",
+      "TURP status"
+    ],
+    "unresolved_study_requirements": [
+      "Further evaluation of lower urinary tract symptoms",
+      "Confirmation of no prostate cancer or bladder cancer",
+      "No history of prostate or bladder surgeries or radiation therapies",
+      "No severe medical conditions that could interfere with the trial"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "The patient's recent blood chemistry results are normal, but further evaluation is required to ensure safety and suitability for the study.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "doc=NCT02855892 | section=eligibility",
+        "doc=NCT02786290 | section=eligibility",
+        "doc=NCT00939120 | section=eligibility"
+      ],
+      "reasoning_summary": [
+        "doc=NCT02855892 | section=eligibility",
+        "doc=NCT02786290 | section=eligibility",
+        "doc=NCT00939120 | section=eligibility"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "IPSS score",
+    "Maximum flow rate (Qmax)",
+    "Urethral catheterization status",
+    "TURP status"
+  ],
+  "unresolved_study_requirements": [
+    "Further evaluation of lower urinary tract symptoms",
+    "Confirmation of no prostate cancer or bladder cancer",
+    "No history of prostate or bladder surgeries or radiation therapies",
+    "No severe medical conditions that could interfere with the trial"
+  ],
+  "narrow_leak_n": 2,
+  "latency_sec": 34.477
+}

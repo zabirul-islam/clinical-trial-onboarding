@@ -1,0 +1,64 @@
+{
+  "case_id": "case_paraphrase_005",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT03791229",
+  "reference_trial": "NCT03791229",
+  "evidence_trials": [
+    "NCT03791229"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. Before I agree to anything, what is the study team going to confirm with me?",
+  "evidence": "[Passage 1 | doc=NCT03791229 | section=detailed_description]\nAcute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.",
+  "passages": [
+    {
+      "passage_id": "NCT03791229::detailed_description::0",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 408.5809694497866,
+      "cross_score": -3.8462048,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Before you can join this clinical trial, the study team will need to confirm a few things with you. They will want to know if you're comfortable with having a laparoscopic appendectomy under general anesthesia. They'll also check your medical history and see if you've had any complications from previous surgeries.\",\n  \"supported_patient_facts\": [\"The patient is a 31-year-old woman\", \"She has abdominal pain that started last night as diffuse discomfort\", \"The pain worsened in intensity and became sharp in the morning\", \"Computed Tomography of the abdomen with contrast shows a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene\", \"She is a candidate for laparoscopic appendectomy under general anesthesia\"],\n  \"missing_patient_facts\": [\"Her medical history regarding previous surgeries\", \"Her comfort level with laparoscopic appendectomy under general anesthesia\"],\n  \"unresolved_study_requirements\": [\"Confirmation of her comfort level with laparoscopic appendectomy under general anesthesia\", \"Review of her medical history for previous surgeries\"],\n  \"reasoning_summary\": \"The patient meets the basic criteria for the study, including age, symptoms, and imaging results. However, the study team needs more information about her comfort with surgery and her past surgical history before they can make a final decision.\",\n  \"safety_note\": \"The patient's condition appears stable based on the provided information. However, safety remains a priority, and further assessments may be necessary.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Before you can join this clinical trial, the study team will need to confirm a few things with you. They will want to know if you're comfortable with having a laparoscopic appendectomy under general anesthesia. They'll also check your medical history and see if you've had any complications from previous surgeries.",
+    "supported_patient_facts": [
+      "The patient is a 31-year-old woman",
+      "She has abdominal pain that started last night as diffuse discomfort",
+      "The pain worsened in intensity and became sharp in the morning",
+      "Computed Tomography of the abdomen with contrast shows a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene",
+      "She is a candidate for laparoscopic appendectomy under general anesthesia"
+    ],
+    "missing_patient_facts": [
+      "Her medical history regarding previous surgeries",
+      "Her comfort level with laparoscopic appendectomy under general anesthesia"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of her comfort level with laparoscopic appendectomy under general anesthesia",
+      "Review of her medical history for previous surgeries"
+    ],
+    "reasoning_summary": "The patient meets the basic criteria for the study, including age, symptoms, and imaging results. However, the study team needs more information about her comfort with surgery and her past surgical history before they can make a final decision.",
+    "safety_note": "The patient's condition appears stable based on the provided information. However, safety remains a priority, and further assessments may be necessary."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Before you can join this clinical trial, the study team will need to confirm a few things with you. They will want to know if you're comfortable with having a laparoscopic appendectomy under general anesthesia. They'll also check your medical history and see if you've had any complications from previous surgeries.",
+  "missing_patient_facts": [
+    "Her medical history regarding previous surgeries",
+    "Her comfort level with laparoscopic appendectomy under general anesthesia"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of her comfort level with laparoscopic appendectomy under general anesthesia",
+    "Review of her medical history for previous surgeries"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.594
+}

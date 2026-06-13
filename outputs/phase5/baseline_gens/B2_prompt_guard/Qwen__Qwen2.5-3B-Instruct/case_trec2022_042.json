@@ -1,0 +1,130 @@
+{
+  "case_id": "case_trec2022_042",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "reference_trial": "NCT03985540",
+  "evidence_trials": [
+    "NCT01158352",
+    "NCT02311322",
+    "NCT02638922",
+    "NCT03985540",
+    "NCT04219007"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 9-year-old girl is brought to the office for evaluation of short stature and overweight body habitus. The patient's mother and father are 170 cm and 181 cm tall, respectively. On physical examination, the patient's height is in the 5th percentile of her age. Other findings include low-set ears, a high arched palate, a webbed neck, and cubitus valgus. Chromosomal analysis reveals a 45, XO karyotype. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.\n\n[Passage 2 | doc=NCT02638922 | section=summary]\nObjective To evaluate the phenotypic characteristics and diagnoses in a large cohort of 304 consecutive girls referred due to tall stature. Furthermore, to evaluate the effect of oral administration of 17\u03b2-estradiol on predicted adult height in constitutionally tall statured girls. Design A single-centre retrospective observational study of 304 girls evaluated due to tall stature between 1993 and 2013. Setting Tertiary referral centre for pediatric endocrinology. Participants A total of 304 girls were evaluated for tall stature of whom 39 (13%) were excluded due to missing data, reclassification, overgrowth syndromes or associated comorbidities. Another 58 (19%) girls did not fulfil auxological criteria for constitutionally tall stature (CTS), resulting in a total of 207 (68%) girls eligible for analysis. Main Outcome Measures The effect of oral treatment with 17\u03b2-estradiol on height, predicted adult height (PAH), final height and circulating hormones in constitutional tall statured girls.\n\n[Passage 3 | doc=NCT04219007 | section=eligibility]\nThe rationale for using an IGF-1 below the normal range as the cut-off for further evaluation for growth hormone deficiency is that in patients with a clear genetic explanation for their short stature, an IGF-1 level anywhere within the normal range would be considered reassuring and would not lead to a growth hormone stimulation test in a routine clinical setting. 8. The subject and their guardian must speak one of the 11 languages for which the QoLISSY survey (a quality of life survey for short stature) is available. These include: English, Spanish, German, Russian, Swedish, Flemish, Italian, Turkish, French, Japanese, and Ukrainian. Exclusion Criteria: 1. Growth plate fusion - Defined as a bone age via the Greulich and Pyle method of 13 years in females and 15 years in males. These patients have limited remaining growth potential. 2. Concomitant treatment with growth hormone or recombinant IGF-1. Patients may have been previously treated with growth hormone or IGF-1 therapy. If the patient is currently on one of these therapies, they will be required to discontinue treatment in order to begin the baseline observation period for this trial.\n\n[Passage 4 | doc=NCT02311322 | section=eligibility]\n- INCLUSION CRITERIA: If a subject meets any one of these criteria, he/she will potentially be eligible to participate: - Short stature (height less than - 2 SDS), either currently or previously - or - Tall stature (height greater than + 2 SDS) or - Bone age delay (greater than 3 years) or - Bone age advancement (greater than 2.5 years or greater than 1.5 years with short stature) or - Predicted adult height < - 2SD - Growth disorder that was treated promptly, thus maintaining the child s height within the normal range, e.g. a subject with congenital growth hormone deficiency or multiple pituitary hormone deficiency of unknown genetic etiology who received growth hormone treatment beginning in early life or - Family member of subjects who meet any of the above criteria - Subjects have a current height at a low normal percentile but has short adult height prediction based on bone age (> 5 inches shorter than mid-parent height) In addition, subjects are only eligible, if, the pedigree suggests a monogenic inheritance, and, in the judgement of the investigators, there is a reasonable likelihood of identifying a novel gene responsible for the condition.\n\n[Passage 5 | doc=NCT01158352 | section=eligibility]\nInclusion Criteria for participants at the intervention group (segments 1&2): 1. Girls aged 3-7 years old and boys aged 3-8 years old 2. Prepubertal - tanner stage 1 3. Height, weight and BMI < 10th percentile for age and gender 4. Availability of growth velocity data for at least 4 months prior to study entry. 5. Signing inform consent forms Exclusion Criteria for participants at the intervention group (segments 1): 1. Diagnosis of GH Deficiency or treatment with GH 2. Any known chronic disease or dysmorphic syndrome including: bone diseases, organic brain diseases, neurological disease, past or current malignancy, chronic cardial, renal or pulmonary problems 3. Any known gastrointestinal problem including absorption problems 4. Any known organic reason for slow growth 5. Any chronic treatment with medication that might effects appetite (for example SSRI's), weight or Growth. Inclusion Criteria for participants at the control group (segments 2): 1. Girls aged 3-8 years old and boys aged 3-9 years old 2. Prepubertal - tanner stage 1 3. Height \u2265 25th percentile for age and gender 4. Proper proportion between weight and height- 5th \u2264 BMI \u2264 85th 5.\n\n[Passage 6 | doc=NCT02638922 | section=detailed_description]\n17\u03b1-ethinylestradiol (EE2) treatment of extreme tall stature has become increasingly debated and controversial. In Sweden, percutaneous epiphysiodesis operation is suggested as an alternative to EE2 treatment. An alternative clinical practise was introduced 20 years ago, when early treatment with oral administration of natural estrogens (17\u03b2-estradiol (E2)) was introduced in order to initiate or ensure rapid progression of puberty (and epiphyseal closure) in tall statured girls. A retrospective 20-year single center experience included evaluation of 304 tall statured girls and the possible clinical effects of oral administration of E2. Subjects and methods Patients The patient population consisted of girls who were referred with tall stature or overgrowth syndromes (ICD10 34.4, and ICD10 DE874, DQ970, DQ873A, DQ873B) to the Department of Growth and Reproduction at Rigshospitalet in Copenhagen, Denmark, during a 20-years period (between 1993 and 2013). A total of 304 patients were identified, and the diagnoses were re-evaluated as part of the present study. Clinical data and medical history Medical history was obtained using a structured review of patient record files.",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 187.15010161040624,
+      "cross_score": -3.6606085,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02638922::summary::0",
+      "doc_id": "NCT02638922",
+      "section": "summary",
+      "passage_text": "Objective To evaluate the phenotypic characteristics and diagnoses in a large cohort of 304 consecutive girls referred due to tall stature. Furthermore, to evaluate the effect of oral administration of 17\u03b2-estradiol on predicted adult height in constitutionally tall statured girls. Design A single-centre retrospective observational study of 304 girls evaluated due to tall stature between 1993 and 2013. Setting Tertiary referral centre for pediatric endocrinology. Participants A total of 304 girls were evaluated for tall stature of whom 39 (13%) were excluded due to missing data, reclassification, overgrowth syndromes or associated comorbidities. Another 58 (19%) girls did not fulfil auxological criteria for constitutionally tall stature (CTS), resulting in a total of 207 (68%) girls eligible for analysis. Main Outcome Measures The effect of oral treatment with 17\u03b2-estradiol on height, predicted adult height (PAH), final height and circulating hormones in constitutional tall statured girls.",
+      "title": "Evaluation and Treatment of Tall Statured Girls",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 212.4872821453986,
+      "cross_score": -3.7293074,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04219007::eligibility::3",
+      "doc_id": "NCT04219007",
+      "section": "eligibility",
+      "passage_text": "The rationale for using an IGF-1 below the normal range as the cut-off for further evaluation for growth hormone deficiency is that in patients with a clear genetic explanation for their short stature, an IGF-1 level anywhere within the normal range would be considered reassuring and would not lead to a growth hormone stimulation test in a routine clinical setting. 8. The subject and their guardian must speak one of the 11 languages for which the QoLISSY survey (a quality of life survey for short stature) is available. These include: English, Spanish, German, Russian, Swedish, Flemish, Italian, Turkish, French, Japanese, and Ukrainian. Exclusion Criteria: 1. Growth plate fusion - Defined as a bone age via the Greulich and Pyle method of 13 years in females and 15 years in males. These patients have limited remaining growth potential. 2. Concomitant treatment with growth hormone or recombinant IGF-1. Patients may have been previously treated with growth hormone or IGF-1 therapy. If the patient is currently on one of these therapies, they will be required to discontinue treatment in order to begin the baseline observation period for this trial.",
+      "title": "Vosoritide for Selected Genetic Causes of Short Stature",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 187.0228962091372,
+      "cross_score": -3.812088,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02311322::eligibility::0",
+      "doc_id": "NCT02311322",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA: If a subject meets any one of these criteria, he/she will potentially be eligible to participate: - Short stature (height less than - 2 SDS), either currently or previously - or - Tall stature (height greater than + 2 SDS) or - Bone age delay (greater than 3 years) or - Bone age advancement (greater than 2.5 years or greater than 1.5 years with short stature) or - Predicted adult height < - 2SD - Growth disorder that was treated promptly, thus maintaining the child s height within the normal range, e.g. a subject with congenital growth hormone deficiency or multiple pituitary hormone deficiency of unknown genetic etiology who received growth hormone treatment beginning in early life or - Family member of subjects who meet any of the above criteria - Subjects have a current height at a low normal percentile but has short adult height prediction based on bone age (> 5 inches shorter than mid-parent height) In addition, subjects are only eligible, if, the pedigree suggests a monogenic inheritance, and, in the judgement of the investigators, there is a reasonable likelihood of identifying a novel gene responsible for the condition.",
+      "title": "Genetic Causes of Growth Disorders",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 197.66676367604612,
+      "cross_score": -4.5353365,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01158352::eligibility::0",
+      "doc_id": "NCT01158352",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria for participants at the intervention group (segments 1&2): 1. Girls aged 3-7 years old and boys aged 3-8 years old 2. Prepubertal - tanner stage 1 3. Height, weight and BMI < 10th percentile for age and gender 4. Availability of growth velocity data for at least 4 months prior to study entry. 5. Signing inform consent forms Exclusion Criteria for participants at the intervention group (segments 1): 1. Diagnosis of GH Deficiency or treatment with GH 2. Any known chronic disease or dysmorphic syndrome including: bone diseases, organic brain diseases, neurological disease, past or current malignancy, chronic cardial, renal or pulmonary problems 3. Any known gastrointestinal problem including absorption problems 4. Any known organic reason for slow growth 5. Any chronic treatment with medication that might effects appetite (for example SSRI's), weight or Growth. Inclusion Criteria for participants at the control group (segments 2): 1. Girls aged 3-8 years old and boys aged 3-9 years old 2. Prepubertal - tanner stage 1 3. Height \u2265 25th percentile for age and gender 4. Proper proportion between weight and height- 5th \u2264 BMI \u2264 85th 5.",
+      "title": "Study to Evaluate the Effect of Short Treatment With Nutritional Supplementation Standardized Innovative Formula, on Growth and Weight Gain in Short and Lean Prepubertal Children",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 186.78150241375903,
+      "cross_score": -4.8269777,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02638922::detailed_description::0",
+      "doc_id": "NCT02638922",
+      "section": "detailed_description",
+      "passage_text": "17\u03b1-ethinylestradiol (EE2) treatment of extreme tall stature has become increasingly debated and controversial. In Sweden, percutaneous epiphysiodesis operation is suggested as an alternative to EE2 treatment. An alternative clinical practise was introduced 20 years ago, when early treatment with oral administration of natural estrogens (17\u03b2-estradiol (E2)) was introduced in order to initiate or ensure rapid progression of puberty (and epiphyseal closure) in tall statured girls. A retrospective 20-year single center experience included evaluation of 304 tall statured girls and the possible clinical effects of oral administration of E2. Subjects and methods Patients The patient population consisted of girls who were referred with tall stature or overgrowth syndromes (ICD10 34.4, and ICD10 DE874, DQ970, DQ873A, DQ873B) to the Department of Growth and Reproduction at Rigshospitalet in Copenhagen, Denmark, during a 20-years period (between 1993 and 2013). A total of 304 patients were identified, and the diagnoses were re-evaluated as part of the present study. Clinical data and medical history Medical history was obtained using a structured review of patient record files.",
+      "title": "Evaluation and Treatment of Tall Statured Girls",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 212.4872821453986,
+      "cross_score": -4.934207,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you are not eligible for the clinical trial described. However, more details about your specific case are needed.\",\n  \"supported_patient_facts\": [\"the patient is a 9-year-old girl\", \"she has short stature and an overweight body habitus\", \"her height is in the 5th percentile of her age\", \"other findings include low-set ears, a high arched palate, a webbed neck, and cubitus valgus\", \"chromosomal analysis revealed a 45, XO karyotype\"],\n  \"missing_patient_facts\": [\"the patient's bone age\", \"the patient's predicted adult height\", \"the patient's bone age assessment method\"],\n  \"unresolved_study_requirements\": [\"the patient's bone age assessment method is not specified\", \"the patient's bone age needs to be determined to see if she meets the exclusion criteria for growth plate fusion\"],\n  \"reasoning_summary\": \"The patient's short stature and chromosomal analysis (45, XO) suggest she may have Turner syndrome, which could be relevant to the trial. However, the patient's bone age and predicted adult height need to be assessed to determine if she meets the exclusion criteria for growth plate fusion. Additionally, the patient's bone age assessment method is not specified.\",\n  \"safety_note\": \"Before making a final determination, please consult with a healthcare provider familiar with the trial to discuss the patient's specific situation.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you are not eligible for the clinical trial described. However, more details about your specific case are needed.",
+    "supported_patient_facts": [
+      "the patient is a 9-year-old girl",
+      "she has short stature and an overweight body habitus",
+      "her height is in the 5th percentile of her age",
+      "other findings include low-set ears, a high arched palate, a webbed neck, and cubitus valgus",
+      "chromosomal analysis revealed a 45, XO karyotype"
+    ],
+    "missing_patient_facts": [
+      "the patient's bone age",
+      "the patient's predicted adult height",
+      "the patient's bone age assessment method"
+    ],
+    "unresolved_study_requirements": [
+      "the patient's bone age assessment method is not specified",
+      "the patient's bone age needs to be determined to see if she meets the exclusion criteria for growth plate fusion"
+    ],
+    "reasoning_summary": "The patient's short stature and chromosomal analysis (45, XO) suggest she may have Turner syndrome, which could be relevant to the trial. However, the patient's bone age and predicted adult height need to be assessed to determine if she meets the exclusion criteria for growth plate fusion. Additionally, the patient's bone age assessment method is not specified.",
+    "safety_note": "Before making a final determination, please consult with a healthcare provider familiar with the trial to discuss the patient's specific situation."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you are not eligible for the clinical trial described. However, more details about your specific case are needed.",
+  "missing_patient_facts": [
+    "the patient's bone age",
+    "the patient's predicted adult height",
+    "the patient's bone age assessment method"
+  ],
+  "unresolved_study_requirements": [
+    "the patient's bone age assessment method is not specified",
+    "the patient's bone age needs to be determined to see if she meets the exclusion criteria for growth plate fusion"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.747
+}

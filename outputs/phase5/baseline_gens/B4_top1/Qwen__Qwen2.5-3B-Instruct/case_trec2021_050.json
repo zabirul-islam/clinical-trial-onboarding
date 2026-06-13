@@ -1,0 +1,73 @@
+{
+  "case_id": "case_trec2021_050",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00026923",
+  "selected_doc": "NCT02158780",
+  "reference_trial": "NCT02158780",
+  "evidence_trials": [
+    "NCT02158780"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 5 months old male brought to the pediatrics surgery clinic with the complaint of empty scrotum at the right side. The baby boy is a first child who was born at the age of 38 weeks with NVD from a healthy mother. The mother had a normal pregnancy with no complication. The baby boy weighted 3200 gr with the height of 50 cm. He is breast feeding and now weighted as 6.5 kg with the height of 62 cm. He has no developmental delay in the physical assessment. There is a palpable testis is the left scrotum with non-palpable testis in the right scrotum. The penis is normal in shape and size and he is not circumcised. The diagnostic laparoscopy showed an abdominal undescended testis. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02158780 | section=detailed_description]\nUndescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy. At the first pre-operative clinic visit participating paediatric urologist will diagnose patients with low-lying palpable UDT. Patients who meet eligibility criteria will be invited to participate in this trial. A computer generated randomization list will be created using random blocks of multiple sizes (4, 6 and 8), by the McMaster Paediatric Surgery Research Collaborative's web-based randomization system. Patients will be allocated to intervention (scrotal orchidopexy) or control (standard inguinal orchidopexy) groups by logging in to the secure central randomization website.\n\n[Passage 2 | doc=NCT02158780 | section=summary]\nUndescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy.",
+  "passages": [
+    {
+      "passage_id": "NCT02158780::detailed_description::0",
+      "doc_id": "NCT02158780",
+      "section": "detailed_description",
+      "passage_text": "Undescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy. At the first pre-operative clinic visit participating paediatric urologist will diagnose patients with low-lying palpable UDT. Patients who meet eligibility criteria will be invited to participate in this trial. A computer generated randomization list will be created using random blocks of multiple sizes (4, 6 and 8), by the McMaster Paediatric Surgery Research Collaborative's web-based randomization system. Patients will be allocated to intervention (scrotal orchidopexy) or control (standard inguinal orchidopexy) groups by logging in to the secure central randomization website.",
+      "title": "Expertise-Based Randomized Controlled Trial of Scrotal Versus Inguinal Orchidopexy on Post-operative Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 407.3002612793208,
+      "cross_score": -3.7878761,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02158780::summary::0",
+      "doc_id": "NCT02158780",
+      "section": "summary",
+      "passage_text": "Undescended Testis is the most common congenital abnormality of the genitalia in boys and it is commonly managed by surgical intervention. Evidence in the medical literature to support the superiority of either scrotal or inguinal (standard) orchidopexy is lacking. To determine which technique is superior, this study focuses on the degree of post-operative pain after surgery. Therefore, the objective of this randomized control trial is to determine if scrotal orchidopexy reduces postoperative pain in children diagnosed with undescended testis when compared to standard inguinal orchidopexy.",
+      "title": "Expertise-Based Randomized Controlled Trial of Scrotal Versus Inguinal Orchidopexy on Post-operative Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 407.3002612793208,
+      "cross_score": -4.944941,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, your baby boy may be eligible for the clinical trial. However, we need more details about his condition and the results of the diagnostic laparoscopy.\",\n  \"supported_patient_facts\": [\n    \"The baby boy has an undescended testis on the right side.\",\n    \"He underwent a diagnostic laparoscopy that confirmed an abdominal undescended testis.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The specific findings from the diagnostic laparoscopy regarding the left testis.\",\n    \"The exact timing and method of the testicular descent evaluation.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to know if the baby boy meets the eligibility criteria for the study, such as being a first-time child born at 38 weeks with no complications.\",\n    \"We also need to confirm if the baby boy has no developmental delay in the physical assessment.\"\n  ],\n  \"reasoning_summary\": \"The baby boy has an undescended testis, which is a key inclusion criterion for the study. However, we need additional information to fully assess his eligibility and ensure he meets all required criteria.\",\n  \"safety_note\": \"Please consult with the study doctor to discuss any safety concerns related to the clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, your baby boy may be eligible for the clinical trial. However, we need more details about his condition and the results of the diagnostic laparoscopy.",
+    "supported_patient_facts": [
+      "The baby boy has an undescended testis on the right side.",
+      "He underwent a diagnostic laparoscopy that confirmed an abdominal undescended testis."
+    ],
+    "missing_patient_facts": [
+      "The specific findings from the diagnostic laparoscopy regarding the left testis.",
+      "The exact timing and method of the testicular descent evaluation."
+    ],
+    "unresolved_study_requirements": [
+      "We need to know if the baby boy meets the eligibility criteria for the study, such as being a first-time child born at 38 weeks with no complications.",
+      "We also need to confirm if the baby boy has no developmental delay in the physical assessment."
+    ],
+    "reasoning_summary": "The baby boy has an undescended testis, which is a key inclusion criterion for the study. However, we need additional information to fully assess his eligibility and ensure he meets all required criteria.",
+    "safety_note": "Please consult with the study doctor to discuss any safety concerns related to the clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, your baby boy may be eligible for the clinical trial. However, we need more details about his condition and the results of the diagnostic laparoscopy.",
+  "missing_patient_facts": [
+    "The specific findings from the diagnostic laparoscopy regarding the left testis.",
+    "The exact timing and method of the testicular descent evaluation."
+  ],
+  "unresolved_study_requirements": [
+    "We need to know if the baby boy meets the eligibility criteria for the study, such as being a first-time child born at 38 weeks with no complications.",
+    "We also need to confirm if the baby boy has no developmental delay in the physical assessment."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.277
+}

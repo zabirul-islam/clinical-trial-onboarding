@@ -1,0 +1,97 @@
+{
+  "case_id": "case_trec2021_013",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005985",
+  "selected_doc": "NCT03187795",
+  "reference_trial": "NCT03187795",
+  "evidence_trials": [
+    "NCT03187795"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures. Significant leaking around suprapubic cath site. Started on ditropan changed over to detrol. Urologist not concerned with leaking and will f/u with pt next week. s/p CVA Neurogenic bladder s/p suprapubic cath Recurrent UTIs with Klebsiella/Pseudomonas Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03 (s/p R-CHOP x 6 cycles) Bells Palsy BPH Hypertension Partial Bowel obstruction s/p colostomy Hepatitis C Cryoglobulinemia SLE with transverse myelitis, anti-dsDNA Ab+ Insulin Dependant Diabetic Fungal Esophagitis Stage IV? Urinary Tract Infections-pseudomonas & enterococcus Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03187795 | section=eligibility]\nInclusion Criteria: - The subject has a neurological impairment secondary to a traumatic spinal cord injury that occurred at least twelve (12) months prior to the screening visit. - The injury is classified as complete or incomplete (AIS grade A-D) and the neurological level of the injury is above T12. - The subject's method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic). - There is urodynamic documentation of neurogenic detrusor overactivity (NDO). - The subject is on a stable dose of oxybutynin IR three times daily. - The subject is able and willing to comply with the study protocol, including availability for all scheduled clinic visits and locomotor training sessions. - The subject is able to and has voluntarily given informed consent prior to the performance of any study-specific procedures. Exclusion Criteria: - The subject has taken mirabegron within one month of the Screening Visit. - The subject has received a botulinum toxin injection to the bladder within one year of the Screening Visit. - The subject is allergic to mirabegron.\n\n[Passage 2 | doc=NCT03187795 | section=detailed_description]\nNeurogenic detrusor overactivity or \"NDO\" is common in people with spinal cord injury (SCI) and is a medical condition characterized by involuntary urinary bladder contractions. These bladder contractions can cause episodes of urinary incontinence (involuntary urine leakage) and/or high bladder pressures that can lead to poor drainage from the kidneys and urinary tract infections (UTIs). Neurogenic detrusor overactivity is most commonly treated with a medication called oxybutynin (Ditropan); however, this medication is associated with side effects such as dry mouth and constipation. Mirabegron (Myrbetriq) is a newer medication approved by the Food and Drug Administration for the treatment of overactive bladder that does not cause dry mouth or constipation; however, its use in persons with SCI is investigational. The purpose of this research study is to determine the effectiveness and safety of mirabegron compared to oxybutynin chloride immediate release (oxybutynin IR) for neurogenic detrusor overactivity in individuals with SCI.",
+  "passages": [
+    {
+      "passage_id": "NCT03187795::eligibility::0",
+      "doc_id": "NCT03187795",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - The subject has a neurological impairment secondary to a traumatic spinal cord injury that occurred at least twelve (12) months prior to the screening visit. - The injury is classified as complete or incomplete (AIS grade A-D) and the neurological level of the injury is above T12. - The subject's method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic). - There is urodynamic documentation of neurogenic detrusor overactivity (NDO). - The subject is on a stable dose of oxybutynin IR three times daily. - The subject is able and willing to comply with the study protocol, including availability for all scheduled clinic visits and locomotor training sessions. - The subject is able to and has voluntarily given informed consent prior to the performance of any study-specific procedures. Exclusion Criteria: - The subject has taken mirabegron within one month of the Screening Visit. - The subject has received a botulinum toxin injection to the bladder within one year of the Screening Visit. - The subject is allergic to mirabegron.",
+      "title": "Mirabegron and Oxybutynin Safety and Efficacy Trial in Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 296.9700883448082,
+      "cross_score": -5.142822,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03187795::detailed_description::0",
+      "doc_id": "NCT03187795",
+      "section": "detailed_description",
+      "passage_text": "Neurogenic detrusor overactivity or \"NDO\" is common in people with spinal cord injury (SCI) and is a medical condition characterized by involuntary urinary bladder contractions. These bladder contractions can cause episodes of urinary incontinence (involuntary urine leakage) and/or high bladder pressures that can lead to poor drainage from the kidneys and urinary tract infections (UTIs). Neurogenic detrusor overactivity is most commonly treated with a medication called oxybutynin (Ditropan); however, this medication is associated with side effects such as dry mouth and constipation. Mirabegron (Myrbetriq) is a newer medication approved by the Food and Drug Administration for the treatment of overactive bladder that does not cause dry mouth or constipation; however, its use in persons with SCI is investigational. The purpose of this research study is to determine the effectiveness and safety of mirabegron compared to oxybutynin chloride immediate release (oxybutynin IR) for neurogenic detrusor overactivity in individuals with SCI.",
+      "title": "Mirabegron and Oxybutynin Safety and Efficacy Trial in Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 296.9700883448082,
+      "cross_score": -5.7408867,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. We have some matching criteria, but we're missing some key information.\",\n  \"supported_patient_facts\": [\"62 yo male\", \"hx of CVA\", \"neurogenic bladder with indwelling suprapubic catheter\", \"multiple prior admissions for UTIs\", \"altered mental status, and urosepsis now resolved\", \"non-obstructing stone in the L ureter\", \"significant leaking around suprapubic cath site\", \"started on ditropan changed over to detrol\", \"uropathogens include Klebsiella/Pseudomonas\", \"Bells Palsy\", \"Hepatitis C\", \"SLE with transverse myelitis, anti-dsDNA Ab+\", \"Insulin Dependent Diabetic\", \"Fungal Esophagitis\"],\n  \"missing_patient_facts\": [\"stable dose of oxybutynin IR three times daily\", \"method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)\", \"urodynamic documentation of neurogenic detrusor overactivity (NDO)\", \"able and willing to comply with the study protocol\", \"able to and has voluntarily given informed consent\"],\n  \"unresolved_study_requirements\": [\"stable dose of oxybutynin IR three times daily\", \"method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)\", \"urodynamic documentation of neurogenic detrusor overactivity (NDO)\", \"able and willing to comply with the study protocol\", \"able to and has voluntarily given informed consent\"],\n  \"reasoning_summary\": \"Your case matches the inclusion criteria for neurogenic detrusor overactivity, which is a primary condition for the study. However, we need to confirm if you are on a stable dose of oxybutynin IR three times daily, if your bladder management method is intermittent catheterization or indwelling catheter, and if you have urodynamic documentation of NDO. Additionally, we need to ensure you are able and willing to comply with the study protocol and have given informed consent.\",\n  \"safety_note\": \"Please note that while you seem to meet many of the eligibility criteria, we still need to verify certain aspects before confirming your enrollment. Your health condition and the specific details of your care plan are crucial for ensuring your safety and the success of the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. We have some matching criteria, but we're missing some key information.",
+    "supported_patient_facts": [
+      "62 yo male",
+      "hx of CVA",
+      "neurogenic bladder with indwelling suprapubic catheter",
+      "multiple prior admissions for UTIs",
+      "altered mental status, and urosepsis now resolved",
+      "non-obstructing stone in the L ureter",
+      "significant leaking around suprapubic cath site",
+      "started on ditropan changed over to detrol",
+      "uropathogens include Klebsiella/Pseudomonas",
+      "Bells Palsy",
+      "Hepatitis C",
+      "SLE with transverse myelitis, anti-dsDNA Ab+",
+      "Insulin Dependent Diabetic",
+      "Fungal Esophagitis"
+    ],
+    "missing_patient_facts": [
+      "stable dose of oxybutynin IR three times daily",
+      "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)",
+      "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+      "able and willing to comply with the study protocol",
+      "able to and has voluntarily given informed consent"
+    ],
+    "unresolved_study_requirements": [
+      "stable dose of oxybutynin IR three times daily",
+      "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)",
+      "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+      "able and willing to comply with the study protocol",
+      "able to and has voluntarily given informed consent"
+    ],
+    "reasoning_summary": "Your case matches the inclusion criteria for neurogenic detrusor overactivity, which is a primary condition for the study. However, we need to confirm if you are on a stable dose of oxybutynin IR three times daily, if your bladder management method is intermittent catheterization or indwelling catheter, and if you have urodynamic documentation of NDO. Additionally, we need to ensure you are able and willing to comply with the study protocol and have given informed consent.",
+    "safety_note": "Please note that while you seem to meet many of the eligibility criteria, we still need to verify certain aspects before confirming your enrollment. Your health condition and the specific details of your care plan are crucial for ensuring your safety and the success of the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. We have some matching criteria, but we're missing some key information.",
+  "missing_patient_facts": [
+    "stable dose of oxybutynin IR three times daily",
+    "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)",
+    "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+    "able and willing to comply with the study protocol",
+    "able to and has voluntarily given informed consent"
+  ],
+  "unresolved_study_requirements": [
+    "stable dose of oxybutynin IR three times daily",
+    "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)",
+    "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+    "able and willing to comply with the study protocol",
+    "able to and has voluntarily given informed consent"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.834
+}

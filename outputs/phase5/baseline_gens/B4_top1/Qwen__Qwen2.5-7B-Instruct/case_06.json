@@ -1,0 +1,72 @@
+{
+  "case_id": "case_06",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02984384",
+  "reference_trial": "NCT02984384",
+  "evidence_trials": [
+    "NCT02984384"
+  ],
+  "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+  "evidence": "[Passage 1 | doc=NCT02984384 | section=eligibility]\nExclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.\n\n[Passage 2 | doc=NCT02984384 | section=eligibility]\nFactor V Leiden, hyperhomocysteinemia, Protein C and S deficiency) that require full dose anticoagulation or are a contraindication to venous thromboembolism chemoprophylaxis - Patients with end stage renal disease or impaired creatinine clearance <30 ml/min at time of randomization(note: creatinine clearance does not need to be documented if prescribing physician would order medication without test as SOC) - Pregnant or lactating patients - Patients contraindicated for any reason for either medicine - Prisoners - Patients who do not speak either English or Spanish - Patients may be excluded for other reasons at the discretion of the treating physician; the reason for exclusion must be documented on the screening form - Patients who have a known COVID-19 diagnosis prior to fracture treatment or within 3 months of the index fracture.",
+  "passages": [
+    {
+      "passage_id": "NCT02984384::eligibility::1",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 49.78438347612642,
+      "cross_score": -5.3964386,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02984384::eligibility::2",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Factor V Leiden, hyperhomocysteinemia, Protein C and S deficiency) that require full dose anticoagulation or are a contraindication to venous thromboembolism chemoprophylaxis - Patients with end stage renal disease or impaired creatinine clearance <30 ml/min at time of randomization(note: creatinine clearance does not need to be documented if prescribing physician would order medication without test as SOC) - Pregnant or lactating patients - Patients contraindicated for any reason for either medicine - Prisoners - Patients who do not speak either English or Spanish - Patients may be excluded for other reasons at the discretion of the treating physician; the reason for exclusion must be documented on the screening form - Patients who have a known COVID-19 diagnosis prior to fracture treatment or within 3 months of the index fracture.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 49.78438347612642,
+      "cross_score": -7.4985895,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible, but we need to confirm a few details.\",\n  \"supported_patient_facts\": [\"age and fracture requirements met\"],\n  \"missing_patient_facts\": [\"current blood thinner regimen details\"],\n  \"unresolved_study_requirements\": [\"confirmation of no recent VTE\", \"confirmation of no acute indication for therapeutic blood thinners\", \"confirmation of no underlying chronic clotting disorder requiring full dose anticoagulation\"],\n  \"reasoning_summary\": \"The patient meets the age and fracture requirements but has a current blood thinner regimen which needs further clarification. Additional details about the type and dosage of blood thinners, as well as any recent VTE or acute indications for therapeutic blood thinners, are required to determine eligibility.\",\n  \"safety_note\": \"Blood thinners can affect eligibility due to potential interactions and risks associated with the study medications.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible, but we need to confirm a few details.",
+    "supported_patient_facts": [
+      "age and fracture requirements met"
+    ],
+    "missing_patient_facts": [
+      "current blood thinner regimen details"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of no recent VTE",
+      "confirmation of no acute indication for therapeutic blood thinners",
+      "confirmation of no underlying chronic clotting disorder requiring full dose anticoagulation"
+    ],
+    "reasoning_summary": "The patient meets the age and fracture requirements but has a current blood thinner regimen which needs further clarification. Additional details about the type and dosage of blood thinners, as well as any recent VTE or acute indications for therapeutic blood thinners, are required to determine eligibility.",
+    "safety_note": "Blood thinners can affect eligibility due to potential interactions and risks associated with the study medications."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible, but we need to confirm a few details.",
+  "missing_patient_facts": [
+    "current blood thinner regimen details"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of no recent VTE",
+    "confirmation of no acute indication for therapeutic blood thinners",
+    "confirmation of no underlying chronic clotting disorder requiring full dose anticoagulation"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.784
+}

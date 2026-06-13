@@ -1,0 +1,102 @@
+{
+  "case_id": "case_trec2022_018",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01720771",
+  "reference_trial": "NCT01720771",
+  "evidence_trials": [
+    "NCT00005009",
+    "NCT00367627",
+    "NCT01720771",
+    "NCT02346825",
+    "NCT03985540"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 2-year-old boy is brought to the office by his parents due to a rash that started 1 week ago. A similar red, itchy rash on the cheeks, trunk, and arms has occurred intermittently since infancy. The patient has had a few upper respiratory infections but no major illnesses. Vaccinations are up to date, and he takes no medications. He is on a balanced diet, and he is healthy in appearance. Vital signs and milestone examination are within normal limits. Similar findings are observed on the cheeks and proximal upper extremities. The diaper area is clear, and no mucosal lesions are present. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01720771 | section=detailed_description]\nObjectives The aim of the present project is to evaluate the effect of daily administration of chewing tablets containing probiotic bacteria (Probiora3) on plaque amount, gingival health and caries incidence in preschool children. In addition, information on general health will be collected. The null hypothesis is that the oral health will not differ from preschool children with a similar intake of placebo tablets. An additional aim is to monitor the microbial composition in saliva samples at baseline and during the course of intervention. Study design The study design is a prospective randomised, double-blind, placebo-controlled trial with two parallel arms. The duration is 12 months. Assignment to intervention and control group will be made by a computer-based randomization in groups A or B. Material The study group will be recruited among the 2-year-old children that are regular patients attending the Public Dental Clinic in Roseng\u00e5rd, Malm\u00f6, Sweden. The clinic is situated in a multicultural suburban area with a low socio-economy. The proportion of immigrants is high in the area, the majority Arabic speaking.\n\n[Passage 2 | doc=NCT02346825 | section=summary]\nThe Baby CHAMP Study is a multisite clinical trial funded by the National Institutes of Health that is examining the the use of constraint-induced movement therapy (CIMT) for infants and toddlers as a effective treatment, since there have been no randomized control trials (RCT) for the age range as well as monitor the stress levels as related by self-report of parents or biological indicators. Infants and toddlers who meet study eligibility requirements at one of the three clinical sites (Charlottesville, VA, Columbus, OH, and Roanoke, VA) will be invited to enroll, and their parents will be provided all necessary paperwork along with informational documentation.\n\n[Passage 3 | doc=NCT02346825 | section=detailed_description]\nPrior published clinical case reports indicate infants and toddlers adjust well to this form of therapy, and parents have favorable responses, no study previously has directly measured stress effects, related to self-report of parents or biological indicators, such as revealed by collecting saliva and hair samples to analyze for cortisol levels and changes over time. The study results are expected to be important to inform the field of infant rehabilitation and provide much-needed evidence about whether infants and toddlers show significant (clinically meaningful) benefits from one or more of the 3 forms of therapy being tested. The findings will include evidence about both behavioral and brain changes. Further, the evidence will answer questions about whether the immediate therapy benefits, if detected, continue to be measurable at 6 and 12 months after therapy has ended. In addition, the study will yield first-ever evidence about whether CIMT is stressful for children and their parents. It may be there are some children or parents who are at higher risk for showing stress effects.\n\n[Passage 4 | doc=NCT00367627 | section=detailed_description]\nStudy design and population: The study population will be the children aged 2-5 years old in the study area. All children aged 2-5 years old in one slums of the study area will be listed and will be invited to participate in the study. Parents will be explained the purpose of the study and will be asked for written consent for participation of their children in the study. If the parents give the consent then a stool pot will be given to them to collect stool samples for microscopic examination for intestinal parasites. The inclusion criteria are; 1) age of the child is 2-5 years old, 2) he/she has not been suffering from serious chronic illness, 3) the child stool test must be positive for STH, 4) he/she had not been taken any antehelminthic drug in the previous six months, 5) parents/guardian are agree for their child participation in the study.\n\n[Passage 5 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.\n\n[Passage 6 | doc=NCT00005009 | section=eligibility]\nInclusion Criteria: Your child may be eligible for this trial if he/she: - Had a kidney transplant 1 year ago or more; - Is between 2 and 21 years of age (parent or guardian's signed informed consent required if under 18); - Is taking stable, maintenance doses of immunosuppressive drugs for his/her kidney transplant; and - Is generally in good health. Exclusion Criteria: Your child will not be eligible for this trial if he/she: - Has had any rejection episodes in the last 6 months or has other problems with their kidneys; - Was in the hospital for a major infection in the last 30 days; - Has a history of VZV infection, including chicken pox or shingles; - Has ever received a VZV vaccine, including Varivax\u00ae; - Lives with a person whose immune system does not work well; - Is allergic to certain medications; - Is unable to return for the prescribed follow-up check-ups; - Has no phone or pager; or - Has had blood or plasma transfusions or taken certain drugs in the last 6 months.",
+  "passages": [
+    {
+      "passage_id": "NCT01720771::detailed_description::1",
+      "doc_id": "NCT01720771",
+      "section": "detailed_description",
+      "passage_text": "Objectives The aim of the present project is to evaluate the effect of daily administration of chewing tablets containing probiotic bacteria (Probiora3) on plaque amount, gingival health and caries incidence in preschool children. In addition, information on general health will be collected. The null hypothesis is that the oral health will not differ from preschool children with a similar intake of placebo tablets. An additional aim is to monitor the microbial composition in saliva samples at baseline and during the course of intervention. Study design The study design is a prospective randomised, double-blind, placebo-controlled trial with two parallel arms. The duration is 12 months. Assignment to intervention and control group will be made by a computer-based randomization in groups A or B. Material The study group will be recruited among the 2-year-old children that are regular patients attending the Public Dental Clinic in Roseng\u00e5rd, Malm\u00f6, Sweden. The clinic is situated in a multicultural suburban area with a low socio-economy. The proportion of immigrants is high in the area, the majority Arabic speaking.",
+      "title": "Preventive Effect of a Probiotic Tablet on Oral Health in Preschool Children",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 269.5299195739728,
+      "cross_score": -3.5705419,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02346825::summary::0",
+      "doc_id": "NCT02346825",
+      "section": "summary",
+      "passage_text": "The Baby CHAMP Study is a multisite clinical trial funded by the National Institutes of Health that is examining the the use of constraint-induced movement therapy (CIMT) for infants and toddlers as a effective treatment, since there have been no randomized control trials (RCT) for the age range as well as monitor the stress levels as related by self-report of parents or biological indicators. Infants and toddlers who meet study eligibility requirements at one of the three clinical sites (Charlottesville, VA, Columbus, OH, and Roanoke, VA) will be invited to enroll, and their parents will be provided all necessary paperwork along with informational documentation.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 270.0810524876344,
+      "cross_score": -4.076062,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02346825::detailed_description::4",
+      "doc_id": "NCT02346825",
+      "section": "detailed_description",
+      "passage_text": "Prior published clinical case reports indicate infants and toddlers adjust well to this form of therapy, and parents have favorable responses, no study previously has directly measured stress effects, related to self-report of parents or biological indicators, such as revealed by collecting saliva and hair samples to analyze for cortisol levels and changes over time. The study results are expected to be important to inform the field of infant rehabilitation and provide much-needed evidence about whether infants and toddlers show significant (clinically meaningful) benefits from one or more of the 3 forms of therapy being tested. The findings will include evidence about both behavioral and brain changes. Further, the evidence will answer questions about whether the immediate therapy benefits, if detected, continue to be measurable at 6 and 12 months after therapy has ended. In addition, the study will yield first-ever evidence about whether CIMT is stressful for children and their parents. It may be there are some children or parents who are at higher risk for showing stress effects.",
+      "title": "The Baby CHAMP Study (Children With Hemiparesis Arm and Movement Project)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 270.0810524876344,
+      "cross_score": -4.326259,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00367627::detailed_description::0",
+      "doc_id": "NCT00367627",
+      "section": "detailed_description",
+      "passage_text": "Study design and population: The study population will be the children aged 2-5 years old in the study area. All children aged 2-5 years old in one slums of the study area will be listed and will be invited to participate in the study. Parents will be explained the purpose of the study and will be asked for written consent for participation of their children in the study. If the parents give the consent then a stool pot will be given to them to collect stool samples for microscopic examination for intestinal parasites. The inclusion criteria are; 1) age of the child is 2-5 years old, 2) he/she has not been suffering from serious chronic illness, 3) the child stool test must be positive for STH, 4) he/she had not been taken any antehelminthic drug in the previous six months, 5) parents/guardian are agree for their child participation in the study.",
+      "title": "Relative Efficacy of Two Regimens of Ante-helminthic Treatment",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 266.12840617992083,
+      "cross_score": -4.432025,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 267.0854638693686,
+      "cross_score": -4.9135075,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00005009::eligibility::0",
+      "doc_id": "NCT00005009",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Your child may be eligible for this trial if he/she: - Had a kidney transplant 1 year ago or more; - Is between 2 and 21 years of age (parent or guardian's signed informed consent required if under 18); - Is taking stable, maintenance doses of immunosuppressive drugs for his/her kidney transplant; and - Is generally in good health. Exclusion Criteria: Your child will not be eligible for this trial if he/she: - Has had any rejection episodes in the last 6 months or has other problems with their kidneys; - Was in the hospital for a major infection in the last 30 days; - Has a history of VZV infection, including chicken pox or shingles; - Has ever received a VZV vaccine, including Varivax\u00ae; - Lives with a person whose immune system does not work well; - Is allergic to certain medications; - Is unable to return for the prescribed follow-up check-ups; - Has no phone or pager; or - Has had blood or plasma transfusions or taken certain drugs in the last 6 months.",
+      "title": "Evaluation of the Safety of Varivax\u00ae in Pediatric Renal Transplant Recipients",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 268.2814398660466,
+      "cross_score": -5.0639715,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, your child might not be eligible for the clinical trials mentioned. However, we need more details to confirm.\",\n  \"supported_patient_facts\": [\"The patient is a 2-year-old boy.\", \"He has had a few upper respiratory infections but no major illnesses.\", \"His vaccinations are up to date.\", \"He is on a balanced diet and appears healthy.\", \"His vital signs and milestone examination are within normal limits.\", \"Similar findings are observed on the cheeks and proximal upper extremities.\", \"The diaper area is clear, and no mucosal lesions are present.\"],\n  \"missing_patient_facts\": [\"It is not specified if the patient has had any upper respiratory infections recently.\", \"It is not specified if the patient has had any vaccinations in the past month.\", \"It is not specified if the patient has had any medical conditions that would disqualify him from the studies.\"],\n  \"unresolved_study_requirements\": [\"Not all studies specify the exact age range they are recruiting for.\", \"The specific inclusion and exclusion criteria for each study are not fully aligned with the patient's current condition.\"],\n  \"reasoning_summary\": \"The patient meets some of the inclusion criteria for the studies, but the age range and specific inclusion/exclusion criteria are not fully aligned. More information is needed to determine eligibility.\",\n  \"safety_note\": \"No safety concerns are indicated based on the provided information.\"\n}\n  \nAlso return: \n\"support_passages\": {\n  \"patient_facing_answer\": [1, 2, 3, 4, 5, 6],\n  \"reasoning_summary\": [1, 2, 3, 4, 5, 6]\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.592
+}

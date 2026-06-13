@@ -1,0 +1,131 @@
+{
+  "case_id": "case_trec2021_033",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00006146",
+  "selected_doc": "NCT00922233",
+  "reference_trial": "NCT00922233",
+  "evidence_trials": [
+    "NCT00000862",
+    "NCT00922233",
+    "NCT01775501",
+    "NCT03018288",
+    "NCT03405155"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 42-year-old healthy woman came to the clinic to have her flu shot in early October. She works in a rehab center and has no underlying disease. It's her first time getting the vaccine this year. She is married for 5 years and uses barrier methods of contraception. Her menstrual cycle is irregular. She does not smoke. She is not on any medications. She exercises regularly for 30 minutes a day at least 5 days a week. She has no history of allergies to any food or drugs. Her past surgical history is significant for tonsillectomy and she is otherwise healthy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00922233 | section=eligibility]\nInclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.\n\n[Passage 2 | doc=NCT01775501 | section=eligibility]\nInclusion Criteria: - Histologically confirmed advanced HCC - Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE - No cirrhosis or Child-Pugh A cirrhosis - Measurable lesions - All acute toxic effects of any prior treatment have resolved to NCI-CTCAE v4.0 grade 1 or less - Able to swallow and retain oral medication Exclusion Criteria: - Prior systemic regimens for HCC - Uncontrolled hypertension - CLIP score > 3 - ECOG PS > 1 - Clinically apparent central nervous system metastases or carcinomatous meningitis - Pregnant or breastfeeding - Active or clinically significant cardiac disease - Evidence or history of bleeding diathesis or coagulopathy - Any pulmonary hemorrhage/bleeding event of NCI-CTCAE v4.0 Grade 2 or higher within 4 weeks of enrollment - Presence of a non-healing wound, non-healing ulcer, or bone fracture - History of organ allograft - Any malabsorption condition - Medical or psychiatric condition that constitutes an unacceptable risk for participation in this trial - Have received another investigational agent within 4 weeks of first dose of sorafenib - Previously untreated or concurrent cancer except those treated more than 3 year\n\n[Passage 3 | doc=NCT03405155 | section=eligibility]\nherapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment - Patients must not have a history of (non-infectious) pneumonitis that required steroids or current pneumonitis - Patients must not have received live vaccines within 42 days prior to registration; examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, chicken pox, shingles, yellow fever, rabies, Bacillus Calmette-Guerin (BCG), and typhoid (oral) vaccine; seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g., Flu-Mist) are live attenuated vaccines, and are not allowed - Patients must not have a history or current evidence of any condition, therapy or laboratory abnormality that might confound the trial results, interfere with the patient's participation for the full duration of the trial, or indicate that participation in the trial is not in the patient's best interests, in the opinion of the treating investigator - Patients must not be pregnant or lactating - Prior therapy with\n\n[Passage 4 | doc=NCT03018288 | section=eligibility]\nFor this reason and because checkpoint inhibitors and immunotherapeutic vaccines as well as other therapeutic agents used in this trial are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. - Has received prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti- CD137, or anti- Cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4) antibody (including ipilimumab or any other antibody or drug specifically targeting T-cell co-stimulation or checkpoint pathways). - On treatment for Hepatitis B or Hepatitis C or history of TB. - Patients who have a history of allergic reactions attributed to compounds of similar chemical or biologic composition to Pembrolizumab are not eligible. Known hypersensitivity to any excipients of Pembrolizumab. Post-Surgery (Step 2) Exclusion: - Patients who are receiving any other investigational agents.\n\n[Passage 5 | doc=NCT00922233 | section=eligibility]\n- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.\n\n[Passage 6 | doc=NCT00000862 | section=eligibility]\nInclusion Criteria A woman may be eligible for this study if: - She is HIV-positive. - She is at least 34 weeks pregnant. - She has a history of at least 4 weeks of continuous oral ZDV during her current pregnancy and tolerated it well. - She has given consent for her newborn to participate in this study. (The father must also give consent if he is available after reasonable attempts to contact him. A woman under 18 needs the consent of a parent or legal guardian for her and her infant to participate.) Exclusion Criteria A woman will not be eligible for this study if: - She is taking part in another study of HIV treatment during pregnancy. - Her infant has a life-threatening illness indicated in an ultrasound. - Her infant does not appear to be growing normally in the womb. - She has a cesarean section. - She has abnormal blood test results. - She has severe nausea, vomiting, or other problems of the stomach and intestines at the time of study entry. - She has an active opportunistic (AIDS-related) infection or other serious infection at the time of study entry. - The study staff cannot find a usable vein. - The study doctor feels that she cannot take drugs by mouth.",
+  "passages": [
+    {
+      "passage_id": "NCT00922233::eligibility::0",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 292.6398979732274,
+      "cross_score": -3.862025,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01775501::eligibility::0",
+      "doc_id": "NCT01775501",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Histologically confirmed advanced HCC - Barcelona Clinic Liver Cancer stage C or stage B if you cannot tolerate or failed TACE - No cirrhosis or Child-Pugh A cirrhosis - Measurable lesions - All acute toxic effects of any prior treatment have resolved to NCI-CTCAE v4.0 grade 1 or less - Able to swallow and retain oral medication Exclusion Criteria: - Prior systemic regimens for HCC - Uncontrolled hypertension - CLIP score > 3 - ECOG PS > 1 - Clinically apparent central nervous system metastases or carcinomatous meningitis - Pregnant or breastfeeding - Active or clinically significant cardiac disease - Evidence or history of bleeding diathesis or coagulopathy - Any pulmonary hemorrhage/bleeding event of NCI-CTCAE v4.0 Grade 2 or higher within 4 weeks of enrollment - Presence of a non-healing wound, non-healing ulcer, or bone fracture - History of organ allograft - Any malabsorption condition - Medical or psychiatric condition that constitutes an unacceptable risk for participation in this trial - Have received another investigational agent within 4 weeks of first dose of sorafenib - Previously untreated or concurrent cancer except those treated more than 3 year",
+      "title": "Sorafenib + mFOLFOX for Hepatocellular Carcinoma",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 293.88516035385624,
+      "cross_score": -4.039049,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03405155::eligibility::4",
+      "doc_id": "NCT03405155",
+      "section": "eligibility",
+      "passage_text": "herapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment - Patients must not have a history of (non-infectious) pneumonitis that required steroids or current pneumonitis - Patients must not have received live vaccines within 42 days prior to registration; examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, chicken pox, shingles, yellow fever, rabies, Bacillus Calmette-Guerin (BCG), and typhoid (oral) vaccine; seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g., Flu-Mist) are live attenuated vaccines, and are not allowed - Patients must not have a history or current evidence of any condition, therapy or laboratory abnormality that might confound the trial results, interfere with the patient's participation for the full duration of the trial, or indicate that participation in the trial is not in the patient's best interests, in the opinion of the treating investigator - Patients must not be pregnant or lactating - Prior therapy with",
+      "title": "Nivolumab in Treating Patients With Stage IIB-IIC Melanoma That Can Be Removed by Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 288.0492993910451,
+      "cross_score": -4.151799,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03018288::eligibility::6",
+      "doc_id": "NCT03018288",
+      "section": "eligibility",
+      "passage_text": "For this reason and because checkpoint inhibitors and immunotherapeutic vaccines as well as other therapeutic agents used in this trial are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. - Has received prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti- CD137, or anti- Cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4) antibody (including ipilimumab or any other antibody or drug specifically targeting T-cell co-stimulation or checkpoint pathways). - On treatment for Hepatitis B or Hepatitis C or history of TB. - Patients who have a history of allergic reactions attributed to compounds of similar chemical or biologic composition to Pembrolizumab are not eligible. Known hypersensitivity to any excipients of Pembrolizumab. Post-Surgery (Step 2) Exclusion: - Patients who are receiving any other investigational agents.",
+      "title": "Radiation Therapy Plus Temozolomide and Pembrolizumab With and Without HSPPC-96 in Newly Diagnosed Glioblastoma (GBM)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 287.751948596103,
+      "cross_score": -4.5082564,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00922233::eligibility::2",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 292.6398979732274,
+      "cross_score": -4.668502,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00000862::eligibility::0",
+      "doc_id": "NCT00000862",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria A woman may be eligible for this study if: - She is HIV-positive. - She is at least 34 weeks pregnant. - She has a history of at least 4 weeks of continuous oral ZDV during her current pregnancy and tolerated it well. - She has given consent for her newborn to participate in this study. (The father must also give consent if he is available after reasonable attempts to contact him. A woman under 18 needs the consent of a parent or legal guardian for her and her infant to participate.) Exclusion Criteria A woman will not be eligible for this study if: - She is taking part in another study of HIV treatment during pregnancy. - Her infant has a life-threatening illness indicated in an ultrasound. - Her infant does not appear to be growing normally in the womb. - She has a cesarean section. - She has abnormal blood test results. - She has severe nausea, vomiting, or other problems of the stomach and intestines at the time of study entry. - She has an active opportunistic (AIDS-related) infection or other serious infection at the time of study entry. - The study staff cannot find a usable vein. - The study doctor feels that she cannot take drugs by mouth.",
+      "title": "A Study of Zidovudine During Labor and Delivery in HIV-Infected Pregnant Women",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 291.6546235507825,
+      "cross_score": -5.1119204,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to fit the general profile for the clinical trial, but we need to check a few details before we can confirm your eligibility.\",\n  \"supported_patient_facts\": [\n    \"She is a 42-year-old healthy woman.\",\n    \"She has no underlying disease.\"\n  ],\n  \"missing_patient_facts\": [\n    \"We don't know if she meets the requirement of having sex 1 to 4 days in the past month and expecting to continue at that frequency for the next 6.5 months.\",\n    \"We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.\",\n    \"We don't know if she wants to avoid pregnancy for at least the next 6.5 months.\",\n    \"We don't know if she is willing to accept an uncertain risk of pregnancy during the study.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We don't know if she meets the requirement of being at low risk for sexually transmitted infection (STI).\",\n    \"We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.\",\n    \"We don't know if she wants to avoid pregnancy for at least the next 6.5 months.\"\n  ],\n  \"reasoning_summary\": \"The patient appears to be healthy and has no underlying diseases, which aligns with the inclusion criteria. However, several key points remain unclear, including her sexual activity pattern, contraceptive preferences, and desire to avoid pregnancy. These are crucial for determining her eligibility.\",\n  \"safety_note\": \"Please note that the safety of the trial depends on all participants adhering to the study protocol, especially regarding contraception and avoiding pregnancy. Your cooperation is essential for the study's success.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to fit the general profile for the clinical trial, but we need to check a few details before we can confirm your eligibility.",
+    "supported_patient_facts": [
+      "She is a 42-year-old healthy woman.",
+      "She has no underlying disease."
+    ],
+    "missing_patient_facts": [
+      "We don't know if she meets the requirement of having sex 1 to 4 days in the past month and expecting to continue at that frequency for the next 6.5 months.",
+      "We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.",
+      "We don't know if she wants to avoid pregnancy for at least the next 6.5 months.",
+      "We don't know if she is willing to accept an uncertain risk of pregnancy during the study."
+    ],
+    "unresolved_study_requirements": [
+      "We don't know if she meets the requirement of being at low risk for sexually transmitted infection (STI).",
+      "We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.",
+      "We don't know if she wants to avoid pregnancy for at least the next 6.5 months."
+    ],
+    "reasoning_summary": "The patient appears to be healthy and has no underlying diseases, which aligns with the inclusion criteria. However, several key points remain unclear, including her sexual activity pattern, contraceptive preferences, and desire to avoid pregnancy. These are crucial for determining her eligibility.",
+    "safety_note": "Please note that the safety of the trial depends on all participants adhering to the study protocol, especially regarding contraception and avoiding pregnancy. Your cooperation is essential for the study's success."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to fit the general profile for the clinical trial, but we need to check a few details before we can confirm your eligibility.",
+  "missing_patient_facts": [
+    "We don't know if she meets the requirement of having sex 1 to 4 days in the past month and expecting to continue at that frequency for the next 6.5 months.",
+    "We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.",
+    "We don't know if she wants to avoid pregnancy for at least the next 6.5 months.",
+    "We don't know if she is willing to accept an uncertain risk of pregnancy during the study."
+  ],
+  "unresolved_study_requirements": [
+    "We don't know if she meets the requirement of being at low risk for sexually transmitted infection (STI).",
+    "We don't know if she is willing to use the study regimen as her only contraceptive method for the next 6.5 months.",
+    "We don't know if she wants to avoid pregnancy for at least the next 6.5 months."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.599
+}

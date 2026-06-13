@@ -1,0 +1,89 @@
+{
+  "case_id": "case_trec2022_034",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00119704",
+  "reference_trial": "NCT00119704",
+  "evidence_trials": [
+    "NCT00119704"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 17-year-old male comes to the office due to several months of right elbow pain. The pain is worse with activity and limits his workouts and activities. He has tried over-the-counter medications with limited relief. Medical history is notable for eczema, and current medications include a topical hydrocortisone ointment. He is sexually active with his girlfriend and uses condoms. He does not smoke or drink alcohol. He plays tennis most of the days of the week. The comprehensive evaluation shows pain on the lateral side of the elbow, made worse by pressure applied on the lateral epicondyle of the humerus and when making a fist with the elbow joint straightened. The patient has this pain since last year and had several courses of physical therapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00119704 | section=detailed_description]\nTennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.\n\n[Passage 2 | doc=NCT00119704 | section=eligibility]\nInclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis",
+  "passages": [
+    {
+      "passage_id": "NCT00119704::detailed_description::0",
+      "doc_id": "NCT00119704",
+      "section": "detailed_description",
+      "passage_text": "Tennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 380.48619891577073,
+      "cross_score": -1.9238058,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00119704::eligibility::0",
+      "doc_id": "NCT00119704",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 380.48619891577073,
+      "cross_score": -4.332234,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, the patient seems to fit the description of having chronic elbow pain consistent with tennis elbow. However, we need more details to confirm if he meets all the eligibility criteria.\",\n  \"supported_patient_facts\": [\"17-year-old male\", \"right elbow pain\", \"pain worsens with activity\", \"pain since last year\", \"pain on the lateral side of the elbow\", \"pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension\", \"pain for longer than 3 months\", \"plays tennis most of the days of the week\"],\n  \"missing_patient_facts\": [\"age\", \"current medications\", \"medical history\", \"eczema treatment\", \"sexual activity status\", \"smoking and drinking habits\", \"previous operations or steroid injections\"],\n  \"unresolved_study_requirements\": [\"age requirement (must be 18 years and up)\", \"no previous operations or steroid injections\"],\n  \"reasoning_summary\": \"The patient's age and symptoms align with the condition described, but we need to verify if he meets the minimum age requirement and if he has any contraindications like previous operations or steroid injections.\",\n  \"safety_note\": \"Please ensure the patient understands the potential risks and benefits of participating in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, the patient seems to fit the description of having chronic elbow pain consistent with tennis elbow. However, we need more details to confirm if he meets all the eligibility criteria.",
+    "supported_patient_facts": [
+      "17-year-old male",
+      "right elbow pain",
+      "pain worsens with activity",
+      "pain since last year",
+      "pain on the lateral side of the elbow",
+      "pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension",
+      "pain for longer than 3 months",
+      "plays tennis most of the days of the week"
+    ],
+    "missing_patient_facts": [
+      "age",
+      "current medications",
+      "medical history",
+      "eczema treatment",
+      "sexual activity status",
+      "smoking and drinking habits",
+      "previous operations or steroid injections"
+    ],
+    "unresolved_study_requirements": [
+      "age requirement (must be 18 years and up)",
+      "no previous operations or steroid injections"
+    ],
+    "reasoning_summary": "The patient's age and symptoms align with the condition described, but we need to verify if he meets the minimum age requirement and if he has any contraindications like previous operations or steroid injections.",
+    "safety_note": "Please ensure the patient understands the potential risks and benefits of participating in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, the patient seems to fit the description of having chronic elbow pain consistent with tennis elbow. However, we need more details to confirm if he meets all the eligibility criteria.",
+  "missing_patient_facts": [
+    "age",
+    "current medications",
+    "medical history",
+    "eczema treatment",
+    "sexual activity status",
+    "smoking and drinking habits",
+    "previous operations or steroid injections"
+  ],
+  "unresolved_study_requirements": [
+    "age requirement (must be 18 years and up)",
+    "no previous operations or steroid injections"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.476
+}

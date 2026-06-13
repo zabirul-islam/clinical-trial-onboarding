@@ -1,0 +1,102 @@
+{
+  "case_id": "case_trec2022_007",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04059185",
+  "reference_trial": "NCT04059185",
+  "evidence_trials": [
+    "NCT00001639",
+    "NCT01160536",
+    "NCT02375620",
+    "NCT04059185",
+    "NCT04761419"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 3-year-old girl is brought to the clinic by her parents for assessment of her short stature. Physical examination reveals short limbs and a relatively large head. She has a flat nasal bridge and a small midface. The girl's father exhibits similar physical features; however, her mother looks normal. The genetic testing reveals an autosomal dominant point mutation in the fibroblast growth factor receptor 3 (FGFR3) gene consistent with achondroplasia in both father and the child. The girl has not received any treatment yet, and it is her first visit after immigration to the US. The other mental and developmental examinations are unremarkable. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04059185 | section=detailed_description]\nHowever, it has yet to be tested within a large randomized-controlled trial (RCT). The rationale for this study is to be able to inform policy for parent service or clinic centers serving high-volumes of parents that are interested in adopting relatively low-resource intensive interventions in order to reduce risk of child physical abuse and improve child health and development trajectories. This is a community-based RCT. Parents (n=1200) with children 2 to 7 years of age will be recruited from local Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) clinics and by open recruitment. Once consented, they will be enrolled, a baseline interview will be conducted, and they will be randomly assigned to one of 3 conditions: (1) Triple P-Level 2 only (L2) intervention, (2) Play Nicely intervention, or (3) a \"usual care\" control group. Three months later, a follow-up interview will be conducted in order to test for intervention effects. In addition, a long term follow-up will be conducted to test sustained effects of the intervention. Participants' children (n=1200) will be enrolled for the long term follow-up.\n\n[Passage 2 | doc=NCT04761419 | section=detailed_description]\nThe main risk factors of mothers' postpartum depression are prenatal depression and anxiety, previous depression or other mental problems, lower income and occupational status, multiparity, presence of other children, poor marital relationship or without partner, lack of social support, stressful life events, negative image toward pregnancy, and experiences of early mother-infant separation. In addition, the risk factors vary depending on when to evaluate postpartum depression. The depression scores in mothers and fathers of preterm infants is at its highest just after delivery and will reduce over time, which shows different change compared with term birth. This is why investigators have to adjust these confounding factors when investigators evaluate the EPDS and MIBS-J of the parents. Long-term developmental assessment after discharge (birth weight <1500g) The development of the infants whose birth weight <1500g are assessed by Kyoto Scale of Psychological Development (KSPD) at 6 and 18 months of corrected age, and 3 years old at the outpatient clinic of Nagano Children's Hospital.\n\n[Passage 3 | doc=NCT01160536 | section=eligibility]\n- INCLUSION CRITERIA: For Parents: A parent is eligible to participate in this study if he/she is: - Biologically related to his/her 13 to 23 year-old child who meets eligibility criteria, - Self-identified as one of the primary care-takers, - Aware of the HCM risk status of his/her child(ren) for at least 3 months. - Cognitive, and - English-speaking. For Children: A child is eligible to participate in this study if he/she is - Biologically related to his/her eligible parent, - Between ages 13-23 years old, - Tested as a minor, and - Aware of his/her HCM risk status or not at-risk status for at least 3 months, - Cognitive, and - English-speaking. EXCLUSION CRITERIA: Exclusion criteria: A parent is not eligible to participate in this study if he/she - Is not biologically related to his/her 13 to 23 year-old child, - Does not self-identify as one of the primary care-takers, - Is not aware of the HCM risk status of his/her child(ren) for at least 3 months, - Is cognitive impaired, or - Does not speak English.\n\n[Passage 4 | doc=NCT02375620 | section=summary]\nThe study was evaluated as the optimal dose for the treatment of SGA short stature children by Pegylated Somatropin, initially evaluated its efficiency and safety for the treatment of SGA short stature children and provided scientific, reliable basis for phase III clinical trials for dose selection.\n\n[Passage 5 | doc=NCT01160536 | section=eligibility]\nExclusion criteria: A child is not eligible to participate I this study if he/she is - Not biologically related to his/her eligible parent, - Not between ages 13-to 23 years old, - Not tested as a minor, - Not aware of his/her HCM risk status or not at-risk status for at least 3 months, - Is cognitive impaired, or - Does not speak English. Note that children who have HCM will not be excluded from the study.\n\n[Passage 6 | doc=NCT00001639 | section=eligibility]\nPhysical anomalies or developmental anomalies. Karyotype showing derivative chromosome abnormality that is not fully characterized. No abnormal parental karyotype. No prenatal specimens. Probands of all ages, genders, and ethnic origin are eligible. The proband must have a non-mosaic abnormal G-banded chromosome analysis of good quality that shows one or more derivative chromosomes whose foreign component cannot be determined by standard G-banding techniques. The parents should also have G-banded chromosome analysis prior to eligibility for consent 2. If this has not been done by the referring physician, it may be done as part of the protocol. The proband with the abnormal karyotype should have one or more of the following features: dysmorphic features; developmental delay or mental retardation; growth retardation, microephaly, short stature or failure to thrive; behavioral disorder Biological parents must be willing to supply a blood specimen. If they have any of the features listed above, they must attend the clinic if the proband is to be eligible. The proband must be evaluated by the NCHGR clinical genetics service by the PI, a co-investigator, or his associates.",
+  "passages": [
+    {
+      "passage_id": "NCT04059185::detailed_description::1",
+      "doc_id": "NCT04059185",
+      "section": "detailed_description",
+      "passage_text": "However, it has yet to be tested within a large randomized-controlled trial (RCT). The rationale for this study is to be able to inform policy for parent service or clinic centers serving high-volumes of parents that are interested in adopting relatively low-resource intensive interventions in order to reduce risk of child physical abuse and improve child health and development trajectories. This is a community-based RCT. Parents (n=1200) with children 2 to 7 years of age will be recruited from local Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) clinics and by open recruitment. Once consented, they will be enrolled, a baseline interview will be conducted, and they will be randomly assigned to one of 3 conditions: (1) Triple P-Level 2 only (L2) intervention, (2) Play Nicely intervention, or (3) a \"usual care\" control group. Three months later, a follow-up interview will be conducted in order to test for intervention effects. In addition, a long term follow-up will be conducted to test sustained effects of the intervention. Participants' children (n=1200) will be enrolled for the long term follow-up.",
+      "title": "Longitudinal Follow-up of Brief Parenting Interventions to Reduce Risk of Child Physical Maltreatment",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 272.5247450613471,
+      "cross_score": -2.576383,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04761419::detailed_description::7",
+      "doc_id": "NCT04761419",
+      "section": "detailed_description",
+      "passage_text": "The main risk factors of mothers' postpartum depression are prenatal depression and anxiety, previous depression or other mental problems, lower income and occupational status, multiparity, presence of other children, poor marital relationship or without partner, lack of social support, stressful life events, negative image toward pregnancy, and experiences of early mother-infant separation. In addition, the risk factors vary depending on when to evaluate postpartum depression. The depression scores in mothers and fathers of preterm infants is at its highest just after delivery and will reduce over time, which shows different change compared with term birth. This is why investigators have to adjust these confounding factors when investigators evaluate the EPDS and MIBS-J of the parents. Long-term developmental assessment after discharge (birth weight <1500g) The development of the infants whose birth weight <1500g are assessed by Kyoto Scale of Psychological Development (KSPD) at 6 and 18 months of corrected age, and 3 years old at the outpatient clinic of Nagano Children's Hospital.",
+      "title": "Family Centered Care Cohort Study 1 in Nagano Children's Hospital",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 277.5334276734586,
+      "cross_score": -3.5763166,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01160536::eligibility::0",
+      "doc_id": "NCT01160536",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA: For Parents: A parent is eligible to participate in this study if he/she is: - Biologically related to his/her 13 to 23 year-old child who meets eligibility criteria, - Self-identified as one of the primary care-takers, - Aware of the HCM risk status of his/her child(ren) for at least 3 months. - Cognitive, and - English-speaking. For Children: A child is eligible to participate in this study if he/she is - Biologically related to his/her eligible parent, - Between ages 13-23 years old, - Tested as a minor, and - Aware of his/her HCM risk status or not at-risk status for at least 3 months, - Cognitive, and - English-speaking. EXCLUSION CRITERIA: Exclusion criteria: A parent is not eligible to participate in this study if he/she - Is not biologically related to his/her 13 to 23 year-old child, - Does not self-identify as one of the primary care-takers, - Is not aware of the HCM risk status of his/her child(ren) for at least 3 months, - Is cognitive impaired, or - Does not speak English.",
+      "title": "The Perceived Impact of Children s Risk Status for Hypertrophic Cardiomyopathy on Families: an Exploratory Study",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 274.95014811813576,
+      "cross_score": -3.6248937,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02375620::summary::0",
+      "doc_id": "NCT02375620",
+      "section": "summary",
+      "passage_text": "The study was evaluated as the optimal dose for the treatment of SGA short stature children by Pegylated Somatropin, initially evaluated its efficiency and safety for the treatment of SGA short stature children and provided scientific, reliable basis for phase III clinical trials for dose selection.",
+      "title": "Clinical Study of Pegylated Somatropin (PEG Somatropin) to Treat SGA Children With Short Stature",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 278.164955378408,
+      "cross_score": -3.7460666,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01160536::eligibility::1",
+      "doc_id": "NCT01160536",
+      "section": "eligibility",
+      "passage_text": "Exclusion criteria: A child is not eligible to participate I this study if he/she is - Not biologically related to his/her eligible parent, - Not between ages 13-to 23 years old, - Not tested as a minor, - Not aware of his/her HCM risk status or not at-risk status for at least 3 months, - Is cognitive impaired, or - Does not speak English. Note that children who have HCM will not be excluded from the study.",
+      "title": "The Perceived Impact of Children s Risk Status for Hypertrophic Cardiomyopathy on Families: an Exploratory Study",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 274.95014811813576,
+      "cross_score": -3.8395743,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00001639::eligibility::0",
+      "doc_id": "NCT00001639",
+      "section": "eligibility",
+      "passage_text": "Physical anomalies or developmental anomalies. Karyotype showing derivative chromosome abnormality that is not fully characterized. No abnormal parental karyotype. No prenatal specimens. Probands of all ages, genders, and ethnic origin are eligible. The proband must have a non-mosaic abnormal G-banded chromosome analysis of good quality that shows one or more derivative chromosomes whose foreign component cannot be determined by standard G-banding techniques. The parents should also have G-banded chromosome analysis prior to eligibility for consent 2. If this has not been done by the referring physician, it may be done as part of the protocol. The proband with the abnormal karyotype should have one or more of the following features: dysmorphic features; developmental delay or mental retardation; growth retardation, microephaly, short stature or failure to thrive; behavioral disorder Biological parents must be willing to supply a blood specimen. If they have any of the features listed above, they must attend the clinic if the proband is to be eligible. The proband must be evaluated by the NCHGR clinical genetics service by the PI, a co-investigator, or his associates.",
+      "title": "Evaluation of Patients With Unresolved Chromosome Abnormalities",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 275.4368092166057,
+      "cross_score": -4.1325097,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, your daughter does not seem to meet the eligibility criteria for the clinical trials mentioned. However, further review is needed.\",\n  \"supported_patient_facts\": [\"She has a genetic mutation consistent with achondroplasia.\", \"She is 3 years old.\", \"Her father also has similar physical features.\", \"She has not received any treatment yet.\"],\n  \"missing_patient_facts\": [\"She has not completed the required genetic testing.\", \"She has not undergone a physical examination to assess her current health status.\", \"She has not been evaluated for cognitive function.\"],\n  \"unresolved_study_requirements\": [\"The clinical trials do not specify the specific genetic condition they are targeting.\", \"The clinical trials require participants to be between 2 to 7 years of age.\", \"The clinical trials require participants to be biologically related to their parents.\"],\n  \"reasoning_summary\": \"The patient's daughter has achondroplasia, a genetic condition that matches the study's focus. However, she is 3 years old, which is outside the age range specified in the trials. Additionally, the patient's daughter has not been evaluated for cognitive function, which is a requirement for participation.\",\n  \"safety_note\": \"The patient's daughter's age and the need for additional evaluations make it uncertain whether she would be eligible for the clinical trials.\"\n}\n  \nAlso return: \n\"support_passages\": {\n  \"patient_facing_answer\": [1, 3, 5],\n  \"reasoning_summary\": [1, 3, 5]\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.546
+}

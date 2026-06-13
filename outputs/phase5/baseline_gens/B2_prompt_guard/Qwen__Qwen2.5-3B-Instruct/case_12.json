@@ -1,0 +1,132 @@
+{
+  "case_id": "case_12",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "reference_trial": "NCT04471363",
+  "evidence_trials": [
+    "NCT02118987",
+    "NCT02522455",
+    "NCT03362970",
+    "NCT04471363",
+    "NCT04713215"
+  ],
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age\n\n[Passage 2 | doc=NCT03362970 | section=detailed_description]\nPotentially eligible subjects will be identified by our Pediatric Emergency Medicine Research Associate Program (PEMRAP) and the Pediatric Emergency Research Team (PERT) nurses (ED coverage 14 hours per day). Eligible children will have \u22653 episodes of diarrhea within the preceding 24 hours and will have had blood identified in the stool (by physician, nurse or parent ). Eligible subjects will be approached by a PERT team member to obtain consent (and assent when appropriate). Once consent has been obtained, study participants will be randomized by a REDCap randomization tool to ensure allocation concealment (i.e. research team, ED physicians will be unaware until after enrolled into the study and randomized). Children randomized to the standard of care arm will have demographic and clinical information collected and the treating physician will be informed to proceed as per their usual practice and treatment patterns. If stool is unavailable a rectal swab will be collected and sent to Calgary Laboratory Services (CLS) for routine culture. A routine stool specimen for back-up culture will still be requested as per standard of care.\n\n[Passage 3 | doc=NCT04713215 | section=eligibility]\nIf a patient lacks capacity to give informed consent for inclusion in the study, they will not be approached for participation. Informal carers of these patients who meet the informal carer inclusion criteria will still be eligible to be approached.\n\n[Passage 4 | doc=NCT04713215 | section=detailed_description]\nInformal carers are commonly identified by clinical teams as part of routine admission questions when a patient is admitted to hospital, as formal (paid) care arrangements need to be distinguished from informal arrangements for the purpose of discharge assessment and onward care at home. Identification of who assists with the patient's medications is also identified as part of routine care by pharmacy staff. The investigators will encourage members of the direct clinical care team to ask informal carers the screening questions during routine care discussions and whether they would be interested in taking part. If yes, the clinical team member will pass on their contact details. If a patient lacks capacity to give informed consent for inclusion in the study, they will not be approached for participation. Informal carers of these patients who meet the informal carer inclusion criteria will still be eligible to be approached and will be contacted by the clinical team looking after the patient in the first instance to check eligibility and inquire regarding whether they are interested in taking part.\n\n[Passage 5 | doc=NCT02522455 | section=detailed_description]\nAt an appropriate time for the parents, they will be approached by the Principal or Chief Investigator and any questions answered about the study. The research team will have to be happy that the parents have understood the information, implications, alternatives and are free to make a choice (as well as being eligible to consent legally). If the infant is suitable, a consent form will be completed. Randomisation will then occur by taking a sealed study envelope from the study box to find out which order they will undertake the different parts of the trial, and will be allocated a study number, which will be used on all documentation pertaining to the study, to ensure anonymity. (The study box would already have been pre-made with sealed envelopes containing information that has been generated from a random number database. The process of randomisation prevents there from being any influence on the final results purely due to the order in which the study parts are undertaken, making the study more robust to analyse. This has been a previous concern with other studies in the literature).\n\n[Passage 6 | doc=NCT02118987 | section=detailed_description]\nAfter the screening procedures confirm that eligibility: - The participant will receive a dose of 300mg of omalizumab under the skin every four weeks at three separate visits representing a treatment period of 12 weeks. - During the entire course of the study, the participant will continue receiving their chemotherapy per their oncologist's prescribed schedule via desensitization supervised by an Allergy specialist from the BWH/DFCI Desensitization Team. The participant cannot receive omalizumab on the same day as their desensitization however. - A careful review of the participant's symptoms will be done with each desensitization while on the study by filling out a questionnaire detailing what reactions, if any, the participant experienced with each desensitization during the study period. Additionally, the Allergy specialist will be documenting what complications, if any, were experienced in the participant's medical record, and this note will also be collected as part of their monitoring during the study period. - The participant may have had skin testing to the agent they are being desensitized to in the course of the study.",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 38.63945902649888,
+      "cross_score": 3.1622124,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03362970::detailed_description::1",
+      "doc_id": "NCT03362970",
+      "section": "detailed_description",
+      "passage_text": "Potentially eligible subjects will be identified by our Pediatric Emergency Medicine Research Associate Program (PEMRAP) and the Pediatric Emergency Research Team (PERT) nurses (ED coverage 14 hours per day). Eligible children will have \u22653 episodes of diarrhea within the preceding 24 hours and will have had blood identified in the stool (by physician, nurse or parent ). Eligible subjects will be approached by a PERT team member to obtain consent (and assent when appropriate). Once consent has been obtained, study participants will be randomized by a REDCap randomization tool to ensure allocation concealment (i.e. research team, ED physicians will be unaware until after enrolled into the study and randomized). Children randomized to the standard of care arm will have demographic and clinical information collected and the treating physician will be informed to proceed as per their usual practice and treatment patterns. If stool is unavailable a rectal swab will be collected and sent to Calgary Laboratory Services (CLS) for routine culture. A routine stool specimen for back-up culture will still be requested as per standard of care.",
+      "title": "Improvements Through the Use of a Rapid Multiplex PCR Enteric Pathogen Detection Kit in Children With Hematochezia",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 37.43292426362736,
+      "cross_score": -1.3098629,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04713215::eligibility::1",
+      "doc_id": "NCT04713215",
+      "section": "eligibility",
+      "passage_text": "If a patient lacks capacity to give informed consent for inclusion in the study, they will not be approached for participation. Informal carers of these patients who meet the informal carer inclusion criteria will still be eligible to be approached.",
+      "title": "Thinking Outside the Box",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 36.97567702165648,
+      "cross_score": -1.8878945,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04713215::detailed_description::3",
+      "doc_id": "NCT04713215",
+      "section": "detailed_description",
+      "passage_text": "Informal carers are commonly identified by clinical teams as part of routine admission questions when a patient is admitted to hospital, as formal (paid) care arrangements need to be distinguished from informal arrangements for the purpose of discharge assessment and onward care at home. Identification of who assists with the patient's medications is also identified as part of routine care by pharmacy staff. The investigators will encourage members of the direct clinical care team to ask informal carers the screening questions during routine care discussions and whether they would be interested in taking part. If yes, the clinical team member will pass on their contact details. If a patient lacks capacity to give informed consent for inclusion in the study, they will not be approached for participation. Informal carers of these patients who meet the informal carer inclusion criteria will still be eligible to be approached and will be contacted by the clinical team looking after the patient in the first instance to check eligibility and inquire regarding whether they are interested in taking part.",
+      "title": "Thinking Outside the Box",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 36.97567702165648,
+      "cross_score": -2.1067305,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02522455::detailed_description::4",
+      "doc_id": "NCT02522455",
+      "section": "detailed_description",
+      "passage_text": "At an appropriate time for the parents, they will be approached by the Principal or Chief Investigator and any questions answered about the study. The research team will have to be happy that the parents have understood the information, implications, alternatives and are free to make a choice (as well as being eligible to consent legally). If the infant is suitable, a consent form will be completed. Randomisation will then occur by taking a sealed study envelope from the study box to find out which order they will undertake the different parts of the trial, and will be allocated a study number, which will be used on all documentation pertaining to the study, to ensure anonymity. (The study box would already have been pre-made with sealed envelopes containing information that has been generated from a random number database. The process of randomisation prevents there from being any influence on the final results purely due to the order in which the study parts are undertaken, making the study more robust to analyse. This has been a previous concern with other studies in the literature).",
+      "title": "Flow-cycled Ventilation in Preterm Infants",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 35.29641970576412,
+      "cross_score": -2.3025484,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02118987::detailed_description::0",
+      "doc_id": "NCT02118987",
+      "section": "detailed_description",
+      "passage_text": "After the screening procedures confirm that eligibility: - The participant will receive a dose of 300mg of omalizumab under the skin every four weeks at three separate visits representing a treatment period of 12 weeks. - During the entire course of the study, the participant will continue receiving their chemotherapy per their oncologist's prescribed schedule via desensitization supervised by an Allergy specialist from the BWH/DFCI Desensitization Team. The participant cannot receive omalizumab on the same day as their desensitization however. - A careful review of the participant's symptoms will be done with each desensitization while on the study by filling out a questionnaire detailing what reactions, if any, the participant experienced with each desensitization during the study period. Additionally, the Allergy specialist will be documenting what complications, if any, were experienced in the participant's medical record, and this note will also be collected as part of their monitoring during the study period. - The participant may have had skin testing to the agent they are being desensitized to in the course of the study.",
+      "title": "Study of Omalizumab as Adjuvant Therapy in Chemotherapy Desensitization",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 35.46433357500191,
+      "cross_score": -2.4776623,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Before the study team can say you are eligible, they still need to confirm a few things. They need to know if you are a cancer survivor or the romantic partner of a cancer survivor, and if you have access to a computer or tablet with internet. They also need to check if you have an email address and if you are at least 18 years old and less than 90 years old.\",\n  \"supported_patient_facts\": [\"I am a cancer survivor\", \"I am the romantic partner of a cancer survivor\", \"I have access to a computer or tablet with internet\", \"I have an email address\", \"I am at least 18 years of age and less than 90 years of age\"],\n  \"missing_patient_facts\": [\"I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months\", \"I am in a committed, romantic relationship\", \"I have access to a computer or tablet with internet\", \"I have an email address\"],\n  \"unresolved_study_requirements\": [\"I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months\", \"I am in a committed, romantic relationship\"],\n  \"reasoning_summary\": \"The patient meets the basic eligibility criteria such as being a cancer survivor or a romantic partner of a cancer survivor, having access to technology, and being within the age range. However, the study team still needs to verify if the patient is not undergoing chemotherapy, radiation, or surgery in the next 6 months, and if they are in a committed relationship.\",\n  \"safety_note\": \"The safety of the patient is always a top priority. The study team will continue to assess and confirm all eligibility criteria to ensure the patient is safe to participate.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Before the study team can say you are eligible, they still need to confirm a few things. They need to know if you are a cancer survivor or the romantic partner of a cancer survivor, and if you have access to a computer or tablet with internet. They also need to check if you have an email address and if you are at least 18 years old and less than 90 years old.",
+    "supported_patient_facts": [
+      "I am a cancer survivor",
+      "I am the romantic partner of a cancer survivor",
+      "I have access to a computer or tablet with internet",
+      "I have an email address",
+      "I am at least 18 years of age and less than 90 years of age"
+    ],
+    "missing_patient_facts": [
+      "I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months",
+      "I am in a committed, romantic relationship",
+      "I have access to a computer or tablet with internet",
+      "I have an email address"
+    ],
+    "unresolved_study_requirements": [
+      "I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months",
+      "I am in a committed, romantic relationship"
+    ],
+    "reasoning_summary": "The patient meets the basic eligibility criteria such as being a cancer survivor or a romantic partner of a cancer survivor, having access to technology, and being within the age range. However, the study team still needs to verify if the patient is not undergoing chemotherapy, radiation, or surgery in the next 6 months, and if they are in a committed relationship.",
+    "safety_note": "The safety of the patient is always a top priority. The study team will continue to assess and confirm all eligibility criteria to ensure the patient is safe to participate."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Before the study team can say you are eligible, they still need to confirm a few things. They need to know if you are a cancer survivor or the romantic partner of a cancer survivor, and if you have access to a computer or tablet with internet. They also need to check if you have an email address and if you are at least 18 years old and less than 90 years old.",
+  "missing_patient_facts": [
+    "I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months",
+    "I am in a committed, romantic relationship",
+    "I have access to a computer or tablet with internet",
+    "I have an email address"
+  ],
+  "unresolved_study_requirements": [
+    "I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo these in the next 6 months",
+    "I am in a committed, romantic relationship"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.272
+}

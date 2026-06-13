@@ -1,0 +1,102 @@
+{
+  "case_id": "case_01",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00543023",
+  "reference_trial": "NCT00543023",
+  "evidence_trials": [
+    "NCT00388908",
+    "NCT00543023",
+    "NCT00696644",
+    "NCT01120197",
+    "NCT02489825"
+  ],
+  "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "evidence": "[Passage 1 | doc=NCT00543023 | section=eligibility]\nInclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).\n\n[Passage 2 | doc=NCT00696644 | section=eligibility]\nInclusion Criteria: - Postmenopausal women and men older than 21 years affected by severe osteoporosis with an incidental vertebral or hip fracture during treatment with an antiresorptive, or having 3 or more severe vertebral fractures or having 2 severe vertebral fractures and an historical hip fracture. Exclusion Criteria: - Any contraindication for the use of antiosteoporotic drug - Premenopausal women or men younger than 21 years\n\n[Passage 3 | doc=NCT02489825 | section=eligibility]\nInclusion Criteria: - Age \u2265 55 years - Written informed consent - Single level acute (< 6 weeks) vertebral compression fracture - Fracture due to diagnosed or presumed underlying primary or secondary osteoporosis - Patients with Association for the study of Osteosynthesis (AO) type A1.x fractures and A3.1 fractures may be included in the study - Target Vertebral Compression Fracture (VCF) is between T10 and L4 - Target VCF to be treated shows either: height change - an acute (< 6 weeks) change in VB height (>15% height loss) with height loss at the anterior or middle portion of the VB consistent with a worsening of 1 or more grades acc to Genant - OR positive MRI or bone scan - VB shows hyperintense signal on MRI-T2 or STIR sequence - OR target VB is positive on radionuclide bone scan - Back pain correlating with the location of the VCF - Treatment of target and adjacent VCFs is technically feasible by and clinically appropriate for vertebroplasty - No previous VCFs - No major surgery of the spine planned for at least 6 months following enrollment - Pre-treatment back pain by numerical rating scale (NRS) score > 4 (0-10 scale) - Subject is able to understand the risks and benefits\n\n[Passage 4 | doc=NCT00388908 | section=eligibility]\nInclusion Criteria: - age 60 years or greater - chest radiograph that reports the presence of a vertebral fracture - discharged home. Exclusion Criteria: - unable to provide simple informed consent or unwilling to participate in the study - unable to read, understand, and converse in English - admitted to hospital - currently enrolled in the pilot study or other osteoporosis-related studies - currently taking any prescription osteoporosis treatment\n\n[Passage 5 | doc=NCT01120197 | section=eligibility]\nInclusion Criteria: - women - living at home - ambulatory - aged 60 or more - clinical diagnosis of osteoporosis - a history of vertebral fracture Exclusion Criteria: - recent vertebral fractures - unable to complete the questionnaires - major cognitive impairment (MMSE) ( MMS < 23 )\n\n[Passage 6 | doc=NCT01120197 | section=detailed_description]\nThus, the purpose of this study is to record the effect of the programme on mobility, balance, the disease-specific and generic health-related quality of life for women with osteoporosis and a history of vertebral fractures. The programme consist of a three-hour educational session and a three-month course of exercises in accordance with guidelines for women with an increased risk of falls and postmenopausal osteoporotic women with a history of fractures. Our hypothesis that a three-month course of exercises and a three-hour lesson on how to cope with osteoporosis will have a significantly positive effect on the generic and disease-specific quality of life, as well as the balance and mobility, of elderly (\u226560 years) women with postmenopausal osteoporosis and a history of vertebral fractures, both 3 months after the intervention and after one year. The sample would be recruited from the Osteoporosis Outpatient clinic at the Ostfold Hospital, Norway and they their body mineral density (BMD) has been measured using Dual-Energy X-Ray Absorptiometry (DXA).",
+  "passages": [
+    {
+      "passage_id": "NCT00543023::eligibility::0",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 67.28412508146133,
+      "cross_score": 3.8074598,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00696644::eligibility::0",
+      "doc_id": "NCT00696644",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Postmenopausal women and men older than 21 years affected by severe osteoporosis with an incidental vertebral or hip fracture during treatment with an antiresorptive, or having 3 or more severe vertebral fractures or having 2 severe vertebral fractures and an historical hip fracture. Exclusion Criteria: - Any contraindication for the use of antiosteoporotic drug - Premenopausal women or men younger than 21 years",
+      "title": "A Study for Teriparatide in Severe Osteoporosis",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 68.588812900866,
+      "cross_score": 2.104866,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02489825::eligibility::0",
+      "doc_id": "NCT02489825",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age \u2265 55 years - Written informed consent - Single level acute (< 6 weeks) vertebral compression fracture - Fracture due to diagnosed or presumed underlying primary or secondary osteoporosis - Patients with Association for the study of Osteosynthesis (AO) type A1.x fractures and A3.1 fractures may be included in the study - Target Vertebral Compression Fracture (VCF) is between T10 and L4 - Target VCF to be treated shows either: height change - an acute (< 6 weeks) change in VB height (>15% height loss) with height loss at the anterior or middle portion of the VB consistent with a worsening of 1 or more grades acc to Genant - OR positive MRI or bone scan - VB shows hyperintense signal on MRI-T2 or STIR sequence - OR target VB is positive on radionuclide bone scan - Back pain correlating with the location of the VCF - Treatment of target and adjacent VCFs is technically feasible by and clinically appropriate for vertebroplasty - No previous VCFs - No major surgery of the spine planned for at least 6 months following enrollment - Pre-treatment back pain by numerical rating scale (NRS) score > 4 (0-10 scale) - Subject is able to understand the risks and benefits",
+      "title": "Study About the Effect of Preventive Adjacent Level Cement Augmentation After Osteoporotic Vertebral Compression Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 67.38016420884468,
+      "cross_score": 1.512183,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00388908::eligibility::0",
+      "doc_id": "NCT00388908",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - age 60 years or greater - chest radiograph that reports the presence of a vertebral fracture - discharged home. Exclusion Criteria: - unable to provide simple informed consent or unwilling to participate in the study - unable to read, understand, and converse in English - admitted to hospital - currently enrolled in the pilot study or other osteoporosis-related studies - currently taking any prescription osteoporosis treatment",
+      "title": "Addressing Vertebral Osteoporosis Incidentally Detected to Prevent Future Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 73.93268405351412,
+      "cross_score": 1.4307553,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01120197::eligibility::0",
+      "doc_id": "NCT01120197",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - women - living at home - ambulatory - aged 60 or more - clinical diagnosis of osteoporosis - a history of vertebral fracture Exclusion Criteria: - recent vertebral fractures - unable to complete the questionnaires - major cognitive impairment (MMSE) ( MMS < 23 )",
+      "title": "Study of Effect of Exercise With Osteoporosis and Vertebral Fracture",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 70.26540677153304,
+      "cross_score": 1.118764,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01120197::detailed_description::1",
+      "doc_id": "NCT01120197",
+      "section": "detailed_description",
+      "passage_text": "Thus, the purpose of this study is to record the effect of the programme on mobility, balance, the disease-specific and generic health-related quality of life for women with osteoporosis and a history of vertebral fractures. The programme consist of a three-hour educational session and a three-month course of exercises in accordance with guidelines for women with an increased risk of falls and postmenopausal osteoporotic women with a history of fractures. Our hypothesis that a three-month course of exercises and a three-hour lesson on how to cope with osteoporosis will have a significantly positive effect on the generic and disease-specific quality of life, as well as the balance and mobility, of elderly (\u226560 years) women with postmenopausal osteoporosis and a history of vertebral fractures, both 3 months after the intervention and after one year. The sample would be recruited from the Osteoporosis Outpatient clinic at the Ostfold Hospital, Norway and they their body mineral density (BMD) has been measured using Dual-Energy X-Ray Absorptiometry (DXA).",
+      "title": "Study of Effect of Exercise With Osteoporosis and Vertebral Fracture",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 70.26540677153304,
+      "cross_score": 0.70741606,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to meet some of the eligibility criteria for this study, but there are some details we need to confirm.\",\n  \"supported_patient_facts\": [\"you are a 55-year-old woman\", \"you have osteoporosis\", \"you have a documented (X-ray) prevalent osteoporotic vertebral fracture\"],\n  \"missing_patient_facts\": [\"whether you are ambulatory\", \"whether you have a documented (X-ray) non-vertebral fragility fracture\", \"whether your vertebral deformities are visible on lateral views of the thoracic and lumbar spine\", \"whether your L1 through L4 vertebrae are without artifacts, multiple vertebral fractures, or other abnormalities\"],\n  \"unresolved_study_requirements\": [\"whether you have a T-score in the range of -2.0 to -4.0 at least for one of the 2 sites measured (spine or hip)\", \"whether you have a single level acute vertebral compression fracture\", \"whether you have a history of vertebral fractures\", \"whether you have a history of hip fractures\", \"whether you have a history of vertebral fractures due to diagnosed or presumed underlying primary or secondary osteoporosis\", \"whether you have a target vertebral compression fracture between T10 and L4\", \"whether you have a target vertebral compression fracture showing either height change, positive MRI or bone scan, or hyperintense signal on MRI-T2 or STIR sequence\"],\n  \"reasoning_summary\": \"The patient meets the age and osteoporosis criteria, but the specific details about vertebral fractures and imaging results are not fully confirmed. Further verification is needed to determine full eligibility.\",\n  \"safety_note\": \"Please note that while you seem to meet some criteria, there are unresolved aspects that need confirmation before final determination.\"\n  \"support_passages\": {\n    \"patient_facing_answer\": [1, 6],\n    \"reasoning_summary\": [1, 6]\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.625
+}

@@ -1,0 +1,77 @@
+{
+  "case_id": "case_trec2022_031",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02789592",
+  "reference_trial": "NCT02789592",
+  "evidence_trials": [
+    "NCT02789592"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 25-year-old woman comes to the clinic with her roommate. The roommate says that the patient has twice fallen asleep while they were talking. The patient has regularly fallen asleep in the afternoon while reading or watching television but typically feels refreshed after a brief nap. She also reveals that she sometimes hears a voice prior to falling asleep. She also complains of some episodes of clumsiness that cause her to drop objects or fall. MSLT showed that the sleep latency was less than 8 min and that the patient enters rapid eye movement (REM) sleep almost immediately. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02789592 | section=eligibility]\naytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians\n\n[Passage 2 | doc=NCT02789592 | section=eligibility]\nInclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d",
+  "passages": [
+    {
+      "passage_id": "NCT02789592::eligibility::1",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "aytime - Diagnosed as obstructive sleep apnea or severe snoring - Diagnosed as other parasomnia - Presence of severe psychiatric illness - Alcoholics or drug abuser - Myasthenia gravis - Acute narrow-angle glaucoma - Prior participation to other clinical trials within 3 months - Presence of severe comorbidities or a cancer - Existence of illness or problems which makes difficult to be enrolled to this trial judged by clinicians",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 240.26999214072436,
+      "cross_score": -4.4119463,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02789592::eligibility::0",
+      "doc_id": "NCT02789592",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Subject was enrolled voluntarily and understood the contents of this clinical trial - Subject was diagnosed as Parkinson disease (PD) - Hoehn and Yahr (H&Y) stage 1, 2, or 3 - Existence of caregivers who can provide a information about symptoms of rapid eye movement sleep disorder (RBD) of the participant - RBD frequency is one or more per week - Existence of RBD by answering \"yes\" to the question (RBD-1Q): \"Have you ever been told, or suspected yourself, that you seem to 'act out your dreams' while asleep (for example, punching, flailing your arms in the air, making running movements, etc.)?\" - Good compliance for reporting PGI scores and sleep diary Exclusion Criteria: - Existence of cognitive decline hard to participate in the clinical trial - Hypersensitivity to melatonin or clonazepam - Previous melatonin or clonazepam treatment within 1 month - Changing anti-parkinsonian medications within 1 month - Current treatment with sedatives or hypnotics at bedtime - Diagnosed as epilepsy or current treatment with anti-epileptic drugs - Severe trauma history due to RBD - Lactating, pregnant, or possible pregnant - Subject has confusion or visual hallucination in d",
+      "title": "Efficacy and Safety of Melatonin PR and Clonazepam in Patients With REM Sleep Behavior Disorder in Parkinson Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 240.26999214072436,
+      "cross_score": -4.5862927,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like you might be eligible for the trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"The patient has a history of falling asleep while reading or watching TV.\", \"She experiences frequent daytime sleepiness (sleep latency < 8 minutes).\", \"She has experienced episodes of clumsiness and dropping objects.\", \"MSLT shows she enters REM sleep quickly upon falling asleep.\"],\n  \"missing_patient_facts\": [\"The patient's exact age.\", \"Whether she has a caregiver who can provide information about her symptoms.\", \"Whether she has been diagnosed with any specific condition such as obstructive sleep apnea or other parasomnia.\"],\n  \"unresolved_study_requirements\": [\"We need to confirm if the patient meets the inclusion criteria for Parkinson disease (Hoehn and Yahr stages 1, 2, or 3).\", \"We need to verify if the patient has a history of rapid eye movement sleep disorder (RBD) and answers 'yes' to the RBD-1Q question.\"],\n  \"reasoning_summary\": \"The patient exhibits signs of excessive daytime sleepiness and rapid onset of sleep, which aligns with the inclusion criteria for the trial. However, we need more details to fully determine eligibility, including a specific diagnosis and caregiver involvement.\",\n  \"safety_note\": \"Please note that safety remains our top priority. We will ensure all necessary checks are completed before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "The patient has a history of falling asleep while reading or watching TV.",
+      "She experiences frequent daytime sleepiness (sleep latency < 8 minutes).",
+      "She has experienced episodes of clumsiness and dropping objects.",
+      "MSLT shows she enters REM sleep quickly upon falling asleep."
+    ],
+    "missing_patient_facts": [
+      "The patient's exact age.",
+      "Whether she has a caregiver who can provide information about her symptoms.",
+      "Whether she has been diagnosed with any specific condition such as obstructive sleep apnea or other parasomnia."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm if the patient meets the inclusion criteria for Parkinson disease (Hoehn and Yahr stages 1, 2, or 3).",
+      "We need to verify if the patient has a history of rapid eye movement sleep disorder (RBD) and answers 'yes' to the RBD-1Q question."
+    ],
+    "reasoning_summary": "The patient exhibits signs of excessive daytime sleepiness and rapid onset of sleep, which aligns with the inclusion criteria for the trial. However, we need more details to fully determine eligibility, including a specific diagnosis and caregiver involvement.",
+    "safety_note": "Please note that safety remains our top priority. We will ensure all necessary checks are completed before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "The patient's exact age.",
+    "Whether she has a caregiver who can provide information about her symptoms.",
+    "Whether she has been diagnosed with any specific condition such as obstructive sleep apnea or other parasomnia."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm if the patient meets the inclusion criteria for Parkinson disease (Hoehn and Yahr stages 1, 2, or 3).",
+    "We need to verify if the patient has a history of rapid eye movement sleep disorder (RBD) and answers 'yes' to the RBD-1Q question."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.518
+}

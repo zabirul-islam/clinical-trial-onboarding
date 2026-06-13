@@ -1,0 +1,63 @@
+{
+  "case_id": "case_trec2022_046",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04822701",
+  "reference_trial": "NCT04822701",
+  "evidence_trials": [
+    "NCT04822701"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 38-year-old man with cough and body ache that started 3 days ago. He had fever and chills at the beginning and has low grade fever at the time of visit. He feels tired and sleepy. His body ache and myalgia get better after using Tylenol. The PCR test for Covid is positive. His vital signs are within normal limits with a body temperature of 37.9 C. There is no lymphadenopathy or white exudates in the pharynx. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04822701 | section=eligibility]\nInclusion criteria phase II and III: - \u2265 18 years old, males and females - Signed and dated written informed consent in accordance with International Council on Harmonisation - Good Clinical Practice (ICH-GCP) and local legislation prior to admission to the trial - Documentation of laboratory-confirmed Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, as determined by a molecular test (antigen or nucleic acid) from any respiratory tract specimen (nasopharyngeal (NP) or nasal swab or saliva) collected no more than 72 hours prior to start of treatment - Patients experienced mild to moderate Coronavirus Disease 2019 (COVID-19)-related symptoms or measured fever for no more than 5 days prior to start of treatment where symptoms are defined by fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore throat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - One or more of the following signs/symptoms present on day of start of treatment: fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore",
+  "passages": [
+    {
+      "passage_id": "NCT04822701::eligibility::0",
+      "doc_id": "NCT04822701",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria phase II and III: - \u2265 18 years old, males and females - Signed and dated written informed consent in accordance with International Council on Harmonisation - Good Clinical Practice (ICH-GCP) and local legislation prior to admission to the trial - Documentation of laboratory-confirmed Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, as determined by a molecular test (antigen or nucleic acid) from any respiratory tract specimen (nasopharyngeal (NP) or nasal swab or saliva) collected no more than 72 hours prior to start of treatment - Patients experienced mild to moderate Coronavirus Disease 2019 (COVID-19)-related symptoms or measured fever for no more than 5 days prior to start of treatment where symptoms are defined by fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore throat, body pain or muscle pain/ aches, chills, headache, nasal obstruction or congestion, loss of smell or taste, nausea, diarrhea, vomiting, or dysgeusia - One or more of the following signs/symptoms present on day of start of treatment: fever, feeling feverish, fatigue, cough, shortness of breath at rest or during activity, sore",
+      "title": "A Study to Test BI 767551 in People With Mild to Moderate Symptoms of COVID-19",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 224.42290224954675,
+      "cross_score": -1.7969118,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"The patient is a 38-year-old man\", \"He has a positive PCR test for Covid\", \"His body temperature is 37.9 C\", \"He has mild to moderate COVID-19-related symptoms including cough, body ache, and fatigue\"],\n  \"missing_patient_facts\": [\"Lymphadenopathy or white exudates in the pharynx\", \"Documentation of laboratory-confirmed SARS-CoV-2 infection\"],\n  \"unresolved_study_requirements\": [\"No specific mention of the type of molecular test used for PCR\", \"No specific mention of the timing of the symptoms relative to the start of treatment\"],\n  \"reasoning_summary\": \"The patient meets the age requirement, has a confirmed positive PCR test for Covid, and has typical symptoms. However, we need to confirm the type of PCR test used and ensure the timing of his symptoms aligns with the study's criteria.\",\n  \"safety_note\": \"Please note that while your symptoms seem consistent with the study's criteria, further evaluation is needed to ensure safety and eligibility.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "The patient is a 38-year-old man",
+      "He has a positive PCR test for Covid",
+      "His body temperature is 37.9 C",
+      "He has mild to moderate COVID-19-related symptoms including cough, body ache, and fatigue"
+    ],
+    "missing_patient_facts": [
+      "Lymphadenopathy or white exudates in the pharynx",
+      "Documentation of laboratory-confirmed SARS-CoV-2 infection"
+    ],
+    "unresolved_study_requirements": [
+      "No specific mention of the type of molecular test used for PCR",
+      "No specific mention of the timing of the symptoms relative to the start of treatment"
+    ],
+    "reasoning_summary": "The patient meets the age requirement, has a confirmed positive PCR test for Covid, and has typical symptoms. However, we need to confirm the type of PCR test used and ensure the timing of his symptoms aligns with the study's criteria.",
+    "safety_note": "Please note that while your symptoms seem consistent with the study's criteria, further evaluation is needed to ensure safety and eligibility."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "Lymphadenopathy or white exudates in the pharynx",
+    "Documentation of laboratory-confirmed SARS-CoV-2 infection"
+  ],
+  "unresolved_study_requirements": [
+    "No specific mention of the type of molecular test used for PCR",
+    "No specific mention of the timing of the symptoms relative to the start of treatment"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.797
+}

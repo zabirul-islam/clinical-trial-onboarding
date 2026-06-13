@@ -1,0 +1,125 @@
+{
+  "case_id": "case_trec2022_013",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02414295",
+  "reference_trial": "NCT02414295",
+  "evidence_trials": [
+    "NCT00347464",
+    "NCT00975546",
+    "NCT02021721",
+    "NCT02414295",
+    "NCT02461303",
+    "NCT03459326"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 24-year-old man comes to the office complaining of infertility. He and his wife have been trying to conceive for the last 18 months. Medical records of his wife showed no abnormalities. The patient doesn't smoke and takes no medications. Height is 185 cm and weight is 77 kg. Heart and lung sounds are normal. There is bilateral gynecomastia and bilateral descended firm testes. The lower extremities appear abnormally long. His karyotype evaluation shows 47, XXY consistent with Klinefelter syndrome. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02414295 | section=summary]\nKlinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .\n\n[Passage 2 | doc=NCT02021721 | section=eligibility]\nInclusion Criteria: - The study will include male patients diagnosed with infertility, fitting one of the following categories: - More than one family member complaining of male infertility - All ethnicities will be included in this study - Family members will be invited to join the study Exclusion Criteria: - Patients in whim infertility is suspected to be caused by environmental factors more than genetic factors - Patients whose cause of infertility has already been determined by other clinical testing - Patients fulfilling the inclusion criteria but the other affected family member could not be recruited or did not approve of being included in the study\n\n[Passage 3 | doc=NCT00347464 | section=summary]\nKlinefelter syndrome, a congenital chromosomal abnormality with one or more extra X chromosomes, occurs in out of 400 live male births. The majority of Klinefelter men present with a 47, XXY karyotype. The \"poly-X variant\", with the 49,XXXXY karyotype is uncommon. This syndrome, where subjects have two or more X chromosomes presents with primary hypogonadism, and, particularly if associated with the 49,XXXXY karyotype, significantly impacts life skills across a variety of dimensions, including areas of communication, community use, functional academics, home/school living, health and safety, leisure, self-care, self direction, and work. Adaptive behavior abnormalities in 46,XXY men are well known and described. In the poly-X variant of the 49,XXXXY karyotype, adaptive behavior abnormalities are expected to be much more significant, making these patients eligible for services and Social Security benefits. In 49,XXXXY men no study to date has examined these areas of inquiry in a large patient population, using a psychometrically sound instrument in a large patient population. Current publications are limited to individual case reports or small case summaries. It is important to study the adaptive behavior in its highly abnormal presentation in 49,XXXXY men in order to learn more about the effect of additional X chromosomes on adaptive skills, which determine how an individual responds to daily demands and in order to develop treatment and training goals.\n\n[Passage 4 | doc=NCT00975546 | section=eligibility]\nInclusion Criteria: Couple must: - attest to safe sex practices - know the HIV-status of their partner - be informed of risks of this procedure and alternatives, including donor insemination - have the ability to provide informed consent - been referred or self-refer to Dr. Schust for infertility treatment Female must: - be 18-38 years of age - have a normal menstrual cycle before the IUI cycle - be negative for HIV, gonorrhea, chlamydia, syphilis, hepatitis B and hepatitis C - have a standard infertility evaluation and be a candidate for intrauterine insemination Male must: - be at least 18 years of age - be HIV-seropositive - be under the care of an infectious disease specialist - disease must be under control without evidence of acquired immunodeficiency syndrome (AIDS), with viral load <50,000 copies/mL and CD4 count > 250 cells/mL for the preceding 6 month period - have semen quality adequate for intrauterine insemination If the couple does not achieve pregnancy after IUI, they may continue in the study for 5 additional treatment subsequent cycles. The man must continue to receive care for his HIV and the disease must continue to be under control.\n\n[Passage 5 | doc=NCT02461303 | section=summary]\nKlinefelter syndrome is characterized by primary testicular failure and progressive infertility. The objective of this study is to determine if sperm are present and can be observed in semen samples of adolescent and young adult Klinefelter patients and to determine whether the presence of sperm correlates with physical and/or clinically obtained hormone measures of pubertal development. This study was designed in order to answer the following questions: 1. Is it possible to retrieve sperm for cryopreservation from semen samples of adolescent and young adult Klinefelter patients? 2. Does the presence of sperm correlate with the physical and/or endocrine measures that are assessed during routine clinical evaluations of pubertal development in the KS patient population? 3. If sperm retrieval is possible, what is the optimal age at which sperm retrieval should be attempted?\n\n[Passage 6 | doc=NCT03459326 | section=detailed_description]\nInfertility is a real public health problem. In recent years, there has been a clear decline in male fertility in industrialized countries, particularly sperm quality. In the general population, 70% of desired pregnancies are obtained after 6 months and 90% after one year of unprotected intercourse. A couple is considered infertile in the absence of pregnancy after one year of unprotected sex. Currently about 15% of couples of childbearing age is 1 in 7 couples consult for infertility. A French team evaluated the infertility etiologies. Among 1686 couples, infertility was female in 33% of cases, male in 20% of cases and mixed in 39% of cases. Infertility was said to be unexplained in 8% of the couples evaluated. Male partners of infertile couples experience significantly higher stress and sexual dysfunction during the fertile period compared to the non-fertile period. The high stress levels are probably due to the psychological pressure associated with efforts to conceive but certainly also with the forced moment of sexual intercourse around the ovulatory cycle of the partner.",
+  "passages": [
+    {
+      "passage_id": "NCT02414295::summary::0",
+      "doc_id": "NCT02414295",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 232.7487822247041,
+      "cross_score": -3.723616,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02021721::eligibility::0",
+      "doc_id": "NCT02021721",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - The study will include male patients diagnosed with infertility, fitting one of the following categories: - More than one family member complaining of male infertility - All ethnicities will be included in this study - Family members will be invited to join the study Exclusion Criteria: - Patients in whim infertility is suspected to be caused by environmental factors more than genetic factors - Patients whose cause of infertility has already been determined by other clinical testing - Patients fulfilling the inclusion criteria but the other affected family member could not be recruited or did not approve of being included in the study",
+      "title": "Next Generation DNA Sequencing in Patients With Idiopathic Male Infertility",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 190.0346584384256,
+      "cross_score": -4.1168823,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00347464::summary::0",
+      "doc_id": "NCT00347464",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome, a congenital chromosomal abnormality with one or more extra X chromosomes, occurs in out of 400 live male births. The majority of Klinefelter men present with a 47, XXY karyotype. The \"poly-X variant\", with the 49,XXXXY karyotype is uncommon. This syndrome, where subjects have two or more X chromosomes presents with primary hypogonadism, and, particularly if associated with the 49,XXXXY karyotype, significantly impacts life skills across a variety of dimensions, including areas of communication, community use, functional academics, home/school living, health and safety, leisure, self-care, self direction, and work. Adaptive behavior abnormalities in 46,XXY men are well known and described. In the poly-X variant of the 49,XXXXY karyotype, adaptive behavior abnormalities are expected to be much more significant, making these patients eligible for services and Social Security benefits. In 49,XXXXY men no study to date has examined these areas of inquiry in a large patient population, using a psychometrically sound instrument in a large patient population. Current publications are limited to individual case reports or small case summaries. It is important to study the adaptive behavior in its highly abnormal presentation in 49,XXXXY men in order to learn more about the effect of additional X chromosomes on adaptive skills, which determine how an individual responds to daily demands and in order to develop treatment and training goals.",
+      "title": "Adaptive Behavior Assessment of Men With 49, XXXXY, Klinefelter Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 213.5505026729928,
+      "cross_score": -4.404666,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00975546::eligibility::0",
+      "doc_id": "NCT00975546",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Couple must: - attest to safe sex practices - know the HIV-status of their partner - be informed of risks of this procedure and alternatives, including donor insemination - have the ability to provide informed consent - been referred or self-refer to Dr. Schust for infertility treatment Female must: - be 18-38 years of age - have a normal menstrual cycle before the IUI cycle - be negative for HIV, gonorrhea, chlamydia, syphilis, hepatitis B and hepatitis C - have a standard infertility evaluation and be a candidate for intrauterine insemination Male must: - be at least 18 years of age - be HIV-seropositive - be under the care of an infectious disease specialist - disease must be under control without evidence of acquired immunodeficiency syndrome (AIDS), with viral load <50,000 copies/mL and CD4 count > 250 cells/mL for the preceding 6 month period - have semen quality adequate for intrauterine insemination If the couple does not achieve pregnancy after IUI, they may continue in the study for 5 additional treatment subsequent cycles. The man must continue to receive care for his HIV and the disease must continue to be under control.",
+      "title": "HIV-discordant Couple Intrauterine Insemination",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 201.54458697778728,
+      "cross_score": -4.6364775,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02461303::summary::0",
+      "doc_id": "NCT02461303",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome is characterized by primary testicular failure and progressive infertility. The objective of this study is to determine if sperm are present and can be observed in semen samples of adolescent and young adult Klinefelter patients and to determine whether the presence of sperm correlates with physical and/or clinically obtained hormone measures of pubertal development. This study was designed in order to answer the following questions: 1. Is it possible to retrieve sperm for cryopreservation from semen samples of adolescent and young adult Klinefelter patients? 2. Does the presence of sperm correlate with the physical and/or endocrine measures that are assessed during routine clinical evaluations of pubertal development in the KS patient population? 3. If sperm retrieval is possible, what is the optimal age at which sperm retrieval should be attempted?",
+      "title": "Fertility Assessment in Patients With Klinefelter Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 217.6850804034927,
+      "cross_score": -5.170908,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03459326::detailed_description::0",
+      "doc_id": "NCT03459326",
+      "section": "detailed_description",
+      "passage_text": "Infertility is a real public health problem. In recent years, there has been a clear decline in male fertility in industrialized countries, particularly sperm quality. In the general population, 70% of desired pregnancies are obtained after 6 months and 90% after one year of unprotected intercourse. A couple is considered infertile in the absence of pregnancy after one year of unprotected sex. Currently about 15% of couples of childbearing age is 1 in 7 couples consult for infertility. A French team evaluated the infertility etiologies. Among 1686 couples, infertility was female in 33% of cases, male in 20% of cases and mixed in 39% of cases. Infertility was said to be unexplained in 8% of the couples evaluated. Male partners of infertile couples experience significantly higher stress and sexual dysfunction during the fertile period compared to the non-fertile period. The high stress levels are probably due to the psychological pressure associated with efforts to conceive but certainly also with the forced moment of sexual intercourse around the ovulatory cycle of the partner.",
+      "title": "Sexuality of the Man Whose Couple is Taken Care of in Medical Assistance to Procreation. Study of Case Witnesses",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 191.40363677549237,
+      "cross_score": -5.365446,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for certain clinical trials related to Klinefelter syndrome and infertility, but further details are needed to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"24-year-old male\", \"infertility\", \"Klinefelter syndrome (47,XXY)\"],\n  \"missing_patient_facts\": [\"Semen analysis results\", \"Hormonal profile\"],\n  \"unresolved_study_requirements\": [\"Specific clinical trial to which the patient is applying\"],\n  \"reasoning_summary\": \"The patient's Klinefelter syndrome and infertility align with the inclusion criteria of several studies, but specific details such as semen analysis and hormonal profile are required to fully assess eligibility. Additionally, the exact study to which the patient is applying is unclear.\",\n  \"safety_note\": \"Further information is needed to determine eligibility accurately.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for certain clinical trials related to Klinefelter syndrome and infertility, but further details are needed to confirm your eligibility.",
+    "supported_patient_facts": [
+      "24-year-old male",
+      "infertility",
+      "Klinefelter syndrome (47,XXY)"
+    ],
+    "missing_patient_facts": [
+      "Semen analysis results",
+      "Hormonal profile"
+    ],
+    "unresolved_study_requirements": [
+      "Specific clinical trial to which the patient is applying"
+    ],
+    "reasoning_summary": "The patient's Klinefelter syndrome and infertility align with the inclusion criteria of several studies, but specific details such as semen analysis and hormonal profile are required to fully assess eligibility. Additionally, the exact study to which the patient is applying is unclear.",
+    "safety_note": "Further information is needed to determine eligibility accurately."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for certain clinical trials related to Klinefelter syndrome and infertility, but further details are needed to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Semen analysis results",
+    "Hormonal profile"
+  ],
+  "unresolved_study_requirements": [
+    "Specific clinical trial to which the patient is applying"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.754
+}

@@ -1,0 +1,52 @@
+{
+  "case_id": "case_trec2022_042",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "reference_trial": "NCT03985540",
+  "evidence_trials": [
+    "NCT03985540"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 9-year-old girl is brought to the office for evaluation of short stature and overweight body habitus. The patient's mother and father are 170 cm and 181 cm tall, respectively. On physical examination, the patient's height is in the 5th percentile of her age. Other findings include low-set ears, a high arched palate, a webbed neck, and cubitus valgus. Chromosomal analysis reveals a 45, XO karyotype. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 187.15010161040624,
+      "cross_score": -3.6606085,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it does not seem like you would be eligible for this clinical trial.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"The patient's condition (Turner syndrome) is not mentioned as a specific inclusion criterion in the provided passage.\",\n    \"The patient's specific neuropsychological impairments are not described.\"\n  ],\n  \"reasoning_summary\": \"The patient has Turner syndrome, which is not specified as an inclusion criterion in the provided passage. Additionally, the patient's neuropsychological impairments are not described, making it unclear if they meet the study's inclusion criteria.\",\n  \"safety_note\": \"Safety rules have been followed by not definitively ruling out eligibility.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it does not seem like you would be eligible for this clinical trial.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "The patient's condition (Turner syndrome) is not mentioned as a specific inclusion criterion in the provided passage.",
+      "The patient's specific neuropsychological impairments are not described."
+    ],
+    "reasoning_summary": "The patient has Turner syndrome, which is not specified as an inclusion criterion in the provided passage. Additionally, the patient's neuropsychological impairments are not described, making it unclear if they meet the study's inclusion criteria.",
+    "safety_note": "Safety rules have been followed by not definitively ruling out eligibility."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it does not seem like you would be eligible for this clinical trial.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "The patient's condition (Turner syndrome) is not mentioned as a specific inclusion criterion in the provided passage.",
+    "The patient's specific neuropsychological impairments are not described."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.47
+}

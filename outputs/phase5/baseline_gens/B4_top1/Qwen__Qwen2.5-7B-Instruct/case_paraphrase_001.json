@@ -1,0 +1,46 @@
+{
+  "case_id": "case_paraphrase_001",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "reference_trial": "NCT00413855",
+  "evidence_trials": [
+    "NCT00413855"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 393.9121941123777,
+      "cross_score": -3.428862,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it does not seem that you would be eligible for this particular clinical trial. The trial focuses on patients with chronic or recurrent right lower abdominal quadrant pain lasting more than three months, while your symptoms suggest an acute condition requiring immediate medical attention.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [],\n  \"reasoning_summary\": \"The patient's symptoms and recent computed tomography findings indicate an acute appendicitis, which does not align with the inclusion criteria for a chronic or recurrent pain condition over three months. Therefore, it is unlikely that she would be eligible for this study.\",\n  \"safety_note\": \"It is crucial to seek immediate medical care for suspected appendicitis.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it does not seem that you would be eligible for this particular clinical trial. The trial focuses on patients with chronic or recurrent right lower abdominal quadrant pain lasting more than three months, while your symptoms suggest an acute condition requiring immediate medical attention.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "The patient's symptoms and recent computed tomography findings indicate an acute appendicitis, which does not align with the inclusion criteria for a chronic or recurrent pain condition over three months. Therefore, it is unlikely that she would be eligible for this study.",
+    "safety_note": "It is crucial to seek immediate medical care for suspected appendicitis."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it does not seem that you would be eligible for this particular clinical trial. The trial focuses on patients with chronic or recurrent right lower abdominal quadrant pain lasting more than three months, while your symptoms suggest an acute condition requiring immediate medical attention.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.365
+}

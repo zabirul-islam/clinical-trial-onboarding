@@ -1,0 +1,69 @@
+{
+  "case_id": "case_paraphrase_002",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "reference_trial": "NCT00413855",
+  "evidence_trials": [
+    "NCT00413855"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 389.3140952844787,
+      "cross_score": -3.3768716,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the study, but there are some unresolved requirements that need to be confirmed.\",\n  \"supported_patient_facts\": [\"Age (31 years old)\", \"Right lower quadrant pain\"],\n  \"missing_patient_facts\": [\"Duration of pain (less than 3 months)\", \"History of chronic back pain\", \"Previous abdominal surgery\", \"Gastro-intestinal entities\", \"Gynaecological disease\"],\n  \"unresolved_study_requirements\": [\"Routine laboratory investigations\", \"Barium contrast studies of the colon\", \"Abdominal ultrasound or enteroclysis\"],\n  \"reasoning_summary\": \"The patient's age and right lower quadrant pain align with the inclusion criteria. However, the duration of pain is less than three months, which does not meet the inclusion criteria. Additionally, the patient has not undergone routine laboratory investigations, barium contrast studies of the colon, or abdominal ultrasound/enteroclysis, which are required for further evaluation.\",\n  \"safety_note\": \"It is important to ensure all study requirements are met before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the study, but there are some unresolved requirements that need to be confirmed.",
+    "supported_patient_facts": [
+      "Age (31 years old)",
+      "Right lower quadrant pain"
+    ],
+    "missing_patient_facts": [
+      "Duration of pain (less than 3 months)",
+      "History of chronic back pain",
+      "Previous abdominal surgery",
+      "Gastro-intestinal entities",
+      "Gynaecological disease"
+    ],
+    "unresolved_study_requirements": [
+      "Routine laboratory investigations",
+      "Barium contrast studies of the colon",
+      "Abdominal ultrasound or enteroclysis"
+    ],
+    "reasoning_summary": "The patient's age and right lower quadrant pain align with the inclusion criteria. However, the duration of pain is less than three months, which does not meet the inclusion criteria. Additionally, the patient has not undergone routine laboratory investigations, barium contrast studies of the colon, or abdominal ultrasound/enteroclysis, which are required for further evaluation.",
+    "safety_note": "It is important to ensure all study requirements are met before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the study, but there are some unresolved requirements that need to be confirmed.",
+  "missing_patient_facts": [
+    "Duration of pain (less than 3 months)",
+    "History of chronic back pain",
+    "Previous abdominal surgery",
+    "Gastro-intestinal entities",
+    "Gynaecological disease"
+  ],
+  "unresolved_study_requirements": [
+    "Routine laboratory investigations",
+    "Barium contrast studies of the colon",
+    "Abdominal ultrasound or enteroclysis"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 18.629
+}

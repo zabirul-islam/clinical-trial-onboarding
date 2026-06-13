@@ -1,0 +1,131 @@
+{
+  "case_id": "case_paraphrase_033",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01634113",
+  "reference_trial": "NCT01634113",
+  "evidence_trials": [
+    "NCT00452348",
+    "NCT00471809",
+    "NCT00819676",
+    "NCT01500525",
+    "NCT01634113",
+    "NCT03788057"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.\n\n[Passage 2 | doc=NCT03788057 | section=detailed_description]\nThe criteria for the stability of asthma in the run - in period are: - symptoms no more than 3 times a week - SABA use less than 3 times a week - without night wake up - PEFR variability below 20% - FEV1 above 80% of predicted Second period of the study - reduction of anti-inflammatory therapy. In participants with previously stable course of the asthma (confirmed in the run -in period), the control of asthma is monitored regularly throughout the observation period. All participants run an observation card (clinical symptoms) and PEFR measurements. Monthly spirometry, exhaled NO and exhaled breath temperature measurements are performed. Every 3 months and one month after the change of treatment (i.e in months 0, 1, 3, 4, 6 and 7), the hyperresponsiveness measurement is carried out with the sputum induction (combined method, [7]). Two months after the dose change (months 2, 5, 8) the exercise challenge test is carried out. Every 3 months control of the asthma symptoms is evaluated taking account the clinical data, and possible change of ICS dose is considered.\n\n[Passage 3 | doc=NCT00819676 | section=eligibility]\nInclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.\n\n[Passage 4 | doc=NCT00452348 | section=eligibility]\nAcceptable methods of contraception [Hatcher, 2004] are: - Abstinence - oral contraceptive (either combined or progestogen only) - injectable progestogen - implants of levonorgestrel - estrogenic vaginal ring - percutaneous contraceptive devices - intrauterine device (IUD) or intrauterine system (IUS) with published data showing that the lowest expected failure rate is less than 1% per year - male partner sterilization (vasectomy with documentation of azoospermia) prior to the female subject's entry into the study and is the sole sexual partner for that female subject - double barrier method: condom or occlusive cap (diaphragm or cervical/vault caps) plus spermicidal agent 1. Age: A subject must be 12 years of age at Visit 1 (screening). 2. Asthma Diagnosis: A documented diagnosis of persistent asthma, for at least six months, as defined by the following American Thoracic Society definition: Asthma is a clinical syndrome characterized by increased responsiveness of the airways to a variety of stimuli. The major symptoms of asthma are episodes of dyspnea, wheezing, and cough, which may vary from mild and almost undetectable to severe and unremitting (status asthmaticus).\n\n[Passage 5 | doc=NCT00471809 | section=eligibility]\nEvaluation during the screening process will assure that an adequate evaluation of other lung diseases has been performed - Presence of other significant medical illnesses (cardiac, liver, gastrointestinal, endocrine, any seizure disorder except febrile seizure in infancy) that would place the study subject at increased risk of participating in the study - Use of digoxin, ergotamine or dihydroergotamine, triazolam, carbamazepine, cyclosporine, hexobarbital, and phenytoin, and similar classes of medication will be specifically excluded - Use of omalizumab within one year of study entry - Gastroesophageal reflux symptoms not controlled by standard medical therapy - Immunodeficiency disorders - History of respiratory failure requiring mechanical ventilation for asthma within 5 years - History of hypoxic seizure due to asthma - Inability of the child to ingest the study drug - Participation presently or in the past month in another investigational drug trial - Evidence that the family may be unreliable or nonadherent, or may move from the clinical center area before trial completion - Pregnant or breastfeeding - Receiving hyposensitization therapy other than an established maintenance\n\n[Passage 6 | doc=NCT01500525 | section=eligibility]\n-Non-asthmatic group: healthy children from 4-12 years will be recruited from the Capital Institute of Pediatrics nearby schools Inclusion criteria: 1. Willingly attend this investigation 2. Chest physical tests are normal Exclusion criteria: 1. The child had been hospitalized for any severe respiratory condition 2. A physician had ever stated that the child had asthma, reactive airway diseases, or the child had taken antiasthma medications for symptoms 3. The child was diagnosed with congenital heart disease requiring surgery or medications for management 4. There are positive responses concerning other serious chest problems, chest surgery, chronic productive cough, recurrent intractable wheezing, and shortness of breath 5. The children can not finish the test that met American Thoracic Society criteria for preschool children in a maximum of 6 attempts and are unable to successfully complete post-bronchodilator (BD) spirometry - Asthmatic group: 4-12 years old asthmatic children will be recruited from the asthma clinic of the Capital Institute of Pediatrics Inclusion criteria: 1.",
+  "passages": [
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 501.4356483718436,
+      "cross_score": -4.915064,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03788057::detailed_description::2",
+      "doc_id": "NCT03788057",
+      "section": "detailed_description",
+      "passage_text": "The criteria for the stability of asthma in the run - in period are: - symptoms no more than 3 times a week - SABA use less than 3 times a week - without night wake up - PEFR variability below 20% - FEV1 above 80% of predicted Second period of the study - reduction of anti-inflammatory therapy. In participants with previously stable course of the asthma (confirmed in the run -in period), the control of asthma is monitored regularly throughout the observation period. All participants run an observation card (clinical symptoms) and PEFR measurements. Monthly spirometry, exhaled NO and exhaled breath temperature measurements are performed. Every 3 months and one month after the change of treatment (i.e in months 0, 1, 3, 4, 6 and 7), the hyperresponsiveness measurement is carried out with the sputum induction (combined method, [7]). Two months after the dose change (months 2, 5, 8) the exercise challenge test is carried out. Every 3 months control of the asthma symptoms is evaluated taking account the clinical data, and possible change of ICS dose is considered.",
+      "title": "Inflammatory Indices in Predicting the Failure of Inhaled Corticosteroids Reduction in Young Participants With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 500.4254823613225,
+      "cross_score": -5.337793,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::0",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 496.0867143899596,
+      "cross_score": -5.5468383,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00452348::eligibility::1",
+      "doc_id": "NCT00452348",
+      "section": "eligibility",
+      "passage_text": "Acceptable methods of contraception [Hatcher, 2004] are: - Abstinence - oral contraceptive (either combined or progestogen only) - injectable progestogen - implants of levonorgestrel - estrogenic vaginal ring - percutaneous contraceptive devices - intrauterine device (IUD) or intrauterine system (IUS) with published data showing that the lowest expected failure rate is less than 1% per year - male partner sterilization (vasectomy with documentation of azoospermia) prior to the female subject's entry into the study and is the sole sexual partner for that female subject - double barrier method: condom or occlusive cap (diaphragm or cervical/vault caps) plus spermicidal agent 1. Age: A subject must be 12 years of age at Visit 1 (screening). 2. Asthma Diagnosis: A documented diagnosis of persistent asthma, for at least six months, as defined by the following American Thoracic Society definition: Asthma is a clinical syndrome characterized by increased responsiveness of the airways to a variety of stimuli. The major symptoms of asthma are episodes of dyspnea, wheezing, and cough, which may vary from mild and almost undetectable to severe and unremitting (status asthmaticus).",
+      "title": "A 12-Month Study Comparing Fluticasone Propionate/Salmeterol (ADVAIR) DISKUS Combination Product 250/50mcg Twice Daily To Fluticasone Propionate (FLOVENT) DISKUS 250 mcg Twice Daily In Symptomatic Patients With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 493.81103098761207,
+      "cross_score": -5.610919,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00471809::eligibility::6",
+      "doc_id": "NCT00471809",
+      "section": "eligibility",
+      "passage_text": "Evaluation during the screening process will assure that an adequate evaluation of other lung diseases has been performed - Presence of other significant medical illnesses (cardiac, liver, gastrointestinal, endocrine, any seizure disorder except febrile seizure in infancy) that would place the study subject at increased risk of participating in the study - Use of digoxin, ergotamine or dihydroergotamine, triazolam, carbamazepine, cyclosporine, hexobarbital, and phenytoin, and similar classes of medication will be specifically excluded - Use of omalizumab within one year of study entry - Gastroesophageal reflux symptoms not controlled by standard medical therapy - Immunodeficiency disorders - History of respiratory failure requiring mechanical ventilation for asthma within 5 years - History of hypoxic seizure due to asthma - Inability of the child to ingest the study drug - Participation presently or in the past month in another investigational drug trial - Evidence that the family may be unreliable or nonadherent, or may move from the clinical center area before trial completion - Pregnant or breastfeeding - Receiving hyposensitization therapy other than an established maintenance",
+      "title": "Childhood Asthma Research and Education (CARE) Network Trial - Montelukast or Azithromycin for Reduction of Inhaled Corticosteroids in Childhood Asthma (MARS)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 501.51081073685856,
+      "cross_score": -5.8120437,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01500525::eligibility::0",
+      "doc_id": "NCT01500525",
+      "section": "eligibility",
+      "passage_text": "-Non-asthmatic group: healthy children from 4-12 years will be recruited from the Capital Institute of Pediatrics nearby schools Inclusion criteria: 1. Willingly attend this investigation 2. Chest physical tests are normal Exclusion criteria: 1. The child had been hospitalized for any severe respiratory condition 2. A physician had ever stated that the child had asthma, reactive airway diseases, or the child had taken antiasthma medications for symptoms 3. The child was diagnosed with congenital heart disease requiring surgery or medications for management 4. There are positive responses concerning other serious chest problems, chest surgery, chronic productive cough, recurrent intractable wheezing, and shortness of breath 5. The children can not finish the test that met American Thoracic Society criteria for preschool children in a maximum of 6 attempts and are unable to successfully complete post-bronchodilator (BD) spirometry - Asthmatic group: 4-12 years old asthmatic children will be recruited from the asthma clinic of the Capital Institute of Pediatrics Inclusion criteria: 1.",
+      "title": "Bronchodilator Response in 4-12 Years Chinese Controller Naive Asthmatic Children",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 502.61398024732426,
+      "cross_score": -5.8181233,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your symptoms and medical history, you seem to meet some of the eligibility criteria for the clinical trial. However, we need more information to fully determine if you can participate. We will check if your current asthma symptoms and lung function meet the study's requirements.\",\n  \"supported_patient_facts\": [\"you are a 39-year-old man\", \"you have a history of asthma for 3 years\", \"your symptoms include cough, wheezing, and shortness of breath\", \"your spirometry shows a FEV1 of 63% of the predicted value\", \"you are currently using inhaled corticosteroids and salmeterol\"], \n  \"missing_patient_facts\": [\"your current asthma treatment regimen\", \"your recent asthma exacerbations\", \"your response to previous asthma treatments\"],\n  \"unresolved_study_requirements\": [\"your spirometry results need to be compared to the study's criteria\", \"your asthma symptoms need to be documented as persistent and controlled with inhaled corticosteroids\"],\n  \"reasoning_summary\": \"Your symptoms and current treatment align with the study's inclusion criteria, but we need to confirm your spirometry results and asthma symptom documentation.\",\n  \"safety_note\": \"Please note that the study involves potential risks and side effects, and you will be closely monitored during the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on your symptoms and medical history, you seem to meet some of the eligibility criteria for the clinical trial. However, we need more information to fully determine if you can participate. We will check if your current asthma symptoms and lung function meet the study's requirements.",
+    "supported_patient_facts": [
+      "you are a 39-year-old man",
+      "you have a history of asthma for 3 years",
+      "your symptoms include cough, wheezing, and shortness of breath",
+      "your spirometry shows a FEV1 of 63% of the predicted value",
+      "you are currently using inhaled corticosteroids and salmeterol"
+    ],
+    "missing_patient_facts": [
+      "your current asthma treatment regimen",
+      "your recent asthma exacerbations",
+      "your response to previous asthma treatments"
+    ],
+    "unresolved_study_requirements": [
+      "your spirometry results need to be compared to the study's criteria",
+      "your asthma symptoms need to be documented as persistent and controlled with inhaled corticosteroids"
+    ],
+    "reasoning_summary": "Your symptoms and current treatment align with the study's inclusion criteria, but we need to confirm your spirometry results and asthma symptom documentation.",
+    "safety_note": "Please note that the study involves potential risks and side effects, and you will be closely monitored during the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on your symptoms and medical history, you seem to meet some of the eligibility criteria for the clinical trial. However, we need more information to fully determine if you can participate. We will check if your current asthma symptoms and lung function meet the study's requirements.",
+  "missing_patient_facts": [
+    "your current asthma treatment regimen",
+    "your recent asthma exacerbations",
+    "your response to previous asthma treatments"
+  ],
+  "unresolved_study_requirements": [
+    "your spirometry results need to be compared to the study's criteria",
+    "your asthma symptoms need to be documented as persistent and controlled with inhaled corticosteroids"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.893
+}

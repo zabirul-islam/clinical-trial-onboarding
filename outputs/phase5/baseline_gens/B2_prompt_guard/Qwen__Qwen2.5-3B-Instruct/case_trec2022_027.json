@@ -1,0 +1,131 @@
+{
+  "case_id": "case_trec2022_027",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01518192",
+  "reference_trial": "NCT01518192",
+  "evidence_trials": [
+    "NCT00132327",
+    "NCT00358761",
+    "NCT01143558",
+    "NCT01518192",
+    "NCT03963635"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 31-year-old woman comes to the office due to 3 days of rash on her left arm. The lesion is mildly pruritic but not painful. She is otherwise healthy and occasionally takes ibuprofen during the first few days of her menstrual period. Temperature is 37 C, blood pressure is 110/75 mm Hg, and pulse is 95/min. The lesion is like a target sign known as erythema migrans. She recently went for an adventure trip in New Hampshire. The patient is diagnosed with Lyme disease. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01518192 | section=eligibility]\nInclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.\n\n[Passage 2 | doc=NCT00132327 | section=summary]\nThis study will analyze cells from erythema migrans lesions, the \"bull's eye\" rash of Lyme disease. Little is known about what happens in the skin when it is infected with Borrelia burgdorferi, the bacteria that cause Lyme disease. This study will examine and compare laboratory findings in skin biopsies from people with Lyme disease and from healthy normal volunteers to try to better understand the infection. Healthy volunteers and people with untreated erythema migrans rash who are 18 years of age or older may be eligible for this study. All participants undergo a clinical examination, blood tests, between two to four skin biopsies (removal of a small piece of tissue for laboratory examination), and complete two health questionnaires. The biopsies are taken from the erythema migrans lesion in patients with Lyme disease and from skin on the legs, forearms, buttocks, or side from healthy volunteers. To collect the tissue, the skin at the biopsy site is numbed with injection of a local anesthetic and a sharp instrument is then used to remove a round plug of skin about the size of a pencil eraser. The wound may be closed with one or two sutures, or allowed to heal without sutures. The sutures are removed after a week to 10 days. Patients with Lyme disease receive treatment for their condition. In addition, at the time the sutures are removed and at 4 weeks, 6 months, and 12 months after their first visit they fill out a questionnaire and have additional blood tests.\n\n[Passage 3 | doc=NCT00358761 | section=eligibility]\n- INCLUSION CRITERIA: Enrolled in protocol 02-I-0055. A person who is at least 14 years old. Acute onset (within 14 days of visit to NIH) of an annular, erythematous, expanding erythema migrans (EM)-like rash that attains a size of at least 5 cm in diameter, when no alternative explanation for the rash can be found, and thought by the study physician to have a high likelihood to be due to STARI (due to exposure history, tick identification). History of tick bite at the rash site, or potential exposure to ticks in the southeastern and south central United States within 14 days prior to rash onset (including Maryland and Virginia). Consent to storage of biologic samples for later testing. EXCLUSION CRITERIA: A person who, in the judgment of the investigator, would be at increased risk from the skin biopsy procedure and unlikely to be able to mount a serological response to the agent (for example, bone marrow transplant, B cell deficiency). EXCLUSION FROM SKIN BIOPSY PORTION OF STUDY: A person who meets the case definition but whose EM-like rash occurs on the face, neck, scalp, or over the tibia will not be enrolled for purposes of obtaining a skin biopsy specimen.\n\n[Passage 4 | doc=NCT01143558 | section=detailed_description]\nIn Objective #1, subjects who have the characteristic erythema migrans (EM) rash and have been treated with antibiotics early (within 3 weeks of infection) in the course of Lyme disease will be tested. After completion of antibiotic therapy, 25-30 larval Ixodes ticks will be allowed to feed on the subject and biopsies of the EM site will be performed. Repleted ticks will be collected and tested for the presence of B. burgdorferi. In Objective #2, similar studies will be performed, but enrollment will target subjects with elevated C6 (region 6 of the VlsE surface protein of B. burgdorferi) antibody levels. In Objective #3, patients with persistent symptoms after antibiotic therapy will be evaluated. As an attempt to increase the chances of a positive xenodiagnosis in humans, patients with EM who are in the first 2 days of antibiotic therapy and patients with untreated Lyme arthritis will also be evaluated. Evidence that B.\n\n[Passage 5 | doc=NCT03963635 | section=eligibility]\nInclusion Criteria: 1. Human adults at least 21 years of age and no more than 80 years of age at the time of screening. 2. Have the ability to understand the requirements of the study, provide written informed consent (including consent for the use and disclosure of research-related health information), and comply with the study protocol procedures (including required study visits). 3. High clinical suspicion of acute Lyme disease, with symptoms seven days or less. 4. Must have erythema migrans rash and physician diagnosis of early Lyme disease. 5. Brief history and physical exam will be obtained during the study visit. 6. Be willing to return to our clinic for up to nine visits and blood draws over a one-year period. 7. People who do not have Lyme disease, but want to participate as healthy controls (one time visit) Exclusion Criteria: 1. Have poor venous access. 2. Have received any immunosuppressive therapy including biologics or recent course of steroids, or recent chemotherapy. 1. Anti-TNF therapy (eg, adalimumab, etanercept, infliximab). 2. Intravenous (IV) cyclophosphamide 3. Interleukin-1 receptor antagonist (anakinra). 4. Intravenous immunoglobulin (IVIG). 5.\n\n[Passage 6 | doc=NCT01143558 | section=summary]\nBackground: Lyme disease is an infection caused by Borrelia burgdorferi, a bacteria that is transmitted to humans by ticks. It can cause many different symptoms including rash, fever, headache, meningitis (infection of the central nervous system), and arthritis. While most patients improve after taking antibiotics, some patients continue to have symptoms. It is currently unknown why some patients continue to have symptoms. One possibility is that the antibiotics have not successfully gotten rid of all of the bacteria. Current tests for Lyme disease cannot tell whether the bacteria have been successfully eliminated from the body. Xenodiagnosis is a way to look for Borrelia bacteria using the animal that usually hosts them, Ixodes scapularis (also known as the deer tick). This method takes advantage of the evolution of the bacteria and the insect that transmits the infection, which can make the insect particularly good at finding the agent. In studies of animals, xenodiagnosis may be more sensitive than current tests for detecting the presence of the Lyme disease bacteria. Researchers are interested in using xenodiagnosis to determine whether uninfected ticks that feed on humans who have been infected with Lyme disease bacteria can detect the continued presence of live bacteria. Objectives: - To determine whether xenodiagnosis can be used to successfully investigate the presence of Lyme disease bacteria. Eligibility: 1. Individuals at least 18 years of age who are in one of the following categories: 2. Have had the erythema migrans rash (a symptom of Lyme infection) and received antibiotic therapy less than 4 months ago (but have not had antibiotics in the previous month). 3. Have the erythema migrans rash and received less than 2 days of antibiotic therapy. 4. Have been diagnosed with early or late Lyme disease, have received antibiotic therapy, but still have high levels of antibodies against the bacteria at least 6 months after therapy, and have not received antibiotics in the past 3 months. 5. Have been diagnosed with early or late Lyme disease, have received antibiotic therapy, and have new complaints of fatigue or other symptoms that are persistent for at least 6 months after completion of antibiotic therapy, and have not received antibiotics in the past 3 months. 6. Have been diagnosed with Lyme arthritis and have not yet received antibiotic therapy. 7. Healthy volunteers who have not had Lyme disease will also be included in this study. Design: - Participants will have an initial visit for a physical examination, medical history, and blood sample. - For the first study visit, researchers will place a strip of filter paper or a small plastic container with 20 to 30 disease-free ticks on the participant s skin. If possible, the ticks will be placed at the site of a Lyme disease rash or another suspicious area, or on the nondominant forearm. Participants will be asked to keep the ticks in place, and will keep a diary card at home to record any symptoms or problems. - The ticks will be collected 4 to 6 days after placement. At that visit, participants will have a skin biopsy taken of the area tested, a blood sample will be collected, and participants will receive a new diary card to keep until the next clinic visit. - After 1 month, participants will provide a final blood sample, and will receive a follow-up phone call 2 months afterward.",
+  "passages": [
+    {
+      "passage_id": "NCT01518192::eligibility::0",
+      "doc_id": "NCT01518192",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 235.49607113045948,
+      "cross_score": -4.820422,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00132327::summary::0",
+      "doc_id": "NCT00132327",
+      "section": "summary",
+      "passage_text": "This study will analyze cells from erythema migrans lesions, the \"bull's eye\" rash of Lyme disease. Little is known about what happens in the skin when it is infected with Borrelia burgdorferi, the bacteria that cause Lyme disease. This study will examine and compare laboratory findings in skin biopsies from people with Lyme disease and from healthy normal volunteers to try to better understand the infection. Healthy volunteers and people with untreated erythema migrans rash who are 18 years of age or older may be eligible for this study. All participants undergo a clinical examination, blood tests, between two to four skin biopsies (removal of a small piece of tissue for laboratory examination), and complete two health questionnaires. The biopsies are taken from the erythema migrans lesion in patients with Lyme disease and from skin on the legs, forearms, buttocks, or side from healthy volunteers. To collect the tissue, the skin at the biopsy site is numbed with injection of a local anesthetic and a sharp instrument is then used to remove a round plug of skin about the size of a pencil eraser. The wound may be closed with one or two sutures, or allowed to heal without sutures. The sutures are removed after a week to 10 days. Patients with Lyme disease receive treatment for their condition. In addition, at the time the sutures are removed and at 4 weeks, 6 months, and 12 months after their first visit they fill out a questionnaire and have additional blood tests.",
+      "title": "Analysis of Lyme Disease Lesions",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 257.6662788841228,
+      "cross_score": -5.919305,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00358761::eligibility::0",
+      "doc_id": "NCT00358761",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA: Enrolled in protocol 02-I-0055. A person who is at least 14 years old. Acute onset (within 14 days of visit to NIH) of an annular, erythematous, expanding erythema migrans (EM)-like rash that attains a size of at least 5 cm in diameter, when no alternative explanation for the rash can be found, and thought by the study physician to have a high likelihood to be due to STARI (due to exposure history, tick identification). History of tick bite at the rash site, or potential exposure to ticks in the southeastern and south central United States within 14 days prior to rash onset (including Maryland and Virginia). Consent to storage of biologic samples for later testing. EXCLUSION CRITERIA: A person who, in the judgment of the investigator, would be at increased risk from the skin biopsy procedure and unlikely to be able to mount a serological response to the agent (for example, bone marrow transplant, B cell deficiency). EXCLUSION FROM SKIN BIOPSY PORTION OF STUDY: A person who meets the case definition but whose EM-like rash occurs on the face, neck, scalp, or over the tibia will not be enrolled for purposes of obtaining a skin biopsy specimen.",
+      "title": "Investigation of Southern Tick-Associated Rash Illness (STARI)",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 236.0240383147856,
+      "cross_score": -6.442668,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01143558::detailed_description::1",
+      "doc_id": "NCT01143558",
+      "section": "detailed_description",
+      "passage_text": "In Objective #1, subjects who have the characteristic erythema migrans (EM) rash and have been treated with antibiotics early (within 3 weeks of infection) in the course of Lyme disease will be tested. After completion of antibiotic therapy, 25-30 larval Ixodes ticks will be allowed to feed on the subject and biopsies of the EM site will be performed. Repleted ticks will be collected and tested for the presence of B. burgdorferi. In Objective #2, similar studies will be performed, but enrollment will target subjects with elevated C6 (region 6 of the VlsE surface protein of B. burgdorferi) antibody levels. In Objective #3, patients with persistent symptoms after antibiotic therapy will be evaluated. As an attempt to increase the chances of a positive xenodiagnosis in humans, patients with EM who are in the first 2 days of antibiotic therapy and patients with untreated Lyme arthritis will also be evaluated. Evidence that B.",
+      "title": "Searching for Persistence of Infection in Lyme Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 235.99714998676845,
+      "cross_score": -6.6046762,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03963635::eligibility::0",
+      "doc_id": "NCT03963635",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Human adults at least 21 years of age and no more than 80 years of age at the time of screening. 2. Have the ability to understand the requirements of the study, provide written informed consent (including consent for the use and disclosure of research-related health information), and comply with the study protocol procedures (including required study visits). 3. High clinical suspicion of acute Lyme disease, with symptoms seven days or less. 4. Must have erythema migrans rash and physician diagnosis of early Lyme disease. 5. Brief history and physical exam will be obtained during the study visit. 6. Be willing to return to our clinic for up to nine visits and blood draws over a one-year period. 7. People who do not have Lyme disease, but want to participate as healthy controls (one time visit) Exclusion Criteria: 1. Have poor venous access. 2. Have received any immunosuppressive therapy including biologics or recent course of steroids, or recent chemotherapy. 1. Anti-TNF therapy (eg, adalimumab, etanercept, infliximab). 2. Intravenous (IV) cyclophosphamide 3. Interleukin-1 receptor antagonist (anakinra). 4. Intravenous immunoglobulin (IVIG). 5.",
+      "title": "Novel Diagnostics for Early Lyme Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 230.51268311814363,
+      "cross_score": -6.685861,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01143558::summary::0",
+      "doc_id": "NCT01143558",
+      "section": "summary",
+      "passage_text": "Background: Lyme disease is an infection caused by Borrelia burgdorferi, a bacteria that is transmitted to humans by ticks. It can cause many different symptoms including rash, fever, headache, meningitis (infection of the central nervous system), and arthritis. While most patients improve after taking antibiotics, some patients continue to have symptoms. It is currently unknown why some patients continue to have symptoms. One possibility is that the antibiotics have not successfully gotten rid of all of the bacteria. Current tests for Lyme disease cannot tell whether the bacteria have been successfully eliminated from the body. Xenodiagnosis is a way to look for Borrelia bacteria using the animal that usually hosts them, Ixodes scapularis (also known as the deer tick). This method takes advantage of the evolution of the bacteria and the insect that transmits the infection, which can make the insect particularly good at finding the agent. In studies of animals, xenodiagnosis may be more sensitive than current tests for detecting the presence of the Lyme disease bacteria. Researchers are interested in using xenodiagnosis to determine whether uninfected ticks that feed on humans who have been infected with Lyme disease bacteria can detect the continued presence of live bacteria. Objectives: - To determine whether xenodiagnosis can be used to successfully investigate the presence of Lyme disease bacteria. Eligibility: 1. Individuals at least 18 years of age who are in one of the following categories: 2. Have had the erythema migrans rash (a symptom of Lyme infection) and received antibiotic therapy less than 4 months ago (but have not had antibiotics in the previous month). 3. Have the erythema migrans rash and received less than 2 days of antibiotic therapy. 4. Have been diagnosed with early or late Lyme disease, have received antibiotic therapy, but still have high levels of antibodies against the bacteria at least 6 months after therapy, and have not received antibiotics in the past 3 months. 5. Have been diagnosed with early or late Lyme disease, have received antibiotic therapy, and have new complaints of fatigue or other symptoms that are persistent for at least 6 months after completion of antibiotic therapy, and have not received antibiotics in the past 3 months. 6. Have been diagnosed with Lyme arthritis and have not yet received antibiotic therapy. 7. Healthy volunteers who have not had Lyme disease will also be included in this study. Design: - Participants will have an initial visit for a physical examination, medical history, and blood sample. - For the first study visit, researchers will place a strip of filter paper or a small plastic container with 20 to 30 disease-free ticks on the participant s skin. If possible, the ticks will be placed at the site of a Lyme disease rash or another suspicious area, or on the nondominant forearm. Participants will be asked to keep the ticks in place, and will keep a diary card at home to record any symptoms or problems. - The ticks will be collected 4 to 6 days after placement. At that visit, participants will have a skin biopsy taken of the area tested, a blood sample will be collected, and participants will receive a new diary card to keep until the next clinic visit. - After 1 month, participants will provide a final blood sample, and will receive a follow-up phone call 2 months afterward.",
+      "title": "Searching for Persistence of Infection in Lyme Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 235.99714998676845,
+      "cross_score": -6.761611,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your description, you seem to meet some criteria for participation in a clinical trial related to Lyme disease, but there are some missing pieces of information and unresolved requirements that need to be clarified.\",\n  \"supported_patient_facts\": [\"you are a 31-year-old woman\", \"you have a rash resembling erythema migrans\", \"your rash is located on your left arm\", \"the rash has been present for three days\", \"you recently went on an adventure trip in New Hampshire\", \"you were diagnosed with Lyme disease\"],\n  \"missing_patient_facts\": [\"your medical history regarding tick bites or exposure to ticks\", \"whether you have received antibiotic treatment for Lyme disease in the past\", \"the specific type of clinical trial you are being referred to\"],\n  \"unresolved_study_requirements\": [\"the exact location of the rash (face, neck, scalp, or over the tibia)\", \"whether you have received antibiotic therapy for Lyme disease in the last 3 months\"],\n  \"reasoning_summary\": \"The patient meets the general criteria for Lyme disease and the presence of erythema migrans, but the specific inclusion and exclusion criteria from different trials need to be reviewed to confirm eligibility. Additionally, the patient's medical history regarding tick exposure and antibiotic use is incomplete.\",\n  \"safety_note\": \"It is important to ensure that you are not at increased risk from the skin biopsy procedure and that you are compliant with the study protocol procedures.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on your description, you seem to meet some criteria for participation in a clinical trial related to Lyme disease, but there are some missing pieces of information and unresolved requirements that need to be clarified.",
+    "supported_patient_facts": [
+      "you are a 31-year-old woman",
+      "you have a rash resembling erythema migrans",
+      "your rash is located on your left arm",
+      "the rash has been present for three days",
+      "you recently went on an adventure trip in New Hampshire",
+      "you were diagnosed with Lyme disease"
+    ],
+    "missing_patient_facts": [
+      "your medical history regarding tick bites or exposure to ticks",
+      "whether you have received antibiotic treatment for Lyme disease in the past",
+      "the specific type of clinical trial you are being referred to"
+    ],
+    "unresolved_study_requirements": [
+      "the exact location of the rash (face, neck, scalp, or over the tibia)",
+      "whether you have received antibiotic therapy for Lyme disease in the last 3 months"
+    ],
+    "reasoning_summary": "The patient meets the general criteria for Lyme disease and the presence of erythema migrans, but the specific inclusion and exclusion criteria from different trials need to be reviewed to confirm eligibility. Additionally, the patient's medical history regarding tick exposure and antibiotic use is incomplete.",
+    "safety_note": "It is important to ensure that you are not at increased risk from the skin biopsy procedure and that you are compliant with the study protocol procedures."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on your description, you seem to meet some criteria for participation in a clinical trial related to Lyme disease, but there are some missing pieces of information and unresolved requirements that need to be clarified.",
+  "missing_patient_facts": [
+    "your medical history regarding tick bites or exposure to ticks",
+    "whether you have received antibiotic treatment for Lyme disease in the past",
+    "the specific type of clinical trial you are being referred to"
+  ],
+  "unresolved_study_requirements": [
+    "the exact location of the rash (face, neck, scalp, or over the tibia)",
+    "whether you have received antibiotic therapy for Lyme disease in the last 3 months"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.833
+}

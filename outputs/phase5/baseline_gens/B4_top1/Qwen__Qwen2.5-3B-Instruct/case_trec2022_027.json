@@ -1,0 +1,72 @@
+{
+  "case_id": "case_trec2022_027",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01518192",
+  "reference_trial": "NCT01518192",
+  "evidence_trials": [
+    "NCT01518192"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 31-year-old woman comes to the office due to 3 days of rash on her left arm. The lesion is mildly pruritic but not painful. She is otherwise healthy and occasionally takes ibuprofen during the first few days of her menstrual period. Temperature is 37 C, blood pressure is 110/75 mm Hg, and pulse is 95/min. The lesion is like a target sign known as erythema migrans. She recently went for an adventure trip in New Hampshire. The patient is diagnosed with Lyme disease. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01518192 | section=eligibility]\nInclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+  "passages": [
+    {
+      "passage_id": "NCT01518192::eligibility::0",
+      "doc_id": "NCT01518192",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 235.49607113045948,
+      "cross_score": -4.820422,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"31-year-old woman\", \"rash on left arm\", \"mildly pruritic\", \"recent adventure trip in New Hampshire\", \"diagnosed with Lyme disease\"],\n  \"missing_patient_facts\": [\"history of Lyme disease in the past\", \"pregnancy status\", \"lactation status\", \"immunocompromising condition\", \"serious adverse reaction to beta-lactam or tetracycline drugs\", \"antibiotic use within 10 days\"],\n  \"unresolved_study_requirements\": [\"history of Lyme disease in the past\", \"multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease\"],\n  \"reasoning_summary\": \"The patient has typical symptoms of Lyme disease and recent exposure to ticks, which aligns with the inclusion criteria. However, we need to confirm if she has a history of Lyme disease, if she is pregnant or breastfeeding, and if she has any contraindications related to antibiotic use. These are unresolved requirements that could affect her eligibility.\",\n  \"safety_note\": \"Please note that this assessment is preliminary and further evaluation is required to ensure safety and suitability for the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "31-year-old woman",
+      "rash on left arm",
+      "mildly pruritic",
+      "recent adventure trip in New Hampshire",
+      "diagnosed with Lyme disease"
+    ],
+    "missing_patient_facts": [
+      "history of Lyme disease in the past",
+      "pregnancy status",
+      "lactation status",
+      "immunocompromising condition",
+      "serious adverse reaction to beta-lactam or tetracycline drugs",
+      "antibiotic use within 10 days"
+    ],
+    "unresolved_study_requirements": [
+      "history of Lyme disease in the past",
+      "multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease"
+    ],
+    "reasoning_summary": "The patient has typical symptoms of Lyme disease and recent exposure to ticks, which aligns with the inclusion criteria. However, we need to confirm if she has a history of Lyme disease, if she is pregnant or breastfeeding, and if she has any contraindications related to antibiotic use. These are unresolved requirements that could affect her eligibility.",
+    "safety_note": "Please note that this assessment is preliminary and further evaluation is required to ensure safety and suitability for the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "history of Lyme disease in the past",
+    "pregnancy status",
+    "lactation status",
+    "immunocompromising condition",
+    "serious adverse reaction to beta-lactam or tetracycline drugs",
+    "antibiotic use within 10 days"
+  ],
+  "unresolved_study_requirements": [
+    "history of Lyme disease in the past",
+    "multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.444
+}

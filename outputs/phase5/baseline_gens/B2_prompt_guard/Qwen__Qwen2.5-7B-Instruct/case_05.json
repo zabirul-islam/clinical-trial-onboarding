@@ -1,0 +1,126 @@
+{
+  "case_id": "case_05",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02584972",
+  "reference_trial": "NCT02584972",
+  "evidence_trials": [
+    "NCT00128115",
+    "NCT02584972",
+    "NCT02770092",
+    "NCT03997682",
+    "NCT04064710"
+  ],
+  "question": "I am 70 years old, I can walk independently, and I had a vertebral fracture. I also have several chronic medical conditions. Would this study still consider me?",
+  "evidence": "[Passage 1 | doc=NCT02584972 | section=eligibility]\nInclusion Criteria: - children with autism spectrum disorder - 6-12 years old - able to walk independently Exclusion Criteria: - ASD children who were diagnosed with neurological, orthopedic, or psychiatric diagnoses according to DSM-IV criteria that can affect motor control and postural stability; - cerebral palsy; - neuropathic diseases; - limb fracture; - head trauma during the previous year; - who had an IQ score below the normal range (<70), as assessed by the Wechsler Intelligence Scale for Children - Revised (Wisc-R) administered by a child psychologist.\n\n[Passage 2 | doc=NCT00128115 | section=eligibility]\nInclusion Criteria: - Patient has had surgery for a unilateral hip fracture, and is considered to be partially or fully weight bearing after the surgery - Surgical repair of the fracture has occurred no more than 4 days post hip fracture - Prior to starting the study medication, the patient is enrolled in a rehabilitation program (as an in-patient or as an out-patient) - Patient is judged to have been able to ambulate independently at home prior to their hip fracture (able to walk indoors in a familiar setting with little or no aid from another person) Exclusion Criteria: - Patient has an unstable medical condition - Patient has a hip fracture that is due to bone pathology other than osteoporosis (e.g., malignancy, or Paget's Disease), or major trauma (e.g. motor vehicle accident). - Patient has Type I diabetes - Patient has Type II diabetes with any of conditions; 1. Patient is currently taking more than one anti-hyperglycemic agent, or is taking a single combination anti-hyperglycemic drug containing more than one anti-hyperglycemic medication 2. Patient is currently receiving insulin.\n\n[Passage 3 | doc=NCT04064710 | section=eligibility]\nInclusion Criteria: 1. Skeletally mature adult \u2265 50 years of age at the time of surgery; 2. Currently in an independent living environment; 3. One- or two- level, acute (within six weeks of injury), thoracic or lumbar (T6-L5) vertebral body compression fracture(s) with evidence of marrow edema by MRI/CT; 4. Adequate vertebral body height and geometry for insertion of the access instruments, as determined by the investigator and suitable candidate for standard kyphoplasty or vertebroplasty procedure; 5. VAS back pain score \u2265 70 mm on a 100 mm scale; 6. Has central pain over the spinous process upon palpation at the planned vertebral index level; 7. Has failed prior non-surgical medical management (i.e. - physical therapy, narcotic and/or non-narcotic medication) 8. Psychosocially, mentally and physically able to fully comply with this protocol including adhering to scheduled visits, treatment plan, completing forms, and other study procedures; 9. Personally signed and dated informed consent document prior to any study-related procedures indicating that the patient has been informed of all pertinent aspects of the study. Exclusion Criteria: 1.\n\n[Passage 4 | doc=NCT02770092 | section=eligibility]\nInclusion criteria CHF subjects: - Ability to walk, sit down and stand up independently - Age 45 years or older - Ability to lie in supine or elevated position for 8 hours - Diagnosis of CHF; under regular care by cardiologist - Reduced ejection fraction (<45%) assessed in the past 2 years - NYHA class II-IV - Clinically stable condition; no hospitalization 4 weeks preceding first study day - Willingness and ability to comply with the protocol Inclusion criteria COPD subjects: - Ability to walk, sit down and stand up independently - Age 45 years or older - Ability to lie in supine or elevated position for 8 hours - Diagnosis of moderate to very severe chronic airflow limitation and compliant to the following criteria: FEV1 < 70% of reference FEV1 - Clinically stable condition and not suffering from a respiratory tract infection or exacerbation of their disease (defined as a combination of increased cough, sputum purulence, shortness of breath, systemic symptoms such as fever, and a decrease in FEV1 > 10% compared with values when clinically stable in the preceding year) at least 4 weeks prior to the first test day - Shortness of breath on exertion - Willingness and ability to compl\n\n[Passage 5 | doc=NCT03997682 | section=eligibility]\nInclusion Criteria: - Patient attending the Roth | McFarlane Hand and Upper Limb Clinic (HULC) - Patients that have had a low-impact distal radius fracture (DRF) within the last 6-10 weeks - Aged 50-65 - Able to speak and understand English - Are able to provide informed consent Exclusion Criteria: - Any contraindications to exercise - Progressive neurological disorders that would affect study participation - Unable to stand or walk independently - Unable to provide consent\n\n[Passage 6 | doc=NCT04064710 | section=eligibility]\nMore than two levels with a vertebral compression fracture; 2. Previous treated or untreated vertebral compression fracture at the to be treated level(s); 3. Uncorrectable coagulopathy; 4. Previous instrumented spinal surgery; 5. Significant vertebral collapse defined as > 70% of original vertebral height, or a burst, or pedicle fracture; 6. Degenerative scoliosis, defined as Cobb angle > 20\u00b0 at any level; 7. Pre-existing neurological deficit or radicular pain that is not well defined or unstable; 8. Disabling back pain secondary to causes other than acute fracture; 9. Inability to walk or stand prior to sustaining the vertebral compression fracture; 10. Active systemic or local infection; 11. Known history of Paget's disease, osteomalacia, or any other metabolic bone disease; 12. Morbid obesity defined as a body mass index > 40 kg/m2; 13. Active malignancy. A patient with a history of any invasive malignancy (except nonmelanoma skin cancer), unless treated with curative intent and there has been no clinical signs or symptoms of the malignancy for more than 5 years; 14.",
+  "passages": [
+    {
+      "passage_id": "NCT02584972::eligibility::0",
+      "doc_id": "NCT02584972",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - children with autism spectrum disorder - 6-12 years old - able to walk independently Exclusion Criteria: - ASD children who were diagnosed with neurological, orthopedic, or psychiatric diagnoses according to DSM-IV criteria that can affect motor control and postural stability; - cerebral palsy; - neuropathic diseases; - limb fracture; - head trauma during the previous year; - who had an IQ score below the normal range (<70), as assessed by the Wechsler Intelligence Scale for Children - Revised (Wisc-R) administered by a child psychologist.",
+      "title": "Postural Control During Walking and Standing Among Children With Autism Spectrum Disorder",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 60.61909011252352,
+      "cross_score": 0.56709397,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00128115::eligibility::0",
+      "doc_id": "NCT00128115",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient has had surgery for a unilateral hip fracture, and is considered to be partially or fully weight bearing after the surgery - Surgical repair of the fracture has occurred no more than 4 days post hip fracture - Prior to starting the study medication, the patient is enrolled in a rehabilitation program (as an in-patient or as an out-patient) - Patient is judged to have been able to ambulate independently at home prior to their hip fracture (able to walk indoors in a familiar setting with little or no aid from another person) Exclusion Criteria: - Patient has an unstable medical condition - Patient has a hip fracture that is due to bone pathology other than osteoporosis (e.g., malignancy, or Paget's Disease), or major trauma (e.g. motor vehicle accident). - Patient has Type I diabetes - Patient has Type II diabetes with any of conditions; 1. Patient is currently taking more than one anti-hyperglycemic agent, or is taking a single combination anti-hyperglycemic drug containing more than one anti-hyperglycemic medication 2. Patient is currently receiving insulin.",
+      "title": "Treatment of Sarcopenia in Post-Hip Fracture Patients (0677-032)",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 58.20161785934422,
+      "cross_score": -1.3097851,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04064710::eligibility::0",
+      "doc_id": "NCT04064710",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Skeletally mature adult \u2265 50 years of age at the time of surgery; 2. Currently in an independent living environment; 3. One- or two- level, acute (within six weeks of injury), thoracic or lumbar (T6-L5) vertebral body compression fracture(s) with evidence of marrow edema by MRI/CT; 4. Adequate vertebral body height and geometry for insertion of the access instruments, as determined by the investigator and suitable candidate for standard kyphoplasty or vertebroplasty procedure; 5. VAS back pain score \u2265 70 mm on a 100 mm scale; 6. Has central pain over the spinous process upon palpation at the planned vertebral index level; 7. Has failed prior non-surgical medical management (i.e. - physical therapy, narcotic and/or non-narcotic medication) 8. Psychosocially, mentally and physically able to fully comply with this protocol including adhering to scheduled visits, treatment plan, completing forms, and other study procedures; 9. Personally signed and dated informed consent document prior to any study-related procedures indicating that the patient has been informed of all pertinent aspects of the study. Exclusion Criteria: 1.",
+      "title": "Biological Allograft Chain Tissue Implant",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 58.953391746295225,
+      "cross_score": -1.5905123,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02770092::eligibility::0",
+      "doc_id": "NCT02770092",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria CHF subjects: - Ability to walk, sit down and stand up independently - Age 45 years or older - Ability to lie in supine or elevated position for 8 hours - Diagnosis of CHF; under regular care by cardiologist - Reduced ejection fraction (<45%) assessed in the past 2 years - NYHA class II-IV - Clinically stable condition; no hospitalization 4 weeks preceding first study day - Willingness and ability to comply with the protocol Inclusion criteria COPD subjects: - Ability to walk, sit down and stand up independently - Age 45 years or older - Ability to lie in supine or elevated position for 8 hours - Diagnosis of moderate to very severe chronic airflow limitation and compliant to the following criteria: FEV1 < 70% of reference FEV1 - Clinically stable condition and not suffering from a respiratory tract infection or exacerbation of their disease (defined as a combination of increased cough, sputum purulence, shortness of breath, systemic symptoms such as fever, and a decrease in FEV1 > 10% compared with values when clinically stable in the preceding year) at least 4 weeks prior to the first test day - Shortness of breath on exertion - Willingness and ability to compl",
+      "title": "CHF COPD Sip Feed Anabolic Response",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 57.018986411275606,
+      "cross_score": -1.960569,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03997682::eligibility::0",
+      "doc_id": "NCT03997682",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient attending the Roth | McFarlane Hand and Upper Limb Clinic (HULC) - Patients that have had a low-impact distal radius fracture (DRF) within the last 6-10 weeks - Aged 50-65 - Able to speak and understand English - Are able to provide informed consent Exclusion Criteria: - Any contraindications to exercise - Progressive neurological disorders that would affect study participation - Unable to stand or walk independently - Unable to provide consent",
+      "title": "Hands-Up: Exercise and Education Program After a Wrist Fracture",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 58.12591303839294,
+      "cross_score": -2.026491,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04064710::eligibility::1",
+      "doc_id": "NCT04064710",
+      "section": "eligibility",
+      "passage_text": "More than two levels with a vertebral compression fracture; 2. Previous treated or untreated vertebral compression fracture at the to be treated level(s); 3. Uncorrectable coagulopathy; 4. Previous instrumented spinal surgery; 5. Significant vertebral collapse defined as > 70% of original vertebral height, or a burst, or pedicle fracture; 6. Degenerative scoliosis, defined as Cobb angle > 20\u00b0 at any level; 7. Pre-existing neurological deficit or radicular pain that is not well defined or unstable; 8. Disabling back pain secondary to causes other than acute fracture; 9. Inability to walk or stand prior to sustaining the vertebral compression fracture; 10. Active systemic or local infection; 11. Known history of Paget's disease, osteomalacia, or any other metabolic bone disease; 12. Morbid obesity defined as a body mass index > 40 kg/m2; 13. Active malignancy. A patient with a history of any invasive malignancy (except nonmelanoma skin cancer), unless treated with curative intent and there has been no clinical signs or symptoms of the malignancy for more than 5 years; 14.",
+      "title": "Biological Allograft Chain Tissue Implant",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 58.953391746295225,
+      "cross_score": -2.1094308,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your information suggests you might be eligible, but we need more details to confirm.\",\n  \"supported_patient_facts\": [\"70 years old\", \"can walk independently\", \"had a vertebral fracture\"],\n  \"missing_patient_facts\": [\"chronic medical conditions status\", \"informed consent\"],\n  \"unresolved_study_requirements\": [\"specific vertebral fracture details\", \"other medical conditions assessment\"],\n  \"reasoning_summary\": \"The patient's age, ability to walk, and vertebral fracture align with the inclusion criteria of NCT04064710. However, additional information about their chronic medical conditions and specific fracture details is required. Also, informed consent needs to be confirmed.\",\n  \"safety_note\": \"Please ensure all safety criteria are met, especially regarding any other medical conditions that could affect eligibility.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your information suggests you might be eligible, but we need more details to confirm.",
+    "supported_patient_facts": [
+      "70 years old",
+      "can walk independently",
+      "had a vertebral fracture"
+    ],
+    "missing_patient_facts": [
+      "chronic medical conditions status",
+      "informed consent"
+    ],
+    "unresolved_study_requirements": [
+      "specific vertebral fracture details",
+      "other medical conditions assessment"
+    ],
+    "reasoning_summary": "The patient's age, ability to walk, and vertebral fracture align with the inclusion criteria of NCT04064710. However, additional information about their chronic medical conditions and specific fracture details is required. Also, informed consent needs to be confirmed.",
+    "safety_note": "Please ensure all safety criteria are met, especially regarding any other medical conditions that could affect eligibility."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your information suggests you might be eligible, but we need more details to confirm.",
+  "missing_patient_facts": [
+    "chronic medical conditions status",
+    "informed consent"
+  ],
+  "unresolved_study_requirements": [
+    "specific vertebral fracture details",
+    "other medical conditions assessment"
+  ],
+  "narrow_leak_n": 1,
+  "latency_sec": 15.069
+}

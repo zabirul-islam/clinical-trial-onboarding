@@ -1,0 +1,78 @@
+{
+  "case_id": "case_trec2021_053",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00395538",
+  "selected_doc": "NCT02802449",
+  "reference_trial": "NCT02802449",
+  "evidence_trials": [
+    "NCT02802449"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain. She is married and has 3 children. Her past medical and drug history are unremarkable. Her BMI is 23, BP: 120/75, HR: 75/min. Her laboratory study is remarkable for Vit D: 14ng/ml and otherwise healthy. (Ca: 9.2mg/dl, Phosphorus: 3.2mg/dl, PTH: 28pg/ml) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02802449 | section=detailed_description]\nWritten informed consent from the subject or their legally authorized representative would have been obtained prior to any study-related procedures being performed. In addition to signing the general informed consent, subjects who agree to participate the sub-study with fat biopsy will sign a second informed consent. The subject will be assigned a screening number and will be contacted regarding eligibility once all screening procedures have been performed and laboratory results received. The following evaluations and assessments will be performed during Screening: inclusion/exclusion criteria, medical history (including demographics and concomitant medications, including prescription, herbal/vitamins, and all over-the-counter medications), vital signs (sitting BP, heart rate), and a mini physical examination (which will include height (cm), weight (kg), and waist circumference (cm) from which body mass index (BMI) will be calculated and a clinical heart/lung examination. Blood will be drawn (15 cc) for full biochemistry panel with glucose (mg/dl), complete blood count, HbA1c (%), calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), pregnancy test and 25(OH)D (ng/ml) levels.\n\n[Passage 2 | doc=NCT02802449 | section=detailed_description]\nAfter screening information is reviewed and deemed to be appropriate for inclusion in the study, eligible subjects will be given an appointment and preparatory instructions for Visit 2 (Baseline/Randomization/Dose#1). Instructions include cessation of smoking (if they smoke), eating, or drinking caffeine for at least 8 hours prior to the Baseline Visit. If participants are taking prescribed medications, they will be asked to bring them and advised to take them as prescribed. VISIT 2 - BASELINE/ RANDOMIZATION/ STUDY DRUG DOSE#1 ADMINISTRATION. If subject meets all of the inclusion/exclusion criteria, they will be randomized. The participant will be asked about any adverse events and changes in medications, including prescription, herbal/vitamin, and over-the-counter medications. Vital signs (sitting BP, heart rate) will be obtained and a nutritional survey administered. Blood will be drawn (45 cc) for serum calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), iPTH (pg/ml) and 1-84 PTH/7-84 PTH ratio, pregnancy test, 25(OH)D (ng/ml) levels; and samples stored for bio-markers (e.g. pro-inflammatory/pro-thrombotic/fibrotic, insulin sensitivity, and vitamin D receptor polymorphisms).",
+  "passages": [
+    {
+      "passage_id": "NCT02802449::detailed_description::2",
+      "doc_id": "NCT02802449",
+      "section": "detailed_description",
+      "passage_text": "Written informed consent from the subject or their legally authorized representative would have been obtained prior to any study-related procedures being performed. In addition to signing the general informed consent, subjects who agree to participate the sub-study with fat biopsy will sign a second informed consent. The subject will be assigned a screening number and will be contacted regarding eligibility once all screening procedures have been performed and laboratory results received. The following evaluations and assessments will be performed during Screening: inclusion/exclusion criteria, medical history (including demographics and concomitant medications, including prescription, herbal/vitamins, and all over-the-counter medications), vital signs (sitting BP, heart rate), and a mini physical examination (which will include height (cm), weight (kg), and waist circumference (cm) from which body mass index (BMI) will be calculated and a clinical heart/lung examination. Blood will be drawn (15 cc) for full biochemistry panel with glucose (mg/dl), complete blood count, HbA1c (%), calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), pregnancy test and 25(OH)D (ng/ml) levels.",
+      "title": "To Study the Nutri-Genomic Response of Vit-D Supplementation in African-Americans",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 168.39799760423017,
+      "cross_score": -5.0557356,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02802449::detailed_description::3",
+      "doc_id": "NCT02802449",
+      "section": "detailed_description",
+      "passage_text": "After screening information is reviewed and deemed to be appropriate for inclusion in the study, eligible subjects will be given an appointment and preparatory instructions for Visit 2 (Baseline/Randomization/Dose#1). Instructions include cessation of smoking (if they smoke), eating, or drinking caffeine for at least 8 hours prior to the Baseline Visit. If participants are taking prescribed medications, they will be asked to bring them and advised to take them as prescribed. VISIT 2 - BASELINE/ RANDOMIZATION/ STUDY DRUG DOSE#1 ADMINISTRATION. If subject meets all of the inclusion/exclusion criteria, they will be randomized. The participant will be asked about any adverse events and changes in medications, including prescription, herbal/vitamin, and over-the-counter medications. Vital signs (sitting BP, heart rate) will be obtained and a nutritional survey administered. Blood will be drawn (45 cc) for serum calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), iPTH (pg/ml) and 1-84 PTH/7-84 PTH ratio, pregnancy test, 25(OH)D (ng/ml) levels; and samples stored for bio-markers (e.g. pro-inflammatory/pro-thrombotic/fibrotic, insulin sensitivity, and vitamin D receptor polymorphisms).",
+      "title": "To Study the Nutri-Genomic Response of Vit-D Supplementation in African-Americans",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 168.39799760423017,
+      "cross_score": -6.2925444,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"34 years old\", \"BMI within normal range (23)\", \"No significant past medical or drug history\", \"BP and HR within normal range\", \"Healthy laboratory results except for low Vitamin D level\"],\n  \"missing_patient_facts\": [\"Specific bone and joint pain condition\", \"Medication usage and compliance\"],\n  \"unresolved_study_requirements\": [\"Inclusion/exclusion criteria review based on specific bone and joint pain condition\", \"Confirmation of no smoking habit if applicable\", \"Cessation of eating, drinking caffeine, and medication intake for 8 hours before baseline visit if applicable\"],\n  \"reasoning_summary\": \"The patient's age, BMI, blood pressure, heart rate, and overall health status suggest she might meet the study criteria. However, her specific bone and joint pain condition, current medication use, and smoking status are unclear and need further clarification. Additionally, the study requires specific procedures that need to be confirmed.\",\n  \"safety_note\": \"It is important to ensure that all safety guidelines are followed, especially regarding medication and dietary restrictions before the baseline visit.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "34 years old",
+      "BMI within normal range (23)",
+      "No significant past medical or drug history",
+      "BP and HR within normal range",
+      "Healthy laboratory results except for low Vitamin D level"
+    ],
+    "missing_patient_facts": [
+      "Specific bone and joint pain condition",
+      "Medication usage and compliance"
+    ],
+    "unresolved_study_requirements": [
+      "Inclusion/exclusion criteria review based on specific bone and joint pain condition",
+      "Confirmation of no smoking habit if applicable",
+      "Cessation of eating, drinking caffeine, and medication intake for 8 hours before baseline visit if applicable"
+    ],
+    "reasoning_summary": "The patient's age, BMI, blood pressure, heart rate, and overall health status suggest she might meet the study criteria. However, her specific bone and joint pain condition, current medication use, and smoking status are unclear and need further clarification. Additionally, the study requires specific procedures that need to be confirmed.",
+    "safety_note": "It is important to ensure that all safety guidelines are followed, especially regarding medication and dietary restrictions before the baseline visit."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Specific bone and joint pain condition",
+    "Medication usage and compliance"
+  ],
+  "unresolved_study_requirements": [
+    "Inclusion/exclusion criteria review based on specific bone and joint pain condition",
+    "Confirmation of no smoking habit if applicable",
+    "Cessation of eating, drinking caffeine, and medication intake for 8 hours before baseline visit if applicable"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 21.101
+}

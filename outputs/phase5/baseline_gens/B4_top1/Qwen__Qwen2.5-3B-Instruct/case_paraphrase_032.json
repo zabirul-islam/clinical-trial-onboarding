@@ -1,0 +1,69 @@
+{
+  "case_id": "case_paraphrase_032",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01634113",
+  "reference_trial": "NCT01634113",
+  "evidence_trials": [
+    "NCT01634113"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily. What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+  "passages": [
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 476.5049754243042,
+      "cross_score": -4.87335,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"To join this study, you will need to provide your parent or legal guardian with an informed consent form consistent with ICH-GCP guidelines and local laws. You also need to have a doctor document that you have had persistent asthma symptoms for at least 6 months, including wheezing, cough, and shortness of breath. Your lung function needs to be tested and found to be impaired, meaning your FEV1 is less than or equal to 90% of what it should be. Additionally, you must be taking a maintenance treatment with an inhaled corticosteroid for at least 4 weeks before the start of the study.\",\n  \"supported_patient_facts\": [\n    \"A 39-year-old man with a history of asthma for 3 years\",\n    \"Symptoms include cough, wheezing, and shortness of breath\"\n  ],\n  \"missing_patient_facts\": [\n    \"Signed informed consent\",\n    \"Documented persistent asthma symptoms for at least 6 months\",\n    \"Impaired lung function (FEV1 \u2264 90% of predicted)\",\n    \"Maintenance treatment with inhaled corticosteroid for at least 4 weeks\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Signed informed consent\",\n    \"Implied documentation of persistent asthma symptoms\",\n    \"Implied documentation of impaired lung function\",\n    \"Implied documentation of maintenance treatment with inhaled corticosteroid\"\n  ],\n  \"reasoning_summary\": \"The patient has a history of asthma and symptoms that align with the inclusion criteria. However, the required signed informed consent, documentation of persistent asthma symptoms, documentation of impaired lung function, and documentation of maintenance treatment with inhaled corticosteroid are not explicitly mentioned in the provided information. These elements are necessary to confirm eligibility.\",\n  \"safety_note\": \"Before enrolling, ensure all required documents are completed and reviewed by a qualified healthcare professional.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "To join this study, you will need to provide your parent or legal guardian with an informed consent form consistent with ICH-GCP guidelines and local laws. You also need to have a doctor document that you have had persistent asthma symptoms for at least 6 months, including wheezing, cough, and shortness of breath. Your lung function needs to be tested and found to be impaired, meaning your FEV1 is less than or equal to 90% of what it should be. Additionally, you must be taking a maintenance treatment with an inhaled corticosteroid for at least 4 weeks before the start of the study.",
+    "supported_patient_facts": [
+      "A 39-year-old man with a history of asthma for 3 years",
+      "Symptoms include cough, wheezing, and shortness of breath"
+    ],
+    "missing_patient_facts": [
+      "Signed informed consent",
+      "Documented persistent asthma symptoms for at least 6 months",
+      "Impaired lung function (FEV1 \u2264 90% of predicted)",
+      "Maintenance treatment with inhaled corticosteroid for at least 4 weeks"
+    ],
+    "unresolved_study_requirements": [
+      "Signed informed consent",
+      "Implied documentation of persistent asthma symptoms",
+      "Implied documentation of impaired lung function",
+      "Implied documentation of maintenance treatment with inhaled corticosteroid"
+    ],
+    "reasoning_summary": "The patient has a history of asthma and symptoms that align with the inclusion criteria. However, the required signed informed consent, documentation of persistent asthma symptoms, documentation of impaired lung function, and documentation of maintenance treatment with inhaled corticosteroid are not explicitly mentioned in the provided information. These elements are necessary to confirm eligibility.",
+    "safety_note": "Before enrolling, ensure all required documents are completed and reviewed by a qualified healthcare professional."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "To join this study, you will need to provide your parent or legal guardian with an informed consent form consistent with ICH-GCP guidelines and local laws. You also need to have a doctor document that you have had persistent asthma symptoms for at least 6 months, including wheezing, cough, and shortness of breath. Your lung function needs to be tested and found to be impaired, meaning your FEV1 is less than or equal to 90% of what it should be. Additionally, you must be taking a maintenance treatment with an inhaled corticosteroid for at least 4 weeks before the start of the study.",
+  "missing_patient_facts": [
+    "Signed informed consent",
+    "Documented persistent asthma symptoms for at least 6 months",
+    "Impaired lung function (FEV1 \u2264 90% of predicted)",
+    "Maintenance treatment with inhaled corticosteroid for at least 4 weeks"
+  ],
+  "unresolved_study_requirements": [
+    "Signed informed consent",
+    "Implied documentation of persistent asthma symptoms",
+    "Implied documentation of impaired lung function",
+    "Implied documentation of maintenance treatment with inhaled corticosteroid"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.883
+}

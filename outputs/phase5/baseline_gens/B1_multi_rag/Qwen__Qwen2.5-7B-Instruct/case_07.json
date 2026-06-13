@@ -1,0 +1,125 @@
+{
+  "case_id": "case_07",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04660656",
+  "reference_trial": "NCT04660656",
+  "evidence_trials": [
+    "NCT00502827",
+    "NCT00909207",
+    "NCT01906008",
+    "NCT03093909",
+    "NCT04660656"
+  ],
+  "question": "Can you explain in simple words what this study is about and who it is mainly for?",
+  "evidence": "[Passage 1 | doc=NCT04660656 | section=summary]\nSciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.\n\n[Passage 2 | doc=NCT03093909 | section=summary]\nAny time the words \"you,\" \"your,\" \"I,\" or \"me\" appear, it is meant to apply to the potential participant. The goal of this clinical research study is to find the highest tolerable dose of gemcitabine that can be given by inhalation (breathing it as a mist) to patients with solid tumors that have spread to the lungs from other parts of the body. The safety and side effects of this drug will also be studied. This is an investigational study. Gemcitabine is FDA approved and commercially available for the treatment of pancreatic and lung cancer, and other solid tumors. Its administration by inhalation is investigational. The study doctor can explain how the study drug is designed to work. Up to 44 participants will be enrolled in this study. All will take part at MD Anderson.\n\n[Passage 3 | doc=NCT00502827 | section=detailed_description]\nIf you agree to take part in this study, researchers will first do a test to learn what the CO level of your blood is. To do this test, you will be asked to blow into a cardboard tube. If the test finds that you are ineligible, you will not be able to continue on this study. If you are found to be eligible, you will be enrolled in this study and asked to complete an interview that should last about 1 hour. During this interview, you will be asked basic questions, such as your age, education level, and smoking history. You will also be asked questions about your mood, quality of life, and stress. You will then be asked to complete a short test that involves completing some basic tasks, such as remembering several words and drawing a simple shape. This test, which will take about 2-5 minutes to complete, is used to measure attention and concentration. You will then be randomly assigned (as in the toss of a coin) to one of two treatment groups. There is an equal chance of being assigned to either group. If you are assigned to Group 1, you will receive advice from your physician/provider to stop smoking and written materials designed to help you quit smoking.\n\n[Passage 4 | doc=NCT01906008 | section=summary]\nThe goal of this clinical research study is to learn if minocycline can reduce numbness, pain, and/or loss of motor function in patients with colorectal cancer. In this study, minocycline will be compared to a placebo. The study doctor can explain how the study drug is designed to work. A placebo is not a drug. It looks like the study drug, but it is not designed to treat any disease or illness. It is designed to be compared with a study drug to learn if the study drug has any real effect.\n\n[Passage 5 | doc=NCT00502827 | section=summary]\nThe goal of this research study is to look at treatments that may help individuals who have HIV/AIDS to stop smoking.\n\n[Passage 6 | doc=NCT00909207 | section=summary]\nThe scientific aim of this study is to evaluate patient comprehension of the 77 newly developed items as well as the extent to which the items correspond to the concepts of interest for each patient reported outcome (PRO). A secondary aim of this study is to evaluate the usability of the technology interface for collecting the PRO data of the PRO-CTCAE system once it has been built to accommodate the learning garnered during the cognitive interviews.",
+  "passages": [
+    {
+      "passage_id": "NCT04660656::summary::0",
+      "doc_id": "NCT04660656",
+      "section": "summary",
+      "passage_text": "Sciatica is a disabling condition that affects many people. This condition has an enormous influence on the social functioning of patients. The clinical determination of the severity of back pain is mainly done with validated questionnaires, which express the subjective pattern of complaints in a score. These usually reflect the severity of the complaints, but there is still a lack of objective and quantitative tests. In this study, the aim is to investigate whether there is a connection between the duration of the 5R-STS test and the outcome of low back operations after one year. In other words: What is the predictive value of this test on the result of surgery? The validated five-repetition sit-to-stand test (5R-STS) is a standardized test that has its origin in pneumology and is derived from the 1-minute sit-to-stand test. In this test, the patient stands up and sits down for 1 minute as often as possible from a chair without armrests, counting the number of movements. This not only measures how mobile the patient is, but can also say something about the condition of the heart and lungs. Recently, the 5R-STS has been described, in which the time is measured in which the patient has to stand up straight and sit down again five times from a chair.",
+      "title": "Predictive Value of the Five-repetition Sit-to-stand Test After Lumbar Spine surgerySTS-3 Study.",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 69.1523271363753,
+      "cross_score": -3.843278,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03093909::summary::0",
+      "doc_id": "NCT03093909",
+      "section": "summary",
+      "passage_text": "Any time the words \"you,\" \"your,\" \"I,\" or \"me\" appear, it is meant to apply to the potential participant. The goal of this clinical research study is to find the highest tolerable dose of gemcitabine that can be given by inhalation (breathing it as a mist) to patients with solid tumors that have spread to the lungs from other parts of the body. The safety and side effects of this drug will also be studied. This is an investigational study. Gemcitabine is FDA approved and commercially available for the treatment of pancreatic and lung cancer, and other solid tumors. Its administration by inhalation is investigational. The study doctor can explain how the study drug is designed to work. Up to 44 participants will be enrolled in this study. All will take part at MD Anderson.",
+      "title": "Study of Aerosol Gemcitabine in Patients With Solid Tumors and Pulmonary Metastases",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 65.47469596153303,
+      "cross_score": -3.9719496,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00502827::detailed_description::0",
+      "doc_id": "NCT00502827",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, researchers will first do a test to learn what the CO level of your blood is. To do this test, you will be asked to blow into a cardboard tube. If the test finds that you are ineligible, you will not be able to continue on this study. If you are found to be eligible, you will be enrolled in this study and asked to complete an interview that should last about 1 hour. During this interview, you will be asked basic questions, such as your age, education level, and smoking history. You will also be asked questions about your mood, quality of life, and stress. You will then be asked to complete a short test that involves completing some basic tasks, such as remembering several words and drawing a simple shape. This test, which will take about 2-5 minutes to complete, is used to measure attention and concentration. You will then be randomly assigned (as in the toss of a coin) to one of two treatment groups. There is an equal chance of being assigned to either group. If you are assigned to Group 1, you will receive advice from your physician/provider to stop smoking and written materials designed to help you quit smoking.",
+      "title": "Smoking Cessation for HIV/AIDS Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 69.88824114672815,
+      "cross_score": -4.7815857,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01906008::summary::0",
+      "doc_id": "NCT01906008",
+      "section": "summary",
+      "passage_text": "The goal of this clinical research study is to learn if minocycline can reduce numbness, pain, and/or loss of motor function in patients with colorectal cancer. In this study, minocycline will be compared to a placebo. The study doctor can explain how the study drug is designed to work. A placebo is not a drug. It looks like the study drug, but it is not designed to treat any disease or illness. It is designed to be compared with a study drug to learn if the study drug has any real effect.",
+      "title": "Phase II Study of Minocycline for Reducing Symptom Burden in Colorectal Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 67.11209986262773,
+      "cross_score": -4.9511724,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00502827::summary::0",
+      "doc_id": "NCT00502827",
+      "section": "summary",
+      "passage_text": "The goal of this research study is to look at treatments that may help individuals who have HIV/AIDS to stop smoking.",
+      "title": "Smoking Cessation for HIV/AIDS Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 69.88824114672815,
+      "cross_score": -5.1837187,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00909207::summary::0",
+      "doc_id": "NCT00909207",
+      "section": "summary",
+      "passage_text": "The scientific aim of this study is to evaluate patient comprehension of the 77 newly developed items as well as the extent to which the items correspond to the concepts of interest for each patient reported outcome (PRO). A secondary aim of this study is to evaluate the usability of the technology interface for collecting the PRO data of the PRO-CTCAE system once it has been built to accommodate the learning garnered during the cognitive interviews.",
+      "title": "Patient-Reported Outcomes Version of Common Terminology Criteria (CTCPRO) Cognitive Debriefing",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 66.37199929064853,
+      "cross_score": -5.2823815,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study aims to investigate the connection between the duration of the 5R-STS test and the outcome of low back operations after one year. It is mainly for patients with sciatica who are considering or have undergone low back surgery.\",\n  \"supported_patient_facts\": [\"has sciatica\", \"considering or have undergone low back surgery\"],\n  \"missing_patient_facts\": [\"specific symptoms related to sciatica\", \"type of low back surgery\"],\n  \"unresolved_study_requirements\": [\"duration of 5R-STS test\", \"outcome measurement after one year\"],\n  \"reasoning_summary\": \"The patient's condition (sciatica) and potential need for low back surgery align with the study's focus. However, specific details about the patient's symptoms and type of surgery are missing, and the exact study requirements for the 5R-STS test and outcome measurement are unresolved.\",\n  \"safety_note\": \"No safety concerns mentioned in the provided evidence.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study aims to investigate the connection between the duration of the 5R-STS test and the outcome of low back operations after one year. It is mainly for patients with sciatica who are considering or have undergone low back surgery.",
+    "supported_patient_facts": [
+      "has sciatica",
+      "considering or have undergone low back surgery"
+    ],
+    "missing_patient_facts": [
+      "specific symptoms related to sciatica",
+      "type of low back surgery"
+    ],
+    "unresolved_study_requirements": [
+      "duration of 5R-STS test",
+      "outcome measurement after one year"
+    ],
+    "reasoning_summary": "The patient's condition (sciatica) and potential need for low back surgery align with the study's focus. However, specific details about the patient's symptoms and type of surgery are missing, and the exact study requirements for the 5R-STS test and outcome measurement are unresolved.",
+    "safety_note": "No safety concerns mentioned in the provided evidence."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study aims to investigate the connection between the duration of the 5R-STS test and the outcome of low back operations after one year. It is mainly for patients with sciatica who are considering or have undergone low back surgery.",
+  "missing_patient_facts": [
+    "specific symptoms related to sciatica",
+    "type of low back surgery"
+  ],
+  "unresolved_study_requirements": [
+    "duration of 5R-STS test",
+    "outcome measurement after one year"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.911
+}

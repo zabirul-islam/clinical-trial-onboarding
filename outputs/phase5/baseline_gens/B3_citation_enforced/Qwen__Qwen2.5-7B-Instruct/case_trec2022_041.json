@@ -1,0 +1,128 @@
+{
+  "case_id": "case_trec2022_041",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00802698",
+  "reference_trial": "NCT00802698",
+  "evidence_trials": [
+    "NCT00802698",
+    "NCT01030081",
+    "NCT01614379",
+    "NCT02765308",
+    "NCT03892785",
+    "NCT04158791"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 61-year-old man comes to the emergency department complaining of an acute vision disturbance. He had an episode of vision disturbance in the right eye that occurred suddenly and resolved spontaneously in 15 minutes. He also has right jaw pain while chewing. He also complains of fatigue and hip muscle aches over the last several months. The patient has a history of mild hyperlipidemia that has been controlled by diet and lifestyle modifications. On examination, his blood pressure is 130/70 mm Hg and pulse is 66/min. Neurological examination is unremarkable. Visual examination is also normal. ESR is 103 mm/h. Temporal artery biopsy shows multinuclear giant cells and internal elastic membrane fragmentation. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00802698 | section=detailed_description]\nIt is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.\n\n[Passage 2 | doc=NCT01030081 | section=eligibility]\nInclusion Criteria: - Age: 40 to 70 years old. - Untreated patients or those on monotherapy of antihypertensive drugs but with uncontrolled blood pressure in the ranges of 140-160/90-100 mmHg. - Patients on antihypertensive medication should discontinue their antihypertensive treatment for at least 4 weeks. During the 4 weeks run-in period, all patients should have 2 clinic visits. At each visit, blood pressure will be measured 3 times consecutively. The average of these 6 readings from 2 clinic visits should be in the range of 140-180 systolic or 90-110 diastolic mm Hg. 24-h mean blood pressure should be equal to or higher than 130 mm Hg systolic and 80 mm Hg diastolic. - The patients should sign the consent form prior to the participation in the trial, adhere to the study design, and can visit the outpatient clinic on his/her own. Exclusion Criteria: - With life-threatening disease. - With myocardial infarction or stroke in the last 2 years. - With contraindications to a dihydropyridine calcium channel blocker. - Current participation in another trial or trials.\n\n[Passage 3 | doc=NCT03892785 | section=title]\nMEthotrexate Versus TOcilizumab for Treatment of GIant Cell Arteritis: a Multicenter, Randomized, Controlled Trial\n\n[Passage 4 | doc=NCT02765308 | section=detailed_description]\nThe investigators propose to undertake a cross-sectional observational study of patients with recurrent idiopathic acute anterior uveitis, to determine the relative contributions of altered aqueous production and drainage to the development of raised IOP in these patients. Methods Study Design A cross sectional observational study Patient Selection All subjects attending the uveitis and glaucoma clinics at St Thomas' Hospital will be eligible to be included in the study if they fulfil the inclusion/exclusion criteria as below. 30 patients will be included from each of these three group of patients: 1) recurrent (> 5 attacks) idiopathic acute anterior uveitic with raised intraocular pressure; 2) recurrent (> 5 attacks) idiopathic acute anterior uveitic without raised intraocular pressure; 3) healthy age matched volunteers as controls. Patients on glaucoma treatment will be washed out for one month before measurement. Examination Schedule and Methods 1. Visual acuity: Visual acuity is measured before pupil dilation, tonometry, gonioscopy, or any other technique that could affect vision.\n\n[Passage 5 | doc=NCT04158791 | section=eligibility]\nInclusion Criteria: - patients with idiopathic epimacular membrane Exclusion Criteria: - presence of dense lens opacities, ocular hypertension or glaucoma, diabetic retinopathy, drusen and age-related macular disease, other general diseases such as systemic hypertension, diabetes, connective tissue or neurological diseases.\n\n[Passage 6 | doc=NCT01614379 | section=detailed_description]\nThere are no known risks in the used methods but should there be an unpleasantness or problems from regarding the participation the patient must contact the investigator at once. MR scans is also not connected to any known risks and the patients ears will be protected with soundproofing earplugs or headphones to avoid the discomfort in relation to the high sound the scanner makes during the scans. The patient will be placed outside the scanner, with the feet sticking into the scanner, removing the risk of making the patient feel claustrophobic. The blood test can be connected to slight discomfort and a small risk of developing accumulation of blood and infection at the needle injection site. If any sign of infection (rash, heating, tenderness, swelling) the subject must seek the investigator or the emergency room. Det combined blood loss in connection to the blood test will not exceed 250ml, which is a lot less than a blood donation includes. The blood test is analysed and destroyed after. A biobank will not be established in this project. ECONOMIC CONDITIONS Expenses in connection to the project are covered by the involved departments.",
+  "passages": [
+    {
+      "passage_id": "NCT00802698::detailed_description::1",
+      "doc_id": "NCT00802698",
+      "section": "detailed_description",
+      "passage_text": "It is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 249.92641394206564,
+      "cross_score": -4.6876707,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01030081::eligibility::0",
+      "doc_id": "NCT01030081",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age: 40 to 70 years old. - Untreated patients or those on monotherapy of antihypertensive drugs but with uncontrolled blood pressure in the ranges of 140-160/90-100 mmHg. - Patients on antihypertensive medication should discontinue their antihypertensive treatment for at least 4 weeks. During the 4 weeks run-in period, all patients should have 2 clinic visits. At each visit, blood pressure will be measured 3 times consecutively. The average of these 6 readings from 2 clinic visits should be in the range of 140-180 systolic or 90-110 diastolic mm Hg. 24-h mean blood pressure should be equal to or higher than 130 mm Hg systolic and 80 mm Hg diastolic. - The patients should sign the consent form prior to the participation in the trial, adhere to the study design, and can visit the outpatient clinic on his/her own. Exclusion Criteria: - With life-threatening disease. - With myocardial infarction or stroke in the last 2 years. - With contraindications to a dihydropyridine calcium channel blocker. - Current participation in another trial or trials.",
+      "title": "Amlodipine Prevents Morning Blood Pressure Surge Study",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 255.242716282354,
+      "cross_score": -5.438202,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03892785::title::0",
+      "doc_id": "NCT03892785",
+      "section": "title",
+      "passage_text": "MEthotrexate Versus TOcilizumab for Treatment of GIant Cell Arteritis: a Multicenter, Randomized, Controlled Trial",
+      "title": "MEthotrexate Versus TOcilizumab for Treatment of GIant Cell Arteritis: a Multicenter, Randomized, Controlled Trial",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 256.42074044712393,
+      "cross_score": -5.58096,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02765308::detailed_description::0",
+      "doc_id": "NCT02765308",
+      "section": "detailed_description",
+      "passage_text": "The investigators propose to undertake a cross-sectional observational study of patients with recurrent idiopathic acute anterior uveitis, to determine the relative contributions of altered aqueous production and drainage to the development of raised IOP in these patients. Methods Study Design A cross sectional observational study Patient Selection All subjects attending the uveitis and glaucoma clinics at St Thomas' Hospital will be eligible to be included in the study if they fulfil the inclusion/exclusion criteria as below. 30 patients will be included from each of these three group of patients: 1) recurrent (> 5 attacks) idiopathic acute anterior uveitic with raised intraocular pressure; 2) recurrent (> 5 attacks) idiopathic acute anterior uveitic without raised intraocular pressure; 3) healthy age matched volunteers as controls. Patients on glaucoma treatment will be washed out for one month before measurement. Examination Schedule and Methods 1. Visual acuity: Visual acuity is measured before pupil dilation, tonometry, gonioscopy, or any other technique that could affect vision.",
+      "title": "Aqueous Humor Dynamics and Hypertensive Uveitis",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 251.85452597170416,
+      "cross_score": -5.7246,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04158791::eligibility::0",
+      "doc_id": "NCT04158791",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - patients with idiopathic epimacular membrane Exclusion Criteria: - presence of dense lens opacities, ocular hypertension or glaucoma, diabetic retinopathy, drusen and age-related macular disease, other general diseases such as systemic hypertension, diabetes, connective tissue or neurological diseases.",
+      "title": "Outcomes Based on the Pre-operative Integrity of IS/OS Junction in Idiopathic Epimacular Membrane Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 251.59788929690944,
+      "cross_score": -5.7513056,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01614379::detailed_description::7",
+      "doc_id": "NCT01614379",
+      "section": "detailed_description",
+      "passage_text": "There are no known risks in the used methods but should there be an unpleasantness or problems from regarding the participation the patient must contact the investigator at once. MR scans is also not connected to any known risks and the patients ears will be protected with soundproofing earplugs or headphones to avoid the discomfort in relation to the high sound the scanner makes during the scans. The patient will be placed outside the scanner, with the feet sticking into the scanner, removing the risk of making the patient feel claustrophobic. The blood test can be connected to slight discomfort and a small risk of developing accumulation of blood and infection at the needle injection site. If any sign of infection (rash, heating, tenderness, swelling) the subject must seek the investigator or the emergency room. Det combined blood loss in connection to the blood test will not exceed 250ml, which is a lot less than a blood donation includes. The blood test is analysed and destroyed after. A biobank will not be established in this project. ECONOMIC CONDITIONS Expenses in connection to the project are covered by the involved departments.",
+      "title": "Non-enhanced Magnetic Resonance Angiography of Diabetic Ischemic Lower Limbs",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 252.0551980665938,
+      "cross_score": -5.869186,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it does not seem that you meet the eligibility criteria for the clinical trials listed. However, further details and medical records would be necessary to make a definitive determination.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\"Exact diagnosis and condition related to the vision disturbance and jaw pain\"],\n  \"unresolved_study_requirements\": [\"Specific clinical trial to which the patient is referring is not mentioned in the provided evidence\"],\n  \"reasoning_summary\": \"The patient's symptoms do not align with the inclusion criteria of the clinical trials mentioned. Specifically, the temporal artery biopsy findings and the presence of multinuclear giant cells are more indicative of Giant Cell Arteritis, which is the focus of NCT03892785. However, the exact clinical trial the patient is considering is not specified in the provided evidence, making it difficult to assess eligibility accurately.\",\n  \"safety_note\": \"No specific safety concerns are noted in the provided evidence, but standard safety measures apply to all clinical trials.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"[Passage 3]\"],\n    \"reasoning_summary\": [\"[Passage 3]\", \"[Passage 6]\"]\n  }\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Exact diagnosis and condition related to the vision disturbance and jaw pain"
+    ],
+    "unresolved_study_requirements": [
+      "Specific clinical trial to which the patient is referring is not mentioned in the provided evidence"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "No specific safety concerns are noted in the provided evidence, but standard safety measures apply to all clinical trials.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "[Passage 3]"
+      ],
+      "reasoning_summary": [
+        "[Passage 3]",
+        "[Passage 6]"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "Exact diagnosis and condition related to the vision disturbance and jaw pain"
+  ],
+  "unresolved_study_requirements": [
+    "Specific clinical trial to which the patient is referring is not mentioned in the provided evidence"
+  ],
+  "narrow_leak_n": 1,
+  "latency_sec": 21.419
+}

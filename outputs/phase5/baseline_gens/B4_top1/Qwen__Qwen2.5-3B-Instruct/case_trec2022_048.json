@@ -1,0 +1,65 @@
+{
+  "case_id": "case_trec2022_048",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03003533",
+  "reference_trial": "NCT03003533",
+  "evidence_trials": [
+    "NCT03003533"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the emergency due to bleeding after a tooth extraction. The bleeding has persisted for approximately 30 minutes despite constant direct pressure. He is a known case of Hemophilia type A treated with FVIII. Blood pressure is 95/60 mm Hg and pulse is 105/min. His weight is 70 Kg. Family history is positive for Hemophilia type A in his maternal uncle. He also has a lipoma on his left arm which he plans to remove surgically. His FVIII activity is 40%. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03003533 | section=eligibility]\nInclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+  "passages": [
+    {
+      "passage_id": "NCT03003533::eligibility::0",
+      "doc_id": "NCT03003533",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 230.31326401427123,
+      "cross_score": -4.5980816,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any additional information that could help us make a final decision.\",\n  \"supported_patient_facts\": [\"The patient is a 20-year-old male with Hemophilia type A\", \"He has been treated with FVIII\", \"His FVIII activity is 40%\", \"He has a family history of Hemophilia type A\"],\n  \"missing_patient_facts\": [\"His medical history regarding bleeding events over the past 12 months\", \"His history of allergic reactions to FVIII products\", \"Serological evidence of HIV-1 or HIV-2\"],\n  \"unresolved_study_requirements\": [\"Evidence of significant underlying liver disease\", \"Serological evidence of antibodies reactive with AAV-Spark200 capsid\"],\n  \"reasoning_summary\": \"The patient meets the basic inclusion criteria for hemophilia A and has a known FVIII activity level. However, we need more information about his bleeding history and potential allergies to FVIII products, as well as his HIV status. Additionally, we need to check for any signs of liver disease or specific antibodies related to the trial.\",\n  \"safety_note\": \"Given the ongoing bleeding and the presence of a lipoma scheduled for removal, close monitoring will be necessary during the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any additional information that could help us make a final decision.",
+    "supported_patient_facts": [
+      "The patient is a 20-year-old male with Hemophilia type A",
+      "He has been treated with FVIII",
+      "His FVIII activity is 40%",
+      "He has a family history of Hemophilia type A"
+    ],
+    "missing_patient_facts": [
+      "His medical history regarding bleeding events over the past 12 months",
+      "His history of allergic reactions to FVIII products",
+      "Serological evidence of HIV-1 or HIV-2"
+    ],
+    "unresolved_study_requirements": [
+      "Evidence of significant underlying liver disease",
+      "Serological evidence of antibodies reactive with AAV-Spark200 capsid"
+    ],
+    "reasoning_summary": "The patient meets the basic inclusion criteria for hemophilia A and has a known FVIII activity level. However, we need more information about his bleeding history and potential allergies to FVIII products, as well as his HIV status. Additionally, we need to check for any signs of liver disease or specific antibodies related to the trial.",
+    "safety_note": "Given the ongoing bleeding and the presence of a lipoma scheduled for removal, close monitoring will be necessary during the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any additional information that could help us make a final decision.",
+  "missing_patient_facts": [
+    "His medical history regarding bleeding events over the past 12 months",
+    "His history of allergic reactions to FVIII products",
+    "Serological evidence of HIV-1 or HIV-2"
+  ],
+  "unresolved_study_requirements": [
+    "Evidence of significant underlying liver disease",
+    "Serological evidence of antibodies reactive with AAV-Spark200 capsid"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.163
+}

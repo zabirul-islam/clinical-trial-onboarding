@@ -1,0 +1,124 @@
+{
+  "case_id": "case_trec2021_065",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005754",
+  "selected_doc": "NCT00419562",
+  "reference_trial": "NCT00419562",
+  "evidence_trials": [
+    "NCT00419562",
+    "NCT02280174",
+    "NCT02835872",
+    "NCT04604223"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago. He presents to the clinic with shortness of breath and fatigue during activities. He claims mild dyspnea after climbing 3 floors, no dyspnea at rest and no angina (New York Heart Association class 2). He is diagnosed with cardiomyopathy that will be treated with ACE inhibitors and Beta blockers. His takes 70/30 Insulin and vitamin D supplements. His past medical history is not significant for any other medical issues. His family history is positive for DM type 1 in his uncle and his grandfather. His lab study is as bellow: FBS: 100 mg/dl HbA1c: 6.5% Cholesterol: 190 mg/dl TG: 140 mg/dl LDL: 125 mg/dl HDL: 40 mg/dl Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00419562 | section=detailed_description]\nEligible participants will be randomized to receive either oral insulin (7.5 mg of recombinant human insulin crystals) or placebo daily. All participants randomized into this study will be seen at a study site for a follow-up evaluation, three and six months after randomization, and every six months thereafter. Participants will be contacted by phone between 6-monthly clinic visits to assess changes in diabetes status, medication compliance and adverse events. These phone contacts will occur approximately 3 months from the date of the participants previous clinic visit. At the study visits, participants will undergo assessments of their insulin production, immunologic status, and overall health. As the primary outcome measure, subjects will be followed until development of type 1 diabetes or the conclusion of the study. The trial is expected to last approximately 7-8 years or until the required amount of information is gathered.\n\n[Passage 2 | doc=NCT00419562 | section=summary]\nType 1 diabetes (T1D) is an autoimmune disease. This means that the immune system (the part of the body which helps fight infections) mistakenly attacks and destroys the cells that produce insulin (islet cells found in the pancreas). As these cells are destroyed, the body's ability to produce insulin decreases. There is evidence suggesting that repeated oral administration of an autoantigen (the same protein that the immune system is reacting to) may introduce a protective immunity and cause the immune system to stop its attack. An earlier, large scale study was done to see if oral insulin could delay or prevent the development of Type 1 diabetes in relatives at risk for developing Type 1 diabetes. The overall results showed that for the entire study population, oral insulin did not delay or prevent Type 1 diabetes. However, an analysis that was done after the conclusion of the trial suggested a potential beneficial effect in a subgroup of participants. The participants who seemed to benefit from oral insulin had higher levels of insulin autoantibodies which are directed against insulin itself ( called mIAA). The Type 1 Diabetes TrialNet study group will further explore the potential role of oral insulin to delay or prevent Type 1 diabetes in a similar group of people. The study will also include a secondary group of individuals at different levels of risk than those in the primary cohort to gather information for future studies.\n\n[Passage 3 | doc=NCT04604223 | section=eligibility]\nInclusion Criteria: 1. T2DM according to the ADA criteria. Patients with long standing diabetes as well as patients with new onset diabetes will be recruited. Patients receiving glucocorticoids for treatment of COVID-19 and manifest plasma glucose levels consistent with diabetes diagnosis also will be included 2. Patients can be drug na\u00efve, receiving oral antihyperglycemic therapy (except pioglitazone), GLP-1 RA or insulin therapy will be allowed to participate in the study 3. COVID-19 infection confirmed with PCR test 4. Age 21-85 years 5. Patients of both sexes will be included 6. In addition to diabetes and COVID-19 diagnoses, patients should manifest at least one of COVID-19 symptoms (Fever, Chills, Headache, Rhinorreah, Cough (dry or with sputum), Sore Throat, shortness of breath, Hemoptysis, Altered mentation, Fatigue/Malaise, Myalgia, Nausea/Vomiting, Diarrhea, Anosmia, Chest pain). 7. Patient receiving other anti-inflammatory therapy for their routine COVID-19 care (e.g. hydroxychloroquine), or antiviral therapy (e.g. remdesivire) will be included in the study and will be evenly randomized amongst the two treatment groups Exclusion Criteria: 1. T1DM 2.\n\n[Passage 4 | doc=NCT00419562 | section=eligibility]\nInclusion Criteria: 1. Have a proband with Type 1 diabetes mellitus (T1DM). A proband is an individual diagnosed with diabetes before age 40 and started on insulin therapy within 1-year of diagnosis. Probands considered to have type 1 diabetes by their physician who do not meet this definition will be referred to the TrialNet Eligibility Committee. 2. If the proband is a parent, sibling or a child, the study participant must be 3 -45 years of age. If the proband is a second or third degree relative (i.e. niece, nephew, aunt, uncle, grandparent, cousin, or half-sibling), the study participant must be 3-20 years of age. 3. Willing to sign Informed Consent Form. 4. Oral glucose tolerance test (OGTT) performed within 7 weeks prior to randomization in which: - fasting plasma glucose < 110 mg/dL (6.1 mmol/l), and - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 5. mIAA confirmed positive within the previous six months. 6. Two samples with at least one autoantibody other than mIAA positive within the previous six months. Exclusion Criteria: 1. Does not satisfy the above inclusion criteria. Subjects with mIAA positive but no other autoantibodies positive are not eligible for randomization.\n\n[Passage 5 | doc=NCT02835872 | section=eligibility]\nSubject is a premenopausal female with a history of regular menstrual cycles that range in length from 21 to 35 d, or subject is a post-menopausal female (i.e., has not had regular menstrual cycles for at least one year). 9. Subject has no health conditions that would prevent him/her from fulfilling the study requirements as judged by the Clinical Investigator on the basis of medical history and routine laboratory test results. 10. Subject understands the study procedures and signs forms providing informed consent to participate in the study and authorizes the release of relevant protected health information to the Clinical Investigator. Exclusion Criteria: 1. Subject has diagnosed diabetes mellitus (Type 1 or Type 2) or fasting glucose \u2265126 mg/dL at the screening Visit (Visit 1, Day -14). 2. Subject has a history or presence of uncontrolled and/or clinically important pulmonary (including uncontrolled asthma), cardiac, hepatic, renal, gastrointestinal, endocrine, hematologic, immunologic, neurologic (such as Alzheimer's or Parkinson's patients), psychiatric (including depression and/or anxiety disorders) or biliary disorders. 3.\n\n[Passage 6 | doc=NCT02280174 | section=detailed_description]\nUncontrolled type 2 Diabetes patients with HbA1c between 7 and 10% Patients must have received the maximum tolerated dose of metformin for at least 3 months before randomization. Patients will be randomised to receive linagliptin or standard therapy. A total of seven study visits will be scheduled: at screening, at weeks -4, -2, 0, 4, 6, 12 and 24 week follow-up. During each visit, an endocrinologist will make the physical and metabolic assessment. Safety and tolerability data will be collected at screening and throughout the study, and includes incidence of serious and non serious adverse events (AEs) in linagliptin arms and standard arms. Clinical laboratory data, vital signs, and 12-lead electrocardiogram parameters at each visit, will be collected. The causal relationships between study drugs and AEs will be evaluated by the investigators at site. All drug-related AEs occurring during the study will be followed up until relieved or judged to be no longer clinically significant. Changes in body weight from baseline until week 12 will also be assessed.",
+  "passages": [
+    {
+      "passage_id": "NCT00419562::detailed_description::0",
+      "doc_id": "NCT00419562",
+      "section": "detailed_description",
+      "passage_text": "Eligible participants will be randomized to receive either oral insulin (7.5 mg of recombinant human insulin crystals) or placebo daily. All participants randomized into this study will be seen at a study site for a follow-up evaluation, three and six months after randomization, and every six months thereafter. Participants will be contacted by phone between 6-monthly clinic visits to assess changes in diabetes status, medication compliance and adverse events. These phone contacts will occur approximately 3 months from the date of the participants previous clinic visit. At the study visits, participants will undergo assessments of their insulin production, immunologic status, and overall health. As the primary outcome measure, subjects will be followed until development of type 1 diabetes or the conclusion of the study. The trial is expected to last approximately 7-8 years or until the required amount of information is gathered.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.123122,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00419562::summary::0",
+      "doc_id": "NCT00419562",
+      "section": "summary",
+      "passage_text": "Type 1 diabetes (T1D) is an autoimmune disease. This means that the immune system (the part of the body which helps fight infections) mistakenly attacks and destroys the cells that produce insulin (islet cells found in the pancreas). As these cells are destroyed, the body's ability to produce insulin decreases. There is evidence suggesting that repeated oral administration of an autoantigen (the same protein that the immune system is reacting to) may introduce a protective immunity and cause the immune system to stop its attack. An earlier, large scale study was done to see if oral insulin could delay or prevent the development of Type 1 diabetes in relatives at risk for developing Type 1 diabetes. The overall results showed that for the entire study population, oral insulin did not delay or prevent Type 1 diabetes. However, an analysis that was done after the conclusion of the trial suggested a potential beneficial effect in a subgroup of participants. The participants who seemed to benefit from oral insulin had higher levels of insulin autoantibodies which are directed against insulin itself ( called mIAA). The Type 1 Diabetes TrialNet study group will further explore the potential role of oral insulin to delay or prevent Type 1 diabetes in a similar group of people. The study will also include a secondary group of individuals at different levels of risk than those in the primary cohort to gather information for future studies.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.4092846,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04604223::eligibility::0",
+      "doc_id": "NCT04604223",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. T2DM according to the ADA criteria. Patients with long standing diabetes as well as patients with new onset diabetes will be recruited. Patients receiving glucocorticoids for treatment of COVID-19 and manifest plasma glucose levels consistent with diabetes diagnosis also will be included 2. Patients can be drug na\u00efve, receiving oral antihyperglycemic therapy (except pioglitazone), GLP-1 RA or insulin therapy will be allowed to participate in the study 3. COVID-19 infection confirmed with PCR test 4. Age 21-85 years 5. Patients of both sexes will be included 6. In addition to diabetes and COVID-19 diagnoses, patients should manifest at least one of COVID-19 symptoms (Fever, Chills, Headache, Rhinorreah, Cough (dry or with sputum), Sore Throat, shortness of breath, Hemoptysis, Altered mentation, Fatigue/Malaise, Myalgia, Nausea/Vomiting, Diarrhea, Anosmia, Chest pain). 7. Patient receiving other anti-inflammatory therapy for their routine COVID-19 care (e.g. hydroxychloroquine), or antiviral therapy (e.g. remdesivire) will be included in the study and will be evenly randomized amongst the two treatment groups Exclusion Criteria: 1. T1DM 2.",
+      "title": "Effect of Pioglitazone on T2DM Patients With COVID-19",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 302.495117983083,
+      "cross_score": -4.4574156,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00419562::eligibility::0",
+      "doc_id": "NCT00419562",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Have a proband with Type 1 diabetes mellitus (T1DM). A proband is an individual diagnosed with diabetes before age 40 and started on insulin therapy within 1-year of diagnosis. Probands considered to have type 1 diabetes by their physician who do not meet this definition will be referred to the TrialNet Eligibility Committee. 2. If the proband is a parent, sibling or a child, the study participant must be 3 -45 years of age. If the proband is a second or third degree relative (i.e. niece, nephew, aunt, uncle, grandparent, cousin, or half-sibling), the study participant must be 3-20 years of age. 3. Willing to sign Informed Consent Form. 4. Oral glucose tolerance test (OGTT) performed within 7 weeks prior to randomization in which: - fasting plasma glucose < 110 mg/dL (6.1 mmol/l), and - 2 hour plasma glucose < 140 mg/dL (7.8 mmol/l) 5. mIAA confirmed positive within the previous six months. 6. Two samples with at least one autoantibody other than mIAA positive within the previous six months. Exclusion Criteria: 1. Does not satisfy the above inclusion criteria. Subjects with mIAA positive but no other autoantibodies positive are not eligible for randomization.",
+      "title": "Oral Insulin for Prevention of Diabetes in Relatives at Risk for Type 1 Diabetes Mellitus",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 311.3339495885837,
+      "cross_score": -4.7130346,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02835872::eligibility::1",
+      "doc_id": "NCT02835872",
+      "section": "eligibility",
+      "passage_text": "Subject is a premenopausal female with a history of regular menstrual cycles that range in length from 21 to 35 d, or subject is a post-menopausal female (i.e., has not had regular menstrual cycles for at least one year). 9. Subject has no health conditions that would prevent him/her from fulfilling the study requirements as judged by the Clinical Investigator on the basis of medical history and routine laboratory test results. 10. Subject understands the study procedures and signs forms providing informed consent to participate in the study and authorizes the release of relevant protected health information to the Clinical Investigator. Exclusion Criteria: 1. Subject has diagnosed diabetes mellitus (Type 1 or Type 2) or fasting glucose \u2265126 mg/dL at the screening Visit (Visit 1, Day -14). 2. Subject has a history or presence of uncontrolled and/or clinically important pulmonary (including uncontrolled asthma), cardiac, hepatic, renal, gastrointestinal, endocrine, hematologic, immunologic, neurologic (such as Alzheimer's or Parkinson's patients), psychiatric (including depression and/or anxiety disorders) or biliary disorders. 3.",
+      "title": "A Study to Evaluate the Effects of Dietary Fiber on Blood Lipids in Men and Women",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 304.6938556470849,
+      "cross_score": -5.1976643,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02280174::detailed_description::0",
+      "doc_id": "NCT02280174",
+      "section": "detailed_description",
+      "passage_text": "Uncontrolled type 2 Diabetes patients with HbA1c between 7 and 10% Patients must have received the maximum tolerated dose of metformin for at least 3 months before randomization. Patients will be randomised to receive linagliptin or standard therapy. A total of seven study visits will be scheduled: at screening, at weeks -4, -2, 0, 4, 6, 12 and 24 week follow-up. During each visit, an endocrinologist will make the physical and metabolic assessment. Safety and tolerability data will be collected at screening and throughout the study, and includes incidence of serious and non serious adverse events (AEs) in linagliptin arms and standard arms. Clinical laboratory data, vital signs, and 12-lead electrocardiogram parameters at each visit, will be collected. The causal relationships between study drugs and AEs will be evaluated by the investigators at site. All drug-related AEs occurring during the study will be followed up until relieved or judged to be no longer clinically significant. Changes in body weight from baseline until week 12 will also be assessed.",
+      "title": "Effect of Linagliptin on TRL Metabolism",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 303.37340680021265,
+      "cross_score": -5.2361965,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. You have type 1 diabetes, which is not allowed in this study. However, we need more details about your condition and eligibility criteria to confirm.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago.\",\n    \"He is taking 70/30 Insulin.\"\n  ],\n  \"missing_patient_facts\": [\n    \"His current medical condition (cardiomyopathy) and treatment (ACE inhibitors and Beta blockers) are not mentioned in the eligibility criteria.\",\n    \"His level of risk for developing type 1 diabetes based on his family history is not specified in the eligibility criteria.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"It is unclear if he meets the criteria for being a 'proband' with type 1 diabetes mellitus as defined in the eligibility criteria.\",\n    \"There is no mention of his mIAA status or other autoantibody tests.\"\n  ],\n  \"reasoning_summary\": \"While the patient has type 1 diabetes, which disqualifies him from this specific trial, there are unresolved aspects regarding his eligibility such as his current health status and autoantibody testing. More information is needed to determine his full eligibility.\",\n  \"safety_note\": \"The patient should discuss any concerns about safety with the clinical team before deciding to participate in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. You have type 1 diabetes, which is not allowed in this study. However, we need more details about your condition and eligibility criteria to confirm.",
+    "supported_patient_facts": [
+      "The patient is a 25-year-old man with type 1 diabetes confirmed with molecular analysis 7 years ago.",
+      "He is taking 70/30 Insulin."
+    ],
+    "missing_patient_facts": [
+      "His current medical condition (cardiomyopathy) and treatment (ACE inhibitors and Beta blockers) are not mentioned in the eligibility criteria.",
+      "His level of risk for developing type 1 diabetes based on his family history is not specified in the eligibility criteria."
+    ],
+    "unresolved_study_requirements": [
+      "It is unclear if he meets the criteria for being a 'proband' with type 1 diabetes mellitus as defined in the eligibility criteria.",
+      "There is no mention of his mIAA status or other autoantibody tests."
+    ],
+    "reasoning_summary": "While the patient has type 1 diabetes, which disqualifies him from this specific trial, there are unresolved aspects regarding his eligibility such as his current health status and autoantibody testing. More information is needed to determine his full eligibility.",
+    "safety_note": "The patient should discuss any concerns about safety with the clinical team before deciding to participate in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. You have type 1 diabetes, which is not allowed in this study. However, we need more details about your condition and eligibility criteria to confirm.",
+  "missing_patient_facts": [
+    "His current medical condition (cardiomyopathy) and treatment (ACE inhibitors and Beta blockers) are not mentioned in the eligibility criteria.",
+    "His level of risk for developing type 1 diabetes based on his family history is not specified in the eligibility criteria."
+  ],
+  "unresolved_study_requirements": [
+    "It is unclear if he meets the criteria for being a 'proband' with type 1 diabetes mellitus as defined in the eligibility criteria.",
+    "There is no mention of his mIAA status or other autoantibody tests."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.286
+}

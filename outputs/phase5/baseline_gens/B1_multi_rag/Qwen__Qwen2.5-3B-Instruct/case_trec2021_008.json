@@ -1,0 +1,123 @@
+{
+  "case_id": "case_trec2021_008",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005579",
+  "selected_doc": "NCT01604031",
+  "reference_trial": "NCT01604031",
+  "evidence_trials": [
+    "NCT00473460",
+    "NCT01604031",
+    "NCT03585257"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: This is a 57-year-old gentleman with CLL and large cell transformation. He presented with his disease back in [**10/2119**] with an elevated white count and LDH. He was without any splenomegaly or any cytopenias at that time. He did have some bulky lymphadenopathy. He then completed four cycles of FCR therapy, which he completed back in 09/[**2119**]. He had an excellent response to therapy and was monitored off treatment for approximately two years. He then presented in [**7-/2122**] with a rising white count, approximately 50% lymphocytes, and a mildly elevated LDH. He also had some mild worsening palpable lymphadenopathy. He then received four cycles of PCR, but did not have much in the way of response and his treatment regimen was switched to R-CVP of which he received two cycles. He did again not have a significant response, though continued to have an excellent performance status, and he was ultimately switched to Campath therapy. He did have resolution of his lymphocytosis, and his white count has come down nicely, but did not have much in the way of response in terms of reducing his bulky lymphadenopathy. He then eventually had developed an enlarging left cervical node which was biopsied and was found to have Richter's transformation. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01604031 | section=eligibility]\nInclusion Criteria: ELIGIBILITY FOR BLAST COLLECTION (procurement): - Patients with B-CLL (not in Richter's transformation) with measurable disease. - Procurement consent signed and faxed to Research Coordinator - HIV negative (can be pending at this time) ELIGIBILITY FOR VACCINE AND LENALIDOMIDE ADMINISTRATION (protocol entry): - Manipulated B-CLL cells available (at least 6 injections) - Patients with B-CLL (not in Richter's transformation) with measurable disease - Patients must have a life expectancy of at least 10 weeks. - Patients must be less than 75 years old - Patients must have ECOG performance status of 0-2. - Patients must have recovered from the toxic effects of all prior chemotherapy before entering this study: - Absolute neutrophil count (ANC) of greater than or equal to 500/microL - Absolute lymphocyte count (ALC) greater than or equal 200/microL, - Hemoglobin greater than or equal 8 g/dL - Platelet count greater than or equal 50,000/microL. - Patients must be willing to practice appropriate birth control methods during the study and for 28 days after their participation in the treatment portion of the study is concluded.\n\n[Passage 2 | doc=NCT00473460 | section=eligibility]\nInclusion Criteria: - Male or female out-patients >/= 45 years - Subjects suffering from chronic bronchitis - FEV1</= 70% and FEV1/FVC </= 70% predicted from age, height and sex - No documented episode of AECB (requiring treatment) within 6 weeks of randomization and not experiencing an exacerbation at the time of screening - Sputum production on most days, even when exacerbation free - Subjects presented with at least two documented (i.e.\n\n[Passage 3 | doc=NCT03585257 | section=detailed_description]\nFirst, if the patients are hyponatremic, correction of hyponatremia using tolvaptan can help but tolvaptan is now not FDA-approved for cirrhosis. Second a selected group of patients can undergo porto-systemic shunt embolization if their MELD score is <11 and they have a double shunt, which is the minority of individuals. Lastly a small trial done by our group showed improvement with fecal transplant but this requires several more years of study before this becomes mainstream. Therefore, there is a major need for treating this continued cognitive impairment for which there are currently no widely-available therapeutic agents available but which can improve in selected cases. A medication or strategy that shows improvement in this functioning will be rapidly assimilated into the therapeutic algorithm and will potentially affect several thousand patients and their caregivers who continue to suffer from this issue. There is strong evidence that this persistent cognitive impairment is accompanied by a sustained pro-inflammatory state that is not quenched by our current standard of care15.\n\n[Passage 4 | doc=NCT01604031 | section=summary]\nThis is a research study to determine the safety and effectiveness of using special cells that may make the subject's immune system fight their chronic lymphocytic leukemia (CLL) in combination with a drug called Lenalidomide. To do this, the investigators will put a special gene into cancer cells that have been taken from the subject. This will be done in the laboratory. This gene will make the cells produce interleukin 2 (IL-2), which is a natural substance that may help the subject's immune system kill cancer cells. Additionally, the investigators will stimulate the cancer cells with normal embryonic fibroblasts (cells that develop into normal connective tissues in the body) so that they will make another natural protein called CD40 ligand (CD40L). Some of these cells will then be put back into the subject's body with the goal that they will act like a vaccine and stimulate the immune system to attack the CLL cells. The investigators have already conducted a study similar to this in other subjects with CLL. In those subjects the investigators saw some changes in the subject's immune system that might indicate that the modified cells were helping their immune system fight the cancer. However, in most of the subjects this change in the immune system went away after the injections were stopped. The investigators think that this may be due to a high level of cells called T regulatory cells. T regulatory cells are part of the immune system and prevent excessive reactions from other cells in the body. Studies have shown that reducing T regulatory cells allows the body to fight the cancer for a longer period of time. Recent studies have shown that using Lenalidomide helps the body reduce T regulatory cells. Using Lenalidomide along with the injections (shots) might help the body fight the cancer for a longer period of time. Lenalidomide is also called Revlimid. In this study the investigators want to see if they can make the change in the immune system last longer by giving Lenalidomide before and at the same time as the vaccine. The investigators hope that this might produce a better response directed at the CLL cells. Subjects will receive injections for about a year\n\n[Passage 5 | doc=NCT03585257 | section=summary]\nPatients with continued cognitive impairment after episodes of HE have few options beyond lactulose and rifaximin in the US. Therefore using IV albumin in a randomized, double-blind, placebo-controlled trial, which could beneficially impact inflammation, could be an additional approach to improve cognition. This 6 week trial will study changes in cognition, HRQOL and inflammation in patients with covert HE after prior overt HE using multiple IV albumin infusions vs. placebo.\n\n[Passage 6 | doc=NCT01604031 | section=title]\nTreatment of B-CLL With Autologous IL2 and CD40 Ligand-Expressing Tumor Cells + Lenalidomide",
+  "passages": [
+    {
+      "passage_id": "NCT01604031::eligibility::0",
+      "doc_id": "NCT01604031",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: ELIGIBILITY FOR BLAST COLLECTION (procurement): - Patients with B-CLL (not in Richter's transformation) with measurable disease. - Procurement consent signed and faxed to Research Coordinator - HIV negative (can be pending at this time) ELIGIBILITY FOR VACCINE AND LENALIDOMIDE ADMINISTRATION (protocol entry): - Manipulated B-CLL cells available (at least 6 injections) - Patients with B-CLL (not in Richter's transformation) with measurable disease - Patients must have a life expectancy of at least 10 weeks. - Patients must be less than 75 years old - Patients must have ECOG performance status of 0-2. - Patients must have recovered from the toxic effects of all prior chemotherapy before entering this study: - Absolute neutrophil count (ANC) of greater than or equal to 500/microL - Absolute lymphocyte count (ALC) greater than or equal 200/microL, - Hemoglobin greater than or equal 8 g/dL - Platelet count greater than or equal 50,000/microL. - Patients must be willing to practice appropriate birth control methods during the study and for 28 days after their participation in the treatment portion of the study is concluded.",
+      "title": "Treatment of B-CLL With Autologous IL2 and CD40 Ligand-Expressing Tumor Cells + Lenalidomide",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 542.344651976856,
+      "cross_score": -3.401345,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00473460::eligibility::0",
+      "doc_id": "NCT00473460",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Male or female out-patients >/= 45 years - Subjects suffering from chronic bronchitis - FEV1</= 70% and FEV1/FVC </= 70% predicted from age, height and sex - No documented episode of AECB (requiring treatment) within 6 weeks of randomization and not experiencing an exacerbation at the time of screening - Sputum production on most days, even when exacerbation free - Subjects presented with at least two documented (i.e.",
+      "title": "Intermittent Moxifloxacin Therapy For The Prevention Of Acute Exacerbations In Patients With Chronic Bronchitis",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 509.29991565528775,
+      "cross_score": -6.5269113,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03585257::detailed_description::2",
+      "doc_id": "NCT03585257",
+      "section": "detailed_description",
+      "passage_text": "First, if the patients are hyponatremic, correction of hyponatremia using tolvaptan can help but tolvaptan is now not FDA-approved for cirrhosis. Second a selected group of patients can undergo porto-systemic shunt embolization if their MELD score is <11 and they have a double shunt, which is the minority of individuals. Lastly a small trial done by our group showed improvement with fecal transplant but this requires several more years of study before this becomes mainstream. Therefore, there is a major need for treating this continued cognitive impairment for which there are currently no widely-available therapeutic agents available but which can improve in selected cases. A medication or strategy that shows improvement in this functioning will be rapidly assimilated into the therapeutic algorithm and will potentially affect several thousand patients and their caregivers who continue to suffer from this issue. There is strong evidence that this persistent cognitive impairment is accompanied by a sustained pro-inflammatory state that is not quenched by our current standard of care15.",
+      "title": "HEAL STUDY (Hepatic Encephalopathy and Albumin Study)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 520.8060118032599,
+      "cross_score": -6.538026,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01604031::summary::0",
+      "doc_id": "NCT01604031",
+      "section": "summary",
+      "passage_text": "This is a research study to determine the safety and effectiveness of using special cells that may make the subject's immune system fight their chronic lymphocytic leukemia (CLL) in combination with a drug called Lenalidomide. To do this, the investigators will put a special gene into cancer cells that have been taken from the subject. This will be done in the laboratory. This gene will make the cells produce interleukin 2 (IL-2), which is a natural substance that may help the subject's immune system kill cancer cells. Additionally, the investigators will stimulate the cancer cells with normal embryonic fibroblasts (cells that develop into normal connective tissues in the body) so that they will make another natural protein called CD40 ligand (CD40L). Some of these cells will then be put back into the subject's body with the goal that they will act like a vaccine and stimulate the immune system to attack the CLL cells. The investigators have already conducted a study similar to this in other subjects with CLL. In those subjects the investigators saw some changes in the subject's immune system that might indicate that the modified cells were helping their immune system fight the cancer. However, in most of the subjects this change in the immune system went away after the injections were stopped. The investigators think that this may be due to a high level of cells called T regulatory cells. T regulatory cells are part of the immune system and prevent excessive reactions from other cells in the body. Studies have shown that reducing T regulatory cells allows the body to fight the cancer for a longer period of time. Recent studies have shown that using Lenalidomide helps the body reduce T regulatory cells. Using Lenalidomide along with the injections (shots) might help the body fight the cancer for a longer period of time. Lenalidomide is also called Revlimid. In this study the investigators want to see if they can make the change in the immune system last longer by giving Lenalidomide before and at the same time as the vaccine. The investigators hope that this might produce a better response directed at the CLL cells. Subjects will receive injections for about a year",
+      "title": "Treatment of B-CLL With Autologous IL2 and CD40 Ligand-Expressing Tumor Cells + Lenalidomide",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 542.344651976856,
+      "cross_score": -6.716507,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03585257::summary::0",
+      "doc_id": "NCT03585257",
+      "section": "summary",
+      "passage_text": "Patients with continued cognitive impairment after episodes of HE have few options beyond lactulose and rifaximin in the US. Therefore using IV albumin in a randomized, double-blind, placebo-controlled trial, which could beneficially impact inflammation, could be an additional approach to improve cognition. This 6 week trial will study changes in cognition, HRQOL and inflammation in patients with covert HE after prior overt HE using multiple IV albumin infusions vs. placebo.",
+      "title": "HEAL STUDY (Hepatic Encephalopathy and Albumin Study)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 520.8060118032599,
+      "cross_score": -6.7838535,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01604031::title::0",
+      "doc_id": "NCT01604031",
+      "section": "title",
+      "passage_text": "Treatment of B-CLL With Autologous IL2 and CD40 Ligand-Expressing Tumor Cells + Lenalidomide",
+      "title": "Treatment of B-CLL With Autologous IL2 and CD40 Ligand-Expressing Tumor Cells + Lenalidomide",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 542.344651976856,
+      "cross_score": -6.83325,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you may be eligible for the study, but we need to check a few things.\",\n  \"supported_patient_facts\": [\n    \"The patient has B-CLL and has experienced Richter's transformation.\",\n    \"He has an excellent performance status.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Details about the patient's absolute neutrophil count (ANC), absolute lymphocyte count (ALC), hemoglobin, and platelet count.\",\n    \"Procurement consent signed and faxed to Research Coordinator.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Procurement consent signed and faxed to Research Coordinator.\",\n    \"HIV negative status (can be pending at this time).\"\n  ],\n  \"reasoning_summary\": \"The patient meets the general eligibility criteria for the study, including having B-CLL and Richter's transformation. However, we need to confirm the procurement consent and the patient's HIV status before making a definitive decision.\",\n  \"safety_note\": \"It is important to note that while the patient appears to meet the general criteria, further verification is required to ensure safety and compliance with the study protocol.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you may be eligible for the study, but we need to check a few things.",
+    "supported_patient_facts": [
+      "The patient has B-CLL and has experienced Richter's transformation.",
+      "He has an excellent performance status."
+    ],
+    "missing_patient_facts": [
+      "Details about the patient's absolute neutrophil count (ANC), absolute lymphocyte count (ALC), hemoglobin, and platelet count.",
+      "Procurement consent signed and faxed to Research Coordinator."
+    ],
+    "unresolved_study_requirements": [
+      "Procurement consent signed and faxed to Research Coordinator.",
+      "HIV negative status (can be pending at this time)."
+    ],
+    "reasoning_summary": "The patient meets the general eligibility criteria for the study, including having B-CLL and Richter's transformation. However, we need to confirm the procurement consent and the patient's HIV status before making a definitive decision.",
+    "safety_note": "It is important to note that while the patient appears to meet the general criteria, further verification is required to ensure safety and compliance with the study protocol."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you may be eligible for the study, but we need to check a few things.",
+  "missing_patient_facts": [
+    "Details about the patient's absolute neutrophil count (ANC), absolute lymphocyte count (ALC), hemoglobin, and platelet count.",
+    "Procurement consent signed and faxed to Research Coordinator."
+  ],
+  "unresolved_study_requirements": [
+    "Procurement consent signed and faxed to Research Coordinator.",
+    "HIV negative status (can be pending at this time)."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.727
+}

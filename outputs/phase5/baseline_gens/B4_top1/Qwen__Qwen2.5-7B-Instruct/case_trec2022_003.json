@@ -1,0 +1,74 @@
+{
+  "case_id": "case_trec2022_003",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00689182",
+  "reference_trial": "NCT00689182",
+  "evidence_trials": [
+    "NCT00689182"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 51-year-old man comes to the office complaining of fatigue and some sexual problems including lack of libido. The patient doesn't smoke or use any illicit drug. Blood pressure is 120/80 mm Hg and pulse is 70/min. Oxygen saturation is 99% on room air. BMI is 24 kg/m2. Skin examination shows increased pigmentation. Genotype testing is consistent with homozygosity for the C282Y mutation. Laboratory study shows transferrin saturation of 55% and serum ferritin of 550 \u03bcg/L. He is diagnosed as a case of hemochromatosis. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00689182 | section=detailed_description]\nPhlebotomy adverse events include: Pain at phlebotomy site, infection at phlebotomy site, evidence of phlebitis, fatigue, presyncope, syncope, dyspnea, bacteremia, cellulitis at the phlebotomy site. A fall in systolic blood pressure of greater than 20 mmHg post-phlebotomy will also be considered an adverse event. Only serious adverse events related to study procedures will be recorded. Patients will be carefully assessed before and after the phlebotomy procedure. Adverse events and serious adverse events related to study procedures will be assessed throughout the study and up to 30 days following the last phlebotomy. Assessment of Efficacy Determination of iron concentration Iron stores will be measured serially in each patient. Measurements will be performed prior to the start of phlebotomy, and at 6 months and 12 months following the start of the series of 12 phlebotomies. These evaluations will be undertaken regardless of the number of phlebotomies which the patient actually undergoes. Iron stores will be estimated by measuring serum ferritin and transferrin saturation levels.\n\n[Passage 2 | doc=NCT00689182 | section=detailed_description]\nshowed that a very high ferritin level and a high transferrin saturation prior to conditioning was associated with a decreased overall survival and a high transferrin saturation was associated with an increase in transplant-related mortality (8). Therapeutic phlebotomy is well-established for treatment of iron overload associated with hereditary hemochromatosis (9) and beta thalassemia after HSCT (10). Phlebotomy has also been studied in survivors of acute leukemia with iron overload. Franchini et al. showed that phlebotomy was feasible and well-tolerated in this population and resulted in normalization of ferritin and transferrin saturation (11). This study demonstrated feasibility of phlebotomy but the effect of iron reduction on end-organ function was not addressed. In summary, iron overload is common following HSCT and has been associated with a number of adverse biochemical and clinical outcomes. In other clinical settings such as hereditary hemochromatosis and transfusional iron overload states such as thalassemia, the reduction of iron stores by phlebotomy or chelation has been unequivocally demonstrated to reduce both morbidity and mortality.",
+  "passages": [
+    {
+      "passage_id": "NCT00689182::detailed_description::5",
+      "doc_id": "NCT00689182",
+      "section": "detailed_description",
+      "passage_text": "Phlebotomy adverse events include: Pain at phlebotomy site, infection at phlebotomy site, evidence of phlebitis, fatigue, presyncope, syncope, dyspnea, bacteremia, cellulitis at the phlebotomy site. A fall in systolic blood pressure of greater than 20 mmHg post-phlebotomy will also be considered an adverse event. Only serious adverse events related to study procedures will be recorded. Patients will be carefully assessed before and after the phlebotomy procedure. Adverse events and serious adverse events related to study procedures will be assessed throughout the study and up to 30 days following the last phlebotomy. Assessment of Efficacy Determination of iron concentration Iron stores will be measured serially in each patient. Measurements will be performed prior to the start of phlebotomy, and at 6 months and 12 months following the start of the series of 12 phlebotomies. These evaluations will be undertaken regardless of the number of phlebotomies which the patient actually undergoes. Iron stores will be estimated by measuring serum ferritin and transferrin saturation levels.",
+      "title": "Safety and Efficacy of Iron Reduction by Phlebotomy",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 235.8298819000028,
+      "cross_score": -6.1842833,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00689182::detailed_description::2",
+      "doc_id": "NCT00689182",
+      "section": "detailed_description",
+      "passage_text": "showed that a very high ferritin level and a high transferrin saturation prior to conditioning was associated with a decreased overall survival and a high transferrin saturation was associated with an increase in transplant-related mortality (8). Therapeutic phlebotomy is well-established for treatment of iron overload associated with hereditary hemochromatosis (9) and beta thalassemia after HSCT (10). Phlebotomy has also been studied in survivors of acute leukemia with iron overload. Franchini et al. showed that phlebotomy was feasible and well-tolerated in this population and resulted in normalization of ferritin and transferrin saturation (11). This study demonstrated feasibility of phlebotomy but the effect of iron reduction on end-organ function was not addressed. In summary, iron overload is common following HSCT and has been associated with a number of adverse biochemical and clinical outcomes. In other clinical settings such as hereditary hemochromatosis and transfusional iron overload states such as thalassemia, the reduction of iron stores by phlebotomy or chelation has been unequivocally demonstrated to reduce both morbidity and mortality.",
+      "title": "Safety and Efficacy of Iron Reduction by Phlebotomy",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 235.8298819000028,
+      "cross_score": -6.502775,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.\",\n  \"supported_patient_facts\": [\"Homozygosity for the C282Y mutation\", \"High serum ferritin level (550 \u03bcg/L)\", \"High transferrin saturation (55%)\"],\n  \"missing_patient_facts\": [\"Number of phlebotomies required\", \"Current iron overload status\"],\n  \"unresolved_study_requirements\": [\"Confirmation of eligibility based on iron overload status\", \"Assessment of end-organ function\"],\n  \"reasoning_summary\": \"The patient has a high ferritin level and transferrin saturation, which aligns with the inclusion criteria for iron overload associated with hereditary hemochromatosis. However, the exact number of phlebotomies required and current iron overload status are not specified, and the impact on end-organ function needs to be assessed.\",\n  \"safety_note\": \"The clinical trial involves phlebotomy, which can cause adverse events such as pain, infection, and dyspnea. The patient should be carefully assessed before and after the procedure.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+    "supported_patient_facts": [
+      "Homozygosity for the C282Y mutation",
+      "High serum ferritin level (550 \u03bcg/L)",
+      "High transferrin saturation (55%)"
+    ],
+    "missing_patient_facts": [
+      "Number of phlebotomies required",
+      "Current iron overload status"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of eligibility based on iron overload status",
+      "Assessment of end-organ function"
+    ],
+    "reasoning_summary": "The patient has a high ferritin level and transferrin saturation, which aligns with the inclusion criteria for iron overload associated with hereditary hemochromatosis. However, the exact number of phlebotomies required and current iron overload status are not specified, and the impact on end-organ function needs to be assessed.",
+    "safety_note": "The clinical trial involves phlebotomy, which can cause adverse events such as pain, infection, and dyspnea. The patient should be carefully assessed before and after the procedure."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+  "missing_patient_facts": [
+    "Number of phlebotomies required",
+    "Current iron overload status"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of eligibility based on iron overload status",
+    "Assessment of end-organ function"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 20.645
+}

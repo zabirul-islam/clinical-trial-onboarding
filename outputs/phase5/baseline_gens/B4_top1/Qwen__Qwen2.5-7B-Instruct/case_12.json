@@ -1,0 +1,62 @@
+{
+  "case_id": "case_12",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "reference_trial": "NCT04471363",
+  "evidence_trials": [
+    "NCT04471363"
+  ],
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 38.63945902649888,
+      "cross_score": 3.1622124,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study team needs to confirm your answers to the eligibility questions and verify some details before determining if you are eligible.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Cancer survivor status or romantic partner of a cancer survivor\",\n    \"Current treatment status (chemotherapy, radiation, or surgery)\",\n    \"Age range (at least 18 years old and less than 90 years old)\",\n    \"Access to a computer or tablet with internet\",\n    \"Willingness to share an email address with the study team\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Commitment to the study for the duration required\"\n  ],\n  \"reasoning_summary\": \"The patient's responses to the eligibility criteria are not fully confirmed, and several key pieces of information are missing or need verification.\",\n  \"safety_note\": \"Ensure all safety rules and requirements are met before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study team needs to confirm your answers to the eligibility questions and verify some details before determining if you are eligible.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Cancer survivor status or romantic partner of a cancer survivor",
+      "Current treatment status (chemotherapy, radiation, or surgery)",
+      "Age range (at least 18 years old and less than 90 years old)",
+      "Access to a computer or tablet with internet",
+      "Willingness to share an email address with the study team"
+    ],
+    "unresolved_study_requirements": [
+      "Commitment to the study for the duration required"
+    ],
+    "reasoning_summary": "The patient's responses to the eligibility criteria are not fully confirmed, and several key pieces of information are missing or need verification.",
+    "safety_note": "Ensure all safety rules and requirements are met before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study team needs to confirm your answers to the eligibility questions and verify some details before determining if you are eligible.",
+  "missing_patient_facts": [
+    "Cancer survivor status or romantic partner of a cancer survivor",
+    "Current treatment status (chemotherapy, radiation, or surgery)",
+    "Age range (at least 18 years old and less than 90 years old)",
+    "Access to a computer or tablet with internet",
+    "Willingness to share an email address with the study team"
+  ],
+  "unresolved_study_requirements": [
+    "Commitment to the study for the duration required"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.131
+}

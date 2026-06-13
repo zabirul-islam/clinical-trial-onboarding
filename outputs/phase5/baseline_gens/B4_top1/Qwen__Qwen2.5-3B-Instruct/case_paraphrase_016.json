@@ -1,0 +1,76 @@
+{
+  "case_id": "case_paraphrase_016",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2022",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT03876652",
+  "reference_trial": "NCT03876652",
+  "evidence_trials": [
+    "NCT03876652"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT03876652 | section=summary]\nVasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.\n\n[Passage 2 | doc=NCT03876652 | section=detailed_description]\nSyncope is defined as a loss of consciousness with inability to maintain the postural tone, with subsequent spontaneous recovery and without neurological sequelae. This occurs due to cerebral hypoperfusion by two mechanisms: 1) decreased cardiac output, usually due to bradycardia, and 2) hypotension due to decreased peripheral vascular resistance. An incidence of 6.2 per 1000 persons / year has been calculated, constitutes 2% of the reasons for consultation by emergency department and is found in 40% of the hospitalized participants. Its prevalence increases with age and is clearly influenced by the presence or absence of heart disease. The most frequent etiology is vasovagal, which has a benign course, with a mortality that does not exceed the expected for the general population. However, up to 21.6% have recurrences, which affects the quality of life and can generate physical injuries, especially in the geriatric population.",
+  "passages": [
+    {
+      "passage_id": "NCT03876652::summary::0",
+      "doc_id": "NCT03876652",
+      "section": "summary",
+      "passage_text": "Vasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 233.66850497725088,
+      "cross_score": -5.96436,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03876652::detailed_description::0",
+      "doc_id": "NCT03876652",
+      "section": "detailed_description",
+      "passage_text": "Syncope is defined as a loss of consciousness with inability to maintain the postural tone, with subsequent spontaneous recovery and without neurological sequelae. This occurs due to cerebral hypoperfusion by two mechanisms: 1) decreased cardiac output, usually due to bradycardia, and 2) hypotension due to decreased peripheral vascular resistance. An incidence of 6.2 per 1000 persons / year has been calculated, constitutes 2% of the reasons for consultation by emergency department and is found in 40% of the hospitalized participants. Its prevalence increases with age and is clearly influenced by the presence or absence of heart disease. The most frequent etiology is vasovagal, which has a benign course, with a mortality that does not exceed the expected for the general population. However, up to 21.6% have recurrences, which affects the quality of life and can generate physical injuries, especially in the geriatric population.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 233.66850497725088,
+      "cross_score": -6.700566,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study is looking at how a special kind of pacemaker might help people like you who often faint during exercise. It's for adults who have a specific type of fainting called vasovagal syncope. Your fainting happens when your body doesn't get enough blood to your brain, especially when you're active.\",\n  \"supported_patient_facts\": [\"the patient is a 23-year-old man\", \"he has had 3 episodes of fainting during physical activity\", \"he has no other medical conditions\", \"his father died suddenly at age 35\", \"he has a harsh systolic murmur on physical examination\"],\n  \"missing_patient_facts\": [\"the patient's echocardiography results\", \"whether the patient has already tried other treatments for his fainting\"],\n  \"unresolved_study_requirements\": [\"the patient's age (must be older than 18)\", \"confirmation of the patient's diagnosis of neurally mediated syncope\"],\n  \"reasoning_summary\": \"The patient matches the description of the study in terms of age, history of fainting, and family history. However, the patient's age and diagnosis need to be confirmed, and further information about the patient's current treatment options is needed.\",\n  \"safety_note\": \"The patient should discuss any concerns about the study with their doctor before deciding to participate.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study is looking at how a special kind of pacemaker might help people like you who often faint during exercise. It's for adults who have a specific type of fainting called vasovagal syncope. Your fainting happens when your body doesn't get enough blood to your brain, especially when you're active.",
+    "supported_patient_facts": [
+      "the patient is a 23-year-old man",
+      "he has had 3 episodes of fainting during physical activity",
+      "he has no other medical conditions",
+      "his father died suddenly at age 35",
+      "he has a harsh systolic murmur on physical examination"
+    ],
+    "missing_patient_facts": [
+      "the patient's echocardiography results",
+      "whether the patient has already tried other treatments for his fainting"
+    ],
+    "unresolved_study_requirements": [
+      "the patient's age (must be older than 18)",
+      "confirmation of the patient's diagnosis of neurally mediated syncope"
+    ],
+    "reasoning_summary": "The patient matches the description of the study in terms of age, history of fainting, and family history. However, the patient's age and diagnosis need to be confirmed, and further information about the patient's current treatment options is needed.",
+    "safety_note": "The patient should discuss any concerns about the study with their doctor before deciding to participate."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study is looking at how a special kind of pacemaker might help people like you who often faint during exercise. It's for adults who have a specific type of fainting called vasovagal syncope. Your fainting happens when your body doesn't get enough blood to your brain, especially when you're active.",
+  "missing_patient_facts": [
+    "the patient's echocardiography results",
+    "whether the patient has already tried other treatments for his fainting"
+  ],
+  "unresolved_study_requirements": [
+    "the patient's age (must be older than 18)",
+    "confirmation of the patient's diagnosis of neurally mediated syncope"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.707
+}

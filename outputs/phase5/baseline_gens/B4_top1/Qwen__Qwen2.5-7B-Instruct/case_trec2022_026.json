@@ -1,0 +1,63 @@
+{
+  "case_id": "case_trec2022_026",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01847690",
+  "reference_trial": "NCT01847690",
+  "evidence_trials": [
+    "NCT01847690"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 33-year-old woman comes to clinic complaining of progressive fatigue, decreased appetite, and 11-lb weight loss in the past 2 months. She uses levothyroxine because of the previously diagnosed Hashimoto disease. She has no other medical conditions and does not use tobacco, alcohol, or illicit drugs. Physical examination shows a generalized increase in pigmentation of the skin. Measurement of serum cortisol before and after administration of exogenous adrenocorticotropic hormone (ACTH) shows no difference in the levels. Stable glucocorticoid replacement therapy starts for her with the diagnosis for primary adrenal insufficiency (Addison disease) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01847690 | section=summary]\nThe conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.",
+  "passages": [
+    {
+      "passage_id": "NCT01847690::summary::0",
+      "doc_id": "NCT01847690",
+      "section": "summary",
+      "passage_text": "The conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.",
+      "title": "Effect of Cortisol on Physical Exertion in Patients With Primary Adrenal Failure",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 244.22565203976504,
+      "cross_score": -5.657776,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.\",\n  \"supported_patient_facts\": [\"33-year-old woman\", \"Hashimoto disease\", \"No other medical conditions\", \"Does not use tobacco, alcohol, or illicit drugs\"],\n  \"missing_patient_facts\": [\"Stress-dose administration history\", \"Current glucocorticoid dosage and regimen\"],\n  \"unresolved_study_requirements\": [\"Whether the patient requires stress-doses of hydrocortisone or cortisone acetate\", \"Specific eligibility criteria related to adrenal function tests\"],\n  \"reasoning_summary\": \"The patient's age, thyroid condition, and lack of other medical issues align with general inclusion criteria. However, specific details about stress-dose administration and current glucocorticoid regimen are missing, and the study focuses on the effect of additional cortisol doses, which may not directly apply to the patient's condition.\",\n  \"safety_note\": \"It is important to ensure that any additional cortisol doses do not interfere with the patient's existing adrenal insufficiency management.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you might be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+    "supported_patient_facts": [
+      "33-year-old woman",
+      "Hashimoto disease",
+      "No other medical conditions",
+      "Does not use tobacco, alcohol, or illicit drugs"
+    ],
+    "missing_patient_facts": [
+      "Stress-dose administration history",
+      "Current glucocorticoid dosage and regimen"
+    ],
+    "unresolved_study_requirements": [
+      "Whether the patient requires stress-doses of hydrocortisone or cortisone acetate",
+      "Specific eligibility criteria related to adrenal function tests"
+    ],
+    "reasoning_summary": "The patient's age, thyroid condition, and lack of other medical issues align with general inclusion criteria. However, specific details about stress-dose administration and current glucocorticoid regimen are missing, and the study focuses on the effect of additional cortisol doses, which may not directly apply to the patient's condition.",
+    "safety_note": "It is important to ensure that any additional cortisol doses do not interfere with the patient's existing adrenal insufficiency management."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you might be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+  "missing_patient_facts": [
+    "Stress-dose administration history",
+    "Current glucocorticoid dosage and regimen"
+  ],
+  "unresolved_study_requirements": [
+    "Whether the patient requires stress-doses of hydrocortisone or cortisone acetate",
+    "Specific eligibility criteria related to adrenal function tests"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.336
+}

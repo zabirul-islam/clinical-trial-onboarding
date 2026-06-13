@@ -1,0 +1,63 @@
+{
+  "case_id": "case_paraphrase_019",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2022",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT04530149"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. I have similar symptoms but I'm not sure if I would qualify. What should I check?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 226.12732359440665,
+      "cross_score": -4.6300554,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like your situation might be related to the clinical trial, but we need to check a few things first.\",\n  \"supported_patient_facts\": [\"A 23-year-old man came to the emergency department after passing out due to dizziness during physical activity.\", \"He has had three episodes of light-headedness over the last year, all during physical activity.\", \"He has no other medical conditions.\", \"His father died suddenly at age 35.\"],\n  \"missing_patient_facts\": [\"Your specific medical history and current health status.\", \"The results of any imaging or tests you may have had.\"],\n  \"unresolved_study_requirements\": [\"We need to confirm if you have rib fractures between T3 to T9 with a resting pain score of \u22655.\", \"We also need to know if you have given informed consent for the clinical trial.\"],\n  \"reasoning_summary\": \"While your symptoms sound similar to those described in the study, we need more information about your medical history and current condition to determine if you would be eligible for the trial.\",\n  \"safety_note\": \"It's important to ensure that you meet all eligibility criteria before participating in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like your situation might be related to the clinical trial, but we need to check a few things first.",
+    "supported_patient_facts": [
+      "A 23-year-old man came to the emergency department after passing out due to dizziness during physical activity.",
+      "He has had three episodes of light-headedness over the last year, all during physical activity.",
+      "He has no other medical conditions.",
+      "His father died suddenly at age 35."
+    ],
+    "missing_patient_facts": [
+      "Your specific medical history and current health status.",
+      "The results of any imaging or tests you may have had."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm if you have rib fractures between T3 to T9 with a resting pain score of \u22655.",
+      "We also need to know if you have given informed consent for the clinical trial."
+    ],
+    "reasoning_summary": "While your symptoms sound similar to those described in the study, we need more information about your medical history and current condition to determine if you would be eligible for the trial.",
+    "safety_note": "It's important to ensure that you meet all eligibility criteria before participating in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like your situation might be related to the clinical trial, but we need to check a few things first.",
+  "missing_patient_facts": [
+    "Your specific medical history and current health status.",
+    "The results of any imaging or tests you may have had."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm if you have rib fractures between T3 to T9 with a resting pain score of \u22655.",
+    "We also need to know if you have given informed consent for the clinical trial."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.699
+}

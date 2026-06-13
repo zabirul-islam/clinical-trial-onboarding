@@ -1,0 +1,68 @@
+{
+  "case_id": "case_trec2022_023",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03529955",
+  "reference_trial": "NCT03529955",
+  "evidence_trials": [
+    "NCT03529955"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 40-year-old woman comes to the clinic complaining of gritty sensation in her eyes. She also has difficulty swallowing dry foods with no pain or heartburn. The patient is a schoolteacher and must drink water frequently during lectures due to her mouth dryness. She also reports occasional joint pain. Medical history is not significant other than the confirmed Sjogren disease with no other rheumatologic disease. She is sexually active with her husband and has 2 children both delivered by natural vaginal delivery. She has no history of any kind of surgery. Physical examination shows conjunctival erythema and cracking of the lips. The remainder of the examination and history is normal. Her lab result shows elevated ESR (50 mm/h) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03529955 | section=detailed_description]\nTulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+  "passages": [
+    {
+      "passage_id": "NCT03529955::detailed_description::1",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Tulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 291.7791020841331,
+      "cross_score": -5.8952675,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm before we can make a final decision.\",\n  \"supported_patient_facts\": [\"The patient has Sj\u00f6gren's syndrome\", \"She has a gritty sensation in her eyes and difficulty swallowing dry foods without pain or heartburn\", \"She experiences frequent water intake due to dry mouth\", \"She has occasional joint pain\", \"She is a schoolteacher\", \"She is sexually active with two children\", \"She has no history of surgery\"],\n  \"missing_patient_facts\": [\"Her medical history of Sj\u00f6gren's syndrome\", \"Specific details about her joint pain\", \"Imaging results or further diagnostic tests\"],\n  \"unresolved_study_requirements\": [\"Imaging requirements or further diagnostic tests may be needed to confirm the presence of Sj\u00f6gren's syndrome\", \"Further information about her joint pain may be required to determine if it aligns with the study's criteria\"],\n  \"reasoning_summary\": \"While the patient's symptoms and condition seem consistent with the study's eligibility criteria, we need more specific information about her joint pain and imaging results to finalize her eligibility.\",\n  \"safety_note\": \"Please note that this assessment is preliminary and final eligibility will depend on additional evaluations and confirmation.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm before we can make a final decision.",
+    "supported_patient_facts": [
+      "The patient has Sj\u00f6gren's syndrome",
+      "She has a gritty sensation in her eyes and difficulty swallowing dry foods without pain or heartburn",
+      "She experiences frequent water intake due to dry mouth",
+      "She has occasional joint pain",
+      "She is a schoolteacher",
+      "She is sexually active with two children",
+      "She has no history of surgery"
+    ],
+    "missing_patient_facts": [
+      "Her medical history of Sj\u00f6gren's syndrome",
+      "Specific details about her joint pain",
+      "Imaging results or further diagnostic tests"
+    ],
+    "unresolved_study_requirements": [
+      "Imaging requirements or further diagnostic tests may be needed to confirm the presence of Sj\u00f6gren's syndrome",
+      "Further information about her joint pain may be required to determine if it aligns with the study's criteria"
+    ],
+    "reasoning_summary": "While the patient's symptoms and condition seem consistent with the study's eligibility criteria, we need more specific information about her joint pain and imaging results to finalize her eligibility.",
+    "safety_note": "Please note that this assessment is preliminary and final eligibility will depend on additional evaluations and confirmation."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm before we can make a final decision.",
+  "missing_patient_facts": [
+    "Her medical history of Sj\u00f6gren's syndrome",
+    "Specific details about her joint pain",
+    "Imaging results or further diagnostic tests"
+  ],
+  "unresolved_study_requirements": [
+    "Imaging requirements or further diagnostic tests may be needed to confirm the presence of Sj\u00f6gren's syndrome",
+    "Further information about her joint pain may be required to determine if it aligns with the study's criteria"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.527
+}

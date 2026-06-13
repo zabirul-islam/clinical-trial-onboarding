@@ -1,0 +1,62 @@
+{
+  "case_id": "case_trec2021_009",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00013845",
+  "selected_doc": "NCT02899611",
+  "reference_trial": "NCT02899611",
+  "evidence_trials": [
+    "NCT02899611"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe. The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode. He was maintained on Dilantin and phenobarbital. The patient went 20 years without another seizure. He was recently tapered off Dilantin, and it was felt that perhaps this medication was necessary to maintain him seizure free. The patient had no further events during the hospital course and was back at his baseline at the time of discharge. Full EEG reports are pending at the time of dictation. Past Medical History: Epilepsy as above, CHF, depression Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02899611 | section=eligibility]\nInclusion Criteria: 1. Subject is 18 to 65 years old. 2. Subject does not have coagulopathy, ventricular anatomic distortion or abnormally low brain weight or significant volume loss etc. and is approved to have surgery. 3. Subject had onset of epilepsy after age 5, had normal brain development up to age 5, and has full scale IQ > 70 by testing or functional assessment. 4. Subject has brain volume which is not noted to be abnormally small due to atrophy by either the radiologist reading on MRI scan or the treating clinicians (the neurosurgeon) review of the MRI scan. 5. Subject has had confirmed epilepsy for a minimum of 1 year, with diagnosis of focal seizures with temporal lobe onset, with or without secondarily generalized seizures, as defined by the International League Against Epilepsy (ILAE) Classification of Epileptic Seizures (1981). 6. In the opinion of the investigator, subject has disabling seizures. Disabling refers to seizures that are severe enough to cause injuries, or significantly impair functional ability in domains including employment, psychosocial education and mobility. 7. Subject has had a CT or MRI of the brain to rule out progressive structural lesions. 8.",
+  "passages": [
+    {
+      "passage_id": "NCT02899611::eligibility::0",
+      "doc_id": "NCT02899611",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Subject is 18 to 65 years old. 2. Subject does not have coagulopathy, ventricular anatomic distortion or abnormally low brain weight or significant volume loss etc. and is approved to have surgery. 3. Subject had onset of epilepsy after age 5, had normal brain development up to age 5, and has full scale IQ > 70 by testing or functional assessment. 4. Subject has brain volume which is not noted to be abnormally small due to atrophy by either the radiologist reading on MRI scan or the treating clinicians (the neurosurgeon) review of the MRI scan. 5. Subject has had confirmed epilepsy for a minimum of 1 year, with diagnosis of focal seizures with temporal lobe onset, with or without secondarily generalized seizures, as defined by the International League Against Epilepsy (ILAE) Classification of Epileptic Seizures (1981). 6. In the opinion of the investigator, subject has disabling seizures. Disabling refers to seizures that are severe enough to cause injuries, or significantly impair functional ability in domains including employment, psychosocial education and mobility. 7. Subject has had a CT or MRI of the brain to rule out progressive structural lesions. 8.",
+      "title": "A Dose Ranging Pilot Study for Intracerebroventricular (ICV) Delivery of Valproate in Subjects With Temporal Seizures",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 415.8148298874575,
+      "cross_score": -4.1688733,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved details that need to be confirmed.\",\n  \"supported_patient_facts\": [\"Age is within the range of 18 to 65 years old\"],\n  \"missing_patient_facts\": [\"Full scale IQ test result to confirm full scale IQ > 70\", \"Confirmation of disabling seizures\", \"MRI results to rule out progressive structural lesions\", \"Confirmation of focal seizures with temporal lobe onset and secondarily generalized seizures if applicable\"],\n  \"unresolved_study_requirements\": [\"Confirmation of epilepsy onset after age 5 and normal brain development up to age 5\"],\n  \"reasoning_summary\": \"The patient's age matches the inclusion criteria, but several key details such as IQ score, confirmation of disabling seizures, MRI results, and specific seizure type need to be verified before a definitive decision can be made.\",\n  \"safety_note\": \"Please ensure all required assessments are completed and reviewed by the study team.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved details that need to be confirmed.",
+    "supported_patient_facts": [
+      "Age is within the range of 18 to 65 years old"
+    ],
+    "missing_patient_facts": [
+      "Full scale IQ test result to confirm full scale IQ > 70",
+      "Confirmation of disabling seizures",
+      "MRI results to rule out progressive structural lesions",
+      "Confirmation of focal seizures with temporal lobe onset and secondarily generalized seizures if applicable"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of epilepsy onset after age 5 and normal brain development up to age 5"
+    ],
+    "reasoning_summary": "The patient's age matches the inclusion criteria, but several key details such as IQ score, confirmation of disabling seizures, MRI results, and specific seizure type need to be verified before a definitive decision can be made.",
+    "safety_note": "Please ensure all required assessments are completed and reviewed by the study team."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved details that need to be confirmed.",
+  "missing_patient_facts": [
+    "Full scale IQ test result to confirm full scale IQ > 70",
+    "Confirmation of disabling seizures",
+    "MRI results to rule out progressive structural lesions",
+    "Confirmation of focal seizures with temporal lobe onset and secondarily generalized seizures if applicable"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of epilepsy onset after age 5 and normal brain development up to age 5"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.45
+}

@@ -1,0 +1,78 @@
+{
+  "case_id": "case_paraphrase_031",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04322422",
+  "reference_trial": "NCT04322422",
+  "evidence_trials": [
+    "NCT04322422"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT04322422 | section=summary]\nAsthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.\n\n[Passage 2 | doc=NCT04322422 | section=eligibility]\nInclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.",
+  "passages": [
+    {
+      "passage_id": "NCT04322422::summary::0",
+      "doc_id": "NCT04322422",
+      "section": "summary",
+      "passage_text": "Asthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 467.79581374351466,
+      "cross_score": -4.4925857,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04322422::eligibility::0",
+      "doc_id": "NCT04322422",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 467.79581374351466,
+      "cross_score": -4.854997,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study is looking into a type of asthma called chest tightness variant asthma. It's trying to find out if adding a medicine called Montelukast to a common asthma treatment might help better manage your symptoms.\",\n  \"supported_patient_facts\": [\"the patient has a history of asthma for 3 years\", \"he has symptoms like cough, wheezing, and shortness of breath\", \"his spirometry shows an FEV1 of 63% of the predicted value\", \"he uses inhaled corticosteroid and fluticasone/salmeterol regularly\", \"his symptoms are worse at work and improve outside of work\"],\n  \"missing_patient_facts\": [\"the patient's exact diagnosis of asthma\", \"whether he has any other respiratory conditions besides asthma\", \"if he has been using his inhaler as prescribed\"],\n  \"unresolved_study_requirements\": [\"the patient's willingness to participate and sign informed consent\", \"confirmation that the patient does not have certain serious health conditions that would disqualify him from the study\"],\n  \"reasoning_summary\": \"The patient fits well with the inclusion criteria for the study, especially regarding his asthma symptoms and treatment. However, some key details like his exact asthma diagnosis and whether he has other health issues are not fully confirmed. Also, the patient needs to agree to participate and sign informed consent, which is pending.\",\n  \"safety_note\": \"Before joining the study, the patient should ensure he is not at risk for any serious health conditions that could affect his participation.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study is looking into a type of asthma called chest tightness variant asthma. It's trying to find out if adding a medicine called Montelukast to a common asthma treatment might help better manage your symptoms.",
+    "supported_patient_facts": [
+      "the patient has a history of asthma for 3 years",
+      "he has symptoms like cough, wheezing, and shortness of breath",
+      "his spirometry shows an FEV1 of 63% of the predicted value",
+      "he uses inhaled corticosteroid and fluticasone/salmeterol regularly",
+      "his symptoms are worse at work and improve outside of work"
+    ],
+    "missing_patient_facts": [
+      "the patient's exact diagnosis of asthma",
+      "whether he has any other respiratory conditions besides asthma",
+      "if he has been using his inhaler as prescribed"
+    ],
+    "unresolved_study_requirements": [
+      "the patient's willingness to participate and sign informed consent",
+      "confirmation that the patient does not have certain serious health conditions that would disqualify him from the study"
+    ],
+    "reasoning_summary": "The patient fits well with the inclusion criteria for the study, especially regarding his asthma symptoms and treatment. However, some key details like his exact asthma diagnosis and whether he has other health issues are not fully confirmed. Also, the patient needs to agree to participate and sign informed consent, which is pending.",
+    "safety_note": "Before joining the study, the patient should ensure he is not at risk for any serious health conditions that could affect his participation."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study is looking into a type of asthma called chest tightness variant asthma. It's trying to find out if adding a medicine called Montelukast to a common asthma treatment might help better manage your symptoms.",
+  "missing_patient_facts": [
+    "the patient's exact diagnosis of asthma",
+    "whether he has any other respiratory conditions besides asthma",
+    "if he has been using his inhaler as prescribed"
+  ],
+  "unresolved_study_requirements": [
+    "the patient's willingness to participate and sign informed consent",
+    "confirmation that the patient does not have certain serious health conditions that would disqualify him from the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.11
+}

@@ -1,0 +1,59 @@
+{
+  "case_id": "case_trec2022_027",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01518192",
+  "reference_trial": "NCT01518192",
+  "evidence_trials": [
+    "NCT01518192"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 31-year-old woman comes to the office due to 3 days of rash on her left arm. The lesion is mildly pruritic but not painful. She is otherwise healthy and occasionally takes ibuprofen during the first few days of her menstrual period. Temperature is 37 C, blood pressure is 110/75 mm Hg, and pulse is 95/min. The lesion is like a target sign known as erythema migrans. She recently went for an adventure trip in New Hampshire. The patient is diagnosed with Lyme disease. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01518192 | section=eligibility]\nInclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+  "passages": [
+    {
+      "passage_id": "NCT01518192::eligibility::0",
+      "doc_id": "NCT01518192",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - patients 15 or more years old - with typical erythema migrans - evaluated between 6/06 and 9/06 - evaluated at the Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia. Exclusion Criteria: - history of Lyme disease in the past - pregnancy - lactation - immunocompromising condition - history of a serious adverse reaction to a beta-lactam or tetracycline drug - receiving an antibiotic with known anti-borrelial activity within 10 days - multiple erythema migrans lesions or an extracutaneous manifestation of Lyme disease.",
+      "title": "Comparison of Doxycycline and Cefuroxime Axetil for Treatment of Erythema Migrans: Clinical and Microbiological Outcome",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 235.49607113045948,
+      "cross_score": -4.820422,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your situation shows some alignment with the study's inclusion criteria, but there are unresolved details that need further clarification.\",\n  \"supported_patient_facts\": [\"31-year-old woman\", \"diagnosed with Lyme disease (erythema migrans)\"],\n  \"missing_patient_facts\": [\"Evaluation date within the specified range (6/06 to 9/06)\", \"Location of evaluation clinic (Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia)\"],\n  \"unresolved_study_requirements\": [\"No information on recent antibiotic use or history of adverse reactions to specific drugs\"],\n  \"reasoning_summary\": \"The patient is a 31-year-old woman with erythema migrans, which aligns with the inclusion criteria. However, the evaluation date and location are outside the specified range, and there is no information about recent antibiotic use or history of adverse reactions to specific drugs, which are unresolved requirements.\",\n  \"safety_note\": \"Ensure all required information is gathered before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your situation shows some alignment with the study's inclusion criteria, but there are unresolved details that need further clarification.",
+    "supported_patient_facts": [
+      "31-year-old woman",
+      "diagnosed with Lyme disease (erythema migrans)"
+    ],
+    "missing_patient_facts": [
+      "Evaluation date within the specified range (6/06 to 9/06)",
+      "Location of evaluation clinic (Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia)"
+    ],
+    "unresolved_study_requirements": [
+      "No information on recent antibiotic use or history of adverse reactions to specific drugs"
+    ],
+    "reasoning_summary": "The patient is a 31-year-old woman with erythema migrans, which aligns with the inclusion criteria. However, the evaluation date and location are outside the specified range, and there is no information about recent antibiotic use or history of adverse reactions to specific drugs, which are unresolved requirements.",
+    "safety_note": "Ensure all required information is gathered before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your situation shows some alignment with the study's inclusion criteria, but there are unresolved details that need further clarification.",
+  "missing_patient_facts": [
+    "Evaluation date within the specified range (6/06 to 9/06)",
+    "Location of evaluation clinic (Lyme Disease Outpatient Clinic, University Medical Center Ljubljana, Slovenia)"
+  ],
+  "unresolved_study_requirements": [
+    "No information on recent antibiotic use or history of adverse reactions to specific drugs"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.736
+}

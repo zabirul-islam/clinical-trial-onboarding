@@ -1,0 +1,129 @@
+{
+  "case_id": "case_trec2021_018",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00159406",
+  "selected_doc": "NCT04529369",
+  "reference_trial": "NCT04529369",
+  "evidence_trials": [
+    "NCT00169767",
+    "NCT01186237",
+    "NCT01931605",
+    "NCT02737241",
+    "NCT03955484",
+    "NCT04529369"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04529369 | section=eligibility]\nInclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy\n\n[Passage 2 | doc=NCT03955484 | section=summary]\nLower urinary tract symptoms (LUTS) are one of the most common conditions in the urology clinic, affecting at least one in four men after 40 years of age. Benign prostatic hyperplasia is the most common cause of LUTS. Bladder dysfunction (hypersensitivity or detrusor overactivity) and bladder outlet obstruction are two main pathologies involved in the etiology of LUTS. In men aged 40-49, moderate and severe LUTS are reported as 26%, while this ratio is doubled in the age group of 70 years and older. Clinically, BPH is defined as an international symptom score of more than 8, a prostate volume of more than 30 ml, and a maximum flow rate of less than 15 ml / sec. Alpha blockers are recommended as the first-line medical treatment according to European Urology Guidelines (EAU Guidelines 2018) for patients diagnosed with BPH clinically. In recent years, many studies have been published on the relationship of urinary biomarkers with LUTS. Nerve growth factor and brain derived neurotrophic factor have been shown to be closely related to neurogenic or non-neurogenic detrusor overactivity and significant improvements were observed after treatment.The relationship between urinary glycosaminoglycan and overactive bladder has been shown and it has been reported that the values have decreased after treatment.Male patients with LUTS caused by BPH often have symptoms of overactive bladder. However, as far as we know, there is no study in the literature about the meaning of urinary GAG levels in this patient group. The aim of this study was to investigate the relationship between urinary glycosaminoglycan levels and patients who had benign prostatic hyperplasia with and without overactive bladder symptoms.\n\n[Passage 3 | doc=NCT00169767 | section=detailed_description]\nThe traditional surgical therapy for BPH is a transurethral resection of the prostate (McConnell et al, 1994). This surgery involves the insertion of a telescope (resectoscope) transurethrally into the prostate and bladder. An electrocautery loop attached to the resectoscope is then used to core out the inside of the prostate until the surgical capsule of the prostate is reached. A large catheter is left in the bladder for at least 1 day and saline irrigation of the bladder is often required for post-operative bleeding. Once the urine is clear, the catheter is removed and the patient undergoes a voiding trial. If voiding is successful, the patient is discharged home. TURP produces excellent short and long-term results and remains a standard of care for the surgical treatment of BPH. Unfortunately, this durable procedure has many potential risks and complications including bleeding requiring blood transfusion (~5%), intraoperative complications (e.g.\n\n[Passage 4 | doc=NCT02737241 | section=detailed_description]\nIntroduction Benign prostatic hyperplasia (BPH) is a pathologic process that contributes to, but is not the sole cause of, lower urinary tract symptoms (LUTS) in aging men. The decision to intervene is frequently used as an end point after failure of different medical therapies. These medications are able to delay this point. Failed medical treatment either due to refractory LUTS or in patients who are not willing to make a lifetime commitment to medical therapy represents one indication to intervene. Urine retention secondary to BPH with failed voiding trial without catheter is an indication for intervention in healthy individuals as well as recurrent hematuria, secondary vesical stones and recurrent urinary tract infection. Renal deterioration secondary to BPH is an indication of intervention after proper evaluation of the bladder function. For years, surgical treatment for BPH was transurethral resection of the prostate (TURP) for small to moderate sized prostate and open prostatectomy (OP) for markedly enlarged one.\n\n[Passage 5 | doc=NCT01186237 | section=detailed_description]\nFor patients who have low urine output indicating under-resuscitation, indwelling catheters will be re-inserted and removed when ongoing resuscitation measures are completed. 8. For patients who are actively undergoing fluid resuscitation on post-operative day 3 will not have their urinary catheters removed until resuscitation and monitoring is complete. 9. Patients who report symptoms of benign prostatic hypertrophy (BPH) and/or are already on medications for BPH will be continued on those medications starting on post-operative day 1. 10. Patients who have persistent urinary retention when they are otherwise ready to be discharged home will be sent home with a leg bag and follow up in urology clinic for voiding trial in 1-2 weeks. 11. Urinalysis/urine culture will be performed for symptomatic patients.\n\n[Passage 6 | doc=NCT01931605 | section=summary]\nBackground: Patients with indwelling urinary catheter for chronic retention due to obstructive BPH refractory to medical therapy are candidates for prostatectomy still considered as the gold standard of treatment. Urinary tract infection, strictures, postoperative pain, incontinence, sexual dysfunction, anesthesiologist risk and blood loss are complications associated with surgery. Minimally invasive treatments were originally conceived as an attempt to offer equivalent efficacy without the burden and risk of operative morbidity. Recently, it was suggested that prostatic arterial embolization (PAE) to treat BPH might follow uterine artery embolization for uterine leiomyomas. Animal studies in pigs and dogs have shown that PAE is safe and can induce prostatic volume reduction. The first report of this technique in the management of BPH in humans was by DeMeritt et al, who reported a single case of BPH with obstructive symptoms and blood loss refractory to other treatments that was successfully managed by PAE with polyvinyl alcohol (PVA) particles. Objective : We investigate whether PAE might be a feasible procedure as an alternative treatment option to treat urinary retention due to obstructive BPH. The primary objective is to evaluate the success rate of procedure defined when selective prostatic arterial catheterization and embolization were achieve and patients can be able to urinate after their urinary catheter has been removed. Patients and methods : A monocentric prospective study is undertaken in 25 patients aged 50-85 years who present with indwelling urinary catheter due to obstructive BPH refractory to medical treatment with a clinical indication for surgery who agreed to undergo PAE. The study is approved by the hospital ethical committee and an informed consent form for PAE as an alternative treatment is signed by all participants. Statistical analysis : The sample size has been calculated in order to have an estimated probability of success (corresponding of primary objective) of 50% (worst case) with 95% confidence intervals of 30 to 70. The two-sample t-test (and Wilcoxon rank-sum test) is used to compare the mean changes of the variables from baseline to 10, 30 and 90 days. Finally, the Chi-square test is used to test for adverse events at the end of follow-up. P \u2264 0.05 is indicative of statistically significant.",
+  "passages": [
+    {
+      "passage_id": "NCT04529369::eligibility::0",
+      "doc_id": "NCT04529369",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy",
+      "title": "Middle Lobe Only Laser Vaporization or Total Prostate Vaporization of the Prostate, Prospective Cohort Study",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 356.5249494702854,
+      "cross_score": -3.2097907,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03955484::summary::0",
+      "doc_id": "NCT03955484",
+      "section": "summary",
+      "passage_text": "Lower urinary tract symptoms (LUTS) are one of the most common conditions in the urology clinic, affecting at least one in four men after 40 years of age. Benign prostatic hyperplasia is the most common cause of LUTS. Bladder dysfunction (hypersensitivity or detrusor overactivity) and bladder outlet obstruction are two main pathologies involved in the etiology of LUTS. In men aged 40-49, moderate and severe LUTS are reported as 26%, while this ratio is doubled in the age group of 70 years and older. Clinically, BPH is defined as an international symptom score of more than 8, a prostate volume of more than 30 ml, and a maximum flow rate of less than 15 ml / sec. Alpha blockers are recommended as the first-line medical treatment according to European Urology Guidelines (EAU Guidelines 2018) for patients diagnosed with BPH clinically. In recent years, many studies have been published on the relationship of urinary biomarkers with LUTS. Nerve growth factor and brain derived neurotrophic factor have been shown to be closely related to neurogenic or non-neurogenic detrusor overactivity and significant improvements were observed after treatment.The relationship between urinary glycosaminoglycan and overactive bladder has been shown and it has been reported that the values have decreased after treatment.Male patients with LUTS caused by BPH often have symptoms of overactive bladder. However, as far as we know, there is no study in the literature about the meaning of urinary GAG levels in this patient group. The aim of this study was to investigate the relationship between urinary glycosaminoglycan levels and patients who had benign prostatic hyperplasia with and without overactive bladder symptoms.",
+      "title": "Benign Prostatic Hyperplasia and Glycosaminoglycan",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 338.2927267845858,
+      "cross_score": -3.567562,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00169767::detailed_description::0",
+      "doc_id": "NCT00169767",
+      "section": "detailed_description",
+      "passage_text": "The traditional surgical therapy for BPH is a transurethral resection of the prostate (McConnell et al, 1994). This surgery involves the insertion of a telescope (resectoscope) transurethrally into the prostate and bladder. An electrocautery loop attached to the resectoscope is then used to core out the inside of the prostate until the surgical capsule of the prostate is reached. A large catheter is left in the bladder for at least 1 day and saline irrigation of the bladder is often required for post-operative bleeding. Once the urine is clear, the catheter is removed and the patient undergoes a voiding trial. If voiding is successful, the patient is discharged home. TURP produces excellent short and long-term results and remains a standard of care for the surgical treatment of BPH. Unfortunately, this durable procedure has many potential risks and complications including bleeding requiring blood transfusion (~5%), intraoperative complications (e.g.",
+      "title": "Holmium Laser Ablation of the Prostate (HoLAP) Versus KTP Laser Vaporization of the Prostate",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 339.99523298176854,
+      "cross_score": -3.5754032,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02737241::detailed_description::0",
+      "doc_id": "NCT02737241",
+      "section": "detailed_description",
+      "passage_text": "Introduction Benign prostatic hyperplasia (BPH) is a pathologic process that contributes to, but is not the sole cause of, lower urinary tract symptoms (LUTS) in aging men. The decision to intervene is frequently used as an end point after failure of different medical therapies. These medications are able to delay this point. Failed medical treatment either due to refractory LUTS or in patients who are not willing to make a lifetime commitment to medical therapy represents one indication to intervene. Urine retention secondary to BPH with failed voiding trial without catheter is an indication for intervention in healthy individuals as well as recurrent hematuria, secondary vesical stones and recurrent urinary tract infection. Renal deterioration secondary to BPH is an indication of intervention after proper evaluation of the bladder function. For years, surgical treatment for BPH was transurethral resection of the prostate (TURP) for small to moderate sized prostate and open prostatectomy (OP) for markedly enlarged one.",
+      "title": "HoLEP (50W) vs. HoLEP (100W) for Treatment of BPH",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 344.87641597758903,
+      "cross_score": -3.881606,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01186237::detailed_description::1",
+      "doc_id": "NCT01186237",
+      "section": "detailed_description",
+      "passage_text": "For patients who have low urine output indicating under-resuscitation, indwelling catheters will be re-inserted and removed when ongoing resuscitation measures are completed. 8. For patients who are actively undergoing fluid resuscitation on post-operative day 3 will not have their urinary catheters removed until resuscitation and monitoring is complete. 9. Patients who report symptoms of benign prostatic hypertrophy (BPH) and/or are already on medications for BPH will be continued on those medications starting on post-operative day 1. 10. Patients who have persistent urinary retention when they are otherwise ready to be discharged home will be sent home with a leg bag and follow up in urology clinic for voiding trial in 1-2 weeks. 11. Urinalysis/urine culture will be performed for symptomatic patients.",
+      "title": "Early Removal of Urinary Catheters in Patients After Rectal Surgery: a Prospective Study",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 340.27561425156017,
+      "cross_score": -4.469255,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01931605::summary::0",
+      "doc_id": "NCT01931605",
+      "section": "summary",
+      "passage_text": "Background: Patients with indwelling urinary catheter for chronic retention due to obstructive BPH refractory to medical therapy are candidates for prostatectomy still considered as the gold standard of treatment. Urinary tract infection, strictures, postoperative pain, incontinence, sexual dysfunction, anesthesiologist risk and blood loss are complications associated with surgery. Minimally invasive treatments were originally conceived as an attempt to offer equivalent efficacy without the burden and risk of operative morbidity. Recently, it was suggested that prostatic arterial embolization (PAE) to treat BPH might follow uterine artery embolization for uterine leiomyomas. Animal studies in pigs and dogs have shown that PAE is safe and can induce prostatic volume reduction. The first report of this technique in the management of BPH in humans was by DeMeritt et al, who reported a single case of BPH with obstructive symptoms and blood loss refractory to other treatments that was successfully managed by PAE with polyvinyl alcohol (PVA) particles. Objective : We investigate whether PAE might be a feasible procedure as an alternative treatment option to treat urinary retention due to obstructive BPH. The primary objective is to evaluate the success rate of procedure defined when selective prostatic arterial catheterization and embolization were achieve and patients can be able to urinate after their urinary catheter has been removed. Patients and methods : A monocentric prospective study is undertaken in 25 patients aged 50-85 years who present with indwelling urinary catheter due to obstructive BPH refractory to medical treatment with a clinical indication for surgery who agreed to undergo PAE. The study is approved by the hospital ethical committee and an informed consent form for PAE as an alternative treatment is signed by all participants. Statistical analysis : The sample size has been calculated in order to have an estimated probability of success (corresponding of primary objective) of 50% (worst case) with 95% confidence intervals of 30 to 70. The two-sample t-test (and Wilcoxon rank-sum test) is used to compare the mean changes of the variables from baseline to 10, 30 and 90 days. Finally, the Chi-square test is used to test for adverse events at the end of follow-up. P \u2264 0.05 is indicative of statistically significant.",
+      "title": "Results of Selective Prostatic Arterial Embolization in Patients With Indwelling Urinary Catheter Due to Benign Prostatic Hyperplasia Refractory to Medical Treatment.",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 339.55639294251023,
+      "cross_score": -4.71914,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.\",\n  \"supported_patient_facts\": [\"Adult male\", \"History of BPH\", \"Urinary retention\"],\n  \"missing_patient_facts\": [\"Cystoscopic examination documenting the predominant middle lobe prostatic adenoma\", \"Prostate volume measurement\", \"International symptom score\"],\n  \"unresolved_study_requirements\": [\"Consent and ability to provide answers to the questionnaire\", \"Bladder function evaluation\"],\n  \"reasoning_summary\": \"The patient is an adult male with a history of BPH and urinary retention, which aligns with the inclusion criteria. However, key details such as the cystoscopic examination result, prostate volume, and symptom score are missing. Additionally, the study requires patient consent and evaluation of bladder function, which are unresolved.\",\n  \"safety_note\": \"Please ensure all necessary patient facts are gathered and study-side requirements are resolved before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+    "supported_patient_facts": [
+      "Adult male",
+      "History of BPH",
+      "Urinary retention"
+    ],
+    "missing_patient_facts": [
+      "Cystoscopic examination documenting the predominant middle lobe prostatic adenoma",
+      "Prostate volume measurement",
+      "International symptom score"
+    ],
+    "unresolved_study_requirements": [
+      "Consent and ability to provide answers to the questionnaire",
+      "Bladder function evaluation"
+    ],
+    "reasoning_summary": "The patient is an adult male with a history of BPH and urinary retention, which aligns with the inclusion criteria. However, key details such as the cystoscopic examination result, prostate volume, and symptom score are missing. Additionally, the study requires patient consent and evaluation of bladder function, which are unresolved.",
+    "safety_note": "Please ensure all necessary patient facts are gathered and study-side requirements are resolved before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+  "missing_patient_facts": [
+    "Cystoscopic examination documenting the predominant middle lobe prostatic adenoma",
+    "Prostate volume measurement",
+    "International symptom score"
+  ],
+  "unresolved_study_requirements": [
+    "Consent and ability to provide answers to the questionnaire",
+    "Bladder function evaluation"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.507
+}

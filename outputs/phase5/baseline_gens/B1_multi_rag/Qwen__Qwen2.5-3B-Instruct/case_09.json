@@ -1,0 +1,131 @@
+{
+  "case_id": "case_09",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01645904",
+  "reference_trial": "NCT01645904",
+  "evidence_trials": [
+    "NCT00791271",
+    "NCT00923468",
+    "NCT01645904",
+    "NCT02305498"
+  ],
+  "question": "What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT01645904 | section=detailed_description]\nIf you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.\n\n[Passage 2 | doc=NCT00791271 | section=detailed_description]\nThe Study Drugs: Decitabine is designed to damage the DNA of cells, which may cause cancer cells to die. Peginterferon alfa-2b is designed to strengthen the immune system, which may decrease tumor growth. Study Groups: If you are found to be eligible to take part in this study, you will be assigned to a study group based on when you joined this study. Up to 6 groups of 3-6 participants will be enrolled in the Phase I portion of the study, and up to 44 participants will be enrolled in Phase II. If you are enrolled in the Phase I portion, the dose of decitabine and peginterferon alfa-2b you receive will depend on when you joined this study. The first group of participants will receive the lowest dose level of the study drug combination. Each new group will receive a higher dose level than the group before it, if no intolerable side effects were seen. This will continue until the highest tolerable dose of the study drug combination is found. If you are enrolled in the Phase II portion, the dose of decitabine and peginterferon alfa-2b you receive will depend on when you joined this study, as well as the research data from the Phase I portion.\n\n[Passage 3 | doc=NCT02305498 | section=summary]\nPrevious research suggests that regular physical activity may make cancer survivors do better in the long run. Laboratory studies suggest that stress may be bad for cancer patients as well. The investigators are interested in whether yoga, a practice that combines physical activity and stress reduction, is beneficial to cancer survivors. To answer that question, the investigators will need to do a large scale clinical trial. Before the investigators can do that large study, they need to know whether people are willing to participate in this kind of study, whether they can do the yoga practice regularly and for how long, what kind of changes they may experience in how they can handle their daily activities, emotion, sleep, memory and problem solving ability, and what are the changes that can happen in their body after doing the yoga practice. Answering these questions is what this study is about.\n\n[Passage 4 | doc=NCT01645904 | section=detailed_description]\nYou will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.\n\n[Passage 5 | doc=NCT00923468 | section=detailed_description]\nNo limit on the number of prior Phase I studies in which the subject or subject's child participated. Subjects may only participate in this study once. Design: The individual who provided consent to the treatment study that included optional PK sampling will complete a short questionnaire. Subjects (n=50) from a convenience sample will complete and return the questionnaire. Reasons for participating or agreeing to participate will be tabulated. Correlations between answers and subject demographics, time required by PK, need for additional IV will be sought. Subjects will meet off study criteria when the questionnaire is returned, lost to follow up, or consent for data submission to this or the primary treatment protocol is withdrawn. The total accrual is 50 subjects. Accrual ceiling at the POB, NCI is 25 subjects.\n\n[Passage 6 | doc=NCT00923468 | section=eligibility]\n- INCLUSION CRITERIA: - Subjects who consented within the 4 weeks prior to enrollment on this questionnaire study to a Phase 1 study that included optional PK sampling. (If the subject was a minor and a parent or legally authorized representative provided consent, subject for this questionnaire study refers to the parent). The PK questionnaire should be completed within 4 weeks of when the subject consented to the study that included optional PK sampling. (Note: The Phase 1 study need not have been a COG study). - Subjects are eligible regardless of whether they initially agreed to participate in the PK portion and regardless of whether they actually completed the PK sampling (as long as reason for not completing the sampling was not withdrawal of consent). - Subjects must not have withdrawn consent to the study that included optional PK sampling. - Subjects must not have initially agreed to optional PK sampling but then withdrawn consent for sampling prior to completing the questionnaire. - Subjects are eligible regardless of how many phase 1 or other studies they have enrolled in the past. - Each subject may participate only once in the survey.",
+  "passages": [
+    {
+      "passage_id": "NCT01645904::detailed_description::0",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 32.32920719167955,
+      "cross_score": 3.0045342,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00791271::detailed_description::0",
+      "doc_id": "NCT00791271",
+      "section": "detailed_description",
+      "passage_text": "The Study Drugs: Decitabine is designed to damage the DNA of cells, which may cause cancer cells to die. Peginterferon alfa-2b is designed to strengthen the immune system, which may decrease tumor growth. Study Groups: If you are found to be eligible to take part in this study, you will be assigned to a study group based on when you joined this study. Up to 6 groups of 3-6 participants will be enrolled in the Phase I portion of the study, and up to 44 participants will be enrolled in Phase II. If you are enrolled in the Phase I portion, the dose of decitabine and peginterferon alfa-2b you receive will depend on when you joined this study. The first group of participants will receive the lowest dose level of the study drug combination. Each new group will receive a higher dose level than the group before it, if no intolerable side effects were seen. This will continue until the highest tolerable dose of the study drug combination is found. If you are enrolled in the Phase II portion, the dose of decitabine and peginterferon alfa-2b you receive will depend on when you joined this study, as well as the research data from the Phase I portion.",
+      "title": "Parallel Phase I/II Trial of Decitabine and Peg-Interferon in Melanoma: Phase I Portion",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 32.88786460949855,
+      "cross_score": -0.5514343,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02305498::summary::0",
+      "doc_id": "NCT02305498",
+      "section": "summary",
+      "passage_text": "Previous research suggests that regular physical activity may make cancer survivors do better in the long run. Laboratory studies suggest that stress may be bad for cancer patients as well. The investigators are interested in whether yoga, a practice that combines physical activity and stress reduction, is beneficial to cancer survivors. To answer that question, the investigators will need to do a large scale clinical trial. Before the investigators can do that large study, they need to know whether people are willing to participate in this kind of study, whether they can do the yoga practice regularly and for how long, what kind of changes they may experience in how they can handle their daily activities, emotion, sleep, memory and problem solving ability, and what are the changes that can happen in their body after doing the yoga practice. Answering these questions is what this study is about.",
+      "title": "Yoga Practice for Breast or Ovarian Cancer Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 33.75994877711296,
+      "cross_score": -3.8231955,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01645904::detailed_description::1",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 32.32920719167955,
+      "cross_score": -4.4909563,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00923468::detailed_description::1",
+      "doc_id": "NCT00923468",
+      "section": "detailed_description",
+      "passage_text": "No limit on the number of prior Phase I studies in which the subject or subject's child participated. Subjects may only participate in this study once. Design: The individual who provided consent to the treatment study that included optional PK sampling will complete a short questionnaire. Subjects (n=50) from a convenience sample will complete and return the questionnaire. Reasons for participating or agreeing to participate will be tabulated. Correlations between answers and subject demographics, time required by PK, need for additional IV will be sought. Subjects will meet off study criteria when the questionnaire is returned, lost to follow up, or consent for data submission to this or the primary treatment protocol is withdrawn. The total accrual is 50 subjects. Accrual ceiling at the POB, NCI is 25 subjects.",
+      "title": "Pharmacokinetic Studies Participation Survey",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 33.86824304913688,
+      "cross_score": -4.5749464,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00923468::eligibility::0",
+      "doc_id": "NCT00923468",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA: - Subjects who consented within the 4 weeks prior to enrollment on this questionnaire study to a Phase 1 study that included optional PK sampling. (If the subject was a minor and a parent or legally authorized representative provided consent, subject for this questionnaire study refers to the parent). The PK questionnaire should be completed within 4 weeks of when the subject consented to the study that included optional PK sampling. (Note: The Phase 1 study need not have been a COG study). - Subjects are eligible regardless of whether they initially agreed to participate in the PK portion and regardless of whether they actually completed the PK sampling (as long as reason for not completing the sampling was not withdrawal of consent). - Subjects must not have withdrawn consent to the study that included optional PK sampling. - Subjects must not have initially agreed to optional PK sampling but then withdrawn consent for sampling prior to completing the questionnaire. - Subjects are eligible regardless of how many phase 1 or other studies they have enrolled in the past. - Each subject may participate only once in the survey.",
+      "title": "Pharmacokinetic Studies Participation Survey",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 33.86824304913688,
+      "cross_score": -4.6155896,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"If you join this study, you will be assigned to one of three groups based on when you sign up. Each group will have different tasks and visits. For example, Group 1 might attend a focus group and fill out a questionnaire. Group 2 will visit the Behavioral Research and Treatment Center to use a new website and provide feedback. Group 3 will use the final version of the website and share their feedback. The exact details of each visit will be explained during the screening process.\",\n  \"supported_patient_facts\": [\"you will be assigned to one of three groups\", \"each group will have different tasks and visits\", \"Group 1 attends a focus group and fills out a questionnaire\", \"Group 2 visits the Behavioral Research and Treatment Center to use a new website and provides feedback\", \"Group 3 uses the final version of the website and shares their feedback\"],\n  \"missing_patient_facts\": [\"the exact date of your visit\", \"the specific tasks you will perform during each visit\", \"any additional paperwork or tests you will need to complete\"],\n  \"unresolved_study_requirements\": [\"the exact timing of your visit\", \"the specific tasks you will perform during each visit\", \"any additional paperwork or tests you will need to complete\"],\n  \"reasoning_summary\": \"The patient is informed about the general structure of the study and the types of visits they might have. However, specific details such as the exact timing of visits and the specific tasks involved are not fully specified, leaving some aspects unresolved.\",\n  \"safety_note\": \"Please inform the study team if you have any concerns or if you experience any side effects.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "If you join this study, you will be assigned to one of three groups based on when you sign up. Each group will have different tasks and visits. For example, Group 1 might attend a focus group and fill out a questionnaire. Group 2 will visit the Behavioral Research and Treatment Center to use a new website and provide feedback. Group 3 will use the final version of the website and share their feedback. The exact details of each visit will be explained during the screening process.",
+    "supported_patient_facts": [
+      "you will be assigned to one of three groups",
+      "each group will have different tasks and visits",
+      "Group 1 attends a focus group and fills out a questionnaire",
+      "Group 2 visits the Behavioral Research and Treatment Center to use a new website and provides feedback",
+      "Group 3 uses the final version of the website and shares their feedback"
+    ],
+    "missing_patient_facts": [
+      "the exact date of your visit",
+      "the specific tasks you will perform during each visit",
+      "any additional paperwork or tests you will need to complete"
+    ],
+    "unresolved_study_requirements": [
+      "the exact timing of your visit",
+      "the specific tasks you will perform during each visit",
+      "any additional paperwork or tests you will need to complete"
+    ],
+    "reasoning_summary": "The patient is informed about the general structure of the study and the types of visits they might have. However, specific details such as the exact timing of visits and the specific tasks involved are not fully specified, leaving some aspects unresolved.",
+    "safety_note": "Please inform the study team if you have any concerns or if you experience any side effects."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "If you join this study, you will be assigned to one of three groups based on when you sign up. Each group will have different tasks and visits. For example, Group 1 might attend a focus group and fill out a questionnaire. Group 2 will visit the Behavioral Research and Treatment Center to use a new website and provide feedback. Group 3 will use the final version of the website and share their feedback. The exact details of each visit will be explained during the screening process.",
+  "missing_patient_facts": [
+    "the exact date of your visit",
+    "the specific tasks you will perform during each visit",
+    "any additional paperwork or tests you will need to complete"
+  ],
+  "unresolved_study_requirements": [
+    "the exact timing of your visit",
+    "the specific tasks you will perform during each visit",
+    "any additional paperwork or tests you will need to complete"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.894
+}

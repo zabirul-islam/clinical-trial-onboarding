@@ -1,0 +1,65 @@
+{
+  "case_id": "case_trec2022_008",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00906971",
+  "reference_trial": "NCT00906971",
+  "evidence_trials": [
+    "NCT00906971"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 7-month-old boy is brought to emergency by his parents due to irritability and inability to defecate for the past 3 days. The patient has had constipation and discomfort with bowel movements since birth. His symptoms worsened after eating semi-solid foods. Vital signs are normal. Abdominal examination shows distension and tenderness to palpation with presence of bowel sounds. Xray with barium shows a narrow rectum and rectosigmoid area. The rest of the colon proximal to this segment is dilated. Digital rectal exam revealed burst of feces out of the anus. The biopsy showed absence of submucosal ganglia in the last segment of the large intestine. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00906971 | section=detailed_description]\nFor inclusion in the study, patients will be considered with CFC presented two or more of the following parameters in the basal period, at least once a week, during the previous two-month period, according to Rome III criteria: two or less bowel movements per week, at least one episode of fecal incontinence per week, reports of retentive behavior, episodes of hard stools or pain during bowel movements, presence of a large quantity of stool in the rectum and large diameter stools, which could obstruct the toilet. Exclusion criteria will be patients who take medication that caused constipation, patients with organic causes and children with cognitive problems to perform the protocol. Children aged four to six years were assessed for their ability to complete the physiotherapy exercises. This assessment will consist of a few repetitions of the protocol conducted shorter after completing the forms, where difficulty in completing protocol exercises will considered non-inclusion criteria, so as not to interfere with the results. Parents or guardians will sign the terms of informed consent after receiving information on the aims and procedures of the study.",
+  "passages": [
+    {
+      "passage_id": "NCT00906971::detailed_description::4",
+      "doc_id": "NCT00906971",
+      "section": "detailed_description",
+      "passage_text": "For inclusion in the study, patients will be considered with CFC presented two or more of the following parameters in the basal period, at least once a week, during the previous two-month period, according to Rome III criteria: two or less bowel movements per week, at least one episode of fecal incontinence per week, reports of retentive behavior, episodes of hard stools or pain during bowel movements, presence of a large quantity of stool in the rectum and large diameter stools, which could obstruct the toilet. Exclusion criteria will be patients who take medication that caused constipation, patients with organic causes and children with cognitive problems to perform the protocol. Children aged four to six years were assessed for their ability to complete the physiotherapy exercises. This assessment will consist of a few repetitions of the protocol conducted shorter after completing the forms, where difficulty in completing protocol exercises will considered non-inclusion criteria, so as not to interfere with the results. Parents or guardians will sign the terms of informed consent after receiving information on the aims and procedures of the study.",
+      "title": "Physiotherapeutic Intervention in Children With Chronic Functional Constipation",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 304.4458431176,
+      "cross_score": -5.951395,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might be eligible for the study, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"The patient is a 7-month-old boy with a history of constipation and discomfort with bowel movements since birth.\", \"His symptoms worsened after eating semi-solid foods.\", \"X-ray with barium shows a narrow rectum and rectosigmoid area.\", \"Biopsy showed absence of submucosal ganglia in the last segment of the large intestine.\"],\n  \"missing_patient_facts\": [\"The patient's age (4-6 years) and ability to complete the physiotherapy exercises.\", \"The patient's bowel movement frequency and consistency in the past two months.\"],\n  \"unresolved_study_requirements\": [\"The patient's current use of medications that could cause constipation.\", \"The patient's cognitive function to perform the protocol.\", \"The patient's bowel movement parameters in the basal period as per Rome III criteria.\"],\n  \"reasoning_summary\": \"The patient meets some key criteria for the study, such as having a history of constipation and specific anatomical findings. However, we need more details about the patient's bowel habits and whether they meet the Rome III criteria for constipation over the past two months. Additionally, we need to confirm if the patient is taking any medications that could affect bowel function and if they have the cognitive ability to follow the study protocol.\",\n  \"safety_note\": \"Given the patient's young age and medical history, including the presence of a narrowed rectum and absence of submucosal ganglia, careful monitoring and safety precautions are essential.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the study, but we need to check a few things.",
+    "supported_patient_facts": [
+      "The patient is a 7-month-old boy with a history of constipation and discomfort with bowel movements since birth.",
+      "His symptoms worsened after eating semi-solid foods.",
+      "X-ray with barium shows a narrow rectum and rectosigmoid area.",
+      "Biopsy showed absence of submucosal ganglia in the last segment of the large intestine."
+    ],
+    "missing_patient_facts": [
+      "The patient's age (4-6 years) and ability to complete the physiotherapy exercises.",
+      "The patient's bowel movement frequency and consistency in the past two months."
+    ],
+    "unresolved_study_requirements": [
+      "The patient's current use of medications that could cause constipation.",
+      "The patient's cognitive function to perform the protocol.",
+      "The patient's bowel movement parameters in the basal period as per Rome III criteria."
+    ],
+    "reasoning_summary": "The patient meets some key criteria for the study, such as having a history of constipation and specific anatomical findings. However, we need more details about the patient's bowel habits and whether they meet the Rome III criteria for constipation over the past two months. Additionally, we need to confirm if the patient is taking any medications that could affect bowel function and if they have the cognitive ability to follow the study protocol.",
+    "safety_note": "Given the patient's young age and medical history, including the presence of a narrowed rectum and absence of submucosal ganglia, careful monitoring and safety precautions are essential."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the study, but we need to check a few things.",
+  "missing_patient_facts": [
+    "The patient's age (4-6 years) and ability to complete the physiotherapy exercises.",
+    "The patient's bowel movement frequency and consistency in the past two months."
+  ],
+  "unresolved_study_requirements": [
+    "The patient's current use of medications that could cause constipation.",
+    "The patient's cognitive function to perform the protocol.",
+    "The patient's bowel movement parameters in the basal period as per Rome III criteria."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.794
+}

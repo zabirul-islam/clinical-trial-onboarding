@@ -1,0 +1,132 @@
+{
+  "case_id": "case_trec2021_031",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00002536",
+  "selected_doc": "NCT00443313",
+  "reference_trial": "NCT00443313",
+  "evidence_trials": [
+    "NCT00443313",
+    "NCT03118258",
+    "NCT03345875",
+    "NCT03477240",
+    "NCT04746872"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervical cancer. The patient tested positive for HPV 16. She has three sexual partners and four children. She underwent tubal ligation. She smokes 30 packs/year and drinks alcohol frequently. She is otherwise healthy. She was offered a radical hysterectomy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00443313 | section=detailed_description]\nAll three specimens from each woman will be tested by two clinical DNA tests that use pooled-probes for detection of carcinogenic HPV: an FDA-approved signal amplification test (Hybrid Capture 2 from Digene) and a new DNA amplification test (AMPLICOR from Roche) currently in clinical trials. Specimens will also be tested retrospectively by a research PCR asay that detects 37 HPV types, which will help us evaluate the performance of the two clinical HPV tests. Women attending their screening visit who test positive by cytology (atypical squamous cells of undetermined significance or worse) or for carcinogenic HPV will be referred to colposcopy along with a random sample of HPV negative, cytologic negative women (n equals 100). Analysis: We will compare the clinical performance of HPV DNA testing of self-collected specimens to that of cytology (at a threshold of atypical squamous cells of unknown significance (ASCUS) or more severe) for detection of histologically confirmed cervical intraepithelial neoplasia grade 2 (CIN2) or more severe (greater than or equal to CIN2).\n\n[Passage 2 | doc=NCT04746872 | section=eligibility]\nInclusion Criteria: Women is eligible if she meets the following: - Is 25 years of age or older - Is attending a participating clinic for routine cervical cancer screening following screening guidelines - Has an intact cervix - Is willing and able to provide documented informed consent (or her legal representative is willing and able) - Is willing and able to undergo colposcopy, biopsy, and endocervical curettage (ECC) within 12 weeks (\u2264 84 days) from the baseline visit, if required - Is willing and able to allow collection of two cervical cytology specimens, if required Exclusion Criteria: A women is ineligible for the study if she meets any of the following criteria: - Is pregnant at the time of visit or plans to become pregnant within the following 12 weeks - Has any known medical condition that, in the opinion of the investigator, would result in increased risk of bleeding at biopsy - Has a known history of excisional or ablative therapy (e.g., LEEP, cone biopsy, cervical laser surgery, or cryotherapy) to the cervix in the last 12 months prior to the baseline visit - Had a cervical cytology specimen collected within the last 4 months - Is currently participating in any diagnost\n\n[Passage 3 | doc=NCT03477240 | section=detailed_description]\nIf patient does not report to the clinic within the next 2 weeks, she will be considered to have dropped out from the study. - Those patients in whom the interval between telephonic interview and the physician's assessment is more than 4 weeks, will be considered drop outs and follow up telephone call will go out to enquire about reasons for non-attendance in the clinic, which will be recorded.\n\n[Passage 4 | doc=NCT03118258 | section=eligibility]\nInclusion Criteria: - Women between 25 and 65 years old - Met within Doctors of the World programs Exclusion Criteria: - History of total hysterectomy (= ablation of uterus and cervix) - Never had sexual intercourse - Last pap smear test made during the three last years (ou first pap smear test during the last year)\n\n[Passage 5 | doc=NCT03345875 | section=eligibility]\nThe District Health Management Team (DHMT), estimates that in 2011 there were 31,574 women 30-49 years of age on the Kweneng East catchment area, serviced by Scottish Livingstone Hospital and the 4 selected Health Clinics. Women will be clients of the health facility at one of the clinics (described below under recruitment), may come to the facility for cervical cancer screening after having been contacted by a community mobilizer, or women attending a community health campaign event (in the community). Participants under Research Question 1: 1022 women Participants under Research Question 2a: 24 providers and other stakeholders Participants under Research Question 2b: 27 women for in-depth interviews; 250 women for structured surveys.\n\n[Passage 6 | doc=NCT04746872 | section=eligibility]\nic trial for cervical cancer - Had a complete or partial hysterectomy, either supra cervical or involving removal of the cervix - Is currently participating or planning to participate in any clinical trial for HPV treatment (for the duration of this study) - Previous participation in this study",
+  "passages": [
+    {
+      "passage_id": "NCT00443313::detailed_description::2",
+      "doc_id": "NCT00443313",
+      "section": "detailed_description",
+      "passage_text": "All three specimens from each woman will be tested by two clinical DNA tests that use pooled-probes for detection of carcinogenic HPV: an FDA-approved signal amplification test (Hybrid Capture 2 from Digene) and a new DNA amplification test (AMPLICOR from Roche) currently in clinical trials. Specimens will also be tested retrospectively by a research PCR asay that detects 37 HPV types, which will help us evaluate the performance of the two clinical HPV tests. Women attending their screening visit who test positive by cytology (atypical squamous cells of undetermined significance or worse) or for carcinogenic HPV will be referred to colposcopy along with a random sample of HPV negative, cytologic negative women (n equals 100). Analysis: We will compare the clinical performance of HPV DNA testing of self-collected specimens to that of cytology (at a threshold of atypical squamous cells of unknown significance (ASCUS) or more severe) for detection of histologically confirmed cervical intraepithelial neoplasia grade 2 (CIN2) or more severe (greater than or equal to CIN2).",
+      "title": "Human Papillomavirus (HPV) Testing to Improve Cervical Cancer Screening in the Mississippi Delta",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 182.83465071641413,
+      "cross_score": -3.7657797,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04746872::eligibility::0",
+      "doc_id": "NCT04746872",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Women is eligible if she meets the following: - Is 25 years of age or older - Is attending a participating clinic for routine cervical cancer screening following screening guidelines - Has an intact cervix - Is willing and able to provide documented informed consent (or her legal representative is willing and able) - Is willing and able to undergo colposcopy, biopsy, and endocervical curettage (ECC) within 12 weeks (\u2264 84 days) from the baseline visit, if required - Is willing and able to allow collection of two cervical cytology specimens, if required Exclusion Criteria: A women is ineligible for the study if she meets any of the following criteria: - Is pregnant at the time of visit or plans to become pregnant within the following 12 weeks - Has any known medical condition that, in the opinion of the investigator, would result in increased risk of bleeding at biopsy - Has a known history of excisional or ablative therapy (e.g., LEEP, cone biopsy, cervical laser surgery, or cryotherapy) to the cervix in the last 12 months prior to the baseline visit - Had a cervical cytology specimen collected within the last 4 months - Is currently participating in any diagnost",
+      "title": "Alinity m HR HPV Specimen Collection Study From Women Undergoing Routine Cervical Cancer Screening",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 175.15405797622503,
+      "cross_score": -3.812822,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03477240::detailed_description::3",
+      "doc_id": "NCT03477240",
+      "section": "detailed_description",
+      "passage_text": "If patient does not report to the clinic within the next 2 weeks, she will be considered to have dropped out from the study. - Those patients in whom the interval between telephonic interview and the physician's assessment is more than 4 weeks, will be considered drop outs and follow up telephone call will go out to enquire about reasons for non-attendance in the clinic, which will be recorded.",
+      "title": "Feasibility Study Of A Telephonic Questionnaire For Follow-Up Of Locally Advanced Cervical Cancer Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 176.10175832778157,
+      "cross_score": -4.2627716,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03118258::eligibility::0",
+      "doc_id": "NCT03118258",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Women between 25 and 65 years old - Met within Doctors of the World programs Exclusion Criteria: - History of total hysterectomy (= ablation of uterus and cervix) - Never had sexual intercourse - Last pap smear test made during the three last years (ou first pap smear test during the last year)",
+      "title": "Improving Access to Cervical Cancer Screening",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 183.513768951439,
+      "cross_score": -4.4415836,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03345875::eligibility::0",
+      "doc_id": "NCT03345875",
+      "section": "eligibility",
+      "passage_text": "The District Health Management Team (DHMT), estimates that in 2011 there were 31,574 women 30-49 years of age on the Kweneng East catchment area, serviced by Scottish Livingstone Hospital and the 4 selected Health Clinics. Women will be clients of the health facility at one of the clinics (described below under recruitment), may come to the facility for cervical cancer screening after having been contacted by a community mobilizer, or women attending a community health campaign event (in the community). Participants under Research Question 1: 1022 women Participants under Research Question 2a: 24 providers and other stakeholders Participants under Research Question 2b: 27 women for in-depth interviews; 250 women for structured surveys.",
+      "title": "Feasibility and Acceptability of HPV Self-Collection Cervical Cancer Screening and Treatment in Botswana",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 173.29254776293357,
+      "cross_score": -4.4780293,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04746872::eligibility::1",
+      "doc_id": "NCT04746872",
+      "section": "eligibility",
+      "passage_text": "ic trial for cervical cancer - Had a complete or partial hysterectomy, either supra cervical or involving removal of the cervix - Is currently participating or planning to participate in any clinical trial for HPV treatment (for the duration of this study) - Previous participation in this study",
+      "title": "Alinity m HR HPV Specimen Collection Study From Women Undergoing Routine Cervical Cancer Screening",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 175.15405797622503,
+      "cross_score": -4.6181335,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16 positivity.\",\n    \"She has three sexual partners and four children.\",\n    \"She underwent tubal ligation.\",\n    \"She smokes 30 packs/year and drinks alcohol frequently.\",\n    \"She is otherwise healthy.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient\u2019s current health status and whether she is willing to undergo colposcopy, biopsy, and endocervical curettage.\",\n    \"Whether she has an intact cervix and is willing to provide informed consent.\",\n    \"Her history of previous cervical cancer treatments.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The patient needs to be willing and able to attend colposcopy, biopsy, and endocervical curettage within 12 weeks.\",\n    \"The patient needs to be willing and able to provide two cervical cytology specimens.\",\n    \"The patient needs to be attending a participating clinic for routine cervical cancer screening following screening guidelines.\"\n  ],\n  \"reasoning_summary\": \"While the patient meets some eligibility criteria, such as being over 25 years old and having an intact cervix, key requirements like willingness to undergo certain procedures and attending a clinic for screening are unresolved. Additionally, the patient\u2019s smoking and alcohol consumption could pose risks that are not fully addressed in the given criteria.\",\n  \"safety_note\": \"Given the patient's advanced stage of cervical cancer and her smoking habits, it is crucial to ensure she is medically stable and capable of undergoing the required procedures without significant risk.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm.",
+    "supported_patient_facts": [
+      "The patient is a 37-year-old woman with stage 1B cervical cancer and HPV 16 positivity.",
+      "She has three sexual partners and four children.",
+      "She underwent tubal ligation.",
+      "She smokes 30 packs/year and drinks alcohol frequently.",
+      "She is otherwise healthy."
+    ],
+    "missing_patient_facts": [
+      "The patient\u2019s current health status and whether she is willing to undergo colposcopy, biopsy, and endocervical curettage.",
+      "Whether she has an intact cervix and is willing to provide informed consent.",
+      "Her history of previous cervical cancer treatments."
+    ],
+    "unresolved_study_requirements": [
+      "The patient needs to be willing and able to attend colposcopy, biopsy, and endocervical curettage within 12 weeks.",
+      "The patient needs to be willing and able to provide two cervical cytology specimens.",
+      "The patient needs to be attending a participating clinic for routine cervical cancer screening following screening guidelines."
+    ],
+    "reasoning_summary": "While the patient meets some eligibility criteria, such as being over 25 years old and having an intact cervix, key requirements like willingness to undergo certain procedures and attending a clinic for screening are unresolved. Additionally, the patient\u2019s smoking and alcohol consumption could pose risks that are not fully addressed in the given criteria.",
+    "safety_note": "Given the patient's advanced stage of cervical cancer and her smoking habits, it is crucial to ensure she is medically stable and capable of undergoing the required procedures without significant risk."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm.",
+  "missing_patient_facts": [
+    "The patient\u2019s current health status and whether she is willing to undergo colposcopy, biopsy, and endocervical curettage.",
+    "Whether she has an intact cervix and is willing to provide informed consent.",
+    "Her history of previous cervical cancer treatments."
+  ],
+  "unresolved_study_requirements": [
+    "The patient needs to be willing and able to attend colposcopy, biopsy, and endocervical curettage within 12 weeks.",
+    "The patient needs to be willing and able to provide two cervical cytology specimens.",
+    "The patient needs to be attending a participating clinic for routine cervical cancer screening following screening guidelines."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.062
+}

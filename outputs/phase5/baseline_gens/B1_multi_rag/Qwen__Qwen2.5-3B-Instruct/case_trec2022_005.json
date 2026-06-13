@@ -1,0 +1,125 @@
+{
+  "case_id": "case_trec2022_005",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT00603382",
+    "NCT02860975",
+    "NCT03103009",
+    "NCT04530149",
+    "NCT04786990"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.\n\n[Passage 2 | doc=NCT03103009 | section=eligibility]\nIs not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.\n\n[Passage 3 | doc=NCT04530149 | section=detailed_description]\nSlow Vital Capacity (SVC) Measurement 1. SVC will be performed using spirometer that has been internally validated 2. SVC will be performed by physicians trained by the respiratory therapy department and who have demonstrated validation compared to respiratory therapist obtained SVC values 3. The patient will be sitting up when performing SVC and a script will be followed as to how to educate and coach the patient on performing appropriate incentive spirometry technique. 4. At least 3 SVC measurements within 150mL of each other are required to qualify for an accurate measurement. 5. The maximum of these 3 SVC values and a corresponding % predicted SVC will be obtained and considered the maximum % predicted SVC. 6. % Predicted SVC will be obtained based on the National Health and Nutrition Examination Survey (NHANES III) calculator through the CDC. E. Pain scores 1. Subjects will be asked to rate their maximum pain score from 0-10 with resting breathing and with deep breaths. Design: A. Potential study patients will be identified through review of the emergency department (ED) electronic board, and ED physicians will also screen for potential study patients.\n\n[Passage 4 | doc=NCT02860975 | section=detailed_description]\nSample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.\n\n[Passage 5 | doc=NCT04786990 | section=eligibility]\nHas or has had one or more medical conditions considered clinically significant/relevant by the Investigator in the context of the study (e.g., cardiovascular disease, congestive heart failure, cardiac hypertrophy, arrhythmia, bradycardia [pulse < 70 bpm (6-11 years), pulse < 60 bpm (12-17 years)], tachycardia [pulse > 120 bpm (6-11 years); pulse > 100 bpm (12-17 years)], respiratory disease, hepatic impairment or renal insufficiency, metabolic disorder, endocrine disorder, gastrointestinal disorder, hematological disorder, infectious disorder, any clinically significant immunological condition, dermatological disorder. 23. Has any disease or medication that could, in the Investigator's opinion, interfere with the assessments of safety, tolerability, or efficacy, or interfere with study conduct or interpretation of results. 24. Lost or donated more than 450 mL of blood during the 30 days prior to screening. 25. Use of any investigational drug or prohibited concomitant medications including known CYP1A2 substrates (e.g., theophylline, melatonin) within 30 days or 5 half-lives prior to Baseline Visit (Day 1) (whichever is longer) or anticipated for the duration of the study. 26.\n\n[Passage 6 | doc=NCT00603382 | section=eligibility]\n- Clinical Laboratory Abnormalities: Clinically significant abnormal laboratory tests during Visit 1 which are still abnormal upon repeat analysis and are not believed to be due to disease(s) present. Each Investigator will use his/her own discretion in determining the clinical significance of the abnormality. When in doubt, GlaxoSmithKline, or designee, should be notified so that a joint decision can be made. - Changes in asthma medication (excluding albuterol/salbutamol inhalation aerosol provided at Visit 1). - Occurrence of an culture-documented or suspected bacterial or viral infection of the upper or lower respiratory tract, sinus or middle ear during the run-in period that led to a change in asthma management, or in the opinion of the Investigator is expected to affect the subject's asthma status or the subject's ability to participate in the study. - Asthma exacerbation, defined as any worsening of asthma requiring any treatment other than rescue albuterol/salbutamol or regular inhaled corticosteroid use. This includes requiring the use of systemic corticosteroids and / or emergency room visit or hospitalization or a change in subject's regular inhaled corticosteroid dose.",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 209.43188439555735,
+      "cross_score": -4.217434,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03103009::eligibility::1",
+      "doc_id": "NCT03103009",
+      "section": "eligibility",
+      "passage_text": "Is not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.",
+      "title": "Treatment Plan for an Individual Patient With Pasireotide for Hyperinsulinemic Hypoglycemia",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 205.95084030368443,
+      "cross_score": -5.1687813,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04530149::detailed_description::2",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "Slow Vital Capacity (SVC) Measurement 1. SVC will be performed using spirometer that has been internally validated 2. SVC will be performed by physicians trained by the respiratory therapy department and who have demonstrated validation compared to respiratory therapist obtained SVC values 3. The patient will be sitting up when performing SVC and a script will be followed as to how to educate and coach the patient on performing appropriate incentive spirometry technique. 4. At least 3 SVC measurements within 150mL of each other are required to qualify for an accurate measurement. 5. The maximum of these 3 SVC values and a corresponding % predicted SVC will be obtained and considered the maximum % predicted SVC. 6. % Predicted SVC will be obtained based on the National Health and Nutrition Examination Survey (NHANES III) calculator through the CDC. E. Pain scores 1. Subjects will be asked to rate their maximum pain score from 0-10 with resting breathing and with deep breaths. Design: A. Potential study patients will be identified through review of the emergency department (ED) electronic board, and ED physicians will also screen for potential study patients.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 209.43188439555735,
+      "cross_score": -5.9707136,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02860975::detailed_description::3",
+      "doc_id": "NCT02860975",
+      "section": "detailed_description",
+      "passage_text": "Sample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.",
+      "title": "Prolonged Hypoxic Breathing in Healthy Volunteers: a Safety Study",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 211.2396746597897,
+      "cross_score": -5.9809523,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04786990::eligibility::8",
+      "doc_id": "NCT04786990",
+      "section": "eligibility",
+      "passage_text": "Has or has had one or more medical conditions considered clinically significant/relevant by the Investigator in the context of the study (e.g., cardiovascular disease, congestive heart failure, cardiac hypertrophy, arrhythmia, bradycardia [pulse < 70 bpm (6-11 years), pulse < 60 bpm (12-17 years)], tachycardia [pulse > 120 bpm (6-11 years); pulse > 100 bpm (12-17 years)], respiratory disease, hepatic impairment or renal insufficiency, metabolic disorder, endocrine disorder, gastrointestinal disorder, hematological disorder, infectious disorder, any clinically significant immunological condition, dermatological disorder. 23. Has any disease or medication that could, in the Investigator's opinion, interfere with the assessments of safety, tolerability, or efficacy, or interfere with study conduct or interpretation of results. 24. Lost or donated more than 450 mL of blood during the 30 days prior to screening. 25. Use of any investigational drug or prohibited concomitant medications including known CYP1A2 substrates (e.g., theophylline, melatonin) within 30 days or 5 half-lives prior to Baseline Visit (Day 1) (whichever is longer) or anticipated for the duration of the study. 26.",
+      "title": "Open-Label Study of SPN-812 Administered With Psychostimulants in Children and Adolescents With ADHD",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 204.7978602173848,
+      "cross_score": -6.0169597,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00603382::eligibility::10",
+      "doc_id": "NCT00603382",
+      "section": "eligibility",
+      "passage_text": "- Clinical Laboratory Abnormalities: Clinically significant abnormal laboratory tests during Visit 1 which are still abnormal upon repeat analysis and are not believed to be due to disease(s) present. Each Investigator will use his/her own discretion in determining the clinical significance of the abnormality. When in doubt, GlaxoSmithKline, or designee, should be notified so that a joint decision can be made. - Changes in asthma medication (excluding albuterol/salbutamol inhalation aerosol provided at Visit 1). - Occurrence of an culture-documented or suspected bacterial or viral infection of the upper or lower respiratory tract, sinus or middle ear during the run-in period that led to a change in asthma management, or in the opinion of the Investigator is expected to affect the subject's asthma status or the subject's ability to participate in the study. - Asthma exacerbation, defined as any worsening of asthma requiring any treatment other than rescue albuterol/salbutamol or regular inhaled corticosteroid use. This includes requiring the use of systemic corticosteroids and / or emergency room visit or hospitalization or a change in subject's regular inhaled corticosteroid dose.",
+      "title": "A Randomized Study To Evaluate The Efficacy And Safety Of An Investigational Drug In Adolescent And Adult Subjects With Asthma Uncontrolled on Non-steroidal Therapy.",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 215.5011163938583,
+      "cross_score": -6.060666,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm. Please check if you meet all the eligibility criteria listed.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 23-year-old man with a history of syncope and dizziness during physical activity.\",\n    \"He has a family history of sudden death at a young age.\"\n  ],\n  \"missing_patient_facts\": [\n    \"We do not have information about the patient\u2019s current medications, allergies, or any other medical conditions.\",\n    \"We do not know if the patient has undergone echocardiography or if the findings are consistent with the study's inclusion criteria.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We are unsure if the patient\u2019s echocardiography results meet the study's criteria for asymmetric interventricular septal hypertrophy.\",\n    \"We do not have information about the patient\u2019s vital signs or whether they are within normal limits.\"\n  ],\n  \"reasoning_summary\": \"While the patient's symptoms align with the study's focus on rib fractures, we lack critical information about his current health status and medical history. Additionally, the study requires echocardiography results that are not provided.\",\n  \"safety_note\": \"The patient has a severe heart murmur and asymmetric interventricular septal hypertrophy, which may pose additional risks during the study procedures. We will ensure a thorough safety evaluation before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm. Please check if you meet all the eligibility criteria listed.",
+    "supported_patient_facts": [
+      "The patient is a 23-year-old man with a history of syncope and dizziness during physical activity.",
+      "He has a family history of sudden death at a young age."
+    ],
+    "missing_patient_facts": [
+      "We do not have information about the patient\u2019s current medications, allergies, or any other medical conditions.",
+      "We do not know if the patient has undergone echocardiography or if the findings are consistent with the study's inclusion criteria."
+    ],
+    "unresolved_study_requirements": [
+      "We are unsure if the patient\u2019s echocardiography results meet the study's criteria for asymmetric interventricular septal hypertrophy.",
+      "We do not have information about the patient\u2019s vital signs or whether they are within normal limits."
+    ],
+    "reasoning_summary": "While the patient's symptoms align with the study's focus on rib fractures, we lack critical information about his current health status and medical history. Additionally, the study requires echocardiography results that are not provided.",
+    "safety_note": "The patient has a severe heart murmur and asymmetric interventricular septal hypertrophy, which may pose additional risks during the study procedures. We will ensure a thorough safety evaluation before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you might not be eligible for this specific clinical trial. However, we need more details to confirm. Please check if you meet all the eligibility criteria listed.",
+  "missing_patient_facts": [
+    "We do not have information about the patient\u2019s current medications, allergies, or any other medical conditions.",
+    "We do not know if the patient has undergone echocardiography or if the findings are consistent with the study's inclusion criteria."
+  ],
+  "unresolved_study_requirements": [
+    "We are unsure if the patient\u2019s echocardiography results meet the study's criteria for asymmetric interventricular septal hypertrophy.",
+    "We do not have information about the patient\u2019s vital signs or whether they are within normal limits."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.026
+}

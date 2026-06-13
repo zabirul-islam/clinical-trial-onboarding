@@ -1,0 +1,59 @@
+{
+  "case_id": "case_trec2021_061",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005635",
+  "selected_doc": "NCT02750826",
+  "reference_trial": "NCT02750826",
+  "evidence_trials": [
+    "NCT02750826"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant. The tumor is HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes. CXR was remarkable for metastatic lesions. The patient is using multivitamins and iron supplements. She does not smoke or consume alcohol. She is not sexually active and has no children. She is a candidate for tumor resection and agrees to do so prior to chemotherapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02750826 | section=detailed_description]\nThis randomized controlled trial of weight loss interventions in overweight and obese women with early stage breast cancer consists of two arms, please see the arms section for more information. Patients will be randomized 1:1 within stratification factors: menopausal status (premenopausal vs. postmenopausal), hormone receptor status of the tumor (ER and/or PR positive vs. ER and PR negative), and race/ethnicity (African American vs. Hispanic vs. Other). The primary objective of this trial is to compare the effect of the telephone-based intervention versus a health educational control on invasive disease-free survival (IDFS). The total sample size is 3136 patients. Patient follow up for primary and secondary endpoints will continue to a maximum of 10 years, as per the standard protocol for cooperative group adjuvant trials.",
+  "passages": [
+    {
+      "passage_id": "NCT02750826::detailed_description::0",
+      "doc_id": "NCT02750826",
+      "section": "detailed_description",
+      "passage_text": "This randomized controlled trial of weight loss interventions in overweight and obese women with early stage breast cancer consists of two arms, please see the arms section for more information. Patients will be randomized 1:1 within stratification factors: menopausal status (premenopausal vs. postmenopausal), hormone receptor status of the tumor (ER and/or PR positive vs. ER and PR negative), and race/ethnicity (African American vs. Hispanic vs. Other). The primary objective of this trial is to compare the effect of the telephone-based intervention versus a health educational control on invasive disease-free survival (IDFS). The total sample size is 3136 patients. Patient follow up for primary and secondary endpoints will continue to a maximum of 10 years, as per the standard protocol for cooperative group adjuvant trials.",
+      "title": "Breast Cancer WEight Loss Study (BWEL Study)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 268.9651793567299,
+      "cross_score": -3.9216735,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems unlikely that you would be eligible for this specific clinical trial. However, further details may change this assessment.\",\n  \"supported_patient_facts\": [\"postmenopausal\", \"HER2-positive and ER/PR negative\"],\n  \"missing_patient_facts\": [\"tumor resection status\", \"lymph node involvement status\"],\n  \"unresolved_study_requirements\": [\"weight status (overweight or obese)\"],\n  \"reasoning_summary\": \"The patient's menopausal status and hormone receptor status align with the trial criteria, but the patient's weight status is not specified, and there is no mention of whether the patient has undergone tumor resection or the exact status of lymph node involvement, which are important considerations.\",\n  \"safety_note\": \"Please consult with your healthcare provider for a comprehensive evaluation.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, it seems unlikely that you would be eligible for this specific clinical trial. However, further details may change this assessment.",
+    "supported_patient_facts": [
+      "postmenopausal",
+      "HER2-positive and ER/PR negative"
+    ],
+    "missing_patient_facts": [
+      "tumor resection status",
+      "lymph node involvement status"
+    ],
+    "unresolved_study_requirements": [
+      "weight status (overweight or obese)"
+    ],
+    "reasoning_summary": "The patient's menopausal status and hormone receptor status align with the trial criteria, but the patient's weight status is not specified, and there is no mention of whether the patient has undergone tumor resection or the exact status of lymph node involvement, which are important considerations.",
+    "safety_note": "Please consult with your healthcare provider for a comprehensive evaluation."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, it seems unlikely that you would be eligible for this specific clinical trial. However, further details may change this assessment.",
+  "missing_patient_facts": [
+    "tumor resection status",
+    "lymph node involvement status"
+  ],
+  "unresolved_study_requirements": [
+    "weight status (overweight or obese)"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.471
+}

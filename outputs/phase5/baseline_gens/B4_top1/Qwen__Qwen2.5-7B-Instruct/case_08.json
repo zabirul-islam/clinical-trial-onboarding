@@ -1,0 +1,56 @@
+{
+  "case_id": "case_08",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01737242",
+  "reference_trial": "NCT01737242",
+  "evidence_trials": [
+    "NCT01737242"
+  ],
+  "question": "What parts of joining this study are still unclear from the available information?",
+  "evidence": "[Passage 1 | doc=NCT01737242 | section=detailed_description]\nThose patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+  "passages": [
+    {
+      "passage_id": "NCT01737242::detailed_description::2",
+      "doc_id": "NCT01737242",
+      "section": "detailed_description",
+      "passage_text": "Those patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+      "title": "UK Genetic Prostate Cancer Study: Epidemiology and Molecular Genetics Studies",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 46.62073684316476,
+      "cross_score": 0.17289557,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"There are some aspects of your eligibility that are unclear based on the available information. We need to confirm your medical history and family history of prostate cancer.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\"Medical history of prostate cancer\", \"Family history of prostate cancer\"],\n  \"unresolved_study_requirements\": [\"Eligibility based on age and relative's age at diagnosis\"],\n  \"reasoning_summary\": \"The patient's eligibility is unclear due to the lack of specific medical and family history details. The patient may meet the criteria based on family history, but further information is required to confirm.\",\n  \"safety_note\": \"Further assessment is needed to ensure safety and eligibility.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "There are some aspects of your eligibility that are unclear based on the available information. We need to confirm your medical history and family history of prostate cancer.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Medical history of prostate cancer",
+      "Family history of prostate cancer"
+    ],
+    "unresolved_study_requirements": [
+      "Eligibility based on age and relative's age at diagnosis"
+    ],
+    "reasoning_summary": "The patient's eligibility is unclear due to the lack of specific medical and family history details. The patient may meet the criteria based on family history, but further information is required to confirm.",
+    "safety_note": "Further assessment is needed to ensure safety and eligibility."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "There are some aspects of your eligibility that are unclear based on the available information. We need to confirm your medical history and family history of prostate cancer.",
+  "missing_patient_facts": [
+    "Medical history of prostate cancer",
+    "Family history of prostate cancer"
+  ],
+  "unresolved_study_requirements": [
+    "Eligibility based on age and relative's age at diagnosis"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.555
+}

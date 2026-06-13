@@ -1,0 +1,74 @@
+{
+  "case_id": "case_trec2021_033",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00006146",
+  "selected_doc": "NCT00922233",
+  "reference_trial": "NCT00922233",
+  "evidence_trials": [
+    "NCT00922233"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 42-year-old healthy woman came to the clinic to have her flu shot in early October. She works in a rehab center and has no underlying disease. It's her first time getting the vaccine this year. She is married for 5 years and uses barrier methods of contraception. Her menstrual cycle is irregular. She does not smoke. She is not on any medications. She exercises regularly for 30 minutes a day at least 5 days a week. She has no history of allergies to any food or drugs. Her past surgical history is significant for tonsillectomy and she is otherwise healthy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00922233 | section=eligibility]\nInclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.\n\n[Passage 2 | doc=NCT00922233 | section=eligibility]\n- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.",
+  "passages": [
+    {
+      "passage_id": "NCT00922233::eligibility::0",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Each woman enrolled in the trial must meet the following inclusion criteria: - Competent to provide informed consent to participate in the trial and has done so. - At least the minimum age is 18 to 45 years old. - Had sex 1 to 4 days in past month and expects to continue at that frequency for the next 6.5 months. - At low risk for sexually transmitted infection (STI), operationally meaning that neither she nor her partner to her knowledge has had any of the following: - More than one sexual partner currently or any expectation of having more than one sexual partner in the next 6.5 months - Diagnosis of human immunodeficiency virus (HIV) infection, hepatitis B or hepatitis C - Treatment for a STI within the past 6 months, excluding recurrent genital herpes or condyloma - Sharing of illicit injection drug equipment ever in the past. - Willing to use the study regimen as her only contraceptive method for the next 6.5 months (except that she may also use condoms if needed for protection from STIs). - Wants to avoid pregnancy for at least the next 6.5 months. - Willing to accept an uncertain risk of pregnancy during the study.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 292.6398979732274,
+      "cross_score": -3.862025,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00922233::eligibility::2",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 292.6398979732274,
+      "cross_score": -4.668502,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but we need more details to make a final determination.\",\n  \"supported_patient_facts\": [\n    \"Age is within the range of 18 to 45 years old.\",\n    \"Willing to provide informed consent.\",\n    \"No known contraindications to progestin-only pills.\",\n    \"No history of breast cancer within the past 5 years.\",\n    \"No serious contraindications to pregnancy.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Frequency of sexual activity in the past month and expectations for the next 6.5 months.\",\n    \"Current use of any contraceptive methods other than barrier methods.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Site investigator or designee has not yet reviewed the case.\"\n  ],\n  \"reasoning_summary\": \"The patient meets most of the inclusion criteria, but there are unresolved requirements and missing information about her sexual activity and current contraceptive use.\",\n  \"safety_note\": \"It is important to ensure that all safety criteria are met before proceeding with enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to make a final determination.",
+    "supported_patient_facts": [
+      "Age is within the range of 18 to 45 years old.",
+      "Willing to provide informed consent.",
+      "No known contraindications to progestin-only pills.",
+      "No history of breast cancer within the past 5 years.",
+      "No serious contraindications to pregnancy."
+    ],
+    "missing_patient_facts": [
+      "Frequency of sexual activity in the past month and expectations for the next 6.5 months.",
+      "Current use of any contraceptive methods other than barrier methods."
+    ],
+    "unresolved_study_requirements": [
+      "Site investigator or designee has not yet reviewed the case."
+    ],
+    "reasoning_summary": "The patient meets most of the inclusion criteria, but there are unresolved requirements and missing information about her sexual activity and current contraceptive use.",
+    "safety_note": "It is important to ensure that all safety criteria are met before proceeding with enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to make a final determination.",
+  "missing_patient_facts": [
+    "Frequency of sexual activity in the past month and expectations for the next 6.5 months.",
+    "Current use of any contraceptive methods other than barrier methods."
+  ],
+  "unresolved_study_requirements": [
+    "Site investigator or designee has not yet reviewed the case."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.243
+}

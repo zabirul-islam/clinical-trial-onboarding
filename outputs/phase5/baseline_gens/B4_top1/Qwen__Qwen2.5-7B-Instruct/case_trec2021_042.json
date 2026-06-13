@@ -1,0 +1,96 @@
+{
+  "case_id": "case_trec2021_042",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00015613",
+  "selected_doc": "NCT02411916",
+  "reference_trial": "NCT02411916",
+  "evidence_trials": [
+    "NCT02411916"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 19 yo Hispanic female G1P1 at 32+ 6 weeks of gestational age presented to the OB clinic for routine follow up complaining of mild headache and leg swelling. Primary evaluation revealed BP of 146/99 and urine dipstick with 3+ proteins. Her BP and U/A were normal in previous visit. Repeat BP a few hours later is 150/100 mmHg. Laboratory studies showed a normal hematocrit, platelet count, and liver transaminase levels. She is complaining of fatigue but no fever or chills. She is also suffering of headaches with no vision changes. No shortness of breath, cough, chest pain, orthopnea and palpitations or skin rash were observed. Her physical exam was negative for abdominal pain, change in bowel habits, nausea, vomiting, dysuria, frequency, hematuria or frothy urine. Leg swelling was observed with no arthralgia or back pain. She has no specific past medical issues and only uses prenatal vitamins. Her family history is positive for DM type 2 and HTN. She is a social alcohol consumer with the negative history of smoking or drug use. She is only have one partner in past 2 years and didn't have any contraceptive methods since 2 years ago. Her BMI was 24 at the first visit when she was at 6 weeks of gestational age. She is getting weight normally during her pregnancies. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02411916 | section=detailed_description]\nThese include the following adverse events that have been reported in subjects receiving misoprostol for ulcer prophylaxis: diarrhea, abdominal pain, nausea, flatulence, headache, dyspepsia, vomiting, and constipation. All occurred in fewer than 5% of patients. Other reported effects that occurred in clinical trials of misoprostol, but for which no cause-effect relation has been established included fatigue, fever, chills, rash, alopecia, pallor, breast pain, abnormal taste, abnormal vision, conjunctivitis, deafness, tinnitus, earache, chest pain, edema, diaphoresis, hypotension, hypertension, arrhythmia, phlebitis, increased cardiac enzymes, syncope, myocardial infarction, thromboembolism, abnormal hepatobiliary function, gingivitis, reflux, dysphagia, gout, polyuria, dysuria, hematuria, urinary tract infection, anxiety, depression, and thrombocytopenia. As with any drug, anaphylaxis is possible. The investigators emphasize that in a number of published studies using a single postpartum dose of misoprostol of 600-1000 \u00b5g and including in aggregate in excess of 1000 patients, no serious side effect has been reported. Side effects after a single dose of misoprostol are rare.\n\n[Passage 2 | doc=NCT02411916 | section=detailed_description]\nA probability level of 0.05 will be used as the threshold for significance. Inclusion and exclusion criteria This study will include adult pregnant women regardless of age. Pregnant minors under the age of 18 will not be eligible. A patient will be considered for inclusion in the study if she meets all of the following criteria: - She has a term (\u226537 completed weeks) live singleton gestation in cephalic presentation and has been admitted to the Labor and Delivery Unit - She is in the latent phase of labor or has been admitted for induction of labor or at prenatal clinic visit - She has had fewer than four prior vaginal deliveries. - She reports no allergy to misoprostol. The following factors or conditions will exclude a patient from consideration as a subject: - The fetus has a known major fetal malformation or chromosome abnormality - The gestation is multiple. - There is a breech or other malpresentation - The patient reports involvement in another clinical trial currently or previously in this pregnancy. - The patient is expected to have a cesarean delivery. - The patient had a prior cesarean delivery. - There has been an intrauterine fetal death.\n\n[Passage 3 | doc=NCT02411916 | section=eligibility]\nA patient will be considered for inclusion in the study if she meets all of the following criteria: - She has a term (\u226537 completed weeks) live singleton gestation in cephalic presentation and has been admitted to the Labor and Delivery Unit - She is in the latent phase of labor or has been admitted for induction of labor or at prenatal clinic visit - She has had fewer than four prior vaginal deliveries. - She reports no allergy to misoprostol. The following factors or conditions will exclude a patient from consideration as a subject: - The fetus has a known major fetal malformation or chromosome abnormality - The gestation is multiple. - There is a breech or other malpresentation - The patient reports involvement in another clinical trial currently or previously in this pregnancy. - The patient is expected to have a cesarean delivery. - The patient had a prior cesarean delivery. - There has been an intrauterine fetal death. - There is polyhydramnios (amniotic fluid index >22 cm).",
+  "passages": [
+    {
+      "passage_id": "NCT02411916::detailed_description::10",
+      "doc_id": "NCT02411916",
+      "section": "detailed_description",
+      "passage_text": "These include the following adverse events that have been reported in subjects receiving misoprostol for ulcer prophylaxis: diarrhea, abdominal pain, nausea, flatulence, headache, dyspepsia, vomiting, and constipation. All occurred in fewer than 5% of patients. Other reported effects that occurred in clinical trials of misoprostol, but for which no cause-effect relation has been established included fatigue, fever, chills, rash, alopecia, pallor, breast pain, abnormal taste, abnormal vision, conjunctivitis, deafness, tinnitus, earache, chest pain, edema, diaphoresis, hypotension, hypertension, arrhythmia, phlebitis, increased cardiac enzymes, syncope, myocardial infarction, thromboembolism, abnormal hepatobiliary function, gingivitis, reflux, dysphagia, gout, polyuria, dysuria, hematuria, urinary tract infection, anxiety, depression, and thrombocytopenia. As with any drug, anaphylaxis is possible. The investigators emphasize that in a number of published studies using a single postpartum dose of misoprostol of 600-1000 \u00b5g and including in aggregate in excess of 1000 patients, no serious side effect has been reported. Side effects after a single dose of misoprostol are rare.",
+      "title": "Effect of Adjunctive Misoprostol Treatment on Blood Loss at Vaginal Delivery",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 483.3934032234253,
+      "cross_score": -4.3395452,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02411916::detailed_description::4",
+      "doc_id": "NCT02411916",
+      "section": "detailed_description",
+      "passage_text": "A probability level of 0.05 will be used as the threshold for significance. Inclusion and exclusion criteria This study will include adult pregnant women regardless of age. Pregnant minors under the age of 18 will not be eligible. A patient will be considered for inclusion in the study if she meets all of the following criteria: - She has a term (\u226537 completed weeks) live singleton gestation in cephalic presentation and has been admitted to the Labor and Delivery Unit - She is in the latent phase of labor or has been admitted for induction of labor or at prenatal clinic visit - She has had fewer than four prior vaginal deliveries. - She reports no allergy to misoprostol. The following factors or conditions will exclude a patient from consideration as a subject: - The fetus has a known major fetal malformation or chromosome abnormality - The gestation is multiple. - There is a breech or other malpresentation - The patient reports involvement in another clinical trial currently or previously in this pregnancy. - The patient is expected to have a cesarean delivery. - The patient had a prior cesarean delivery. - There has been an intrauterine fetal death.",
+      "title": "Effect of Adjunctive Misoprostol Treatment on Blood Loss at Vaginal Delivery",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 483.3934032234253,
+      "cross_score": -5.690773,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02411916::eligibility::0",
+      "doc_id": "NCT02411916",
+      "section": "eligibility",
+      "passage_text": "A patient will be considered for inclusion in the study if she meets all of the following criteria: - She has a term (\u226537 completed weeks) live singleton gestation in cephalic presentation and has been admitted to the Labor and Delivery Unit - She is in the latent phase of labor or has been admitted for induction of labor or at prenatal clinic visit - She has had fewer than four prior vaginal deliveries. - She reports no allergy to misoprostol. The following factors or conditions will exclude a patient from consideration as a subject: - The fetus has a known major fetal malformation or chromosome abnormality - The gestation is multiple. - There is a breech or other malpresentation - The patient reports involvement in another clinical trial currently or previously in this pregnancy. - The patient is expected to have a cesarean delivery. - The patient had a prior cesarean delivery. - There has been an intrauterine fetal death. - There is polyhydramnios (amniotic fluid index >22 cm).",
+      "title": "Effect of Adjunctive Misoprostol Treatment on Blood Loss at Vaginal Delivery",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 483.3934032234253,
+      "cross_score": -5.7770634,
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.\",\n  \"supported_patient_facts\": [\"19 yo Hispanic female\", \"G1P1\", \"32+6 weeks of gestational age\", \"No known major fetal malformation or chromosome abnormality\", \"Singleton gestation in cephalic presentation\", \"No breech or other malpresentation\", \"No prior cesarean delivery\", \"No intrauterine fetal death\", \"No polyhydramnios\"],\n  \"missing_patient_facts\": [\"Current phase of labor (latent phase or admitted for induction of labor)\", \"Allergy status to misoprostol\"],\n  \"unresolved_study_requirements\": [\"Admission to Labor and Delivery Unit\", \"Latent phase of labor or admission for induction of labor or prenatal clinic visit\", \"No involvement in another clinical trial currently or previously in this pregnancy\", \"No expected cesarean delivery\"],\n  \"reasoning_summary\": \"The patient's age, gestational age, and singleton gestation in cephalic presentation align with the inclusion criteria. However, the current phase of labor, allergy status to misoprostol, and other clinical trial-related requirements are unresolved. Additionally, the patient is not currently in the latent phase of labor or admitted for induction of labor or prenatal clinic visit, which is required for inclusion.\",\n  \"safety_note\": \"The patient's blood pressure and proteinuria suggest preeclampsia, which is a condition that needs careful monitoring. However, the safety note does not directly impact eligibility for this specific trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+    "supported_patient_facts": [
+      "19 yo Hispanic female",
+      "G1P1",
+      "32+6 weeks of gestational age",
+      "No known major fetal malformation or chromosome abnormality",
+      "Singleton gestation in cephalic presentation",
+      "No breech or other malpresentation",
+      "No prior cesarean delivery",
+      "No intrauterine fetal death",
+      "No polyhydramnios"
+    ],
+    "missing_patient_facts": [
+      "Current phase of labor (latent phase or admitted for induction of labor)",
+      "Allergy status to misoprostol"
+    ],
+    "unresolved_study_requirements": [
+      "Admission to Labor and Delivery Unit",
+      "Latent phase of labor or admission for induction of labor or prenatal clinic visit",
+      "No involvement in another clinical trial currently or previously in this pregnancy",
+      "No expected cesarean delivery"
+    ],
+    "reasoning_summary": "The patient's age, gestational age, and singleton gestation in cephalic presentation align with the inclusion criteria. However, the current phase of labor, allergy status to misoprostol, and other clinical trial-related requirements are unresolved. Additionally, the patient is not currently in the latent phase of labor or admitted for induction of labor or prenatal clinic visit, which is required for inclusion.",
+    "safety_note": "The patient's blood pressure and proteinuria suggest preeclampsia, which is a condition that needs careful monitoring. However, the safety note does not directly impact eligibility for this specific trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+  "missing_patient_facts": [
+    "Current phase of labor (latent phase or admitted for induction of labor)",
+    "Allergy status to misoprostol"
+  ],
+  "unresolved_study_requirements": [
+    "Admission to Labor and Delivery Unit",
+    "Latent phase of labor or admission for induction of labor or prenatal clinic visit",
+    "No involvement in another clinical trial currently or previously in this pregnancy",
+    "No expected cesarean delivery"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 27.82
+}

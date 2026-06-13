@@ -1,0 +1,62 @@
+{
+  "case_id": "case_trec2022_041",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00802698",
+  "reference_trial": "NCT00802698",
+  "evidence_trials": [
+    "NCT00802698"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 61-year-old man comes to the emergency department complaining of an acute vision disturbance. He had an episode of vision disturbance in the right eye that occurred suddenly and resolved spontaneously in 15 minutes. He also has right jaw pain while chewing. He also complains of fatigue and hip muscle aches over the last several months. The patient has a history of mild hyperlipidemia that has been controlled by diet and lifestyle modifications. On examination, his blood pressure is 130/70 mm Hg and pulse is 66/min. Neurological examination is unremarkable. Visual examination is also normal. ESR is 103 mm/h. Temporal artery biopsy shows multinuclear giant cells and internal elastic membrane fragmentation. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00802698 | section=detailed_description]\nIt is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.",
+  "passages": [
+    {
+      "passage_id": "NCT00802698::detailed_description::1",
+      "doc_id": "NCT00802698",
+      "section": "detailed_description",
+      "passage_text": "It is known that the visual prognosis following treatment of acute central retinal artery occlusion is not as good as we would like 2; the patient must go to any emergency department to be treated immediately3, in order to preserve maximal visual function. It has been prove that the retinal function recovers after an ischemic event lasting up to 97 minutes, 4 and irreparable damage may occur after 105 minutes. This is why this study intervene during the chronic phase between 4 hrs and 14 days; where demonstrable clinical improvements in the magnitude of retinal damage where seen5, 6, 7 However recently research reports have shown that, electrical stimulation can rescue injured retinal ganglion cells from death cells and can preserve visual function after an optic nerve crush. 8 There is no ideal treatment in the chronic phase of the CRAO. That is the reason why most recent papers suggest different treatment approaches in the chronic phase of this pathology. One of these treatments that were described is the application of electrical stimulation on the patient's cornea who present with CRAO.",
+      "title": "The Effect of Transcorneal Stimulation in Cases of Central Retinal Artery Occlusion Using a New Waveform",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 249.92641394206564,
+      "cross_score": -4.6876707,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems you might not be eligible for this specific clinical trial. The trial focuses on treating acute central retinal artery occlusion (CRAO) using electrical stimulation, which is not applicable to your case.\",\n  \"supported_patient_facts\": [\"The patient has an episode of sudden vision disturbance in the right eye that resolved spontaneously.\", \"He has a history of mild hyperlipidemia controlled by diet and lifestyle modifications.\", \"His temporal artery biopsy shows multinuclear giant cells and internal elastic membrane fragmentation, indicating temporal arteritis.\"],\n  \"missing_patient_facts\": [\"The patient's exact diagnosis (whether it is CRAO or temporal arteritis).\", \"Whether the patient has received any treatment for the vision disturbance or jaw pain.\"],\n  \"unresolved_study_requirements\": [\"The study requires patients with acute central retinal artery occlusion to be treated immediately in the emergency department.\", \"The study uses electrical stimulation as a treatment method, which does not apply to your condition.\"],\n  \"reasoning_summary\": \"While the patient has symptoms consistent with CRAO, the specific diagnosis and treatment history are unclear. Additionally, the study requires immediate treatment for CRAO, which is not applicable to your case.\",\n  \"safety_note\": \"Please consult with your healthcare provider before considering participation in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems you might not be eligible for this specific clinical trial. The trial focuses on treating acute central retinal artery occlusion (CRAO) using electrical stimulation, which is not applicable to your case.",
+    "supported_patient_facts": [
+      "The patient has an episode of sudden vision disturbance in the right eye that resolved spontaneously.",
+      "He has a history of mild hyperlipidemia controlled by diet and lifestyle modifications.",
+      "His temporal artery biopsy shows multinuclear giant cells and internal elastic membrane fragmentation, indicating temporal arteritis."
+    ],
+    "missing_patient_facts": [
+      "The patient's exact diagnosis (whether it is CRAO or temporal arteritis).",
+      "Whether the patient has received any treatment for the vision disturbance or jaw pain."
+    ],
+    "unresolved_study_requirements": [
+      "The study requires patients with acute central retinal artery occlusion to be treated immediately in the emergency department.",
+      "The study uses electrical stimulation as a treatment method, which does not apply to your condition."
+    ],
+    "reasoning_summary": "While the patient has symptoms consistent with CRAO, the specific diagnosis and treatment history are unclear. Additionally, the study requires immediate treatment for CRAO, which is not applicable to your case.",
+    "safety_note": "Please consult with your healthcare provider before considering participation in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems you might not be eligible for this specific clinical trial. The trial focuses on treating acute central retinal artery occlusion (CRAO) using electrical stimulation, which is not applicable to your case.",
+  "missing_patient_facts": [
+    "The patient's exact diagnosis (whether it is CRAO or temporal arteritis).",
+    "Whether the patient has received any treatment for the vision disturbance or jaw pain."
+  ],
+  "unresolved_study_requirements": [
+    "The study requires patients with acute central retinal artery occlusion to be treated immediately in the emergency department.",
+    "The study uses electrical stimulation as a treatment method, which does not apply to your condition."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.551
+}

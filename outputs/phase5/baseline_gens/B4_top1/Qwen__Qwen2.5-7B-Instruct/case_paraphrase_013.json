@@ -1,0 +1,63 @@
+{
+  "case_id": "case_paraphrase_013",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00843310",
+  "reference_trial": "NCT00843310",
+  "evidence_trials": [
+    "NCT00843310"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT00843310 | section=detailed_description]\nCurrent multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+  "passages": [
+    {
+      "passage_id": "NCT00843310::detailed_description::0",
+      "doc_id": "NCT00843310",
+      "section": "detailed_description",
+      "passage_text": "Current multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+      "title": "Combination of Revlimid, Melphalan and Dexamethasone as First Line Treatment for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 303.917656983257,
+      "cross_score": -1.18431,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the study, but there are some uncertainties that need to be resolved before a final determination can be made.\",\n  \"supported_patient_facts\": [\"64yo woman with multiple myeloma\", \"history of allogeneic transplant\", \"current relapse of myeloma\", \"on hemodialysis for ESRD\"],\n  \"missing_patient_facts\": [\"specific details about current disease status and treatment response\", \"details about systemic amyloidosis involvement and its impact on organ function\"],\n  \"unresolved_study_requirements\": [\"exact eligibility criteria for the study\", \"confirmation of patient's suitability based on comorbidities and treatment history\"],\n  \"reasoning_summary\": \"The patient has a history consistent with multiple myeloma and relapse, which aligns with the study's focus. However, key details such as current disease status, treatment response, and specific organ involvement are missing, making it difficult to fully assess eligibility.\",\n  \"safety_note\": \"Given the patient's complex medical history and current condition, potential risks and side effects should be carefully reviewed with the healthcare team.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the study, but there are some uncertainties that need to be resolved before a final determination can be made.",
+    "supported_patient_facts": [
+      "64yo woman with multiple myeloma",
+      "history of allogeneic transplant",
+      "current relapse of myeloma",
+      "on hemodialysis for ESRD"
+    ],
+    "missing_patient_facts": [
+      "specific details about current disease status and treatment response",
+      "details about systemic amyloidosis involvement and its impact on organ function"
+    ],
+    "unresolved_study_requirements": [
+      "exact eligibility criteria for the study",
+      "confirmation of patient's suitability based on comorbidities and treatment history"
+    ],
+    "reasoning_summary": "The patient has a history consistent with multiple myeloma and relapse, which aligns with the study's focus. However, key details such as current disease status, treatment response, and specific organ involvement are missing, making it difficult to fully assess eligibility.",
+    "safety_note": "Given the patient's complex medical history and current condition, potential risks and side effects should be carefully reviewed with the healthcare team."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the study, but there are some uncertainties that need to be resolved before a final determination can be made.",
+  "missing_patient_facts": [
+    "specific details about current disease status and treatment response",
+    "details about systemic amyloidosis involvement and its impact on organ function"
+  ],
+  "unresolved_study_requirements": [
+    "exact eligibility criteria for the study",
+    "confirmation of patient's suitability based on comorbidities and treatment history"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.619
+}

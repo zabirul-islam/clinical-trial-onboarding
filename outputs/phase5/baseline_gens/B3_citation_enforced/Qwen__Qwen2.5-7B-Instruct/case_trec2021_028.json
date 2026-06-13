@@ -1,0 +1,147 @@
+{
+  "case_id": "case_trec2021_028",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00000568",
+  "selected_doc": "NCT04342520",
+  "reference_trial": "NCT04342520",
+  "evidence_trials": [
+    "NCT00473460",
+    "NCT00603278",
+    "NCT04129931",
+    "NCT04342520"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. The symptoms began acutely and progressively worsened. He is a known case of COPD since 2 years ago. The spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values. He smokes 20 cigarette per day. His past medical history is remarkable for BPH and he is using Flomax for that. His family history is positive for HTN in his brother. His medication includes Duo-Neb inhaled q4 hr PRN, Vit D3 1000 units per day and Flomax for his PBH. He is an obese man who is acutely ill but oriented and conscious. The vital signs are as bellow: BP: 135/80 RR: 25/min HR: 75 bpm BMI: 40 O2sat: 90% Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04342520 | section=summary]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.\n\n[Passage 2 | doc=NCT04129931 | section=eligibility]\nOwns a device compatible with the eDiary system used for CompEx, that is, an iOS 11+ device such as iPhone, iPad or iPod, or a smartphone or tablet running on Android 5.0+ Exclusion Criteria: 1. Current participation in an interventional trial (e.g. drugs, diets, etc.) 2. Enrollment in a clinical trial where the study medication was administered within the past 60 days or within 5 half-lives (whichever is greater) 3. Physician diagnosis of other chronic pulmonary disorders associated with asthma-like symptoms, including, but not limited to, cystic fibrosis (CF), chronic obstructive pulmonary disease (COPD), chronic bronchitis, emphysema, severe scoliosis or chest wall deformities that affect lung function, or congenital disorders of the lungs or airways 4. Receiving one or more immune-modulating therapies for diseases other than asthma 5. Receiving methotrexate, mycophenolate (CellCept\u00ae), or azathioprine (Imuran\u00ae) 6. Receiving aero allergen immunotherapy and not on at least 3 months of maintenance allergen immunotherapy 7. Underwent a bronchial thermoplasty within the last two years 8. Born before 35 weeks of gestation 9.\n\n[Passage 3 | doc=NCT04342520 | section=detailed_description]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.\n\n[Passage 4 | doc=NCT04129931 | section=eligibility]\nComorbid Conditions: Comorbidities are commonly present in severe asthma. Specific questionnaires will be used to identify common comorbidities as follows: 1. Sleep apnea: STOP-BANG 2. GERD (GERD- Questionnaire) 3. VCD (Pittsburgh vocal cord dysfunction index) 4. Chronic Rhinitis Sinusitis (Sinonasal questionnaire-SNQ5) 5. Depression-Anxiety (Hospital anxiety and depression Scale: HADS) These questionnaires are best used as screening tools. As such they typically have high sensitivity but relatively low specificity. Many of their symptoms overlap with the symptoms reported by participants with asthma who do not suffer from these conditions. Therefore, participants who meet the established cut offs for these questionnaires will need to be evaluated by the investigator to consider the clinical significance of the positive questionnaire based on history and physical and available testing. The investigator will need to judge the presence, severity and control of a specific condition and determine if it is sufficiently controlled to keep the participant in the PrecISE protocol.\n\n[Passage 5 | doc=NCT00603278 | section=eligibility]\nThe list of additional excluded conditions/diseases includes, but is not limited to the following: congestive heart failure, clinically significant coronary artery disease, stroke within 3 months of Visit 1, poorly controlled peptic ulcer, immunologic compromise, tuberculosis (current or untreated), Addison's disease, uncontrolled thyroid disorder, known aortic aneurysm, clinically significant cardiac arrhythmia, uncontrolled hypertension, hematological, hepatic, or renal disease, current malignancy, cushings disease, uncontrolled diabetes mellitus, recent history of drug or alcohol abuse. - Oropharyngeal Examination: A subject will not be eligible for the run-in if he/she has clinical visual evidence of oral candidiasis at Visit 1. - Investigational Medications: A subject must not have participated in a study or used any investigational drug within 30 days prior to Visit 1. - Drug Allergy: Any adverse reaction including immediate or delayed hypersensitivity to any beta2-agonist, sympathomimetic drug, or any intranasal, inhaled, or systemic corticosteroid therapy.\n\n[Passage 6 | doc=NCT00473460 | section=summary]\nMoxifloxacin, is being tested at approximately 60 study centres in 15 countries to determine if this drug, when taken periodically in addition to the patients normal treatment, is effective at reducing the number of flare-ups of chronic bronchitis he has. Approximately 1132 subjects will participate, and it is expected that the study will run for 2 years in order to reach that goal. The patients individual involvement in the study will be 17 months. Moxifloxacin will be compared to a placebo drug (no active ingredients). The study medication (moxifloxacin or placebo) will be taken in addition to the patients normal medication for chronic bronchitis. In addition to the first clinic visit, called a screening visit, the patient will be required to come back to the clinic for ten more study visits, every 8 weeks. At the first visit the study co-ordinator will provide him with the dates for all the visits. Over a period of 48 weeks the patient will return to the clinic on 6 occasions where he will receive the study medication which he will take for five days, in addition to his normal treatment for chronic bronchitis. After this time the patient will enter a follow up period for 24 weeks, where he will come to the clinic for assessments and continue to take his normal medication but not receive the study drug. A complete medical history will be taken at the first visit, including the patients past and current smoking habit. A breath test will be performed to assess how well his lungs are functioning. In addition, he will also be asked to provide a sputum sample for a microbiological examination to identify any bacteria present in the sample. The patient must be able to provide a sputum sample at the screening visit. If the patient meets all the inclusion / exclusion criteria for the study, he will be allocated randomly to one of the following treatment groups at the second visit.- Treatment group 1: Receives moxifloxacin orally once daily for five days.- Treatment group 2: Receives a matching placebo once daily for five days.In between each visit (four weeks after your clinic visit), the study site co-ordinator will contact the patient to check on his well being. If the patient or the doctor decides to stop the patients participation in the trial for any reason, the patient will be required to return to the clinic for a physical examination, take a breath test, provide a sputum sample (if possible) and have a blood sample taken.",
+  "passages": [
+    {
+      "passage_id": "NCT04342520::summary::0",
+      "doc_id": "NCT04342520",
+      "section": "summary",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 285.8394512809899,
+      "cross_score": -6.82862,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04129931::eligibility::2",
+      "doc_id": "NCT04129931",
+      "section": "eligibility",
+      "passage_text": "Owns a device compatible with the eDiary system used for CompEx, that is, an iOS 11+ device such as iPhone, iPad or iPod, or a smartphone or tablet running on Android 5.0+ Exclusion Criteria: 1. Current participation in an interventional trial (e.g. drugs, diets, etc.) 2. Enrollment in a clinical trial where the study medication was administered within the past 60 days or within 5 half-lives (whichever is greater) 3. Physician diagnosis of other chronic pulmonary disorders associated with asthma-like symptoms, including, but not limited to, cystic fibrosis (CF), chronic obstructive pulmonary disease (COPD), chronic bronchitis, emphysema, severe scoliosis or chest wall deformities that affect lung function, or congenital disorders of the lungs or airways 4. Receiving one or more immune-modulating therapies for diseases other than asthma 5. Receiving methotrexate, mycophenolate (CellCept\u00ae), or azathioprine (Imuran\u00ae) 6. Receiving aero allergen immunotherapy and not on at least 3 months of maintenance allergen immunotherapy 7. Underwent a bronchial thermoplasty within the last two years 8. Born before 35 weeks of gestation 9.",
+      "title": "PrecISE (Precision Interventions for Severe and/or Exacerbation-Prone Asthma) Network Study",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 299.8566531262771,
+      "cross_score": -7.1984115,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04342520::detailed_description::0",
+      "doc_id": "NCT04342520",
+      "section": "detailed_description",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 285.8394512809899,
+      "cross_score": -7.226877,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04129931::eligibility::8",
+      "doc_id": "NCT04129931",
+      "section": "eligibility",
+      "passage_text": "Comorbid Conditions: Comorbidities are commonly present in severe asthma. Specific questionnaires will be used to identify common comorbidities as follows: 1. Sleep apnea: STOP-BANG 2. GERD (GERD- Questionnaire) 3. VCD (Pittsburgh vocal cord dysfunction index) 4. Chronic Rhinitis Sinusitis (Sinonasal questionnaire-SNQ5) 5. Depression-Anxiety (Hospital anxiety and depression Scale: HADS) These questionnaires are best used as screening tools. As such they typically have high sensitivity but relatively low specificity. Many of their symptoms overlap with the symptoms reported by participants with asthma who do not suffer from these conditions. Therefore, participants who meet the established cut offs for these questionnaires will need to be evaluated by the investigator to consider the clinical significance of the positive questionnaire based on history and physical and available testing. The investigator will need to judge the presence, severity and control of a specific condition and determine if it is sufficiently controlled to keep the participant in the PrecISE protocol.",
+      "title": "PrecISE (Precision Interventions for Severe and/or Exacerbation-Prone Asthma) Network Study",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 299.8566531262771,
+      "cross_score": -7.677999,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00603278::eligibility::7",
+      "doc_id": "NCT00603278",
+      "section": "eligibility",
+      "passage_text": "The list of additional excluded conditions/diseases includes, but is not limited to the following: congestive heart failure, clinically significant coronary artery disease, stroke within 3 months of Visit 1, poorly controlled peptic ulcer, immunologic compromise, tuberculosis (current or untreated), Addison's disease, uncontrolled thyroid disorder, known aortic aneurysm, clinically significant cardiac arrhythmia, uncontrolled hypertension, hematological, hepatic, or renal disease, current malignancy, cushings disease, uncontrolled diabetes mellitus, recent history of drug or alcohol abuse. - Oropharyngeal Examination: A subject will not be eligible for the run-in if he/she has clinical visual evidence of oral candidiasis at Visit 1. - Investigational Medications: A subject must not have participated in a study or used any investigational drug within 30 days prior to Visit 1. - Drug Allergy: Any adverse reaction including immediate or delayed hypersensitivity to any beta2-agonist, sympathomimetic drug, or any intranasal, inhaled, or systemic corticosteroid therapy.",
+      "title": "A Randomized Study To Evaluate The Efficacy And Safety Of An Investigational Drug In Adolescent And Adult Subjects With Asthma Uncontrolled on Low-Dose ICS Therapy.",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 286.13531749817986,
+      "cross_score": -7.7508736,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00473460::summary::0",
+      "doc_id": "NCT00473460",
+      "section": "summary",
+      "passage_text": "Moxifloxacin, is being tested at approximately 60 study centres in 15 countries to determine if this drug, when taken periodically in addition to the patients normal treatment, is effective at reducing the number of flare-ups of chronic bronchitis he has. Approximately 1132 subjects will participate, and it is expected that the study will run for 2 years in order to reach that goal. The patients individual involvement in the study will be 17 months. Moxifloxacin will be compared to a placebo drug (no active ingredients). The study medication (moxifloxacin or placebo) will be taken in addition to the patients normal medication for chronic bronchitis. In addition to the first clinic visit, called a screening visit, the patient will be required to come back to the clinic for ten more study visits, every 8 weeks. At the first visit the study co-ordinator will provide him with the dates for all the visits. Over a period of 48 weeks the patient will return to the clinic on 6 occasions where he will receive the study medication which he will take for five days, in addition to his normal treatment for chronic bronchitis. After this time the patient will enter a follow up period for 24 weeks, where he will come to the clinic for assessments and continue to take his normal medication but not receive the study drug. A complete medical history will be taken at the first visit, including the patients past and current smoking habit. A breath test will be performed to assess how well his lungs are functioning. In addition, he will also be asked to provide a sputum sample for a microbiological examination to identify any bacteria present in the sample. The patient must be able to provide a sputum sample at the screening visit. If the patient meets all the inclusion / exclusion criteria for the study, he will be allocated randomly to one of the following treatment groups at the second visit.- Treatment group 1: Receives moxifloxacin orally once daily for five days.- Treatment group 2: Receives a matching placebo once daily for five days.In between each visit (four weeks after your clinic visit), the study site co-ordinator will contact the patient to check on his well being. If the patient or the doctor decides to stop the patients participation in the trial for any reason, the patient will be required to return to the clinic for a physical examination, take a breath test, provide a sputum sample (if possible) and have a blood sample taken.",
+      "title": "Intermittent Moxifloxacin Therapy For The Prevention Of Acute Exacerbations In Patients With Chronic Bronchitis",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 290.85260688239,
+      "cross_score": -7.951393,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not appear to meet the eligibility criteria for the clinical trial described in NCT04129931. However, further details are needed to confirm this.\",\n  \"supported_patient_facts\": [\"60-year-old male\", \"known COPD for 2 years\", \"using Flomax for BPH\", \"obese\"],\n  \"missing_patient_facts\": [\"device compatible with eDiary system\", \"specific comorbidities like sleep apnea, GERD, VCD, chronic rhinitis/sinusitis, depression/anxiety\"],\n  \"unresolved_study_requirements\": [\"no current participation in another interventional trial\", \"no enrollment in a clinical trial with study medication within the past 60 days or 5 half-lives\", \"no physician diagnosis of other chronic pulmonary disorders associated with asthma-like symptoms\", \"no receiving immune-modulating therapies for diseases other than asthma\", \"no receiving methotrexate, mycophenolate, or azathioprine\", \"no undergoing aero allergen immunotherapy without at least 3 months of maintenance\", \"no bronchial thermoplasty within the last two years\", \"no born before 35 weeks of gestation\"],\n  \"reasoning_summary\": \"The patient does not meet the inclusion criteria for the clinical trial NCT04129931 due to the absence of a compatible device for the eDiary system and the lack of specific comorbidities that would be screened for. Additionally, there are unresolved requirements regarding the patient's current medications and medical history that need to be confirmed.\",\n  \"safety_note\": \"The patient's acute illness and COPD status suggest potential risks that should be carefully considered by the clinical team.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"2\"],\n    \"reasoning_summary\": [\"2\", \"4\"]\n  }\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "60-year-old male",
+      "known COPD for 2 years",
+      "using Flomax for BPH",
+      "obese"
+    ],
+    "missing_patient_facts": [
+      "device compatible with eDiary system",
+      "specific comorbidities like sleep apnea, GERD, VCD, chronic rhinitis/sinusitis, depression/anxiety"
+    ],
+    "unresolved_study_requirements": [
+      "no current participation in another interventional trial",
+      "no enrollment in a clinical trial with study medication within the past 60 days or 5 half-lives",
+      "no physician diagnosis of other chronic pulmonary disorders associated with asthma-like symptoms",
+      "no receiving immune-modulating therapies for diseases other than asthma",
+      "no receiving methotrexate, mycophenolate, or azathioprine",
+      "no undergoing aero allergen immunotherapy without at least 3 months of maintenance",
+      "no bronchial thermoplasty within the last two years",
+      "no born before 35 weeks of gestation"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "The patient's acute illness and COPD status suggest potential risks that should be carefully considered by the clinical team.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "2"
+      ],
+      "reasoning_summary": [
+        "2",
+        "4"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "device compatible with eDiary system",
+    "specific comorbidities like sleep apnea, GERD, VCD, chronic rhinitis/sinusitis, depression/anxiety"
+  ],
+  "unresolved_study_requirements": [
+    "no current participation in another interventional trial",
+    "no enrollment in a clinical trial with study medication within the past 60 days or 5 half-lives",
+    "no physician diagnosis of other chronic pulmonary disorders associated with asthma-like symptoms",
+    "no receiving immune-modulating therapies for diseases other than asthma",
+    "no receiving methotrexate, mycophenolate, or azathioprine",
+    "no undergoing aero allergen immunotherapy without at least 3 months of maintenance",
+    "no bronchial thermoplasty within the last two years",
+    "no born before 35 weeks of gestation"
+  ],
+  "narrow_leak_n": 1,
+  "latency_sec": 32.688
+}

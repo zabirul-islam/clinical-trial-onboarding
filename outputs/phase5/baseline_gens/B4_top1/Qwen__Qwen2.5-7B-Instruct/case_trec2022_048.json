@@ -1,0 +1,70 @@
+{
+  "case_id": "case_trec2022_048",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03003533",
+  "reference_trial": "NCT03003533",
+  "evidence_trials": [
+    "NCT03003533"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the emergency due to bleeding after a tooth extraction. The bleeding has persisted for approximately 30 minutes despite constant direct pressure. He is a known case of Hemophilia type A treated with FVIII. Blood pressure is 95/60 mm Hg and pulse is 105/min. His weight is 70 Kg. Family history is positive for Hemophilia type A in his maternal uncle. He also has a lipoma on his left arm which he plans to remove surgically. His FVIII activity is 40%. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03003533 | section=eligibility]\nInclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+  "passages": [
+    {
+      "passage_id": "NCT03003533::eligibility::0",
+      "doc_id": "NCT03003533",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 230.31326401427123,
+      "cross_score": -4.5980816,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be confirmed.\",\n  \"supported_patient_facts\": [\"Males age 18 years or older\", \"Confirmed diagnosis of hemophilia A with FVIII activity of 40%\", \"Family history positive for Hemophilia type A\"],\n  \"missing_patient_facts\": [\"Number of exposure days to FVIII concentrates or cryoprecipitate\", \"Number of bleeding events over the previous 12 months\", \"History of allergic reactions to FVIII products\", \"Presence of detectable antibodies reactive with AAV-Spark200 capsid\", \"Participation in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within the last 52 weeks\"],\n  \"unresolved_study_requirements\": [\"Have received >150 exposure days to FVIII concentrates or cryoprecipitate\", \"Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal\", \"Agree to use reliable barrier contraception\"],\n  \"reasoning_summary\": \"The patient is a male aged 18 or older, has a confirmed diagnosis of hemophilia A with FVIII activity of 40%, and has a family history of Hemophilia type A. However, the number of exposure days to FVIII concentrates or cryoprecipitate, the number of bleeding events over the previous 12 months, history of allergic reactions to FVIII products, presence of detectable antibodies reactive with AAV-Spark200 capsid, and participation in a gene transfer trial or clinical trial with an investigational product within the last 52 weeks are unresolved.\",\n  \"safety_note\": \"The patient's current condition, including bleeding after a tooth extraction, should be evaluated by the clinical team before enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be confirmed.",
+    "supported_patient_facts": [
+      "Males age 18 years or older",
+      "Confirmed diagnosis of hemophilia A with FVIII activity of 40%",
+      "Family history positive for Hemophilia type A"
+    ],
+    "missing_patient_facts": [
+      "Number of exposure days to FVIII concentrates or cryoprecipitate",
+      "Number of bleeding events over the previous 12 months",
+      "History of allergic reactions to FVIII products",
+      "Presence of detectable antibodies reactive with AAV-Spark200 capsid",
+      "Participation in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within the last 52 weeks"
+    ],
+    "unresolved_study_requirements": [
+      "Have received >150 exposure days to FVIII concentrates or cryoprecipitate",
+      "Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal",
+      "Agree to use reliable barrier contraception"
+    ],
+    "reasoning_summary": "The patient is a male aged 18 or older, has a confirmed diagnosis of hemophilia A with FVIII activity of 40%, and has a family history of Hemophilia type A. However, the number of exposure days to FVIII concentrates or cryoprecipitate, the number of bleeding events over the previous 12 months, history of allergic reactions to FVIII products, presence of detectable antibodies reactive with AAV-Spark200 capsid, and participation in a gene transfer trial or clinical trial with an investigational product within the last 52 weeks are unresolved.",
+    "safety_note": "The patient's current condition, including bleeding after a tooth extraction, should be evaluated by the clinical team before enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be confirmed.",
+  "missing_patient_facts": [
+    "Number of exposure days to FVIII concentrates or cryoprecipitate",
+    "Number of bleeding events over the previous 12 months",
+    "History of allergic reactions to FVIII products",
+    "Presence of detectable antibodies reactive with AAV-Spark200 capsid",
+    "Participation in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within the last 52 weeks"
+  ],
+  "unresolved_study_requirements": [
+    "Have received >150 exposure days to FVIII concentrates or cryoprecipitate",
+    "Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal",
+    "Agree to use reliable barrier contraception"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 32.853
+}

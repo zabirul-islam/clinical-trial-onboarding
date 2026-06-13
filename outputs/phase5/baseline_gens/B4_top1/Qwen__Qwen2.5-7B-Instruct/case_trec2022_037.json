@@ -1,0 +1,81 @@
+{
+  "case_id": "case_trec2022_037",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01419535",
+  "reference_trial": "NCT01419535",
+  "evidence_trials": [
+    "NCT01419535"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old man comes to the office due to weight gain and fatigue. He is not able to lift heavy objects or climb stairs. Family history is positive for DM type 2 and HTN in his father. Blood pressure is 165/90 mm Hg and pulse is 85/min. On physical examination, there is symmetric proximal muscle weakness of the upper and lower extremities. Fasting plasma glucose level is 138 mg/dL and 24-hour urinary cortisol is twice the upper normal limit. Further evaluation reveals that high-dose, but not low-dose, dexamethasone suppresses serum cortisol levels. Serum ACTH levels are high-normal. This patient's findings are consistent with endogenous Cushing Syndrome. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01419535 | section=detailed_description]\nThe hormone cortisol is a key regulator of metabolism that influences the use of glucose (sugar) and fat as fuels. Persistently increased cortisol levels, as in Cushing s syndrome, lead to obesity, type 2 diabetes mellitus and lipid abnormalities including elevated triglyceride levels and low high-density lipoprotein (HDL) levels. These same disorders are also present in patients without Cushing s syndrome, suggesting that cortisol may be involved in their pathogenesis. Mifepristone is a cortisol-like drug that blocks cortisol action in the body. It can reverse lipid abnormalities, diabetes and obesity in Cushing s syndrome patients but its effects on these conditions have not been tested in patients without the syndrome. The long-term aim of this clinical trial is to evaluate the ability of mifepristone to reverse or improve glucose intolerance, dyslipidemia, hypertension and weight gain. An initial 7-day prospective, randomized, placebo-controlled, crossover study is proposed here to look at the effect of short-term administration of oral mifepristone or placebo on glucose intolerance.\n\n[Passage 2 | doc=NCT01419535 | section=summary]\nBackground: - Metabolic syndrome is a name given to a group of factors that tend to occur together. These risk factors include central obesity (extra weight around the middle of the body) and high blood pressure and blood sugar levels. They also include low levels of HDL (\"good cholesterol\") and high triglyceride levels. A person is said to have metabolic syndrome if they have three or more of the above risk factors. People with metabolic syndrome are at increased risk for type 2 diabetes, stroke, and heart disease. - Cortisol, a hormone produced by the adrenal glands, is an important regulator of metabolism. People with central obesity and metabolic syndrome may have higher than normal cortisol levels that the body cannot regulate properly. Abnormal cortisol levels may play an important role in metabolic syndrome. Mifepristone is a drug that blocks cortisol. Researchers are interested in studying its effects on metabolic syndrome. Objectives: - To study the effects of short-term mifepristone treatment for metabolic syndrome. Eligibility: - Men and Women between 35 and 70 years of age are overweight or obese, and have abnormal glucose and triglyceride levels. Design: - Participants will be screened with a physical exam and medical history. They will also have blood and urine tests. - Participants will be admitted to the metabolic unit at the National Institutes of Health Clinical Center for the first 3 days of the study: - Day 1: Body measurements (height, weight, waist, hip, and neck) and blood pressure tests. Also, 24 hours of regular blood draws and 24-hour urine collection to monitor regular daily cortisol levels. - Day 2: Glucose/insulin infusion test to measure blood sugar levels. - Day 3: Infusion of cortisol-like compounds and then regular blood draws for about 3 hours to evaluate how cortisol is metabolized. - At the end of Day 3, participants will receive mifepristone or a look-alike capsule to take for 7 days at home. - After 7 days, participants will return to the metabolic unit to repeat the Day 1 and Day 2 study procedures. They will continue to take mifepristone. - One week after the second set of study tests, participants will return for a brief physical exam and blood tests. - The study procedures will be repeated after 6 to 8 weeks, with the other study drug.",
+  "passages": [
+    {
+      "passage_id": "NCT01419535::detailed_description::0",
+      "doc_id": "NCT01419535",
+      "section": "detailed_description",
+      "passage_text": "The hormone cortisol is a key regulator of metabolism that influences the use of glucose (sugar) and fat as fuels. Persistently increased cortisol levels, as in Cushing s syndrome, lead to obesity, type 2 diabetes mellitus and lipid abnormalities including elevated triglyceride levels and low high-density lipoprotein (HDL) levels. These same disorders are also present in patients without Cushing s syndrome, suggesting that cortisol may be involved in their pathogenesis. Mifepristone is a cortisol-like drug that blocks cortisol action in the body. It can reverse lipid abnormalities, diabetes and obesity in Cushing s syndrome patients but its effects on these conditions have not been tested in patients without the syndrome. The long-term aim of this clinical trial is to evaluate the ability of mifepristone to reverse or improve glucose intolerance, dyslipidemia, hypertension and weight gain. An initial 7-day prospective, randomized, placebo-controlled, crossover study is proposed here to look at the effect of short-term administration of oral mifepristone or placebo on glucose intolerance.",
+      "title": "Mifepristone Effects on Glucose Intolerance in Obese/Overweight Adults",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 293.10301464774955,
+      "cross_score": -4.9482303,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01419535::summary::0",
+      "doc_id": "NCT01419535",
+      "section": "summary",
+      "passage_text": "Background: - Metabolic syndrome is a name given to a group of factors that tend to occur together. These risk factors include central obesity (extra weight around the middle of the body) and high blood pressure and blood sugar levels. They also include low levels of HDL (\"good cholesterol\") and high triglyceride levels. A person is said to have metabolic syndrome if they have three or more of the above risk factors. People with metabolic syndrome are at increased risk for type 2 diabetes, stroke, and heart disease. - Cortisol, a hormone produced by the adrenal glands, is an important regulator of metabolism. People with central obesity and metabolic syndrome may have higher than normal cortisol levels that the body cannot regulate properly. Abnormal cortisol levels may play an important role in metabolic syndrome. Mifepristone is a drug that blocks cortisol. Researchers are interested in studying its effects on metabolic syndrome. Objectives: - To study the effects of short-term mifepristone treatment for metabolic syndrome. Eligibility: - Men and Women between 35 and 70 years of age are overweight or obese, and have abnormal glucose and triglyceride levels. Design: - Participants will be screened with a physical exam and medical history. They will also have blood and urine tests. - Participants will be admitted to the metabolic unit at the National Institutes of Health Clinical Center for the first 3 days of the study: - Day 1: Body measurements (height, weight, waist, hip, and neck) and blood pressure tests. Also, 24 hours of regular blood draws and 24-hour urine collection to monitor regular daily cortisol levels. - Day 2: Glucose/insulin infusion test to measure blood sugar levels. - Day 3: Infusion of cortisol-like compounds and then regular blood draws for about 3 hours to evaluate how cortisol is metabolized. - At the end of Day 3, participants will receive mifepristone or a look-alike capsule to take for 7 days at home. - After 7 days, participants will return to the metabolic unit to repeat the Day 1 and Day 2 study procedures. They will continue to take mifepristone. - One week after the second set of study tests, participants will return for a brief physical exam and blood tests. - The study procedures will be repeated after 6 to 8 weeks, with the other study drug.",
+      "title": "Mifepristone Effects on Glucose Intolerance in Obese/Overweight Adults",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 293.10301464774955,
+      "cross_score": -6.8131776,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.\",\n  \"supported_patient_facts\": [\"47-year-old male\", \"symmetric proximal muscle weakness\", \"elevated fasting plasma glucose level\", \"high 24-hour urinary cortisol\", \"high-dose dexamethasone suppression of serum cortisol\", \"high-normal serum ACTH levels\"],\n  \"missing_patient_facts\": [\"Body measurements (height, weight, waist, hip, and neck)\", \"Blood pressure tests\", \"Abnormal glucose and triglyceride levels\", \"Overweight or obese status\"],\n  \"unresolved_study_requirements\": [\"Further testing to confirm metabolic syndrome\", \"Confirmation of age range (35-70 years)\"],\n  \"reasoning_summary\": \"The patient has symptoms and lab results consistent with endogenous Cushing Syndrome, which could be related to metabolic syndrome. However, the patient's eligibility depends on confirming specific metabolic syndrome criteria and ensuring they fall within the age range specified for the study.\",\n  \"safety_note\": \"It is important to note that the patient's condition should be evaluated by a healthcare provider before determining eligibility.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.",
+    "supported_patient_facts": [
+      "47-year-old male",
+      "symmetric proximal muscle weakness",
+      "elevated fasting plasma glucose level",
+      "high 24-hour urinary cortisol",
+      "high-dose dexamethasone suppression of serum cortisol",
+      "high-normal serum ACTH levels"
+    ],
+    "missing_patient_facts": [
+      "Body measurements (height, weight, waist, hip, and neck)",
+      "Blood pressure tests",
+      "Abnormal glucose and triglyceride levels",
+      "Overweight or obese status"
+    ],
+    "unresolved_study_requirements": [
+      "Further testing to confirm metabolic syndrome",
+      "Confirmation of age range (35-70 years)"
+    ],
+    "reasoning_summary": "The patient has symptoms and lab results consistent with endogenous Cushing Syndrome, which could be related to metabolic syndrome. However, the patient's eligibility depends on confirming specific metabolic syndrome criteria and ensuring they fall within the age range specified for the study.",
+    "safety_note": "It is important to note that the patient's condition should be evaluated by a healthcare provider before determining eligibility."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need to confirm some details.",
+  "missing_patient_facts": [
+    "Body measurements (height, weight, waist, hip, and neck)",
+    "Blood pressure tests",
+    "Abnormal glucose and triglyceride levels",
+    "Overweight or obese status"
+  ],
+  "unresolved_study_requirements": [
+    "Further testing to confirm metabolic syndrome",
+    "Confirmation of age range (35-70 years)"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 20.515
+}

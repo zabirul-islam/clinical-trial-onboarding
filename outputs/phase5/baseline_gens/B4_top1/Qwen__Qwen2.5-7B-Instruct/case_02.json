@@ -1,0 +1,58 @@
+{
+  "case_id": "case_02",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01482130",
+  "reference_trial": "NCT01482130",
+  "evidence_trials": [
+    "NCT01482130"
+  ],
+  "question": "I am a 63-year-old postmenopausal woman with osteoporosis and a past fragility fracture, but I do not know whether my records include the required imaging. Would I likely qualify?",
+  "evidence": "[Passage 1 | doc=NCT01482130 | section=detailed_description]\nBackground: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+  "passages": [
+    {
+      "passage_id": "NCT01482130::detailed_description::0",
+      "doc_id": "NCT01482130",
+      "section": "detailed_description",
+      "passage_text": "Background: Osteoporosis is a progressive, systemic skeletal disorder characterized by low bone mineral density (BMD), and deterioration of the microarchitecture of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture. Typically the disease shows no symptoms until a fracture occurs, hence referred to as the \"silent epidemic\". In Norway one of two women and one of four men experience a fragility fracture after the age of 50. The loss of bone strength with age likely reflects the skeletal response to hormonal changes and the mechanical environment with decreased physical activity. Osteoporotic fractures often happen as a consequence of minimal injury, especially at the hip, spine and wrist. Hip fracture is associated with excess mortality during the first year after fracture ranging from 8.4% to 36%. The increased mortality risk may persist for several years thereafter, highlighting the need for interventions to reduce this risk. Osteoporosis is a common disease and recognized as a global problem by the WHO. The American College of Sport Medicine suggests exercise as a countermeasure against bone loss in postmenopausal woman and elderly subjects.",
+      "title": "High Intensity Strength Training & Bone Mineral Density in Young Women",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 71.82124348002223,
+      "cross_score": 2.291513,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you've provided, you might be eligible for the study, but we need to confirm if your medical records include the required imaging.\",\n  \"supported_patient_facts\": [\"63-year-old postmenopausal woman\", \"osteoporosis\", \"past fragility fracture\"],\n  \"missing_patient_facts\": [\"required imaging results\"],\n  \"unresolved_study_requirements\": [\"confirmation of imaging availability in medical records\"],\n  \"reasoning_summary\": \"The patient meets key eligibility criteria such as being postmenopausal, having osteoporosis, and a history of fragility fracture. However, the requirement for specific imaging results is unresolved and needs confirmation.\",\n  \"safety_note\": \"It's important to ensure that all study requirements are met before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you've provided, you might be eligible for the study, but we need to confirm if your medical records include the required imaging.",
+    "supported_patient_facts": [
+      "63-year-old postmenopausal woman",
+      "osteoporosis",
+      "past fragility fracture"
+    ],
+    "missing_patient_facts": [
+      "required imaging results"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of imaging availability in medical records"
+    ],
+    "reasoning_summary": "The patient meets key eligibility criteria such as being postmenopausal, having osteoporosis, and a history of fragility fracture. However, the requirement for specific imaging results is unresolved and needs confirmation.",
+    "safety_note": "It's important to ensure that all study requirements are met before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you've provided, you might be eligible for the study, but we need to confirm if your medical records include the required imaging.",
+  "missing_patient_facts": [
+    "required imaging results"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of imaging availability in medical records"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.632
+}

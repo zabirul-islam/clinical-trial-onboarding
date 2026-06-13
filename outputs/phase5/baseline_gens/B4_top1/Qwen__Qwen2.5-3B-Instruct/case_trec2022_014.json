@@ -1,0 +1,64 @@
+{
+  "case_id": "case_trec2022_014",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04326582",
+  "reference_trial": "NCT04326582",
+  "evidence_trials": [
+    "NCT04326582"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man comes to the emergency department with an acute onset of severe left toe pain. The toe is red and exhibits swelling. The patient is not febrile, and does not remember any recent trauma. Medical history is not significant except for the similar attacks and the diagnosis of gouty arthritis. His medication history includes Allopurinol to prevent gouty attacks. His father has the same medical condition. However, his older brother who is 41 years old is healthy with no history of gouty arthritis. Physical examination shows a swollen, tender first metatarsophalangeal joint. Aspiration of the joint showed high leukocyte count, negative Gram stain, and numerous needle-shaped crystals, which is compatible with gouty arthritis. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04326582 | section=detailed_description]\n- Although acute monoarthritis (as for instance septic arthritis) is usually considered to be a medical emergency, it is not often realized that patients with polyarthritis also need to be evaluated promptly to ensure timely management. Delays in diagnosis and/or treatment may result in significant morbidity, as for example in rheumatic fever and Kawasaki disease. It cannot be overemphasized enough that the most important clues to underlying etiology in a patient with polyarticular disease are found not in the investigations but in the clinical history and physical examination. Some investigations (e.g. radiographs of joints) are commonly done but may have little or no role in the initial assessment of the patient. Polyarticular joint disease has multi-factorial etiology. It may present acutely as in self limiting viral illnesses or it can be the beginning of a chronic sinister disease. The underlying etiological process can be infectious or post infectious, a rheumatological disease or a manifestation of systemic disease. The disease may evolve over days or sometimes weeks, thereby making the diagnosis difficult at the time of presentation. Viral infections (for e.g.",
+  "passages": [
+    {
+      "passage_id": "NCT04326582::detailed_description::2",
+      "doc_id": "NCT04326582",
+      "section": "detailed_description",
+      "passage_text": "- Although acute monoarthritis (as for instance septic arthritis) is usually considered to be a medical emergency, it is not often realized that patients with polyarthritis also need to be evaluated promptly to ensure timely management. Delays in diagnosis and/or treatment may result in significant morbidity, as for example in rheumatic fever and Kawasaki disease. It cannot be overemphasized enough that the most important clues to underlying etiology in a patient with polyarticular disease are found not in the investigations but in the clinical history and physical examination. Some investigations (e.g. radiographs of joints) are commonly done but may have little or no role in the initial assessment of the patient. Polyarticular joint disease has multi-factorial etiology. It may present acutely as in self limiting viral illnesses or it can be the beginning of a chronic sinister disease. The underlying etiological process can be infectious or post infectious, a rheumatological disease or a manifestation of systemic disease. The disease may evolve over days or sometimes weeks, thereby making the diagnosis difficult at the time of presentation. Viral infections (for e.g.",
+      "title": "Arthritis in Assiut University Children Hospital",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 310.38367939408977,
+      "cross_score": -5.7614417,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you seem to fit the description of a patient with gouty arthritis. However, we need more information to confirm your eligibility for this clinical trial.\",\n  \"supported_patient_facts\": [\"A 39-year-old man with a history of gouty arthritis\", \"Presented with acute onset of severe left toe pain, redness, and swelling\", \"Diagnosed with gouty arthritis based on joint aspiration showing needle-shaped crystals\"],\n  \"missing_patient_facts\": [\"Full medical history including family history of gout\", \"Current medications and their dosages\", \"Laboratory results such as blood tests and uric acid levels\"],\n  \"unresolved_study_requirements\": [\"Imaging requirements not specified in the provided information\", \"No mention of the patient's response to previous treatments or current status of gout\"],\n  \"reasoning_summary\": \"The patient has a clear history of gouty arthritis and presents with typical symptoms. However, we need additional details about the patient's full medical history, current medications, and laboratory results to make a definitive decision.\",\n  \"safety_note\": \"It is important to ensure that the patient is not experiencing complications from gout or other potential issues before enrolling them in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you seem to fit the description of a patient with gouty arthritis. However, we need more information to confirm your eligibility for this clinical trial.",
+    "supported_patient_facts": [
+      "A 39-year-old man with a history of gouty arthritis",
+      "Presented with acute onset of severe left toe pain, redness, and swelling",
+      "Diagnosed with gouty arthritis based on joint aspiration showing needle-shaped crystals"
+    ],
+    "missing_patient_facts": [
+      "Full medical history including family history of gout",
+      "Current medications and their dosages",
+      "Laboratory results such as blood tests and uric acid levels"
+    ],
+    "unresolved_study_requirements": [
+      "Imaging requirements not specified in the provided information",
+      "No mention of the patient's response to previous treatments or current status of gout"
+    ],
+    "reasoning_summary": "The patient has a clear history of gouty arthritis and presents with typical symptoms. However, we need additional details about the patient's full medical history, current medications, and laboratory results to make a definitive decision.",
+    "safety_note": "It is important to ensure that the patient is not experiencing complications from gout or other potential issues before enrolling them in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you seem to fit the description of a patient with gouty arthritis. However, we need more information to confirm your eligibility for this clinical trial.",
+  "missing_patient_facts": [
+    "Full medical history including family history of gout",
+    "Current medications and their dosages",
+    "Laboratory results such as blood tests and uric acid levels"
+  ],
+  "unresolved_study_requirements": [
+    "Imaging requirements not specified in the provided information",
+    "No mention of the patient's response to previous treatments or current status of gout"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.049
+}

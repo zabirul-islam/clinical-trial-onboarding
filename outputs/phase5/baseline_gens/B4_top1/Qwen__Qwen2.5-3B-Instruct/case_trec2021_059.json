@@ -1,0 +1,78 @@
+{
+  "case_id": "case_trec2021_059",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001909",
+  "selected_doc": "NCT01634113",
+  "reference_trial": "NCT01634113",
+  "evidence_trials": [
+    "NCT01634113"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough. According to his mother, he didn't respond to the usual corticosteroid inhaler. He was admitted to the emergency department with diagnosis of severe asthma exacerbation. He is a candidate for general corticosteroid therapy. Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted. His past medical history is non-significant. His family history is significant for asthma in his mother and his uncle. He used to be treated with combination of inhaled corticosteroids and Zafirlukast. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.\n\n[Passage 2 | doc=NCT01634113 | section=summary]\nThe primary objective of this trial is to evaluate the safety and efficacy of two doses of tiotropium inhalation solution delivered via the Respimat\u00ae inhaler once daily in the afternoon in patients (1 to 5 years old) with persistent asthma on top of inhaled corticosteroid (ICS) treatment.",
+  "passages": [
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 323.12420722430534,
+      "cross_score": -1.8302563,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01634113::summary::0",
+      "doc_id": "NCT01634113",
+      "section": "summary",
+      "passage_text": "The primary objective of this trial is to evaluate the safety and efficacy of two doses of tiotropium inhalation solution delivered via the Respimat\u00ae inhaler once daily in the afternoon in patients (1 to 5 years old) with persistent asthma on top of inhaled corticosteroid (ICS) treatment.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 323.12420722430534,
+      "cross_score": -3.9159503,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 15-year-old boy with asthma diagnosed a year ago.\",\n    \"He presented with shortness of breath, chest tightening, and cough.\",\n    \"His mother reported that he did not respond to the usual corticosteroid inhaler.\",\n    \"He was admitted to the emergency department with a diagnosis of severe asthma exacerbation.\",\n    \"Spirometry showed a FEV1 of 60% of the predicted value.\",\n    \"His past medical history is non-significant.\",\n    \"His family history includes asthma in his mother and his uncle.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient's current treatment regimen, including the type and dose of inhaled corticosteroid he is currently using.\",\n    \"Whether the patient has completed the required 4 weeks of inhaled corticosteroid treatment before Visit 1.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to confirm if the patient is capable of performing technically acceptable Pulmonary Function tests (PFTs).\",\n    \"We need to verify if the patient meets the age requirement of 1 to 5 years old.\"\n  ],\n  \"reasoning_summary\": \"The patient meets the age requirement and has a documented history of persistent asthma symptoms. However, we need more information about his current treatment and ability to perform PFTs to make a definitive decision.\",\n  \"safety_note\": \"Before enrolling, we will ensure that the patient's condition is stable and that he can safely participate in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.",
+    "supported_patient_facts": [
+      "The patient is a 15-year-old boy with asthma diagnosed a year ago.",
+      "He presented with shortness of breath, chest tightening, and cough.",
+      "His mother reported that he did not respond to the usual corticosteroid inhaler.",
+      "He was admitted to the emergency department with a diagnosis of severe asthma exacerbation.",
+      "Spirometry showed a FEV1 of 60% of the predicted value.",
+      "His past medical history is non-significant.",
+      "His family history includes asthma in his mother and his uncle."
+    ],
+    "missing_patient_facts": [
+      "The patient's current treatment regimen, including the type and dose of inhaled corticosteroid he is currently using.",
+      "Whether the patient has completed the required 4 weeks of inhaled corticosteroid treatment before Visit 1."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm if the patient is capable of performing technically acceptable Pulmonary Function tests (PFTs).",
+      "We need to verify if the patient meets the age requirement of 1 to 5 years old."
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has a documented history of persistent asthma symptoms. However, we need more information about his current treatment and ability to perform PFTs to make a definitive decision.",
+    "safety_note": "Before enrolling, we will ensure that the patient's condition is stable and that he can safely participate in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.",
+  "missing_patient_facts": [
+    "The patient's current treatment regimen, including the type and dose of inhaled corticosteroid he is currently using.",
+    "Whether the patient has completed the required 4 weeks of inhaled corticosteroid treatment before Visit 1."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm if the patient is capable of performing technically acceptable Pulmonary Function tests (PFTs).",
+    "We need to verify if the patient meets the age requirement of 1 to 5 years old."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.519
+}

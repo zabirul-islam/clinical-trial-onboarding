@@ -1,0 +1,89 @@
+{
+  "case_id": "case_trec2021_057",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00124033",
+  "selected_doc": "NCT04750044",
+  "reference_trial": "NCT04750044",
+  "evidence_trials": [
+    "NCT04750044"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting. The pain that started gradually yesterday is located in the epigastric and periumbilical regions, radiating to her back. She drinks alcohol frequently and does not smoke. She has no history of allergies and uses only multivitamins daily. Her family history is positive for hypertension (her mother). She lives with her husband and has 3 children. The abdomen is tender and soft. Her bowel sounds are normal. Her heart rate is 115/min and blood pressure 110/75 mmHg. The lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glucose level of 15. Her abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis. Her pregnancy test is negative and she is not breastfeeding. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04750044 | section=detailed_description]\nIn the delayed refeeding group, oral diet is started after confirmation of restoring of normal bowel sound, pain decreasing below VAS 2. The oral diet starts with SOW (Sips of water) and builds up sequentially in the order of clear liquid diet-soft diet, considering patient tolerability. 5. Interruption of refeeding In both early and delayed refeeding groups, the oral diet is stopped when the pain scale the patient complains after starting oral diet increases to VAS 5 points or more, or the patient refuses to eat due to abdominal pain or other reasons. The diet is restarted after the amylase/lipase level decreases below the upper normal limit, the patient's pain has disappeared, and the bowel movement is restored. 6. Dropout criteria 1. In the case of delayed diet group when symptoms persist for more than 96 hours and cannot start a diet 2. When fasting is necessary for other reason, such as an imaging test or endoscopy 3. When it is determined that a parenteral diet is necessary for reasons such as difficulty swallowing 4. When the researcher judged that the clinical trial cannot be continued 7.\n\n[Passage 2 | doc=NCT04750044 | section=summary]\nEndoscopic retrograde cholangio-pancreatography (ERCP) is the most commonly used technique for diagnosis and treatment in the treatment of bile duct diseases including bile duct cholelithiasis and malignant/benign biliary obstruction. In particular, ERCP is an essential procedure for the removal of bile duct gallstones and bile drainage in malignant/benign biliary obstruction patients. Among ERCP-related complications, especially \"post-ERCP pancreatitis (PEP)\", which occurs due to the anatomical structure of the pancreatic biliary system, statistically occurs in about 5-10% of patients who first received ERCP. It is known, and treatment for PEP is the same as treatment for general acute pancreatitis but is known to have a relatively worse prognosis. The basis of treatment for acute pancreatitis is a conservative treatment based on fasting and fluid treatment, and starting oral diet after abdominal pain and pancreatic enzyme levels (amylase/lipase) normalized. However, a recent study reported that early oral diet could improve the patient's prognosis. According to a systematic review of 11 randomized trial papers by Valerie et al., it was reported that the early diet had the effect of reducing hospital stay without increasing adverse events when comparing the prognosis of the early refeeding group and delayed refeeding group. This result is theoretically considered to be because the oral diet has the advantage of increasing intestinal permeability, gut motility and reducing the likelihood of pancreatic necrosis/ infection compared to the parenteral diet. As above, PEP has the same treatment method as general acute pancreatitis but is known to have a relatively worse prognosis. However, the effect of an early diet recently attempted in acute pancreatitis has not been reported in patients with PEP. Therefore, we investigate the effects of early and delayed diets on the prognosis of patients with PEP through a prospective multicenter study.\n\n[Passage 3 | doc=NCT04750044 | section=detailed_description]\n1. Selection of research subjects A total of 80 patients, who have occurred pancreatitis after ERCP, will be enrolled at Yonsei University Sinchon Severance Hospital, Seoul National University Hospital, Dongguk University Ilsan Hospital, Gachon University Gil Hospital, Gyeongsang National University Changwon Hospital, Kyungpook National University Hospital, Seoul St. Mary's Hospital, Korea University Ansan Hospital, Pusan National University Hospital. The purpose and contents of this clinical trial are informed in detail to the subject and consent is obtained. 2. Evaluation of eligibility Eligibility is determined based on the basic patient data including physical examination, vital signs, body measurements, medical history, concomitant drugs, laboratory tests, and other basic examinations made at the first visit. 3. Grouping and randomization After ERCP was performed, the study subjects who were judged to have PEP according to enroll criteria were divided into early and delayed refeeding groups using a random number table and assigned 1:1 to proceed with the study. 4. Timing of refeeding In the early refeeding group, oral diet is started 24 hours after PEP is confirmed.",
+  "passages": [
+    {
+      "passage_id": "NCT04750044::detailed_description::1",
+      "doc_id": "NCT04750044",
+      "section": "detailed_description",
+      "passage_text": "In the delayed refeeding group, oral diet is started after confirmation of restoring of normal bowel sound, pain decreasing below VAS 2. The oral diet starts with SOW (Sips of water) and builds up sequentially in the order of clear liquid diet-soft diet, considering patient tolerability. 5. Interruption of refeeding In both early and delayed refeeding groups, the oral diet is stopped when the pain scale the patient complains after starting oral diet increases to VAS 5 points or more, or the patient refuses to eat due to abdominal pain or other reasons. The diet is restarted after the amylase/lipase level decreases below the upper normal limit, the patient's pain has disappeared, and the bowel movement is restored. 6. Dropout criteria 1. In the case of delayed diet group when symptoms persist for more than 96 hours and cannot start a diet 2. When fasting is necessary for other reason, such as an imaging test or endoscopy 3. When it is determined that a parenteral diet is necessary for reasons such as difficulty swallowing 4. When the researcher judged that the clinical trial cannot be continued 7.",
+      "title": "Refeeding in Post-ERCP Pancreatitis",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 358.1160063816352,
+      "cross_score": -5.193762,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04750044::summary::0",
+      "doc_id": "NCT04750044",
+      "section": "summary",
+      "passage_text": "Endoscopic retrograde cholangio-pancreatography (ERCP) is the most commonly used technique for diagnosis and treatment in the treatment of bile duct diseases including bile duct cholelithiasis and malignant/benign biliary obstruction. In particular, ERCP is an essential procedure for the removal of bile duct gallstones and bile drainage in malignant/benign biliary obstruction patients. Among ERCP-related complications, especially \"post-ERCP pancreatitis (PEP)\", which occurs due to the anatomical structure of the pancreatic biliary system, statistically occurs in about 5-10% of patients who first received ERCP. It is known, and treatment for PEP is the same as treatment for general acute pancreatitis but is known to have a relatively worse prognosis. The basis of treatment for acute pancreatitis is a conservative treatment based on fasting and fluid treatment, and starting oral diet after abdominal pain and pancreatic enzyme levels (amylase/lipase) normalized. However, a recent study reported that early oral diet could improve the patient's prognosis. According to a systematic review of 11 randomized trial papers by Valerie et al., it was reported that the early diet had the effect of reducing hospital stay without increasing adverse events when comparing the prognosis of the early refeeding group and delayed refeeding group. This result is theoretically considered to be because the oral diet has the advantage of increasing intestinal permeability, gut motility and reducing the likelihood of pancreatic necrosis/ infection compared to the parenteral diet. As above, PEP has the same treatment method as general acute pancreatitis but is known to have a relatively worse prognosis. However, the effect of an early diet recently attempted in acute pancreatitis has not been reported in patients with PEP. Therefore, we investigate the effects of early and delayed diets on the prognosis of patients with PEP through a prospective multicenter study.",
+      "title": "Refeeding in Post-ERCP Pancreatitis",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 358.1160063816352,
+      "cross_score": -6.3789053,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04750044::detailed_description::0",
+      "doc_id": "NCT04750044",
+      "section": "detailed_description",
+      "passage_text": "1. Selection of research subjects A total of 80 patients, who have occurred pancreatitis after ERCP, will be enrolled at Yonsei University Sinchon Severance Hospital, Seoul National University Hospital, Dongguk University Ilsan Hospital, Gachon University Gil Hospital, Gyeongsang National University Changwon Hospital, Kyungpook National University Hospital, Seoul St. Mary's Hospital, Korea University Ansan Hospital, Pusan National University Hospital. The purpose and contents of this clinical trial are informed in detail to the subject and consent is obtained. 2. Evaluation of eligibility Eligibility is determined based on the basic patient data including physical examination, vital signs, body measurements, medical history, concomitant drugs, laboratory tests, and other basic examinations made at the first visit. 3. Grouping and randomization After ERCP was performed, the study subjects who were judged to have PEP according to enroll criteria were divided into early and delayed refeeding groups using a random number table and assigned 1:1 to proceed with the study. 4. Timing of refeeding In the early refeeding group, oral diet is started 24 hours after PEP is confirmed.",
+      "title": "Refeeding in Post-ERCP Pancreatitis",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 358.1160063816352,
+      "cross_score": -7.021246,
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.\",\n  \"supported_patient_facts\": [\"Acute edematous interstitial pancreatitis with gall stone pancreatitis\", \"No history of allergies\", \"Not breastfeeding\", \"Negative pregnancy test\"],\n  \"missing_patient_facts\": [\"Confirmation of normal bowel sound\", \"Pancreatic enzyme levels (amylase/lipase) status\", \"Pain scale VAS score\"],\n  \"unresolved_study_requirements\": [\"Whether the patient meets the criteria for PEP\", \"Whether the patient can be randomized into the early or delayed refeeding group\"],\n  \"reasoning_summary\": \"The patient has acute pancreatitis with gallstone involvement, which aligns with the inclusion criteria. However, key factors such as bowel sound normalization, pancreatic enzyme levels, and pain scale VAS score are not provided. Additionally, the patient's status regarding PEP and randomization into the study groups are unresolved.\",\n  \"safety_note\": \"Given the patient's condition, safety should be closely monitored during the onboarding process.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+    "supported_patient_facts": [
+      "Acute edematous interstitial pancreatitis with gall stone pancreatitis",
+      "No history of allergies",
+      "Not breastfeeding",
+      "Negative pregnancy test"
+    ],
+    "missing_patient_facts": [
+      "Confirmation of normal bowel sound",
+      "Pancreatic enzyme levels (amylase/lipase) status",
+      "Pain scale VAS score"
+    ],
+    "unresolved_study_requirements": [
+      "Whether the patient meets the criteria for PEP",
+      "Whether the patient can be randomized into the early or delayed refeeding group"
+    ],
+    "reasoning_summary": "The patient has acute pancreatitis with gallstone involvement, which aligns with the inclusion criteria. However, key factors such as bowel sound normalization, pancreatic enzyme levels, and pain scale VAS score are not provided. Additionally, the patient's status regarding PEP and randomization into the study groups are unresolved.",
+    "safety_note": "Given the patient's condition, safety should be closely monitored during the onboarding process."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+  "missing_patient_facts": [
+    "Confirmation of normal bowel sound",
+    "Pancreatic enzyme levels (amylase/lipase) status",
+    "Pain scale VAS score"
+  ],
+  "unresolved_study_requirements": [
+    "Whether the patient meets the criteria for PEP",
+    "Whether the patient can be randomized into the early or delayed refeeding group"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.379
+}

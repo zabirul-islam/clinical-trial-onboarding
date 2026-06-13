@@ -1,0 +1,139 @@
+{
+  "case_id": "case_04",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00800644",
+  "reference_trial": "NCT00800644",
+  "evidence_trials": [
+    "NCT00005901",
+    "NCT00800644",
+    "NCT02432625",
+    "NCT02743559",
+    "NCT04215315"
+  ],
+  "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+  "evidence": "[Passage 1 | doc=NCT00800644 | section=detailed_description]\n- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.\n\n[Passage 2 | doc=NCT02743559 | section=summary]\nFractures in children are common and the incidence is increasing. They are more common in children who have small, narrow and weak bones. Studies have shown that fractures in early childhood are associated with later bone strength. There are several (i) non-modifiable (age, gender, race, genetics) and (ii) modifiable factors such as nutrition (vitamin D & calcium intake) and exercise that can contribute to bone strength. Low calcium is associated with an increased risk of fracture. Vitamin D plays a pivotal role in bone health by increasing the absorption of calcium from the gut. Investigators know from the previous research that there is a reduction in bone strength in children whose mothers had lower vitamin D levels during pregnancy. Bone growth can also be achieved by loading of bone during childhood in the form of regular sport activities such as gymnastics and exercise programmes. Equally it can be achieved by using whole body vibration (WBV). WBV is the application of vibratory stimulus to the body in a synchronous fashion by which the bones are made much stronger reducing the risk of fracture in later life. Thus WBV can be used as a means to assess bone responsiveness to mechanical stimulation. Studies have shown that standing on a vibrating platform for 10 minutes a day can significantly increase the bone mass. Investigators' own research has also shown that healthy boys when made to stand on a vibration platform for 10 minutes daily for 5 days increased the strength and quality of their bones. Thus the role of diet and mechanical loading are of considerable interest in determining their role in bone health and the prevention of fractures. Maternal Vitamin D Osteoporosis Study (MAVIDOS) is a large study conducted recently at 3 different big centres (Sheffield, Southampton and Oxford). Results from this study have shown that giving a higher dose of vitamin D to pregnant women every day from 14 weeks of pregnancy increased the strength of the bones in their infants. In the proposed study Investigators aim to show how vitamin D supplementation during pregnancy affects the response of bone to vibration in children whose mothers participated in the MAVIDOS study in Sheffield. These children will be 4 years of age when they participate in this study. The results of this study will help inform public health policy on vitamin D intake during pregnancy. This will also help the investigators identify a possible risk factor for poor bone health in children.\n\n[Passage 3 | doc=NCT04215315 | section=summary]\nChildren who are born early (pre-term infants) are at increased risk of fractures until the age of 2 years, due to their weak bones caused by several physiological, and environmental factors.There is however little information about the persistence of this increased risk of fractures in childhood. There is also lack of detail in the medical literature about the gestational age at birth of children presenting to hospitals with fractures, the nature of their fractures and the differences in fracture features, if any, between the preterm and term (infants born at 37 weeks and above) children. This information would be especially useful for doctors when deciding if a fracture with no other obvious explanation in a preterm child is caused by an accidental or inflicted injury. This dilemma is complicated by reports that preterm children are more likely to be subjected to abuse as compared to term children. Furthermore, infants less than a year old are more likely to be abused, and this coincides with the time when preterm infants are most vulnerable. Hence it is important to collect information about the physical examination, chemical substances in their blood and x-ray features of fractures in preterm children. Also important to study is whether there are differences in how accidental and inflicted fractures present in term and preterm children, as certain findings in term children might not apply in the context of prematurity. Determining if preterm birth is a major cause for childhood fractures is also especially relevant to the medico legal profession. When there is a suspected inflicted fracture in an ex-preterm child, the outcome could depend on whether prematurity is an adequate explanation for fractures. We would like to collect, study and present detailed information on the differences in causes and patterns of accidental and inflicted fractures in both preterm and term children. This could lend support to medical opinions offered in medico legal proceedings in which child abuse is alleged in preterm infants.\n\n[Passage 4 | doc=NCT00800644 | section=detailed_description]\nIf you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).\n\n[Passage 5 | doc=NCT02432625 | section=detailed_description]\nThe purpose of this natural history study is to perform a long-term follow-up of a large group of people with osteogenesis imperfecta (OI). We will collect information including: - medical history - number of broken bones, - surgeries done - medications taken, - ability to walk, - pain - lung function and breathing - hearing - bone mineral density The overall goal is to improve the health and quality of life of people with OI. There will be a total of 1000 people with OI in this study. We will ask you to come in every year for five years and we will do the following tests or ask you about your: Birth History and past surgical history, Current medical history, Scoliosis evaluation, Walking ability Questionnaire, Dental Quality of Life Questionnaire, Scoliosis and fractures Quality of Life Questionnaires, Physical development evaluation, Medications you are using We will perform a physical exam, a dental exam, assess how well your lungs are working, perform a hearing test, measure your ability to walk and get around, assess your strength and if you are able to do certain things for yourself, perform a Walk Test.\n\n[Passage 6 | doc=NCT00005901 | section=summary]\nThis study will evaluate the effect of pamidronate a drug that decreases bone resorption (breakdown) on osteogenesis imperfecta. This is a genetic disorder of collagen, the major protein in bone. The abnormal collagen causes weak bones, and children with severe osteogenesis imperfecta sustain many fractures throughout their lives. They also have growth deficiency, curvature of the spine, crumbling teeth, hearing loss, easy bruising and heart and lung problems. The study will compare bone density, quality and strength, final adult height, trunk height, and functional ability in children who receive 1) pamidronate every 3 months, 2) pamidronate every 3 months + growth hormone injections, 3) pamidronate every 6 months, or 4) pamidronate every 6 months + growth hormone injections. Children 2 years of age and older with severe osteogenesis imperfecta (types III and IV) may be eligible for this study. Those enrolled will be randomly assigned to groups according to age; children two to four years of age will be randomly assigned to receive pamidronate every 3 or every 6 months. Children four years of age and older may participate in the growth hormone treatment groups. These children will continue on growth hormone until they reach their adult height or fail to grow as much as would be expected for someone on growth hormone. Patients will be followed in the clinic every 3 months for a history, physical examination, X-rays, blood tests, and measurements (weight, head circumference, and bone lengths). Children will receive a 3 to 4 hour infusion of pamidronate through an intravenous catheter (thin flexible tube placed in a vein) once a day for 3 days each visit. (Once inserted, the catheter is left in place to avoid multiple needle sticks for administering the drug and collecting blood samples.) Children who are taking growth hormone will be given the drug at the first treatment visit. At that time, the accompanying parent will be instructed on how to mix the drug and give injections. The child receives an injection 6 days a week (Sunday off).",
+  "passages": [
+    {
+      "passage_id": "NCT00800644::detailed_description::1",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.65017606094012,
+      "cross_score": -2.487113,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02743559::summary::0",
+      "doc_id": "NCT02743559",
+      "section": "summary",
+      "passage_text": "Fractures in children are common and the incidence is increasing. They are more common in children who have small, narrow and weak bones. Studies have shown that fractures in early childhood are associated with later bone strength. There are several (i) non-modifiable (age, gender, race, genetics) and (ii) modifiable factors such as nutrition (vitamin D & calcium intake) and exercise that can contribute to bone strength. Low calcium is associated with an increased risk of fracture. Vitamin D plays a pivotal role in bone health by increasing the absorption of calcium from the gut. Investigators know from the previous research that there is a reduction in bone strength in children whose mothers had lower vitamin D levels during pregnancy. Bone growth can also be achieved by loading of bone during childhood in the form of regular sport activities such as gymnastics and exercise programmes. Equally it can be achieved by using whole body vibration (WBV). WBV is the application of vibratory stimulus to the body in a synchronous fashion by which the bones are made much stronger reducing the risk of fracture in later life. Thus WBV can be used as a means to assess bone responsiveness to mechanical stimulation. Studies have shown that standing on a vibrating platform for 10 minutes a day can significantly increase the bone mass. Investigators' own research has also shown that healthy boys when made to stand on a vibration platform for 10 minutes daily for 5 days increased the strength and quality of their bones. Thus the role of diet and mechanical loading are of considerable interest in determining their role in bone health and the prevention of fractures. Maternal Vitamin D Osteoporosis Study (MAVIDOS) is a large study conducted recently at 3 different big centres (Sheffield, Southampton and Oxford). Results from this study have shown that giving a higher dose of vitamin D to pregnant women every day from 14 weeks of pregnancy increased the strength of the bones in their infants. In the proposed study Investigators aim to show how vitamin D supplementation during pregnancy affects the response of bone to vibration in children whose mothers participated in the MAVIDOS study in Sheffield. These children will be 4 years of age when they participate in this study. The results of this study will help inform public health policy on vitamin D intake during pregnancy. This will also help the investigators identify a possible risk factor for poor bone health in children.",
+      "title": "Does Vitamin D Alter Bone's Response to Vibration?",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 46.71441828738203,
+      "cross_score": -2.5902226,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04215315::summary::0",
+      "doc_id": "NCT04215315",
+      "section": "summary",
+      "passage_text": "Children who are born early (pre-term infants) are at increased risk of fractures until the age of 2 years, due to their weak bones caused by several physiological, and environmental factors.There is however little information about the persistence of this increased risk of fractures in childhood. There is also lack of detail in the medical literature about the gestational age at birth of children presenting to hospitals with fractures, the nature of their fractures and the differences in fracture features, if any, between the preterm and term (infants born at 37 weeks and above) children. This information would be especially useful for doctors when deciding if a fracture with no other obvious explanation in a preterm child is caused by an accidental or inflicted injury. This dilemma is complicated by reports that preterm children are more likely to be subjected to abuse as compared to term children. Furthermore, infants less than a year old are more likely to be abused, and this coincides with the time when preterm infants are most vulnerable. Hence it is important to collect information about the physical examination, chemical substances in their blood and x-ray features of fractures in preterm children. Also important to study is whether there are differences in how accidental and inflicted fractures present in term and preterm children, as certain findings in term children might not apply in the context of prematurity. Determining if preterm birth is a major cause for childhood fractures is also especially relevant to the medico legal profession. When there is a suspected inflicted fracture in an ex-preterm child, the outcome could depend on whether prematurity is an adequate explanation for fractures. We would like to collect, study and present detailed information on the differences in causes and patterns of accidental and inflicted fractures in both preterm and term children. This could lend support to medical opinions offered in medico legal proceedings in which child abuse is alleged in preterm infants.",
+      "title": "Fracture In Preterm Infants Study (FIPIN Study)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 44.08975268523075,
+      "cross_score": -3.756996,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00800644::detailed_description::0",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.65017606094012,
+      "cross_score": -4.215286,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02432625::detailed_description::0",
+      "doc_id": "NCT02432625",
+      "section": "detailed_description",
+      "passage_text": "The purpose of this natural history study is to perform a long-term follow-up of a large group of people with osteogenesis imperfecta (OI). We will collect information including: - medical history - number of broken bones, - surgeries done - medications taken, - ability to walk, - pain - lung function and breathing - hearing - bone mineral density The overall goal is to improve the health and quality of life of people with OI. There will be a total of 1000 people with OI in this study. We will ask you to come in every year for five years and we will do the following tests or ask you about your: Birth History and past surgical history, Current medical history, Scoliosis evaluation, Walking ability Questionnaire, Dental Quality of Life Questionnaire, Scoliosis and fractures Quality of Life Questionnaires, Physical development evaluation, Medications you are using We will perform a physical exam, a dental exam, assess how well your lungs are working, perform a hearing test, measure your ability to walk and get around, assess your strength and if you are able to do certain things for yourself, perform a Walk Test.",
+      "title": "BBD Longitudinal Study of Osteogenesis Imperfecta",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 41.45270736464417,
+      "cross_score": -4.845214,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00005901::summary::0",
+      "doc_id": "NCT00005901",
+      "section": "summary",
+      "passage_text": "This study will evaluate the effect of pamidronate a drug that decreases bone resorption (breakdown) on osteogenesis imperfecta. This is a genetic disorder of collagen, the major protein in bone. The abnormal collagen causes weak bones, and children with severe osteogenesis imperfecta sustain many fractures throughout their lives. They also have growth deficiency, curvature of the spine, crumbling teeth, hearing loss, easy bruising and heart and lung problems. The study will compare bone density, quality and strength, final adult height, trunk height, and functional ability in children who receive 1) pamidronate every 3 months, 2) pamidronate every 3 months + growth hormone injections, 3) pamidronate every 6 months, or 4) pamidronate every 6 months + growth hormone injections. Children 2 years of age and older with severe osteogenesis imperfecta (types III and IV) may be eligible for this study. Those enrolled will be randomly assigned to groups according to age; children two to four years of age will be randomly assigned to receive pamidronate every 3 or every 6 months. Children four years of age and older may participate in the growth hormone treatment groups. These children will continue on growth hormone until they reach their adult height or fail to grow as much as would be expected for someone on growth hormone. Patients will be followed in the clinic every 3 months for a history, physical examination, X-rays, blood tests, and measurements (weight, head circumference, and bone lengths). Children will receive a 3 to 4 hour infusion of pamidronate through an intravenous catheter (thin flexible tube placed in a vein) once a day for 3 days each visit. (Once inserted, the catheter is left in place to avoid multiple needle sticks for administering the drug and collecting blood samples.) Children who are taking growth hormone will be given the drug at the first treatment visit. At that time, the accompanying parent will be instructed on how to mix the drug and give injections. The child receives an injection 6 days a week (Sunday off).",
+      "title": "Pamidronate to Treat Osteogenesis Imperfecta in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 43.52811687889201,
+      "cross_score": -4.8699756,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your history of fractures and weak bones may be relevant to this study, but we need more information to determine if you are eligible.\",\n  \"supported_patient_facts\": [\"had fractures in the past\", \"weak bones mentioned by doctor\"],\n  \"missing_patient_facts\": [\"current bone mineral density\", \"specific type of osteogenesis imperfecta (if applicable)\", \"other medical conditions affecting bone health\"],\n  \"unresolved_study_requirements\": [\"bone mineral density test results\", \"MRI or CT scan of the pelvis\", \"blood tests for bone turnover and vitamin D levels\"],\n  \"reasoning_summary\": \"The patient has a history of fractures and weak bones, which aligns with the study's interest in bone health. However, the specific details required for eligibility, such as current bone mineral density, type of osteogenesis imperfecta (if applicable), and other medical conditions, are not clearly stated in the retrieved evidence. Additionally, the patient needs to undergo further testing as per the study requirements.\",\n  \"safety_note\": \"The patient should consult with their healthcare provider to discuss the potential risks and benefits of participating in the study.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"4\", \"6\"],\n    \"reasoning_summary\": [\"4\", \"6\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "had fractures in the past",
+      "weak bones mentioned by doctor"
+    ],
+    "missing_patient_facts": [
+      "current bone mineral density",
+      "specific type of osteogenesis imperfecta (if applicable)",
+      "other medical conditions affecting bone health"
+    ],
+    "unresolved_study_requirements": [
+      "bone mineral density test results",
+      "MRI or CT scan of the pelvis",
+      "blood tests for bone turnover and vitamin D levels"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "The patient should consult with their healthcare provider to discuss the potential risks and benefits of participating in the study.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "4",
+        "6"
+      ],
+      "reasoning_summary": [
+        "4",
+        "6"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "current bone mineral density",
+    "specific type of osteogenesis imperfecta (if applicable)",
+    "other medical conditions affecting bone health"
+  ],
+  "unresolved_study_requirements": [
+    "bone mineral density test results",
+    "MRI or CT scan of the pelvis",
+    "blood tests for bone turnover and vitamin D levels"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 22.656
+}

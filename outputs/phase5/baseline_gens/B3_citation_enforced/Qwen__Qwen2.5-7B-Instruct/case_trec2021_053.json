@@ -1,0 +1,148 @@
+{
+  "case_id": "case_trec2021_053",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00395538",
+  "selected_doc": "NCT02802449",
+  "reference_trial": "NCT02802449",
+  "evidence_trials": [
+    "NCT02802449",
+    "NCT03158805",
+    "NCT03261336",
+    "NCT03336203",
+    "NCT03976687"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: Patient is a 34-year-old woman from Jordan who comes to clinic with some general and non-specific bones and joints pain. She is married and has 3 children. Her past medical and drug history are unremarkable. Her BMI is 23, BP: 120/75, HR: 75/min. Her laboratory study is remarkable for Vit D: 14ng/ml and otherwise healthy. (Ca: 9.2mg/dl, Phosphorus: 3.2mg/dl, PTH: 28pg/ml) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02802449 | section=detailed_description]\nWritten informed consent from the subject or their legally authorized representative would have been obtained prior to any study-related procedures being performed. In addition to signing the general informed consent, subjects who agree to participate the sub-study with fat biopsy will sign a second informed consent. The subject will be assigned a screening number and will be contacted regarding eligibility once all screening procedures have been performed and laboratory results received. The following evaluations and assessments will be performed during Screening: inclusion/exclusion criteria, medical history (including demographics and concomitant medications, including prescription, herbal/vitamins, and all over-the-counter medications), vital signs (sitting BP, heart rate), and a mini physical examination (which will include height (cm), weight (kg), and waist circumference (cm) from which body mass index (BMI) will be calculated and a clinical heart/lung examination. Blood will be drawn (15 cc) for full biochemistry panel with glucose (mg/dl), complete blood count, HbA1c (%), calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), pregnancy test and 25(OH)D (ng/ml) levels.\n\n[Passage 2 | doc=NCT03336203 | section=detailed_description]\nD.Ivanov) Subcontract (Liman National Medical University) Subcontract (SSA \"Scientific and Practical Centre of Clinical and Preventive medicine\") Subcontract (Feofaniya Clinical Hospital) Recruitment/sampling method; sample size calculation (based on WHO recommendations Participant selection Investigators are inviting the adults with high level of uric acid in blood with or without gout and chronic kidney disease who attend mentioned clinics to participate in the research. No new medicine will be used. Voluntary Participation Participation in this research is entirely voluntary. Each patient may change his/her mind later and stop participating even if he/she agreed earlier. Information on the Trial Drug: allopurinol 300 mg and febuxostat 80-120 mg These drugs were officially approved in Ukraine for usage in eligibility clinical situation. They had been tested before with people who have elevated uric acid level not successfully controlled by diet. They could be used in patients with gout and CKD. So this research is not the \"phase of trial\". Patient could buy this medicine officially in pharmacy for his personal usage according to doctor's prescription.\n\n[Passage 3 | doc=NCT03976687 | section=detailed_description]\nThe maximum total engagement duration for eligible participants in this study is up to 76 days: 60 days screening, 1-day admission visit and 8 days dosing period (in-patient in clinical trial unit) and 7 days follow-up. The participants who are eligible for enrolment will be admitted to the Clinical Trial Unit on Day 1. The participants will receive EYP001a at the study site by trained personnel per the schedule of dosing for the study from Day 2 to Day 9 in fed/fasted state depending upon the study group. Participants will be discharged on the morning (8:00 AM) of Day 10 after collection of last PK and PD blood samples. Participants will return to the Clinical Trial Unit on Day 16 for the follow-up visit.\n\n[Passage 4 | doc=NCT03158805 | section=eligibility]\nInclusion Criteria: 1. Men and women, ages of 18-65 years, inclusive. 2. Participants will have a DSM-5 bipolar disorder that is clinically stable. 3. Participants will have received a stable major psychotropic drug regimen (except for minor dosage adjustments) for at least 3 months prior study entry. Major psychotropic drugs are antipsychotics, mood stabilizers, and antidepressants. Subjects may have had changes in adjunctive benzodiazepines and hypnotic agents. 4. Participants will be obese (defined as a BMI \u2265 30 mg/kg2) or overweight (defined as BMI \u2265 27 kg/m2) with at least one weight-related comorbidity, such as hypertension, type 2 diabetes, or dyslipidemia. 5 Participants in treatment for a weight-related comorbidity (hypertension, type 2 diabetes, and/or dyslipidemia) must be on a stable and allowed treatment regimen for that condition for at least 3 months prior to study enrollment. 6 Participants will be able to provide informed consent before any trial-related activities. Exclusion Criteria: 1. Women who are pregnant, lactating, or of childbearing potential who are not using adequate contraceptive measures.\n\n[Passage 5 | doc=NCT03261336 | section=eligibility]\nInclusion Criteria For inclusion in the trial, a patient must fulfill all of the following criteria: 1. Greater than or equal to 18 years of age. The effects of ketoconazole and high-dose calcitriol have not been studied adequately in patients <18 years of age and prostate cancer has not been described in children. 2. Histologically or cytologically confirmed adenocarcinoma consistent clinically with androgen Independent prostate cancer 3. Measurable disease with elevated PSA or evaluable disease (PSA elevation will constitute evaluable disease). 4. No cytotoxic chemotherapy for extensive disease prior to study entry will be allowed; given the recent data regarding the role of docetaxel + ADT in patients beginning ADT for advanced disease, such \"adjuvant chemotherapy will be allowed (no more than 6 cycles) retinoids, vitamin D analogues, PPAR agonists or antagonists, antiandrogens, progestational agents, estrogens, PC-SPES, LHRH analogues, vaccines, cytokines will not be considered \"cytotoxics.\" Patients who have previously received ketoconazole + glucocorticoids will NOT be eligible for this trial. 5.\n\n[Passage 6 | doc=NCT03261336 | section=eligibility]\nProgressive disease must have occurred on abiraterone within the prior 12 months and patient must not have received treatment with enzalutamide. Men of all ethnic groups are eligible for this trial. Efforts will be made to include minority groups and all representative ethnicities and races in the community. Exclusion Criteria Any of the following is a criterion for exclusion from the trial: 1. Known severe hypersensitivity to ketoconazole, calcitriol or any of the excipients of these products. 2. History of allergic reactions attributed to compounds of similar chemical or biologic composition to calcitriol, ketoconazole, or other agents used in study. 3. Evidence of any other significant clinical disorder or laboratory finding that makes it undesirable for the patient to participate in the trial. 4. History of kidney, ureteral, or bladder stones within the last 5 years 5. Heart failure or significant heart disease including significant arrhythmias, myocardial infarction within the last 3 months, unstable angina, documented ejection fraction <30%, or current digoxin therapy. 6. Thiazide therapy within 7 days from entering the study. 7.",
+  "passages": [
+    {
+      "passage_id": "NCT02802449::detailed_description::2",
+      "doc_id": "NCT02802449",
+      "section": "detailed_description",
+      "passage_text": "Written informed consent from the subject or their legally authorized representative would have been obtained prior to any study-related procedures being performed. In addition to signing the general informed consent, subjects who agree to participate the sub-study with fat biopsy will sign a second informed consent. The subject will be assigned a screening number and will be contacted regarding eligibility once all screening procedures have been performed and laboratory results received. The following evaluations and assessments will be performed during Screening: inclusion/exclusion criteria, medical history (including demographics and concomitant medications, including prescription, herbal/vitamins, and all over-the-counter medications), vital signs (sitting BP, heart rate), and a mini physical examination (which will include height (cm), weight (kg), and waist circumference (cm) from which body mass index (BMI) will be calculated and a clinical heart/lung examination. Blood will be drawn (15 cc) for full biochemistry panel with glucose (mg/dl), complete blood count, HbA1c (%), calcium (mg/dl), phosphorus (mg/dl), albumin (mg/dl), pregnancy test and 25(OH)D (ng/ml) levels.",
+      "title": "To Study the Nutri-Genomic Response of Vit-D Supplementation in African-Americans",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 168.39799760423017,
+      "cross_score": -5.0557356,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03336203::detailed_description::4",
+      "doc_id": "NCT03336203",
+      "section": "detailed_description",
+      "passage_text": "D.Ivanov) Subcontract (Liman National Medical University) Subcontract (SSA \"Scientific and Practical Centre of Clinical and Preventive medicine\") Subcontract (Feofaniya Clinical Hospital) Recruitment/sampling method; sample size calculation (based on WHO recommendations Participant selection Investigators are inviting the adults with high level of uric acid in blood with or without gout and chronic kidney disease who attend mentioned clinics to participate in the research. No new medicine will be used. Voluntary Participation Participation in this research is entirely voluntary. Each patient may change his/her mind later and stop participating even if he/she agreed earlier. Information on the Trial Drug: allopurinol 300 mg and febuxostat 80-120 mg These drugs were officially approved in Ukraine for usage in eligibility clinical situation. They had been tested before with people who have elevated uric acid level not successfully controlled by diet. They could be used in patients with gout and CKD. So this research is not the \"phase of trial\". Patient could buy this medicine officially in pharmacy for his personal usage according to doctor's prescription.",
+      "title": "The Impact of Urate-lowering Therapy on Kidney Function (IMPULsKF)",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 166.21221414101146,
+      "cross_score": -5.3045173,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03976687::detailed_description::1",
+      "doc_id": "NCT03976687",
+      "section": "detailed_description",
+      "passage_text": "The maximum total engagement duration for eligible participants in this study is up to 76 days: 60 days screening, 1-day admission visit and 8 days dosing period (in-patient in clinical trial unit) and 7 days follow-up. The participants who are eligible for enrolment will be admitted to the Clinical Trial Unit on Day 1. The participants will receive EYP001a at the study site by trained personnel per the schedule of dosing for the study from Day 2 to Day 9 in fed/fasted state depending upon the study group. Participants will be discharged on the morning (8:00 AM) of Day 10 after collection of last PK and PD blood samples. Participants will return to the Clinical Trial Unit on Day 16 for the follow-up visit.",
+      "title": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of EYP001a in Healthy Volunteers and Nonalcoholic Steatohepatitis Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 171.70423195027843,
+      "cross_score": -5.8434005,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03158805::eligibility::0",
+      "doc_id": "NCT03158805",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Men and women, ages of 18-65 years, inclusive. 2. Participants will have a DSM-5 bipolar disorder that is clinically stable. 3. Participants will have received a stable major psychotropic drug regimen (except for minor dosage adjustments) for at least 3 months prior study entry. Major psychotropic drugs are antipsychotics, mood stabilizers, and antidepressants. Subjects may have had changes in adjunctive benzodiazepines and hypnotic agents. 4. Participants will be obese (defined as a BMI \u2265 30 mg/kg2) or overweight (defined as BMI \u2265 27 kg/m2) with at least one weight-related comorbidity, such as hypertension, type 2 diabetes, or dyslipidemia. 5 Participants in treatment for a weight-related comorbidity (hypertension, type 2 diabetes, and/or dyslipidemia) must be on a stable and allowed treatment regimen for that condition for at least 3 months prior to study enrollment. 6 Participants will be able to provide informed consent before any trial-related activities. Exclusion Criteria: 1. Women who are pregnant, lactating, or of childbearing potential who are not using adequate contraceptive measures.",
+      "title": "Saxenda\u00ae in Obese or Overweight Patients With Stable Bipolar Disorder (Investigator Initiated)",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 163.9307772228058,
+      "cross_score": -5.940591,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03261336::eligibility::0",
+      "doc_id": "NCT03261336",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria For inclusion in the trial, a patient must fulfill all of the following criteria: 1. Greater than or equal to 18 years of age. The effects of ketoconazole and high-dose calcitriol have not been studied adequately in patients <18 years of age and prostate cancer has not been described in children. 2. Histologically or cytologically confirmed adenocarcinoma consistent clinically with androgen Independent prostate cancer 3. Measurable disease with elevated PSA or evaluable disease (PSA elevation will constitute evaluable disease). 4. No cytotoxic chemotherapy for extensive disease prior to study entry will be allowed; given the recent data regarding the role of docetaxel + ADT in patients beginning ADT for advanced disease, such \"adjuvant chemotherapy will be allowed (no more than 6 cycles) retinoids, vitamin D analogues, PPAR agonists or antagonists, antiandrogens, progestational agents, estrogens, PC-SPES, LHRH analogues, vaccines, cytokines will not be considered \"cytotoxics.\" Patients who have previously received ketoconazole + glucocorticoids will NOT be eligible for this trial. 5.",
+      "title": "Oral Calcitriol With Ketoconazole in CRPC",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 163.58929584568548,
+      "cross_score": -6.0326495,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03261336::eligibility::3",
+      "doc_id": "NCT03261336",
+      "section": "eligibility",
+      "passage_text": "Progressive disease must have occurred on abiraterone within the prior 12 months and patient must not have received treatment with enzalutamide. Men of all ethnic groups are eligible for this trial. Efforts will be made to include minority groups and all representative ethnicities and races in the community. Exclusion Criteria Any of the following is a criterion for exclusion from the trial: 1. Known severe hypersensitivity to ketoconazole, calcitriol or any of the excipients of these products. 2. History of allergic reactions attributed to compounds of similar chemical or biologic composition to calcitriol, ketoconazole, or other agents used in study. 3. Evidence of any other significant clinical disorder or laboratory finding that makes it undesirable for the patient to participate in the trial. 4. History of kidney, ureteral, or bladder stones within the last 5 years 5. Heart failure or significant heart disease including significant arrhythmias, myocardial infarction within the last 3 months, unstable angina, documented ejection fraction <30%, or current digoxin therapy. 6. Thiazide therapy within 7 days from entering the study. 7.",
+      "title": "Oral Calcitriol With Ketoconazole in CRPC",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 163.58929584568548,
+      "cross_score": -6.09412,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might be eligible for certain clinical trials, but there are some unresolved requirements and missing details that need to be clarified.\",\n  \"supported_patient_facts\": [\"BMI is 23 (normal range)\", \"BP: 120/75 (normal range)\", \"HR: 75/min (normal range)\", \"No significant medical history\", \"Vit D level is low (14 ng/ml)\"],\n  \"missing_patient_facts\": [\"Exact age (34 years old, but needs confirmation)\", \"Specific bone and joint pain details\", \"Whether the patient has any of the specified diseases or conditions for specific trials\"],\n  \"unresolved_study_requirements\": [\"Specific trial to which the patient is applying is not clear from the provided information\", \"Detailed medical history and concomitant medications need to be reviewed\"],\n  \"reasoning_summary\": \"The patient's age, blood pressure, heart rate, and BMI fall within normal ranges. There is no significant medical history reported, and the low Vitamin D level is noted. However, the exact trial to which the patient is applying is unclear, and detailed medical history and concomitant medications need to be reviewed to determine eligibility. Additionally, specific details about the bone and joint pain are required to assess eligibility for any relevant trials.\",\n  \"safety_note\": \"It is important to ensure that the patient does not have any contraindications or unresolved health issues before proceeding with any clinical trial.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"],\n    \"reasoning_summary\": [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "BMI is 23 (normal range)",
+      "BP: 120/75 (normal range)",
+      "HR: 75/min (normal range)",
+      "No significant medical history",
+      "Vit D level is low (14 ng/ml)"
+    ],
+    "missing_patient_facts": [
+      "Exact age (34 years old, but needs confirmation)",
+      "Specific bone and joint pain details",
+      "Whether the patient has any of the specified diseases or conditions for specific trials"
+    ],
+    "unresolved_study_requirements": [
+      "Specific trial to which the patient is applying is not clear from the provided information",
+      "Detailed medical history and concomitant medications need to be reviewed"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to ensure that the patient does not have any contraindications or unresolved health issues before proceeding with any clinical trial.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "reasoning_summary": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "Exact age (34 years old, but needs confirmation)",
+    "Specific bone and joint pain details",
+    "Whether the patient has any of the specified diseases or conditions for specific trials"
+  ],
+  "unresolved_study_requirements": [
+    "Specific trial to which the patient is applying is not clear from the provided information",
+    "Detailed medical history and concomitant medications need to be reviewed"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 29.878
+}

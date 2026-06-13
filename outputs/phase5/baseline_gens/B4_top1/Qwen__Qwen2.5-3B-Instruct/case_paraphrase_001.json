@@ -1,0 +1,63 @@
+{
+  "case_id": "case_paraphrase_001",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00413855",
+  "reference_trial": "NCT00413855",
+  "evidence_trials": [
+    "NCT00413855"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+  "passages": [
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 393.9121941123777,
+      "cross_score": -3.428862,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like you might be eligible for a clinical trial that focuses on treating right lower abdominal quadrant pain, especially if it's chronic or recurrent. However, we need more details to confirm your eligibility. For example, we need to know if you've had the pain for more than three months and if you've experienced continuous pain or at least one pain attack in the past month.\",\n  \"supported_patient_facts\": [\"The patient is a 31-year-old woman with right lower abdominal quadrant pain.\", \"She has experienced continuous pain or at least one pain attack in the past month.\", \"Computed Tomography of the abdomen with contrast shows a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene.\", \"She is a candidate for laparoscopic appendectomy under general anesthesia.\"],\n  \"missing_patient_facts\": [\"If she has had the pain for more than three months.\", \"If she has experienced continuous pain or at least one pain attack in the past month.\"],\n  \"unresolved_study_requirements\": [\"We need to know if she fits the age range (15-45 years old) specified in the inclusion criteria.\", \"We need to know if she has a history of chronic back pain, previous abdominal surgery, specific gastro-intestinal entities, or gynecological disease as per the exclusion criteria.\"],\n  \"reasoning_summary\": \"The patient meets some key criteria for the study, such as having right lower abdominal quadrant pain and a distended appendix. However, there are uncertainties regarding her age and whether she has any contraindications based on the exclusion criteria.\",\n  \"safety_note\": \"The patient\u2019s condition appears stable with no signs of infection or complications. However, further evaluation is needed to ensure she meets the study\u2019s eligibility criteria.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems like you might be eligible for a clinical trial that focuses on treating right lower abdominal quadrant pain, especially if it's chronic or recurrent. However, we need more details to confirm your eligibility. For example, we need to know if you've had the pain for more than three months and if you've experienced continuous pain or at least one pain attack in the past month.",
+    "supported_patient_facts": [
+      "The patient is a 31-year-old woman with right lower abdominal quadrant pain.",
+      "She has experienced continuous pain or at least one pain attack in the past month.",
+      "Computed Tomography of the abdomen with contrast shows a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene.",
+      "She is a candidate for laparoscopic appendectomy under general anesthesia."
+    ],
+    "missing_patient_facts": [
+      "If she has had the pain for more than three months.",
+      "If she has experienced continuous pain or at least one pain attack in the past month."
+    ],
+    "unresolved_study_requirements": [
+      "We need to know if she fits the age range (15-45 years old) specified in the inclusion criteria.",
+      "We need to know if she has a history of chronic back pain, previous abdominal surgery, specific gastro-intestinal entities, or gynecological disease as per the exclusion criteria."
+    ],
+    "reasoning_summary": "The patient meets some key criteria for the study, such as having right lower abdominal quadrant pain and a distended appendix. However, there are uncertainties regarding her age and whether she has any contraindications based on the exclusion criteria.",
+    "safety_note": "The patient\u2019s condition appears stable with no signs of infection or complications. However, further evaluation is needed to ensure she meets the study\u2019s eligibility criteria."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems like you might be eligible for a clinical trial that focuses on treating right lower abdominal quadrant pain, especially if it's chronic or recurrent. However, we need more details to confirm your eligibility. For example, we need to know if you've had the pain for more than three months and if you've experienced continuous pain or at least one pain attack in the past month.",
+  "missing_patient_facts": [
+    "If she has had the pain for more than three months.",
+    "If she has experienced continuous pain or at least one pain attack in the past month."
+  ],
+  "unresolved_study_requirements": [
+    "We need to know if she fits the age range (15-45 years old) specified in the inclusion criteria.",
+    "We need to know if she has a history of chronic back pain, previous abdominal surgery, specific gastro-intestinal entities, or gynecological disease as per the exclusion criteria."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.139
+}

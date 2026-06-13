@@ -1,0 +1,71 @@
+{
+  "case_id": "case_trec2022_026",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01847690",
+  "reference_trial": "NCT01847690",
+  "evidence_trials": [
+    "NCT01847690"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 33-year-old woman comes to clinic complaining of progressive fatigue, decreased appetite, and 11-lb weight loss in the past 2 months. She uses levothyroxine because of the previously diagnosed Hashimoto disease. She has no other medical conditions and does not use tobacco, alcohol, or illicit drugs. Physical examination shows a generalized increase in pigmentation of the skin. Measurement of serum cortisol before and after administration of exogenous adrenocorticotropic hormone (ACTH) shows no difference in the levels. Stable glucocorticoid replacement therapy starts for her with the diagnosis for primary adrenal insufficiency (Addison disease) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01847690 | section=summary]\nThe conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.",
+  "passages": [
+    {
+      "passage_id": "NCT01847690::summary::0",
+      "doc_id": "NCT01847690",
+      "section": "summary",
+      "passage_text": "The conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.",
+      "title": "Effect of Cortisol on Physical Exertion in Patients With Primary Adrenal Failure",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 244.22565203976504,
+      "cross_score": -5.657776,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm.\",\n  \"supported_patient_facts\": [\"33-year-old woman\", \"complains of progressive fatigue, decreased appetite, and 11-lb weight loss\", \"uses levothyroxine for Hashimoto disease\", \"no other medical conditions\", \"does not use tobacco, alcohol, or illicit drugs\", \"generalized skin pigmentation increase\", \"diagnosis of primary adrenal insufficiency (Addison disease)\", \"stable glucocorticoid replacement therapy started\"],\n  \"missing_patient_facts\": [\"physical activity level\", \"current stress levels\", \"history of previous adrenal issues\", \"response to current glucocorticoid therapy\"],\n  \"unresolved_study_requirements\": [\"effect of extra dose of cortisol on physical activity and hormone levels\", \"specific dosage and timing of hydrocortisone or cortisone acetate\"],\n  \"reasoning_summary\": \"The patient meets the general criteria for primary adrenal insufficiency and stable glucocorticoid therapy. However, we need more information about physical activity and stress levels to fully assess eligibility. The study aims to test the effect of an extra dose of cortisol, so we also need to know if the patient is currently taking such doses.\",\n  \"safety_note\": \"The patient should inform the research team about any ongoing health issues or medications, as safety is a priority.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm.",
+    "supported_patient_facts": [
+      "33-year-old woman",
+      "complains of progressive fatigue, decreased appetite, and 11-lb weight loss",
+      "uses levothyroxine for Hashimoto disease",
+      "no other medical conditions",
+      "does not use tobacco, alcohol, or illicit drugs",
+      "generalized skin pigmentation increase",
+      "diagnosis of primary adrenal insufficiency (Addison disease)",
+      "stable glucocorticoid replacement therapy started"
+    ],
+    "missing_patient_facts": [
+      "physical activity level",
+      "current stress levels",
+      "history of previous adrenal issues",
+      "response to current glucocorticoid therapy"
+    ],
+    "unresolved_study_requirements": [
+      "effect of extra dose of cortisol on physical activity and hormone levels",
+      "specific dosage and timing of hydrocortisone or cortisone acetate"
+    ],
+    "reasoning_summary": "The patient meets the general criteria for primary adrenal insufficiency and stable glucocorticoid therapy. However, we need more information about physical activity and stress levels to fully assess eligibility. The study aims to test the effect of an extra dose of cortisol, so we also need to know if the patient is currently taking such doses.",
+    "safety_note": "The patient should inform the research team about any ongoing health issues or medications, as safety is a priority."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, there are some details we need to confirm.",
+  "missing_patient_facts": [
+    "physical activity level",
+    "current stress levels",
+    "history of previous adrenal issues",
+    "response to current glucocorticoid therapy"
+  ],
+  "unresolved_study_requirements": [
+    "effect of extra dose of cortisol on physical activity and hormone levels",
+    "specific dosage and timing of hydrocortisone or cortisone acetate"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.547
+}

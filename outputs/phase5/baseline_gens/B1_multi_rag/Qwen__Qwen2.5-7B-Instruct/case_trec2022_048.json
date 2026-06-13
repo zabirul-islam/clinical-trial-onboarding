@@ -1,0 +1,149 @@
+{
+  "case_id": "case_trec2022_048",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03003533",
+  "reference_trial": "NCT03003533",
+  "evidence_trials": [
+    "NCT01571934",
+    "NCT02282410",
+    "NCT03003533",
+    "NCT03315455",
+    "NCT04102046"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the emergency due to bleeding after a tooth extraction. The bleeding has persisted for approximately 30 minutes despite constant direct pressure. He is a known case of Hemophilia type A treated with FVIII. Blood pressure is 95/60 mm Hg and pulse is 105/min. His weight is 70 Kg. Family history is positive for Hemophilia type A in his maternal uncle. He also has a lipoma on his left arm which he plans to remove surgically. His FVIII activity is 40%. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03003533 | section=eligibility]\nInclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th\n\n[Passage 2 | doc=NCT02282410 | section=detailed_description]\nHemophilia A is an X-linked recessive, congenital bleeding disorder caused by deficient or defective coagulation factor VIII (FVIII). The absence or severe reduction of FVIII leads to 'spontaneous' bleeding episodes (occurring primarily in joints, muscles, and less commonly, in soft tissues) and to excessive bleeding following trauma or injury. Estimations based on the WFH's annual global surveys indicate that the number of people with hemophilia in the world is approximately 400,000. [1] China accounts for a quarter of about 100,000. Currently, based on the successful pioneer work of Dr Nilsson and her colleagues in Sweden that started in the late 1950's, prophylaxis is recommend as the standard of care for boys with severe haemophilia by WHO and WFH. [2] The efficacy and safety of prophylaxis in preventing bleeds and arthropathy in patients with hemophilia has been confirmed in well-designed clinical studies.[3,4,5]To keep the factor level above 1%, the standard dosage for patients with severe hemophilia A is 20-40 Units /kg/infusion (average 30 Units /kg) [6] every other day or three times a week.\n\n[Passage 3 | doc=NCT03315455 | section=eligibility]\nParticipants with HIV infection who have CD4 >200 cells/mcL and meet all other criteria are eligible - Use of systemic immunomodulators at enrollment or planned use during the study, with the exception of anti-retroviral therapy - Concurrent disease, treatment, or abnormality in clinical laboratory tests that could interfere with the conduct of the study, may pose additional risk, or would, in the opinion of the investigator, preclude the participant's safe participation in and completion of the study - Planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study - Receipt of: Emicizumab in a prior investigational study; An investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration; A non-hemophilia-related investigational drug concurrently, within last 30 days or 5 half-lives, whichever is shorter - Pregnant or lactating, or intending to become pregnant during the study Exclusion Criteria for Arm D: - Inherited or acquired bleeding disorder other than hemophilia A - Ongoing (or plan to receive during the study) ITI therapy or prophylaxis treatment with FVIII - Previous (in\n\n[Passage 4 | doc=NCT04102046 | section=eligibility]\nInclusion Criteria: - congenital Hemophilia A and B patients more than 18 years old Exclusion Criteria: - All hemophilia patient less than 18 years old - Patients with other bleeding disorders - Patients with other comorbidities that can affect joint function as collagen disease - Patients on steroids or non-steroidal analgesics\n\n[Passage 5 | doc=NCT03315455 | section=eligibility]\nthe past 12 months) or current treatment for thromboembolic disease (with the exception of previous catheter-associated thrombosis for which anti-thrombotic treatment is not currently ongoing) or signs of thromboembolic disease - Other diseases that may increase risk of bleeding or thrombosis - History of clinically significant hypersensitivity associated with monoclonal antibody therapies or components of the emicizumab injection - Known infection with HIV, hepatitis B virus (HBV), or hepatitis C virus (HCV) - At high risk for thrombotic microangiopathy, in the investigator's judgment - Use of systemic immunomodulators at enrollment or planned use during the study - Planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study - Inability (or unwillingness by caregiver) to receive (allow receipt of) blood or blood products (or any standard-of-care treatment for a life-threatening condition) - Receipt of: Emicizumab in a prior investigational study; An investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration; A non-hemophilia-related investigational drug concurrently, wit\n\n[Passage 6 | doc=NCT01571934 | section=eligibility]\nInclusion Criteria: - Males with mild/moderate hemophilia A (fVIII activity 1-40%) - Planned surgical intervention which is anticipated to require 5 consecutive days of fVIII replacement therapy (These can be outpatient or inpatient treatment days.) - Weight >22.5 kg (To assure that volumes of blood to be drawn for study purposes are safe.) Exclusion Criteria: - Past history of an inhibitor (inhibitor titer >0.4 BU/ml) - HIV infection with CD4 count <400/ul - Currently receiving immunosuppressive medication(s) - Unable to tolerate quantity of blood to be drawn - Current or past diagnosis autoimmune disorder - Current or past diagnosis of immune deficiency disorder other than HIV",
+  "passages": [
+    {
+      "passage_id": "NCT03003533::eligibility::0",
+      "doc_id": "NCT03003533",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males age18 years or older - Confirmed diagnosis of hemophilia A as evidenced by their medical history with plasma FVIII activity levels \u2264 2% of normal - Have received >150 exposure days (EDs) to FVIII concentrates or cryoprecipitate - Have experienced >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal - Have no prior history of allergic reaction to any FVIII product - Have no measurable inhibitor against Factor VIII as assessed by the central laboratory and have no prior history of inhibitors to FVIII protein - Agree to use reliable barrier contraception Exclusion Criteria: - Evidence of active hepatitis B or C - Currently on antiviral therapy for hepatitis B or C - Have significant underlying liver disease - Have serological evidence* of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3 (* participants who are HIV+ and stable with CD4 count >200/mm3 and undetectable viral load are eligible to enroll) - Have detectable antibodies reactive with AAV-Spark200 capsid - Participated in a gene transfer trial within the last 52 weeks or in a clinical trial with an investigational product within th",
+      "title": "A Gene Transfer Study for Hemophilia A",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 230.31326401427123,
+      "cross_score": -4.5980816,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02282410::detailed_description::0",
+      "doc_id": "NCT02282410",
+      "section": "detailed_description",
+      "passage_text": "Hemophilia A is an X-linked recessive, congenital bleeding disorder caused by deficient or defective coagulation factor VIII (FVIII). The absence or severe reduction of FVIII leads to 'spontaneous' bleeding episodes (occurring primarily in joints, muscles, and less commonly, in soft tissues) and to excessive bleeding following trauma or injury. Estimations based on the WFH's annual global surveys indicate that the number of people with hemophilia in the world is approximately 400,000. [1] China accounts for a quarter of about 100,000. Currently, based on the successful pioneer work of Dr Nilsson and her colleagues in Sweden that started in the late 1950's, prophylaxis is recommend as the standard of care for boys with severe haemophilia by WHO and WFH. [2] The efficacy and safety of prophylaxis in preventing bleeds and arthropathy in patients with hemophilia has been confirmed in well-designed clinical studies.[3,4,5]To keep the factor level above 1%, the standard dosage for patients with severe hemophilia A is 20-40 Units /kg/infusion (average 30 Units /kg) [6] every other day or three times a week.",
+      "title": "Evaluate Efficacy and Safety of ADVATE in the Standard Prophylaxis Treatment of Severe or Moderately Severe Hemophilia A",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 231.9150929023602,
+      "cross_score": -5.3668733,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03315455::eligibility::2",
+      "doc_id": "NCT03315455",
+      "section": "eligibility",
+      "passage_text": "Participants with HIV infection who have CD4 >200 cells/mcL and meet all other criteria are eligible - Use of systemic immunomodulators at enrollment or planned use during the study, with the exception of anti-retroviral therapy - Concurrent disease, treatment, or abnormality in clinical laboratory tests that could interfere with the conduct of the study, may pose additional risk, or would, in the opinion of the investigator, preclude the participant's safe participation in and completion of the study - Planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study - Receipt of: Emicizumab in a prior investigational study; An investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration; A non-hemophilia-related investigational drug concurrently, within last 30 days or 5 half-lives, whichever is shorter - Pregnant or lactating, or intending to become pregnant during the study Exclusion Criteria for Arm D: - Inherited or acquired bleeding disorder other than hemophilia A - Ongoing (or plan to receive during the study) ITI therapy or prophylaxis treatment with FVIII - Previous (in",
+      "title": "Efficacy, Safety, and Pharmacokinetic Study of Prophylactic Emicizumab Versus No Prophylaxis in Hemophilia A Participants",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 231.6912382489863,
+      "cross_score": -5.652581,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04102046::eligibility::0",
+      "doc_id": "NCT04102046",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - congenital Hemophilia A and B patients more than 18 years old Exclusion Criteria: - All hemophilia patient less than 18 years old - Patients with other bleeding disorders - Patients with other comorbidities that can affect joint function as collagen disease - Patients on steroids or non-steroidal analgesics",
+      "title": "Quality of Life in Hemophilia by Clinical Scoring System (FISH)Score",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 249.08244365173388,
+      "cross_score": -5.7512503,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03315455::eligibility::3",
+      "doc_id": "NCT03315455",
+      "section": "eligibility",
+      "passage_text": "the past 12 months) or current treatment for thromboembolic disease (with the exception of previous catheter-associated thrombosis for which anti-thrombotic treatment is not currently ongoing) or signs of thromboembolic disease - Other diseases that may increase risk of bleeding or thrombosis - History of clinically significant hypersensitivity associated with monoclonal antibody therapies or components of the emicizumab injection - Known infection with HIV, hepatitis B virus (HBV), or hepatitis C virus (HCV) - At high risk for thrombotic microangiopathy, in the investigator's judgment - Use of systemic immunomodulators at enrollment or planned use during the study - Planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study - Inability (or unwillingness by caregiver) to receive (allow receipt of) blood or blood products (or any standard-of-care treatment for a life-threatening condition) - Receipt of: Emicizumab in a prior investigational study; An investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration; A non-hemophilia-related investigational drug concurrently, wit",
+      "title": "Efficacy, Safety, and Pharmacokinetic Study of Prophylactic Emicizumab Versus No Prophylaxis in Hemophilia A Participants",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 231.6912382489863,
+      "cross_score": -5.877697,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01571934::eligibility::0",
+      "doc_id": "NCT01571934",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Males with mild/moderate hemophilia A (fVIII activity 1-40%) - Planned surgical intervention which is anticipated to require 5 consecutive days of fVIII replacement therapy (These can be outpatient or inpatient treatment days.) - Weight >22.5 kg (To assure that volumes of blood to be drawn for study purposes are safe.) Exclusion Criteria: - Past history of an inhibitor (inhibitor titer >0.4 BU/ml) - HIV infection with CD4 count <400/ul - Currently receiving immunosuppressive medication(s) - Unable to tolerate quantity of blood to be drawn - Current or past diagnosis autoimmune disorder - Current or past diagnosis of immune deficiency disorder other than HIV",
+      "title": "Inhibitor Development in Patients With Hemophilia A Undergoing Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 238.6502977096605,
+      "cross_score": -5.883194,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your eligibility for this clinical trial is uncertain and requires further evaluation.\",\n  \"supported_patient_facts\": [\"Males age 18 years or older\", \"Confirmed diagnosis of hemophilia A\", \"FVIII activity is 40%\", \"Family history positive for Hemophilia type A\"],\n  \"missing_patient_facts\": [\"History of >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal\", \"Prior history of allergic reaction to any FVIII product\", \"Prior history of inhibitors to FVIII protein\", \"Use of reliable barrier contraception\"],\n  \"unresolved_study_requirements\": [\"No active hepatitis B or C\", \"No significant underlying liver disease\", \"No serological evidence of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3\", \"No detectable antibodies reactive with AAV-Spark200 capsid\", \"No participation in a gene transfer trial within the last 52 weeks\", \"No participation in a clinical trial with an investigational product within the last 52 weeks\", \"No planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study\", \"No receipt of Emicizumab in a prior investigational study\", \"No receipt of an investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration\", \"No receipt of a non-hemophilia-related investigational drug concurrently, within last 30 days or 5 half-lives, whichever is shorter\", \"Not pregnant or lactating, or intending to become pregnant during the study\"],\n  \"reasoning_summary\": \"The patient meets the inclusion criteria for age and hemophilia diagnosis, but there is insufficient information regarding specific bleeding event history, allergies, inhibitors, and other potential exclusion criteria. Further details are required to determine eligibility.\",\n  \"safety_note\": \"Ensure the patient's current health status and any planned surgeries do not conflict with the study requirements.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your eligibility for this clinical trial is uncertain and requires further evaluation.",
+    "supported_patient_facts": [
+      "Males age 18 years or older",
+      "Confirmed diagnosis of hemophilia A",
+      "FVIII activity is 40%",
+      "Family history positive for Hemophilia type A"
+    ],
+    "missing_patient_facts": [
+      "History of >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal",
+      "Prior history of allergic reaction to any FVIII product",
+      "Prior history of inhibitors to FVIII protein",
+      "Use of reliable barrier contraception"
+    ],
+    "unresolved_study_requirements": [
+      "No active hepatitis B or C",
+      "No significant underlying liver disease",
+      "No serological evidence of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3",
+      "No detectable antibodies reactive with AAV-Spark200 capsid",
+      "No participation in a gene transfer trial within the last 52 weeks",
+      "No participation in a clinical trial with an investigational product within the last 52 weeks",
+      "No planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study",
+      "No receipt of Emicizumab in a prior investigational study",
+      "No receipt of an investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration",
+      "No receipt of a non-hemophilia-related investigational drug concurrently, within last 30 days or 5 half-lives, whichever is shorter",
+      "Not pregnant or lactating, or intending to become pregnant during the study"
+    ],
+    "reasoning_summary": "The patient meets the inclusion criteria for age and hemophilia diagnosis, but there is insufficient information regarding specific bleeding event history, allergies, inhibitors, and other potential exclusion criteria. Further details are required to determine eligibility.",
+    "safety_note": "Ensure the patient's current health status and any planned surgeries do not conflict with the study requirements."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your eligibility for this clinical trial is uncertain and requires further evaluation.",
+  "missing_patient_facts": [
+    "History of >10 bleeding events over the previous 12 months only if receiving on-demand therapy and having FVIII baseline level 1-2% of normal",
+    "Prior history of allergic reaction to any FVIII product",
+    "Prior history of inhibitors to FVIII protein",
+    "Use of reliable barrier contraception"
+  ],
+  "unresolved_study_requirements": [
+    "No active hepatitis B or C",
+    "No significant underlying liver disease",
+    "No serological evidence of HIV-1 or HIV-2 with CD4 counts \u2264200/mm3",
+    "No detectable antibodies reactive with AAV-Spark200 capsid",
+    "No participation in a gene transfer trial within the last 52 weeks",
+    "No participation in a clinical trial with an investigational product within the last 52 weeks",
+    "No planned surgery (excluding minor procedures such as tooth extraction or incision and drainage) during the study",
+    "No receipt of Emicizumab in a prior investigational study",
+    "No receipt of an investigational drug to treat or reduce the risk of hemophilic bleeds within 5 half-lives of last drug administration",
+    "No receipt of a non-hemophilia-related investigational drug concurrently, within last 30 days or 5 half-lives, whichever is shorter",
+    "Not pregnant or lactating, or intending to become pregnant during the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 34.838
+}

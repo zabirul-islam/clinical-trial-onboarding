@@ -1,0 +1,129 @@
+{
+  "case_id": "case_paraphrase_035",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2021",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04322422",
+  "reference_trial": "NCT04322422",
+  "evidence_trials": [
+    "NCT00452348",
+    "NCT00819676",
+    "NCT01634113",
+    "NCT03788057",
+    "NCT04322422"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 39-year-old man came to the clinic with cough and shortness of breath that was not relieved by his inhaler. He had these symptoms for 5 days during the past 2 weeks. He doubled his oral corticosteroids in the past week. He is a chef with a history of asthma for 3 years, suffering from frequent cough, wheezing, and shortness of breath and chest tightness. The symptoms become more bothersome within 1-2 hours of starting work every day and worsen throughout the work week. His symptoms improve within 1-2 hours outside the workplace. Spirometry was performed revealing a forced expiratory volume in the first second (FEV1) of 63% of the predicted. His past medical history is significant for seasonal allergic rhinitis in the summer. He doesn't smoke or use illicit drugs. His family history is significant for asthma in his father and sister. He currently uses inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily. Before I agree to anything, what is the study team going to confirm with me?",
+  "evidence": "[Passage 1 | doc=NCT04322422 | section=summary]\nAsthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.\n\n[Passage 2 | doc=NCT04322422 | section=eligibility]\nInclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.\n\n[Passage 3 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.\n\n[Passage 4 | doc=NCT03788057 | section=detailed_description]\nThe criteria for the stability of asthma in the run - in period are: - symptoms no more than 3 times a week - SABA use less than 3 times a week - without night wake up - PEFR variability below 20% - FEV1 above 80% of predicted Second period of the study - reduction of anti-inflammatory therapy. In participants with previously stable course of the asthma (confirmed in the run -in period), the control of asthma is monitored regularly throughout the observation period. All participants run an observation card (clinical symptoms) and PEFR measurements. Monthly spirometry, exhaled NO and exhaled breath temperature measurements are performed. Every 3 months and one month after the change of treatment (i.e in months 0, 1, 3, 4, 6 and 7), the hyperresponsiveness measurement is carried out with the sputum induction (combined method, [7]). Two months after the dose change (months 2, 5, 8) the exercise challenge test is carried out. Every 3 months control of the asthma symptoms is evaluated taking account the clinical data, and possible change of ICS dose is considered.\n\n[Passage 5 | doc=NCT00819676 | section=eligibility]\nInclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.\n\n[Passage 6 | doc=NCT00452348 | section=eligibility]\nAcceptable methods of contraception [Hatcher, 2004] are: - Abstinence - oral contraceptive (either combined or progestogen only) - injectable progestogen - implants of levonorgestrel - estrogenic vaginal ring - percutaneous contraceptive devices - intrauterine device (IUD) or intrauterine system (IUS) with published data showing that the lowest expected failure rate is less than 1% per year - male partner sterilization (vasectomy with documentation of azoospermia) prior to the female subject's entry into the study and is the sole sexual partner for that female subject - double barrier method: condom or occlusive cap (diaphragm or cervical/vault caps) plus spermicidal agent 1. Age: A subject must be 12 years of age at Visit 1 (screening). 2. Asthma Diagnosis: A documented diagnosis of persistent asthma, for at least six months, as defined by the following American Thoracic Society definition: Asthma is a clinical syndrome characterized by increased responsiveness of the airways to a variety of stimuli. The major symptoms of asthma are episodes of dyspnea, wheezing, and cough, which may vary from mild and almost undetectable to severe and unremitting (status asthmaticus).",
+  "passages": [
+    {
+      "passage_id": "NCT04322422::summary::0",
+      "doc_id": "NCT04322422",
+      "section": "summary",
+      "passage_text": "Asthma, abbreviation for bronchial asthma, is one of the common chronic airways disease that threatens human health. Typical symptoms of asthma are recurrent wheezing, shortness of breath, chest tightness and cough, usually occurring at night or early morning. However, there are still some patients with only persistent clinical manifestations of chest tightness. Concerned about this group of patients, investigators presented a subgroup of bronchial asthma, namely, chest tightness variant asthma (CTVA). This asthma subgroup usually lacks asthma-specific clinical features such as wheezing, shortness of breath, wheezing, and therefore often misdiagnosed for a long time. However, there is lack of definite treatment strategy for CTVA. In order to further understand the clinical characteristics and treatment of patients with CTVA, investigators conducted a national multicenter randomized control trial(RCT) study that compares inhaled corticosteroid(ICS)/ long-acting beta2-agonist(LABA) + Montelukast with ICS/LABA. Finally, investigators plan to clarify whether ICS/LABA plus Montelukast is more appropriate treatment than only ICS/LABA in CTVA patients.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 480.3994419547976,
+      "cross_score": -4.5453076,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04322422::eligibility::0",
+      "doc_id": "NCT04322422",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. all subjects agreed to participate, understand the project, observe the use of drugs, agree to follow-up, and signed informed consent; 2. the age of more than 14 and less 80 years old, gender and ethnicity are not limited; 3. the duration time was more than 6 months,and chest tightness was the only complaint, without breathing, short of breath, chronic cough; 4. no wheezing; 5. a diagnosis of asthma supported by one or more other characteristics: - bronchial provocation test positive; - improvement in forced expiratory volume at one second (FEV1) of more than 12% and 200 mL after inhaled salbutamol; - variability in diurnal peak expiratory flow (PEF) of more than 10% for one day during one week. 6. bronchodilator and glucocorticoid treatment is effective; 7. exclude the following diseases by the corresponding doctors: coronary heart disease, myocarditis, heart failure, gastroesophageal reflux disease(GERD), neuromuscular disease, and mental disease. Exclusion Criteria: 1. can not cooperate with related inspection or for other reasons; 2.",
+      "title": "Clinical Characteristics and Treatment of Chest Tightness Variant Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 480.3994419547976,
+      "cross_score": -4.787041,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 494.59504144886887,
+      "cross_score": -4.8462133,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03788057::detailed_description::2",
+      "doc_id": "NCT03788057",
+      "section": "detailed_description",
+      "passage_text": "The criteria for the stability of asthma in the run - in period are: - symptoms no more than 3 times a week - SABA use less than 3 times a week - without night wake up - PEFR variability below 20% - FEV1 above 80% of predicted Second period of the study - reduction of anti-inflammatory therapy. In participants with previously stable course of the asthma (confirmed in the run -in period), the control of asthma is monitored regularly throughout the observation period. All participants run an observation card (clinical symptoms) and PEFR measurements. Monthly spirometry, exhaled NO and exhaled breath temperature measurements are performed. Every 3 months and one month after the change of treatment (i.e in months 0, 1, 3, 4, 6 and 7), the hyperresponsiveness measurement is carried out with the sputum induction (combined method, [7]). Two months after the dose change (months 2, 5, 8) the exercise challenge test is carried out. Every 3 months control of the asthma symptoms is evaluated taking account the clinical data, and possible change of ICS dose is considered.",
+      "title": "Inflammatory Indices in Predicting the Failure of Inhaled Corticosteroids Reduction in Young Participants With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 492.52345073074025,
+      "cross_score": -5.2037506,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::0",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 486.6031329934197,
+      "cross_score": -5.4251165,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00452348::eligibility::1",
+      "doc_id": "NCT00452348",
+      "section": "eligibility",
+      "passage_text": "Acceptable methods of contraception [Hatcher, 2004] are: - Abstinence - oral contraceptive (either combined or progestogen only) - injectable progestogen - implants of levonorgestrel - estrogenic vaginal ring - percutaneous contraceptive devices - intrauterine device (IUD) or intrauterine system (IUS) with published data showing that the lowest expected failure rate is less than 1% per year - male partner sterilization (vasectomy with documentation of azoospermia) prior to the female subject's entry into the study and is the sole sexual partner for that female subject - double barrier method: condom or occlusive cap (diaphragm or cervical/vault caps) plus spermicidal agent 1. Age: A subject must be 12 years of age at Visit 1 (screening). 2. Asthma Diagnosis: A documented diagnosis of persistent asthma, for at least six months, as defined by the following American Thoracic Society definition: Asthma is a clinical syndrome characterized by increased responsiveness of the airways to a variety of stimuli. The major symptoms of asthma are episodes of dyspnea, wheezing, and cough, which may vary from mild and almost undetectable to severe and unremitting (status asthmaticus).",
+      "title": "A 12-Month Study Comparing Fluticasone Propionate/Salmeterol (ADVAIR) DISKUS Combination Product 250/50mcg Twice Daily To Fluticasone Propionate (FLOVENT) DISKUS 250 mcg Twice Daily In Symptomatic Patients With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 482.5130650356128,
+      "cross_score": -5.5244417,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Before agreeing to the clinical trial, the study team will confirm your eligibility based on the information you provided. They will check if you meet the inclusion criteria and ensure you do not have any exclusion criteria.\",\n  \"supported_patient_facts\": [\"you are a 39-year-old man\", \"you have a history of asthma for 3 years\", \"your symptoms include cough, wheezing, and shortness of breath\", \"your spirometry shows a forced expiratory volume in the first second (FEV1) of 63% of the predicted\", \"you are currently using inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily\", \"your symptoms are worse within 1-2 hours of starting work every day and improve within 1-2 hours outside the workplace\"],\n  \"missing_patient_facts\": [\"your current medical history regarding GERD, neuromuscular disease, and mental disease\", \"the results of bronchial provocation test, improvement in FEV1 after inhaled salbutamol, and variability in diurnal peak expiratory flow (PEF)\"],\n  \"unresolved_study_requirements\": [\"confirmation of your diagnosis of asthma\", \"exclusion of certain diseases by the corresponding doctors\"],\n  \"reasoning_summary\": \"The patient meets some of the inclusion criteria, particularly the age, asthma history, and spirometry results. However, the study team needs to verify if he has a diagnosis of asthma and if he does not have certain diseases that would disqualify him. Additionally, they will need to confirm if he is willing to undergo necessary inspections and follow the study protocol.\",\n  \"safety_note\": \"The safety note is not clearly stated in the retrieved evidence.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "you are a 39-year-old man",
+      "you have a history of asthma for 3 years",
+      "your symptoms include cough, wheezing, and shortness of breath",
+      "your spirometry shows a forced expiratory volume in the first second (FEV1) of 63% of the predicted",
+      "you are currently using inhaled corticosteroid (ICS) and fluticasone 500 mcg/salmeterol 50 mcg, one puff twice daily",
+      "your symptoms are worse within 1-2 hours of starting work every day and improve within 1-2 hours outside the workplace"
+    ],
+    "missing_patient_facts": [
+      "your current medical history regarding GERD, neuromuscular disease, and mental disease",
+      "the results of bronchial provocation test, improvement in FEV1 after inhaled salbutamol, and variability in diurnal peak expiratory flow (PEF)"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of your diagnosis of asthma",
+      "exclusion of certain diseases by the corresponding doctors"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "The safety note is not clearly stated in the retrieved evidence."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "your current medical history regarding GERD, neuromuscular disease, and mental disease",
+    "the results of bronchial provocation test, improvement in FEV1 after inhaled salbutamol, and variability in diurnal peak expiratory flow (PEF)"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of your diagnosis of asthma",
+    "exclusion of certain diseases by the corresponding doctors"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.633
+}

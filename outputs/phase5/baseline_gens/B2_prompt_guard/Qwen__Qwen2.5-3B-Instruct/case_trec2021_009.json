@@ -1,0 +1,143 @@
+{
+  "case_id": "case_trec2021_009",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00013845",
+  "selected_doc": "NCT02899611",
+  "reference_trial": "NCT02899611",
+  "evidence_trials": [
+    "NCT00040326",
+    "NCT00524134",
+    "NCT02866240",
+    "NCT02899611",
+    "NCT03946618",
+    "NCT04153175"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 41 year old man with history of severe intellectual disability, CHF, epilepsy presenting with facial twitching on the right and generalized shaking in at his NH which required 20 mg valium to cease seizure activity. Per outside medical patient was felt to have focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth, and probably related to the atrophic changes seen on MRI, particularly in the left temporal lobe. The patient first developed seizures at age 13 found by family to have a generalized convulsion. He had a second seizure two years after his first episode. He was maintained on Dilantin and phenobarbital. The patient went 20 years without another seizure. He was recently tapered off Dilantin, and it was felt that perhaps this medication was necessary to maintain him seizure free. The patient had no further events during the hospital course and was back at his baseline at the time of discharge. Full EEG reports are pending at the time of dictation. Past Medical History: Epilepsy as above, CHF, depression Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02899611 | section=eligibility]\nInclusion Criteria: 1. Subject is 18 to 65 years old. 2. Subject does not have coagulopathy, ventricular anatomic distortion or abnormally low brain weight or significant volume loss etc. and is approved to have surgery. 3. Subject had onset of epilepsy after age 5, had normal brain development up to age 5, and has full scale IQ > 70 by testing or functional assessment. 4. Subject has brain volume which is not noted to be abnormally small due to atrophy by either the radiologist reading on MRI scan or the treating clinicians (the neurosurgeon) review of the MRI scan. 5. Subject has had confirmed epilepsy for a minimum of 1 year, with diagnosis of focal seizures with temporal lobe onset, with or without secondarily generalized seizures, as defined by the International League Against Epilepsy (ILAE) Classification of Epileptic Seizures (1981). 6. In the opinion of the investigator, subject has disabling seizures. Disabling refers to seizures that are severe enough to cause injuries, or significantly impair functional ability in domains including employment, psychosocial education and mobility. 7. Subject has had a CT or MRI of the brain to rule out progressive structural lesions. 8.\n\n[Passage 2 | doc=NCT02866240 | section=eligibility]\nInclusion Criteria: - 9 years old or older - An established diagnosis of medically-refractory neocortical epilepsy (as determined by the referring clinician), with a clearly defined seizure focus. - Diagnosis of epilepsy with focal seizures with or without secondary generalization (International League Against Epilepsy classification). Diagnosis established by clinical history and an electroencephalogram consistent with localization-related epilepsy. - Continued seizures despite adequate dosage in trials of at least 2 or more antiepileptic medications within approximately the last 3 years. - At least one clearly identified and localizable epileptogenic zone from which 80% or more seizures arise, as defined by the referring clinician.\n\n[Passage 3 | doc=NCT04153175 | section=eligibility]\nInclusion/Exclusion Criteria: - For a subject to be eligible for this study, he or she must meet ALL of the following criteria: 1. Subject is male or female between the ages of 18 to 70 years old. 2. Subject is considered an appropriate surgical candidate by the implanting Neurosurgeon. 3. Subject has had confirmed refractory epilepsy for a minimum of 2 years, with unilateral or bilateral temporal lobe involvement with no more than 2 known extratemporal foci. 4. In the opinion of the Investigator, subject has disabling seizures. 5. Subject has had at least one seizure recorded by EEG or video EEG or invasive monitoring within the past 3 years consistent with focal temporal lobe seizures (a normal interictal EEG is consistent with focal seizures) 6. Subject has not achieved effective results previously from at least 3 AEDs in single or combination. An AED may be counted as failed medication if subject has been on it for at least 3-months and is still refractory. 7.\n\n[Passage 4 | doc=NCT00524134 | section=eligibility]\nInclusion Criteria: - probable or definite localization-related, primary generalized or symptomatic generalized epilepsy that is medically-refractory, as defined by treatment failure of at least 2 anti-epilepsy drugs at standard doses, despite medication compliance as determined by the treating neurologist - at least 3 seizures/month in the 3-month period prior to randomization. Seizures that will be considered include generalized tonic clonic, complex partial, myoclonic and absence seizures. Simple partial seizures must have an observable motor component or have been otherwise been documented by videoEEG to be a definite seizure. - Patients with prior epilepsy brain surgery or vagal nerve stimulator implantation will be allowed if medication and seizure frequency has been stable for the prior 3 months. - Ages between 10 and 75 years will be eligible for inclusion. Elderly patients without a history or symptoms of cardiovascular disease may be eligible on a case-by-case basis. No patients older than 75 will be included due to the possible cardiovascular side-effects.\n\n[Passage 5 | doc=NCT00040326 | section=eligibility]\nInclusion criteria: - Intractability: Two AEDs, one of which was either Dilantin, Tegretol, Carbatrol, or Trileptal used in appropriate doses, have failed due to inefficacy, not intolerance. - Frequency and Duration: Persistence of disabling seizures at 6 per year or greater for less than two years after onset, or after recurrence if initial treatment resulted in seizure freedom for 6 or more months. - Age: 12 years or older at baseline visit. - History: Simple and complex partial seizures, with or without secondarily generalized seizures beginning in childhood or later, with or without febrile convulsions earlier. - Absence of a history of serious cerebral insult after the age of 5; a progressive neurological disorder; mental retardation (I.Q. less than 70); psychogenic seizures; focal neurological deficits other than memory disturbances; unequivocal focal extratemporal EEG slowing or interictal spikes; or lesions on neuroimaging outside of the mesial temporal area. - Seizure semiology: Auras that occur in isolation and are not primary sensory other than olfactory or gustatory. Absence of initial focal motor movements other than automatisms or dystonic posturing.\n\n[Passage 6 | doc=NCT03946618 | section=eligibility]\nThis includes, but is not limited to, direct brain neurostimulators, spinal cord stimulators, vagus nerve stimulators (VNS), and cochlear implants. Patients with a vagus nerve stimulator implanted but turned off through the duration of the study may be enrolled, provided their clinical status has been stable for at least one month with VNS turned off. Alternatively, patients with a VNS may have the previously disabled VNS removed at time of surgery to implant the Medtronic RC+S. - Subject has been diagnosed with psychogenic or non-epileptic seizures. - Subject has been diagnosed with primary generalized seizures. - Subject has experienced unprovoked status epilepticus in the preceding year. - Subject has had therapeutic surgery to treat epilepsy that may interfere with electrode placement. - Subject is on anticoagulants and is unable to discontinue them peri-surgically, as required by the neurosurgeon or Investigator. - Subject has significant platelet dysfunction from medical conditions or medications (including, particularly, aspirin or sodium valproate).",
+  "passages": [
+    {
+      "passage_id": "NCT02899611::eligibility::0",
+      "doc_id": "NCT02899611",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Subject is 18 to 65 years old. 2. Subject does not have coagulopathy, ventricular anatomic distortion or abnormally low brain weight or significant volume loss etc. and is approved to have surgery. 3. Subject had onset of epilepsy after age 5, had normal brain development up to age 5, and has full scale IQ > 70 by testing or functional assessment. 4. Subject has brain volume which is not noted to be abnormally small due to atrophy by either the radiologist reading on MRI scan or the treating clinicians (the neurosurgeon) review of the MRI scan. 5. Subject has had confirmed epilepsy for a minimum of 1 year, with diagnosis of focal seizures with temporal lobe onset, with or without secondarily generalized seizures, as defined by the International League Against Epilepsy (ILAE) Classification of Epileptic Seizures (1981). 6. In the opinion of the investigator, subject has disabling seizures. Disabling refers to seizures that are severe enough to cause injuries, or significantly impair functional ability in domains including employment, psychosocial education and mobility. 7. Subject has had a CT or MRI of the brain to rule out progressive structural lesions. 8.",
+      "title": "A Dose Ranging Pilot Study for Intracerebroventricular (ICV) Delivery of Valproate in Subjects With Temporal Seizures",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 415.8148298874575,
+      "cross_score": -4.1688733,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02866240::eligibility::0",
+      "doc_id": "NCT02866240",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - 9 years old or older - An established diagnosis of medically-refractory neocortical epilepsy (as determined by the referring clinician), with a clearly defined seizure focus. - Diagnosis of epilepsy with focal seizures with or without secondary generalization (International League Against Epilepsy classification). Diagnosis established by clinical history and an electroencephalogram consistent with localization-related epilepsy. - Continued seizures despite adequate dosage in trials of at least 2 or more antiepileptic medications within approximately the last 3 years. - At least one clearly identified and localizable epileptogenic zone from which 80% or more seizures arise, as defined by the referring clinician.",
+      "title": "Safety and Therapeutic Measures of Tdcs in Patients With Refractory Focal Epilepsy",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 411.8877075810537,
+      "cross_score": -4.4133186,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04153175::eligibility::0",
+      "doc_id": "NCT04153175",
+      "section": "eligibility",
+      "passage_text": "Inclusion/Exclusion Criteria: - For a subject to be eligible for this study, he or she must meet ALL of the following criteria: 1. Subject is male or female between the ages of 18 to 70 years old. 2. Subject is considered an appropriate surgical candidate by the implanting Neurosurgeon. 3. Subject has had confirmed refractory epilepsy for a minimum of 2 years, with unilateral or bilateral temporal lobe involvement with no more than 2 known extratemporal foci. 4. In the opinion of the Investigator, subject has disabling seizures. 5. Subject has had at least one seizure recorded by EEG or video EEG or invasive monitoring within the past 3 years consistent with focal temporal lobe seizures (a normal interictal EEG is consistent with focal seizures) 6. Subject has not achieved effective results previously from at least 3 AEDs in single or combination. An AED may be counted as failed medication if subject has been on it for at least 3-months and is still refractory. 7.",
+      "title": "Study to Assess Intracerebroventricular (ICV) Delivery of CT-010 in Subjects With Focal Seizures, With Temporal Lobe Onset With or Without Secondary Generalization",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 434.06051686826254,
+      "cross_score": -4.54751,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00524134::eligibility::0",
+      "doc_id": "NCT00524134",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - probable or definite localization-related, primary generalized or symptomatic generalized epilepsy that is medically-refractory, as defined by treatment failure of at least 2 anti-epilepsy drugs at standard doses, despite medication compliance as determined by the treating neurologist - at least 3 seizures/month in the 3-month period prior to randomization. Seizures that will be considered include generalized tonic clonic, complex partial, myoclonic and absence seizures. Simple partial seizures must have an observable motor component or have been otherwise been documented by videoEEG to be a definite seizure. - Patients with prior epilepsy brain surgery or vagal nerve stimulator implantation will be allowed if medication and seizure frequency has been stable for the prior 3 months. - Ages between 10 and 75 years will be eligible for inclusion. Elderly patients without a history or symptoms of cardiovascular disease may be eligible on a case-by-case basis. No patients older than 75 will be included due to the possible cardiovascular side-effects.",
+      "title": "P-glycoprotein Inhibition as Adjunct Treatment for Medically Refractory Epilepsy.",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 406.80834519560113,
+      "cross_score": -4.6379013,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00040326::eligibility::0",
+      "doc_id": "NCT00040326",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: - Intractability: Two AEDs, one of which was either Dilantin, Tegretol, Carbatrol, or Trileptal used in appropriate doses, have failed due to inefficacy, not intolerance. - Frequency and Duration: Persistence of disabling seizures at 6 per year or greater for less than two years after onset, or after recurrence if initial treatment resulted in seizure freedom for 6 or more months. - Age: 12 years or older at baseline visit. - History: Simple and complex partial seizures, with or without secondarily generalized seizures beginning in childhood or later, with or without febrile convulsions earlier. - Absence of a history of serious cerebral insult after the age of 5; a progressive neurological disorder; mental retardation (I.Q. less than 70); psychogenic seizures; focal neurological deficits other than memory disturbances; unequivocal focal extratemporal EEG slowing or interictal spikes; or lesions on neuroimaging outside of the mesial temporal area. - Seizure semiology: Auras that occur in isolation and are not primary sensory other than olfactory or gustatory. Absence of initial focal motor movements other than automatisms or dystonic posturing.",
+      "title": "Early Surgical Intervention to Treat Epilepsy",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 421.4344508017032,
+      "cross_score": -4.8284583,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03946618::eligibility::4",
+      "doc_id": "NCT03946618",
+      "section": "eligibility",
+      "passage_text": "This includes, but is not limited to, direct brain neurostimulators, spinal cord stimulators, vagus nerve stimulators (VNS), and cochlear implants. Patients with a vagus nerve stimulator implanted but turned off through the duration of the study may be enrolled, provided their clinical status has been stable for at least one month with VNS turned off. Alternatively, patients with a VNS may have the previously disabled VNS removed at time of surgery to implant the Medtronic RC+S. - Subject has been diagnosed with psychogenic or non-epileptic seizures. - Subject has been diagnosed with primary generalized seizures. - Subject has experienced unprovoked status epilepticus in the preceding year. - Subject has had therapeutic surgery to treat epilepsy that may interfere with electrode placement. - Subject is on anticoagulants and is unable to discontinue them peri-surgically, as required by the neurosurgeon or Investigator. - Subject has significant platelet dysfunction from medical conditions or medications (including, particularly, aspirin or sodium valproate).",
+      "title": "Neurophysiologically Based Brain State Tracking and Modulation in Focal Epilepsy",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 454.21295843054014,
+      "cross_score": -5.065957,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to fit some criteria for epilepsy, but there are some missing details and unresolved requirements that need to be checked.\",\n  \"supported_patient_facts\": [\n    \"The patient is 41 years old and has a history of severe intellectual disability, CHF, and epilepsy.\",\n    \"He has a history of focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth.\",\n    \"He has had seizures since age 13 and was maintained on Dilantin and phenobarbital.\",\n    \"He had a second seizure two years after his first episode.\",\n    \"He was recently tapered off Dilantin and had no further events during the hospital course.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Full EEG reports are pending.\",\n    \"There is no mention of the patient having a CT or MRI of the brain to rule out progressive structural lesions.\",\n    \"The patient's full scale IQ is not specified.\",\n    \"The patient's brain volume and MRI findings are not described.\",\n    \"The patient's current seizure frequency and severity are not detailed.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The patient needs to have a confirmed epilepsy for a minimum of 1 year.\",\n    \"The patient needs to have a clearly defined seizure focus.\",\n    \"The patient needs to have disabling seizures.\",\n    \"The patient needs to have a CT or MRI of the brain to rule out progressive structural lesions.\",\n    \"The patient's full scale IQ needs to be tested or assessed.\",\n    \"The patient's brain volume and MRI findings need to be evaluated.\"\n  ],\n  \"reasoning_summary\": \"While the patient fits some criteria for epilepsy, such as having a history of focal seizures and being seizure-free for a while, there are several key pieces of information missing or unresolved. These include the patient's full scale IQ, brain volume, and MRI findings, as well as confirmation of epilepsy duration and the presence of a seizure focus.\",\n  \"safety_note\": \"Given the patient's history of severe intellectual disability, CHF, and epilepsy, it is crucial to ensure all safety protocols are followed. The patient should be closely monitored and the safety of the trial should be reviewed by the research team.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to fit some criteria for epilepsy, but there are some missing details and unresolved requirements that need to be checked.",
+    "supported_patient_facts": [
+      "The patient is 41 years old and has a history of severe intellectual disability, CHF, and epilepsy.",
+      "He has a history of focal epilepsy with secondary generalization, likely due to anoxic brain injury at birth.",
+      "He has had seizures since age 13 and was maintained on Dilantin and phenobarbital.",
+      "He had a second seizure two years after his first episode.",
+      "He was recently tapered off Dilantin and had no further events during the hospital course."
+    ],
+    "missing_patient_facts": [
+      "Full EEG reports are pending.",
+      "There is no mention of the patient having a CT or MRI of the brain to rule out progressive structural lesions.",
+      "The patient's full scale IQ is not specified.",
+      "The patient's brain volume and MRI findings are not described.",
+      "The patient's current seizure frequency and severity are not detailed."
+    ],
+    "unresolved_study_requirements": [
+      "The patient needs to have a confirmed epilepsy for a minimum of 1 year.",
+      "The patient needs to have a clearly defined seizure focus.",
+      "The patient needs to have disabling seizures.",
+      "The patient needs to have a CT or MRI of the brain to rule out progressive structural lesions.",
+      "The patient's full scale IQ needs to be tested or assessed.",
+      "The patient's brain volume and MRI findings need to be evaluated."
+    ],
+    "reasoning_summary": "While the patient fits some criteria for epilepsy, such as having a history of focal seizures and being seizure-free for a while, there are several key pieces of information missing or unresolved. These include the patient's full scale IQ, brain volume, and MRI findings, as well as confirmation of epilepsy duration and the presence of a seizure focus.",
+    "safety_note": "Given the patient's history of severe intellectual disability, CHF, and epilepsy, it is crucial to ensure all safety protocols are followed. The patient should be closely monitored and the safety of the trial should be reviewed by the research team."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to fit some criteria for epilepsy, but there are some missing details and unresolved requirements that need to be checked.",
+  "missing_patient_facts": [
+    "Full EEG reports are pending.",
+    "There is no mention of the patient having a CT or MRI of the brain to rule out progressive structural lesions.",
+    "The patient's full scale IQ is not specified.",
+    "The patient's brain volume and MRI findings are not described.",
+    "The patient's current seizure frequency and severity are not detailed."
+  ],
+  "unresolved_study_requirements": [
+    "The patient needs to have a confirmed epilepsy for a minimum of 1 year.",
+    "The patient needs to have a clearly defined seizure focus.",
+    "The patient needs to have disabling seizures.",
+    "The patient needs to have a CT or MRI of the brain to rule out progressive structural lesions.",
+    "The patient's full scale IQ needs to be tested or assessed.",
+    "The patient's brain volume and MRI findings need to be evaluated."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.669
+}

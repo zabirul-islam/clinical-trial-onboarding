@@ -1,0 +1,139 @@
+{
+  "case_id": "case_trec2021_061",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005635",
+  "selected_doc": "NCT02750826",
+  "reference_trial": "NCT02750826",
+  "evidence_trials": [
+    "NCT00789581",
+    "NCT01674140",
+    "NCT02076074",
+    "NCT02750826",
+    "NCT03281954",
+    "NCT03587740"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer. A core biopsy revealed a 3 cm invasive ductal breast carcinoma in the left upper outer quadrant. The tumor is HER2-positive and ER/PR negative. Axillary sampling revealed 5 positive lymph nodes. CXR was remarkable for metastatic lesions. The patient is using multivitamins and iron supplements. She does not smoke or consume alcohol. She is not sexually active and has no children. She is a candidate for tumor resection and agrees to do so prior to chemotherapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02750826 | section=detailed_description]\nThis randomized controlled trial of weight loss interventions in overweight and obese women with early stage breast cancer consists of two arms, please see the arms section for more information. Patients will be randomized 1:1 within stratification factors: menopausal status (premenopausal vs. postmenopausal), hormone receptor status of the tumor (ER and/or PR positive vs. ER and PR negative), and race/ethnicity (African American vs. Hispanic vs. Other). The primary objective of this trial is to compare the effect of the telephone-based intervention versus a health educational control on invasive disease-free survival (IDFS). The total sample size is 3136 patients. Patient follow up for primary and secondary endpoints will continue to a maximum of 10 years, as per the standard protocol for cooperative group adjuvant trials.\n\n[Passage 2 | doc=NCT02076074 | section=eligibility]\n- Systemic therapy, if planned, must be adjuvant in nature and not be scheduled to begin for at least 4 weeks after completion of HG-PBI. - Good candidate for treatment per protocol in the judgment of the PI and/or treating physician following simulation. - Postmenopausal status. - Age \u2265 50 years at diagnosis. - Able to understand and willing to sign IRB-approved written informed consent document. - English speaker. Exclusion Criteria: - Presence of distant metastases. - In situ lobular carcinoma or nonepithelial breast malignancies such as sarcoma or lymphoma. - Proven multicentric carcinoma (tumors in different quadrants of the breast, or tumors separated by at least 4 cm) with other clinically or radiographically suspicious areas in the ipsilateral breast unless confirmed to be negative for malignancy by biopsy. - Premenopausal status. - Histologically confirmed positive axillary nodes in the ipsilateral axilla. Palpable or radiographically suspicious contralateral axillary, supraclavicular, infraclavicular, or internal mammary nodes, unless there is histologic confirmation that these nodes are negative for tumor.\n\n[Passage 3 | doc=NCT03281954 | section=eligibility]\n(LVEF assessment performed by echocardiogram is preferred; however, MUGA scan may be substituted based on institutional preferences.) The LVEF must be \u2265 55% regardless of the cardiac imaging facility's lower limit of normal. - For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods that result in a failure rate of < 1% per year during the treatment period and for at least 5 months after the last dose of atezolizumab/placebo or 12 months after the last dose of chemotherapy. - A woman is considered to be of childbearing potential if she is not postmenopausal, has not reached a postmenopausal state (\u2265 12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus). - Examples of contraceptive methods with a failure rate of < 1% per year include: bilateral tubal ligation; male partner sterilization; hormonal contraceptives that inhibit ovulation; hormone-releasing intrauterine devices; copper intrauterine devices.\n\n[Passage 4 | doc=NCT03587740 | section=eligibility]\nInclusion Criteria: - Participants must have histologically or cytologically confirmed HER2-positive disease by local pathology, defined as immunohistochemistry (IHC) 3+ or amplification by FISH (HER2/CEP17 ratio \u22652 or an average of \u22656 HER2 gene copies per nucleus) AND confirmed by Central Pathology Review (Dr. Deborah Dillon at Brigham and Women's Hospital, Boston, MA) prior to patient being registered to begin protocol therapy. See section 3.4. http://ascopubs.org/doi/full/10.1200/jco.2013.50.9984 - NOTE: DCIS components should not be counted in the determination of HER2 status. - Age \u226560 years at the time of study registration (men and women eligible) - Participants must have histologically or cytologically confirmed Stage I-III breast cancer with the following criteria met: - If node-negative or if node status unknown (because it was not assessed), tumor must be >5 mm of any hormone receptor subtype (document ER/PR status: if some ER/PR staining is present, ER and PR negative are defined as being positive in <10% cells [per local pathology read]).\n\n[Passage 5 | doc=NCT00789581 | section=eligibility]\nPatients with previous history of invasive cancers (including breast cancer) are eligible if definitive treatment was completed more than 5 years prior to initiating current study treatment, and there is no evidence of recurrent disease. 19. Women of childbearing potential must have a negative serum or urine pregnancy test performed within 7 days prior to start of treatment. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately. 20. Patient must be accessible for treatment and follow-up. 21. Women of childbearing potential must agree to use an acceptable method of birth control to avoid pregnancy for the duration of study treatment, and for 3 months thereafter. 22. All patients must be able to understand the investigational nature of the study and give written informed consent prior to study entry. Exclusion Criteria: 1. Women who are pregnant or breastfeeding. 2. History of previous diagnosis of invasive breast cancer (unless treated >5 years previously with no recurrence). History of previously treated ductal carcinoma in situ (DCIS) is acceptable. 3.\n\n[Passage 6 | doc=NCT01674140 | section=detailed_description]\nNOTE: **Goserelin acetate or leuprolide acetate is given if patient is or becomes postmenopausal. Blood and tissue samples are collected for biomarker studies. After completion of study treatment, patients are followed up every 6 months for 2 years and then yearly thereafter for 10 years.",
+  "passages": [
+    {
+      "passage_id": "NCT02750826::detailed_description::0",
+      "doc_id": "NCT02750826",
+      "section": "detailed_description",
+      "passage_text": "This randomized controlled trial of weight loss interventions in overweight and obese women with early stage breast cancer consists of two arms, please see the arms section for more information. Patients will be randomized 1:1 within stratification factors: menopausal status (premenopausal vs. postmenopausal), hormone receptor status of the tumor (ER and/or PR positive vs. ER and PR negative), and race/ethnicity (African American vs. Hispanic vs. Other). The primary objective of this trial is to compare the effect of the telephone-based intervention versus a health educational control on invasive disease-free survival (IDFS). The total sample size is 3136 patients. Patient follow up for primary and secondary endpoints will continue to a maximum of 10 years, as per the standard protocol for cooperative group adjuvant trials.",
+      "title": "Breast Cancer WEight Loss Study (BWEL Study)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 268.9651793567299,
+      "cross_score": -3.9216735,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02076074::eligibility::1",
+      "doc_id": "NCT02076074",
+      "section": "eligibility",
+      "passage_text": "- Systemic therapy, if planned, must be adjuvant in nature and not be scheduled to begin for at least 4 weeks after completion of HG-PBI. - Good candidate for treatment per protocol in the judgment of the PI and/or treating physician following simulation. - Postmenopausal status. - Age \u2265 50 years at diagnosis. - Able to understand and willing to sign IRB-approved written informed consent document. - English speaker. Exclusion Criteria: - Presence of distant metastases. - In situ lobular carcinoma or nonepithelial breast malignancies such as sarcoma or lymphoma. - Proven multicentric carcinoma (tumors in different quadrants of the breast, or tumors separated by at least 4 cm) with other clinically or radiographically suspicious areas in the ipsilateral breast unless confirmed to be negative for malignancy by biopsy. - Premenopausal status. - Histologically confirmed positive axillary nodes in the ipsilateral axilla. Palpable or radiographically suspicious contralateral axillary, supraclavicular, infraclavicular, or internal mammary nodes, unless there is histologic confirmation that these nodes are negative for tumor.",
+      "title": "Single Fraction High-Gradient Partial Breast Irradiation in Treating Patients With Low-Risk Stage 0-I Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 273.01346127530707,
+      "cross_score": -4.3568306,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03281954::eligibility::5",
+      "doc_id": "NCT03281954",
+      "section": "eligibility",
+      "passage_text": "(LVEF assessment performed by echocardiogram is preferred; however, MUGA scan may be substituted based on institutional preferences.) The LVEF must be \u2265 55% regardless of the cardiac imaging facility's lower limit of normal. - For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods that result in a failure rate of < 1% per year during the treatment period and for at least 5 months after the last dose of atezolizumab/placebo or 12 months after the last dose of chemotherapy. - A woman is considered to be of childbearing potential if she is not postmenopausal, has not reached a postmenopausal state (\u2265 12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus). - Examples of contraceptive methods with a failure rate of < 1% per year include: bilateral tubal ligation; male partner sterilization; hormonal contraceptives that inhibit ovulation; hormone-releasing intrauterine devices; copper intrauterine devices.",
+      "title": "Clinical Trial of Neoadjuvant Chemotherapy With Atezolizumab or Placebo in Patients With Triple-Negative Breast Cancer Followed After Surgery by Atezolizumab or Placebo",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 271.51972979506064,
+      "cross_score": -4.4380455,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03587740::eligibility::0",
+      "doc_id": "NCT03587740",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Participants must have histologically or cytologically confirmed HER2-positive disease by local pathology, defined as immunohistochemistry (IHC) 3+ or amplification by FISH (HER2/CEP17 ratio \u22652 or an average of \u22656 HER2 gene copies per nucleus) AND confirmed by Central Pathology Review (Dr. Deborah Dillon at Brigham and Women's Hospital, Boston, MA) prior to patient being registered to begin protocol therapy. See section 3.4. http://ascopubs.org/doi/full/10.1200/jco.2013.50.9984 - NOTE: DCIS components should not be counted in the determination of HER2 status. - Age \u226560 years at the time of study registration (men and women eligible) - Participants must have histologically or cytologically confirmed Stage I-III breast cancer with the following criteria met: - If node-negative or if node status unknown (because it was not assessed), tumor must be >5 mm of any hormone receptor subtype (document ER/PR status: if some ER/PR staining is present, ER and PR negative are defined as being positive in <10% cells [per local pathology read]).",
+      "title": "ATOP TRIAL: T-DM1 in HER2 Positive Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 276.3671988507546,
+      "cross_score": -4.6624913,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00789581::eligibility::3",
+      "doc_id": "NCT00789581",
+      "section": "eligibility",
+      "passage_text": "Patients with previous history of invasive cancers (including breast cancer) are eligible if definitive treatment was completed more than 5 years prior to initiating current study treatment, and there is no evidence of recurrent disease. 19. Women of childbearing potential must have a negative serum or urine pregnancy test performed within 7 days prior to start of treatment. If a woman becomes pregnant or suspects she is pregnant while participating in this study, she must agree to inform her treating physician immediately. 20. Patient must be accessible for treatment and follow-up. 21. Women of childbearing potential must agree to use an acceptable method of birth control to avoid pregnancy for the duration of study treatment, and for 3 months thereafter. 22. All patients must be able to understand the investigational nature of the study and give written informed consent prior to study entry. Exclusion Criteria: 1. Women who are pregnant or breastfeeding. 2. History of previous diagnosis of invasive breast cancer (unless treated >5 years previously with no recurrence). History of previously treated ductal carcinoma in situ (DCIS) is acceptable. 3.",
+      "title": "A Randomized Trial of Ixempra Versus Taxol in Adjuvant Therapy of Triple Negative Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 274.5435348165331,
+      "cross_score": -4.7446804,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01674140::detailed_description::2",
+      "doc_id": "NCT01674140",
+      "section": "detailed_description",
+      "passage_text": "NOTE: **Goserelin acetate or leuprolide acetate is given if patient is or becomes postmenopausal. Blood and tissue samples are collected for biomarker studies. After completion of study treatment, patients are followed up every 6 months for 2 years and then yearly thereafter for 10 years.",
+      "title": "S1207 Hormone Therapy With or Without Everolimus in Treating Patients With Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 281.1134341160856,
+      "cross_score": -4.8372293,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your situation matches some of the eligibility criteria for the clinical trial, but we need to check a few more details.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer.\",\n    \"The tumor is HER2-positive and ER/PR negative.\",\n    \"The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient\u2019s age at diagnosis.\",\n    \"The patient\u2019s specific stage of breast cancer (Stage I-III).\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The patient\u2019s LVEF assessment must be \u2265 55%.\",\n    \"The patient must be accessible for treatment and follow-up.\"\n  ],\n  \"reasoning_summary\": \"The patient meets the postmenopausal status requirement and HER2-positive tumor type, which aligns with the inclusion criteria. However, the patient\u2019s specific stage of breast cancer and LVEF assessment are not fully specified in the provided evidence. Also, the patient\u2019s accessibility for treatment and follow-up needs to be confirmed.\",\n  \"safety_note\": \"The patient should ensure they meet all safety requirements, including the LVEF assessment and accessibility for treatment and follow-up.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [1, 2, 4],\n    \"reasoning_summary\": [1, 2, 4]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your situation matches some of the eligibility criteria for the clinical trial, but we need to check a few more details.",
+    "supported_patient_facts": [
+      "The patient is a 45-year-old postmenopausal woman with cytologically confirmed breast cancer.",
+      "The tumor is HER2-positive and ER/PR negative.",
+      "The patient is a candidate for tumor resection and agrees to do so prior to chemotherapy."
+    ],
+    "missing_patient_facts": [
+      "The patient\u2019s age at diagnosis.",
+      "The patient\u2019s specific stage of breast cancer (Stage I-III)."
+    ],
+    "unresolved_study_requirements": [
+      "The patient\u2019s LVEF assessment must be \u2265 55%.",
+      "The patient must be accessible for treatment and follow-up."
+    ],
+    "reasoning_summary": "The patient meets the postmenopausal status requirement and HER2-positive tumor type, which aligns with the inclusion criteria. However, the patient\u2019s specific stage of breast cancer and LVEF assessment are not fully specified in the provided evidence. Also, the patient\u2019s accessibility for treatment and follow-up needs to be confirmed.",
+    "safety_note": "The patient should ensure they meet all safety requirements, including the LVEF assessment and accessibility for treatment and follow-up.",
+    "support_passages": {
+      "patient_facing_answer": [
+        1,
+        2,
+        4
+      ],
+      "reasoning_summary": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your situation matches some of the eligibility criteria for the clinical trial, but we need to check a few more details.",
+  "missing_patient_facts": [
+    "The patient\u2019s age at diagnosis.",
+    "The patient\u2019s specific stage of breast cancer (Stage I-III)."
+  ],
+  "unresolved_study_requirements": [
+    "The patient\u2019s LVEF assessment must be \u2265 55%.",
+    "The patient must be accessible for treatment and follow-up."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.166
+}

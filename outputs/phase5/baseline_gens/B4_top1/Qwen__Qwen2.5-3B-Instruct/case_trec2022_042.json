@@ -1,0 +1,61 @@
+{
+  "case_id": "case_trec2022_042",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "reference_trial": "NCT03985540",
+  "evidence_trials": [
+    "NCT03985540"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 9-year-old girl is brought to the office for evaluation of short stature and overweight body habitus. The patient's mother and father are 170 cm and 181 cm tall, respectively. On physical examination, the patient's height is in the 5th percentile of her age. Other findings include low-set ears, a high arched palate, a webbed neck, and cubitus valgus. Chromosomal analysis reveals a 45, XO karyotype. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 187.15010161040624,
+      "cross_score": -3.6606085,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any other relevant information.\",\n  \"supported_patient_facts\": [\"A 9-year-old girl is being evaluated for short stature and overweight body habitus.\", \"The patient has a 45, XO karyotype as revealed by chromosomal analysis.\"],\n  \"missing_patient_facts\": [\"Your medical history and any other relevant information about your condition.\", \"Details about your height and weight compared to peers or standards.\"],\n  \"unresolved_study_requirements\": [\"We need to know if you have processing speed and learning/memory impairments as required by the study protocol.\", \"We also need to confirm if you have objective deficits in these areas as per the study criteria.\"],\n  \"reasoning_summary\": \"The patient's condition matches one aspect of the study's eligibility criteria (short stature and overweight body habitus), but we need additional information to fully determine if she meets all the necessary requirements.\",\n  \"safety_note\": \"Please note that this information is preliminary and safety guidelines should be followed according to the study protocol.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any other relevant information.",
+    "supported_patient_facts": [
+      "A 9-year-old girl is being evaluated for short stature and overweight body habitus.",
+      "The patient has a 45, XO karyotype as revealed by chromosomal analysis."
+    ],
+    "missing_patient_facts": [
+      "Your medical history and any other relevant information about your condition.",
+      "Details about your height and weight compared to peers or standards."
+    ],
+    "unresolved_study_requirements": [
+      "We need to know if you have processing speed and learning/memory impairments as required by the study protocol.",
+      "We also need to confirm if you have objective deficits in these areas as per the study criteria."
+    ],
+    "reasoning_summary": "The patient's condition matches one aspect of the study's eligibility criteria (short stature and overweight body habitus), but we need additional information to fully determine if she meets all the necessary requirements.",
+    "safety_note": "Please note that this information is preliminary and safety guidelines should be followed according to the study protocol."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, it seems you might be eligible for the clinical trial, but we need more details to confirm. Please provide your medical history and any other relevant information.",
+  "missing_patient_facts": [
+    "Your medical history and any other relevant information about your condition.",
+    "Details about your height and weight compared to peers or standards."
+  ],
+  "unresolved_study_requirements": [
+    "We need to know if you have processing speed and learning/memory impairments as required by the study protocol.",
+    "We also need to confirm if you have objective deficits in these areas as per the study criteria."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.344
+}

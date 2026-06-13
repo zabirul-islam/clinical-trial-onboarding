@@ -1,0 +1,101 @@
+{
+  "case_id": "case_trec2021_073",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00966719",
+  "selected_doc": "NCT02471573",
+  "reference_trial": "NCT02471573",
+  "evidence_trials": [
+    "NCT01887327",
+    "NCT02471573",
+    "NCT02507765",
+    "NCT04289558"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 3-day-old female infant with jaundice that started one day ago. She was born at 34w of gestation and kept in an incubator due to her gestational age. Vital signs were reported as: axillary temperature: 36.3\u00b0C, heart rate: 154 beats/min, respiratory rate: 37 breaths/min, and blood pressure: 65/33 mm Hg. Her weight is 2.1 kg, length is 45 cm, and head circumference 32 cm. She presents with yellow sclera and icteric body. Her liver and spleen are normal to palpation. Laboratory results are as follows: Serum total bilirubin: 21.02 mg/dL Direct bilirubin of 2.04 mg/dL AST: 37 U/L ALT: 20 U/L GGT: 745 U/L Alkaline phosphatase: 531 U/L Creatinine: 0.3 mg/dL Urea: 29 mg/dL Na: 147 mEq/L K: 4.5 mEq/L CRP: 3 mg/L Complete blood cell count within the normal range. She is diagnosed with neonatal jaundice that may require phototherapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02471573 | section=detailed_description]\nThe investigator will take care that all subjects are kept informed. ADVERSE AND SERIOUS ADVERSE EVENTS All observed or volunteered adverse events, regardless of treatment group or suspected causal relationship to intervention, will be recorded. Adverse events are defined as any undesirable experience occurring to a subject during a clinical trial, whether or not considered related to the intervention. All adverse events reported spontaneously by the subject or observed by the investigator or his staffs will be recorded. A serious adverse event is any untoward medical occurrence or effect that at any dose results in death; - is life threatening (at the time of the event); - requires hospitalisation or prolongation of existing inpatients' hospitalisation; - results in persistent or significant disability or incapacity; - is a congenital anomaly or birth defect; - is a new event of the trial likely to affect the safety of the subjects, such as an unexpected outcome of an adverse reaction. ETHICAL CONSIDERATIONS RECRUITMENT AND CONSENT The subject should be given the time to read and understand the statement herself before signing her consent and dating the document.\n\n[Passage 2 | doc=NCT04289558 | section=eligibility]\nInclusion Criteria: 1. Provision of signed and dated informed consent from parent or legal guardian 2. Males, >4 to 10 years of age 3. Body weight > 12 kg 4. Parasitemia with Plasmodium falciparum including: 1. Positive rapid diagnostic test result: AND 2. >2,500 parasites/microliter by microscopy 5. Diagnosis of MSM, as follows: 1. Clinical syndrome consistent with malaria associated with documented fever (axillary temperature >38C) or reported history of fever in the past 48 hours with no other cause present; AND 2. Exhibiting no WHO warning signs or criteria for SM [27] 6. A negative G6PD deficiency test (careSTART G6PD quantitative biosensor) 7. Requires inpatient parenteral treatment because of inability to tolerate oral therapy 8. Hemoglobin > 8 g/dL (subjects with prior blood transfusion will be eligible). 9. Systolic blood pressure > 85 mmHg 10. Baseline quantitative methemoglobin measurement less than 2% 11. Creatinine less than the upper limit of normal Exclusion Criteria: 1. Female gender 2. Diagnosis of severe malaria 3. Presence of infection, or mixed infection, with non-falciparum strains of malaria 4.\n\n[Passage 3 | doc=NCT02507765 | section=eligibility]\npacemakers, metallic implants, aneurysm clips, known contrast allergy to gadolinium contrast, pregnancy, nursing mothers, weight greater than 350 pounds) - Any serious and/or unstable pre-existing medical disorder (aside from malignancy exception above), psychiatric disorder, or other conditions that could interfere with subject's safety, obtaining informed consent or compliance to the study procedures, in the opinion of the investigator; this could include severe, active co-morbidities such as: - Uncontrolled cardiac disease (hypertension, unstable angina, myocardial infarction within last 6 months, uncontrolled congestive heart failure, cardiomyopathy with decreased ejection fraction) - Acute bacterial or fungal infection requiring intravenous antibiotics at time of registration - Chronic obstructive pulmonary disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy within 30 days of registration - Hepatic insufficiency resulting in jaundice and/or coagulation defects\n\n[Passage 4 | doc=NCT01887327 | section=eligibility]\nPrior exposure to PT 8. Clinical suggestion of neonatal thyroid disease or current uncontrolled thyroid disease in the mother (maternal Hashimoto's disease is not exclusionary) 9. Cardio-respiratory distress, defined as a respiratory rate >60 breaths per minute at time of enrollment 10. Any abnormal auditory or ophthalmologic findings on screening physical exam 11. Treatment or need for treatment in the neonate with medications that are photoreactive or may prolong the QT interval (erythromycin ointment for eye prophylaxis is permitted), or family history of Long QT syndrome 12. Known porphyrias or risk factors for porphyrias, including family history 13. A maternal history of systemic lupus erythematosus 14. Maternal use of phenobarbital 30 days before, or after delivery, if breast-feeding 15. Maternal current drug or alcohol abuse, or maternal history of drug or alcohol abuse that, in the opinion of the Investigator, would not make the patient a suitable candidate for participation in the clinical trial 16. Significant congenital anomalies or infections 17. Risk of requiring surgery or exposure to operating room (OR) lights in the first 2 weeks of life 18.\n\n[Passage 5 | doc=NCT01887327 | section=eligibility]\nPersistent hypoglycemia (blood glucose <40 mg/dL) 19. Temperature instability defined as temperature consistently (3 consecutive times) <36 degrees centigrade (\u00baC) and/or >37.5 degrees centigrade (\u00baC) axillary 20. Use of intravenous immunoglobulin (IVIg) or albumin prior to study drug administration 21. Post-delivery treatment with medications that are known or suspected to displace bilirubin from albumin (e.g., ceftriaxone or sulfa-based antibiotics) 22. Use of photosensitizing drugs or agents 23. Unwillingness of parents/guardians to adhere to recommendations regarding light precautions 24. Exposure to any investigational medications or devices after delivery, or participation in another clinical trial while participating in this trial 25. Any other concurrent medical condition, which in the opinion of the Investigator, makes the patient unsuitable for the clinical trial\n\n[Passage 6 | doc=NCT02507765 | section=eligibility]\nmen of child-bearing potential (WOCBP) must have a negative pregnancy test within 14 days of the first administration of study treatment; urine human chorionic gonadotropin (HCG) is an acceptable pregnancy assessment - Women/men of reproductive potential must be counseled on contraception/abstinence while receiving the study treatment Exclusion Criteria: - Childs-Pugh C liver function - Major liver vascular invasion - Prior radiation to the liver or other upper abdominal regions - Must not have any evidence of bleeding diathesis or active gastrointestinal bleeding - Any concurrent malignancy other than non-melanoma skin cancer, non-invasive bladder cancer, or carcinoma in situ of the cervix; patients with a previous malignancy without evidence of disease for >= 3 years will be allowed to enter the trial - History of active connective tissue disease (scleroderma) - Subjects who are breast-feeding, or have a positive pregnancy test will be excluded from the study; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately - Medical contraindication to MR imaging (e.g.",
+  "passages": [
+    {
+      "passage_id": "NCT02471573::detailed_description::8",
+      "doc_id": "NCT02471573",
+      "section": "detailed_description",
+      "passage_text": "The investigator will take care that all subjects are kept informed. ADVERSE AND SERIOUS ADVERSE EVENTS All observed or volunteered adverse events, regardless of treatment group or suspected causal relationship to intervention, will be recorded. Adverse events are defined as any undesirable experience occurring to a subject during a clinical trial, whether or not considered related to the intervention. All adverse events reported spontaneously by the subject or observed by the investigator or his staffs will be recorded. A serious adverse event is any untoward medical occurrence or effect that at any dose results in death; - is life threatening (at the time of the event); - requires hospitalisation or prolongation of existing inpatients' hospitalisation; - results in persistent or significant disability or incapacity; - is a congenital anomaly or birth defect; - is a new event of the trial likely to affect the safety of the subjects, such as an unexpected outcome of an adverse reaction. ETHICAL CONSIDERATIONS RECRUITMENT AND CONSENT The subject should be given the time to read and understand the statement herself before signing her consent and dating the document.",
+      "title": "Freeze All Protocol Versus Fresh Embryo Transfer in Women Undergoing In-vitro Fertilization (IVF)",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 331.62949933442457,
+      "cross_score": -5.7322917,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04289558::eligibility::0",
+      "doc_id": "NCT04289558",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Provision of signed and dated informed consent from parent or legal guardian 2. Males, >4 to 10 years of age 3. Body weight > 12 kg 4. Parasitemia with Plasmodium falciparum including: 1. Positive rapid diagnostic test result: AND 2. >2,500 parasites/microliter by microscopy 5. Diagnosis of MSM, as follows: 1. Clinical syndrome consistent with malaria associated with documented fever (axillary temperature >38C) or reported history of fever in the past 48 hours with no other cause present; AND 2. Exhibiting no WHO warning signs or criteria for SM [27] 6. A negative G6PD deficiency test (careSTART G6PD quantitative biosensor) 7. Requires inpatient parenteral treatment because of inability to tolerate oral therapy 8. Hemoglobin > 8 g/dL (subjects with prior blood transfusion will be eligible). 9. Systolic blood pressure > 85 mmHg 10. Baseline quantitative methemoglobin measurement less than 2% 11. Creatinine less than the upper limit of normal Exclusion Criteria: 1. Female gender 2. Diagnosis of severe malaria 3. Presence of infection, or mixed infection, with non-falciparum strains of malaria 4.",
+      "title": "Nitrite Infusion in Children With Malaria",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 328.6764772414539,
+      "cross_score": -6.4129877,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02507765::eligibility::3",
+      "doc_id": "NCT02507765",
+      "section": "eligibility",
+      "passage_text": "pacemakers, metallic implants, aneurysm clips, known contrast allergy to gadolinium contrast, pregnancy, nursing mothers, weight greater than 350 pounds) - Any serious and/or unstable pre-existing medical disorder (aside from malignancy exception above), psychiatric disorder, or other conditions that could interfere with subject's safety, obtaining informed consent or compliance to the study procedures, in the opinion of the investigator; this could include severe, active co-morbidities such as: - Uncontrolled cardiac disease (hypertension, unstable angina, myocardial infarction within last 6 months, uncontrolled congestive heart failure, cardiomyopathy with decreased ejection fraction) - Acute bacterial or fungal infection requiring intravenous antibiotics at time of registration - Chronic obstructive pulmonary disease exacerbation or other respiratory illness requiring hospitalization or precluding study therapy within 30 days of registration - Hepatic insufficiency resulting in jaundice and/or coagulation defects",
+      "title": "Stereotactic Body Radiation Therapy and Transarterial Chemoembolization in Treating Patients With Liver Cancer That Cannot Be Removed by Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 326.8095788617059,
+      "cross_score": -6.6826363,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01887327::eligibility::1",
+      "doc_id": "NCT01887327",
+      "section": "eligibility",
+      "passage_text": "Prior exposure to PT 8. Clinical suggestion of neonatal thyroid disease or current uncontrolled thyroid disease in the mother (maternal Hashimoto's disease is not exclusionary) 9. Cardio-respiratory distress, defined as a respiratory rate >60 breaths per minute at time of enrollment 10. Any abnormal auditory or ophthalmologic findings on screening physical exam 11. Treatment or need for treatment in the neonate with medications that are photoreactive or may prolong the QT interval (erythromycin ointment for eye prophylaxis is permitted), or family history of Long QT syndrome 12. Known porphyrias or risk factors for porphyrias, including family history 13. A maternal history of systemic lupus erythematosus 14. Maternal use of phenobarbital 30 days before, or after delivery, if breast-feeding 15. Maternal current drug or alcohol abuse, or maternal history of drug or alcohol abuse that, in the opinion of the Investigator, would not make the patient a suitable candidate for participation in the clinical trial 16. Significant congenital anomalies or infections 17. Risk of requiring surgery or exposure to operating room (OR) lights in the first 2 weeks of life 18.",
+      "title": "Stannsoporfin With Light Therapy for Newborn Babies With Jaundice",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 328.85313359466096,
+      "cross_score": -6.706265,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01887327::eligibility::2",
+      "doc_id": "NCT01887327",
+      "section": "eligibility",
+      "passage_text": "Persistent hypoglycemia (blood glucose <40 mg/dL) 19. Temperature instability defined as temperature consistently (3 consecutive times) <36 degrees centigrade (\u00baC) and/or >37.5 degrees centigrade (\u00baC) axillary 20. Use of intravenous immunoglobulin (IVIg) or albumin prior to study drug administration 21. Post-delivery treatment with medications that are known or suspected to displace bilirubin from albumin (e.g., ceftriaxone or sulfa-based antibiotics) 22. Use of photosensitizing drugs or agents 23. Unwillingness of parents/guardians to adhere to recommendations regarding light precautions 24. Exposure to any investigational medications or devices after delivery, or participation in another clinical trial while participating in this trial 25. Any other concurrent medical condition, which in the opinion of the Investigator, makes the patient unsuitable for the clinical trial",
+      "title": "Stannsoporfin With Light Therapy for Newborn Babies With Jaundice",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 328.85313359466096,
+      "cross_score": -6.774668,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02507765::eligibility::2",
+      "doc_id": "NCT02507765",
+      "section": "eligibility",
+      "passage_text": "men of child-bearing potential (WOCBP) must have a negative pregnancy test within 14 days of the first administration of study treatment; urine human chorionic gonadotropin (HCG) is an acceptable pregnancy assessment - Women/men of reproductive potential must be counseled on contraception/abstinence while receiving the study treatment Exclusion Criteria: - Childs-Pugh C liver function - Major liver vascular invasion - Prior radiation to the liver or other upper abdominal regions - Must not have any evidence of bleeding diathesis or active gastrointestinal bleeding - Any concurrent malignancy other than non-melanoma skin cancer, non-invasive bladder cancer, or carcinoma in situ of the cervix; patients with a previous malignancy without evidence of disease for >= 3 years will be allowed to enter the trial - History of active connective tissue disease (scleroderma) - Subjects who are breast-feeding, or have a positive pregnancy test will be excluded from the study; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately - Medical contraindication to MR imaging (e.g.",
+      "title": "Stereotactic Body Radiation Therapy and Transarterial Chemoembolization in Treating Patients With Liver Cancer That Cannot Be Removed by Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 326.8095788617059,
+      "cross_score": -6.8540554,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like your infant might not be eligible for this specific clinical trial. However, more details are needed to confirm.\",\n  \"supported_patient_facts\": [\"She is a 3-day-old female infant with jaundice.\", \"Her vital signs are within normal limits except for a slightly elevated heart rate and respiratory rate.\", \"Laboratory results show elevated liver enzymes and bilirubin levels, consistent with neonatal jaundice.\", \"She has been diagnosed with neonatal jaundice that may require phototherapy.\"],\n  \"missing_patient_facts\": [\"The patient's weight, height, and head circumference.\", \"The presence of any congenital anomalies or infections.\", \"The patient's blood type and Rh factor.\", \"The patient's family history of genetic disorders affecting liver function.\"],\n  \"unresolved_study_requirements\": [\"The patient's weight is not provided.\", \"There is no mention of the patient's blood type or Rh factor.\", \"The patient's family history of genetic disorders affecting liver function is not specified.\"],\n  \"reasoning_summary\": \"The patient meets the basic criteria for neonatal jaundice, which is a common condition in newborns. However, the patient's weight, blood type, and family history are not provided, making it impossible to definitively determine eligibility based solely on the available information.\",\n  \"safety_note\": \"The patient's jaundice and elevated liver enzymes suggest a need for careful monitoring and management. It is important to ensure that the patient receives appropriate care and that the clinical trial does not pose additional risks.\"\n}\n{\n  \"support_passages\": {\n    \"patient_facing_answer\": [1, 3, 4, 5, 6],\n    \"reasoning_summary\": [1, 3, 4, 5, 6]\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.725
+}

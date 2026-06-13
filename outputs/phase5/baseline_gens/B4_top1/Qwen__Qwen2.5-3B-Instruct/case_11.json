@@ -1,0 +1,61 @@
+{
+  "case_id": "case_11",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02830828",
+  "reference_trial": "NCT02830828",
+  "evidence_trials": [
+    "NCT02830828"
+  ],
+  "question": "What risks or burdens are described for participants in this study?",
+  "evidence": "[Passage 1 | doc=NCT02830828 | section=detailed_description]\nFor example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+  "passages": [
+    {
+      "passage_id": "NCT02830828::detailed_description::10",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "For example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 45.81935384771241,
+      "cross_score": 4.127476,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study acknowledges that patients might need to attend three follow-up appointments, which could be considered a burden. However, the potential benefits of participating in the study, such as contributing to research, are mentioned.\",\n  \"supported_patient_facts\": [\"patients will have been consented for the 'pinch-grip' test\", \"the study sponsor (UHB) will be updated throughout the study\"],\n  \"missing_patient_facts\": [\"the specific nature of the 'pinch-grip' test\", \"the exact frequency and timing of the follow-up appointments\"],\n  \"unresolved_study_requirements\": [\"the detailed nature of the 'pinch-grip' test\", \"the exact number and timing of follow-up appointments\"],\n  \"reasoning_summary\": \"The passage mentions potential burdens like attending follow-up appointments but does not provide specifics about the 'pinch-grip' test or the exact schedule of follow-ups. There is also no clear indication of the risks associated with the study.\",\n  \"safety_note\": \"The study acknowledges that the 'pinch-grip' test may reveal a diagnosis of CTS, and the participant's confidentiality is protected according to specified principles.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study acknowledges that patients might need to attend three follow-up appointments, which could be considered a burden. However, the potential benefits of participating in the study, such as contributing to research, are mentioned.",
+    "supported_patient_facts": [
+      "patients will have been consented for the 'pinch-grip' test",
+      "the study sponsor (UHB) will be updated throughout the study"
+    ],
+    "missing_patient_facts": [
+      "the specific nature of the 'pinch-grip' test",
+      "the exact frequency and timing of the follow-up appointments"
+    ],
+    "unresolved_study_requirements": [
+      "the detailed nature of the 'pinch-grip' test",
+      "the exact number and timing of follow-up appointments"
+    ],
+    "reasoning_summary": "The passage mentions potential burdens like attending follow-up appointments but does not provide specifics about the 'pinch-grip' test or the exact schedule of follow-ups. There is also no clear indication of the risks associated with the study.",
+    "safety_note": "The study acknowledges that the 'pinch-grip' test may reveal a diagnosis of CTS, and the participant's confidentiality is protected according to specified principles."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study acknowledges that patients might need to attend three follow-up appointments, which could be considered a burden. However, the potential benefits of participating in the study, such as contributing to research, are mentioned.",
+  "missing_patient_facts": [
+    "the specific nature of the 'pinch-grip' test",
+    "the exact frequency and timing of the follow-up appointments"
+  ],
+  "unresolved_study_requirements": [
+    "the detailed nature of the 'pinch-grip' test",
+    "the exact number and timing of follow-up appointments"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.3
+}

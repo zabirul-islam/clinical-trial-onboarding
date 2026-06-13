@@ -1,0 +1,102 @@
+{
+  "case_id": "case_trec2022_030",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04146649",
+  "reference_trial": "NCT04146649",
+  "evidence_trials": [
+    "NCT01122485",
+    "NCT03922490",
+    "NCT04146649",
+    "NCT04612283",
+    "NCT04751942"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old woman comes to the office complaining of pain in the calf and knee when she bends down. The pain limits her activity. Her medical history is significant for osteoarthritis, for which she uses nonsteroidal anti-inflammatory drugs (NSAIDs) for the past two years. She is living with her husband and has 3 children. She doesn't smoke but drinks alcohol occasionally. Her vital signs are normal. On physical examination, there is a small effusion in the right knee. The effusion grew a little larger and she developed a tender swelling in the popliteal fossa and calf. Both the pain and swelling worsened as she bent and straightened her knee. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04146649 | section=summary]\nThis will be prospective study of patients with knee effusion associated with degenerative osteoarthritis or symptomatic primary total knee arthroplasty that undergo therapeutic joint arthrocentesis. The diagnosis of knee osteoarthritis will be based on knee radiographs (including AP, Rosenburg view, lateral and Merchant views) read and interpreted by one of our clinical providers (PA, Fellow or Surgeon). Patients with at least Grade II Outerbridge changes or higher will be included in the osteoarthritis group. Patients in the arthroplasty group must have had a primary total knee arthroplasty without infection (as determined by knee aspirate) to be included. Patients will be clinically evaluated at the time of their visit for presence of a knee effusion using a bulge test and graded on a 4-point scale (none, mild, moderate, severe) which has shown good interobserver reliability (reliability coefficient = 0.97)23. Patients with a moderate or severe effusion will be included in the study. Patients with no or only mild effusion will not be included due to the increased risk for a dry tap or minimally effective fluid volume reduction with arthrocentesis. Patients having significant pain associated with their effusion will be offered a therapeutic arthrocentesis as part of their treatment plan discussion.\n\n[Passage 2 | doc=NCT01122485 | section=eligibility]\nInclusion Criteria: - Patients \u226540 and \u2264 75 years of age - For a woman, she should meet one of the following criteria to be eligible for the study: i) A woman of no childbearing potential ii) As for a woman of childbearing potential, she should have a negative pregnancy test result at screening and baseline/randomization - Patients should be able and willing to provide the written informed consent. - Patients should be able to read and understand the information provided for the study and be able to record the information requested by the study. - Patients who meet the American College of Rheumatology clinical plus radiographic classification criteria for idiopathic osteoarthritis of the knee, which are defined as follow: a patient who had knee pain and radiographically diagnosed osteophytes and met at least one of the followings. i) Age> 50 years ii) Morning stiffness for less than 30 minutes iii) Crepitus during movement of the weight-bearing knee - Patients with symptomatic primary osteoarthritis of the knee at least in the last 3 months prior to screening.\n\n[Passage 3 | doc=NCT03922490 | section=eligibility]\nInclusion Criteria: - Age between 18 and 70 years - Knee pain and symptoms for >2 months - clicking, popping, giving way, pain with pivot or torque, pain that is episodic, and pain that is acute and localized to one joint - Conservative treatment >4 weeks with one or more of: - Non-steroidal Anti-inflammatory Drugs (NSAIDS) or acetaminophen or contraindication to use of NSAIDs and acetaminophen, Activity limitations, Physical Therapy (PT) - Hospital for Special Surgery (HSS) MRI demonstrating grade 1-3 knee joint effusion/synovitis based on MRI Osteoarthritis Knee Score (MOAKS) criteria - K-L grade 0-3 on radiographs and/or cartilage thinning on MRI w/ or w/o meniscal tear - Ability to provide informed consent Exclusion Criteria: The patients listed below are excluded due to potential confound factors which may alter clinical outcomes in either treatment group (1,3,4,5 7,8, 11, 12,13), if they may potentially cause a ceiling or floor effect to our clinical outcomes (2,6,) or if the treatment may constitute and undue risk to the patient or be outside of the standard of practice of treatment for that patient (1, 9, 10,14, 15, 16) - 1. Under 18 years of age or skeletally immature - 2.\n\n[Passage 4 | doc=NCT04751942 | section=summary]\nThis prospective study will evaluate pain, swelling, ROM as well as narcotic use in post-operative total knee arthroplasty patients using novel Non-Compressive Bioactive Garment (NCBG) versus current standard of care gradient compression stocking (Thrombo-Embolic-Deterrent or TED hose). If NCBG proves to be more effective in these outcome areas, it will provide a new and comfortable way to reduce patient pain and swelling immediately following surgery\n\n[Passage 5 | doc=NCT04751942 | section=detailed_description]\nA potential solution to the problems posed by traditional compression stocking is the NCPG. The garment is comprised of a semi-conductive material ground to nanoparticles that are embedded into the fibers, formed into a three-dimensional woven fabric for optimized comfort. Instead of relying on compression, NCPS utilizes the body's own thermal energy to generate infrared energy. The infrared energy generated is reflected back at the body and modifies cellular activity at the level of the mitochondria through a process known as photobiomodulation14-15. This process of photobiomodulation is hypothesized to improve swelling and tissue healing by increasing the activity of mitochondria and the availability of cellular energy in the form of ATP. This study seeks to determine if NCPS use of infrared energy is more successful at reducing pain and swelling following TKA than traditional gradient compression dressing. We will enroll 100 subjects throughout all sites involved in the study. Patients will be recruited in the office setting after all non-operative modalities for controlling pain associated with end-stage osteoarthritis of the knee have been exhausted.\n\n[Passage 6 | doc=NCT04612283 | section=eligibility]\n- Are willing to avoid participation in any other interventional clinical trial for the duration of this study. Exclusion Criteria: - Are pregnant, breast-feeding, or planning to become pregnant during the study. - Patients with Rheumatoid Arthritis, Systemic Lupus Erythematosus, Psoriatic Arthritis, Gouty Arthritis. - Complications of OA, like Pseudogout, Spontaneous osteonecrosis of the knee, Ruptured Baker cyst, Bursitis, Anserine bursitis (knee)interfere with the disease and treatment. - Severe Stomach infection. - Severely traumatised and/or very severe or mucosal inflammation - Peritonsillar abscess - Long term use (\u2265 3 times per week within the last month or regular intake within the last 3 months before randomisation) of antiinflammatory drugs- Any long-acting or slow release analgesic intake including Non Steroidal Anti-Inflammatory Drugs (NSAIDs)within 24 hours before randomisation (e.g.",
+  "passages": [
+    {
+      "passage_id": "NCT04146649::summary::0",
+      "doc_id": "NCT04146649",
+      "section": "summary",
+      "passage_text": "This will be prospective study of patients with knee effusion associated with degenerative osteoarthritis or symptomatic primary total knee arthroplasty that undergo therapeutic joint arthrocentesis. The diagnosis of knee osteoarthritis will be based on knee radiographs (including AP, Rosenburg view, lateral and Merchant views) read and interpreted by one of our clinical providers (PA, Fellow or Surgeon). Patients with at least Grade II Outerbridge changes or higher will be included in the osteoarthritis group. Patients in the arthroplasty group must have had a primary total knee arthroplasty without infection (as determined by knee aspirate) to be included. Patients will be clinically evaluated at the time of their visit for presence of a knee effusion using a bulge test and graded on a 4-point scale (none, mild, moderate, severe) which has shown good interobserver reliability (reliability coefficient = 0.97)23. Patients with a moderate or severe effusion will be included in the study. Patients with no or only mild effusion will not be included due to the increased risk for a dry tap or minimally effective fluid volume reduction with arthrocentesis. Patients having significant pain associated with their effusion will be offered a therapeutic arthrocentesis as part of their treatment plan discussion.",
+      "title": "Effect of Therapeutic Joint Arthrocentesis on Pain and Quadriceps Function in Patients With Knee Osteoarthritis",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 311.7832017164097,
+      "cross_score": -4.557958,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01122485::eligibility::0",
+      "doc_id": "NCT01122485",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients \u226540 and \u2264 75 years of age - For a woman, she should meet one of the following criteria to be eligible for the study: i) A woman of no childbearing potential ii) As for a woman of childbearing potential, she should have a negative pregnancy test result at screening and baseline/randomization - Patients should be able and willing to provide the written informed consent. - Patients should be able to read and understand the information provided for the study and be able to record the information requested by the study. - Patients who meet the American College of Rheumatology clinical plus radiographic classification criteria for idiopathic osteoarthritis of the knee, which are defined as follow: a patient who had knee pain and radiographically diagnosed osteophytes and met at least one of the followings. i) Age> 50 years ii) Morning stiffness for less than 30 minutes iii) Crepitus during movement of the weight-bearing knee - Patients with symptomatic primary osteoarthritis of the knee at least in the last 3 months prior to screening.",
+      "title": "Efficacy and Safety Study of PG201 Tablet in Patients With Osteoarthritis",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 309.6768896706005,
+      "cross_score": -5.357314,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03922490::eligibility::0",
+      "doc_id": "NCT03922490",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age between 18 and 70 years - Knee pain and symptoms for >2 months - clicking, popping, giving way, pain with pivot or torque, pain that is episodic, and pain that is acute and localized to one joint - Conservative treatment >4 weeks with one or more of: - Non-steroidal Anti-inflammatory Drugs (NSAIDS) or acetaminophen or contraindication to use of NSAIDs and acetaminophen, Activity limitations, Physical Therapy (PT) - Hospital for Special Surgery (HSS) MRI demonstrating grade 1-3 knee joint effusion/synovitis based on MRI Osteoarthritis Knee Score (MOAKS) criteria - K-L grade 0-3 on radiographs and/or cartilage thinning on MRI w/ or w/o meniscal tear - Ability to provide informed consent Exclusion Criteria: The patients listed below are excluded due to potential confound factors which may alter clinical outcomes in either treatment group (1,3,4,5 7,8, 11, 12,13), if they may potentially cause a ceiling or floor effect to our clinical outcomes (2,6,) or if the treatment may constitute and undue risk to the patient or be outside of the standard of practice of treatment for that patient (1, 9, 10,14, 15, 16) - 1. Under 18 years of age or skeletally immature - 2.",
+      "title": "Lipogems Prospective Study",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 338.2281713806717,
+      "cross_score": -5.3762503,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04751942::summary::0",
+      "doc_id": "NCT04751942",
+      "section": "summary",
+      "passage_text": "This prospective study will evaluate pain, swelling, ROM as well as narcotic use in post-operative total knee arthroplasty patients using novel Non-Compressive Bioactive Garment (NCBG) versus current standard of care gradient compression stocking (Thrombo-Embolic-Deterrent or TED hose). If NCBG proves to be more effective in these outcome areas, it will provide a new and comfortable way to reduce patient pain and swelling immediately following surgery",
+      "title": "Reparel Knee Sleeve vs. TED Hose for Post-op Swelling, Pain and Range of Motion After Total Knee Replacement",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 311.56706016815207,
+      "cross_score": -5.665526,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04751942::detailed_description::3",
+      "doc_id": "NCT04751942",
+      "section": "detailed_description",
+      "passage_text": "A potential solution to the problems posed by traditional compression stocking is the NCPG. The garment is comprised of a semi-conductive material ground to nanoparticles that are embedded into the fibers, formed into a three-dimensional woven fabric for optimized comfort. Instead of relying on compression, NCPS utilizes the body's own thermal energy to generate infrared energy. The infrared energy generated is reflected back at the body and modifies cellular activity at the level of the mitochondria through a process known as photobiomodulation14-15. This process of photobiomodulation is hypothesized to improve swelling and tissue healing by increasing the activity of mitochondria and the availability of cellular energy in the form of ATP. This study seeks to determine if NCPS use of infrared energy is more successful at reducing pain and swelling following TKA than traditional gradient compression dressing. We will enroll 100 subjects throughout all sites involved in the study. Patients will be recruited in the office setting after all non-operative modalities for controlling pain associated with end-stage osteoarthritis of the knee have been exhausted.",
+      "title": "Reparel Knee Sleeve vs. TED Hose for Post-op Swelling, Pain and Range of Motion After Total Knee Replacement",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 311.56706016815207,
+      "cross_score": -5.8700037,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04612283::eligibility::1",
+      "doc_id": "NCT04612283",
+      "section": "eligibility",
+      "passage_text": "- Are willing to avoid participation in any other interventional clinical trial for the duration of this study. Exclusion Criteria: - Are pregnant, breast-feeding, or planning to become pregnant during the study. - Patients with Rheumatoid Arthritis, Systemic Lupus Erythematosus, Psoriatic Arthritis, Gouty Arthritis. - Complications of OA, like Pseudogout, Spontaneous osteonecrosis of the knee, Ruptured Baker cyst, Bursitis, Anserine bursitis (knee)interfere with the disease and treatment. - Severe Stomach infection. - Severely traumatised and/or very severe or mucosal inflammation - Peritonsillar abscess - Long term use (\u2265 3 times per week within the last month or regular intake within the last 3 months before randomisation) of antiinflammatory drugs- Any long-acting or slow release analgesic intake including Non Steroidal Anti-Inflammatory Drugs (NSAIDs)within 24 hours before randomisation (e.g.",
+      "title": "NGA-01 Gel for the Treatment of Osteoarthritis With Joint Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 309.0565725855631,
+      "cross_score": -5.916422,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, your patient seems to fit some criteria for the study, but we need more details to confirm eligibility.\",\n  \"supported_patient_facts\": [\"she has knee pain and an effusion\", \"she has osteoarthritis\", \"she is over 40 years old\", \"she is not pregnant or breastfeeding\", \"she can provide informed consent\"],\n  \"missing_patient_facts\": [\"her exact knee grade according to Outerbridge classification\", \"the results of her knee radiographs\", \"whether she meets the American College of Rheumatology clinical plus radiographic criteria for idiopathic osteoarthritis of the knee\"],\n  \"unresolved_study_requirements\": [\"the specific grade of her knee effusion\", \"confirmation of her osteoarthritis diagnosis based on radiographs\"],\n  \"reasoning_summary\": \"The patient has osteoarthritis and a knee effusion, which aligns with the study's inclusion criteria. However, we need more specific information about her knee grade and radiographic findings to fully assess her eligibility.\",\n  \"safety_note\": \"The patient should be monitored for any adverse effects related to the study procedures.\"\n}\n{\n  \"support_passages\": {\n    \"patient_facing_answer\": [1, 2, 3],\n    \"reasoning_summary\": [1, 2, 3]\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.01
+}

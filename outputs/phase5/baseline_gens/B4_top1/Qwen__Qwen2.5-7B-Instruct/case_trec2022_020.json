@@ -1,0 +1,57 @@
+{
+  "case_id": "case_trec2022_020",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03835351",
+  "reference_trial": "NCT03835351",
+  "evidence_trials": [
+    "NCT03835351"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 49-year-old man comes to the office because of the bulging in his groin. Physical examination shows a swelling above the inguinal ligament. When the patient is asked to cough, the size of the bulge increases. His medical history is significant for mild dyslipidemia, which is under control by lifestyle modifications. He does not smoke, but drinks alcohol occasionally. His vital signs and other physical examinations are unremarkable. He is referred to a surgeon and scheduled to undergo elective laparoscopic hernia repair. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03835351 | section=eligibility]\nInclusion Criteria: - 18 years of age or older - Able to give informed consent - Unilateral or bilateral inguinal hernia - Scheduled for elective inguinal hernia repair - Eligible to tolerate general anesthesia - Eligible to undergo minimally invasive inguinal hernia repair Exclusion Criteria: - Diagnosed with benign prostate hyperplasia (BPH) - Younger than 18 years old - Unable to give informed consent - Emergent inguinal hernia repairs ( acute incarceration or strangulation) - Unable to tolerate general anesthesia - Not eligible for minimally invasive inguinal hernia repair",
+  "passages": [
+    {
+      "passage_id": "NCT03835351::eligibility::0",
+      "doc_id": "NCT03835351",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - 18 years of age or older - Able to give informed consent - Unilateral or bilateral inguinal hernia - Scheduled for elective inguinal hernia repair - Eligible to tolerate general anesthesia - Eligible to undergo minimally invasive inguinal hernia repair Exclusion Criteria: - Diagnosed with benign prostate hyperplasia (BPH) - Younger than 18 years old - Unable to give informed consent - Emergent inguinal hernia repairs ( acute incarceration or strangulation) - Unable to tolerate general anesthesia - Not eligible for minimally invasive inguinal hernia repair",
+      "title": "Urinary Retention After Laparoscopic Inguinal Hernia Repair: Comparing the Use of the Intraoperative Urinary Catheter",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 236.09411868057904,
+      "cross_score": -4.100524,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"likely_match | possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.\",\n  \"supported_patient_facts\": [\"Unilateral or bilateral inguinal hernia\", \"Scheduled for elective inguinal hernia repair\", \"Able to give informed consent\", \"18 years of age or older\"],\n  \"missing_patient_facts\": [\"Eligible to tolerate general anesthesia\", \"Eligible to undergo minimally invasive inguinal hernia repair\"],\n  \"unresolved_study_requirements\": [],\n  \"reasoning_summary\": \"The patient has an inguinal hernia and is scheduled for elective surgery, which aligns with the inclusion criteria. However, the eligibility for general anesthesia and minimally invasive repair needs to be confirmed.\",\n  \"safety_note\": \"Ensure that the patient's ability to tolerate general anesthesia and suitability for minimally invasive surgery are verified before proceeding.\"\n}",
+  "parsed": {
+    "decision": "likely_match | possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+    "supported_patient_facts": [
+      "Unilateral or bilateral inguinal hernia",
+      "Scheduled for elective inguinal hernia repair",
+      "Able to give informed consent",
+      "18 years of age or older"
+    ],
+    "missing_patient_facts": [
+      "Eligible to tolerate general anesthesia",
+      "Eligible to undergo minimally invasive inguinal hernia repair"
+    ],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "The patient has an inguinal hernia and is scheduled for elective surgery, which aligns with the inclusion criteria. However, the eligibility for general anesthesia and minimally invasive repair needs to be confirmed.",
+    "safety_note": "Ensure that the patient's ability to tolerate general anesthesia and suitability for minimally invasive surgery are verified before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "likely_match_|_possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details need to be confirmed.",
+  "missing_patient_facts": [
+    "Eligible to tolerate general anesthesia",
+    "Eligible to undergo minimally invasive inguinal hernia repair"
+  ],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.208
+}

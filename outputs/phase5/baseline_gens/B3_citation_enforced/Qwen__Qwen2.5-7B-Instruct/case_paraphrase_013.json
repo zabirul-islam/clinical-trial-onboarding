@@ -1,0 +1,135 @@
+{
+  "case_id": "case_paraphrase_013",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00843310",
+  "reference_trial": "NCT00843310",
+  "evidence_trials": [
+    "NCT00306813",
+    "NCT00792142",
+    "NCT00843310",
+    "NCT00981708",
+    "NCT01605032",
+    "NCT02655458"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT00843310 | section=detailed_description]\nCurrent multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.\n\n[Passage 2 | doc=NCT00306813 | section=detailed_description]\nMultiple myeloma is an incurable disease that is characterized by the malignant proliferation of plasma cells. It is the second most common hematological malignancy, is invariable fatal. The primary approach for treatment of multiple myeloma is systemic chemotherapy. Conventional chemotherapy with melphalan and prednisone (MP) has increased the survival from 12-17 months to approximately 3 years. But several other studies have shown that combination therapy with addition of other agents such as cyclophosphamide, nitroureas or anthracyclins does not improve the prognosis of patients with multiple myeloma. During the past few years it has been demonstrated that high dose chemotherapy followed by autologous stem cell transplantation can prolong the overall survival of myeloma patients and therefore became the standard of care for younger patients. Since it has been demonstrated that high dose chemotherapy is also well tolerated by the elderly high dose chemotherapy is recommended for patients up to an age of about 70 if there is no relevant comorbidity. Thus, the development of more effective regimens for the teatment of relapsed or refractory myeloma patients is urgently needed.\n\n[Passage 3 | doc=NCT00981708 | section=detailed_description]\nThalidomide has shown significant activity in multiple myeloma patients with relapsing or refractory disease and even more in newly diagnosed patients. However, thalidomide causes somnolence, fatigue, constipation, and peripheral neuropathy and is not well tolerated in patients with AL amyloidosis. Lenalidomide is a small molecule structurally related to thalidomide with potent immunomodulatory effects. Lenalidomide has been found to be significantly active in relapsed multiple myeloma both in vitro and in Phase I, II and III clinical trials, including patients who had previously failed thalidomide. Unlike thalidomide, lenalidomide causes no significant sedation, constipation, neuropathy, or rash. Deep vein thrombosis ,especially in combination with dexamethasone, has been reported . Combination of thalidomide with with alkylating agents (such as melphalan or cyclophosphamide) have been very active in patients with myeloma and have superior activity than combinations of alkylating agents with steroids alone. However, the toxicity profile of thalidomide is problematic for this combination in patients with AL.\n\n[Passage 4 | doc=NCT00792142 | section=summary]\nRATIONALE: Bortezomib and thalidomide may stop the growth of multiple myeloma by blocking blood flow to the cancer. Bortezomib may also stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving bortezomib together with thalidomide and dexamethasone may kill any cancer cells that remain after high-dose melphalan and stem cell transplant in patients with multiple myeloma. PURPOSE: This phase II trial is studying the side effects of giving bortezomib together with thalidomide and dexamethasone after melphalan and stem cell transplant and to see how well it works in treating patients with stage I-III multiple myeloma.\n\n[Passage 5 | doc=NCT02655458 | section=summary]\nThe purpose of this study is to explore the combination of Elotuzumab in combination with autologous stem cell transplantation and lenalidomide maintenance to see what side effects it may have and how well it works for the treatment of symptomatic multiple myeloma diagnosed and treated with induction therapy in the past year. Induction therapy is the first phase of treatment for multiple myeloma. The goal of induction therapy for multiple myeloma is to reduce the number of plasma cells in the bone marrow and the proteins that the plasma cells produce. Induction therapy is usually given for 3-4 weeks. An autologous peripheral blood stem cell transplant is a procedure in which immature \"stem cells\" are collected and stored for future use. A high dose of chemotherapy is given to the patient to destroy myeloma cells, and the patient's stem cells are replaced. The investigational drug in this program is elotuzumab. Elotuzumab is known as BMS-901608. Elotuzumab is a manufactured protein directed against a target found on multiple myeloma cells. Lenalidomide is currently approved for patients with multiple myeloma. Melphalan and cyclophosphamide, the drugs used during stem cell collection and transplant, are also approved by the U.S. FDA. Melphalan is an FDA-approved chemotherapy for multiple myeloma and is used as high-dose treatment prior to stem cell transplantation. Cyclophosphamide is an FDA-approved chemotherapy that may be used, either alone, or in combination with other drugs to treat multiple myeloma.\n\n[Passage 6 | doc=NCT01605032 | section=eligibility]\nast six months following the stem cell transplantation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately - Ability to understand and the willingness to sign a written informed consent document Exclusion Criteria: - Patients who have had chemotherapy or radiotherapy within 4 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier - Prior treatment history of autologous hematopoietic stem cell transplant (HSCT) or high-dose chemotherapy with stem cell rescue for any medical reason, not limited to myeloma treatment - Patients may not be receiving any other investigational agents - Patients with known brain metastases should be excluded from this clinical trial - History of allergic reactions attributed to compounds of similar chemical or biologic composition to or other agents used in the study, such as busulfan, melphalan, bortezomib, boron, or mannitol - Grade 2 or greater peripheral neuropathy within 14 days prior to enrollment - Unresolved grade >= 3 non-hematologic toxicity from previous therapy; patien",
+  "passages": [
+    {
+      "passage_id": "NCT00843310::detailed_description::0",
+      "doc_id": "NCT00843310",
+      "section": "detailed_description",
+      "passage_text": "Current multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+      "title": "Combination of Revlimid, Melphalan and Dexamethasone as First Line Treatment for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 303.917656983257,
+      "cross_score": -1.18431,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00306813::detailed_description::0",
+      "doc_id": "NCT00306813",
+      "section": "detailed_description",
+      "passage_text": "Multiple myeloma is an incurable disease that is characterized by the malignant proliferation of plasma cells. It is the second most common hematological malignancy, is invariable fatal. The primary approach for treatment of multiple myeloma is systemic chemotherapy. Conventional chemotherapy with melphalan and prednisone (MP) has increased the survival from 12-17 months to approximately 3 years. But several other studies have shown that combination therapy with addition of other agents such as cyclophosphamide, nitroureas or anthracyclins does not improve the prognosis of patients with multiple myeloma. During the past few years it has been demonstrated that high dose chemotherapy followed by autologous stem cell transplantation can prolong the overall survival of myeloma patients and therefore became the standard of care for younger patients. Since it has been demonstrated that high dose chemotherapy is also well tolerated by the elderly high dose chemotherapy is recommended for patients up to an age of about 70 if there is no relevant comorbidity. Thus, the development of more effective regimens for the teatment of relapsed or refractory myeloma patients is urgently needed.",
+      "title": "Evaluation of Lenalidomide, Doxorubicin and Dexamethasone (RAD) in Patients With Relapsed or Refractory Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 296.886228213123,
+      "cross_score": -2.1970053,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00981708::detailed_description::1",
+      "doc_id": "NCT00981708",
+      "section": "detailed_description",
+      "passage_text": "Thalidomide has shown significant activity in multiple myeloma patients with relapsing or refractory disease and even more in newly diagnosed patients. However, thalidomide causes somnolence, fatigue, constipation, and peripheral neuropathy and is not well tolerated in patients with AL amyloidosis. Lenalidomide is a small molecule structurally related to thalidomide with potent immunomodulatory effects. Lenalidomide has been found to be significantly active in relapsed multiple myeloma both in vitro and in Phase I, II and III clinical trials, including patients who had previously failed thalidomide. Unlike thalidomide, lenalidomide causes no significant sedation, constipation, neuropathy, or rash. Deep vein thrombosis ,especially in combination with dexamethasone, has been reported . Combination of thalidomide with with alkylating agents (such as melphalan or cyclophosphamide) have been very active in patients with myeloma and have superior activity than combinations of alkylating agents with steroids alone. However, the toxicity profile of thalidomide is problematic for this combination in patients with AL.",
+      "title": "Lenalidomide, Dexamethasone and Cyclophosphamide in Amyloidosis (AL)",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 306.8559768821372,
+      "cross_score": -2.2035465,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00792142::summary::0",
+      "doc_id": "NCT00792142",
+      "section": "summary",
+      "passage_text": "RATIONALE: Bortezomib and thalidomide may stop the growth of multiple myeloma by blocking blood flow to the cancer. Bortezomib may also stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving bortezomib together with thalidomide and dexamethasone may kill any cancer cells that remain after high-dose melphalan and stem cell transplant in patients with multiple myeloma. PURPOSE: This phase II trial is studying the side effects of giving bortezomib together with thalidomide and dexamethasone after melphalan and stem cell transplant and to see how well it works in treating patients with stage I-III multiple myeloma.",
+      "title": "Bortezomib, Thalidomide, and Dexamethasone After Melphalan and Stem Cell Transplant in Treating Patients With Stage I-III Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 300.85585186063,
+      "cross_score": -2.4395905,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02655458::summary::0",
+      "doc_id": "NCT02655458",
+      "section": "summary",
+      "passage_text": "The purpose of this study is to explore the combination of Elotuzumab in combination with autologous stem cell transplantation and lenalidomide maintenance to see what side effects it may have and how well it works for the treatment of symptomatic multiple myeloma diagnosed and treated with induction therapy in the past year. Induction therapy is the first phase of treatment for multiple myeloma. The goal of induction therapy for multiple myeloma is to reduce the number of plasma cells in the bone marrow and the proteins that the plasma cells produce. Induction therapy is usually given for 3-4 weeks. An autologous peripheral blood stem cell transplant is a procedure in which immature \"stem cells\" are collected and stored for future use. A high dose of chemotherapy is given to the patient to destroy myeloma cells, and the patient's stem cells are replaced. The investigational drug in this program is elotuzumab. Elotuzumab is known as BMS-901608. Elotuzumab is a manufactured protein directed against a target found on multiple myeloma cells. Lenalidomide is currently approved for patients with multiple myeloma. Melphalan and cyclophosphamide, the drugs used during stem cell collection and transplant, are also approved by the U.S. FDA. Melphalan is an FDA-approved chemotherapy for multiple myeloma and is used as high-dose treatment prior to stem cell transplantation. Cyclophosphamide is an FDA-approved chemotherapy that may be used, either alone, or in combination with other drugs to treat multiple myeloma.",
+      "title": "Elotuzumab in Autologous Stem Cell Transplantation (ASCT) and Lenalidomide Maintenance for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 296.8659598403352,
+      "cross_score": -2.765488,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01605032::eligibility::2",
+      "doc_id": "NCT01605032",
+      "section": "eligibility",
+      "passage_text": "ast six months following the stem cell transplantation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately - Ability to understand and the willingness to sign a written informed consent document Exclusion Criteria: - Patients who have had chemotherapy or radiotherapy within 4 weeks prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier - Prior treatment history of autologous hematopoietic stem cell transplant (HSCT) or high-dose chemotherapy with stem cell rescue for any medical reason, not limited to myeloma treatment - Patients may not be receiving any other investigational agents - Patients with known brain metastases should be excluded from this clinical trial - History of allergic reactions attributed to compounds of similar chemical or biologic composition to or other agents used in the study, such as busulfan, melphalan, bortezomib, boron, or mannitol - Grade 2 or greater peripheral neuropathy within 14 days prior to enrollment - Unresolved grade >= 3 non-hematologic toxicity from previous therapy; patien",
+      "title": "Busulfan, Melphalan, and Bortezomib Before First-Line Stem Cell Transplant in Treating Patients With Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 298.9499676262644,
+      "cross_score": -2.7917123,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Given your medical history, it is possible that you might be eligible for this clinical trial, but we need more information to make a definitive decision.\",\n  \"supported_patient_facts\": [\"64yo woman with multiple myeloma\", \"history of allogeneic transplant\", \"current systemic amyloidosis\"],\n  \"missing_patient_facts\": [\"specific details of current disease status and treatment response\", \"exact timing since last stem cell transplant\"],\n  \"unresolved_study_requirements\": [\"no prior autologous hematopoietic stem cell transplant or high-dose chemotherapy with stem cell rescue for any medical reason\"],\n  \"reasoning_summary\": \"The patient's profile aligns with some aspects of the study eligibility criteria, particularly regarding her history of multiple myeloma and allogeneic transplant. However, specific details about her current disease status, treatment response, and exact timing since the last stem cell transplant are required to determine eligibility. Additionally, the exclusion criterion regarding prior autologous hematopoietic stem cell transplant or high-dose chemotherapy with stem cell rescue needs clarification.\",\n  \"safety_note\": \"Given the patient's complex medical history, including systemic amyloidosis and ongoing dialysis, careful monitoring for potential side effects and interactions will be necessary.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"doc=NCT02655458 | section=summary\"],\n    \"reasoning_summary\": [\"doc=NCT02655458 | section=summary\", \"doc=NCT00843310 | section=detailed_description\", \"doc=NCT00981708 | section=detailed_description\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "64yo woman with multiple myeloma",
+      "history of allogeneic transplant",
+      "current systemic amyloidosis"
+    ],
+    "missing_patient_facts": [
+      "specific details of current disease status and treatment response",
+      "exact timing since last stem cell transplant"
+    ],
+    "unresolved_study_requirements": [
+      "no prior autologous hematopoietic stem cell transplant or high-dose chemotherapy with stem cell rescue for any medical reason"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "Given the patient's complex medical history, including systemic amyloidosis and ongoing dialysis, careful monitoring for potential side effects and interactions will be necessary.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "doc=NCT02655458 | section=summary"
+      ],
+      "reasoning_summary": [
+        "doc=NCT02655458 | section=summary",
+        "doc=NCT00843310 | section=detailed_description",
+        "doc=NCT00981708 | section=detailed_description"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "specific details of current disease status and treatment response",
+    "exact timing since last stem cell transplant"
+  ],
+  "unresolved_study_requirements": [
+    "no prior autologous hematopoietic stem cell transplant or high-dose chemotherapy with stem cell rescue for any medical reason"
+  ],
+  "narrow_leak_n": 2,
+  "latency_sec": 29.106
+}

@@ -1,0 +1,127 @@
+{
+  "case_id": "case_trec2022_021",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04671472",
+  "reference_trial": "NCT04671472",
+  "evidence_trials": [
+    "NCT00005674",
+    "NCT00753571",
+    "NCT00838617",
+    "NCT00877604",
+    "NCT01281189",
+    "NCT04671472"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old man comes to the clinic for the follow up of his neuromuscular disease. He experienced gradual, progressive weakness of the left upper extremity over the last year. Over the last few months, he has also noticed weakness in the right upper extremity. BP is 120/75, PR is 80 and temperature is 37 C. Reflexes are brisk in the upper extremities, and the plantar responses are extensor. Mild gait ataxia is present. The patient is under treatment of Riluzole 50 mg BID with the diagnosis of ALS. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04671472 | section=eligibility]\nInclusion Criteria: - Willing and able to provide written, signed informed consent after the nature of the study has been explained, and before any research-related procedures are conducted - Have a documented diagnosis of GNEM, HIBM, distal myopathy with rimmed vacuoles (DMRV), or Nonaka disease due to previously demonstrated mutations in the gene encoding the GNE/MNK enzyme (genotyping will not be conducted in this study) - Male or female, aged 18 - 50 years at Screening - Those who have a score of 24 points or more on the upper limbs of GNEM-FAS (GNE Myopathy Functional Activity Scale) and a disease period of 5 years or more and 15 years or less - Those whose upper limb muscle weakness has been confirmed from the results of manual muscle testing or grip strength measurements over the past few years, or if he / she has participated in the previous clinical trial*, those who could confirm the upper extremity composite score decreased during the investigational drug is not administered. - Able to provide reproducible force in elbow flexors (i.e.\n\n[Passage 2 | doc=NCT00877604 | section=detailed_description]\nThe incidence of ALS varies from 0.2 to 2.5 cases per 100,000 per year, although estimates vary between countries, likely reflecting a combination of availability of medical services, diagnostic accuracy, and demo-graphic characteristics of the area. Increasing life expectancy and improvements in standards of treatment and care will also result in an increased incidence of ALS. Globally, the overall rate is approximately 2 per 100,000. Its prevalence is approximately of 7 per 100,000. In Italy, the reported incidence of ALS is 2.2 cases/100,000/year. There is currently no cure for ALS. Despite initial positive results in preclinical and early clinical studies, large-scale clinical trials with all agents except riluzole failed to demonstrate a clinically meaningful therapeutic effect in patients with ALS. Riluzole at the dose of 100 mg/day showed a significant difference on survival (6.4%; gain of 3 months) and slowed deterioration in muscle strength. Primary involvement of apoptotic mechanisms has important implications in selecting drug candidates for therapy in ALS.\n\n[Passage 3 | doc=NCT01281189 | section=eligibility]\nInclusion Criteria: - Aged 18 to 80 years old, inclusive, on Day 1. - Diagnosis of sporadic or familial ALS. - Onset of first ALS symptoms within 24 months prior to Day 1. - World Federation of Neurology El Escorial criteria are met for a possible, laboratory-supported probable, probable, or definite ALS diagnosis. - Upright slow vital capacity (SVC) of 65% or more at screening. - Patients taking or not taking Riluzole are eligible for this study: if a patient has never taken Riluzole, he or she is eligible; if a patient is currently taking Riluzole, he or she must have been on a stable dose for at least 60 days; if a patient has discontinued Riluzole, he or she must have stopped taking it for at least 30 days. - Must be able to swallow tablets at the time of study entry. Exclusion Criteria: - Other medically significant illness. - Clinically significant abnormal laboratory values. - Pregnant women or women breastfeeding. - Prior exposure to dexpramipexole. - Currently taking pramipexole or other dopamine agonists. Other protocol-defined inclusion/exclusion criteria may apply.\n\n[Passage 4 | doc=NCT00005674 | section=eligibility]\nInclusion Criteria: - A clinical diagnosis of definite, probably or laboratory supported probably ALS, either sporadic or familial ALS according to a modified El Escorial criteria - Willing and able to give informed consent - FVC greater than or equal to 50% predicted - Evidence of abnormality in upper and/or lower extremity motor function (clinical evidence of muscle atrophy and weakness in an upper and/or lower extremity). The patient should have at least 4 or 8 testable upper extremity muscle groups. - Subjects may take riluzole. Riluzole must have been at stable doses for at least thirty days prior to baseline visit. - If woman of childbearing age, must be non-lactating and surgically sterile or using an effective method of birth control (double barrier or oral contraceptive) and have a negative pregnancy test - Disease duration less than five years\n\n[Passage 5 | doc=NCT00753571 | section=detailed_description]\nThis study will examine the effectiveness of Cistanche Total Glycosides(CTG) in treating patients with amyotrophic lateral sclerosis (ALS) - a fatal neurological degenerative disease that causes adult-onset, progressive motor neurons loss in the spinal cord, brain stem and motor cortex. Patients develop progressive wasting and weakness of both upper and lower limbs, bulbar and respiratory muscles. Usually death from respiratory failure typically is within 3-5 years of diagnosis. Although there are various treatments for ALS, riluzole is the only approved treatment to delay the disease progression. Cistanche Total Glycosides is an approved drug that has protective effects. It acts anti-apoptosis by activating several protective pathways, stimulates neuronal differentiation of adult neural stem cells in the brain, and improves long-term recovery. CTG is a highly attractive candidate for the treatment of neurodegenerative conditions such as ALS. Patients 18 to 65 years of age who have had mild to moderately severe ALS for 0.5 to 2 years of duration may be eligible for this study.\n\n[Passage 6 | doc=NCT00838617 | section=detailed_description]\nMedian survival from diagnosis is less than 3 years. There is only one drug approved to treat ALS, riluzole, and its effects to limit the progression of the illness are slight (6). Current study designs often use a primary endpoint of either death from ALS or initiation of long-term mechanical ventilation (LTMV). There are other tools to assess progression, which can include a questionnaire called the ALS functional rating scale (ALS-FRS), a direct measurement of strength, or an electromyography technique called motor unit number estimate (MUNE). Each has potential drawbacks, which include potential lack of objectivity in questionnaire and variable effort when assessing direct strength measurements. There has also been work to correlate magnetic resonance spectroscopy findings to progression in ALS, with some positive results (3). However, this technology is expensive, time consuming, and not widely available. Muscle ultrasound may be sensitive enough to quantitatively detect changes in muscle thickness (4), which may serve as an objective tool to measure disease progression, for the purpose of clinical trials.",
+  "passages": [
+    {
+      "passage_id": "NCT04671472::eligibility::0",
+      "doc_id": "NCT04671472",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Willing and able to provide written, signed informed consent after the nature of the study has been explained, and before any research-related procedures are conducted - Have a documented diagnosis of GNEM, HIBM, distal myopathy with rimmed vacuoles (DMRV), or Nonaka disease due to previously demonstrated mutations in the gene encoding the GNE/MNK enzyme (genotyping will not be conducted in this study) - Male or female, aged 18 - 50 years at Screening - Those who have a score of 24 points or more on the upper limbs of GNEM-FAS (GNE Myopathy Functional Activity Scale) and a disease period of 5 years or more and 15 years or less - Those whose upper limb muscle weakness has been confirmed from the results of manual muscle testing or grip strength measurements over the past few years, or if he / she has participated in the previous clinical trial*, those who could confirm the upper extremity composite score decreased during the investigational drug is not administered. - Able to provide reproducible force in elbow flexors (i.e.",
+      "title": "Efficacy Confirmation Study of NPC-09",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 269.89598773557617,
+      "cross_score": -4.7689676,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00877604::detailed_description::1",
+      "doc_id": "NCT00877604",
+      "section": "detailed_description",
+      "passage_text": "The incidence of ALS varies from 0.2 to 2.5 cases per 100,000 per year, although estimates vary between countries, likely reflecting a combination of availability of medical services, diagnostic accuracy, and demo-graphic characteristics of the area. Increasing life expectancy and improvements in standards of treatment and care will also result in an increased incidence of ALS. Globally, the overall rate is approximately 2 per 100,000. Its prevalence is approximately of 7 per 100,000. In Italy, the reported incidence of ALS is 2.2 cases/100,000/year. There is currently no cure for ALS. Despite initial positive results in preclinical and early clinical studies, large-scale clinical trials with all agents except riluzole failed to demonstrate a clinically meaningful therapeutic effect in patients with ALS. Riluzole at the dose of 100 mg/day showed a significant difference on survival (6.4%; gain of 3 months) and slowed deterioration in muscle strength. Primary involvement of apoptotic mechanisms has important implications in selecting drug candidates for therapy in ALS.",
+      "title": "Efficacy and Tolerability of Tauroursodeoxycholic Acid in Amyotrophic Lateral Sclerosis",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 256.2433811590753,
+      "cross_score": -4.8066235,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01281189::eligibility::0",
+      "doc_id": "NCT01281189",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Aged 18 to 80 years old, inclusive, on Day 1. - Diagnosis of sporadic or familial ALS. - Onset of first ALS symptoms within 24 months prior to Day 1. - World Federation of Neurology El Escorial criteria are met for a possible, laboratory-supported probable, probable, or definite ALS diagnosis. - Upright slow vital capacity (SVC) of 65% or more at screening. - Patients taking or not taking Riluzole are eligible for this study: if a patient has never taken Riluzole, he or she is eligible; if a patient is currently taking Riluzole, he or she must have been on a stable dose for at least 60 days; if a patient has discontinued Riluzole, he or she must have stopped taking it for at least 30 days. - Must be able to swallow tablets at the time of study entry. Exclusion Criteria: - Other medically significant illness. - Clinically significant abnormal laboratory values. - Pregnant women or women breastfeeding. - Prior exposure to dexpramipexole. - Currently taking pramipexole or other dopamine agonists. Other protocol-defined inclusion/exclusion criteria may apply.",
+      "title": "Phase 3 Study of Dexpramipexole in ALS",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 263.9521503927345,
+      "cross_score": -5.028963,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00005674::eligibility::0",
+      "doc_id": "NCT00005674",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - A clinical diagnosis of definite, probably or laboratory supported probably ALS, either sporadic or familial ALS according to a modified El Escorial criteria - Willing and able to give informed consent - FVC greater than or equal to 50% predicted - Evidence of abnormality in upper and/or lower extremity motor function (clinical evidence of muscle atrophy and weakness in an upper and/or lower extremity). The patient should have at least 4 or 8 testable upper extremity muscle groups. - Subjects may take riluzole. Riluzole must have been at stable doses for at least thirty days prior to baseline visit. - If woman of childbearing age, must be non-lactating and surgically sterile or using an effective method of birth control (double barrier or oral contraceptive) and have a negative pregnancy test - Disease duration less than five years",
+      "title": "Clinical Trial of Creatine in Amyotrophic Lateral Sclerosis [ALS]",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 255.98353168217167,
+      "cross_score": -5.5022783,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00753571::detailed_description::0",
+      "doc_id": "NCT00753571",
+      "section": "detailed_description",
+      "passage_text": "This study will examine the effectiveness of Cistanche Total Glycosides(CTG) in treating patients with amyotrophic lateral sclerosis (ALS) - a fatal neurological degenerative disease that causes adult-onset, progressive motor neurons loss in the spinal cord, brain stem and motor cortex. Patients develop progressive wasting and weakness of both upper and lower limbs, bulbar and respiratory muscles. Usually death from respiratory failure typically is within 3-5 years of diagnosis. Although there are various treatments for ALS, riluzole is the only approved treatment to delay the disease progression. Cistanche Total Glycosides is an approved drug that has protective effects. It acts anti-apoptosis by activating several protective pathways, stimulates neuronal differentiation of adult neural stem cells in the brain, and improves long-term recovery. CTG is a highly attractive candidate for the treatment of neurodegenerative conditions such as ALS. Patients 18 to 65 years of age who have had mild to moderately severe ALS for 0.5 to 2 years of duration may be eligible for this study.",
+      "title": "Cistanche Total Glycosides for Amyotrophic Lateral Sclerosis: A Randomized Control Trial (RCT) Study Assessing Clinical Response",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 264.65831174156415,
+      "cross_score": -5.6184554,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00838617::detailed_description::1",
+      "doc_id": "NCT00838617",
+      "section": "detailed_description",
+      "passage_text": "Median survival from diagnosis is less than 3 years. There is only one drug approved to treat ALS, riluzole, and its effects to limit the progression of the illness are slight (6). Current study designs often use a primary endpoint of either death from ALS or initiation of long-term mechanical ventilation (LTMV). There are other tools to assess progression, which can include a questionnaire called the ALS functional rating scale (ALS-FRS), a direct measurement of strength, or an electromyography technique called motor unit number estimate (MUNE). Each has potential drawbacks, which include potential lack of objectivity in questionnaire and variable effort when assessing direct strength measurements. There has also been work to correlate magnetic resonance spectroscopy findings to progression in ALS, with some positive results (3). However, this technology is expensive, time consuming, and not widely available. Muscle ultrasound may be sensitive enough to quantitatively detect changes in muscle thickness (4), which may serve as an objective tool to measure disease progression, for the purpose of clinical trials.",
+      "title": "Muscle Ultrasound: A New Tool for Measuring Progression in Amyotrophic Lateral Sclerosis (ALS)",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 255.93766029590105,
+      "cross_score": -5.6582465,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials listed. Your condition aligns with ALS, but the specific trials mentioned require a documented diagnosis of GNE myopathy, HIBM, DMRV, or Nonaka disease, which does not match your case.\",\n  \"supported_patient_facts\": [\"you have a diagnosis of ALS\", \"you are 47 years old\", \"you have a documented diagnosis of ALS\"],\n  \"missing_patient_facts\": [\"your diagnosis specifically matches one of the diseases listed in the inclusion criteria\", \"you have a documented score of 24 points or more on the upper limbs of GNEM-FAS and a disease period of 5 years or more and 15 years or less\"],\n  \"unresolved_study_requirements\": [\"the inclusion criteria for the trials do not match your diagnosis of ALS\", \"there is no mention of your upper limb muscle weakness being confirmed through manual muscle testing or grip strength measurements\"],\n  \"reasoning_summary\": \"Your case does not fit the inclusion criteria of the trials listed, as they require a specific diagnosis (GNE myopathy, HIBM, DMRV, or Nonaka disease) rather than ALS. Additionally, the required documentation of upper limb muscle weakness is not provided.\",\n  \"safety_note\": \"Please consult with your healthcare provider for further guidance on your condition and potential clinical trials.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials listed. Your condition aligns with ALS, but the specific trials mentioned require a documented diagnosis of GNE myopathy, HIBM, DMRV, or Nonaka disease, which does not match your case.",
+    "supported_patient_facts": [
+      "you have a diagnosis of ALS",
+      "you are 47 years old",
+      "you have a documented diagnosis of ALS"
+    ],
+    "missing_patient_facts": [
+      "your diagnosis specifically matches one of the diseases listed in the inclusion criteria",
+      "you have a documented score of 24 points or more on the upper limbs of GNEM-FAS and a disease period of 5 years or more and 15 years or less"
+    ],
+    "unresolved_study_requirements": [
+      "the inclusion criteria for the trials do not match your diagnosis of ALS",
+      "there is no mention of your upper limb muscle weakness being confirmed through manual muscle testing or grip strength measurements"
+    ],
+    "reasoning_summary": "Your case does not fit the inclusion criteria of the trials listed, as they require a specific diagnosis (GNE myopathy, HIBM, DMRV, or Nonaka disease) rather than ALS. Additionally, the required documentation of upper limb muscle weakness is not provided.",
+    "safety_note": "Please consult with your healthcare provider for further guidance on your condition and potential clinical trials."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials listed. Your condition aligns with ALS, but the specific trials mentioned require a documented diagnosis of GNE myopathy, HIBM, DMRV, or Nonaka disease, which does not match your case.",
+  "missing_patient_facts": [
+    "your diagnosis specifically matches one of the diseases listed in the inclusion criteria",
+    "you have a documented score of 24 points or more on the upper limbs of GNEM-FAS and a disease period of 5 years or more and 15 years or less"
+  ],
+  "unresolved_study_requirements": [
+    "the inclusion criteria for the trials do not match your diagnosis of ALS",
+    "there is no mention of your upper limb muscle weakness being confirmed through manual muscle testing or grip strength measurements"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.41
+}

@@ -1,0 +1,91 @@
+{
+  "case_id": "case_trec2022_045",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00314431",
+  "reference_trial": "NCT00314431",
+  "evidence_trials": [
+    "NCT00314431"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 15-week-old infant brought to the clinic for the follow up. The infant has flat facies, small ears, a single palmar crease, and upward slanting eyes. He was born on 39th week to a 39-year-old woman who didn't have prenatal care. The medical record confirms the trisomy of chromosome 21 (Down syndrome). The infant is otherwise healthy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00314431 | section=detailed_description]\nMETHODS Study design A randomized equivalence trial was designed to compare community-based follow up with medical-center based follow up. The primary outcome was assessed at one year adjusted age. Study participants Infants were recruited in five neonatal intensive care units in northwest North CArolina. These were the only sites providing neonatal intensive care in a twenty-county region in northwest North Carolina. Infants were born between March 1996 and September 1999. Infants were eligible for the study if they were born before 33 weeks gestational age, required supplemental oxygen at 36 weeks gestational age, and were discharged home after neonatal intensive care. Neonates who had major congenital anomalies and/ or had tracheostomy tubes were excluded. Also excluded were families in which the mother did not speak English, because the intervention depended on verbal communication with the nurse specialist, and families who lived more than 150 miles from our clinic because such families typically are referred to regional neonatal center closer to their home.\n\n[Passage 2 | doc=NCT00314431 | section=summary]\nBased on success with telephone follow up for other groups of medically fragile infants, we designed an innovative model of post-hospital comprehensive and coordinated follow-up for infants with chronic lung disease. In this model, which we refer to as community-based follow-up, medical management was coordinated by a nurse specialist, through frequent telephone contacts with the infants' primary caregiver. This model of follow up care was compared, in a randomized trial, with the more traditional model - multidisciplinary medical center-based care. We hypothesized that community-based care would lead to health and developmental outcomes similar to those observed with center-based care.\n\n[Passage 3 | doc=NCT00314431 | section=detailed_description]\nMedical center-based follow up For infants who were discharged home on supplemental oxygen, the nurse specialist made a home visit 1 to 2 weeks after discharge. During this visit, the nurse specialist obtained interim medical history, performed physical assessment including pulse oximetry and body weight, reviewed discharge instructions regarding medication dosage and use of durable medical equipment, and answered caregiver's questions about the infant's care. If the nurse specialist had concerns about the medical condition of the infant, she made changes to the plan of care after consultation with the study neonatologist. All infants assigned to the center-based care group were seen in the regional, high-risk infant multidisciplinary clinic at Wake Forest University School of Medicine. The first clinic visit occurred approximately one month after their discharge. A multidisciplinary team consisting of the social worker, the nurse specialist and the neonatologist obtained detailed interim medical history (feeding, respiratory status, medication history, illnesses and health-services utilization) and performed a complete physical examination.",
+  "passages": [
+    {
+      "passage_id": "NCT00314431::detailed_description::0",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "METHODS Study design A randomized equivalence trial was designed to compare community-based follow up with medical-center based follow up. The primary outcome was assessed at one year adjusted age. Study participants Infants were recruited in five neonatal intensive care units in northwest North CArolina. These were the only sites providing neonatal intensive care in a twenty-county region in northwest North Carolina. Infants were born between March 1996 and September 1999. Infants were eligible for the study if they were born before 33 weeks gestational age, required supplemental oxygen at 36 weeks gestational age, and were discharged home after neonatal intensive care. Neonates who had major congenital anomalies and/ or had tracheostomy tubes were excluded. Also excluded were families in which the mother did not speak English, because the intervention depended on verbal communication with the nurse specialist, and families who lived more than 150 miles from our clinic because such families typically are referred to regional neonatal center closer to their home.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 172.17631174116286,
+      "cross_score": -0.67749137,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00314431::summary::0",
+      "doc_id": "NCT00314431",
+      "section": "summary",
+      "passage_text": "Based on success with telephone follow up for other groups of medically fragile infants, we designed an innovative model of post-hospital comprehensive and coordinated follow-up for infants with chronic lung disease. In this model, which we refer to as community-based follow-up, medical management was coordinated by a nurse specialist, through frequent telephone contacts with the infants' primary caregiver. This model of follow up care was compared, in a randomized trial, with the more traditional model - multidisciplinary medical center-based care. We hypothesized that community-based care would lead to health and developmental outcomes similar to those observed with center-based care.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 172.17631174116286,
+      "cross_score": -2.3008695,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00314431::detailed_description::3",
+      "doc_id": "NCT00314431",
+      "section": "detailed_description",
+      "passage_text": "Medical center-based follow up For infants who were discharged home on supplemental oxygen, the nurse specialist made a home visit 1 to 2 weeks after discharge. During this visit, the nurse specialist obtained interim medical history, performed physical assessment including pulse oximetry and body weight, reviewed discharge instructions regarding medication dosage and use of durable medical equipment, and answered caregiver's questions about the infant's care. If the nurse specialist had concerns about the medical condition of the infant, she made changes to the plan of care after consultation with the study neonatologist. All infants assigned to the center-based care group were seen in the regional, high-risk infant multidisciplinary clinic at Wake Forest University School of Medicine. The first clinic visit occurred approximately one month after their discharge. A multidisciplinary team consisting of the social worker, the nurse specialist and the neonatologist obtained detailed interim medical history (feeding, respiratory status, medication history, illnesses and health-services utilization) and performed a complete physical examination.",
+      "title": "Post-hospitalization Nursing Effectiveness (PHONE) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 172.17631174116286,
+      "cross_score": -3.9352243,
+      "passage_rank": 3
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your child seems to fit some of the criteria for the study, but we need more information to be sure. Please check back soon.\",\n  \"supported_patient_facts\": [\"infant has Down syndrome\", \"infant was born preterm (before 33 weeks gestational age)\", \"infant was discharged home after neonatal intensive care\", \"infant is otherwise healthy\"],\n  \"missing_patient_facts\": [\"infant's specific birth weight\", \"infant's current medical condition\", \"infant's ability to communicate verbally\"],\n  \"unresolved_study_requirements\": [\"infant does not have major congenital anomalies\", \"infant's mother speaks English\", \"infant lives within 150 miles of the clinic\"],\n  \"reasoning_summary\": \"The infant meets the criteria for being born preterm and discharged home after neonatal intensive care, which aligns with the study's eligibility criteria. However, we need to confirm the absence of major congenital anomalies, the mother's ability to speak English, and the infant's proximity to the clinic to finalize the eligibility.\",\n  \"safety_note\": \"Please ensure your child receives appropriate care and follow-up as per the medical record.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your child seems to fit some of the criteria for the study, but we need more information to be sure. Please check back soon.",
+    "supported_patient_facts": [
+      "infant has Down syndrome",
+      "infant was born preterm (before 33 weeks gestational age)",
+      "infant was discharged home after neonatal intensive care",
+      "infant is otherwise healthy"
+    ],
+    "missing_patient_facts": [
+      "infant's specific birth weight",
+      "infant's current medical condition",
+      "infant's ability to communicate verbally"
+    ],
+    "unresolved_study_requirements": [
+      "infant does not have major congenital anomalies",
+      "infant's mother speaks English",
+      "infant lives within 150 miles of the clinic"
+    ],
+    "reasoning_summary": "The infant meets the criteria for being born preterm and discharged home after neonatal intensive care, which aligns with the study's eligibility criteria. However, we need to confirm the absence of major congenital anomalies, the mother's ability to speak English, and the infant's proximity to the clinic to finalize the eligibility.",
+    "safety_note": "Please ensure your child receives appropriate care and follow-up as per the medical record."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your child seems to fit some of the criteria for the study, but we need more information to be sure. Please check back soon.",
+  "missing_patient_facts": [
+    "infant's specific birth weight",
+    "infant's current medical condition",
+    "infant's ability to communicate verbally"
+  ],
+  "unresolved_study_requirements": [
+    "infant does not have major congenital anomalies",
+    "infant's mother speaks English",
+    "infant lives within 150 miles of the clinic"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.62
+}

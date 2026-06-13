@@ -1,0 +1,124 @@
+{
+  "case_id": "case_06",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02984384",
+  "reference_trial": "NCT02984384",
+  "evidence_trials": [
+    "NCT01975467",
+    "NCT02040103",
+    "NCT02411227",
+    "NCT02984384",
+    "NCT03997682"
+  ],
+  "question": "I think I meet the age and fracture requirements, but I take blood thinners. Would that matter for eligibility?",
+  "evidence": "[Passage 1 | doc=NCT02984384 | section=eligibility]\nExclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.\n\n[Passage 2 | doc=NCT01975467 | section=eligibility]\nInclusion Criteria: - A displaced transverse or oblique midshaft clavicle fracture with or without comminution - Must be 12 \u00b1 2 months to 36 \u00b1 2 months post-treatment - Must have received nonoperative treatment or operative treatment with a CRx\u2122 device, no other devices, for their clavicle fracture - Male or female at least 18 years of age - Able to understand the requirements of the study, provide a written informed consent and comply with the study protocol - Ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: - Open, or segmental clavicle fracture - Any clavicle or upper extremity fracture previous, concurrent, or subsequent to the study fracture - Removal of the CRx\u2122 device within 8 weeks of the study visit - History of alcoholism - Currently on chemotherapy or radiation therapy - Habitual use of narcotic pain medications prior to injury or after injury for reasons other than clavicle pain - Currently on worker's compensation - History of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis - Rheumatoid arthritis or other inflammatory arthropathies.\n\n[Passage 3 | doc=NCT02411227 | section=eligibility]\n- INCLUSION CRITERIA: Subjects eligible for participation must meet the following criteria: 1. Currently has a valid driver s license, or had a valid driver s license prior to injury 2. 18 years of age or older 3. Able to effectively manipulate the steering wheel and the gas/brake pedals without adaptive equipment 4. Able to read, write, and speak in English 5. History of traumatic brain injury greater than 12 weeks prior to initiation into the current study 6. Able to provide informed consent 7. NBSI score greater than or equal to 16 (Mild TBI sub-group only) EXCLUSION CRITERIA: Subjects are not eligible for participation if any of the following conditions exist: 1. Risk for injury from the MRI magnet, including: - Pacemakers or other implanted electrical devices. - Brain stimulators. - Some types of dental implants. - Aneurysm clips (metal clips on the wall of a large artery). - Metallic prostheses (including metal pins and rods, heart valves, and cochlear implants). - Permanent eyeliner (other non-metallic tattoos are permissible). - Implanted delivery pump. - Shrapnel fragments.\n\n[Passage 4 | doc=NCT03997682 | section=summary]\nOsteoporosis is a bone disease that increases the risk of fractures. People aged 50-65 diagnosed with osteoporosis feel too young to have the disease. But this happens. They need to learn how to modify their lifestyle to minimize the chances of fractures. In this age group, a wrist fracture is usually the first sign of osteoporosis. Fracture risk increases if they are not taught to exercise, eat properly, and identifies fall risk factors early in their diagnosis. Some studies have looked at interventions for osteoporosis in women over the age of 65, but by this age they have likely already had a spine fracture. No studies have addressed the early-onset osteoporosis age group, intervening before spine fractures occur. I will develop an exercise, nutrition, and falls prevention education program to improve the strength, balance and knowledge of people aged 50-65 who had an osteoporotic wrist fracture. I will use this treatment approach and determine if it is more effective than the usual way of treating people with wrist fractures, determining if this is a better strategy for managing osteoporosis. I will have two groups of patients. First, those, over six weeks, receive twice weekly classes that include exercise and education. Here the focus is on bone health and fracture prevention. The control will receive usual physical therapy and the educational materials at the end of their study participation. The treatment will be randomly allocated to 74 men and women between the ages of 50-65 years of age who are 6-10 weeks post-fracture. The outcomes on both groups will be assessed and compared. I will focus on hand function, balance, fall hazard detection, and a bone health behaviour checklist. Using these outcomes, I can determine which treatment approach works best. Osteoporosis affects one in three women and one in five men, making this an important study to improve the lives for many Canadians. The risk of osteoporosis fractures increases with age, making early interventions critical.\n\n[Passage 5 | doc=NCT03997682 | section=eligibility]\nInclusion Criteria: - Patient attending the Roth | McFarlane Hand and Upper Limb Clinic (HULC) - Patients that have had a low-impact distal radius fracture (DRF) within the last 6-10 weeks - Aged 50-65 - Able to speak and understand English - Are able to provide informed consent Exclusion Criteria: - Any contraindications to exercise - Progressive neurological disorders that would affect study participation - Unable to stand or walk independently - Unable to provide consent\n\n[Passage 6 | doc=NCT02040103 | section=summary]\nPatients admitted to the intensive care unit are at high risk of developing clots in the veins of the lower extremities. The objective of this study is to examine whether the use of a device that provides intermittent compression to the legs in addition to the use of low-dose blood thinners, provides an additional protection when compared to the use of blood thinners alone. Patients who are admitted to the intensive care unit are receiving low-dose blood thinners to prevent clots are candidates for this study. Patients who are enrolled will continue to receive blood thinners but some will additionally receive the leg compression. The additional use of leg compression may provide protection from clots. The main side effect is possible skin abrasions but this is usually mild. The study is sponsored by King Abdullah International Medical Research Center(KAIMRC) and King Abdulaziz City for Science and Technology(KACST) and will be conducted in several hospitals in Saudi Arabia, Canada, Australia, Brazil and possibly other countries. The study started July 2014 and is to continue for 4 years.",
+  "passages": [
+    {
+      "passage_id": "NCT02984384::eligibility::1",
+      "doc_id": "NCT02984384",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - Patients who present to the hospital more than 48 hours post injury - Patients who received more than 2 doses of LMWH or aspirin for initial VTE prophylaxis - Patients on long term blood thinners (other than low-dose aspirin or platelet inhibitors such as Plavix or Aggrenox) - Patients who have had a VTE within the last 6 months - Patients on therapeutic (as opposed to prophylactic) blood thinners for an acute issue at the time of admission - Patients who have a newly diagnosed indication for therapeutic blood thinners (for example vascular injury) that will require therapeutic anticoagulation for more than one week - Patients who cannot receive either of the study medications due to an allergy (history of heparin induced thrombocytopenia, allergy to aspirin, or NSAIDs) or other medical contraindication to blood thinners - Patients who are on higher dose aspirin (>81 mg once a day or higher) for medical reasons or who will be treated with higher dose aspirin - Patients with underlying chronic clotting disorders (i.e.",
+      "title": "PREVENTion of Clot in Orthopaedic Trauma",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 49.78438347612642,
+      "cross_score": -5.3964386,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01975467::eligibility::0",
+      "doc_id": "NCT01975467",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - A displaced transverse or oblique midshaft clavicle fracture with or without comminution - Must be 12 \u00b1 2 months to 36 \u00b1 2 months post-treatment - Must have received nonoperative treatment or operative treatment with a CRx\u2122 device, no other devices, for their clavicle fracture - Male or female at least 18 years of age - Able to understand the requirements of the study, provide a written informed consent and comply with the study protocol - Ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: - Open, or segmental clavicle fracture - Any clavicle or upper extremity fracture previous, concurrent, or subsequent to the study fracture - Removal of the CRx\u2122 device within 8 weeks of the study visit - History of alcoholism - Currently on chemotherapy or radiation therapy - Habitual use of narcotic pain medications prior to injury or after injury for reasons other than clavicle pain - Currently on worker's compensation - History of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis - Rheumatoid arthritis or other inflammatory arthropathies.",
+      "title": "Post Treatment Comparison Intramedullary Nail vs. Nonoperative Treatment",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 44.14027680877421,
+      "cross_score": -5.4564915,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02411227::eligibility::0",
+      "doc_id": "NCT02411227",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA: Subjects eligible for participation must meet the following criteria: 1. Currently has a valid driver s license, or had a valid driver s license prior to injury 2. 18 years of age or older 3. Able to effectively manipulate the steering wheel and the gas/brake pedals without adaptive equipment 4. Able to read, write, and speak in English 5. History of traumatic brain injury greater than 12 weeks prior to initiation into the current study 6. Able to provide informed consent 7. NBSI score greater than or equal to 16 (Mild TBI sub-group only) EXCLUSION CRITERIA: Subjects are not eligible for participation if any of the following conditions exist: 1. Risk for injury from the MRI magnet, including: - Pacemakers or other implanted electrical devices. - Brain stimulators. - Some types of dental implants. - Aneurysm clips (metal clips on the wall of a large artery). - Metallic prostheses (including metal pins and rods, heart valves, and cochlear implants). - Permanent eyeliner (other non-metallic tattoos are permissible). - Implanted delivery pump. - Shrapnel fragments.",
+      "title": "Neurocognitive Driving Rehabilitation in Virtual Environments (NeuroDRIVE) as an Adjunctive Intervention for Traumatic Brain Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 45.45844942377115,
+      "cross_score": -6.3261833,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03997682::summary::0",
+      "doc_id": "NCT03997682",
+      "section": "summary",
+      "passage_text": "Osteoporosis is a bone disease that increases the risk of fractures. People aged 50-65 diagnosed with osteoporosis feel too young to have the disease. But this happens. They need to learn how to modify their lifestyle to minimize the chances of fractures. In this age group, a wrist fracture is usually the first sign of osteoporosis. Fracture risk increases if they are not taught to exercise, eat properly, and identifies fall risk factors early in their diagnosis. Some studies have looked at interventions for osteoporosis in women over the age of 65, but by this age they have likely already had a spine fracture. No studies have addressed the early-onset osteoporosis age group, intervening before spine fractures occur. I will develop an exercise, nutrition, and falls prevention education program to improve the strength, balance and knowledge of people aged 50-65 who had an osteoporotic wrist fracture. I will use this treatment approach and determine if it is more effective than the usual way of treating people with wrist fractures, determining if this is a better strategy for managing osteoporosis. I will have two groups of patients. First, those, over six weeks, receive twice weekly classes that include exercise and education. Here the focus is on bone health and fracture prevention. The control will receive usual physical therapy and the educational materials at the end of their study participation. The treatment will be randomly allocated to 74 men and women between the ages of 50-65 years of age who are 6-10 weeks post-fracture. The outcomes on both groups will be assessed and compared. I will focus on hand function, balance, fall hazard detection, and a bone health behaviour checklist. Using these outcomes, I can determine which treatment approach works best. Osteoporosis affects one in three women and one in five men, making this an important study to improve the lives for many Canadians. The risk of osteoporosis fractures increases with age, making early interventions critical.",
+      "title": "Hands-Up: Exercise and Education Program After a Wrist Fracture",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 45.93850451155682,
+      "cross_score": -6.379272,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03997682::eligibility::0",
+      "doc_id": "NCT03997682",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient attending the Roth | McFarlane Hand and Upper Limb Clinic (HULC) - Patients that have had a low-impact distal radius fracture (DRF) within the last 6-10 weeks - Aged 50-65 - Able to speak and understand English - Are able to provide informed consent Exclusion Criteria: - Any contraindications to exercise - Progressive neurological disorders that would affect study participation - Unable to stand or walk independently - Unable to provide consent",
+      "title": "Hands-Up: Exercise and Education Program After a Wrist Fracture",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 45.93850451155682,
+      "cross_score": -6.5400014,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02040103::summary::0",
+      "doc_id": "NCT02040103",
+      "section": "summary",
+      "passage_text": "Patients admitted to the intensive care unit are at high risk of developing clots in the veins of the lower extremities. The objective of this study is to examine whether the use of a device that provides intermittent compression to the legs in addition to the use of low-dose blood thinners, provides an additional protection when compared to the use of blood thinners alone. Patients who are admitted to the intensive care unit are receiving low-dose blood thinners to prevent clots are candidates for this study. Patients who are enrolled will continue to receive blood thinners but some will additionally receive the leg compression. The additional use of leg compression may provide protection from clots. The main side effect is possible skin abrasions but this is usually mild. The study is sponsored by King Abdullah International Medical Research Center(KAIMRC) and King Abdulaziz City for Science and Technology(KACST) and will be conducted in several hospitals in Saudi Arabia, Canada, Australia, Brazil and possibly other countries. The study started July 2014 and is to continue for 4 years.",
+      "title": "Pneumatic Compression for Preventing Venous Thromboembolism",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.00977145394565,
+      "cross_score": -7.072578,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"It seems you might be eligible based on your age and fracture type, but we need to check if you're taking blood thinners as prescribed and if there are any specific concerns about them.\",\n  \"supported_patient_facts\": [\"you are 18 years of age or older\", \"you have a displaced transverse or oblique midshaft clavicle fracture\", \"you are taking blood thinners\"],\n  \"missing_patient_facts\": [\"the type of blood thinners you are taking\", \"if there are any specific contraindications for the study\"],\n  \"unresolved_study_requirements\": [\"we need to confirm if the blood thinners you are taking are considered long-term and if they are not contraindicated for the study\"],\n  \"reasoning_summary\": \"Your age and fracture type align with the inclusion criteria. However, the presence of blood thinners complicates the eligibility, especially since the exclusion criteria mention patients on long-term blood thinners. We need to verify the specifics of your blood thinner regimen to proceed.\",\n  \"safety_note\": \"Please let us know if you have any concerns about the blood thinners you are taking and if they could pose a risk during the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "It seems you might be eligible based on your age and fracture type, but we need to check if you're taking blood thinners as prescribed and if there are any specific concerns about them.",
+    "supported_patient_facts": [
+      "you are 18 years of age or older",
+      "you have a displaced transverse or oblique midshaft clavicle fracture",
+      "you are taking blood thinners"
+    ],
+    "missing_patient_facts": [
+      "the type of blood thinners you are taking",
+      "if there are any specific contraindications for the study"
+    ],
+    "unresolved_study_requirements": [
+      "we need to confirm if the blood thinners you are taking are considered long-term and if they are not contraindicated for the study"
+    ],
+    "reasoning_summary": "Your age and fracture type align with the inclusion criteria. However, the presence of blood thinners complicates the eligibility, especially since the exclusion criteria mention patients on long-term blood thinners. We need to verify the specifics of your blood thinner regimen to proceed.",
+    "safety_note": "Please let us know if you have any concerns about the blood thinners you are taking and if they could pose a risk during the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "It seems you might be eligible based on your age and fracture type, but we need to check if you're taking blood thinners as prescribed and if there are any specific concerns about them.",
+  "missing_patient_facts": [
+    "the type of blood thinners you are taking",
+    "if there are any specific contraindications for the study"
+  ],
+  "unresolved_study_requirements": [
+    "we need to confirm if the blood thinners you are taking are considered long-term and if they are not contraindicated for the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.874
+}

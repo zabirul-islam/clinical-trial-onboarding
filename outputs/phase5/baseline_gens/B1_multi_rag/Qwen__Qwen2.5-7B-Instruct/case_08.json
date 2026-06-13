@@ -1,0 +1,117 @@
+{
+  "case_id": "case_08",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01737242",
+  "reference_trial": "NCT01737242",
+  "evidence_trials": [
+    "NCT00682994",
+    "NCT01737242",
+    "NCT01997359",
+    "NCT04542538"
+  ],
+  "question": "What parts of joining this study are still unclear from the available information?",
+  "evidence": "[Passage 1 | doc=NCT01737242 | section=detailed_description]\nThose patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).\n\n[Passage 2 | doc=NCT00682994 | section=detailed_description]\nConfidentiality: Your interview and questionnaire responses will only be used for this research study, and will not be shared with your family member. Length of Study Participation: After completing the interview and questionnaires, your participation in this study will be over. This is an investigational study. In total, up to 900 patients and family members will take part in this multicenter study. Up to 300 will be enrolled at M. D. Anderson.\n\n[Passage 3 | doc=NCT01997359 | section=detailed_description]\nBackground: Although HIV care and treatment programs are being scaled up in sub-Saharan Africa, more than 50% of the patients in need of ART are not receiving it and there is still significant mortality from AIDS. One of the major challenges is high rates of late ART initiation (i.e., in the advanced stages of HIV disease) which results in high rates of mortality soon after initiation of ART. The individual-level factors that contribute to late ART initiation are still unclear. Objective: As the 3rd part of a 3-phase NIH-sponsored project, this study aims to identify individual-level enablers and barriers to timely enrollment into HIV care and ART initiation. Methods: We will be recruiting all patients newly initiating ART at the study sites for descriptive analysis (approximately 1,200). As a sub-analysis, we will be utilizing a case-control approach to examine potential individual risk factors (e.g.\n\n[Passage 4 | doc=NCT00682994 | section=detailed_description]\n(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).\n\n[Passage 5 | doc=NCT04542538 | section=detailed_description]\nThe Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring ICU-care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish ARDS-cohort.\n\n[Passage 6 | doc=NCT04542538 | section=summary]\nThe Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring intensive care unit (ICU) -care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish adult respiratory distress syndrome (ARDS) -cohort.",
+  "passages": [
+    {
+      "passage_id": "NCT01737242::detailed_description::2",
+      "doc_id": "NCT01737242",
+      "section": "detailed_description",
+      "passage_text": "Those patients who are still living who have previously taken part in the study from 1992 until the present and who have not taken part in the environmental questionnaire part of the study will be invited to take part in this part of the study. New consent will be obtained for this. 2. The Study at Collaborative Centres throughout the UK. Many of these are via the NCRN network. This is conducted as for the Study at The Royal Marsden except the study is explained verbally and then if the patient is interested, their details are given to the study office by confidential fax and the study office sends the patient an information sheet and consent form. Furthermore, the only groups of patients eligible for this part of the study are (a) men with PrCa presenting at a young age (\u2264 60 years) or (b) PrCa in first-degree related pairs where one is \u2264 65 years at diagnosis or (c) a total of 3 or more relatives with PrCa at any age The two parts (1) and (2) are now called the UKGPCS (UK Genetic Prostate Cancer Study).",
+      "title": "UK Genetic Prostate Cancer Study: Epidemiology and Molecular Genetics Studies",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 46.62073684316476,
+      "cross_score": 0.17289557,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00682994::detailed_description::3",
+      "doc_id": "NCT00682994",
+      "section": "detailed_description",
+      "passage_text": "Confidentiality: Your interview and questionnaire responses will only be used for this research study, and will not be shared with your family member. Length of Study Participation: After completing the interview and questionnaires, your participation in this study will be over. This is an investigational study. In total, up to 900 patients and family members will take part in this multicenter study. Up to 300 will be enrolled at M. D. Anderson.",
+      "title": "Patient and Family Decision Making in the Palliative Care Setting",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 48.55694602436256,
+      "cross_score": -2.3354201,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01997359::detailed_description::0",
+      "doc_id": "NCT01997359",
+      "section": "detailed_description",
+      "passage_text": "Background: Although HIV care and treatment programs are being scaled up in sub-Saharan Africa, more than 50% of the patients in need of ART are not receiving it and there is still significant mortality from AIDS. One of the major challenges is high rates of late ART initiation (i.e., in the advanced stages of HIV disease) which results in high rates of mortality soon after initiation of ART. The individual-level factors that contribute to late ART initiation are still unclear. Objective: As the 3rd part of a 3-phase NIH-sponsored project, this study aims to identify individual-level enablers and barriers to timely enrollment into HIV care and ART initiation. Methods: We will be recruiting all patients newly initiating ART at the study sites for descriptive analysis (approximately 1,200). As a sub-analysis, we will be utilizing a case-control approach to examine potential individual risk factors (e.g.",
+      "title": "Multi-level Determinants of Starting ART Late: Aim 3",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 47.880826528217696,
+      "cross_score": -2.5294547,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00682994::detailed_description::1",
+      "doc_id": "NCT00682994",
+      "section": "detailed_description",
+      "passage_text": "(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).",
+      "title": "Patient and Family Decision Making in the Palliative Care Setting",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 48.55694602436256,
+      "cross_score": -2.7862217,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04542538::detailed_description::0",
+      "doc_id": "NCT04542538",
+      "section": "detailed_description",
+      "passage_text": "The Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring ICU-care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish ARDS-cohort.",
+      "title": "The Impact of Premorbid Illnesses on the Risk of ICU Admission and Short-term Outcome",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.70499394148942,
+      "cross_score": -3.1653376,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04542538::summary::0",
+      "doc_id": "NCT04542538",
+      "section": "summary",
+      "passage_text": "The Corona virus disease 2019 (COVID-19) pandemic is currently involving all parts of the world. Several risk factors for critical illness and death from the disease have been proposed. However, it is still unclear if the observed associations between different comorbidities and chronic medications and severe COVID-19 disease and mortality is different from associations between the same factors and other severe diseases requiring intensive care unit (ICU) -care. This is important since some of the observed risk factors are very common in the aged who, by age alone, are more prone to a more severe course of any disease. By combining several registries, this study will compare, on several comorbidities such as hypertension and diabetes , the first 2000 cases of COVID-19 patients receiving critical care in Sweden to a Swedish sepsis-cohort and a Swedish adult respiratory distress syndrome (ARDS) -cohort.",
+      "title": "The Impact of Premorbid Illnesses on the Risk of ICU Admission and Short-term Outcome",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.70499394148942,
+      "cross_score": -3.2904556,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"There are some parts of joining this study that are still unclear based on the available information. Please provide more details so we can clarify.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Age and family history of prostate cancer\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Eligibility based on specific criteria (young age, first-degree related pairs, multiple relatives with prostate cancer)\"\n  ],\n  \"reasoning_summary\": \"The patient's eligibility for the study is unclear due to the need for specific age and family history criteria. More detailed information is required to determine if the patient meets these criteria.\",\n  \"safety_note\": \"Please ensure all safety rules are followed during the onboarding process.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "There are some parts of joining this study that are still unclear based on the available information. Please provide more details so we can clarify.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Age and family history of prostate cancer"
+    ],
+    "unresolved_study_requirements": [
+      "Eligibility based on specific criteria (young age, first-degree related pairs, multiple relatives with prostate cancer)"
+    ],
+    "reasoning_summary": "The patient's eligibility for the study is unclear due to the need for specific age and family history criteria. More detailed information is required to determine if the patient meets these criteria.",
+    "safety_note": "Please ensure all safety rules are followed during the onboarding process."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "There are some parts of joining this study that are still unclear based on the available information. Please provide more details so we can clarify.",
+  "missing_patient_facts": [
+    "Age and family history of prostate cancer"
+  ],
+  "unresolved_study_requirements": [
+    "Eligibility based on specific criteria (young age, first-degree related pairs, multiple relatives with prostate cancer)"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.629
+}

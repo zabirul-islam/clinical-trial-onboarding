@@ -1,0 +1,126 @@
+{
+  "case_id": "case_trec2021_059",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001909",
+  "selected_doc": "NCT01634113",
+  "reference_trial": "NCT01634113",
+  "evidence_trials": [
+    "NCT00819676",
+    "NCT01287065",
+    "NCT01634113",
+    "NCT02869958"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 15-year-old boy with asthma diagnosed a year ago. He presents with shortness of breath, chest tightening and cough. According to his mother, he didn't respond to the usual corticosteroid inhaler. He was admitted to the emergency department with diagnosis of severe asthma exacerbation. He is a candidate for general corticosteroid therapy. Spirometry revealed a forced expiratory volume in the first second (FEV1) of 60% of the predicted. His past medical history is non-significant. His family history is significant for asthma in his mother and his uncle. He used to be treated with combination of inhaled corticosteroids and Zafirlukast. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01634113 | section=eligibility]\nInclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.\n\n[Passage 2 | doc=NCT00819676 | section=eligibility]\nInclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.\n\n[Passage 3 | doc=NCT00819676 | section=eligibility]\n- Patient has a diagnosis of asthma as defined by 1) an increase in FEV1 or PEF of \u226512% (absolute value), 20 to 30 minutes after inhaled \u03b2-agonist administration, OR 2) a positive methacholine PC20 (provocative concentration causing a 20% fall in FEV1) of 8 mg/ml or lower which was performed within the previous 12 months, OR 3) a fall in FEV1 of at least 15% after an exercise challenge which was performed within the previous 12 months. \u03b2-agonist reversibility and the methacholine and exercise challenge tests may be satisfied within the previous 12 months if there is adequate source documentation. - Patients demonstrate symptoms requiring \u03b2-agonist use on \u22652 and \u22646 days of the week for the previous two weeks. - Patient is able to chew a tablet. - Patient is judged to be in good, stable physical and mental health (except for his/her asthma) based on the medical history, physical examination, and routine laboratory data, and appears able to successfully complete this trial. - Ability to perform reproducible spirometry. - Nonsmoker including no use of smokeless tobacco products in the past year.\n\n[Passage 4 | doc=NCT02869958 | section=eligibility]\nInclusion criteria : - children from 6 to 12 years or adults aged between 18 and 60 years - typical asthma with medical diagnosis - severe exacerbation (requiring \u2265 3 days of oral corticosteroids) during the previous 12 months - Internet connexion through a private (patient's or parents' patient's if child) smartphone and/or a tablet computer - no use of a written actin plan within the last 1 year - agreement to have phone calls or email contacts during the 1 year follow-up of the study - informed consent given, signed consent - affiliation to a social security Exclusion criteria : - atypical asthma: isolated cough, exercise respiratory discomfort - other respiratory disease (cystic fibrosis, COPD, etc.) - Severe heart disease (except high blood pressure) - smoking > 15 pack-years - asthma requiring regular oral corticosteroids treatment - asthma requiring inhaled controller treatment administered via nebulizations performed at home - no health insurance coverage - sister or brother already included in this study (applies only to children) - pregnancy and breastfeeding\n\n[Passage 5 | doc=NCT01287065 | section=eligibility]\nInclusion Criteria: - Subjects with a documented history of persistent asthma, with the exclusion of other significant pulmonary diseases. - Male or female between 18 and 70 years of age inclusive - A female subject is eligible to participate if she is of: - Non-childbearing potential. Females on hormone replacement therapy (HRT) and whose menopausal status is in doubt will be required to use one of the contraception methods if they wish to continue their HRT during the study. Otherwise, they must discontinue HRT to allow confirmation of postmenopausal status prior to study enrollment. - Child-bearing potential and agrees to use one of the protocol contraception methods. - All subjects must be using an inhaled corticosteroid (ICS), with or without a short-acting, beta2-receptor agonist (SABA), for at least 12 weeks prior to screening. - Subjects with a screening pre-bronchodilator FEV1 \u2265 60% of predicted. - During the screening visit, subjects must demonstrate the presence of reversible airway disease.\n\n[Passage 6 | doc=NCT01287065 | section=summary]\nThis study will be a repeat-dose, double-blind, randomized, placebo controlled, three-way crossover study in patients with persistent bronchial asthma to compare the effect of morning (AM) and evening (PM) dosing with fluticasone furoate (FF)/Vilanterol (VI) inhalation powder on lung function. Following screening there will be a run-in period of 14 days. There will be 3 treatment periods; drug at AM, drug at PM and placebo, which will last for 14 days each with a 14-21 day washout period between starting the next. Key assessments include; forced expiratory volume in one second (FEV1), peak expiratory flow (PEF), vital signs, electrocardiograms (ECGs), adverse event (AE) monitoring and laboratory safety tests.",
+  "passages": [
+    {
+      "passage_id": "NCT01634113::eligibility::0",
+      "doc_id": "NCT01634113",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria: 1. All patients' parents (or legal guardians) must sign and date an informed consent consistent with ICH-GCP guidelines and local legislation prior to participation in the trial. Where appropriate, participants should assent to enroll in the study. 2. Male or female patients between 1 and 5 years of age. 3. By a physician documented (at least 6 month) history of persistent asthma symptoms, including (but not limited to) wheezing, cough, and/or shortness of breath. (persistent = need for inhalation corticosteroid maintenance therapy to control asthma symptoms) 4. For patients aged 5 years and capable of performing technically acceptable Pulmonary Function tests (PFTs): documented impaired lung function (i.e. pre-bronchodilator Forced Expiratory Volume in 1 second (FEV1) is smaller or equal to 90% of predicted normal). 5. All patients must have been on maintenance treatment with an inhaled corticosteroid at stable dose, either as mono treatment or in combination with another controller medication, for at least 4 weeks before Visit 1. 6.",
+      "title": "Evaluation of Tiotropium 2.5 and 5 mcg Once Daily Delivered Via the Respimat\u00ae Inhaler Compared to Placebo in 1 to 5 Year Old Patients With Persistent Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 323.12420722430534,
+      "cross_score": -1.8302563,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::0",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient is male or female, at least 15 years of age and no more than 70 years. - Patient has mild persistent asthma (step 2) of the Guidelines for the Diagnosis and Management of Asthma issued by the National Heart, Lung, and Blood Institute of the National Institutes of Health as defined by a history of symptoms at least once a week but less than daily (step 2) (5). - Current asthma treatment includes short-acting inhaled \u03b2-agonist alone as needed. - Patient fulfils all the following signs and symptoms of asthma: - History of symptoms including, but not limited to dyspnea, wheezing, chest tightness, cough, or sputum production for at least 12 months. - A forced expiratory volume in one second (FEV1) of at least 80% of the predicted value (pre-bronchodilator) while withholding \u03b2-agonist for at least six hours.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 327.4706244533556,
+      "cross_score": -1.9178216,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00819676::eligibility::1",
+      "doc_id": "NCT00819676",
+      "section": "eligibility",
+      "passage_text": "- Patient has a diagnosis of asthma as defined by 1) an increase in FEV1 or PEF of \u226512% (absolute value), 20 to 30 minutes after inhaled \u03b2-agonist administration, OR 2) a positive methacholine PC20 (provocative concentration causing a 20% fall in FEV1) of 8 mg/ml or lower which was performed within the previous 12 months, OR 3) a fall in FEV1 of at least 15% after an exercise challenge which was performed within the previous 12 months. \u03b2-agonist reversibility and the methacholine and exercise challenge tests may be satisfied within the previous 12 months if there is adequate source documentation. - Patients demonstrate symptoms requiring \u03b2-agonist use on \u22652 and \u22646 days of the week for the previous two weeks. - Patient is able to chew a tablet. - Patient is judged to be in good, stable physical and mental health (except for his/her asthma) based on the medical history, physical examination, and routine laboratory data, and appears able to successfully complete this trial. - Ability to perform reproducible spirometry. - Nonsmoker including no use of smokeless tobacco products in the past year.",
+      "title": "Analysis of Exhaled Breath by Biosensors in Adults With Asthma",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 327.4706244533556,
+      "cross_score": -2.5536034,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02869958::eligibility::0",
+      "doc_id": "NCT02869958",
+      "section": "eligibility",
+      "passage_text": "Inclusion criteria : - children from 6 to 12 years or adults aged between 18 and 60 years - typical asthma with medical diagnosis - severe exacerbation (requiring \u2265 3 days of oral corticosteroids) during the previous 12 months - Internet connexion through a private (patient's or parents' patient's if child) smartphone and/or a tablet computer - no use of a written actin plan within the last 1 year - agreement to have phone calls or email contacts during the 1 year follow-up of the study - informed consent given, signed consent - affiliation to a social security Exclusion criteria : - atypical asthma: isolated cough, exercise respiratory discomfort - other respiratory disease (cystic fibrosis, COPD, etc.) - Severe heart disease (except high blood pressure) - smoking > 15 pack-years - asthma requiring regular oral corticosteroids treatment - asthma requiring inhaled controller treatment administered via nebulizations performed at home - no health insurance coverage - sister or brother already included in this study (applies only to children) - pregnancy and breastfeeding",
+      "title": "Digital Action Plan for Asthma Attacks",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 325.9419121141494,
+      "cross_score": -3.0839996,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01287065::eligibility::0",
+      "doc_id": "NCT01287065",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Subjects with a documented history of persistent asthma, with the exclusion of other significant pulmonary diseases. - Male or female between 18 and 70 years of age inclusive - A female subject is eligible to participate if she is of: - Non-childbearing potential. Females on hormone replacement therapy (HRT) and whose menopausal status is in doubt will be required to use one of the contraception methods if they wish to continue their HRT during the study. Otherwise, they must discontinue HRT to allow confirmation of postmenopausal status prior to study enrollment. - Child-bearing potential and agrees to use one of the protocol contraception methods. - All subjects must be using an inhaled corticosteroid (ICS), with or without a short-acting, beta2-receptor agonist (SABA), for at least 12 weeks prior to screening. - Subjects with a screening pre-bronchodilator FEV1 \u2265 60% of predicted. - During the screening visit, subjects must demonstrate the presence of reversible airway disease.",
+      "title": "A Study in Asthmatic Patients to Determine if There is Any Difference in Dosing With Fluticasone Furoate/Vilanterol Inhalation Powder in the Morning or Evening on Lung Function",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 330.20802424016455,
+      "cross_score": -3.326974,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01287065::summary::0",
+      "doc_id": "NCT01287065",
+      "section": "summary",
+      "passage_text": "This study will be a repeat-dose, double-blind, randomized, placebo controlled, three-way crossover study in patients with persistent bronchial asthma to compare the effect of morning (AM) and evening (PM) dosing with fluticasone furoate (FF)/Vilanterol (VI) inhalation powder on lung function. Following screening there will be a run-in period of 14 days. There will be 3 treatment periods; drug at AM, drug at PM and placebo, which will last for 14 days each with a 14-21 day washout period between starting the next. Key assessments include; forced expiratory volume in one second (FEV1), peak expiratory flow (PEF), vital signs, electrocardiograms (ECGs), adverse event (AE) monitoring and laboratory safety tests.",
+      "title": "A Study in Asthmatic Patients to Determine if There is Any Difference in Dosing With Fluticasone Furoate/Vilanterol Inhalation Powder in the Morning or Evening on Lung Function",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 330.20802424016455,
+      "cross_score": -3.8279705,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 15-year-old boy with asthma diagnosed a year ago.\",\n    \"He presented with shortness of breath, chest tightening, and cough.\",\n    \"His FEV1 is 60% of the predicted value.\",\n    \"He has a documented history of persistent asthma symptoms.\"\n  ],\n  \"missing_patient_facts\": [\n    \"We don't know if he has a history of asthma for at least 6 months.\",\n    \"We don't know if he has a documented history of impaired lung function (FEV1 < 90% of predicted normal).\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to confirm if he has been on maintenance treatment with an inhaled corticosteroid for at least 4 weeks before Visit 1.\",\n    \"We need to verify if he can perform technically acceptable Pulmonary Function tests (PFTs).\"\n  ],\n  \"reasoning_summary\": \"The patient meets some key criteria for eligibility, such as being 15 years old and having a documented history of asthma. However, we need more information about his asthma history and lung function to make a definitive decision.\",\n  \"safety_note\": \"Before enrolling, we need to ensure that the patient can safely participate in the study, including confirming his ability to perform PFTs and his asthma history.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.",
+    "supported_patient_facts": [
+      "The patient is a 15-year-old boy with asthma diagnosed a year ago.",
+      "He presented with shortness of breath, chest tightening, and cough.",
+      "His FEV1 is 60% of the predicted value.",
+      "He has a documented history of persistent asthma symptoms."
+    ],
+    "missing_patient_facts": [
+      "We don't know if he has a history of asthma for at least 6 months.",
+      "We don't know if he has a documented history of impaired lung function (FEV1 < 90% of predicted normal)."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm if he has been on maintenance treatment with an inhaled corticosteroid for at least 4 weeks before Visit 1.",
+      "We need to verify if he can perform technically acceptable Pulmonary Function tests (PFTs)."
+    ],
+    "reasoning_summary": "The patient meets some key criteria for eligibility, such as being 15 years old and having a documented history of asthma. However, we need more information about his asthma history and lung function to make a definitive decision.",
+    "safety_note": "Before enrolling, we need to ensure that the patient can safely participate in the study, including confirming his ability to perform PFTs and his asthma history."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we still need to check a few things.",
+  "missing_patient_facts": [
+    "We don't know if he has a history of asthma for at least 6 months.",
+    "We don't know if he has a documented history of impaired lung function (FEV1 < 90% of predicted normal)."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm if he has been on maintenance treatment with an inhaled corticosteroid for at least 4 weeks before Visit 1.",
+    "We need to verify if he can perform technically acceptable Pulmonary Function tests (PFTs)."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.482
+}

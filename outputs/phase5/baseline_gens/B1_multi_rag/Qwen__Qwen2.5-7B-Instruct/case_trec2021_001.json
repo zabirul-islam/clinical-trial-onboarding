@@ -1,0 +1,126 @@
+{
+  "case_id": "case_trec2021_001",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00002814",
+  "selected_doc": "NCT01051557",
+  "reference_trial": "NCT01051557",
+  "evidence_trials": [
+    "NCT00004259",
+    "NCT00047879",
+    "NCT01051557",
+    "NCT01514201",
+    "NCT03528642"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and chronic pain. The tumor is located in the T-L spine, unresectable anaplastic astrocytoma s/p radiation. Complicated by progressive lower extremity weakness and urinary retention. Patient initially presented with RLE weakness where his right knee gave out with difficulty walking and right anterior thigh numbness. MRI showed a spinal cord conus mass which was biopsied and found to be anaplastic astrocytoma. Therapy included field radiation t10-l1 followed by 11 cycles of temozolomide 7 days on and 7 days off. This was followed by CPT-11 Weekly x4 with Avastin Q2 weeks/ 2 weeks rest and repeat cycle. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01051557 | section=eligibility]\nic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be eligible if the original histology was low-grade glioma and a subsequent histological diagnosis of a high grade (malignant) glioma is made; OR - Histologically confirmed low grade (World Health Organization [WHO] grade II) gliomas (such as low grade astrocytoma, low grade oligodendroglioma, low grade oligo-astrocytoma (mixed gliomas), or low grade glioma NOS) IF there is radiographic evidence by MRI or CT of malignant transformation but histologic confirmation of high grade (malignant) transformation would not be otherwise undertaken for routine clinical care; inclusion of patients in this group will allow increased accrual rapidity by enrolling patients who are otherwise ineligible for almost all malignant glioma trials yet whom are treated presumptively for malignant glioma - PHASE II: Patients must have a histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplastic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be el\n\n[Passage 2 | doc=NCT03528642 | section=detailed_description]\nIdentify potential predictive and prognostic biomarkers beyond any genomic alteration by which treatment may be assigned. VIb. Identify resistance mechanisms using genomic deoxyribonucleic acid (DNA)- and ribonucleic acid (RNA)-based assessment platforms. VII. To contribute genetic analysis data from de-identified biospecimens to Genomic Data Commons (GDC), a well annotated cancer molecular and clinical data repository, for current and future research; specimens will be annotated with key clinical data, including presentation, diagnosis, staging, summary treatment, and if possible, outcome. VIII. To bank formalin-fixed, paraffin-embedded (FFPE) tissue, blood (for cell-free DNA analysis), and nucleic acids obtained from patients at the Experimental Therapeutics Clinical Trials Network (ETCTN) Biorepository at Nationwide Children's Hospital. OUTLINE: This is a dose escalation study of CB-839. Patients receive CB-839 orally (PO) twice daily (BID) 7 days a week, temozolomide PO once daily (QD) 7 days a week, and undergo RT 5 days a week for up to 5.5 weeks (diffuse astrocytoma) or 6.5 weeks (anaplastic astrocytoma) in the absence of disease progression or unacceptable toxicity.\n\n[Passage 3 | doc=NCT01514201 | section=eligibility]\nInclusion Criteria: - Patients with newly diagnosed diffuse intrinsic pontine gliomas (DIPGs), defined as tumors with a pontine epicenter and diffuse intrinsic involvement of the pons, are eligible without histologic confirmation; patients with brainstem tumors that do not meet these criteria or not considered to be typical intrinsic pontine gliomas will only be eligible if the tumors are biopsied and proven to be an anaplastic astrocytoma, glioblastoma multiforme, gliosarcoma, anaplastic mixed glioma, or fibrillary astrocytoma - Patients with juvenile pilocytic astrocytoma, pilomyxoid astrocytoma, fibrillary astrocytoma, gangliogliomas, or other mixed gliomas without anaplasia are not eligible; - Patients with disseminated disease are not eligible, and magnetic resonance imaging (MRI) of spine must be performed if disseminated disease is suspected by the treating physician - Patient must be able to swallow oral medications to be eligible for study enrollment - Karnofsky >= 50% for patients > 16 years of age or Lansky >= 50% for patients =< 16 years of age; patients who are unable to walk because of paralysis, but who are up in a wheelchair, will be considered ambulatory for the pu\n\n[Passage 4 | doc=NCT01051557 | section=eligibility]\npregnant while participating in this study, she should inform her treating physician immediately - Women of childbearing potential must have a negative beta-human chorionic gonadotropin (B-HCG) pregnancy test documented within 7 days prior to treatment - Women must agree not to breast feed - Patients must have the ability to understand and the willingness to sign a written informed consent document - Measurable disease is not required for eligibility in patients who recently underwent resection as long as progressive disease led to the surgery, and the histology of the most recent surgery documented recurrent/progressive/persistent malignant glioma - If cytoreductive surgery is planned for tumor recurrence at the time of enrollment, such patients may be eligible for the surgical substudy (Phase II only), taking temsirolimus + perifosine pre-operatively and then re-initiating such therapy after recovering from the effects of surgery - PHASE I: Patients must have a EITHER - Histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplast\n\n[Passage 5 | doc=NCT00047879 | section=detailed_description]\nA secondary endpoint in this trial is to determine the response rate associated with the combination therapy in each of the two strata and to evaluate and document all toxicities from PEG-Intron in combination with thalidomide at the doses prescribed in this protocol in this patient population. Eligibility: Patients with histologically proven supratentorial malignant primary gliomas will be eligible for this protocol. These include glioblastoma multiforme (GBM), anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic mixed oligoastrocytoma (AMO), or malignant astrocytoma NOS (not otherwise specified). Patients must not have received prior therapy with Peg-Intron or Thalidomide. Design: Patients will be treated with weekly PEG-Intron plus daily oral thalidomide. All patients will be treated for 6 weeks following which patients will have a repeat MRI scan to assess disease response.\n\n[Passage 6 | doc=NCT00004259 | section=eligibility]\nDISEASE CHARACTERISTICS: - Histologically proven unifocal anaplastic astrocytoma or mixed gliomas, including the following: - Anaplastic astrocytoma - Mixed oligodendroglial/astrocytic tumors - Oligodendroglial component must be no greater than 25% - No vascular proliferation and necrosis - Increased cellularity, pleomorphism, and nuclear atypia allowed - No tumor predominantly located in the posterior fossa (i.e., brainstem or cerebellum) - Patients with prior biopsy proven low grade astrocytoma who now have anaplastic astrocytoma and have had no prior radiotherapy or chemotherapy also eligible - Study therapy must begin within 6 weeks of diagnosis - No spinal cord tumors, spinal drop metastases, or metastases to noncontiguous meninges - Pathologic evidence of local meningeal infiltration by underlying tumor allowed PATIENT CHARACTERISTICS: Age: - 18 and over Performance status: - Karnofsky 60-100% Life expectancy: - At least 1 year Hematopoietic: - Hemoglobin at least 10 g/dL - Absolute neutrophil count at least 1,500/mm^3 - Platelet count at least 150,000/mm^3 Hepatic: - Bilirubin less than 2 times upper limit of normal (ULN) - Aspartate aminotransferase (AST) less than 2 times",
+  "passages": [
+    {
+      "passage_id": "NCT01051557::eligibility::5",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "ic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be eligible if the original histology was low-grade glioma and a subsequent histological diagnosis of a high grade (malignant) glioma is made; OR - Histologically confirmed low grade (World Health Organization [WHO] grade II) gliomas (such as low grade astrocytoma, low grade oligodendroglioma, low grade oligo-astrocytoma (mixed gliomas), or low grade glioma NOS) IF there is radiographic evidence by MRI or CT of malignant transformation but histologic confirmation of high grade (malignant) transformation would not be otherwise undertaken for routine clinical care; inclusion of patients in this group will allow increased accrual rapidity by enrolling patients who are otherwise ineligible for almost all malignant glioma trials yet whom are treated presumptively for malignant glioma - PHASE II: Patients must have a histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplastic mixed gliomas, malignant glioma NOS (not otherwise specified); patients will be el",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 307.57439289122345,
+      "cross_score": -4.9806137,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03528642::detailed_description::2",
+      "doc_id": "NCT03528642",
+      "section": "detailed_description",
+      "passage_text": "Identify potential predictive and prognostic biomarkers beyond any genomic alteration by which treatment may be assigned. VIb. Identify resistance mechanisms using genomic deoxyribonucleic acid (DNA)- and ribonucleic acid (RNA)-based assessment platforms. VII. To contribute genetic analysis data from de-identified biospecimens to Genomic Data Commons (GDC), a well annotated cancer molecular and clinical data repository, for current and future research; specimens will be annotated with key clinical data, including presentation, diagnosis, staging, summary treatment, and if possible, outcome. VIII. To bank formalin-fixed, paraffin-embedded (FFPE) tissue, blood (for cell-free DNA analysis), and nucleic acids obtained from patients at the Experimental Therapeutics Clinical Trials Network (ETCTN) Biorepository at Nationwide Children's Hospital. OUTLINE: This is a dose escalation study of CB-839. Patients receive CB-839 orally (PO) twice daily (BID) 7 days a week, temozolomide PO once daily (QD) 7 days a week, and undergo RT 5 days a week for up to 5.5 weeks (diffuse astrocytoma) or 6.5 weeks (anaplastic astrocytoma) in the absence of disease progression or unacceptable toxicity.",
+      "title": "CB-839 With Radiation Therapy and Temozolomide in Treating Patients With IDH-Mutated Diffuse Astrocytoma or Anaplastic Astrocytoma",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 302.0196331930258,
+      "cross_score": -5.4443808,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01514201::eligibility::0",
+      "doc_id": "NCT01514201",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients with newly diagnosed diffuse intrinsic pontine gliomas (DIPGs), defined as tumors with a pontine epicenter and diffuse intrinsic involvement of the pons, are eligible without histologic confirmation; patients with brainstem tumors that do not meet these criteria or not considered to be typical intrinsic pontine gliomas will only be eligible if the tumors are biopsied and proven to be an anaplastic astrocytoma, glioblastoma multiforme, gliosarcoma, anaplastic mixed glioma, or fibrillary astrocytoma - Patients with juvenile pilocytic astrocytoma, pilomyxoid astrocytoma, fibrillary astrocytoma, gangliogliomas, or other mixed gliomas without anaplasia are not eligible; - Patients with disseminated disease are not eligible, and magnetic resonance imaging (MRI) of spine must be performed if disseminated disease is suspected by the treating physician - Patient must be able to swallow oral medications to be eligible for study enrollment - Karnofsky >= 50% for patients > 16 years of age or Lansky >= 50% for patients =< 16 years of age; patients who are unable to walk because of paralysis, but who are up in a wheelchair, will be considered ambulatory for the pu",
+      "title": "Veliparib, Radiation Therapy, and Temozolomide in Treating Younger Patients With Newly Diagnosed Diffuse Pontine Gliomas",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 302.227274194772,
+      "cross_score": -5.597289,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01051557::eligibility::4",
+      "doc_id": "NCT01051557",
+      "section": "eligibility",
+      "passage_text": "pregnant while participating in this study, she should inform her treating physician immediately - Women of childbearing potential must have a negative beta-human chorionic gonadotropin (B-HCG) pregnancy test documented within 7 days prior to treatment - Women must agree not to breast feed - Patients must have the ability to understand and the willingness to sign a written informed consent document - Measurable disease is not required for eligibility in patients who recently underwent resection as long as progressive disease led to the surgery, and the histology of the most recent surgery documented recurrent/progressive/persistent malignant glioma - If cytoreductive surgery is planned for tumor recurrence at the time of enrollment, such patients may be eligible for the surgical substudy (Phase II only), taking temsirolimus + perifosine pre-operatively and then re-initiating such therapy after recovering from the effects of surgery - PHASE I: Patients must have a EITHER - Histologically confirmed intracranial malignant glioma of the following types: glioblastoma, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic oligo-astrocytoma (AOA) also called anaplast",
+      "title": "Temsirolimus and Perifosine in Treating Patients With Recurrent or Progressive Malignant Glioma",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 307.57439289122345,
+      "cross_score": -5.613796,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00047879::detailed_description::1",
+      "doc_id": "NCT00047879",
+      "section": "detailed_description",
+      "passage_text": "A secondary endpoint in this trial is to determine the response rate associated with the combination therapy in each of the two strata and to evaluate and document all toxicities from PEG-Intron in combination with thalidomide at the doses prescribed in this protocol in this patient population. Eligibility: Patients with histologically proven supratentorial malignant primary gliomas will be eligible for this protocol. These include glioblastoma multiforme (GBM), anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO), anaplastic mixed oligoastrocytoma (AMO), or malignant astrocytoma NOS (not otherwise specified). Patients must not have received prior therapy with Peg-Intron or Thalidomide. Design: Patients will be treated with weekly PEG-Intron plus daily oral thalidomide. All patients will be treated for 6 weeks following which patients will have a repeat MRI scan to assess disease response.",
+      "title": "Phase II Trial of Peginterferon Alpha-2b and Thalidomide in Adults With Recurrent Gliomas",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 306.77694504140294,
+      "cross_score": -5.9855933,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00004259::eligibility::0",
+      "doc_id": "NCT00004259",
+      "section": "eligibility",
+      "passage_text": "DISEASE CHARACTERISTICS: - Histologically proven unifocal anaplastic astrocytoma or mixed gliomas, including the following: - Anaplastic astrocytoma - Mixed oligodendroglial/astrocytic tumors - Oligodendroglial component must be no greater than 25% - No vascular proliferation and necrosis - Increased cellularity, pleomorphism, and nuclear atypia allowed - No tumor predominantly located in the posterior fossa (i.e., brainstem or cerebellum) - Patients with prior biopsy proven low grade astrocytoma who now have anaplastic astrocytoma and have had no prior radiotherapy or chemotherapy also eligible - Study therapy must begin within 6 weeks of diagnosis - No spinal cord tumors, spinal drop metastases, or metastases to noncontiguous meninges - Pathologic evidence of local meningeal infiltration by underlying tumor allowed PATIENT CHARACTERISTICS: Age: - 18 and over Performance status: - Karnofsky 60-100% Life expectancy: - At least 1 year Hematopoietic: - Hemoglobin at least 10 g/dL - Absolute neutrophil count at least 1,500/mm^3 - Platelet count at least 150,000/mm^3 Hepatic: - Bilirubin less than 2 times upper limit of normal (ULN) - Aspartate aminotransferase (AST) less than 2 times",
+      "title": "Radiation Therapy Combined With Chemotherapy in Treating Patients With Anaplastic Astrocytoma or Mixed Gliomas",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 303.1762027723143,
+      "cross_score": -6.169695,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your medical history suggests you might be eligible for certain clinical trials, but we need more information to confirm your eligibility.\",\n  \"supported_patient_facts\": [\n    \"History of anaplastic astrocytoma of the spine\",\n    \"Tumor located in the T-L spine\",\n    \"Unresectable anaplastic astrocytoma post-radiation\"\n  ],\n  \"missing_patient_facts\": [\n    \"Histological confirmation of anaplastic astrocytoma\",\n    \"Recent imaging results for disease progression\",\n    \"Current performance status (Karnofsky score)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Specific trial details and inclusion/exclusion criteria not provided for a definitive decision\"\n  ],\n  \"reasoning_summary\": \"The patient has a history consistent with anaplastic astrocytoma, which aligns with some trial inclusion criteria. However, specific trial details and additional patient information are needed to confirm eligibility.\",\n  \"safety_note\": \"Safety rules must be strictly followed, and further evaluation is necessary before enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your medical history suggests you might be eligible for certain clinical trials, but we need more information to confirm your eligibility.",
+    "supported_patient_facts": [
+      "History of anaplastic astrocytoma of the spine",
+      "Tumor located in the T-L spine",
+      "Unresectable anaplastic astrocytoma post-radiation"
+    ],
+    "missing_patient_facts": [
+      "Histological confirmation of anaplastic astrocytoma",
+      "Recent imaging results for disease progression",
+      "Current performance status (Karnofsky score)"
+    ],
+    "unresolved_study_requirements": [
+      "Specific trial details and inclusion/exclusion criteria not provided for a definitive decision"
+    ],
+    "reasoning_summary": "The patient has a history consistent with anaplastic astrocytoma, which aligns with some trial inclusion criteria. However, specific trial details and additional patient information are needed to confirm eligibility.",
+    "safety_note": "Safety rules must be strictly followed, and further evaluation is necessary before enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your medical history suggests you might be eligible for certain clinical trials, but we need more information to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Histological confirmation of anaplastic astrocytoma",
+    "Recent imaging results for disease progression",
+    "Current performance status (Karnofsky score)"
+  ],
+  "unresolved_study_requirements": [
+    "Specific trial details and inclusion/exclusion criteria not provided for a definitive decision"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.014
+}

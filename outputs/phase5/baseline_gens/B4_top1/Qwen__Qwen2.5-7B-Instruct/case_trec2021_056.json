@@ -1,0 +1,70 @@
+{
+  "case_id": "case_trec2021_056",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001981",
+  "selected_doc": "NCT02952885",
+  "reference_trial": "NCT02952885",
+  "evidence_trials": [
+    "NCT02952885"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02952885 | section=eligibility]\nInclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.",
+  "passages": [
+    {
+      "passage_id": "NCT02952885::eligibility::0",
+      "doc_id": "NCT02952885",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 269.842848945394,
+      "cross_score": -2.9960742,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be addressed.\",\n  \"supported_patient_facts\": [\"41-year-old male\", \"confirmed acromegaly\", \"IGF-1 level of 4.5 ULN\", \"recent brain MRI confirms residual pituitary tumor\", \"underwent transsphenoidal surgery 4 months ago\"],\n  \"missing_patient_facts\": [\"IGF-1 level within the range of 1.0 ULN < [IGF-1 serum level] < 1.5 ULN\", \"history of pituitary surgery within one year prior to screening visit\"],\n  \"unresolved_study_requirements\": [\"visual field loss, optic chiasmal compression, or pituitary tumor within 2mm from the chiasm\", \"clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN)\", \"hypersensitivity to any components of Pegvisomant\", \"inability to fully comprehend the nature of the study or cooperate with study procedures\", \"pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study\"],\n  \"reasoning_summary\": \"The patient meets the inclusion criteria for age, confirmed acromegaly, elevated IGF-1 level, and recent pituitary surgery. However, the IGF-1 level is higher than the specified range for inclusion, and there are unresolved requirements related to potential visual field loss, hepatic function, hypersensitivity, comprehension, and reproductive status.\",\n  \"safety_note\": \"Please ensure all unresolved requirements are addressed before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be addressed.",
+    "supported_patient_facts": [
+      "41-year-old male",
+      "confirmed acromegaly",
+      "IGF-1 level of 4.5 ULN",
+      "recent brain MRI confirms residual pituitary tumor",
+      "underwent transsphenoidal surgery 4 months ago"
+    ],
+    "missing_patient_facts": [
+      "IGF-1 level within the range of 1.0 ULN < [IGF-1 serum level] < 1.5 ULN",
+      "history of pituitary surgery within one year prior to screening visit"
+    ],
+    "unresolved_study_requirements": [
+      "visual field loss, optic chiasmal compression, or pituitary tumor within 2mm from the chiasm",
+      "clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN)",
+      "hypersensitivity to any components of Pegvisomant",
+      "inability to fully comprehend the nature of the study or cooperate with study procedures",
+      "pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study"
+    ],
+    "reasoning_summary": "The patient meets the inclusion criteria for age, confirmed acromegaly, elevated IGF-1 level, and recent pituitary surgery. However, the IGF-1 level is higher than the specified range for inclusion, and there are unresolved requirements related to potential visual field loss, hepatic function, hypersensitivity, comprehension, and reproductive status.",
+    "safety_note": "Please ensure all unresolved requirements are addressed before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements that need to be addressed.",
+  "missing_patient_facts": [
+    "IGF-1 level within the range of 1.0 ULN < [IGF-1 serum level] < 1.5 ULN",
+    "history of pituitary surgery within one year prior to screening visit"
+  ],
+  "unresolved_study_requirements": [
+    "visual field loss, optic chiasmal compression, or pituitary tumor within 2mm from the chiasm",
+    "clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN)",
+    "hypersensitivity to any components of Pegvisomant",
+    "inability to fully comprehend the nature of the study or cooperate with study procedures",
+    "pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 27.976
+}

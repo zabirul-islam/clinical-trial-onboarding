@@ -1,0 +1,64 @@
+{
+  "case_id": "case_01",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00543023",
+  "reference_trial": "NCT00543023",
+  "evidence_trials": [
+    "NCT00543023"
+  ],
+  "question": "Am I eligible for this study if I am a 55-year-old woman with osteoporosis and a prior vertebral fracture?",
+  "evidence": "[Passage 1 | doc=NCT00543023 | section=eligibility]\nInclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+  "passages": [
+    {
+      "passage_id": "NCT00543023::eligibility::0",
+      "doc_id": "NCT00543023",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Ambulatory, postmenopausal women aged 55-85 years (at least 3 years have elapsed after menopausal) are included at the time of entry into the trial. They have to be free of severe or chronically disabling conditions other than osteoporosis. - The patient should have a documented (X-ray) prevalent osteoporotic vertebral fracture or non-vertebral fragility fracture (excluding major trauma). Vertebral deformities will be evaluated on lateral views of the thoracic and lumbar spine. T-12 will be visible on both views so that all vertebrae from T-4 to L-4 can be identified. The radiographs will be performed according to a standardized protocol. - L-1 through L-4 vertebrae must be without artifacts, multiple vertebral fractures; therefore at least 3 vertebrae should be without fractures, osteophytes, or other abnormalities that would interfere with the analysis of the posterior-anterior lumbar spine BMD measurement. The reading of the BMD, T-score should be in the range of - 2.0 and - 4.0 at least for one of the 2 sites measured (spine or hip).",
+      "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 67.28412508146133,
+      "cross_score": 3.8074598,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"You seem to meet some of the eligibility criteria, but we need more information to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"you are a 55-year-old woman\", \"you have a documented (X-ray) prevalent osteoporotic vertebral fracture\", \"you have a prior vertebral fracture\"],\n  \"missing_patient_facts\": [\"your condition is free of severe or chronically disabling conditions other than osteoporosis\", \"the presence of artifacts, multiple vertebral fractures, or abnormalities in the lumbar spine\"],\n  \"unresolved_study_requirements\": [\"we need to verify that you are ambulatory\", \"we need to ensure that your vertebral deformities can be evaluated on lateral views of the thoracic and lumbar spine\", \"we need to confirm that the BMD readings are within the specified range at two sites (spine or hip)\"],\n  \"reasoning_summary\": \"Your age and the presence of a documented osteoporotic vertebral fracture align with the inclusion criteria. However, we need additional information about your overall health status and the quality of your X-rays to fully assess your eligibility.\",\n  \"safety_note\": \"Please let us know if you have any concerns about participating in the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "You seem to meet some of the eligibility criteria, but we need more information to confirm your eligibility.",
+    "supported_patient_facts": [
+      "you are a 55-year-old woman",
+      "you have a documented (X-ray) prevalent osteoporotic vertebral fracture",
+      "you have a prior vertebral fracture"
+    ],
+    "missing_patient_facts": [
+      "your condition is free of severe or chronically disabling conditions other than osteoporosis",
+      "the presence of artifacts, multiple vertebral fractures, or abnormalities in the lumbar spine"
+    ],
+    "unresolved_study_requirements": [
+      "we need to verify that you are ambulatory",
+      "we need to ensure that your vertebral deformities can be evaluated on lateral views of the thoracic and lumbar spine",
+      "we need to confirm that the BMD readings are within the specified range at two sites (spine or hip)"
+    ],
+    "reasoning_summary": "Your age and the presence of a documented osteoporotic vertebral fracture align with the inclusion criteria. However, we need additional information about your overall health status and the quality of your X-rays to fully assess your eligibility.",
+    "safety_note": "Please let us know if you have any concerns about participating in the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "You seem to meet some of the eligibility criteria, but we need more information to confirm your eligibility.",
+  "missing_patient_facts": [
+    "your condition is free of severe or chronically disabling conditions other than osteoporosis",
+    "the presence of artifacts, multiple vertebral fractures, or abnormalities in the lumbar spine"
+  ],
+  "unresolved_study_requirements": [
+    "we need to verify that you are ambulatory",
+    "we need to ensure that your vertebral deformities can be evaluated on lateral views of the thoracic and lumbar spine",
+    "we need to confirm that the BMD readings are within the specified range at two sites (spine or hip)"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.772
+}

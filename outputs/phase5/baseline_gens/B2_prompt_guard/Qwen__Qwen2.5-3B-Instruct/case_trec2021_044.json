@@ -1,0 +1,126 @@
+{
+  "case_id": "case_trec2021_044",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00323752",
+  "selected_doc": "NCT02609009",
+  "reference_trial": "NCT02609009",
+  "evidence_trials": [
+    "NCT00155545",
+    "NCT02609009",
+    "NCT03929042",
+    "NCT04761549"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 14-year-old boy complaining of scoliosis and back pain. He has no other medical condition. He used to be able to play routine activities such as basketball and soccer, however, he recently has problem doing them. The pain is in his leg and back and aggravated by physical activities. He prefer lying down most of the time. He is not happy with his body gesture and complaints of shoulder imbalance and shifting his head to right. Patient is a well-dressed and well-nourished adolescent who is alert and cooperative. The left shoulder is slightly higher than the right shoulder. The scoliotic curve is measured as 45 degree. The patients is candidate for scoliosis surgery according to perioperative MEP monitoring Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02609009 | section=detailed_description]\nMore recently, Sato's studied back pain prevalence in adolescents with idiopathic scoliosis. He conducted a large-scale cross-sectional epidemiological study, where 43 630 children aged 9 to 15-year-old were required to complete a take-home questionnaire. They reported a back pain prevalence of 58.8% in scoliosis patients compared to 32.9% in non-scoliosis patients. Regarding BP Management in AIS Patients, a comprehensive review of the literature did not yield any study on BP management in AIS patients. Spinal manipulation therapy (SMT) is a recognised and safe treatment for low back pain and is performed primarily by chiropractors, physical therapists, and osteopaths. To the best of the investigators' knowledge, only one pilot clinical trial (Rowe 2006) has been conducted with children and adolescents diagnosed with AIS. Though under powered, results showed that SMT was associated with only minor adverse events, there was no curve progression in the treatment group, and quality of life, evaluated by the Scoliosis Quality of life Index, has not been negatively impacted.\n\n[Passage 2 | doc=NCT02609009 | section=summary]\nAdolescent idiopathic scoliosis (AIS) affects 2 - 3% of children and adolescents older than 10 years and is of unknown cause. It was initially thought that occurrences of back pain (BP) were similar to the one encounter in healthy adolescents. Recently, literature has shown that there is a two-fold prevalence of BP among AIS patients compared to healthy adolescents. As such, BP appears as a condition that might have a detrimental effect on the well-being of AIS patients and seems associated with increases in health care costs. Further, BP in adolescents would appear to be a predictive factor for adult BP. Is vertebral manipulation (VM) a viable alternative? Since 2006, four guidelines were in agreement as to the value of that approach with acute or chronic BP in adults. Unfortunately, no study was found in adolescents. The purpose of the study is to verify if VM is efficacious at improving AIS patients' back pain and to find out if it can help these patients to obtain a better quality of life and improve their spinal flexibility. Recruitment will take place at Ste Justine's hospital where patients will have 2 evaluations, conducted by an independent orthopaedist (baseline and 4 weeks). Patients will be allocated to either the experimental (VM) or the usual medical care group. Spinal manipulation treatment will last over a 4-week period. The study will be the first trial evaluating the efficacy of vertebral manipulation in adolescent idiopathic scoliosis patients with back pain. Finally, no other study was found on available and effective treatment regarding back pain management for this population. A well-structured trial is needed to provide clinicians with a better understanding and best evidence regarding treatment protocols.\n\n[Passage 3 | doc=NCT04761549 | section=detailed_description]\nAdolescent Idiopathic Scoliosis (AIS) is a growth defect of the spine that primarily occurs in prepubertal children between the age of 10 to 14 years, affecting approximately 3% of these otherwise normal children. The spine, which is normally straight in a posterior view, forms one or two lateral curves with associated turns around its longitudinal axis, like a spiral staircase. AIS has been associated with problems related to posture, load-related back pain, as well as aesthetic problems, e.g. the induced asymmetry of the shoulder. Therefore, early diagnosis followed by the appropriate treatment is vital to prevent further curve progression of AIS and minimize the health-related complications of these patients. The current treatment recommendation to stop curve progression for an immature patient with a scoliosis curve between 25 and 40 degrees is to wear a brace. If the curve in the skeletally immature patient is not responding to the brace treatment, dynamic scoliosis correction by vertebral body tethering can be considered when there is still some growth potential left.\n\n[Passage 4 | doc=NCT03929042 | section=detailed_description]\nBackground Information Scoliosis in patients between 10 and 18 years of age is termed adolescent scoliosis. The most common type of scoliosis is one of which the cause is not known. This is called \"idiopathic\" or \"adolescent idiopathic scoliosis (AIS)\". The main risk factors of curve progression could be skeletal immaturity, female gender and large curve magnitude. It has been found that nearly 10% of all adolescents have some degree of spinal curve or deformity after their tenth year. The health of patients, such as cardiac and pulmonary functions, may be affected if their spinal deformity is very serious. Hence, the most ideal way is to monitor and control spinal curvature once AIS has been found. Treatment options for scoliosis In general, patients are suggested to undergo different types of treatments according to their spine situations and stage of scoliosis. Surgery is suggested for patients with spinal curves that are greater than 41-50 degrees, while bracing is a non-invasive treatment suggested for those with spinal curves between 21-40 degrees.\n\n[Passage 5 | doc=NCT04761549 | section=summary]\nAdolescent Idiopathic Scoliosis (AIS) is a growth defect of the spine that primarily occurs in prepubertal children between the age of 10 to 14 years, affecting approximately 3% of these otherwise normal children. AIS has been associated with problems related to posture, load-related back pain, as well as aesthetic problems, e.g. the induced asymmetry of the shoulder. Therefore, early diagnosis followed by the appropriate treatment is vital to prevent further curve progression of AIS and minimize the health-related complications of these patients. The current treatment recommendation to stop curve progression for an immature patient with a scoliosis curve between 25 and 40 degrees is to wear a brace. If the curve in the skeletally immature patient is not responding to the brace treatment, dynamic scoliosis correction by vertebral body tethering can be considered when there is still some growth potential left. State-of-the-art guidelines for the selection of fusion levels are currently mainly based on two-dimensional (2D) static radiographic parameters (such as, the Cobb angle and Shoulder balance) and a qualitative assessment of 2D bending or traction radiographs. Several classification systems and algorithms that are based on the 2D static radiographic (X-ray) parameters exist to assist surgeons in determining the appropriate levels to be instrumented. Despite this wide range of classification systems and detailed guidelines available in the literature, spinal fusion does not always yield satisfying 2D radiographic clinical outcome, with revision rates ranging from 3.9% to 22%. Overall, the surgeon is presently not provided with 3D dynamic and mechanical information regarding the deformity of the AIS to guide the decision-making. Obtaining this vital 3D dynamic information regarding the curvature and mechanical behavior of the spine will allow the surgeon to make an evidence-based and well-informed decisions in the treatment of the AIS patient. Consequently, realizing these objectives has the potential to improve patient satisfaction, reduce the postoperative complications and accordingly reduce socio-economic costs associated with AIS treatment. Recent advances in the use of subject specific musculoskeletal models will form the basis to realize this shift from 2D to 3D dynamic in AIS care.\n\n[Passage 6 | doc=NCT00155545 | section=eligibility]\nInclusion Criteria: - Functional scoliosis patients who have lumbar scoliosis combined with significant structural LLD - Adolescent idiopathic lumbar scoliosis patients without LLD Exclusion Criteria: - Do not suit the inclusion criteria",
+  "passages": [
+    {
+      "passage_id": "NCT02609009::detailed_description::1",
+      "doc_id": "NCT02609009",
+      "section": "detailed_description",
+      "passage_text": "More recently, Sato's studied back pain prevalence in adolescents with idiopathic scoliosis. He conducted a large-scale cross-sectional epidemiological study, where 43 630 children aged 9 to 15-year-old were required to complete a take-home questionnaire. They reported a back pain prevalence of 58.8% in scoliosis patients compared to 32.9% in non-scoliosis patients. Regarding BP Management in AIS Patients, a comprehensive review of the literature did not yield any study on BP management in AIS patients. Spinal manipulation therapy (SMT) is a recognised and safe treatment for low back pain and is performed primarily by chiropractors, physical therapists, and osteopaths. To the best of the investigators' knowledge, only one pilot clinical trial (Rowe 2006) has been conducted with children and adolescents diagnosed with AIS. Though under powered, results showed that SMT was associated with only minor adverse events, there was no curve progression in the treatment group, and quality of life, evaluated by the Scoliosis Quality of life Index, has not been negatively impacted.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 384.0149948306904,
+      "cross_score": -1.0738542,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02609009::summary::0",
+      "doc_id": "NCT02609009",
+      "section": "summary",
+      "passage_text": "Adolescent idiopathic scoliosis (AIS) affects 2 - 3% of children and adolescents older than 10 years and is of unknown cause. It was initially thought that occurrences of back pain (BP) were similar to the one encounter in healthy adolescents. Recently, literature has shown that there is a two-fold prevalence of BP among AIS patients compared to healthy adolescents. As such, BP appears as a condition that might have a detrimental effect on the well-being of AIS patients and seems associated with increases in health care costs. Further, BP in adolescents would appear to be a predictive factor for adult BP. Is vertebral manipulation (VM) a viable alternative? Since 2006, four guidelines were in agreement as to the value of that approach with acute or chronic BP in adults. Unfortunately, no study was found in adolescents. The purpose of the study is to verify if VM is efficacious at improving AIS patients' back pain and to find out if it can help these patients to obtain a better quality of life and improve their spinal flexibility. Recruitment will take place at Ste Justine's hospital where patients will have 2 evaluations, conducted by an independent orthopaedist (baseline and 4 weeks). Patients will be allocated to either the experimental (VM) or the usual medical care group. Spinal manipulation treatment will last over a 4-week period. The study will be the first trial evaluating the efficacy of vertebral manipulation in adolescent idiopathic scoliosis patients with back pain. Finally, no other study was found on available and effective treatment regarding back pain management for this population. A well-structured trial is needed to provide clinicians with a better understanding and best evidence regarding treatment protocols.",
+      "title": "Back Pain and Spinal Manipulation in Adolescent Scoliosis",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 384.0149948306904,
+      "cross_score": -1.6356561,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04761549::detailed_description::0",
+      "doc_id": "NCT04761549",
+      "section": "detailed_description",
+      "passage_text": "Adolescent Idiopathic Scoliosis (AIS) is a growth defect of the spine that primarily occurs in prepubertal children between the age of 10 to 14 years, affecting approximately 3% of these otherwise normal children. The spine, which is normally straight in a posterior view, forms one or two lateral curves with associated turns around its longitudinal axis, like a spiral staircase. AIS has been associated with problems related to posture, load-related back pain, as well as aesthetic problems, e.g. the induced asymmetry of the shoulder. Therefore, early diagnosis followed by the appropriate treatment is vital to prevent further curve progression of AIS and minimize the health-related complications of these patients. The current treatment recommendation to stop curve progression for an immature patient with a scoliosis curve between 25 and 40 degrees is to wear a brace. If the curve in the skeletally immature patient is not responding to the brace treatment, dynamic scoliosis correction by vertebral body tethering can be considered when there is still some growth potential left.",
+      "title": "Identification of Key Parameters to Initiate the Shift Towards 3D, Dynamic and Mechanically-informed Decision Making in Adolescent Idiopathic Scoliosis",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 369.1726989006276,
+      "cross_score": -1.8259854,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03929042::detailed_description::0",
+      "doc_id": "NCT03929042",
+      "section": "detailed_description",
+      "passage_text": "Background Information Scoliosis in patients between 10 and 18 years of age is termed adolescent scoliosis. The most common type of scoliosis is one of which the cause is not known. This is called \"idiopathic\" or \"adolescent idiopathic scoliosis (AIS)\". The main risk factors of curve progression could be skeletal immaturity, female gender and large curve magnitude. It has been found that nearly 10% of all adolescents have some degree of spinal curve or deformity after their tenth year. The health of patients, such as cardiac and pulmonary functions, may be affected if their spinal deformity is very serious. Hence, the most ideal way is to monitor and control spinal curvature once AIS has been found. Treatment options for scoliosis In general, patients are suggested to undergo different types of treatments according to their spine situations and stage of scoliosis. Surgery is suggested for patients with spinal curves that are greater than 41-50 degrees, while bracing is a non-invasive treatment suggested for those with spinal curves between 21-40 degrees.",
+      "title": "Evaluating the Effectiveness of Posture Correction Girdle for Adolescents With Early Scoliosis",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 355.13488005503257,
+      "cross_score": -1.8682767,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04761549::summary::0",
+      "doc_id": "NCT04761549",
+      "section": "summary",
+      "passage_text": "Adolescent Idiopathic Scoliosis (AIS) is a growth defect of the spine that primarily occurs in prepubertal children between the age of 10 to 14 years, affecting approximately 3% of these otherwise normal children. AIS has been associated with problems related to posture, load-related back pain, as well as aesthetic problems, e.g. the induced asymmetry of the shoulder. Therefore, early diagnosis followed by the appropriate treatment is vital to prevent further curve progression of AIS and minimize the health-related complications of these patients. The current treatment recommendation to stop curve progression for an immature patient with a scoliosis curve between 25 and 40 degrees is to wear a brace. If the curve in the skeletally immature patient is not responding to the brace treatment, dynamic scoliosis correction by vertebral body tethering can be considered when there is still some growth potential left. State-of-the-art guidelines for the selection of fusion levels are currently mainly based on two-dimensional (2D) static radiographic parameters (such as, the Cobb angle and Shoulder balance) and a qualitative assessment of 2D bending or traction radiographs. Several classification systems and algorithms that are based on the 2D static radiographic (X-ray) parameters exist to assist surgeons in determining the appropriate levels to be instrumented. Despite this wide range of classification systems and detailed guidelines available in the literature, spinal fusion does not always yield satisfying 2D radiographic clinical outcome, with revision rates ranging from 3.9% to 22%. Overall, the surgeon is presently not provided with 3D dynamic and mechanical information regarding the deformity of the AIS to guide the decision-making. Obtaining this vital 3D dynamic information regarding the curvature and mechanical behavior of the spine will allow the surgeon to make an evidence-based and well-informed decisions in the treatment of the AIS patient. Consequently, realizing these objectives has the potential to improve patient satisfaction, reduce the postoperative complications and accordingly reduce socio-economic costs associated with AIS treatment. Recent advances in the use of subject specific musculoskeletal models will form the basis to realize this shift from 2D to 3D dynamic in AIS care.",
+      "title": "Identification of Key Parameters to Initiate the Shift Towards 3D, Dynamic and Mechanically-informed Decision Making in Adolescent Idiopathic Scoliosis",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 369.1726989006276,
+      "cross_score": -2.9759061,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00155545::eligibility::0",
+      "doc_id": "NCT00155545",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Functional scoliosis patients who have lumbar scoliosis combined with significant structural LLD - Adolescent idiopathic lumbar scoliosis patients without LLD Exclusion Criteria: - Do not suit the inclusion criteria",
+      "title": "Influence of Leg Length Discrepancy on the Spinal Shape and Biomechanics in Functional and Idiopathic Scoliosis Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 353.09745141381904,
+      "cross_score": -3.553195,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to be a suitable candidate for the clinical trial. You are a 14-year-old boy with scoliosis and back pain, which aligns with the inclusion criteria of the study. However, we need more information to confirm your eligibility, such as the exact measurements of your scoliotic curve and your ability to participate in the treatment protocol.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 14-year-old boy with scoliosis and back pain.\",\n    \"The scoliotic curve is measured as 45 degrees.\",\n    \"He prefers lying down most of the time.\",\n    \"He is not happy with his body gesture and complains of shoulder imbalance and shifting his head to the right.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Exact measurements of the scoliotic curve.\",\n    \"Ability to participate in the treatment protocol, including spinal manipulation therapy.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of the patient's ability to tolerate the treatment protocol, including spinal manipulation therapy.\",\n    \"Further evaluation by an independent orthopaedist to confirm the baseline and 4-week assessments.\"\n  ],\n  \"reasoning_summary\": \"The patient meets the basic inclusion criteria for the study, but we need additional information to ensure he is a suitable candidate for the treatment protocol, particularly regarding his tolerance for spinal manipulation therapy and the confirmation of the baseline and follow-up assessments.\",\n  \"safety_note\": \"The safety note from the evidence indicates that the study involves spinal manipulation therapy, which is a recognized and safe treatment for low back pain in children and adolescents. However, the patient's suitability for this treatment must be confirmed through further evaluation and assessment.\"\n}",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "Based on the information provided, you seem to be a suitable candidate for the clinical trial. You are a 14-year-old boy with scoliosis and back pain, which aligns with the inclusion criteria of the study. However, we need more information to confirm your eligibility, such as the exact measurements of your scoliotic curve and your ability to participate in the treatment protocol.",
+    "supported_patient_facts": [
+      "The patient is a 14-year-old boy with scoliosis and back pain.",
+      "The scoliotic curve is measured as 45 degrees.",
+      "He prefers lying down most of the time.",
+      "He is not happy with his body gesture and complains of shoulder imbalance and shifting his head to the right."
+    ],
+    "missing_patient_facts": [
+      "Exact measurements of the scoliotic curve.",
+      "Ability to participate in the treatment protocol, including spinal manipulation therapy."
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of the patient's ability to tolerate the treatment protocol, including spinal manipulation therapy.",
+      "Further evaluation by an independent orthopaedist to confirm the baseline and 4-week assessments."
+    ],
+    "reasoning_summary": "The patient meets the basic inclusion criteria for the study, but we need additional information to ensure he is a suitable candidate for the treatment protocol, particularly regarding his tolerance for spinal manipulation therapy and the confirmation of the baseline and follow-up assessments.",
+    "safety_note": "The safety note from the evidence indicates that the study involves spinal manipulation therapy, which is a recognized and safe treatment for low back pain in children and adolescents. However, the patient's suitability for this treatment must be confirmed through further evaluation and assessment."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "Based on the information provided, you seem to be a suitable candidate for the clinical trial. You are a 14-year-old boy with scoliosis and back pain, which aligns with the inclusion criteria of the study. However, we need more information to confirm your eligibility, such as the exact measurements of your scoliotic curve and your ability to participate in the treatment protocol.",
+  "missing_patient_facts": [
+    "Exact measurements of the scoliotic curve.",
+    "Ability to participate in the treatment protocol, including spinal manipulation therapy."
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of the patient's ability to tolerate the treatment protocol, including spinal manipulation therapy.",
+    "Further evaluation by an independent orthopaedist to confirm the baseline and 4-week assessments."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.708
+}

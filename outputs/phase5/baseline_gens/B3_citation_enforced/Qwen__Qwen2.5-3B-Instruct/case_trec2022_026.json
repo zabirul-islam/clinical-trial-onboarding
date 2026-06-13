@@ -1,0 +1,144 @@
+{
+  "case_id": "case_trec2022_026",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT01847690",
+  "reference_trial": "NCT01847690",
+  "evidence_trials": [
+    "NCT01771328",
+    "NCT01840189",
+    "NCT01847690",
+    "NCT02160730",
+    "NCT03015701",
+    "NCT03793114"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 33-year-old woman comes to clinic complaining of progressive fatigue, decreased appetite, and 11-lb weight loss in the past 2 months. She uses levothyroxine because of the previously diagnosed Hashimoto disease. She has no other medical conditions and does not use tobacco, alcohol, or illicit drugs. Physical examination shows a generalized increase in pigmentation of the skin. Measurement of serum cortisol before and after administration of exogenous adrenocorticotropic hormone (ACTH) shows no difference in the levels. Stable glucocorticoid replacement therapy starts for her with the diagnosis for primary adrenal insufficiency (Addison disease) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT01847690 | section=summary]\nThe conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.\n\n[Passage 2 | doc=NCT02160730 | section=detailed_description]\nHere, the investigators propose an exploratory, proof of concept clinical trial to determine if seliciclib can safely normalize urinary free cortisol levels by reducing pituitary corticotroph tumor ACTH production in patients with Cushing disease.\n\n[Passage 3 | doc=NCT01771328 | section=summary]\nThe conventional glucocorticoid replacement therapy in congenital adrenal hyperplasia (CAH) renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Glucocorticoid replacement is technically feasible by continuous subcutaneous hydrocortisone infusion (CSHI), and can mimic the normal diurnal cortisol rhythm. This method was recently applied to treat a patient through a critical phase of puberty. This is a clinical trial aiming to evaluate CSHI treatment in patients with CAH. The main objective is to determine the effects of CSHI on metabolic parameters (androstenedione and 17-hydroxyprogesterone profiles, and testosterone,adrenocorticotropic hormone(ACTH), cortisol, and bone markers), and to determine the required glucocorticoid doses. Secondary objectives are to determine effects on clinical status, body weight, blood pressure and other metabolic parameters, as well as on subjective health status (AddiQoL, SF36).\n\n[Passage 4 | doc=NCT03015701 | section=eligibility]\nSuch modulations include but are not limited to birth control pills, bilateral oophorectomy or orchiectomy, progestational inserts, oral or vaginal exogenous estrogens, androgens or antiandrogens, progestational agonists, tamoxifen, aminoglutethimide, o,p-DDD, ACTH, glucocorticoids not for cerebral edema, and leuprolides (or other LH-RH inhibitors). Patients must not have received prior mifepristone therapy for meningioma. 13. Patients must not have serious intercurrent medical illness; that is, any illness that in the opinion of the investigator would prevent following the study regimen. 14. Patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible. 15. Patients with a known allergy to mifepristone are not eligible. 16. Patients with base of brain, cavernous sinus or optic nerve meningiomas or with visual symptoms must have a formal visual field examination. 17. Pregnant or lactating women may not participate.\n\n[Passage 5 | doc=NCT03793114 | section=detailed_description]\nAutoimmune destruction of the adrenal cortex is the main cause of primary adrenal insufficiency (Addison's disease, AD). Autoimmune AD (AAD) becomes clinically manifest when 90 % of cortex of adrenal gland is destroyed. Current dogma says that adrenal insufficiency ultimately is complete, that is the adrenal cortex stops producing steroids altogether. However, several case reports indicate that there might be a subgroup of patients that retain some steroid production, even years after the diagnosis. This ability could be beneficial as it could protect against adrenal crises, ease medication, and leave the patient with better quality of life. The objective of the study is to systematically assess to what extent patients with AAD have residual adrenocortical function, and to characterize this subgroup. The study will be an open non-randomized three-stage multicenter clinical trial comprising patients from the Norwegian Registry for organ-specific autoimmune disease (ROAS), the Swedish Addison registry, and Germany. In stage 1, patients will be asked to fill out questionnaires and deliver medication-fasting samples for analyses of adrenal steroids.\n\n[Passage 6 | doc=NCT01840189 | section=summary]\nThe conventional glucocorticoid replacement therapy in primary adrenal insufficiency (Addison's disease) renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. The majority of Addison's patients have other organ-specific autoimmune disease, which poses challenges to the replacement therapy. Of particular interest is the combination of Addison's disease and type 1 diabetes, since cortisol affects glucose homeostasis. The clinical experience is that this subgroup of patients is difficult to treat, but very little research has been done to understand and improve their situation. Glucocorticoid replacement is technically feasible by continuous subcutaneous hydrocortisone infusion, and can mimic the normal diurnal cortisol rhythm. This pilot study aims to further evaluate continuous subcutaneous hydrocortisone infusion treatment in terms of metabolic effects especially glycemic control in patients with the combination of Addison's disease and type 1 diabetes in an 5 months cross-over design open clinical pilot study.",
+  "passages": [
+    {
+      "passage_id": "NCT01847690::summary::0",
+      "doc_id": "NCT01847690",
+      "section": "summary",
+      "passage_text": "The conventional glucocorticoid replacement therapy in primary adrenal insufficiency- Addison's disease,renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Many patients take stress-doses that are extra doses of hydrocortisone or cortisone acetate before or during stressful physical or psychological events. However, the effect of such dosing has not been tested in scientific studies. In this double blind cross-over designed pilot trial we aim to test the effect of an extra dose of cortisol on physical activity and hormone levels.",
+      "title": "Effect of Cortisol on Physical Exertion in Patients With Primary Adrenal Failure",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 244.22565203976504,
+      "cross_score": -5.657776,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02160730::detailed_description::1",
+      "doc_id": "NCT02160730",
+      "section": "detailed_description",
+      "passage_text": "Here, the investigators propose an exploratory, proof of concept clinical trial to determine if seliciclib can safely normalize urinary free cortisol levels by reducing pituitary corticotroph tumor ACTH production in patients with Cushing disease.",
+      "title": "Treatment of Cushing's Disease With R-roscovitine",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 243.03951313442167,
+      "cross_score": -5.9479246,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01771328::summary::0",
+      "doc_id": "NCT01771328",
+      "section": "summary",
+      "passage_text": "The conventional glucocorticoid replacement therapy in congenital adrenal hyperplasia (CAH) renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. Glucocorticoid replacement is technically feasible by continuous subcutaneous hydrocortisone infusion (CSHI), and can mimic the normal diurnal cortisol rhythm. This method was recently applied to treat a patient through a critical phase of puberty. This is a clinical trial aiming to evaluate CSHI treatment in patients with CAH. The main objective is to determine the effects of CSHI on metabolic parameters (androstenedione and 17-hydroxyprogesterone profiles, and testosterone,adrenocorticotropic hormone(ACTH), cortisol, and bone markers), and to determine the required glucocorticoid doses. Secondary objectives are to determine effects on clinical status, body weight, blood pressure and other metabolic parameters, as well as on subjective health status (AddiQoL, SF36).",
+      "title": "Continuous Subcutaneous Hydrocortisone Infusion in Congenital Adrenal Hyperplasia",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 260.41358885362445,
+      "cross_score": -6.3808107,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03015701::eligibility::2",
+      "doc_id": "NCT03015701",
+      "section": "eligibility",
+      "passage_text": "Such modulations include but are not limited to birth control pills, bilateral oophorectomy or orchiectomy, progestational inserts, oral or vaginal exogenous estrogens, androgens or antiandrogens, progestational agonists, tamoxifen, aminoglutethimide, o,p-DDD, ACTH, glucocorticoids not for cerebral edema, and leuprolides (or other LH-RH inhibitors). Patients must not have received prior mifepristone therapy for meningioma. 13. Patients must not have serious intercurrent medical illness; that is, any illness that in the opinion of the investigator would prevent following the study regimen. 14. Patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible. 15. Patients with a known allergy to mifepristone are not eligible. 16. Patients with base of brain, cavernous sinus or optic nerve meningiomas or with visual symptoms must have a formal visual field examination. 17. Pregnant or lactating women may not participate.",
+      "title": "S9005 Mifepristone in Meningioma",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 239.2191626839487,
+      "cross_score": -6.415718,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03793114::detailed_description::0",
+      "doc_id": "NCT03793114",
+      "section": "detailed_description",
+      "passage_text": "Autoimmune destruction of the adrenal cortex is the main cause of primary adrenal insufficiency (Addison's disease, AD). Autoimmune AD (AAD) becomes clinically manifest when 90 % of cortex of adrenal gland is destroyed. Current dogma says that adrenal insufficiency ultimately is complete, that is the adrenal cortex stops producing steroids altogether. However, several case reports indicate that there might be a subgroup of patients that retain some steroid production, even years after the diagnosis. This ability could be beneficial as it could protect against adrenal crises, ease medication, and leave the patient with better quality of life. The objective of the study is to systematically assess to what extent patients with AAD have residual adrenocortical function, and to characterize this subgroup. The study will be an open non-randomized three-stage multicenter clinical trial comprising patients from the Norwegian Registry for organ-specific autoimmune disease (ROAS), the Swedish Addison registry, and Germany. In stage 1, patients will be asked to fill out questionnaires and deliver medication-fasting samples for analyses of adrenal steroids.",
+      "title": "Screening and Stimulation Testing for Residual Secretion of Adrenal Steroid Hormones in Autoimmune Addison's Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 244.06339661595183,
+      "cross_score": -6.4653425,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01840189::summary::0",
+      "doc_id": "NCT01840189",
+      "section": "summary",
+      "passage_text": "The conventional glucocorticoid replacement therapy in primary adrenal insufficiency (Addison's disease) renders the cortisol levels unphysiological, which may cause symptoms and long-term complications. The majority of Addison's patients have other organ-specific autoimmune disease, which poses challenges to the replacement therapy. Of particular interest is the combination of Addison's disease and type 1 diabetes, since cortisol affects glucose homeostasis. The clinical experience is that this subgroup of patients is difficult to treat, but very little research has been done to understand and improve their situation. Glucocorticoid replacement is technically feasible by continuous subcutaneous hydrocortisone infusion, and can mimic the normal diurnal cortisol rhythm. This pilot study aims to further evaluate continuous subcutaneous hydrocortisone infusion treatment in terms of metabolic effects especially glycemic control in patients with the combination of Addison's disease and type 1 diabetes in an 5 months cross-over design open clinical pilot study.",
+      "title": "Continuous Subcutaneous Hydrocortisone Infusion In Addison's Disease and Type 1 Diabetes",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 246.53793768203207,
+      "cross_score": -6.6456666,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your symptoms and medical history, you seem to fit the profile for primary adrenal insufficiency (Addison disease). However, we need more information to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"A 33-year-old woman\", \"complaining of progressive fatigue, decreased appetite, and 11-lb weight loss in the past 2 months\", \"uses levothyroxine because of the previously diagnosed Hashimoto disease\", \"has no other medical conditions\", \"does not use tobacco, alcohol, or illicit drugs\", \"physical examination shows a generalized increase in pigmentation of the skin\", \"measurement of serum cortisol before and after administration of exogenous adrenocorticotropic hormone (ACTH) shows no difference in the levels\", \"stable glucocorticoid replacement therapy starts for her with the diagnosis for primary adrenal insufficiency (Addison disease)\"],\n  \"missing_patient_facts\": [\"any history of other autoimmune diseases\", \"any history of previous adrenal crisis\", \"any history of pregnancy or lactation\", \"any history of bilateral oophorectomy or orchiectomy\", \"any history of hormonal contraception use\", \"any history of mifepristone therapy for meningioma\"],\n  \"unresolved_study_requirements\": [\"patients must not have serious intercurrent medical illness\", \"patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible\", \"patients with a known allergy to mifepristone are not eligible\", \"pregnant or lactating women may not participate\"],\n  \"reasoning_summary\": \"Your symptoms and medical history suggest primary adrenal insufficiency, but we need to confirm this with additional tests and ensure you do not have any contraindications to the study. We also need to check if you have any other autoimmune diseases or have had adrenal crises.\",\n  \"safety_note\": \"It is important to note that patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible for this study. Additionally, pregnant or lactating women may not participate.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "A 33-year-old woman",
+      "complaining of progressive fatigue, decreased appetite, and 11-lb weight loss in the past 2 months",
+      "uses levothyroxine because of the previously diagnosed Hashimoto disease",
+      "has no other medical conditions",
+      "does not use tobacco, alcohol, or illicit drugs",
+      "physical examination shows a generalized increase in pigmentation of the skin",
+      "measurement of serum cortisol before and after administration of exogenous adrenocorticotropic hormone (ACTH) shows no difference in the levels",
+      "stable glucocorticoid replacement therapy starts for her with the diagnosis for primary adrenal insufficiency (Addison disease)"
+    ],
+    "missing_patient_facts": [
+      "any history of other autoimmune diseases",
+      "any history of previous adrenal crisis",
+      "any history of pregnancy or lactation",
+      "any history of bilateral oophorectomy or orchiectomy",
+      "any history of hormonal contraception use",
+      "any history of mifepristone therapy for meningioma"
+    ],
+    "unresolved_study_requirements": [
+      "patients must not have serious intercurrent medical illness",
+      "patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible",
+      "patients with a known allergy to mifepristone are not eligible",
+      "pregnant or lactating women may not participate"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to note that patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible for this study. Additionally, pregnant or lactating women may not participate."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "any history of other autoimmune diseases",
+    "any history of previous adrenal crisis",
+    "any history of pregnancy or lactation",
+    "any history of bilateral oophorectomy or orchiectomy",
+    "any history of hormonal contraception use",
+    "any history of mifepristone therapy for meningioma"
+  ],
+  "unresolved_study_requirements": [
+    "patients must not have serious intercurrent medical illness",
+    "patients with clinical adrenal insufficiency requiring exogenous corticosteroid replacement are not eligible",
+    "patients with a known allergy to mifepristone are not eligible",
+    "pregnant or lactating women may not participate"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.27
+}

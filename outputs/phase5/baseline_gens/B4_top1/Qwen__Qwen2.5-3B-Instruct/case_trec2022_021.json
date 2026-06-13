@@ -1,0 +1,65 @@
+{
+  "case_id": "case_trec2022_021",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04671472",
+  "reference_trial": "NCT04671472",
+  "evidence_trials": [
+    "NCT04671472"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old man comes to the clinic for the follow up of his neuromuscular disease. He experienced gradual, progressive weakness of the left upper extremity over the last year. Over the last few months, he has also noticed weakness in the right upper extremity. BP is 120/75, PR is 80 and temperature is 37 C. Reflexes are brisk in the upper extremities, and the plantar responses are extensor. Mild gait ataxia is present. The patient is under treatment of Riluzole 50 mg BID with the diagnosis of ALS. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04671472 | section=eligibility]\nInclusion Criteria: - Willing and able to provide written, signed informed consent after the nature of the study has been explained, and before any research-related procedures are conducted - Have a documented diagnosis of GNEM, HIBM, distal myopathy with rimmed vacuoles (DMRV), or Nonaka disease due to previously demonstrated mutations in the gene encoding the GNE/MNK enzyme (genotyping will not be conducted in this study) - Male or female, aged 18 - 50 years at Screening - Those who have a score of 24 points or more on the upper limbs of GNEM-FAS (GNE Myopathy Functional Activity Scale) and a disease period of 5 years or more and 15 years or less - Those whose upper limb muscle weakness has been confirmed from the results of manual muscle testing or grip strength measurements over the past few years, or if he / she has participated in the previous clinical trial*, those who could confirm the upper extremity composite score decreased during the investigational drug is not administered. - Able to provide reproducible force in elbow flexors (i.e.",
+  "passages": [
+    {
+      "passage_id": "NCT04671472::eligibility::0",
+      "doc_id": "NCT04671472",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Willing and able to provide written, signed informed consent after the nature of the study has been explained, and before any research-related procedures are conducted - Have a documented diagnosis of GNEM, HIBM, distal myopathy with rimmed vacuoles (DMRV), or Nonaka disease due to previously demonstrated mutations in the gene encoding the GNE/MNK enzyme (genotyping will not be conducted in this study) - Male or female, aged 18 - 50 years at Screening - Those who have a score of 24 points or more on the upper limbs of GNEM-FAS (GNE Myopathy Functional Activity Scale) and a disease period of 5 years or more and 15 years or less - Those whose upper limb muscle weakness has been confirmed from the results of manual muscle testing or grip strength measurements over the past few years, or if he / she has participated in the previous clinical trial*, those who could confirm the upper extremity composite score decreased during the investigational drug is not administered. - Able to provide reproducible force in elbow flexors (i.e.",
+      "title": "Efficacy Confirmation Study of NPC-09",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 269.89598773557617,
+      "cross_score": -4.7689676,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facts\": [\"A 47-year-old man with a documented diagnosis of ALS\", \"Willing and able to provide written, signed informed consent\", \"Upper limb muscle weakness confirmed from manual muscle testing or grip strength measurements over the past few years\"],\n  \"missing_patient_facts\": [\"Age range (18-50 years)\", \"Score of 24 points or more on the upper limbs of GNEM-FAS\", \"Disease period of 5 years or more and 15 years or less\", \"Upper extremity composite score decreased during the investigational drug administration\"],\n  \"unresolved_study_requirements\": [\"Genetic testing for previously demonstrated mutations in the gene encoding the GNE/MNK enzyme\", \"Reproducible force in elbow flexors\"],\n  \"reasoning_summary\": \"The patient meets some key criteria for eligibility such as age, diagnosis, and documentation of upper limb muscle weakness. However, there are several missing pieces of information required by the study, including specific scores on the GNEM-FAS scale, disease duration, and genetic testing. Additionally, the requirement for reproducible force in elbow flexors needs to be assessed.\",\n  \"safety_note\": \"The patient's condition suggests involvement of the neuromuscular system, which is consistent with ALS. However, without definitive confirmation of the exclusion criteria and the presence of the required study-specific tests, it is uncertain whether the patient can be definitively enrolled.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facts": [
+      "A 47-year-old man with a documented diagnosis of ALS",
+      "Willing and able to provide written, signed informed consent",
+      "Upper limb muscle weakness confirmed from manual muscle testing or grip strength measurements over the past few years"
+    ],
+    "missing_patient_facts": [
+      "Age range (18-50 years)",
+      "Score of 24 points or more on the upper limbs of GNEM-FAS",
+      "Disease period of 5 years or more and 15 years or less",
+      "Upper extremity composite score decreased during the investigational drug administration"
+    ],
+    "unresolved_study_requirements": [
+      "Genetic testing for previously demonstrated mutations in the gene encoding the GNE/MNK enzyme",
+      "Reproducible force in elbow flexors"
+    ],
+    "reasoning_summary": "The patient meets some key criteria for eligibility such as age, diagnosis, and documentation of upper limb muscle weakness. However, there are several missing pieces of information required by the study, including specific scores on the GNEM-FAS scale, disease duration, and genetic testing. Additionally, the requirement for reproducible force in elbow flexors needs to be assessed.",
+    "safety_note": "The patient's condition suggests involvement of the neuromuscular system, which is consistent with ALS. However, without definitive confirmation of the exclusion criteria and the presence of the required study-specific tests, it is uncertain whether the patient can be definitively enrolled."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [
+    "Age range (18-50 years)",
+    "Score of 24 points or more on the upper limbs of GNEM-FAS",
+    "Disease period of 5 years or more and 15 years or less",
+    "Upper extremity composite score decreased during the investigational drug administration"
+  ],
+  "unresolved_study_requirements": [
+    "Genetic testing for previously demonstrated mutations in the gene encoding the GNE/MNK enzyme",
+    "Reproducible force in elbow flexors"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.121
+}

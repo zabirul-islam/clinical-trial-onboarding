@@ -1,0 +1,62 @@
+{
+  "case_id": "case_trec2021_049",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001253",
+  "selected_doc": "NCT00191113",
+  "reference_trial": "NCT00191113",
+  "evidence_trials": [
+    "NCT00191113"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 12 year old girl came to the clinic with her mother, complaining of short stature, delayed in puberty and developmental delay. Her karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome. She is treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height. She is an obese, mentally retarded girl in the physical exam. Her breast bulb were in stage 1 with no course hair in the pubic or axillary. Her TSH was 3 and FBS was 75 in the latest lab study. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00191113 | section=summary]\nA randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.",
+  "passages": [
+    {
+      "passage_id": "NCT00191113::summary::0",
+      "doc_id": "NCT00191113",
+      "section": "summary",
+      "passage_text": "A randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.",
+      "title": "Somatropin Treatment to Final Height in Turner Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 264.48884218672515,
+      "cross_score": -2.8297424,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to make a final decision.\",\n  \"supported_patient_facts\": [\"Turner syndrome diagnosis\", \"Age 12 years old\", \"GH treatment for 6 months\"],\n  \"missing_patient_facts\": [\"Duration of current GH treatment\", \"Height data or growth rate\"],\n  \"unresolved_study_requirements\": [\"Final height assessment\", \"Pubertal stage confirmation\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has Turner syndrome, which is a key inclusion criterion. However, there is insufficient information regarding the duration of current GH treatment, height data, and pubertal stage to make a definitive decision.\",\n  \"safety_note\": \"Obesity and mental retardation may require additional safety considerations.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to make a final decision.",
+    "supported_patient_facts": [
+      "Turner syndrome diagnosis",
+      "Age 12 years old",
+      "GH treatment for 6 months"
+    ],
+    "missing_patient_facts": [
+      "Duration of current GH treatment",
+      "Height data or growth rate"
+    ],
+    "unresolved_study_requirements": [
+      "Final height assessment",
+      "Pubertal stage confirmation"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has Turner syndrome, which is a key inclusion criterion. However, there is insufficient information regarding the duration of current GH treatment, height data, and pubertal stage to make a definitive decision.",
+    "safety_note": "Obesity and mental retardation may require additional safety considerations."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the clinical trial, but we need more details to make a final decision.",
+  "missing_patient_facts": [
+    "Duration of current GH treatment",
+    "Height data or growth rate"
+  ],
+  "unresolved_study_requirements": [
+    "Final height assessment",
+    "Pubertal stage confirmation"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.901
+}

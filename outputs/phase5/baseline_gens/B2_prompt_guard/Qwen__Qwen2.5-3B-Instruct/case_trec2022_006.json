@@ -1,0 +1,127 @@
+{
+  "case_id": "case_trec2022_006",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04233359",
+  "reference_trial": "NCT04233359",
+  "evidence_trials": [
+    "NCT00226577",
+    "NCT03272997",
+    "NCT04074902",
+    "NCT04233359",
+    "NCT04792970"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 61-year-old man comes to the clinic due to nonproductive cough and progressive dyspnea. The patient's medical conditions include hypertension, hypercholesteremia and peptic ulcer disease. He smokes 2 packs of cigarettes daily for the past 30 years. On examination, there are decreased breath sounds and percussive dullness at the base of the left lung. Other vital signs are normal. Abdomen is soft without tenderness. CT scan shows a left-sided pleural effusion and nodular thickening of the pleura. The plural fluid was bloody on thoracentesis. Biopsy shows proliferation of epithelioid-type cells with very long microvilli. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04233359 | section=eligibility]\nInclusion Criteria: - Age 18 years or older patients with single previous thoracentesis of a unilateral pleural exudate according to Lights criteria without malignant cells. - Lights Criteria: Pleural fluid protein/serum protein ratio greater than 0.5 pleural fluid LDH/serum LDH ratio greater than 0.6 Pleural fluid LDH greater than two-thirds the upper limits of the Laboratorys normal Serum LDH - Contrast enhanced CT of the Chest and abdomen performed - Clinical suspicion of cancer such as, but not limited to, weight loss, malaise, anemia - Pet-CT results or former cancer diagnosis Informed consent Exclusion Criteria: - bilateral pleural effusions - known cause of pleural effusion - likely non-malignant course of a unilateral pleura effusion such as (but not restricted to) pneumonia, trauma, pleuritis, heart failure - any contraindication to the study procedures\n\n[Passage 2 | doc=NCT04233359 | section=summary]\nPleural fluid can be caused by cancer. Patients with repeated presentation of pleural fluid where initial diagnostic tests have been inconclusive are the focus of this trial. In this clinical trial patients are randomized into two groups and the efficacy of local anesthetic thoracoscopy (LAT) is compared to an ultrasound guided biopsy of the outer lining of the lung. The aim is not only the diagnostic yield in diagnosing cancer, but also the procedures ability to diagnose specific cancer mutations and immune system markings. Methods and objectives: Patients with reoccuring one-sided pleural fluid, with a marked clinical risk of cancer based on findings in medical work-up, radiological scans, biochemistry and medical history and who are undiagnosed upon initial pleural fluid analysis are the target patients of the trial. Patients are randomized into two groups to have undertaken either pleural biopsy at the optimal site for a repeat thoracentesis or LAT. Thus diagnostic yield for both fluid analysis and biopsy analysis will be compared to tissue samples taken with LAT. We hypothesize that LAT is superior both to pleural biopsy and repeat thoracentesis in providing diagnostic clarification and providing sufficient basis for treatment without further procedures resulting in less time consumption, cost and discomfort for the patient.\n\n[Passage 3 | doc=NCT04074902 | section=detailed_description]\nChest CT findings characteristic of malignant pleural disease include (i) circumferential pleural thickening, (ii) nodular pleural thickening, (iii) parietal pleural thickening greater than 1 cm, and (iv) mediastinal pleural involvement or evidence of a primary tumour.(9'10) The reported specificities of each of these individual findings range from 22% to 56% and sensitivities range from 88% to 100%.(9;11) Histological confirmation of the diagnosis, however, remains necessary. Chest CT should be performed before large-volume thoracocentesis to allow visualization of both the visceral and parietal pleurae, which may identify a pleural mass and appropriate site for needle biopsy.\n\n[Passage 4 | doc=NCT03272997 | section=detailed_description]\nClassification of results The investigators chose the combination of investigations recommended by the internationally acknowledged BTS guideline, which is endorsed by the Danish Society of Respiratory Medicine. Thoracocentesis, chest x-ray, CT findings and PET-CT findings is categorized as either normal (i.e. not suggestive of any aetiology of the unilateral pleural effusion), suggestive of other lung pathology or suggestive of malignancy (i.e. representing a possible aetiology of the unilateral pleural effusion). The thoracocentesis is classified as malignant if cytological examination revealed malignant cells. The chest x-ray is classified as malignant if suspicion of malignant disease is not rejected. The CT findings are classified as malignant according to Leung et. al. for pleural abnormalities (circumferential pleural thickening, nodular pleural thickening, parietal pleural thickening > 1 cm and mediastinal pleural involvement) and The Fleischner Society for parenchymal abnormalities (nodules > 8 mm). The PET-CT findings are classified as malignant if any findings suspicious for malignancy.\n\n[Passage 5 | doc=NCT00226577 | section=eligibility]\nExclusion Criteria: - White blood cell count <3000/mm3 - Platelet count <100,000/mm3 - Hemoglobin <9.0 g/dl - Creatinine >1.5 mg/dl - Total bilirubin >1.5 mg/dl - SGOT, SGPT, or AP >1.5 x upper limit of normal - Metastatic disease (except peribronchial/hilar lymph nodes=N1 and ipsilateral/subcarinal mediastinal lymph nodes=N2) or malignant pleural effusion detected on preoperative evaluation. Non-malignant effusions are cytology negative, are non-bloody, and are transudates. Effusions visible only on CT and not large enough for safe thoracentesis will not result in ineligibility. Exudative effusions, even if cytologically negative are excluded. Pleural fluid is considered exudative if: the ratio of pleural fluid protein to serum protein is >0.5 or the ratio of pleural fluid LDH to serum to serum LDH >0.6 or Pleural fluid LDH is >200 IU/liter. A staging PET scan will be used to exclude patients. If there are multiple areas of FDG uptake outside the area of the primary tumor and the hilar and ipsilateral mediastinal lymph nodes, the patient will be excluded by virtue of having metastatic disease.\n\n[Passage 6 | doc=NCT04792970 | section=title]\nRandomized Controlled Trial of Talc Instillation In Addition To Daily Drainage Through a Tunneled Pleural Catheter to Improve Rates of Outpatient Pleurodesis in Patients With Malignant Pleural Effusion",
+  "passages": [
+    {
+      "passage_id": "NCT04233359::eligibility::0",
+      "doc_id": "NCT04233359",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age 18 years or older patients with single previous thoracentesis of a unilateral pleural exudate according to Lights criteria without malignant cells. - Lights Criteria: Pleural fluid protein/serum protein ratio greater than 0.5 pleural fluid LDH/serum LDH ratio greater than 0.6 Pleural fluid LDH greater than two-thirds the upper limits of the Laboratorys normal Serum LDH - Contrast enhanced CT of the Chest and abdomen performed - Clinical suspicion of cancer such as, but not limited to, weight loss, malaise, anemia - Pet-CT results or former cancer diagnosis Informed consent Exclusion Criteria: - bilateral pleural effusions - known cause of pleural effusion - likely non-malignant course of a unilateral pleura effusion such as (but not restricted to) pneumonia, trauma, pleuritis, heart failure - any contraindication to the study procedures",
+      "title": "A Randomised Study Evaluating Diagnostics of Pleural Effusion Among Patients Suspect of Cancer.",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 252.3779656188601,
+      "cross_score": -4.6625857,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04233359::summary::0",
+      "doc_id": "NCT04233359",
+      "section": "summary",
+      "passage_text": "Pleural fluid can be caused by cancer. Patients with repeated presentation of pleural fluid where initial diagnostic tests have been inconclusive are the focus of this trial. In this clinical trial patients are randomized into two groups and the efficacy of local anesthetic thoracoscopy (LAT) is compared to an ultrasound guided biopsy of the outer lining of the lung. The aim is not only the diagnostic yield in diagnosing cancer, but also the procedures ability to diagnose specific cancer mutations and immune system markings. Methods and objectives: Patients with reoccuring one-sided pleural fluid, with a marked clinical risk of cancer based on findings in medical work-up, radiological scans, biochemistry and medical history and who are undiagnosed upon initial pleural fluid analysis are the target patients of the trial. Patients are randomized into two groups to have undertaken either pleural biopsy at the optimal site for a repeat thoracentesis or LAT. Thus diagnostic yield for both fluid analysis and biopsy analysis will be compared to tissue samples taken with LAT. We hypothesize that LAT is superior both to pleural biopsy and repeat thoracentesis in providing diagnostic clarification and providing sufficient basis for treatment without further procedures resulting in less time consumption, cost and discomfort for the patient.",
+      "title": "A Randomised Study Evaluating Diagnostics of Pleural Effusion Among Patients Suspect of Cancer.",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 252.3779656188601,
+      "cross_score": -5.5121746,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04074902::detailed_description::2",
+      "doc_id": "NCT04074902",
+      "section": "detailed_description",
+      "passage_text": "Chest CT findings characteristic of malignant pleural disease include (i) circumferential pleural thickening, (ii) nodular pleural thickening, (iii) parietal pleural thickening greater than 1 cm, and (iv) mediastinal pleural involvement or evidence of a primary tumour.(9'10) The reported specificities of each of these individual findings range from 22% to 56% and sensitivities range from 88% to 100%.(9;11) Histological confirmation of the diagnosis, however, remains necessary. Chest CT should be performed before large-volume thoracocentesis to allow visualization of both the visceral and parietal pleurae, which may identify a pleural mass and appropriate site for needle biopsy.",
+      "title": "Role of Chest Sonography in Evaluation of Pleurodesis in Patients With Malignant Pleural Effusion",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 263.0263239659346,
+      "cross_score": -5.7588367,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03272997::detailed_description::1",
+      "doc_id": "NCT03272997",
+      "section": "detailed_description",
+      "passage_text": "Classification of results The investigators chose the combination of investigations recommended by the internationally acknowledged BTS guideline, which is endorsed by the Danish Society of Respiratory Medicine. Thoracocentesis, chest x-ray, CT findings and PET-CT findings is categorized as either normal (i.e. not suggestive of any aetiology of the unilateral pleural effusion), suggestive of other lung pathology or suggestive of malignancy (i.e. representing a possible aetiology of the unilateral pleural effusion). The thoracocentesis is classified as malignant if cytological examination revealed malignant cells. The chest x-ray is classified as malignant if suspicion of malignant disease is not rejected. The CT findings are classified as malignant according to Leung et. al. for pleural abnormalities (circumferential pleural thickening, nodular pleural thickening, parietal pleural thickening > 1 cm and mediastinal pleural involvement) and The Fleischner Society for parenchymal abnormalities (nodules > 8 mm). The PET-CT findings are classified as malignant if any findings suspicious for malignancy.",
+      "title": "The Value of PET-CT in Pleural Effusions",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 248.1629849303915,
+      "cross_score": -5.7866826,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00226577::eligibility::1",
+      "doc_id": "NCT00226577",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - White blood cell count <3000/mm3 - Platelet count <100,000/mm3 - Hemoglobin <9.0 g/dl - Creatinine >1.5 mg/dl - Total bilirubin >1.5 mg/dl - SGOT, SGPT, or AP >1.5 x upper limit of normal - Metastatic disease (except peribronchial/hilar lymph nodes=N1 and ipsilateral/subcarinal mediastinal lymph nodes=N2) or malignant pleural effusion detected on preoperative evaluation. Non-malignant effusions are cytology negative, are non-bloody, and are transudates. Effusions visible only on CT and not large enough for safe thoracentesis will not result in ineligibility. Exudative effusions, even if cytologically negative are excluded. Pleural fluid is considered exudative if: the ratio of pleural fluid protein to serum protein is >0.5 or the ratio of pleural fluid LDH to serum to serum LDH >0.6 or Pleural fluid LDH is >200 IU/liter. A staging PET scan will be used to exclude patients. If there are multiple areas of FDG uptake outside the area of the primary tumor and the hilar and ipsilateral mediastinal lymph nodes, the patient will be excluded by virtue of having metastatic disease.",
+      "title": "Pharmacogenomic & Phase II Study of Gemcitabine and Pemetrexed in Non-Small-Cell Lung Cancer.",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 257.9462689078798,
+      "cross_score": -6.0423236,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04792970::title::0",
+      "doc_id": "NCT04792970",
+      "section": "title",
+      "passage_text": "Randomized Controlled Trial of Talc Instillation In Addition To Daily Drainage Through a Tunneled Pleural Catheter to Improve Rates of Outpatient Pleurodesis in Patients With Malignant Pleural Effusion",
+      "title": "Randomized Controlled Trial of Talc Instillation In Addition To Daily Drainage Through a Tunneled Pleural Catheter to Improve Rates of Outpatient Pleurodesis in Patients With Malignant Pleural Effusion",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 259.48297069649703,
+      "cross_score": -6.645458,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"likely_match\",\n  \"patient_facing_answer\": \"Based on your symptoms and test results, you seem to meet the inclusion criteria for this clinical trial. You are 61 years old, have a non-productive cough and progressive dyspnea, and have a pleural effusion with nodular thickening of the pleura. Your smoking history and medical conditions are also consistent with the trial's inclusion criteria. However, we need to confirm a few things before we can enroll you. We need to check if you have had a previous thoracentesis of a unilateral pleural exudate, and we need to ensure that your pleural fluid is bloody and contains epithelioid-type cells. These details are still being confirmed.\",\n  \"supported_patient_facts\": [\n    \"Age 61 years old\",\n    \"Non-productive cough and progressive dyspnea\",\n    \"Left-sided pleural effusion and nodular thickening of the pleura\",\n    \"Smoking history of 30 years\"\n  ],\n  \"missing_patient_facts\": [\n    \"Previous thoracentesis of a unilateral pleural exudate\",\n    \"Bloodiness of the pleural fluid and presence of epithelioid-type cells\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Need to confirm previous thoracentesis of a unilateral pleural exudate\",\n    \"Need to confirm presence of epithelioid-type cells in the pleural fluid\"\n  ],\n  \"reasoning_summary\": \"The patient meets the age and symptom criteria, and his medical history aligns with the trial's inclusion criteria. However, the specific details about previous thoracentesis and the presence of epithelioid-type cells in the pleural fluid are still pending verification.\",\n  \"safety_note\": \"It is important to note that while you seem to meet the eligibility criteria, additional information is required to finalize your enrollment. This ensures the safety and appropriateness of your participation in the trial.\"\n}",
+  "parsed": {
+    "decision": "likely_match",
+    "patient_facing_answer": "Based on your symptoms and test results, you seem to meet the inclusion criteria for this clinical trial. You are 61 years old, have a non-productive cough and progressive dyspnea, and have a pleural effusion with nodular thickening of the pleura. Your smoking history and medical conditions are also consistent with the trial's inclusion criteria. However, we need to confirm a few things before we can enroll you. We need to check if you have had a previous thoracentesis of a unilateral pleural exudate, and we need to ensure that your pleural fluid is bloody and contains epithelioid-type cells. These details are still being confirmed.",
+    "supported_patient_facts": [
+      "Age 61 years old",
+      "Non-productive cough and progressive dyspnea",
+      "Left-sided pleural effusion and nodular thickening of the pleura",
+      "Smoking history of 30 years"
+    ],
+    "missing_patient_facts": [
+      "Previous thoracentesis of a unilateral pleural exudate",
+      "Bloodiness of the pleural fluid and presence of epithelioid-type cells"
+    ],
+    "unresolved_study_requirements": [
+      "Need to confirm previous thoracentesis of a unilateral pleural exudate",
+      "Need to confirm presence of epithelioid-type cells in the pleural fluid"
+    ],
+    "reasoning_summary": "The patient meets the age and symptom criteria, and his medical history aligns with the trial's inclusion criteria. However, the specific details about previous thoracentesis and the presence of epithelioid-type cells in the pleural fluid are still pending verification.",
+    "safety_note": "It is important to note that while you seem to meet the eligibility criteria, additional information is required to finalize your enrollment. This ensures the safety and appropriateness of your participation in the trial."
+  },
+  "parse_ok": true,
+  "decision": "likely_match",
+  "patient_facing_answer": "Based on your symptoms and test results, you seem to meet the inclusion criteria for this clinical trial. You are 61 years old, have a non-productive cough and progressive dyspnea, and have a pleural effusion with nodular thickening of the pleura. Your smoking history and medical conditions are also consistent with the trial's inclusion criteria. However, we need to confirm a few things before we can enroll you. We need to check if you have had a previous thoracentesis of a unilateral pleural exudate, and we need to ensure that your pleural fluid is bloody and contains epithelioid-type cells. These details are still being confirmed.",
+  "missing_patient_facts": [
+    "Previous thoracentesis of a unilateral pleural exudate",
+    "Bloodiness of the pleural fluid and presence of epithelioid-type cells"
+  ],
+  "unresolved_study_requirements": [
+    "Need to confirm previous thoracentesis of a unilateral pleural exudate",
+    "Need to confirm presence of epithelioid-type cells in the pleural fluid"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.957
+}

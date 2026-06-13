@@ -1,0 +1,133 @@
+{
+  "case_id": "case_trec2021_056",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001981",
+  "selected_doc": "NCT02952885",
+  "reference_trial": "NCT02952885",
+  "evidence_trials": [
+    "NCT00921609",
+    "NCT01568359",
+    "NCT02629549",
+    "NCT02952885",
+    "NCT03548415",
+    "NCT04066569"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02952885 | section=eligibility]\nInclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.\n\n[Passage 2 | doc=NCT00921609 | section=summary]\nAcromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.\n\n[Passage 3 | doc=NCT04066569 | section=eligibility]\nInclusion Criteria: - Acromegalic subjects - Men or women, adults \u2264 85 years, with hypersecretion of GH proven by the following criteria: - High IGF-I compared to age and sex standards (Variety study, Chanson et al., 2016) - and basal GH concentrations > 0.4 \u03bcg / L (Katznelson, et al., 2014) and somatotropic pituitary adenoma operated on or planned to be operated on. It may be patients whose acromegaly has just been discovered and not yet treated (de novo patients) for whom a surgical treatment is envisaged within 6 months after inclusion or acromegalic patients already operated on a pituitary adenoma whose acromegaly is not controlled by surgery. A histological confirmation of a somatotropic pituitary adenoma will be obtained either before inclusion in the study (subjects already operated) or after inclusion (\"de novo\" subjects) in order to have a sufficient level of proof of the diagnosis of acromegaly, especially in the \"intermediate\" forms. - Medically treated patients who decide to discontinue treatment (in order to reassess the progression of the disease, or at the time of a change), will be eligible after more than 3 months of discontinuation of the drug treatment.\n\n[Passage 4 | doc=NCT03548415 | section=eligibility]\nInclusion Criteria: 1. Males or females with documented diagnosis of Acromegaly, aged 18-75 years old (inclusive) at the time of informed consent 2. Patients must be on stable maximum or maximally tolerated dose of SRL (Lanreotide Autogel or Octreotide LAR, per treating physician judgment) every 28 days for a minimum of 3 months prior to screening and will be required to continue their stable dose of SRL throughout the study. Prior use of other medications for treating acromegaly is allowed but not within 6 weeks of screening. 3. At Screening, serum IGF-1 (performed at central lab) between 1.3 to 5 x ULN, inclusive, adjusted for age and sex 4. Females must be non-pregnant and non-lactating, and either surgically sterile, post-menopausal, abstinent, or using 1 highly effective method of birth control Exclusion Criteria: 1. Patients who received surgery for pituitary adenoma within the last 6 months before the trial, or planning to receive surgery during the trial 2. Patients who received radiotherapy for pituitary adenoma within the last 3 years before the trial, and/or planning to receive radiotherapy during the trial 3.\n\n[Passage 5 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.\n\n[Passage 6 | doc=NCT01568359 | section=eligibility]\nInclusion Criteria: - Patients diagnosed with acromegaly or a nonfunctioning pituitary who will receive treatment for the pituitary condition. - Study subjects must agree to participate in this study and provide written consent. - Site- Emory Clinic/Emory University hospital. - Stage of Disease: Patients with active acromegaly that is either newly diagnosed or uncontrolled on current therapy (as shown by GH/IGF-1 levels). Patients with nonfunctioning pituitary adenoma in whom surgical intervention planned based on current guidelines will serve as a control group. - Age: Study subjects must be over 18 years of age. Exclusion Criteria: - Age < 18 years old - Prior other diseases: Patients chronic renal disease stage 3 or worse (estimated GFR > 60).",
+  "passages": [
+    {
+      "passage_id": "NCT02952885::eligibility::0",
+      "doc_id": "NCT02952885",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 269.842848945394,
+      "cross_score": -2.9960742,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00921609::summary::0",
+      "doc_id": "NCT00921609",
+      "section": "summary",
+      "passage_text": "Acromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.",
+      "title": "Peri-operative Dynamics of the Growth Hormone Axis in Subjects With Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 297.23009753041816,
+      "cross_score": -3.2400317,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04066569::eligibility::0",
+      "doc_id": "NCT04066569",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Acromegalic subjects - Men or women, adults \u2264 85 years, with hypersecretion of GH proven by the following criteria: - High IGF-I compared to age and sex standards (Variety study, Chanson et al., 2016) - and basal GH concentrations > 0.4 \u03bcg / L (Katznelson, et al., 2014) and somatotropic pituitary adenoma operated on or planned to be operated on. It may be patients whose acromegaly has just been discovered and not yet treated (de novo patients) for whom a surgical treatment is envisaged within 6 months after inclusion or acromegalic patients already operated on a pituitary adenoma whose acromegaly is not controlled by surgery. A histological confirmation of a somatotropic pituitary adenoma will be obtained either before inclusion in the study (subjects already operated) or after inclusion (\"de novo\" subjects) in order to have a sufficient level of proof of the diagnosis of acromegaly, especially in the \"intermediate\" forms. - Medically treated patients who decide to discontinue treatment (in order to reassess the progression of the disease, or at the time of a change), will be eligible after more than 3 months of discontinuation of the drug treatment.",
+      "title": "Reproducibility and Utility of OGTT in Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 262.5942498169614,
+      "cross_score": -3.2972171,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03548415::eligibility::0",
+      "doc_id": "NCT03548415",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Males or females with documented diagnosis of Acromegaly, aged 18-75 years old (inclusive) at the time of informed consent 2. Patients must be on stable maximum or maximally tolerated dose of SRL (Lanreotide Autogel or Octreotide LAR, per treating physician judgment) every 28 days for a minimum of 3 months prior to screening and will be required to continue their stable dose of SRL throughout the study. Prior use of other medications for treating acromegaly is allowed but not within 6 weeks of screening. 3. At Screening, serum IGF-1 (performed at central lab) between 1.3 to 5 x ULN, inclusive, adjusted for age and sex 4. Females must be non-pregnant and non-lactating, and either surgically sterile, post-menopausal, abstinent, or using 1 highly effective method of birth control Exclusion Criteria: 1. Patients who received surgery for pituitary adenoma within the last 6 months before the trial, or planning to receive surgery during the trial 2. Patients who received radiotherapy for pituitary adenoma within the last 3 years before the trial, and/or planning to receive radiotherapy during the trial 3.",
+      "title": "Safety, Tolerability, and Efficacy of IONIS-GHR-LRx in Patients With Acromegaly Being Treated With Long-acting Somatostatin Receptor Ligands",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 263.44053872066826,
+      "cross_score": -3.3282523,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 267.9896794584097,
+      "cross_score": -3.54554,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01568359::eligibility::0",
+      "doc_id": "NCT01568359",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients diagnosed with acromegaly or a nonfunctioning pituitary who will receive treatment for the pituitary condition. - Study subjects must agree to participate in this study and provide written consent. - Site- Emory Clinic/Emory University hospital. - Stage of Disease: Patients with active acromegaly that is either newly diagnosed or uncontrolled on current therapy (as shown by GH/IGF-1 levels). Patients with nonfunctioning pituitary adenoma in whom surgical intervention planned based on current guidelines will serve as a control group. - Age: Study subjects must be over 18 years of age. Exclusion Criteria: - Age < 18 years old - Prior other diseases: Patients chronic renal disease stage 3 or worse (estimated GFR > 60).",
+      "title": "Calcium Homeostasis in Acromegaly: Effect of Surgical/Medical Treatment and Comparison With Nonfunctioning Pituitary Tumors",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 259.87413966080925,
+      "cross_score": -4.0547028,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to meet some eligibility criteria for the clinical trial, but there are some details we need to confirm.\",\n  \"supported_patient_facts\": [\"The patient is a 41-year-old man with a known case of Acromegaly.\", \"He underwent transsphenoidal surgery 4 months ago.\", \"His IGF-1 level is 4.5 ULN adjusted by sex and age.\", \"His random GH level is 4 ug/L.\", \"A residual pituitary tumor was confirmed on the recent brain MRI.\"],\n  \"missing_patient_facts\": [\"The patient's past medical history regarding his acromegaly treatment.\", \"Whether the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.\", \"The patient's current status regarding pregnancy or lactation.\", \"The patient's IGF-I levels at the time of screening.\"],\n  \"unresolved_study_requirements\": [\"It is unclear if the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.\", \"It is unknown if the patient is currently pregnant or lactating.\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has a confirmed acromegaly diagnosis. However, the specific details about his acromegaly treatment, including the duration of SRL use and his reproductive status, are not clear from the provided information. These are crucial factors for determining eligibility.\",\n  \"safety_note\": \"Please consult with your healthcare provider before participating in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "The patient is a 41-year-old man with a known case of Acromegaly.",
+      "He underwent transsphenoidal surgery 4 months ago.",
+      "His IGF-1 level is 4.5 ULN adjusted by sex and age.",
+      "His random GH level is 4 ug/L.",
+      "A residual pituitary tumor was confirmed on the recent brain MRI."
+    ],
+    "missing_patient_facts": [
+      "The patient's past medical history regarding his acromegaly treatment.",
+      "Whether the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.",
+      "The patient's current status regarding pregnancy or lactation.",
+      "The patient's IGF-I levels at the time of screening."
+    ],
+    "unresolved_study_requirements": [
+      "It is unclear if the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.",
+      "It is unknown if the patient is currently pregnant or lactating."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "Please consult with your healthcare provider before participating in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "The patient's past medical history regarding his acromegaly treatment.",
+    "Whether the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.",
+    "The patient's current status regarding pregnancy or lactation.",
+    "The patient's IGF-I levels at the time of screening."
+  ],
+  "unresolved_study_requirements": [
+    "It is unclear if the patient has been on stable maximum or maximally tolerated dose of SRL for at least 3 months prior to screening.",
+    "It is unknown if the patient is currently pregnant or lactating."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.995
+}

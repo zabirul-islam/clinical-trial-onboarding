@@ -1,0 +1,74 @@
+{
+  "case_id": "case_09",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT01645904",
+  "reference_trial": "NCT01645904",
+  "evidence_trials": [
+    "NCT01645904"
+  ],
+  "question": "What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT01645904 | section=detailed_description]\nIf you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.\n\n[Passage 2 | doc=NCT01645904 | section=detailed_description]\nYou will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.",
+  "passages": [
+    {
+      "passage_id": "NCT01645904::detailed_description::0",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, you will be assigned to 1 of 3 groups based on when you joined the study. Group 1: If you are assigned to Group 1, you will take part in a focus group where you will be asked what you would want in a web-based program designed to improve the communication of health and health history information among family members affected by Lynch syndrome. You will also fill out a questionnaire with questions about your demographics (age, race, marital status) and your medical history. This visit should take about 1 hour to complete. Group 2: If you are assigned to Group 2, you will come to the Behavioral Research and Treatment Center (BRTC) at MD Anderson to use the initial version of the My Family Garden website. My Family Garden is designed to teach new ways of communicating about Lynch Syndrome and about other issues related to the disease (such as risks associated with the disease, etc.). You will be instructed on how to use the program by the study staff. After you use the website, you will have an interview where you will provide feedback on your session.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 32.32920719167955,
+      "cross_score": 3.0045342,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01645904::detailed_description::1",
+      "doc_id": "NCT01645904",
+      "section": "detailed_description",
+      "passage_text": "You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website. You will also fill out a questionnaire called the Website Analysis and MeasureMent Inventory (WAMMI) which is designed help rate websites. You will also fill out the demographics questionnaire described above. You will be given the option of completing the WAMMI and demographics questionnaire at the BRTC after your session or at your home. If you choose to complete them at home, you will be provided with a self-addressed, postage-paid envelope so you can mail the questionnaires back to the study staff. This visit should take about 90 minutes to complete. Group 3: If you are assigned to Group 3, you will use the final version of the My Family Garden website. This final version will include changes from the web designers after feedback has been given from the previous groups in this study. After you use the website, you will have an interview where you will provide feedback on your session. You will be asked questions about your feelings about the website and about any possible improvements that could be made to the website.",
+      "title": "A Social Media Approach to Improve Genetic Risk Communication Phase I",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 32.32920719167955,
+      "cross_score": -4.4909563,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"If you join this study, you will participate in different sessions depending on which group you are assigned to. In Group 1, you'll attend a focus group and fill out a questionnaire. In Group 2, you'll use the initial version of the My Family Garden website and then have an interview. In Group 3, you'll use the final version of the website and have another interview. Each session takes about 1 hour to 90 minutes.\",\n  \"supported_patient_facts\": [\"you agreed to take part in the study\", \"you will be assigned to one of three groups\", \"the groups involve different activities such as focus groups, using websites, and interviews\"],\n  \"missing_patient_facts\": [\"your specific group assignment\", \"details about the website's content or design\"],\n  \"unresolved_study_requirements\": [\"your medical history and demographic information will be collected\", \"you may need to complete questionnaires at the BRTC or at home\"],\n  \"reasoning_summary\": \"The patient is likely eligible for the study based on the information provided, but there are unresolved details about their specific group assignment and the exact nature of the website they will use.\",\n  \"safety_note\": \"Please inform the study staff if you have any concerns or if you experience any side effects during the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "If you join this study, you will participate in different sessions depending on which group you are assigned to. In Group 1, you'll attend a focus group and fill out a questionnaire. In Group 2, you'll use the initial version of the My Family Garden website and then have an interview. In Group 3, you'll use the final version of the website and have another interview. Each session takes about 1 hour to 90 minutes.",
+    "supported_patient_facts": [
+      "you agreed to take part in the study",
+      "you will be assigned to one of three groups",
+      "the groups involve different activities such as focus groups, using websites, and interviews"
+    ],
+    "missing_patient_facts": [
+      "your specific group assignment",
+      "details about the website's content or design"
+    ],
+    "unresolved_study_requirements": [
+      "your medical history and demographic information will be collected",
+      "you may need to complete questionnaires at the BRTC or at home"
+    ],
+    "reasoning_summary": "The patient is likely eligible for the study based on the information provided, but there are unresolved details about their specific group assignment and the exact nature of the website they will use.",
+    "safety_note": "Please inform the study staff if you have any concerns or if you experience any side effects during the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "If you join this study, you will participate in different sessions depending on which group you are assigned to. In Group 1, you'll attend a focus group and fill out a questionnaire. In Group 2, you'll use the initial version of the My Family Garden website and then have an interview. In Group 3, you'll use the final version of the website and have another interview. Each session takes about 1 hour to 90 minutes.",
+  "missing_patient_facts": [
+    "your specific group assignment",
+    "details about the website's content or design"
+  ],
+  "unresolved_study_requirements": [
+    "your medical history and demographic information will be collected",
+    "you may need to complete questionnaires at the BRTC or at home"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.367
+}

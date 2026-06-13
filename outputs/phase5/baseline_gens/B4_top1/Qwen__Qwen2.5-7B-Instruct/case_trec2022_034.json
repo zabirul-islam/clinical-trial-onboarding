@@ -1,0 +1,76 @@
+{
+  "case_id": "case_trec2022_034",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00119704",
+  "reference_trial": "NCT00119704",
+  "evidence_trials": [
+    "NCT00119704"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 17-year-old male comes to the office due to several months of right elbow pain. The pain is worse with activity and limits his workouts and activities. He has tried over-the-counter medications with limited relief. Medical history is notable for eczema, and current medications include a topical hydrocortisone ointment. He is sexually active with his girlfriend and uses condoms. He does not smoke or drink alcohol. He plays tennis most of the days of the week. The comprehensive evaluation shows pain on the lateral side of the elbow, made worse by pressure applied on the lateral epicondyle of the humerus and when making a fist with the elbow joint straightened. The patient has this pain since last year and had several courses of physical therapy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00119704 | section=detailed_description]\nTennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.\n\n[Passage 2 | doc=NCT00119704 | section=eligibility]\nInclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis",
+  "passages": [
+    {
+      "passage_id": "NCT00119704::detailed_description::0",
+      "doc_id": "NCT00119704",
+      "section": "detailed_description",
+      "passage_text": "Tennis elbow (lateral epicondylitis) is a common cause of chronic elbow pain and wrist extensor dysfunction in adults, affecting 1% to 3% of the general population per year. There is currently no consensus on its optimal treatment with wide-ranging options available. The best available scientific evidence suggests that only topical non-steroidal anti-inflammatory drugs and possibly, oral non-steroidal anti-inflammatory drugs may be useful for short term pain relief, while corticosteroid injections presented both benefits and harms as a short term measure. Botulinum toxin has been reported in the treatment of lateral epicondylitis with promising results but these studies lack a control group bringing up the question whether recovery was a result of intervention or the natural history of the disease. Method: A twin-center, prospective, randomized, double-blind, placebo-controlled trial in which all patients received either a botulinum injection or a placebo saline injection. Consecutive patients over 18 years old with tennis elbow referred to the outpatient clinic at the investigators' institution will be screened for this study.",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 380.48619891577073,
+      "cross_score": -1.9238058,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00119704::eligibility::0",
+      "doc_id": "NCT00119704",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients aged 18 years and up - Pain at the lateral side of the elbow - Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension - Pain for longer than 3 months Exclusion Criteria: - Previous operations (including previous steroid injections for the disorder) - Nerve entrapment - Pregnancy and while breast-feeding - Presence of systemic neuromuscular disorders such as myasthenia gravis",
+      "title": "Treatment of Tennis Elbow With Botulinum Toxin",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 380.48619891577073,
+      "cross_score": -4.332234,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"Pain at the lateral side of the elbow\", \"Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension\", \"Pain for longer than 3 months\"],\n  \"missing_patient_facts\": [\"Age\"],\n  \"unresolved_study_requirements\": [\"No previous operations (including previous steroid injections for the disorder)\", \"No nerve entrapment\", \"Not pregnant and not breastfeeding\", \"No presence of systemic neuromuscular disorders such as myasthenia gravis\"],\n  \"reasoning_summary\": \"The patient's symptoms align with the inclusion criteria for the clinical trial, but their age is below the minimum requirement of 18 years. Additional information regarding the absence of previous operations, nerve entrapment, pregnancy status, and systemic neuromuscular disorders is required to determine eligibility.\",\n  \"safety_note\": \"Please ensure that the patient meets all safety and exclusion criteria before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "Pain at the lateral side of the elbow",
+      "Pain at the lateral epicondyle during resisted dorsiflexion of the wrist with the elbow in full extension",
+      "Pain for longer than 3 months"
+    ],
+    "missing_patient_facts": [
+      "Age"
+    ],
+    "unresolved_study_requirements": [
+      "No previous operations (including previous steroid injections for the disorder)",
+      "No nerve entrapment",
+      "Not pregnant and not breastfeeding",
+      "No presence of systemic neuromuscular disorders such as myasthenia gravis"
+    ],
+    "reasoning_summary": "The patient's symptoms align with the inclusion criteria for the clinical trial, but their age is below the minimum requirement of 18 years. Additional information regarding the absence of previous operations, nerve entrapment, pregnancy status, and systemic neuromuscular disorders is required to determine eligibility.",
+    "safety_note": "Please ensure that the patient meets all safety and exclusion criteria before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Age"
+  ],
+  "unresolved_study_requirements": [
+    "No previous operations (including previous steroid injections for the disorder)",
+    "No nerve entrapment",
+    "Not pregnant and not breastfeeding",
+    "No presence of systemic neuromuscular disorders such as myasthenia gravis"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.364
+}

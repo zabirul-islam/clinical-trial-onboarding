@@ -1,0 +1,66 @@
+{
+  "case_id": "case_paraphrase_018",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2022",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT04530149"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 255.15820255023183,
+      "cross_score": -4.4246593,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. The trial focuses on patients with rib fractures, but your case involves syncope and heart murmur. We need more details about your condition to determine if you could participate.\",\n  \"supported_patient_facts\": [\"A 23-year-old man\", \"came to the emergency department following an episode of syncope\", \"had 3 other episodes of light-headedness over the last year\", \"all happening during physical activity\", \"no other medical conditions\", \"does not use tobacco, alcohol, or illicit drugs\", \"father died suddenly at age 35\"],\n  \"missing_patient_facts\": [\"specific type of rib fracture\", \"resting pain score of \u22655\", \"ultrasound findings of serratus anterior muscle overlying the 5th rib at the mid-axillary line\"],\n  \"unresolved_study_requirements\": [\"unresolved study-side requirements related to rib fractures and injection procedures\"],\n  \"reasoning_summary\": \"The patient's symptoms and history do not align with the study's focus on rib fractures. There are also unresolved requirements regarding the specific criteria needed for enrollment.\",\n  \"safety_note\": \"Please consult with the study team to understand any potential risks or side effects associated with the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. The trial focuses on patients with rib fractures, but your case involves syncope and heart murmur. We need more details about your condition to determine if you could participate.",
+    "supported_patient_facts": [
+      "A 23-year-old man",
+      "came to the emergency department following an episode of syncope",
+      "had 3 other episodes of light-headedness over the last year",
+      "all happening during physical activity",
+      "no other medical conditions",
+      "does not use tobacco, alcohol, or illicit drugs",
+      "father died suddenly at age 35"
+    ],
+    "missing_patient_facts": [
+      "specific type of rib fracture",
+      "resting pain score of \u22655",
+      "ultrasound findings of serratus anterior muscle overlying the 5th rib at the mid-axillary line"
+    ],
+    "unresolved_study_requirements": [
+      "unresolved study-side requirements related to rib fractures and injection procedures"
+    ],
+    "reasoning_summary": "The patient's symptoms and history do not align with the study's focus on rib fractures. There are also unresolved requirements regarding the specific criteria needed for enrollment.",
+    "safety_note": "Please consult with the study team to understand any potential risks or side effects associated with the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might not be eligible for this specific clinical trial. The trial focuses on patients with rib fractures, but your case involves syncope and heart murmur. We need more details about your condition to determine if you could participate.",
+  "missing_patient_facts": [
+    "specific type of rib fracture",
+    "resting pain score of \u22655",
+    "ultrasound findings of serratus anterior muscle overlying the 5th rib at the mid-axillary line"
+  ],
+  "unresolved_study_requirements": [
+    "unresolved study-side requirements related to rib fractures and injection procedures"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.376
+}

@@ -1,0 +1,129 @@
+{
+  "case_id": "case_paraphrase_005",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "paraphrase_trec2021",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT03791229",
+  "reference_trial": "NCT03791229",
+  "evidence_trials": [
+    "NCT00413855",
+    "NCT01203566",
+    "NCT02156947",
+    "NCT03791229",
+    "NCT03902262"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 31-year-old woman complaining of abdominal pain. The pain started last night as diffuse abdominal discomfort. She had poor appetite as well as malaise. The pain worsened in intensity and became sharp in the morning. The pain became localized to the right lower quadrant in the morning. The temperature is within the normal limits with normal vital signs. Focal tenderness and guarding were observed during palpation of the right lower quadrant. Palpation of the left lower quadrant causes pain on the right. Her lab work is remarkable for leukocytosis. Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene. She is a candidate for laparoscopic appendectomy under general anesthesia. Before I agree to anything, what is the study team going to confirm with me?",
+  "evidence": "[Passage 1 | doc=NCT03791229 | section=detailed_description]\nAcute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.\n\n[Passage 2 | doc=NCT03902262 | section=detailed_description]\nCASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.\n\n[Passage 3 | doc=NCT00413855 | section=eligibility]\nInclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).\n\n[Passage 4 | doc=NCT01203566 | section=eligibility]\nInclusion Criteria: - History of right lower quadrant pain or periumbilical pain migrating to the right lower quadrant - Fever \u2265 38\u00b0C and/or WCC > 10 X 103 cells per mL, - Right lower quadrant guarding, and tenderness on physical examination. - All patients included were 18-75 years old. Exclusion Criteria: - Patients are excluded if the diagnosis of appendicitis is not clinically established (symptoms attributable to urinary or gynaecological problems). - History of symptoms > 5 days and/or a palpable mass in the right lower quadrant, suggesting an appendiceal abscess treated with antibiotics and possible percutaneous drainage. - Patients with the following conditions are also excluded: history of cirrhosis and coagulation disorders, generalized peritonitis, shock on admission, previous abdominal surgery, ascites, suspected or proven malignancy, contraindication to general anesthesia (severe cardiac and/or pulmonary disease), inability to give informed consent due to mental disability, and pregnancy.\n\n[Passage 5 | doc=NCT03902262 | section=detailed_description]\nOn the fifth day the patient developed bilateral conjunctivitis, erythema on the lips, morbilliform exanthema in the anterior and posterior thorax and abdominal pain in mesogastrium and right lower cuadrant. His physical examination revealed non-purulent bilateral conjunctivitis, cracked lips, strawberry tongue, cervical lymphadenopathy of 0.5 x 1 cm, exanthema in thoracic and dorsal region, with significant erythema of palms and soles, without skin exfoliation. The patient presented with severe abdominal pain located in the right lower quadrant, with signs of peritoneal irritation. Abdominal ultrasound was performed and was suggestive of acute appendicitis. Laboratories reported blood count: Hb 14.1 g/dl, Hcto 40.5%, WBC 3400 /uL, neutrophils 3100/uL, lymphocytes 300 103/uL, platelets 41,000 103/uL; ferritin 1700 ng/ml, triglycerids 190 mg/dl, C-reactive protein 8 mg/dl, normal hepatic and renal function. A diagnosis of KD and acute appendicitis was made. Treatment was started with IVIG and aspirin. The boy was taken to diagnostic laparoscopy where periappendicular inflammation was found.\n\n[Passage 6 | doc=NCT02156947 | section=eligibility]\nInclusion Criteria: - Symptomatic chronic cholelithiasis patients, who were accepted to laparoscopic cholecystectomy - Acute cholelithiasis patients, who were accepted to laparoscopic cholecystectomy in first 72-96 hours (from the onset of symptoms), Acute cholecystitis diagnosis was made according to; acute right upper quadrant abdominal pain with positive Murphy's sign, fever, leukocytosis and sonographically; distended GB, presence of gallstones or sludge, GB wall thickness of 3-mm or more, sonographic Murphy's sign. Exclusion Criteria: - Choledocholithiasis - <18 years old",
+  "passages": [
+    {
+      "passage_id": "NCT03791229::detailed_description::0",
+      "doc_id": "NCT03791229",
+      "section": "detailed_description",
+      "passage_text": "Acute appendicitis is a diagnosis with clinical findings, laboratory tests and radiological imaging. The main pathology of appendicitis is usually the onset of the inflammatory process in the appendix vermiformis in the right lower abdomen. If untreated, the inflammatory process may progress to the perforation of the appendix and develop peritonitis. Appendectomy is an emergency surgical procedure for treatments of patients diagnosed with acute appendicitis and is the most common surgical procedure (1). Complications of appendectomy are wound site infection, postoperative intestinal adhesions and obstruction, peritonitis, bleeding, inguinal hernia, and chronic abdominal pain. It is observed that pediatric patients who have undergone abdominal surgical procedure complained of pain and discomfort in the postoperative period (2). It should be noted that these complaints may affect quality of life. To the best of our knowledge, since there is no study in the literature, we aimed to investigate the presence of postoperative chronic abdominal pain and discomfort in children aged 8-18 years underwent appendectomy and their social and physical effects.",
+      "title": "Pain and Discomfort After Appendectomy in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 408.5809694497866,
+      "cross_score": -3.8462048,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::0",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "CASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 406.6708667409289,
+      "cross_score": -3.8907712,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00413855::eligibility::0",
+      "doc_id": "NCT00413855",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients were eligible if they were between 15 and 45 years of age, and if they suffered from chronic or recurrent right lower abdominal quadrant pain for more than three months. They were to experience continuous pain, or should have endured at least one pain attack in the month prior to inclusion. Exclusion Criteria: - Exclusion criteria consisted of (a history of) chronic back pain, previous abdominal surgery (with the exception of diagnostic laparoscopies or a laparoscopic sterilization), specific gastro-intestinal entities (such as inflammatory bowel disease) and gynaecological disease (all female patients consulted a gynaecologist). Routine laboratory investigations included hemoglobin rate, serum leukocyte count and differentiation, C-Reactive Protein concentration, Erythrocyte Sedimentation Rate, faeces cultures and urine sedimentation. Barium contrast studies of the colon were done in all patients, abdominal ultrasound or enteroclysis on discretion. Finally, exclusion was possible when diagnostic laparoscopy revealed abnormalities (see below).",
+      "title": "Laparoscopic Appendectomy for Chronic Right Lower Abdominal Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 410.057893060737,
+      "cross_score": -3.9000516,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT01203566::eligibility::0",
+      "doc_id": "NCT01203566",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - History of right lower quadrant pain or periumbilical pain migrating to the right lower quadrant - Fever \u2265 38\u00b0C and/or WCC > 10 X 103 cells per mL, - Right lower quadrant guarding, and tenderness on physical examination. - All patients included were 18-75 years old. Exclusion Criteria: - Patients are excluded if the diagnosis of appendicitis is not clinically established (symptoms attributable to urinary or gynaecological problems). - History of symptoms > 5 days and/or a palpable mass in the right lower quadrant, suggesting an appendiceal abscess treated with antibiotics and possible percutaneous drainage. - Patients with the following conditions are also excluded: history of cirrhosis and coagulation disorders, generalized peritonitis, shock on admission, previous abdominal surgery, ascites, suspected or proven malignancy, contraindication to general anesthesia (severe cardiac and/or pulmonary disease), inability to give informed consent due to mental disability, and pregnancy.",
+      "title": "A Randomised Controlled Trial on LESS Versus Conventional Laparoscopic Appendicectomy.",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 462.3822096649175,
+      "cross_score": -4.2443304,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::2",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "On the fifth day the patient developed bilateral conjunctivitis, erythema on the lips, morbilliform exanthema in the anterior and posterior thorax and abdominal pain in mesogastrium and right lower cuadrant. His physical examination revealed non-purulent bilateral conjunctivitis, cracked lips, strawberry tongue, cervical lymphadenopathy of 0.5 x 1 cm, exanthema in thoracic and dorsal region, with significant erythema of palms and soles, without skin exfoliation. The patient presented with severe abdominal pain located in the right lower quadrant, with signs of peritoneal irritation. Abdominal ultrasound was performed and was suggestive of acute appendicitis. Laboratories reported blood count: Hb 14.1 g/dl, Hcto 40.5%, WBC 3400 /uL, neutrophils 3100/uL, lymphocytes 300 103/uL, platelets 41,000 103/uL; ferritin 1700 ng/ml, triglycerids 190 mg/dl, C-reactive protein 8 mg/dl, normal hepatic and renal function. A diagnosis of KD and acute appendicitis was made. Treatment was started with IVIG and aspirin. The boy was taken to diagnostic laparoscopy where periappendicular inflammation was found.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 406.6708667409289,
+      "cross_score": -4.2498655,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02156947::eligibility::0",
+      "doc_id": "NCT02156947",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Symptomatic chronic cholelithiasis patients, who were accepted to laparoscopic cholecystectomy - Acute cholelithiasis patients, who were accepted to laparoscopic cholecystectomy in first 72-96 hours (from the onset of symptoms), Acute cholecystitis diagnosis was made according to; acute right upper quadrant abdominal pain with positive Murphy's sign, fever, leukocytosis and sonographically; distended GB, presence of gallstones or sludge, GB wall thickness of 3-mm or more, sonographic Murphy's sign. Exclusion Criteria: - Choledocholithiasis - <18 years old",
+      "title": "Correlation Between Power Doppler and Intraoperative Findings of Chronic and Acute Cholecystitis",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 426.0853177300935,
+      "cross_score": -4.5264816,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Before agreeing to the clinical trial, the study team will confirm your medical history, current symptoms, and test results. They will check if you meet the eligibility criteria for this trial, which includes having right lower abdominal pain lasting more than three months and experiencing continuous pain or at least one pain attack in the month before joining the trial.\",\n  \"supported_patient_facts\": [\"The patient is a 31-year-old woman complaining of abdominal pain.\", \"The pain started last night as diffuse abdominal discomfort and worsened in intensity, becoming sharp in the morning.\", \"The pain became localized to the right lower quadrant in the morning.\", \"Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene.\"],\n  \"missing_patient_facts\": [\"Your full medical history including past surgeries, allergies, and any other health conditions.\", \"Results of your recent lab work such as CBC, CRP, and ESR.\", \"Details about your previous abdominal surgeries or appendectomies.\"],\n  \"unresolved_study_requirements\": [\"The study team will need to confirm if you have experienced right lower abdominal pain for more than three months.\", \"They will also need to verify if you have had at least one pain attack in the month before joining the trial.\"],\n  \"reasoning_summary\": \"The patient meets the basic eligibility criteria for the trial based on her symptoms and imaging results. However, the study team needs to confirm additional details like your medical history and recent lab results to ensure you are eligible for the trial.\",\n  \"safety_note\": \"The safety note is not provided in the given evidence, but it is crucial to follow the safety guidelines of the clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Before agreeing to the clinical trial, the study team will confirm your medical history, current symptoms, and test results. They will check if you meet the eligibility criteria for this trial, which includes having right lower abdominal pain lasting more than three months and experiencing continuous pain or at least one pain attack in the month before joining the trial.",
+    "supported_patient_facts": [
+      "The patient is a 31-year-old woman complaining of abdominal pain.",
+      "The pain started last night as diffuse abdominal discomfort and worsened in intensity, becoming sharp in the morning.",
+      "The pain became localized to the right lower quadrant in the morning.",
+      "Computed Tomography of the abdomen with contrast shows the presence of a distended appendix with thickened appendiceal wall without perforation, abscess or gangrene."
+    ],
+    "missing_patient_facts": [
+      "Your full medical history including past surgeries, allergies, and any other health conditions.",
+      "Results of your recent lab work such as CBC, CRP, and ESR.",
+      "Details about your previous abdominal surgeries or appendectomies."
+    ],
+    "unresolved_study_requirements": [
+      "The study team will need to confirm if you have experienced right lower abdominal pain for more than three months.",
+      "They will also need to verify if you have had at least one pain attack in the month before joining the trial."
+    ],
+    "reasoning_summary": "The patient meets the basic eligibility criteria for the trial based on her symptoms and imaging results. However, the study team needs to confirm additional details like your medical history and recent lab results to ensure you are eligible for the trial.",
+    "safety_note": "The safety note is not provided in the given evidence, but it is crucial to follow the safety guidelines of the clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Before agreeing to the clinical trial, the study team will confirm your medical history, current symptoms, and test results. They will check if you meet the eligibility criteria for this trial, which includes having right lower abdominal pain lasting more than three months and experiencing continuous pain or at least one pain attack in the month before joining the trial.",
+  "missing_patient_facts": [
+    "Your full medical history including past surgeries, allergies, and any other health conditions.",
+    "Results of your recent lab work such as CBC, CRP, and ESR.",
+    "Details about your previous abdominal surgeries or appendectomies."
+  ],
+  "unresolved_study_requirements": [
+    "The study team will need to confirm if you have experienced right lower abdominal pain for more than three months.",
+    "They will also need to verify if you have had at least one pain attack in the month before joining the trial."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 13.862
+}

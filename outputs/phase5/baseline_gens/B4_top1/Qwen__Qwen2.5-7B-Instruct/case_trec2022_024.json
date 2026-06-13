@@ -1,0 +1,58 @@
+{
+  "case_id": "case_trec2022_024",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00135811",
+  "reference_trial": "NCT00135811",
+  "evidence_trials": [
+    "NCT00135811"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 4-year-old boy comes to the office for the follow up of his confirmed oculocutaneous albinism. The patient was born at 38 weeks gestation with no complications. Vital signs are normal. Weight and height are at the 50th percentile. On examination, iris transillumination is present, and there are no apparent foveae on funduscopic examination. Optic nerves are small and gray. All the hairs including eyebrows and lashes are white. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00135811 | section=eligibility]\nIn addition, the participant must not have had a complete remission of proteinuria (Up/c < 0.2 or dipstick urine protein 0/trace) subsequent to the latest qualifying 4-week course demonstrating steroid resistance. - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. - Participants may be taking ACEI, ARB, Vitamin E, or lipid lowering therapy. Exclusion Criteria: - Secondary FSGS - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran) - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days - Lactation, pregnancy, or refusal of birth control in women of child bearing potential - Participation in another therapeutic trial concurrently or 30 days prior to randomization - Active/serious infection (including, but not limited to Hepatitis B, C, or HIV) - Malignancy - Blood pressure > 140/95 or > 95th percentile for age/height. - Participant is receiving 4 or more antihypertensive agents for the primary purpose of controlling blood pressure.",
+  "passages": [
+    {
+      "passage_id": "NCT00135811::eligibility::1",
+      "doc_id": "NCT00135811",
+      "section": "eligibility",
+      "passage_text": "In addition, the participant must not have had a complete remission of proteinuria (Up/c < 0.2 or dipstick urine protein 0/trace) subsequent to the latest qualifying 4-week course demonstrating steroid resistance. - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. - Participants may be taking ACEI, ARB, Vitamin E, or lipid lowering therapy. Exclusion Criteria: - Secondary FSGS - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran) - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days - Lactation, pregnancy, or refusal of birth control in women of child bearing potential - Participation in another therapeutic trial concurrently or 30 days prior to randomization - Active/serious infection (including, but not limited to Hepatitis B, C, or HIV) - Malignancy - Blood pressure > 140/95 or > 95th percentile for age/height. - Participant is receiving 4 or more antihypertensive agents for the primary purpose of controlling blood pressure.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 193.21611581648864,
+      "cross_score": -5.5082836,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"cannot_determine\",\n  \"patient_facing_answer\": \"Based on the information provided, it is not clear if you are eligible for this clinical trial. Further details are required.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\"Age\", \"Specific clinical condition related to oculocutaneous albinism\", \"Blood pressure status\"],\n  \"unresolved_study_requirements\": [\"No specific inclusion or exclusion criteria related to oculocutaneous albinism\"],\n  \"reasoning_summary\": \"The patient's age and specific clinical condition related to oculocutaneous albinism are not mentioned. Additionally, the blood pressure status needs to be confirmed as it is an important criterion for eligibility.\",\n  \"safety_note\": \"The patient does not have any hypertension or blood pressure above the 95th percentile for age/height, which is one of the exclusion criteria.\"\n}",
+  "parsed": {
+    "decision": "cannot_determine",
+    "patient_facing_answer": "Based on the information provided, it is not clear if you are eligible for this clinical trial. Further details are required.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Age",
+      "Specific clinical condition related to oculocutaneous albinism",
+      "Blood pressure status"
+    ],
+    "unresolved_study_requirements": [
+      "No specific inclusion or exclusion criteria related to oculocutaneous albinism"
+    ],
+    "reasoning_summary": "The patient's age and specific clinical condition related to oculocutaneous albinism are not mentioned. Additionally, the blood pressure status needs to be confirmed as it is an important criterion for eligibility.",
+    "safety_note": "The patient does not have any hypertension or blood pressure above the 95th percentile for age/height, which is one of the exclusion criteria."
+  },
+  "parse_ok": true,
+  "decision": "cannot_determine",
+  "patient_facing_answer": "Based on the information provided, it is not clear if you are eligible for this clinical trial. Further details are required.",
+  "missing_patient_facts": [
+    "Age",
+    "Specific clinical condition related to oculocutaneous albinism",
+    "Blood pressure status"
+  ],
+  "unresolved_study_requirements": [
+    "No specific inclusion or exclusion criteria related to oculocutaneous albinism"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 14.734
+}

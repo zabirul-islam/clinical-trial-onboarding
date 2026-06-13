@@ -1,0 +1,60 @@
+{
+  "case_id": "case_trec2022_008",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00906971",
+  "reference_trial": "NCT00906971",
+  "evidence_trials": [
+    "NCT00906971"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 7-month-old boy is brought to emergency by his parents due to irritability and inability to defecate for the past 3 days. The patient has had constipation and discomfort with bowel movements since birth. His symptoms worsened after eating semi-solid foods. Vital signs are normal. Abdominal examination shows distension and tenderness to palpation with presence of bowel sounds. Xray with barium shows a narrow rectum and rectosigmoid area. The rest of the colon proximal to this segment is dilated. Digital rectal exam revealed burst of feces out of the anus. The biopsy showed absence of submucosal ganglia in the last segment of the large intestine. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00906971 | section=detailed_description]\nFor inclusion in the study, patients will be considered with CFC presented two or more of the following parameters in the basal period, at least once a week, during the previous two-month period, according to Rome III criteria: two or less bowel movements per week, at least one episode of fecal incontinence per week, reports of retentive behavior, episodes of hard stools or pain during bowel movements, presence of a large quantity of stool in the rectum and large diameter stools, which could obstruct the toilet. Exclusion criteria will be patients who take medication that caused constipation, patients with organic causes and children with cognitive problems to perform the protocol. Children aged four to six years were assessed for their ability to complete the physiotherapy exercises. This assessment will consist of a few repetitions of the protocol conducted shorter after completing the forms, where difficulty in completing protocol exercises will considered non-inclusion criteria, so as not to interfere with the results. Parents or guardians will sign the terms of informed consent after receiving information on the aims and procedures of the study.",
+  "passages": [
+    {
+      "passage_id": "NCT00906971::detailed_description::4",
+      "doc_id": "NCT00906971",
+      "section": "detailed_description",
+      "passage_text": "For inclusion in the study, patients will be considered with CFC presented two or more of the following parameters in the basal period, at least once a week, during the previous two-month period, according to Rome III criteria: two or less bowel movements per week, at least one episode of fecal incontinence per week, reports of retentive behavior, episodes of hard stools or pain during bowel movements, presence of a large quantity of stool in the rectum and large diameter stools, which could obstruct the toilet. Exclusion criteria will be patients who take medication that caused constipation, patients with organic causes and children with cognitive problems to perform the protocol. Children aged four to six years were assessed for their ability to complete the physiotherapy exercises. This assessment will consist of a few repetitions of the protocol conducted shorter after completing the forms, where difficulty in completing protocol exercises will considered non-inclusion criteria, so as not to interfere with the results. Parents or guardians will sign the terms of informed consent after receiving information on the aims and procedures of the study.",
+      "title": "Physiotherapeutic Intervention in Children With Chronic Functional Constipation",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 304.4458431176,
+      "cross_score": -5.951395,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your child's condition may potentially qualify for the clinical trial, but there are some uncertainties that need to be resolved.\",\n  \"supported_patient_facts\": [\"The patient has constipation and discomfort with bowel movements since birth\", \"The patient has had constipation and has episodes of hard stools or pain during bowel movements\", \"X-ray with barium shows a narrow rectum and rectosigmoid area with proximal colonic dilation\"],\n  \"missing_patient_facts\": [\"The exact frequency of bowel movements per week\", \"Whether the patient has experienced fecal incontinence\"],\n  \"unresolved_study_requirements\": [\"The patient's age (7 months old) is below the minimum age requirement of 4 years for the study\"],\n  \"reasoning_summary\": \"The patient's symptoms align with the inclusion criteria, particularly regarding constipation and bowel movement issues. However, the patient's age is below the study's minimum age requirement, and specific details about bowel movement frequency and fecal incontinence are missing. These unresolved factors make it difficult to definitively determine eligibility.\",\n  \"safety_note\": \"Please ensure all required documentation and assessments are completed before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your child's condition may potentially qualify for the clinical trial, but there are some uncertainties that need to be resolved.",
+    "supported_patient_facts": [
+      "The patient has constipation and discomfort with bowel movements since birth",
+      "The patient has had constipation and has episodes of hard stools or pain during bowel movements",
+      "X-ray with barium shows a narrow rectum and rectosigmoid area with proximal colonic dilation"
+    ],
+    "missing_patient_facts": [
+      "The exact frequency of bowel movements per week",
+      "Whether the patient has experienced fecal incontinence"
+    ],
+    "unresolved_study_requirements": [
+      "The patient's age (7 months old) is below the minimum age requirement of 4 years for the study"
+    ],
+    "reasoning_summary": "The patient's symptoms align with the inclusion criteria, particularly regarding constipation and bowel movement issues. However, the patient's age is below the study's minimum age requirement, and specific details about bowel movement frequency and fecal incontinence are missing. These unresolved factors make it difficult to definitively determine eligibility.",
+    "safety_note": "Please ensure all required documentation and assessments are completed before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your child's condition may potentially qualify for the clinical trial, but there are some uncertainties that need to be resolved.",
+  "missing_patient_facts": [
+    "The exact frequency of bowel movements per week",
+    "Whether the patient has experienced fecal incontinence"
+  ],
+  "unresolved_study_requirements": [
+    "The patient's age (7 months old) is below the minimum age requirement of 4 years for the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.688
+}

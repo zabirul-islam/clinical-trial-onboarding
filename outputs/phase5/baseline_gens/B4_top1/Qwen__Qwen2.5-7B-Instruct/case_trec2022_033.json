@@ -1,0 +1,70 @@
+{
+  "case_id": "case_trec2022_033",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "reference_trial": "NCT03985540",
+  "evidence_trials": [
+    "NCT03985540"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the clinic for his routine checkup. The patient wears glasses for myopia and takes no medications. Vital signs are normal. On physical examination, the patient is tall with long upper extremities and fingers. The face appears narrow with down-slanted palpebral fissures, flattened malar bones, and a small jaw. The lungs are clear on auscultation. The abdomen is soft with no organomegaly. The patient is diagnosed with Marfan syndrome, and he is cooperative with his medical appointments. He is working as driver. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.\n\n[Passage 2 | doc=NCT03985540 | section=eligibility]\nInclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 244.7114926953557,
+      "cross_score": -5.1877747,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03985540::eligibility::0",
+      "doc_id": "NCT03985540",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 244.7114926953557,
+      "cross_score": -5.6208677,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\n    \"Spinal cord injury with the level of injury between C1-T12\",\n    \"Non-ambulatory status (use of a wheelchair as primary means of mobility)\",\n    \"AIS grade of A, B, or C\",\n    \"Injury occurred at least 1 year ago\",\n    \"Primary language is English\"\n  ],\n  \"reasoning_summary\": \"The patient does not have a spinal cord injury, which is a key requirement for this clinical trial. Therefore, it is unlikely that they would be eligible based on the provided information.\",\n  \"safety_note\": \"Safety note: This patient has Marfan syndrome, which is a systemic condition. However, there is no exclusion criterion related to connective tissue disorders in the provided information.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "Spinal cord injury with the level of injury between C1-T12",
+      "Non-ambulatory status (use of a wheelchair as primary means of mobility)",
+      "AIS grade of A, B, or C",
+      "Injury occurred at least 1 year ago",
+      "Primary language is English"
+    ],
+    "reasoning_summary": "The patient does not have a spinal cord injury, which is a key requirement for this clinical trial. Therefore, it is unlikely that they would be eligible based on the provided information.",
+    "safety_note": "Safety note: This patient has Marfan syndrome, which is a systemic condition. However, there is no exclusion criterion related to connective tissue disorders in the provided information."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for this clinical trial.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "Spinal cord injury with the level of injury between C1-T12",
+    "Non-ambulatory status (use of a wheelchair as primary means of mobility)",
+    "AIS grade of A, B, or C",
+    "Injury occurred at least 1 year ago",
+    "Primary language is English"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.719
+}

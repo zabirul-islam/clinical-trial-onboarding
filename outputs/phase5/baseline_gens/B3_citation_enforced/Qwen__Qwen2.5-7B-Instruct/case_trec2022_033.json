@@ -1,0 +1,130 @@
+{
+  "case_id": "case_trec2022_033",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03985540",
+  "reference_trial": "NCT03985540",
+  "evidence_trials": [
+    "NCT01025908",
+    "NCT03336203",
+    "NCT03985540",
+    "NCT04851639"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 20-year-old man comes to the clinic for his routine checkup. The patient wears glasses for myopia and takes no medications. Vital signs are normal. On physical examination, the patient is tall with long upper extremities and fingers. The face appears narrow with down-slanted palpebral fissures, flattened malar bones, and a small jaw. The lungs are clear on auscultation. The abdomen is soft with no organomegaly. The patient is diagnosed with Marfan syndrome, and he is cooperative with his medical appointments. He is working as driver. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03985540 | section=detailed_description]\nThe objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.\n\n[Passage 2 | doc=NCT01025908 | section=eligibility]\nInclusion Criteria: - The criteria for inclusion in the research was patients over 18 years old of both sexes with a diagnosis of PDA, with no serious comorbidities. Exclusion Criteria: - The patients that presented alcohol or drug dependency, mental retardation or serious mental disorders were excluded from the research.\n\n[Passage 3 | doc=NCT03336203 | section=detailed_description]\nD.Ivanov) Subcontract (Liman National Medical University) Subcontract (SSA \"Scientific and Practical Centre of Clinical and Preventive medicine\") Subcontract (Feofaniya Clinical Hospital) Recruitment/sampling method; sample size calculation (based on WHO recommendations Participant selection Investigators are inviting the adults with high level of uric acid in blood with or without gout and chronic kidney disease who attend mentioned clinics to participate in the research. No new medicine will be used. Voluntary Participation Participation in this research is entirely voluntary. Each patient may change his/her mind later and stop participating even if he/she agreed earlier. Information on the Trial Drug: allopurinol 300 mg and febuxostat 80-120 mg These drugs were officially approved in Ukraine for usage in eligibility clinical situation. They had been tested before with people who have elevated uric acid level not successfully controlled by diet. They could be used in patients with gout and CKD. So this research is not the \"phase of trial\". Patient could buy this medicine officially in pharmacy for his personal usage according to doctor's prescription.\n\n[Passage 4 | doc=NCT03336203 | section=detailed_description]\nIf doctor find that the medicine that is being used does not have the desired effect, or not to the extent that he wish it to have, doctor will use \"rescue medicine\", change the dosage or switch into another one If patient find that the drug are being tested does not stop his/her pain and it is very uncomfortable for him her, so researcher can use the rescue medicine to make patient more comfortable. The patient will receive the treatment of his condition according to international guidelines. The researcher will take blood from arm using a syringe and needle. Each time it will be taken about 5 ml of blood. In total, it will be taken about 50 ml in 6 months. At the end of the research, in 3 years, any leftover blood sample will be destroyed. Description of the Process During the research patient makes 7 visits to the clinic. Following confirmation of contact details and eligibility and after getting informed consent doctor will carry out a health examination, and then draw blood for a laboratory measurement of serum uric acid, creatinine for calculation eGFR-EPI and routine biochemistry tests.\n\n[Passage 5 | doc=NCT03985540 | section=eligibility]\nInclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.\n\n[Passage 6 | doc=NCT04851639 | section=summary]\nThis is a study of the Wolverhampton Assessment Tool (WATapp), a five-item questionnaire for patients with advanced or metastatic prostate cancer to say how they feel normally in terms of pain, urinary frequency, eating, and tiredness. It is widely recognised that patient-reported outcomes give a measure of overall effect of clinicians' actions on patients and that they can be used to guide the management of the patient's condition. WATapp is designed to reduce the need for the patient to attend hospital so much for routine follow-up consultations (an important aspect in light of COVID-19), to give the man some sense of agency and control and to inform his clinician of just he feels he is coping with his treatment. Now we want to find out just how the results from WATapp correspond to, for example, changes in PSA, testosterone or other blood results which are routinely measured; and to find out how patients and clinicians feel about using WATapp. Men with advanced or metastatic prostate cancer will be eligible to take part in the study and participation is in addition to whatever treatment they are on. Clinicians who choose to offer WATapp to their patients will also be invited to take part and they will be asked to share with the researchers anonymised, linked patient data and scores from WATapp.",
+  "passages": [
+    {
+      "passage_id": "NCT03985540::detailed_description::0",
+      "doc_id": "NCT03985540",
+      "section": "detailed_description",
+      "passage_text": "The objectives of the currently proposed randomized clinical trial are to (1) apply a treatment protocol for Processing Speed and Learning and memory impairments, well-validated in other neurological populations, to individuals with SCI with objectively observable deficits in these areas and document efficacy on standard neuropsychological testing; (2) assess the effectiveness of the interventions in persons with SCI utilizing global measures of everyday life; (3) evaluate the long-term benefit of treatment. Prior to enrollment in the study protocol, all potential subjects will undergo a 2-part screening: (1) an initial screening examination via telephone during which basic information will be gathered and (2) a detailed, in-person screening that will be completed on if the subject passes the initial screen. Individuals must meet full screening criteria to be eligible for participation.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 244.7114926953557,
+      "cross_score": -5.1877747,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01025908::eligibility::0",
+      "doc_id": "NCT01025908",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - The criteria for inclusion in the research was patients over 18 years old of both sexes with a diagnosis of PDA, with no serious comorbidities. Exclusion Criteria: - The patients that presented alcohol or drug dependency, mental retardation or serious mental disorders were excluded from the research.",
+      "title": "Cognitive Behavior Psychotherapy in Panic Disorder",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 241.87443338819944,
+      "cross_score": -5.44724,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03336203::detailed_description::4",
+      "doc_id": "NCT03336203",
+      "section": "detailed_description",
+      "passage_text": "D.Ivanov) Subcontract (Liman National Medical University) Subcontract (SSA \"Scientific and Practical Centre of Clinical and Preventive medicine\") Subcontract (Feofaniya Clinical Hospital) Recruitment/sampling method; sample size calculation (based on WHO recommendations Participant selection Investigators are inviting the adults with high level of uric acid in blood with or without gout and chronic kidney disease who attend mentioned clinics to participate in the research. No new medicine will be used. Voluntary Participation Participation in this research is entirely voluntary. Each patient may change his/her mind later and stop participating even if he/she agreed earlier. Information on the Trial Drug: allopurinol 300 mg and febuxostat 80-120 mg These drugs were officially approved in Ukraine for usage in eligibility clinical situation. They had been tested before with people who have elevated uric acid level not successfully controlled by diet. They could be used in patients with gout and CKD. So this research is not the \"phase of trial\". Patient could buy this medicine officially in pharmacy for his personal usage according to doctor's prescription.",
+      "title": "The Impact of Urate-lowering Therapy on Kidney Function (IMPULsKF)",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 247.16546445341888,
+      "cross_score": -5.4651837,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03336203::detailed_description::6",
+      "doc_id": "NCT03336203",
+      "section": "detailed_description",
+      "passage_text": "If doctor find that the medicine that is being used does not have the desired effect, or not to the extent that he wish it to have, doctor will use \"rescue medicine\", change the dosage or switch into another one If patient find that the drug are being tested does not stop his/her pain and it is very uncomfortable for him her, so researcher can use the rescue medicine to make patient more comfortable. The patient will receive the treatment of his condition according to international guidelines. The researcher will take blood from arm using a syringe and needle. Each time it will be taken about 5 ml of blood. In total, it will be taken about 50 ml in 6 months. At the end of the research, in 3 years, any leftover blood sample will be destroyed. Description of the Process During the research patient makes 7 visits to the clinic. Following confirmation of contact details and eligibility and after getting informed consent doctor will carry out a health examination, and then draw blood for a laboratory measurement of serum uric acid, creatinine for calculation eGFR-EPI and routine biochemistry tests.",
+      "title": "The Impact of Urate-lowering Therapy on Kidney Function (IMPULsKF)",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 247.16546445341888,
+      "cross_score": -5.575223,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03985540::eligibility::0",
+      "doc_id": "NCT03985540",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - I am between the ages of 18 and 75 years old. - I have a spinal cord injury with the level of injury between C1-T12. - I am non-ambulatory (I use a wheelchair as my primary means of getting around). - I have an AIS grade of A, B or C as determined by study staff examination. - My injury occurred at least 1 year ago. - My primary language is English. Exclusion Criteria: - I have a current illness or infection. My enrollment in this study can be delayed until my current illness or infection is successfully treated. - I have any neurological condition other than SCI (Alzheimer's disease, dementia, stroke, multiple sclerosis, Parkinson's disease, etc.). - I have a diagnosis of a psychiatric disorder such as post-traumatic stress disorder, schizophrenia or bipolar disorder. - I have a history of Hypertension or Diabetes Mellitus (due to its impact on brain function). - My vision is impaired- more than 20/60 in worst eye (with prescription eyewear). - I have been taking steroids, benzodiazepines, or certain neuroleptics within past month, the study doctor will review my medications with me.",
+      "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury (SCI)",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 244.7114926953557,
+      "cross_score": -5.6208677,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04851639::summary::0",
+      "doc_id": "NCT04851639",
+      "section": "summary",
+      "passage_text": "This is a study of the Wolverhampton Assessment Tool (WATapp), a five-item questionnaire for patients with advanced or metastatic prostate cancer to say how they feel normally in terms of pain, urinary frequency, eating, and tiredness. It is widely recognised that patient-reported outcomes give a measure of overall effect of clinicians' actions on patients and that they can be used to guide the management of the patient's condition. WATapp is designed to reduce the need for the patient to attend hospital so much for routine follow-up consultations (an important aspect in light of COVID-19), to give the man some sense of agency and control and to inform his clinician of just he feels he is coping with his treatment. Now we want to find out just how the results from WATapp correspond to, for example, changes in PSA, testosterone or other blood results which are routinely measured; and to find out how patients and clinicians feel about using WATapp. Men with advanced or metastatic prostate cancer will be eligible to take part in the study and participation is in addition to whatever treatment they are on. Clinicians who choose to offer WATapp to their patients will also be invited to take part and they will be asked to share with the researchers anonymised, linked patient data and scores from WATapp.",
+      "title": "The Wolverhampton Assessment Tool, a Tool for Patient-reported Wellbeing in the Context of Prostate Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 243.90330274236143,
+      "cross_score": -5.9045954,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials described in the evidence passages.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\"Diagnosis of a specific neurological condition (e.g., SCI) required for some studies.\"],\n  \"unresolved_study_requirements\": [\"Specific inclusion and exclusion criteria for each study need to be met.\"],\n  \"reasoning_summary\": \"The patient has Marfan syndrome, which is unrelated to the inclusion criteria for the clinical trials described. The trials require specific neurological conditions such as SCI, which the patient does not have. Additionally, the patient's occupation as a driver and the presence of Marfan syndrome may pose safety concerns that are not addressed in the provided evidence.\",\n  \"safety_note\": \"Marfan syndrome can affect cardiovascular health, and driving requires good physical and cognitive abilities. This may raise safety concerns that are not explicitly addressed in the provided evidence.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [5],\n    \"reasoning_summary\": [5, 1, 2, 3, 4, 6]\n  }\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials described in the evidence passages.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Diagnosis of a specific neurological condition (e.g., SCI) required for some studies."
+    ],
+    "unresolved_study_requirements": [
+      "Specific inclusion and exclusion criteria for each study need to be met."
+    ],
+    "reasoning_summary": "The patient has Marfan syndrome, which is unrelated to the inclusion criteria for the clinical trials described. The trials require specific neurological conditions such as SCI, which the patient does not have. Additionally, the patient's occupation as a driver and the presence of Marfan syndrome may pose safety concerns that are not addressed in the provided evidence.",
+    "safety_note": "Marfan syndrome can affect cardiovascular health, and driving requires good physical and cognitive abilities. This may raise safety concerns that are not explicitly addressed in the provided evidence.",
+    "support_passages": {
+      "patient_facing_answer": [
+        5
+      ],
+      "reasoning_summary": [
+        5,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you do not seem to meet the eligibility criteria for the clinical trials described in the evidence passages.",
+  "missing_patient_facts": [
+    "Diagnosis of a specific neurological condition (e.g., SCI) required for some studies."
+  ],
+  "unresolved_study_requirements": [
+    "Specific inclusion and exclusion criteria for each study need to be met."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 20.077
+}

@@ -1,0 +1,131 @@
+{
+  "case_id": "case_trec2021_057",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00124033",
+  "selected_doc": "NCT04750044",
+  "reference_trial": "NCT04750044",
+  "evidence_trials": [
+    "NCT01859507",
+    "NCT02546193",
+    "NCT03323489",
+    "NCT04750044"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old obese woman coming to the emergency room with abdominal pain and vomiting. The pain that started gradually yesterday is located in the epigastric and periumbilical regions, radiating to her back. She drinks alcohol frequently and does not smoke. She has no history of allergies and uses only multivitamins daily. Her family history is positive for hypertension (her mother). She lives with her husband and has 3 children. The abdomen is tender and soft. Her bowel sounds are normal. Her heart rate is 115/min and blood pressure 110/75 mmHg. The lab studies are remarkable for leukocytosis (19.5), urea of 8.5, high CRP (145), high amylase (1200) and Glucose level of 15. Her abdominal CT scan revealed acute edematous interstitial pancreatitis with enlarged common bile duct and intrahepatic duct confirming gall stone pancreatitis. Her pregnancy test is negative and she is not breastfeeding. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04750044 | section=detailed_description]\nIn the delayed refeeding group, oral diet is started after confirmation of restoring of normal bowel sound, pain decreasing below VAS 2. The oral diet starts with SOW (Sips of water) and builds up sequentially in the order of clear liquid diet-soft diet, considering patient tolerability. 5. Interruption of refeeding In both early and delayed refeeding groups, the oral diet is stopped when the pain scale the patient complains after starting oral diet increases to VAS 5 points or more, or the patient refuses to eat due to abdominal pain or other reasons. The diet is restarted after the amylase/lipase level decreases below the upper normal limit, the patient's pain has disappeared, and the bowel movement is restored. 6. Dropout criteria 1. In the case of delayed diet group when symptoms persist for more than 96 hours and cannot start a diet 2. When fasting is necessary for other reason, such as an imaging test or endoscopy 3. When it is determined that a parenteral diet is necessary for reasons such as difficulty swallowing 4. When the researcher judged that the clinical trial cannot be continued 7.\n\n[Passage 2 | doc=NCT02546193 | section=detailed_description]\nThe randomization will be stratified by parity and BMI. Outpatient Foley catheter group: If the patient was randomized or chose the intervention group (outpatient Foley), she underwent the following. She will present to the Family Birth Center in the evening at 1900. She will undergo a nonstress test (NST), an ultrasound for fetal presentation and amniotic fluid index, and a cervical exam with calculation of a Bishop score. The patient will be asked if she is having regular, painful contractions, decreased fetal movement, vaginal bleeding, leakage of fluid from the vagina concerning for rupture of membranes, or fevers or chills. A Foley catheter will be placed if the following criteria have been met: the nonstress test is reactive and reassuring (without the presence of \u2265 3 variable decelerations in a 20 minute period, late-appearing decelerations, or any deceleration lasting \u22651 minute), the fetal presentation is cephalic, the amniotic fluid index is 5 centimeters or more, the Bishop score is <6, the cervical dilation is <3 cm, and she has no other clinical characteristics that exclude her from the trial as described in the inclusion/exclusion criteria.\n\n[Passage 3 | doc=NCT03323489 | section=summary]\nMany cancer patients, especially those with pancreatic cancer, suffer from severe lower back / upper abdominal pain. This pain is often poorly managed with standard treatments; the doses of painkiller required often induce side effects, whereas nerve block procedures (where a needle is deeply inserted into the back) are both invasive and of limited benefit. This clinical trial investigates a unique novel approach in which high-dose radiation (radiosurgery) is focused on the offending nerve bundle (the celiac plexus) in the posterior abdomen. Preliminary results from a single institution pilot trial are very promising: pain relief is substantial and side effects minimal. In this multi-center clinical trial, patients will be accrued and receive treatment at several international locations. Main aim of the study: Establish the safety and efficacy of the treatment in the multi-center setting. This trial will bring pain relief to cancer sufferers and improve current acceptable standard of care. The trial resonates with the Gateway mission of promoting new treatments that directly benefit people living with cancer, enhancing their wellbeing, and consequently decreasing the fear associated with a cancer diagnosis.\n\n[Passage 4 | doc=NCT03323489 | section=detailed_description]\nWe will perform a prospective phase II multicenter clinical trial to test our hypothesis Compared to the small pilot trial the follow-up trial will: 1) Enroll a larger number of patients (n=100). 2) Be performed across a number of institutions, in both the Middle East and the United States. 3) Include improved measures of quality of life and functional capacity. 'Caregiver burden' and 'Patient hope' will also be assessed. 4) Incorporate exploratory translational endpoints relating to immune activation. Target population Adult patients with severe, poorly controlled lower back/abdominal pain (intensity at least 5/10 on the Numeric Pain Rating Scale) thought to originate in the celiac plexus (generally, but not exclusively, from pancreatic cancer). Patients with a poor prognosis, and those with previous radiation to the upper abdomen will be excluded. Systemic therapies will need to be stopped several days prior to, and following, treatment.\n\n[Passage 5 | doc=NCT04750044 | section=summary]\nEndoscopic retrograde cholangio-pancreatography (ERCP) is the most commonly used technique for diagnosis and treatment in the treatment of bile duct diseases including bile duct cholelithiasis and malignant/benign biliary obstruction. In particular, ERCP is an essential procedure for the removal of bile duct gallstones and bile drainage in malignant/benign biliary obstruction patients. Among ERCP-related complications, especially \"post-ERCP pancreatitis (PEP)\", which occurs due to the anatomical structure of the pancreatic biliary system, statistically occurs in about 5-10% of patients who first received ERCP. It is known, and treatment for PEP is the same as treatment for general acute pancreatitis but is known to have a relatively worse prognosis. The basis of treatment for acute pancreatitis is a conservative treatment based on fasting and fluid treatment, and starting oral diet after abdominal pain and pancreatic enzyme levels (amylase/lipase) normalized. However, a recent study reported that early oral diet could improve the patient's prognosis. According to a systematic review of 11 randomized trial papers by Valerie et al., it was reported that the early diet had the effect of reducing hospital stay without increasing adverse events when comparing the prognosis of the early refeeding group and delayed refeeding group. This result is theoretically considered to be because the oral diet has the advantage of increasing intestinal permeability, gut motility and reducing the likelihood of pancreatic necrosis/ infection compared to the parenteral diet. As above, PEP has the same treatment method as general acute pancreatitis but is known to have a relatively worse prognosis. However, the effect of an early diet recently attempted in acute pancreatitis has not been reported in patients with PEP. Therefore, we investigate the effects of early and delayed diets on the prognosis of patients with PEP through a prospective multicenter study.\n\n[Passage 6 | doc=NCT01859507 | section=detailed_description]\nAt later sessions we allow the patient herself with its introduction into the vagina using only her tactile sense, with no visual aid or doctor instructions, covering her thighs with sheets to feel more private. She is asked to report the termination of the introduction or difficulties she is facing. Verbal support is always and repeatedly used. In case of difficulty, the doctor does not offer to help and ask the patient to try on her own once more. This helps her to be proactive and gain control of the procedure. They usually succeed to carry on the procedure on their own. The couple will be instructed not to have trials of intercourse before the patient uses dilator number 4 comfortably.",
+  "passages": [
+    {
+      "passage_id": "NCT04750044::detailed_description::1",
+      "doc_id": "NCT04750044",
+      "section": "detailed_description",
+      "passage_text": "In the delayed refeeding group, oral diet is started after confirmation of restoring of normal bowel sound, pain decreasing below VAS 2. The oral diet starts with SOW (Sips of water) and builds up sequentially in the order of clear liquid diet-soft diet, considering patient tolerability. 5. Interruption of refeeding In both early and delayed refeeding groups, the oral diet is stopped when the pain scale the patient complains after starting oral diet increases to VAS 5 points or more, or the patient refuses to eat due to abdominal pain or other reasons. The diet is restarted after the amylase/lipase level decreases below the upper normal limit, the patient's pain has disappeared, and the bowel movement is restored. 6. Dropout criteria 1. In the case of delayed diet group when symptoms persist for more than 96 hours and cannot start a diet 2. When fasting is necessary for other reason, such as an imaging test or endoscopy 3. When it is determined that a parenteral diet is necessary for reasons such as difficulty swallowing 4. When the researcher judged that the clinical trial cannot be continued 7.",
+      "title": "Refeeding in Post-ERCP Pancreatitis",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 358.1160063816352,
+      "cross_score": -5.193762,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02546193::detailed_description::1",
+      "doc_id": "NCT02546193",
+      "section": "detailed_description",
+      "passage_text": "The randomization will be stratified by parity and BMI. Outpatient Foley catheter group: If the patient was randomized or chose the intervention group (outpatient Foley), she underwent the following. She will present to the Family Birth Center in the evening at 1900. She will undergo a nonstress test (NST), an ultrasound for fetal presentation and amniotic fluid index, and a cervical exam with calculation of a Bishop score. The patient will be asked if she is having regular, painful contractions, decreased fetal movement, vaginal bleeding, leakage of fluid from the vagina concerning for rupture of membranes, or fevers or chills. A Foley catheter will be placed if the following criteria have been met: the nonstress test is reactive and reassuring (without the presence of \u2265 3 variable decelerations in a 20 minute period, late-appearing decelerations, or any deceleration lasting \u22651 minute), the fetal presentation is cephalic, the amniotic fluid index is 5 centimeters or more, the Bishop score is <6, the cervical dilation is <3 cm, and she has no other clinical characteristics that exclude her from the trial as described in the inclusion/exclusion criteria.",
+      "title": "Outpatient Foley Catheter Compared to Usual Inpatient Care for Labor Induction",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 360.95131004270416,
+      "cross_score": -5.7964025,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03323489::summary::0",
+      "doc_id": "NCT03323489",
+      "section": "summary",
+      "passage_text": "Many cancer patients, especially those with pancreatic cancer, suffer from severe lower back / upper abdominal pain. This pain is often poorly managed with standard treatments; the doses of painkiller required often induce side effects, whereas nerve block procedures (where a needle is deeply inserted into the back) are both invasive and of limited benefit. This clinical trial investigates a unique novel approach in which high-dose radiation (radiosurgery) is focused on the offending nerve bundle (the celiac plexus) in the posterior abdomen. Preliminary results from a single institution pilot trial are very promising: pain relief is substantial and side effects minimal. In this multi-center clinical trial, patients will be accrued and receive treatment at several international locations. Main aim of the study: Establish the safety and efficacy of the treatment in the multi-center setting. This trial will bring pain relief to cancer sufferers and improve current acceptable standard of care. The trial resonates with the Gateway mission of promoting new treatments that directly benefit people living with cancer, enhancing their wellbeing, and consequently decreasing the fear associated with a cancer diagnosis.",
+      "title": "Celiac Plexus Radio-Surgery for Pain Management",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 362.5179516144248,
+      "cross_score": -5.8410807,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03323489::detailed_description::1",
+      "doc_id": "NCT03323489",
+      "section": "detailed_description",
+      "passage_text": "We will perform a prospective phase II multicenter clinical trial to test our hypothesis Compared to the small pilot trial the follow-up trial will: 1) Enroll a larger number of patients (n=100). 2) Be performed across a number of institutions, in both the Middle East and the United States. 3) Include improved measures of quality of life and functional capacity. 'Caregiver burden' and 'Patient hope' will also be assessed. 4) Incorporate exploratory translational endpoints relating to immune activation. Target population Adult patients with severe, poorly controlled lower back/abdominal pain (intensity at least 5/10 on the Numeric Pain Rating Scale) thought to originate in the celiac plexus (generally, but not exclusively, from pancreatic cancer). Patients with a poor prognosis, and those with previous radiation to the upper abdomen will be excluded. Systemic therapies will need to be stopped several days prior to, and following, treatment.",
+      "title": "Celiac Plexus Radio-Surgery for Pain Management",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 362.5179516144248,
+      "cross_score": -6.3085775,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04750044::summary::0",
+      "doc_id": "NCT04750044",
+      "section": "summary",
+      "passage_text": "Endoscopic retrograde cholangio-pancreatography (ERCP) is the most commonly used technique for diagnosis and treatment in the treatment of bile duct diseases including bile duct cholelithiasis and malignant/benign biliary obstruction. In particular, ERCP is an essential procedure for the removal of bile duct gallstones and bile drainage in malignant/benign biliary obstruction patients. Among ERCP-related complications, especially \"post-ERCP pancreatitis (PEP)\", which occurs due to the anatomical structure of the pancreatic biliary system, statistically occurs in about 5-10% of patients who first received ERCP. It is known, and treatment for PEP is the same as treatment for general acute pancreatitis but is known to have a relatively worse prognosis. The basis of treatment for acute pancreatitis is a conservative treatment based on fasting and fluid treatment, and starting oral diet after abdominal pain and pancreatic enzyme levels (amylase/lipase) normalized. However, a recent study reported that early oral diet could improve the patient's prognosis. According to a systematic review of 11 randomized trial papers by Valerie et al., it was reported that the early diet had the effect of reducing hospital stay without increasing adverse events when comparing the prognosis of the early refeeding group and delayed refeeding group. This result is theoretically considered to be because the oral diet has the advantage of increasing intestinal permeability, gut motility and reducing the likelihood of pancreatic necrosis/ infection compared to the parenteral diet. As above, PEP has the same treatment method as general acute pancreatitis but is known to have a relatively worse prognosis. However, the effect of an early diet recently attempted in acute pancreatitis has not been reported in patients with PEP. Therefore, we investigate the effects of early and delayed diets on the prognosis of patients with PEP through a prospective multicenter study.",
+      "title": "Refeeding in Post-ERCP Pancreatitis",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 358.1160063816352,
+      "cross_score": -6.3789053,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01859507::detailed_description::3",
+      "doc_id": "NCT01859507",
+      "section": "detailed_description",
+      "passage_text": "At later sessions we allow the patient herself with its introduction into the vagina using only her tactile sense, with no visual aid or doctor instructions, covering her thighs with sheets to feel more private. She is asked to report the termination of the introduction or difficulties she is facing. Verbal support is always and repeatedly used. In case of difficulty, the doctor does not offer to help and ask the patient to try on her own once more. This helps her to be proactive and gain control of the procedure. They usually succeed to carry on the procedure on their own. The couple will be instructed not to have trials of intercourse before the patient uses dilator number 4 comfortably.",
+      "title": "Injection of Botox in the Perineal Muscles in Resistant Cases of Vaginal Spasm",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 354.9197618438781,
+      "cross_score": -6.8824368,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"Obese woman\", \"Abdominal pain and vomiting\", \"Acute edematous interstitial pancreatitis with gall stone pancreatitis\", \"No history of allergies\", \"Uses only multivitamins daily\", \"Negative pregnancy test\", \"Not breastfeeding\"],\n  \"missing_patient_facts\": [\"Current pain intensity\", \"Previous radiation to the upper abdomen\", \"Systemic therapies status\"],\n  \"unresolved_study_requirements\": [\"Whether the patient is part of the delayed or early refeeding group\", \"Whether the patient meets the inclusion criteria for the specific clinical trial being considered\"],\n  \"reasoning_summary\": \"The patient's condition of acute edematous interstitial pancreatitis with gall stone pancreatitis aligns with the target population for the clinical trial investigating the effects of early versus delayed oral diet in post-ERCP pancreatitis. However, key details such as current pain intensity, previous radiation history, and systemic therapy status are missing, and the specific clinical trial being considered is not mentioned, making the eligibility uncertain.\",\n  \"safety_note\": \"Given the patient's condition, it is crucial to ensure that the chosen clinical trial is appropriate and safe for her, particularly considering the potential risks associated with pancreatitis.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.",
+    "supported_patient_facts": [
+      "Obese woman",
+      "Abdominal pain and vomiting",
+      "Acute edematous interstitial pancreatitis with gall stone pancreatitis",
+      "No history of allergies",
+      "Uses only multivitamins daily",
+      "Negative pregnancy test",
+      "Not breastfeeding"
+    ],
+    "missing_patient_facts": [
+      "Current pain intensity",
+      "Previous radiation to the upper abdomen",
+      "Systemic therapies status"
+    ],
+    "unresolved_study_requirements": [
+      "Whether the patient is part of the delayed or early refeeding group",
+      "Whether the patient meets the inclusion criteria for the specific clinical trial being considered"
+    ],
+    "reasoning_summary": "The patient's condition of acute edematous interstitial pancreatitis with gall stone pancreatitis aligns with the target population for the clinical trial investigating the effects of early versus delayed oral diet in post-ERCP pancreatitis. However, key details such as current pain intensity, previous radiation history, and systemic therapy status are missing, and the specific clinical trial being considered is not mentioned, making the eligibility uncertain.",
+    "safety_note": "Given the patient's condition, it is crucial to ensure that the chosen clinical trial is appropriate and safe for her, particularly considering the potential risks associated with pancreatitis."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but further details are needed to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Current pain intensity",
+    "Previous radiation to the upper abdomen",
+    "Systemic therapies status"
+  ],
+  "unresolved_study_requirements": [
+    "Whether the patient is part of the delayed or early refeeding group",
+    "Whether the patient meets the inclusion criteria for the specific clinical trial being considered"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 23.63
+}

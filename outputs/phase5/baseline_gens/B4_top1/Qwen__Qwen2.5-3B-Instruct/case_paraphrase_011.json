@@ -1,0 +1,67 @@
+{
+  "case_id": "case_paraphrase_011",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "explanation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT00843310",
+  "reference_trial": "NCT00843310",
+  "evidence_trials": [
+    "NCT00843310"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 64yo woman with multiple myeloma, s/p allogeneic transplant with recurrent disease and with systemic amyloidosis (involvement of lungs, tongue, bladder, heart), on hemodialysis for ESRD who represents for malaise, weakness, and generalized body aching x 2 days. She was admitted last week with hypercalcemia and treated with pamidronate 30mg, calcitonin, and dialysis. Patient was Initially treated with melphalan and prednisone, followed by VAD regimen, and autologous stem cell transplant. With relapse of her myeloma, she received thalidomide velcade and thalidomide, which were eventually also held due to worsening edema and kidney function. Can you explain what this study is really about in plain terms?",
+  "evidence": "[Passage 1 | doc=NCT00843310 | section=detailed_description]\nCurrent multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+  "passages": [
+    {
+      "passage_id": "NCT00843310::detailed_description::0",
+      "doc_id": "NCT00843310",
+      "section": "detailed_description",
+      "passage_text": "Current multiple myeloma therapies, typically an induction regimen followed by consolidation therapy with high dose chemotherapy and autologous stem cell rescue (autologous transplantation), can induce remission but relapse and death are inevitable. A growing body of literature suggests that consolidation therapy with autologous transplantation does not confer additional survival benefit and may have increased procedure-related morbidity and mortality in patients over 65 years old. Autologous transplantation is no longer recommended as standard care for this population. In addition, certain patients may not be eligible for autologous transplantation due to co-morbid medical conditions or may elect not to undergo the procedure for personal reasons. The historic standard of care for multiple myeloma patients who were not eligible for autologous transplantation for consolidation was induction therapy with melphalan/ prednisone (MP), often followed by some form of maintenance therapy after achievement of complete or partial remission. A recent phase 3 study showed that the addition of thalidomide to MP (MPT) demonstrated higher overall and complete response rates.",
+      "title": "Combination of Revlimid, Melphalan and Dexamethasone as First Line Treatment for Multiple Myeloma",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 273.8741765810493,
+      "cross_score": -1.5110729,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study might be looking at new treatments for multiple myeloma, especially for older patients like you who haven't had success with traditional methods. They're interested in seeing if different medicines or approaches can help keep your condition under control.\",\n  \"supported_patient_facts\": [\"64-year-old woman with multiple myeloma\", \"history of allogeneic transplant with recurrent disease\", \"systemic amyloidosis involving lungs, tongue, bladder, heart\", \"on hemodialysis for ESRD\", \"relapsed myeloma\", \"treatment history including melphalan and prednisone, VAD regimen, autologous stem cell transplant, thalidomide, and velcade\"],\n  \"missing_patient_facts\": [\"current treatment status\", \"response to previous treatments\", \"specific details about the study's objectives\"],\n  \"unresolved_study_requirements\": [\"details about the specific treatment being studied\", \"confirmation of eligibility based on current health status and treatment history\"],\n  \"reasoning_summary\": \"The patient has a complex history of multiple myeloma and its treatments, which aligns with the study's focus on advanced cases. However, there are uncertainties regarding the patient's current treatment status and whether she meets the study's eligibility criteria.\",\n  \"safety_note\": \"The patient should discuss any concerns about safety with the study team.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "This study might be looking at new treatments for multiple myeloma, especially for older patients like you who haven't had success with traditional methods. They're interested in seeing if different medicines or approaches can help keep your condition under control.",
+    "supported_patient_facts": [
+      "64-year-old woman with multiple myeloma",
+      "history of allogeneic transplant with recurrent disease",
+      "systemic amyloidosis involving lungs, tongue, bladder, heart",
+      "on hemodialysis for ESRD",
+      "relapsed myeloma",
+      "treatment history including melphalan and prednisone, VAD regimen, autologous stem cell transplant, thalidomide, and velcade"
+    ],
+    "missing_patient_facts": [
+      "current treatment status",
+      "response to previous treatments",
+      "specific details about the study's objectives"
+    ],
+    "unresolved_study_requirements": [
+      "details about the specific treatment being studied",
+      "confirmation of eligibility based on current health status and treatment history"
+    ],
+    "reasoning_summary": "The patient has a complex history of multiple myeloma and its treatments, which aligns with the study's focus on advanced cases. However, there are uncertainties regarding the patient's current treatment status and whether she meets the study's eligibility criteria.",
+    "safety_note": "The patient should discuss any concerns about safety with the study team."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "This study might be looking at new treatments for multiple myeloma, especially for older patients like you who haven't had success with traditional methods. They're interested in seeing if different medicines or approaches can help keep your condition under control.",
+  "missing_patient_facts": [
+    "current treatment status",
+    "response to previous treatments",
+    "specific details about the study's objectives"
+  ],
+  "unresolved_study_requirements": [
+    "details about the specific treatment being studied",
+    "confirmation of eligibility based on current health status and treatment history"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.734
+}

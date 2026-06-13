@@ -1,0 +1,73 @@
+{
+  "case_id": "case_15",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00738998",
+  "reference_trial": "NCT00738998",
+  "evidence_trials": [
+    "NCT00738998"
+  ],
+  "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+  "evidence": "[Passage 1 | doc=NCT00738998 | section=detailed_description]\nThe cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.\n\n[Passage 2 | doc=NCT00738998 | section=detailed_description]\nThis form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.",
+  "passages": [
+    {
+      "passage_id": "NCT00738998::detailed_description::1",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "passage_text": "The cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.",
+      "title": "Longitudinal Assessment of Arthralgia and Related Symptoms in Breast Cancer Patients Receiving Aromatase Inhibitors",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 75.61081467283105,
+      "cross_score": -3.8169975,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00738998::detailed_description::2",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "passage_text": "This form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.",
+      "title": "Longitudinal Assessment of Arthralgia and Related Symptoms in Breast Cancer Patients Receiving Aromatase Inhibitors",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 75.61081467283105,
+      "cross_score": -5.294199,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to fit the general profile of people participating in this study. However, we need more details such as your age, specific bone problems, and whether you've seen a specialist for your joint pain. We also need to check if you're willing to do the bone joint exam and self-exam at home.\",\n  \"supported_patient_facts\": [\"you are older\", \"you had some bone problems\"],\n  \"missing_patient_facts\": [\"your exact age\", \"the nature of your bone problems\", \"whether you've seen a specialist for your joint pain\"],\n  \"unresolved_study_requirements\": [\"willingness to do the bone joint exam and self-exam at home\"],\n  \"reasoning_summary\": \"While you meet the broad criteria of being older and having bone problems, we need more specific information to confirm your eligibility. Additionally, we need to ensure you are willing to participate in the required bone joint exams.\",\n  \"safety_note\": \"Please note that all safety measures and informed consent procedures will be followed.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to fit the general profile of people participating in this study. However, we need more details such as your age, specific bone problems, and whether you've seen a specialist for your joint pain. We also need to check if you're willing to do the bone joint exam and self-exam at home.",
+    "supported_patient_facts": [
+      "you are older",
+      "you had some bone problems"
+    ],
+    "missing_patient_facts": [
+      "your exact age",
+      "the nature of your bone problems",
+      "whether you've seen a specialist for your joint pain"
+    ],
+    "unresolved_study_requirements": [
+      "willingness to do the bone joint exam and self-exam at home"
+    ],
+    "reasoning_summary": "While you meet the broad criteria of being older and having bone problems, we need more specific information to confirm your eligibility. Additionally, we need to ensure you are willing to participate in the required bone joint exams.",
+    "safety_note": "Please note that all safety measures and informed consent procedures will be followed."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to fit the general profile of people participating in this study. However, we need more details such as your age, specific bone problems, and whether you've seen a specialist for your joint pain. We also need to check if you're willing to do the bone joint exam and self-exam at home.",
+  "missing_patient_facts": [
+    "your exact age",
+    "the nature of your bone problems",
+    "whether you've seen a specialist for your joint pain"
+  ],
+  "unresolved_study_requirements": [
+    "willingness to do the bone joint exam and self-exam at home"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.545
+}

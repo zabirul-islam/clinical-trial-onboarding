@@ -1,0 +1,73 @@
+{
+  "case_id": "case_14",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "teachback_style",
+  "gold_nct": "",
+  "selected_doc": "NCT00816998",
+  "reference_trial": "NCT00816998",
+  "evidence_trials": [
+    "NCT00816998"
+  ],
+  "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+  "evidence": "[Passage 1 | doc=NCT00816998 | section=eligibility]\nInclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.\n\n[Passage 2 | doc=NCT00816998 | section=detailed_description]\nYou are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.",
+  "passages": [
+    {
+      "passage_id": "NCT00816998::eligibility::0",
+      "doc_id": "NCT00816998",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.",
+      "title": "Range of Motion and Patients With Distal Radius Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 47.68673055889992,
+      "cross_score": -1.9370208,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00816998::detailed_description::0",
+      "doc_id": "NCT00816998",
+      "section": "detailed_description",
+      "passage_text": "You are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.",
+      "title": "Range of Motion and Patients With Distal Radius Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 47.68673055889992,
+      "cross_score": -3.830285,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study requires a specific type of fracture called a 'closed unstable distal radius fracture'. This means the fracture needs to be in the lower part of your wrist, near the end of the radius bone.\",\n  \"supported_patient_facts\": [\"The patient has a closed unstable distal radius fracture\", \"The patient's fracture is classified as an AO Type A or C fracture\"],\n  \"missing_patient_facts\": [\"The exact type of fracture (AO Type A or C) is not confirmed\", \"Other details about the fracture, like its location or severity, are not specified\"],\n  \"unresolved_study_requirements\": [\"The patient's fracture type is not fully confirmed\", \"Further imaging might be required to confirm the fracture type\"],\n  \"reasoning_summary\": \"The patient meets the basic criteria for having a distal radius fracture, but the specific type (AO Type A or C) is not fully confirmed. More information is needed to ensure the patient's fracture matches the study's requirements.\",\n  \"safety_note\": \"Ensure the patient's fracture is correctly diagnosed before enrolling them in the study.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study requires a specific type of fracture called a 'closed unstable distal radius fracture'. This means the fracture needs to be in the lower part of your wrist, near the end of the radius bone.",
+    "supported_patient_facts": [
+      "The patient has a closed unstable distal radius fracture",
+      "The patient's fracture is classified as an AO Type A or C fracture"
+    ],
+    "missing_patient_facts": [
+      "The exact type of fracture (AO Type A or C) is not confirmed",
+      "Other details about the fracture, like its location or severity, are not specified"
+    ],
+    "unresolved_study_requirements": [
+      "The patient's fracture type is not fully confirmed",
+      "Further imaging might be required to confirm the fracture type"
+    ],
+    "reasoning_summary": "The patient meets the basic criteria for having a distal radius fracture, but the specific type (AO Type A or C) is not fully confirmed. More information is needed to ensure the patient's fracture matches the study's requirements.",
+    "safety_note": "Ensure the patient's fracture is correctly diagnosed before enrolling them in the study."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study requires a specific type of fracture called a 'closed unstable distal radius fracture'. This means the fracture needs to be in the lower part of your wrist, near the end of the radius bone.",
+  "missing_patient_facts": [
+    "The exact type of fracture (AO Type A or C) is not confirmed",
+    "Other details about the fracture, like its location or severity, are not specified"
+  ],
+  "unresolved_study_requirements": [
+    "The patient's fracture type is not fully confirmed",
+    "Further imaging might be required to confirm the fracture type"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.87
+}

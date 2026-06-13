@@ -1,0 +1,74 @@
+{
+  "case_id": "case_trec2021_031",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00002536",
+  "selected_doc": "NCT00443313",
+  "reference_trial": "NCT00443313",
+  "evidence_trials": [
+    "NCT00443313"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 37-year-old woman who came to the clinic for a routine Pap smear. The test revealed stage 1B of cervical cancer. The patient tested positive for HPV 16. She has three sexual partners and four children. She underwent tubal ligation. She smokes 30 packs/year and drinks alcohol frequently. She is otherwise healthy. She was offered a radical hysterectomy. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00443313 | section=detailed_description]\nAll three specimens from each woman will be tested by two clinical DNA tests that use pooled-probes for detection of carcinogenic HPV: an FDA-approved signal amplification test (Hybrid Capture 2 from Digene) and a new DNA amplification test (AMPLICOR from Roche) currently in clinical trials. Specimens will also be tested retrospectively by a research PCR asay that detects 37 HPV types, which will help us evaluate the performance of the two clinical HPV tests. Women attending their screening visit who test positive by cytology (atypical squamous cells of undetermined significance or worse) or for carcinogenic HPV will be referred to colposcopy along with a random sample of HPV negative, cytologic negative women (n equals 100). Analysis: We will compare the clinical performance of HPV DNA testing of self-collected specimens to that of cytology (at a threshold of atypical squamous cells of unknown significance (ASCUS) or more severe) for detection of histologically confirmed cervical intraepithelial neoplasia grade 2 (CIN2) or more severe (greater than or equal to CIN2).\n\n[Passage 2 | doc=NCT00443313 | section=detailed_description]\nnon-inferiority or equivalence to cytology for detection of cervical precancer and cancer) of cervical cancer screening based on self-collection and HPV DNA testing of cervicovaginal specimens from women aged greater than or equal to 30 years old who live in the Mississippi Delta. Methods: One thousand women will be enrolled during 18 months, including 500 attending colposcopy due to cytologic abnormality, 250 women who regularly attend a screening clinic, and 250 unscreened women who have not had a Pap smear within the last 3 years (according to current screening guidelines) but recruited to attend a screening. Three clinical specimens will be collected from each woman. A cervicovaginal specimen (for HPV testing) and a cervical specimen (for cytology and HPV testing) will be collected from each woman by the physician. At the time of the clinic visit women will be give a kit for self-collection of a second cervicovaginal specimen (for HPV testing) to be returned by mail within two weeks.",
+  "passages": [
+    {
+      "passage_id": "NCT00443313::detailed_description::2",
+      "doc_id": "NCT00443313",
+      "section": "detailed_description",
+      "passage_text": "All three specimens from each woman will be tested by two clinical DNA tests that use pooled-probes for detection of carcinogenic HPV: an FDA-approved signal amplification test (Hybrid Capture 2 from Digene) and a new DNA amplification test (AMPLICOR from Roche) currently in clinical trials. Specimens will also be tested retrospectively by a research PCR asay that detects 37 HPV types, which will help us evaluate the performance of the two clinical HPV tests. Women attending their screening visit who test positive by cytology (atypical squamous cells of undetermined significance or worse) or for carcinogenic HPV will be referred to colposcopy along with a random sample of HPV negative, cytologic negative women (n equals 100). Analysis: We will compare the clinical performance of HPV DNA testing of self-collected specimens to that of cytology (at a threshold of atypical squamous cells of unknown significance (ASCUS) or more severe) for detection of histologically confirmed cervical intraepithelial neoplasia grade 2 (CIN2) or more severe (greater than or equal to CIN2).",
+      "title": "Human Papillomavirus (HPV) Testing to Improve Cervical Cancer Screening in the Mississippi Delta",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 182.83465071641413,
+      "cross_score": -3.7657797,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00443313::detailed_description::1",
+      "doc_id": "NCT00443313",
+      "section": "detailed_description",
+      "passage_text": "non-inferiority or equivalence to cytology for detection of cervical precancer and cancer) of cervical cancer screening based on self-collection and HPV DNA testing of cervicovaginal specimens from women aged greater than or equal to 30 years old who live in the Mississippi Delta. Methods: One thousand women will be enrolled during 18 months, including 500 attending colposcopy due to cytologic abnormality, 250 women who regularly attend a screening clinic, and 250 unscreened women who have not had a Pap smear within the last 3 years (according to current screening guidelines) but recruited to attend a screening. Three clinical specimens will be collected from each woman. A cervicovaginal specimen (for HPV testing) and a cervical specimen (for cytology and HPV testing) will be collected from each woman by the physician. At the time of the clinic visit women will be give a kit for self-collection of a second cervicovaginal specimen (for HPV testing) to be returned by mail within two weeks.",
+      "title": "Human Papillomavirus (HPV) Testing to Improve Cervical Cancer Screening in the Mississippi Delta",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 182.83465071641413,
+      "cross_score": -4.618614,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you may not be eligible for this clinical trial. However, further details are required to make a definitive determination.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\"Stage of cervical cancer\", \"HPV type detected\", \"History of previous treatments or interventions related to cervical cancer\"],\n  \"unresolved_study_requirements\": [\"Eligibility based on HPV type\", \"Eligibility based on stage of cervical cancer\", \"Eligibility based on age and screening history\"],\n  \"reasoning_summary\": \"The patient's stage 1B cervical cancer and HPV 16 infection do not align with the typical inclusion criteria for this trial, which focuses on screening and early detection. Further details about the specific HPV type, previous treatments, and screening history are needed to determine eligibility.\",\n  \"safety_note\": \"Please consult with your healthcare provider for further evaluation and discussion of potential clinical trial options.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you may not be eligible for this clinical trial. However, further details are required to make a definitive determination.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Stage of cervical cancer",
+      "HPV type detected",
+      "History of previous treatments or interventions related to cervical cancer"
+    ],
+    "unresolved_study_requirements": [
+      "Eligibility based on HPV type",
+      "Eligibility based on stage of cervical cancer",
+      "Eligibility based on age and screening history"
+    ],
+    "reasoning_summary": "The patient's stage 1B cervical cancer and HPV 16 infection do not align with the typical inclusion criteria for this trial, which focuses on screening and early detection. Further details about the specific HPV type, previous treatments, and screening history are needed to determine eligibility.",
+    "safety_note": "Please consult with your healthcare provider for further evaluation and discussion of potential clinical trial options."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you may not be eligible for this clinical trial. However, further details are required to make a definitive determination.",
+  "missing_patient_facts": [
+    "Stage of cervical cancer",
+    "HPV type detected",
+    "History of previous treatments or interventions related to cervical cancer"
+  ],
+  "unresolved_study_requirements": [
+    "Eligibility based on HPV type",
+    "Eligibility based on stage of cervical cancer",
+    "Eligibility based on age and screening history"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 16.186
+}

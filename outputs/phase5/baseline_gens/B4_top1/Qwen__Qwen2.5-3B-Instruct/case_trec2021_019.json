@@ -1,0 +1,105 @@
+{
+  "case_id": "case_trec2021_019",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00000531",
+  "selected_doc": "NCT00487279",
+  "reference_trial": "NCT00487279",
+  "evidence_trials": [
+    "NCT00487279"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 65 yo man with history of CAD and prior MI, HLD, HTN, ventricular tachycardia, and syncope was admitted earlier today evaluation of syncope and ventricular arrhythmias. He was recently discharged after a negative work-up for syncope which included the implantation of a cardiac monitoring device. It was interrogated at the OSH and per report the monitor read from yesterday: 40 seconds of VT and then bradycardia with a rate of 39 shortly thereafter corresponding with his symptoms. Overnight, the patient went into monomorphic VT on telemetry. The patient was found to be unresponsive. CPR was initiated, unclear if the patient had a pulse. Within one minute the patient returned to sinus rhythm. The patient does not report any symptoms prior to this episode. Currently, the patient feels presyncope and nausea, but denies chest pain. Patient is to be transferred to the CCU for catheterization and EPS. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00487279 | section=detailed_description]\nThe secondary objective is to test the hypothesis that therapy with an ICD combined with medical therapy improves arrhythmic survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% and left ventricular dysfunction who do not have an indication for ICD based on the Target Population described above. Recruitment: All patients who have a history of coronary heart disease (CAD) with documentation of either myocardial infarction (MI) or left ventricular dysfunction (LVD), a preliminary ejection fraction (EF) > 35% and have previously undergone a contrast-enhanced MRI (CE-MRI) study for clinical diagnostic reasons or as part of the study entry screening procedure may be further evaluated for eligibility for this trial. In addition, patients with an ejection fraction of 30-35% may be eligible for the study if they do not currently have an indication for an ICD based on Target Population criteria described above. These patients may have NYHA Class I heart failure, no non-sustained VT on holter monitor, or if non-sustained VT is present, there is the absence of inducible VT at EP study.\n\n[Passage 2 | doc=NCT00487279 | section=eligibility]\nInclusion Criteria: Randomized Arm 1. Evidence of Coronary Artery Disease (CAD)a. 2. Evidence of prior Myocardial Infarction defined by either: A. Clinical history of prior myocardial infarction OR B. Mild-moderate systolic LV dysfunction with an EF \u226450% 3. LVEF>35% by any current standard evaluation technique (e.g., echocardiogram, MUGA, angiography). \u2022 Patients who have an EF between 30-35% and NYHA Class I heart failure who do not have a history of ventricular tachyarrhythmias, or inducible ventricular tachycardia during electrophysiological (EP) testing can be enrolled (Target Population). 4. CE-MRI measure of infarct mass > 10% of LV mass (as measured by the MRI core lab) \u2022 If CE-MRI performed \u2264 40 days after myocardial infarction infarct mass must be \u2265 15% of the LV mass. 5. Patients aged 18 years or above 1. CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery.\n\n[Passage 3 | doc=NCT00487279 | section=detailed_description]\nThe Center for Medicare Services (CMS) has recently decided in a coverage decision that patients with left ventricular dysfunction, heart failure, and an ejection fraction of <35% would be eligible to receive an ICD as long as they are enrolled in a prospective registry. Patients with LV ejection fractions greater than 35% or those without heart failure and ejection fractions over 30%, represent a more difficult management dilemma. However, since the majority of out of hospital cardiac arrests occur in patients with EF >35%, managing these patients is crucial in addressing the epidemiologic problem of sudden cardiac death. The primary objective of this trial is to test the hypothesis that therapy with an ICD combined with medical therapy improves long-term survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% of the left ventricle and left ventricular dysfunction who do not have an indication for ICD by either of the following criteria. Patients must have an EF of >35% or have an EF of 30-35% and must not have inducible ventricular tachycardia or have NYHA Class II or greater heart failure (Target Population).\n\n[Passage 4 | doc=NCT00487279 | section=eligibility]\nNew York Heart Association CHF functional class IV at enrollment Non-Investigational Registry Inclusion Criteria - Evidence of CAD a with either a history of prior myocardial infarction OR any LV dysfunction - Evidence of LV dysfunction (ejection fraction) as measured by any current standard screening technique (e.g., echocardiogram, MUGA, angiography).c - Clinical CE-MRI within the past 12 months (scheduled or completed) - Patients aged 18 years or above - CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery. - MI should be documented by the presence of two (2) of the following three (3) criteria: 1) Symptoms consistent with myocardial infarction (i.e. chest pain, shortness of breath), 2) Q-waves on electrocardiogram and 3) Elevated cardiac enzymes (CPK elevation > two times or troponin elevation > three times the upper limit of normal for the lab).",
+  "passages": [
+    {
+      "passage_id": "NCT00487279::detailed_description::3",
+      "doc_id": "NCT00487279",
+      "section": "detailed_description",
+      "passage_text": "The secondary objective is to test the hypothesis that therapy with an ICD combined with medical therapy improves arrhythmic survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% and left ventricular dysfunction who do not have an indication for ICD based on the Target Population described above. Recruitment: All patients who have a history of coronary heart disease (CAD) with documentation of either myocardial infarction (MI) or left ventricular dysfunction (LVD), a preliminary ejection fraction (EF) > 35% and have previously undergone a contrast-enhanced MRI (CE-MRI) study for clinical diagnostic reasons or as part of the study entry screening procedure may be further evaluated for eligibility for this trial. In addition, patients with an ejection fraction of 30-35% may be eligible for the study if they do not currently have an indication for an ICD based on Target Population criteria described above. These patients may have NYHA Class I heart failure, no non-sustained VT on holter monitor, or if non-sustained VT is present, there is the absence of inducible VT at EP study.",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -4.187608,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00487279::eligibility::0",
+      "doc_id": "NCT00487279",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Randomized Arm 1. Evidence of Coronary Artery Disease (CAD)a. 2. Evidence of prior Myocardial Infarction defined by either: A. Clinical history of prior myocardial infarction OR B. Mild-moderate systolic LV dysfunction with an EF \u226450% 3. LVEF>35% by any current standard evaluation technique (e.g., echocardiogram, MUGA, angiography). \u2022 Patients who have an EF between 30-35% and NYHA Class I heart failure who do not have a history of ventricular tachyarrhythmias, or inducible ventricular tachycardia during electrophysiological (EP) testing can be enrolled (Target Population). 4. CE-MRI measure of infarct mass > 10% of LV mass (as measured by the MRI core lab) \u2022 If CE-MRI performed \u2264 40 days after myocardial infarction infarct mass must be \u2265 15% of the LV mass. 5. Patients aged 18 years or above 1. CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery.",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -5.801215,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00487279::detailed_description::2",
+      "doc_id": "NCT00487279",
+      "section": "detailed_description",
+      "passage_text": "The Center for Medicare Services (CMS) has recently decided in a coverage decision that patients with left ventricular dysfunction, heart failure, and an ejection fraction of <35% would be eligible to receive an ICD as long as they are enrolled in a prospective registry. Patients with LV ejection fractions greater than 35% or those without heart failure and ejection fractions over 30%, represent a more difficult management dilemma. However, since the majority of out of hospital cardiac arrests occur in patients with EF >35%, managing these patients is crucial in addressing the epidemiologic problem of sudden cardiac death. The primary objective of this trial is to test the hypothesis that therapy with an ICD combined with medical therapy improves long-term survival compared to medical therapy alone in patients with CAD, infarct mass greater than or equal to 10% of the left ventricle and left ventricular dysfunction who do not have an indication for ICD by either of the following criteria. Patients must have an EF of >35% or have an EF of 30-35% and must not have inducible ventricular tachycardia or have NYHA Class II or greater heart failure (Target Population).",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -6.215424,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00487279::eligibility::3",
+      "doc_id": "NCT00487279",
+      "section": "eligibility",
+      "passage_text": "New York Heart Association CHF functional class IV at enrollment Non-Investigational Registry Inclusion Criteria - Evidence of CAD a with either a history of prior myocardial infarction OR any LV dysfunction - Evidence of LV dysfunction (ejection fraction) as measured by any current standard screening technique (e.g., echocardiogram, MUGA, angiography).c - Clinical CE-MRI within the past 12 months (scheduled or completed) - Patients aged 18 years or above - CAD will be confirmed by evidence of one of the following three (3) criteria 1) Prior myocardial infarction, 2) Significant stenosis of a major epicardial vessel (>50% proximal or 70% distal) by coronary angiography, 3) Prior revascularization (percutaneous coronary intervention or coronary artery bypass surgery. - MI should be documented by the presence of two (2) of the following three (3) criteria: 1) Symptoms consistent with myocardial infarction (i.e. chest pain, shortness of breath), 2) Q-waves on electrocardiogram and 3) Elevated cardiac enzymes (CPK elevation > two times or troponin elevation > three times the upper limit of normal for the lab).",
+      "title": "DEfibrillators To REduce Risk by MagnetIc ResoNance Imaging Evaluation",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 376.0544259589781,
+      "cross_score": -6.55896,
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\n    \"You are 65 years old\",\n    \"You have a history of CAD and prior MI\",\n    \"You have high LDL (HLD)\",\n    \"You have hypertension (HTN)\",\n    \"You have ventricular tachycardia\",\n    \"You experienced syncope and ventricular arrhythmias\"\n  ],\n  \"missing_patient_facts\": [\n    \"Your current ejection fraction (EF)\",\n    \"Whether you have been diagnosed with NYHA Class I heart failure\",\n    \"If you have non-sustained VT on your Holter monitor\",\n    \"If you have inducible VT at EP study\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Your current ejection fraction (EF)\",\n    \"Confirmation of CAD through one of the specified criteria\"\n  ],\n  \"reasoning_summary\": \"While you meet several key criteria such as CAD, prior MI, and ventricular tachycardia, we need to confirm your current ejection fraction and other specific details to determine full eligibility. Your recent syncope and arrhythmias also suggest potential relevance to the study's objectives.\",\n  \"safety_note\": \"Please continue to follow up with your healthcare provider regarding your condition and any new symptoms.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "You are 65 years old",
+      "You have a history of CAD and prior MI",
+      "You have high LDL (HLD)",
+      "You have hypertension (HTN)",
+      "You have ventricular tachycardia",
+      "You experienced syncope and ventricular arrhythmias"
+    ],
+    "missing_patient_facts": [
+      "Your current ejection fraction (EF)",
+      "Whether you have been diagnosed with NYHA Class I heart failure",
+      "If you have non-sustained VT on your Holter monitor",
+      "If you have inducible VT at EP study"
+    ],
+    "unresolved_study_requirements": [
+      "Your current ejection fraction (EF)",
+      "Confirmation of CAD through one of the specified criteria"
+    ],
+    "reasoning_summary": "While you meet several key criteria such as CAD, prior MI, and ventricular tachycardia, we need to confirm your current ejection fraction and other specific details to determine full eligibility. Your recent syncope and arrhythmias also suggest potential relevance to the study's objectives.",
+    "safety_note": "Please continue to follow up with your healthcare provider regarding your condition and any new symptoms."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "Your current ejection fraction (EF)",
+    "Whether you have been diagnosed with NYHA Class I heart failure",
+    "If you have non-sustained VT on your Holter monitor",
+    "If you have inducible VT at EP study"
+  ],
+  "unresolved_study_requirements": [
+    "Your current ejection fraction (EF)",
+    "Confirmation of CAD through one of the specified criteria"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.393
+}

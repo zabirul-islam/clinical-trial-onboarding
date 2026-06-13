@@ -1,0 +1,101 @@
+{
+  "case_id": "case_paraphrase_028",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2022",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT03829631",
+  "reference_trial": "NCT03829631",
+  "evidence_trials": [
+    "NCT03829631"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 57-year-old man comes to the emergency department due to constipation. His last bowel movement was 2 days ago. He complains of spending about 30 minutes once attempting to defecate. He also has lower back pain. There is no history of trauma. The pain is not relieved with over-the-counter pain medications. His vital signs are within normal limits. Examination shows low back pain that is worse with back flexion and raising of the legs; it radiates into his left leg. Pinprick in the perianal area does not cause rapid contraction of the anal sphincter. The rest of the neurologic examination is normal. He is suspected of Cauda Equina syndrome and referred to a spinal MRI. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT03829631 | section=detailed_description]\nWhile emergency departments routinely recommend analgesics for low back pain (paracetamol, nonsteroidal anti-inflammatory drugs, opioids, etc.), current guidelines do not support this approach; only nonsteroidal anti-inflammatory drugs are recommended as second-line/adjunctive treatment. As such, there is a critical need to provide emergency-department staff with better short-term pain control solutions. One underutilized pain-control solution in emergency departments is lumbar orthoses. Like crutches for leg or ankle injuries, lumbar orthoses can minimise lumbar spine movements, which can reduce pain and discomfort while preserving important aspects of daily function. In support of this approach, two recent randomised controlled trials conducted in a primary-care setting observed a reduced analgesic consumption in low back pain patients who received lumbar orthoses. HYPOTHESES 1. Wearing a semi-rigid lumbar brace for 4 weeks following emergency department presentation will reduce participant pain and discomfort; 2. The same bracing protocol will improve spine function; 3. The same bracing protocol will decrease analgesic consumption including opioids; 4.\n\n[Passage 2 | doc=NCT03829631 | section=detailed_description]\nThe same bracing protocol will decrease future use of healthcare resources. SPECIFIC AIMS 1. PRIMARY: To determine if lumbar bracing for 30 days after the emergency department presentation will reduce low back pain; 2. SECONDARY: To determine if this same bracing protocol will improve spinal function and quality of life; 3. SECONDARY: To establish if this same bracing protocol will reduce prescription and/or consumption of analgesics; 4. EXPLORATORY: To establish if this same bracing protocol will reduce back pain-related use of health resources (e.g., emergency department, primary care, imaging, and non-prescription management). RESEARCH PLAN Study Design This project is a prospective, superiority, 1:1 allocation, randomised controlled trial with concealed allocation. Specifically, the investigators will recruit people with benign low back pain presenting to the Emergency Department. Superiority will be based on a minimally clinically significant difference of our primary outcome measure (Numerical Pain Rating Scale, a 0-10-point scale). Statisticians will be blinded to group allocation. The investigators will exclude those with a confirmed cause of low back pain (e.g.\n\n[Passage 3 | doc=NCT03829631 | section=summary]\nLow back pain accounts for billions of dollars in health care expenditures. Most cases of back pain do not have a clear cause. Thus, low back pain management methods usually rely on targeting people' pain and discomfort. Painkillers, including opioids, are usually prescribed in the emergency departments for people with low back pain. But, like all medications, painkillers can have side effects, and some of those can be serious. There are also serious concerns about the overuse of painkillers. Thus, newer pain management methods are needed to reduce the use of painkillers in people with low back pain. Lumbar braces are one of the underutilized low back pain management methods in the emergency departments. Like crutches for leg and ankle injuries, they can minimise movements of the spine. This may decrease people pain and improve their function. This may also reduce the use of painkillers. In support of this approach, two recent studies conducted in a primary-care setting observed a reduction in the use of painkillers in people with low back pain who wore lumbar braces. The investigators are conducting this study to determine if wearing a lumbar brace for 4 weeks following emergency department presentation will reduce people's pain and discomfort and increase spine function. This may decrease the use of painkiller and future use of healthcare resources. This research study may also assist emergency-department staff with offering new recommendations to improve the quality of clinical decisions.\n\n[Passage 4 | doc=NCT03829631 | section=detailed_description]\nBACKGROUND/SIGNIFICANCE The global point prevalence of activity-limiting low back pain was 7.3% in 2015, implying that 540 million people were affected at one time. Although people with acute or chronic low back pain usually improve in the first six weeks, they usually suffer from low to moderate levels of pain and disability in the first year. Low back pain is an urgent global public health concern, accounting for billions of dollars in health care expenditures. Much of this spending is for high-cost, low-value care such as evaluating low back pain in the emergency department; only 3% of persons with low back pain attending the emergency department are admitted to the hospital while those who are discharged leave without effective pain control. This low-value approach is thought to increase use of additional health-related resources including repeat use of the emergency department for future low back pain complaints and use of opioids. This reduces limited available resources that should more appropriately be used for other health care needs.",
+  "passages": [
+    {
+      "passage_id": "NCT03829631::detailed_description::1",
+      "doc_id": "NCT03829631",
+      "section": "detailed_description",
+      "passage_text": "While emergency departments routinely recommend analgesics for low back pain (paracetamol, nonsteroidal anti-inflammatory drugs, opioids, etc.), current guidelines do not support this approach; only nonsteroidal anti-inflammatory drugs are recommended as second-line/adjunctive treatment. As such, there is a critical need to provide emergency-department staff with better short-term pain control solutions. One underutilized pain-control solution in emergency departments is lumbar orthoses. Like crutches for leg or ankle injuries, lumbar orthoses can minimise lumbar spine movements, which can reduce pain and discomfort while preserving important aspects of daily function. In support of this approach, two recent randomised controlled trials conducted in a primary-care setting observed a reduced analgesic consumption in low back pain patients who received lumbar orthoses. HYPOTHESES 1. Wearing a semi-rigid lumbar brace for 4 weeks following emergency department presentation will reduce participant pain and discomfort; 2. The same bracing protocol will improve spine function; 3. The same bracing protocol will decrease analgesic consumption including opioids; 4.",
+      "title": "Lumbar Brace Deployment in the Emergency Department for Benign Low Back Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 365.0156372825086,
+      "cross_score": -4.608357,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03829631::detailed_description::2",
+      "doc_id": "NCT03829631",
+      "section": "detailed_description",
+      "passage_text": "The same bracing protocol will decrease future use of healthcare resources. SPECIFIC AIMS 1. PRIMARY: To determine if lumbar bracing for 30 days after the emergency department presentation will reduce low back pain; 2. SECONDARY: To determine if this same bracing protocol will improve spinal function and quality of life; 3. SECONDARY: To establish if this same bracing protocol will reduce prescription and/or consumption of analgesics; 4. EXPLORATORY: To establish if this same bracing protocol will reduce back pain-related use of health resources (e.g., emergency department, primary care, imaging, and non-prescription management). RESEARCH PLAN Study Design This project is a prospective, superiority, 1:1 allocation, randomised controlled trial with concealed allocation. Specifically, the investigators will recruit people with benign low back pain presenting to the Emergency Department. Superiority will be based on a minimally clinically significant difference of our primary outcome measure (Numerical Pain Rating Scale, a 0-10-point scale). Statisticians will be blinded to group allocation. The investigators will exclude those with a confirmed cause of low back pain (e.g.",
+      "title": "Lumbar Brace Deployment in the Emergency Department for Benign Low Back Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 365.0156372825086,
+      "cross_score": -5.0729465,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03829631::summary::0",
+      "doc_id": "NCT03829631",
+      "section": "summary",
+      "passage_text": "Low back pain accounts for billions of dollars in health care expenditures. Most cases of back pain do not have a clear cause. Thus, low back pain management methods usually rely on targeting people' pain and discomfort. Painkillers, including opioids, are usually prescribed in the emergency departments for people with low back pain. But, like all medications, painkillers can have side effects, and some of those can be serious. There are also serious concerns about the overuse of painkillers. Thus, newer pain management methods are needed to reduce the use of painkillers in people with low back pain. Lumbar braces are one of the underutilized low back pain management methods in the emergency departments. Like crutches for leg and ankle injuries, they can minimise movements of the spine. This may decrease people pain and improve their function. This may also reduce the use of painkillers. In support of this approach, two recent studies conducted in a primary-care setting observed a reduction in the use of painkillers in people with low back pain who wore lumbar braces. The investigators are conducting this study to determine if wearing a lumbar brace for 4 weeks following emergency department presentation will reduce people's pain and discomfort and increase spine function. This may decrease the use of painkiller and future use of healthcare resources. This research study may also assist emergency-department staff with offering new recommendations to improve the quality of clinical decisions.",
+      "title": "Lumbar Brace Deployment in the Emergency Department for Benign Low Back Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 365.0156372825086,
+      "cross_score": -5.9100313,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03829631::detailed_description::0",
+      "doc_id": "NCT03829631",
+      "section": "detailed_description",
+      "passage_text": "BACKGROUND/SIGNIFICANCE The global point prevalence of activity-limiting low back pain was 7.3% in 2015, implying that 540 million people were affected at one time. Although people with acute or chronic low back pain usually improve in the first six weeks, they usually suffer from low to moderate levels of pain and disability in the first year. Low back pain is an urgent global public health concern, accounting for billions of dollars in health care expenditures. Much of this spending is for high-cost, low-value care such as evaluating low back pain in the emergency department; only 3% of persons with low back pain attending the emergency department are admitted to the hospital while those who are discharged leave without effective pain control. This low-value approach is thought to increase use of additional health-related resources including repeat use of the emergency department for future low back pain complaints and use of opioids. This reduces limited available resources that should more appropriately be used for other health care needs.",
+      "title": "Lumbar Brace Deployment in the Emergency Department for Benign Low Back Pain",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 365.0156372825086,
+      "cross_score": -6.34572,
+      "passage_rank": 4
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems that you might be eligible for the clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"57-year-old male with low back pain\", \"low back pain worse with back flexion and raising of the legs\", \"pain radiating into the left leg\", \"no history of trauma\"],\n  \"missing_patient_facts\": [\"confirmation of cauda equina syndrome diagnosis\", \"details on the nature and duration of the low back pain\", \"results of the spinal MRI\"],\n  \"unresolved_study_requirements\": [\"confirmation of benign low back pain\", \"exclusion of confirmed causes of low back pain\"],\n  \"reasoning_summary\": \"The patient presents with symptoms consistent with low back pain, which aligns with the study's inclusion criteria. However, the diagnosis of cauda equina syndrome and the results of the spinal MRI are necessary to rule out other causes of low back pain and confirm eligibility. Additionally, the study requires exclusion of confirmed causes of low back pain, which is pending.\",\n  \"safety_note\": \"Please note that the safety of the lumbar brace has not been definitively established for all patients with low back pain, and potential side effects include skin irritation and discomfort.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems that you might be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "57-year-old male with low back pain",
+      "low back pain worse with back flexion and raising of the legs",
+      "pain radiating into the left leg",
+      "no history of trauma"
+    ],
+    "missing_patient_facts": [
+      "confirmation of cauda equina syndrome diagnosis",
+      "details on the nature and duration of the low back pain",
+      "results of the spinal MRI"
+    ],
+    "unresolved_study_requirements": [
+      "confirmation of benign low back pain",
+      "exclusion of confirmed causes of low back pain"
+    ],
+    "reasoning_summary": "The patient presents with symptoms consistent with low back pain, which aligns with the study's inclusion criteria. However, the diagnosis of cauda equina syndrome and the results of the spinal MRI are necessary to rule out other causes of low back pain and confirm eligibility. Additionally, the study requires exclusion of confirmed causes of low back pain, which is pending.",
+    "safety_note": "Please note that the safety of the lumbar brace has not been definitively established for all patients with low back pain, and potential side effects include skin irritation and discomfort."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems that you might be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "confirmation of cauda equina syndrome diagnosis",
+    "details on the nature and duration of the low back pain",
+    "results of the spinal MRI"
+  ],
+  "unresolved_study_requirements": [
+    "confirmation of benign low back pain",
+    "exclusion of confirmed causes of low back pain"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 21.941
+}

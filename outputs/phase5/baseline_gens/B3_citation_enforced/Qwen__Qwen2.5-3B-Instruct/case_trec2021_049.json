@@ -1,0 +1,102 @@
+{
+  "case_id": "case_trec2021_049",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001253",
+  "selected_doc": "NCT00191113",
+  "reference_trial": "NCT00191113",
+  "evidence_trials": [
+    "NCT00191113",
+    "NCT00734279",
+    "NCT01944475",
+    "NCT02976675",
+    "NCT03249480"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 12 year old girl came to the clinic with her mother, complaining of short stature, delayed in puberty and developmental delay. Her karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome. She is treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height. She is an obese, mentally retarded girl in the physical exam. Her breast bulb were in stage 1 with no course hair in the pubic or axillary. Her TSH was 3 and FBS was 75 in the latest lab study. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00191113 | section=summary]\nA randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.\n\n[Passage 2 | doc=NCT01944475 | section=detailed_description]\nThe purpose of the study is 1. To conduct an epidemiological study in which characteristics of 0-6 year-old girls with either premature thelarche or precocious puberty are described (as specified below) 2. To conduct a clinical and para-clinical re-examination of the before-mentioned (1))0-6 year-old girls 3. To compare the clinical and paraclinical parameters in point 1) mentioned 0-6 year-old girls with a control group of children at the same age, whiteout thelarche and precocious puberty. (Local Ethics Committee has approved the study of the control group, case number 1-10-72-631-12.) The study includes a chart review of registered 0-6 year-old girls diagnosed with premature thelarche or precocious puberty from 1998 and until today at Dept. of Pediatrics A, AUH Skejby. The cohort has not earlier been examined and the number of girls in the cohort is estimated from our clinical experience with this patient group to be about 50 in total.\n\n[Passage 3 | doc=NCT00734279 | section=eligibility]\nInclusion Criteria: Early Puberty Children who have early puberty may participate in this study. Children must be between 6 and 10 years of age and be healthy with the exception of having early puberty. For early puberty, girls should have had the onset of breast development prior to 8 years of age and boys should have the onset of pubic hair growth or genital growth prior to 9 years of age. Inclusion Criteria for Delayed Puberty Children who have late (delayed) puberty may participate in this study. Children must be between 12 and 17 years of age and be healthy with the exception of having late puberty. In order to have late puberty, boys and girls should have short stature compared to their family with at least one year delay in bone age as determined by bone age x-ray and/or have the onset of secondary sexual characteristics (breast and pubic hair growth) at 12 years of age or later for a girl or 13 years of age or later for a boy. Exclusion Criteria: Early Puberty Children with known genetic disorders, chronic medical conditions requiring the use of steroids, and use of medication for puberty within the last 3 months are excluded.\n\n[Passage 4 | doc=NCT03249480 | section=eligibility]\nExclusion Criteria: - Dysfunction of liver and kidney (ALT> 2 times the upper limit of normal, Cr> upper limit of normal); - Patients positive for hepatitis B c-antibody (HBcAb), hepatitis B surface antigen (HBsAg) or hepatitis B e antigen (HBeAg); - Patients with known hypersensitivity to PEG Somatropin or Somatropin or any other components of the study product; - Patients with severe cardiopulmonary or hematological diseases, a current or past history of malignant tumors, immunodeficiency diseases, or mental diseases; - Potential cancer patients (family history); - Patients with diabetics; - Patients with other growth disorders, such as Turner's syndrome, sexual physical delayed puberty, Laron syndrome, growth hormone receptor deficiency, girls with slowly growing who did not rule out chromosomal abnormalities; - Patients with congenital bone dysplasia or scoliosis; - Subjects took part in other clinical trial study during 3 months; - Other conditions in which the investigator preclude enrollment into the study.\n\n[Passage 5 | doc=NCT02976675 | section=eligibility]\nExclusion Criteria: - Dysfunction of liver and kidney (ALT> 2 times the upper limit of normal, Cr> upper limit of normal); - Patients positive for hepatitis B c-antibody (HBcAb), hepatitis B surface antigen (HBsAg) or hepatitis B e antigen (HBeAg); - Patients with known hypersensitivity to PEG Somatropin or Somatropin or any other components of the study product; - Patients with severe cardiopulmonary or hematological diseases, a current or past history of malignant tumors, immunodeficiency diseases, or mental diseases; - Potential cancer patients (family history); - Patients with diabetics; - Patients with other growth disorders, such as Turner's syndrome, sexual physical delayed puberty, Laron syndrome, growth hormone receptor deficiency, girls with slowly growing who did not rule out chromosomal abnormalities; - Patients with congenital bone dysplasia or scoliosis; - Subjects took part in other clinical trial study during 3 months; - Other conditions in which the investigator preclude enrollment into the study.\n\n[Passage 6 | doc=NCT01944475 | section=eligibility]\nInclusion Criteria: - Clinical diagnosis of precocious puberty or premature thelarche - 0-6 year old girls at time of diagnosis for the medical record review - 0-8 year old girls at baseline for the re-examination Exclusion Criteria: -",
+  "passages": [
+    {
+      "passage_id": "NCT00191113::summary::0",
+      "doc_id": "NCT00191113",
+      "section": "summary",
+      "passage_text": "A randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.",
+      "title": "Somatropin Treatment to Final Height in Turner Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 264.48884218672515,
+      "cross_score": -2.8297424,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01944475::detailed_description::0",
+      "doc_id": "NCT01944475",
+      "section": "detailed_description",
+      "passage_text": "The purpose of the study is 1. To conduct an epidemiological study in which characteristics of 0-6 year-old girls with either premature thelarche or precocious puberty are described (as specified below) 2. To conduct a clinical and para-clinical re-examination of the before-mentioned (1))0-6 year-old girls 3. To compare the clinical and paraclinical parameters in point 1) mentioned 0-6 year-old girls with a control group of children at the same age, whiteout thelarche and precocious puberty. (Local Ethics Committee has approved the study of the control group, case number 1-10-72-631-12.) The study includes a chart review of registered 0-6 year-old girls diagnosed with premature thelarche or precocious puberty from 1998 and until today at Dept. of Pediatrics A, AUH Skejby. The cohort has not earlier been examined and the number of girls in the cohort is estimated from our clinical experience with this patient group to be about 50 in total.",
+      "title": "Follow-up of Girls With Premature Thelarche and Precocious Puberty",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 263.0268630292572,
+      "cross_score": -3.2218354,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00734279::eligibility::0",
+      "doc_id": "NCT00734279",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: Early Puberty Children who have early puberty may participate in this study. Children must be between 6 and 10 years of age and be healthy with the exception of having early puberty. For early puberty, girls should have had the onset of breast development prior to 8 years of age and boys should have the onset of pubic hair growth or genital growth prior to 9 years of age. Inclusion Criteria for Delayed Puberty Children who have late (delayed) puberty may participate in this study. Children must be between 12 and 17 years of age and be healthy with the exception of having late puberty. In order to have late puberty, boys and girls should have short stature compared to their family with at least one year delay in bone age as determined by bone age x-ray and/or have the onset of secondary sexual characteristics (breast and pubic hair growth) at 12 years of age or later for a girl or 13 years of age or later for a boy. Exclusion Criteria: Early Puberty Children with known genetic disorders, chronic medical conditions requiring the use of steroids, and use of medication for puberty within the last 3 months are excluded.",
+      "title": "Follicle-Stimulating Hormone (FSH) and the Onset of Puberty",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 266.86845477291087,
+      "cross_score": -3.840251,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03249480::eligibility::1",
+      "doc_id": "NCT03249480",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - Dysfunction of liver and kidney (ALT> 2 times the upper limit of normal, Cr> upper limit of normal); - Patients positive for hepatitis B c-antibody (HBcAb), hepatitis B surface antigen (HBsAg) or hepatitis B e antigen (HBeAg); - Patients with known hypersensitivity to PEG Somatropin or Somatropin or any other components of the study product; - Patients with severe cardiopulmonary or hematological diseases, a current or past history of malignant tumors, immunodeficiency diseases, or mental diseases; - Potential cancer patients (family history); - Patients with diabetics; - Patients with other growth disorders, such as Turner's syndrome, sexual physical delayed puberty, Laron syndrome, growth hormone receptor deficiency, girls with slowly growing who did not rule out chromosomal abnormalities; - Patients with congenital bone dysplasia or scoliosis; - Subjects took part in other clinical trial study during 3 months; - Other conditions in which the investigator preclude enrollment into the study.",
+      "title": "Pegylated Somatropin (PEG Somatropin) in the Treatment of Children With Growth Hormone Deficiency",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 267.5286256115024,
+      "cross_score": -4.0453343,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02976675::eligibility::1",
+      "doc_id": "NCT02976675",
+      "section": "eligibility",
+      "passage_text": "Exclusion Criteria: - Dysfunction of liver and kidney (ALT> 2 times the upper limit of normal, Cr> upper limit of normal); - Patients positive for hepatitis B c-antibody (HBcAb), hepatitis B surface antigen (HBsAg) or hepatitis B e antigen (HBeAg); - Patients with known hypersensitivity to PEG Somatropin or Somatropin or any other components of the study product; - Patients with severe cardiopulmonary or hematological diseases, a current or past history of malignant tumors, immunodeficiency diseases, or mental diseases; - Potential cancer patients (family history); - Patients with diabetics; - Patients with other growth disorders, such as Turner's syndrome, sexual physical delayed puberty, Laron syndrome, growth hormone receptor deficiency, girls with slowly growing who did not rule out chromosomal abnormalities; - Patients with congenital bone dysplasia or scoliosis; - Subjects took part in other clinical trial study during 3 months; - Other conditions in which the investigator preclude enrollment into the study.",
+      "title": "Pegylated Somatropin (PEG Somatropin) in the Treatment of Children With Growth Hormone Deficiency",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 266.2044311778011,
+      "cross_score": -4.0453343,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01944475::eligibility::0",
+      "doc_id": "NCT01944475",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Clinical diagnosis of precocious puberty or premature thelarche - 0-6 year old girls at time of diagnosis for the medical record review - 0-8 year old girls at baseline for the re-examination Exclusion Criteria: -",
+      "title": "Follow-up of Girls With Premature Thelarche and Precocious Puberty",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 263.0268630292572,
+      "cross_score": -4.1313815,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like your daughter might not be eligible for the clinical trial you're considering due to her specific condition and age.\",\n  \"supported_patient_facts\": [\"She has Turner syndrome\", \"She is a 12-year-old girl\", \"She is currently receiving GH therapy\", \"She is obese and mentally retarded\"],\n  \"missing_patient_facts\": [\"Her bone age\", \"Her pubertal status\", \"Her family history of cancer\"],\n  \"unresolved_study_requirements\": [\"The study specifically targets girls with Turner syndrome who are at least 7 years old and younger than 13 at study entry\", \"It does not mention obesity or mental retardation as exclusion criteria\"],\n  \"reasoning_summary\": \"The patient meets the age criteria for Turner syndrome, but the study focuses on girls with Turner syndrome who are at least 7 years old and younger than 13 at study entry. Additionally, the patient's obesity and mental retardation are not explicitly mentioned as exclusion criteria in the provided evidence. Further clarification is needed regarding her bone age and pubertal status.\",\n  \"safety_note\": \"The patient should consult with the study investigators to ensure she meets all eligibility criteria and to discuss potential risks and benefits.\"\n  \"support_passages\": {\n    \"patient_facing_answer\": [3, 4],\n    \"reasoning_summary\": [3, 4]\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.357
+}

@@ -1,0 +1,129 @@
+{
+  "case_id": "case_15",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00738998",
+  "reference_trial": "NCT00738998",
+  "evidence_trials": [
+    "NCT00682994",
+    "NCT00738998",
+    "NCT02432339",
+    "NCT04054596",
+    "NCT04780048"
+  ],
+  "question": "I want to know if this study is for me, but I only know that I am older and had some bone problems. What can you tell me?",
+  "evidence": "[Passage 1 | doc=NCT00738998 | section=detailed_description]\nThe cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.\n\n[Passage 2 | doc=NCT04054596 | section=eligibility]\nInclusion Criteria: In order to participate in this study I must meet the following requirements: - I am between the ages of 18-65. - I have had a traumatic brain injury (TBI) at least 1 year ago. - I can read and speak English fluently. - I have difficulties with learning and memory skills. Exclusion Criteria: - I have had a prior stroke or neurological injury/disease other than TBI. - I have a history of significant psychiatric illness (for example, bipolar disorder, schizophrenia, or psychosis) or a current diagnosis of Major Depressive Disorder, Schizophrenia, Bipolar Disorder I or II. - I have a significant alcohol or drug abuse history (inpatient Treatment). - I am taking certain medications that might exclude me from the research. The study team will review my medications with me.\n\n[Passage 3 | doc=NCT04780048 | section=detailed_description]\nWe are interested in how this procedure and personal factors, such as having diabetes, may contribute to how long you stay in the hospital, have a recurrence or develop an infection. Participation in this study does not require anything additional from you. You will receive the same care if you do or do not participate. The only difference is we would maintain your outcome data for analysis purposes. Would you be interested in learning more about the study and discussing study details with me and Dr. Latifi? If so, are you able to meet and when would you like to meet? Or, if you do not know yet, can you provide me with your phone number or the best way to contact you to schedule a follow-up meeting to discuss the study? Research Coordinator meets and collects potential participant contact information. Meeting will be held to describe study in more detail and to consent participant and/or representative. If participant is already in the hospital for the procedure, the meeting will be held as soon as possible.\n\n[Passage 4 | doc=NCT00738998 | section=detailed_description]\nThis form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.\n\n[Passage 5 | doc=NCT02432339 | section=detailed_description]\nDong. The genetic results from these studies will not be told to myself and will not be given to any doctor or other individual.\n\n[Passage 6 | doc=NCT00682994 | section=detailed_description]\n(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).",
+  "passages": [
+    {
+      "passage_id": "NCT00738998::detailed_description::1",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "passage_text": "The cognitive questionnaires will be given to learn about problems with attention or mental fatigue that may be related to your treatment. If you choose not to complete the cognitive questionnaires, you can still participate in this study. - Blood (about 2 \u00bd tablespoons) will be drawn to learn about how certain proteins called cytokines (found in the blood) change during therapy. Researchers will also measure the C-reactive protein (CRP) which indicates whether there is inflammation in your body. - You will have an exam of your bone joints and you will be shown how to perform a self-exam on your joints at home using a study joint pain kit. This kit will be mailed to you if you have a new joint pain. - Demographic information (name, address, date of birth, weight, height, marital status, job status, education, medical insurance status, and race) will be collected. - Participants in Group 2 will complete a medication adherence questionnaire. This questionnaire contains questions about the dose of anastrozole you are taking, if it has changed (increased or decreased), and if you have been given any drugs to help manage symptoms that you may be experiencing.",
+      "title": "Longitudinal Assessment of Arthralgia and Related Symptoms in Breast Cancer Patients Receiving Aromatase Inhibitors",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 75.61081467283105,
+      "cross_score": -3.8169975,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04054596::eligibility::0",
+      "doc_id": "NCT04054596",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: In order to participate in this study I must meet the following requirements: - I am between the ages of 18-65. - I have had a traumatic brain injury (TBI) at least 1 year ago. - I can read and speak English fluently. - I have difficulties with learning and memory skills. Exclusion Criteria: - I have had a prior stroke or neurological injury/disease other than TBI. - I have a history of significant psychiatric illness (for example, bipolar disorder, schizophrenia, or psychosis) or a current diagnosis of Major Depressive Disorder, Schizophrenia, Bipolar Disorder I or II. - I have a significant alcohol or drug abuse history (inpatient Treatment). - I am taking certain medications that might exclude me from the research. The study team will review my medications with me.",
+      "title": "Strategy Based Technique to Enhance Memory (STEM) for Improving New Learning and Memory (NLM) in Moderate to Severe TBI",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 75.58525585849574,
+      "cross_score": -3.9248986,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04780048::detailed_description::2",
+      "doc_id": "NCT04780048",
+      "section": "detailed_description",
+      "passage_text": "We are interested in how this procedure and personal factors, such as having diabetes, may contribute to how long you stay in the hospital, have a recurrence or develop an infection. Participation in this study does not require anything additional from you. You will receive the same care if you do or do not participate. The only difference is we would maintain your outcome data for analysis purposes. Would you be interested in learning more about the study and discussing study details with me and Dr. Latifi? If so, are you able to meet and when would you like to meet? Or, if you do not know yet, can you provide me with your phone number or the best way to contact you to schedule a follow-up meeting to discuss the study? Research Coordinator meets and collects potential participant contact information. Meeting will be held to describe study in more detail and to consent participant and/or representative. If participant is already in the hospital for the procedure, the meeting will be held as soon as possible.",
+      "title": "Complex Abdominal Wall Reconstruction Using Biologic Mesh",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 79.53519951038383,
+      "cross_score": -5.204873,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00738998::detailed_description::2",
+      "doc_id": "NCT00738998",
+      "section": "detailed_description",
+      "passage_text": "This form should take about 5 minutes to complete. - If your doctor in the breast clinic thinks you need to see a specialist because of the pain or swelling you are experiencing, you will be referred to a rheumatologist here at MD Anderson. The rheumatologist will perform a bone joint examination and may order a blood draw to test for inflammation in your body. Telephone System Calls: The telephone system will call you every 2 weeks at a time convenient to you so that you can rate your pain and how it interferes with your daily activities. Each phone call will take about 5 minutes to complete. While you are on the study, if you report through the telephone system joint pain of a certain level of severity, a joint pain kit will be mailed to you along with a pre-addressed stamped envelope. Study staff will call you to let you know the kit is being mailed and that they can help you complete it, if needed. You will be asked to perform a self exam of your joints and to mark the area that is painful to you on the body drawing included in the kit. You will also answer some questions about your pain and about your medication and supplement use.",
+      "title": "Longitudinal Assessment of Arthralgia and Related Symptoms in Breast Cancer Patients Receiving Aromatase Inhibitors",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 75.61081467283105,
+      "cross_score": -5.294199,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02432339::detailed_description::7",
+      "doc_id": "NCT02432339",
+      "section": "detailed_description",
+      "passage_text": "Dong. The genetic results from these studies will not be told to myself and will not be given to any doctor or other individual.",
+      "title": "Effects of an Immunosuppressant Mycophenolate Mofetil or MMF on the Urinary Sodium Excretion Response to Mental Stress",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 80.01313389212258,
+      "cross_score": -5.4659276,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00682994::detailed_description::1",
+      "doc_id": "NCT00682994",
+      "section": "detailed_description",
+      "passage_text": "(If the person of your choice is not with you at the time of joining the study, he/she may come back to the clinic at your next follow-up visit.) If the family member agrees, he/she will complete a similar series of questionnaires about his/her preferences in decisions about your healthcare, what information he/she might want you to know about the disease, and what information he/she might want to know about the disease him/herself. Like you, he/she will also be asked how decisions about your healthcare have been made, his/her satisfaction with those decisions and your healthcare, and his/her sense of connection with what he/she defines to be the overall Hispanic culture. He/she will also complete a similar interview on general information (such as marital status and educational level). Study Visit: If you agree to take part in this study and you have given the name of a family member, you will be interviewed to ask for general information about yourself (\"demographic\" information such as marital status and educational level).",
+      "title": "Patient and Family Decision Making in the Palliative Care Setting",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 82.0432424988605,
+      "cross_score": -5.568209,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to fit the age requirement (older), but we don't have enough details about your bone problems to determine if you qualify. We also need more information about your health history and current medications.\",\n  \"supported_patient_facts\": [\"you are older\", \"you have had some bone problems\"],\n  \"missing_patient_facts\": [\"your exact age\", \"the nature and extent of your bone problems\", \"any current medications you are taking\"],\n  \"unresolved_study_requirements\": [\"we need to confirm your age\", \"we need to understand the specifics of your bone problems\", \"we need to check if you are taking any medications that might exclude you from the study\"],\n  \"reasoning_summary\": \"While you meet the age requirement, we need more information about your bone problems and current medications to determine if you are eligible for this study.\",\n  \"safety_note\": \"Please consult with your healthcare provider before deciding to participate in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to fit the age requirement (older), but we don't have enough details about your bone problems to determine if you qualify. We also need more information about your health history and current medications.",
+    "supported_patient_facts": [
+      "you are older",
+      "you have had some bone problems"
+    ],
+    "missing_patient_facts": [
+      "your exact age",
+      "the nature and extent of your bone problems",
+      "any current medications you are taking"
+    ],
+    "unresolved_study_requirements": [
+      "we need to confirm your age",
+      "we need to understand the specifics of your bone problems",
+      "we need to check if you are taking any medications that might exclude you from the study"
+    ],
+    "reasoning_summary": "While you meet the age requirement, we need more information about your bone problems and current medications to determine if you are eligible for this study.",
+    "safety_note": "Please consult with your healthcare provider before deciding to participate in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to fit the age requirement (older), but we don't have enough details about your bone problems to determine if you qualify. We also need more information about your health history and current medications.",
+  "missing_patient_facts": [
+    "your exact age",
+    "the nature and extent of your bone problems",
+    "any current medications you are taking"
+  ],
+  "unresolved_study_requirements": [
+    "we need to confirm your age",
+    "we need to understand the specifics of your bone problems",
+    "we need to check if you are taking any medications that might exclude you from the study"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.127
+}

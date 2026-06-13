@@ -1,0 +1,70 @@
+{
+  "case_id": "case_trec2021_018",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00159406",
+  "selected_doc": "NCT04529369",
+  "reference_trial": "NCT04529369",
+  "evidence_trials": [
+    "NCT04529369"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04529369 | section=eligibility]\nInclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy",
+  "passages": [
+    {
+      "passage_id": "NCT04529369::eligibility::0",
+      "doc_id": "NCT04529369",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy",
+      "title": "Middle Lobe Only Laser Vaporization or Total Prostate Vaporization of the Prostate, Prospective Cohort Study",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 356.5249494702854,
+      "cross_score": -3.2097907,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you've provided, it seems like you might be eligible for the trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\"78-year-old male\", \"history of BPH\", \"severe 2cm bulbar urethral stricture\", \"had a suprapubic prostatectomy\", \"bleeding around the catheter\"],\n  \"missing_patient_facts\": [\"residual volume after catheter removal\", \"PSA level\", \"history of prostate cancer\", \"history of pelvic radiotherapy\"],\n  \"unresolved_study_requirements\": [\"trans-abdominal ultrasound prostate sizing\", \"median lobe presence\", \"neurogenic lower urinary tract dysfunction assessment\"],\n  \"reasoning_summary\": \"The patient has BPH and a severe urethral stricture, which aligns with the inclusion criteria. However, we need to confirm if the residual volume after catheter removal is less than 120 cc, if there is a median lobe, and if the patient does not have prostate cancer or neurogenic bladder issues.\",\n  \"safety_note\": \"Please note that while the patient appears to meet the eligibility criteria, further assessments are needed to ensure safety and suitability for the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+    "supported_patient_facts": [
+      "78-year-old male",
+      "history of BPH",
+      "severe 2cm bulbar urethral stricture",
+      "had a suprapubic prostatectomy",
+      "bleeding around the catheter"
+    ],
+    "missing_patient_facts": [
+      "residual volume after catheter removal",
+      "PSA level",
+      "history of prostate cancer",
+      "history of pelvic radiotherapy"
+    ],
+    "unresolved_study_requirements": [
+      "trans-abdominal ultrasound prostate sizing",
+      "median lobe presence",
+      "neurogenic lower urinary tract dysfunction assessment"
+    ],
+    "reasoning_summary": "The patient has BPH and a severe urethral stricture, which aligns with the inclusion criteria. However, we need to confirm if the residual volume after catheter removal is less than 120 cc, if there is a median lobe, and if the patient does not have prostate cancer or neurogenic bladder issues.",
+    "safety_note": "Please note that while the patient appears to meet the eligibility criteria, further assessments are needed to ensure safety and suitability for the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you've provided, it seems like you might be eligible for the trial, but we need to check a few things.",
+  "missing_patient_facts": [
+    "residual volume after catheter removal",
+    "PSA level",
+    "history of prostate cancer",
+    "history of pelvic radiotherapy"
+  ],
+  "unresolved_study_requirements": [
+    "trans-abdominal ultrasound prostate sizing",
+    "median lobe presence",
+    "neurogenic lower urinary tract dysfunction assessment"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.942
+}

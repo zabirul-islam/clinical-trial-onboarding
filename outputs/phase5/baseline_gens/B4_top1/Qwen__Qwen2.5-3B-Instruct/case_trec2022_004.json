@@ -1,0 +1,67 @@
+{
+  "case_id": "case_trec2022_004",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00726492",
+  "reference_trial": "NCT00726492",
+  "evidence_trials": [
+    "NCT00726492"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 66-year-old woman comes to the office due to joint pain in the hands and periodic morning stiffness that lasts less than 15 minutes. The pain is moderately severe and worsens with daily activity. The patient used Tylenol with minimal relief. Past medical history is notable for hypertension and hypercholesteremia. Physical examination shows firm nodules over the distal interphalangeal joints, bilaterally. The patient has pain in her knees as well. The knees are stiff in the morning for less than 30 minutes and become worse with climbing stairs. She has some sensation of bone friction during activity. X-ray shows narrowing of the joint space, subchondral bone sclerosis and osteophyte formation along the joints. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00726492 | section=detailed_description]\nMinor et al (1999) noted that lower extremity impairments in older adults have been linked to the reduced ability to use public transportation, climb stairs, perform household chores, shop and engage in leisure activities. Similarly van Barr (1998) noted that disability in patients with lower limb osteoarthritis is significantly related to pain and joint range of motion. Due to the chronic nature of osteoarthritis, physical modalities, lifestyle modification and patient self-management in terms of education and exercise are considered important approaches to treatment (Sangha, 2000). Physiotherapists have an important role to play in the clinical management of osteoarthritis (Green et al, 1993) however, the effect of their involvement has rarely been assessed in terms of randomised controlled trials. Chard et al (2000) examined the research output in relation to a number of physiotherapy interventions available to patients with osteoarthritis of their knees and established that between 1950 to 1998 only 60 research articles were published, the majority of which occurred between 1985 and 1998.",
+  "passages": [
+    {
+      "passage_id": "NCT00726492::detailed_description::2",
+      "doc_id": "NCT00726492",
+      "section": "detailed_description",
+      "passage_text": "Minor et al (1999) noted that lower extremity impairments in older adults have been linked to the reduced ability to use public transportation, climb stairs, perform household chores, shop and engage in leisure activities. Similarly van Barr (1998) noted that disability in patients with lower limb osteoarthritis is significantly related to pain and joint range of motion. Due to the chronic nature of osteoarthritis, physical modalities, lifestyle modification and patient self-management in terms of education and exercise are considered important approaches to treatment (Sangha, 2000). Physiotherapists have an important role to play in the clinical management of osteoarthritis (Green et al, 1993) however, the effect of their involvement has rarely been assessed in terms of randomised controlled trials. Chard et al (2000) examined the research output in relation to a number of physiotherapy interventions available to patients with osteoarthritis of their knees and established that between 1950 to 1998 only 60 research articles were published, the majority of which occurred between 1985 and 1998.",
+      "title": "An Examination of the Value of Shortwave Diathermy and Hydrotherapy for Patients With Osteoarthritis of Their Knees",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 308.85637177404243,
+      "cross_score": -4.4342365,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we need more details to confirm your eligibility. For example, we need to know if you have any other health conditions that could affect your participation in the trial.\",\n  \"supported_patient_facts\": [\"joint pain in the hands and knees\", \"periodic morning stiffness lasting less than 15 minutes\", \"pain in the knees that worsens with activity\", \"narrowing of the joint space, subchondral bone sclerosis, and osteophyte formation on X-rays\"],\n  \"missing_patient_facts\": [\"any other significant health conditions\", \"current medications\", \"allergy history\", \"pregnancy status\"],\n  \"unresolved_study_requirements\": [\"we need to check if you meet all the specific eligibility criteria for this trial\", \"we need to ensure you can safely participate in the trial's procedures and treatments\"],\n  \"reasoning_summary\": \"The patient has symptoms consistent with osteoarthritis, which is the primary condition targeted by the trial. However, we need more information to confirm full eligibility and safety.\",\n  \"safety_note\": \"We will ensure that you receive appropriate monitoring and support throughout the trial to safeguard your health.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we need more details to confirm your eligibility. For example, we need to know if you have any other health conditions that could affect your participation in the trial.",
+    "supported_patient_facts": [
+      "joint pain in the hands and knees",
+      "periodic morning stiffness lasting less than 15 minutes",
+      "pain in the knees that worsens with activity",
+      "narrowing of the joint space, subchondral bone sclerosis, and osteophyte formation on X-rays"
+    ],
+    "missing_patient_facts": [
+      "any other significant health conditions",
+      "current medications",
+      "allergy history",
+      "pregnancy status"
+    ],
+    "unresolved_study_requirements": [
+      "we need to check if you meet all the specific eligibility criteria for this trial",
+      "we need to ensure you can safely participate in the trial's procedures and treatments"
+    ],
+    "reasoning_summary": "The patient has symptoms consistent with osteoarthritis, which is the primary condition targeted by the trial. However, we need more information to confirm full eligibility and safety.",
+    "safety_note": "We will ensure that you receive appropriate monitoring and support throughout the trial to safeguard your health."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial. However, we need more details to confirm your eligibility. For example, we need to know if you have any other health conditions that could affect your participation in the trial.",
+  "missing_patient_facts": [
+    "any other significant health conditions",
+    "current medications",
+    "allergy history",
+    "pregnancy status"
+  ],
+  "unresolved_study_requirements": [
+    "we need to check if you meet all the specific eligibility criteria for this trial",
+    "we need to ensure you can safely participate in the trial's procedures and treatments"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.946
+}

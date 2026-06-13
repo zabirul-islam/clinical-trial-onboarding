@@ -1,0 +1,72 @@
+{
+  "case_id": "case_trec2021_018",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00159406",
+  "selected_doc": "NCT04529369",
+  "reference_trial": "NCT04529369",
+  "evidence_trials": [
+    "NCT04529369"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: This is a 78 year-old male with h/o BPH s/p multiple urological procedures, including s/p Suprapubic prostatectomy. He was noted to have low urine output and bladder scan showed 360cc residual. It was impossible for staff to pass a foley. Urology was consulted, performed a flexible cystoscopy in the ICU and found severe 2cm bulbar urethral stricture. They were able to pass small catheter through and left in place. The patient leaked around the catheter, the catheter eventually came out but he continued to have good urine output and post-void bladder scans were performed q4h to ensure he did not have high residual volume. Urology suggested that when patient is stable he will have to be taken to the OR to have the stricture surgically fixed. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04529369 | section=eligibility]\nInclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy",
+  "passages": [
+    {
+      "passage_id": "NCT04529369::eligibility::0",
+      "doc_id": "NCT04529369",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult males (18-year-old and more) - Suffering bothersome LUTS or urinary retention secondary to BPH - Cystoscopic examination documenting the predominant middle lobe prostatic adenoma that is considered to be the primary cause of BOO. Exclusion Criteria: - Patients neurogenic lower urinary tract dysfunction (Neurogenic Bladder) - Not competent to give consent and/or inability to provide answers to the questionnaire - Patient who refuse to participate in the study - Patients without a median lobe - Patients who have a large prostate (more than 120 g on trans-abdominal ultrasound prostate sizing). - Patients who have renal impairment secondary to BPH - Patients with proven or suspicion of prostate cancer based on clinical examination and/or PSA level - Patients with refractory hematuria secondary to BPH - Patients with urethral strictures - Patients with bladder cancer - Patients with history of pelvic radiotherapy",
+      "title": "Middle Lobe Only Laser Vaporization or Total Prostate Vaporization of the Prostate, Prospective Cohort Study",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 356.5249494702854,
+      "cross_score": -3.2097907,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.\",\n  \"supported_patient_facts\": [\"Adult male (78 years old)\", \"History of benign prostatic hyperplasia (BPH) with symptoms\", \"Urological procedures including suprapubic prostatectomy\"],\n  \"missing_patient_facts\": [\"Current prostate size\", \"PSA level\", \"Median lobe status\", \"Prostate cancer status\", \"Renal function status\"],\n  \"unresolved_study_requirements\": [\"Presence of a median lobe\", \"Prostate size (if less than 120g)\", \"Prostate cancer status\", \"Renal impairment status\"],\n  \"reasoning_summary\": \"The patient has a history of BPH and has undergone multiple urological procedures, which aligns with the inclusion criteria. However, key details such as prostate size, median lobe status, and potential prostate cancer need to be confirmed. Additionally, the presence of a median lobe is required for eligibility, and this needs to be verified.\",\n  \"safety_note\": \"It is important to ensure all safety criteria are met before proceeding with enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+    "supported_patient_facts": [
+      "Adult male (78 years old)",
+      "History of benign prostatic hyperplasia (BPH) with symptoms",
+      "Urological procedures including suprapubic prostatectomy"
+    ],
+    "missing_patient_facts": [
+      "Current prostate size",
+      "PSA level",
+      "Median lobe status",
+      "Prostate cancer status",
+      "Renal function status"
+    ],
+    "unresolved_study_requirements": [
+      "Presence of a median lobe",
+      "Prostate size (if less than 120g)",
+      "Prostate cancer status",
+      "Renal impairment status"
+    ],
+    "reasoning_summary": "The patient has a history of BPH and has undergone multiple urological procedures, which aligns with the inclusion criteria. However, key details such as prostate size, median lobe status, and potential prostate cancer need to be confirmed. Additionally, the presence of a median lobe is required for eligibility, and this needs to be verified.",
+    "safety_note": "It is important to ensure all safety criteria are met before proceeding with enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing details that need to be confirmed.",
+  "missing_patient_facts": [
+    "Current prostate size",
+    "PSA level",
+    "Median lobe status",
+    "Prostate cancer status",
+    "Renal function status"
+  ],
+  "unresolved_study_requirements": [
+    "Presence of a median lobe",
+    "Prostate size (if less than 120g)",
+    "Prostate cancer status",
+    "Renal impairment status"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 20.841
+}

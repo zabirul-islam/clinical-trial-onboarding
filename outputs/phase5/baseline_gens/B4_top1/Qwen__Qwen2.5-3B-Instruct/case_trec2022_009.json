@@ -1,0 +1,65 @@
+{
+  "case_id": "case_trec2022_009",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04793035",
+  "reference_trial": "NCT04793035",
+  "evidence_trials": [
+    "NCT04793035"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 67-year-old woman comes to the clinic due to recent episode of choking, dysphagia, and cough. Her other medical problems include hypertension, dyslipidemia, and osteoarthritis. She does not smoke or use alcohol. She lives with her husband and she is able to do her own daily activities. She used to teach elementary school. Blood pressure is 135/80 mm Hg. The patient's breath smells bad. Other physical examinations are normal. A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04793035 | section=detailed_description]\nThe study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.",
+  "passages": [
+    {
+      "passage_id": "NCT04793035::detailed_description::3",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "The study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 287.15536760520547,
+      "cross_score": -4.113312,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you seem to meet some key eligibility criteria for the study, but we need more details to confirm your full eligibility.\",\n  \"supported_patient_facts\": [\n    \"A 67-year-old woman with a recent episode of choking, dysphagia, and cough\",\n    \"Medical history including hypertension, dyslipidemia, and osteoarthritis\"\n  ],\n  \"missing_patient_facts\": [\n    \"Smoking status\",\n    \"Alcohol consumption\",\n    \"Current medications\",\n    \"Barium swallow study results\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Final confirmation of the barium swallow study findings\",\n    \"Review of the patient's ability to perform daily activities independently\"\n  ],\n  \"reasoning_summary\": \"The patient has a history of dysphagia and a barium swallow study showing an abnormality, which aligns with the study's focus. However, we need to verify if she can perform daily activities independently and if her smoking and alcohol consumption are consistent with the study's guidelines.\",\n  \"safety_note\": \"The study aims to monitor adverse events and will require regular follow-ups to ensure participant safety.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you seem to meet some key eligibility criteria for the study, but we need more details to confirm your full eligibility.",
+    "supported_patient_facts": [
+      "A 67-year-old woman with a recent episode of choking, dysphagia, and cough",
+      "Medical history including hypertension, dyslipidemia, and osteoarthritis"
+    ],
+    "missing_patient_facts": [
+      "Smoking status",
+      "Alcohol consumption",
+      "Current medications",
+      "Barium swallow study results"
+    ],
+    "unresolved_study_requirements": [
+      "Final confirmation of the barium swallow study findings",
+      "Review of the patient's ability to perform daily activities independently"
+    ],
+    "reasoning_summary": "The patient has a history of dysphagia and a barium swallow study showing an abnormality, which aligns with the study's focus. However, we need to verify if she can perform daily activities independently and if her smoking and alcohol consumption are consistent with the study's guidelines.",
+    "safety_note": "The study aims to monitor adverse events and will require regular follow-ups to ensure participant safety."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you seem to meet some key eligibility criteria for the study, but we need more details to confirm your full eligibility.",
+  "missing_patient_facts": [
+    "Smoking status",
+    "Alcohol consumption",
+    "Current medications",
+    "Barium swallow study results"
+  ],
+  "unresolved_study_requirements": [
+    "Final confirmation of the barium swallow study findings",
+    "Review of the patient's ability to perform daily activities independently"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.515
+}

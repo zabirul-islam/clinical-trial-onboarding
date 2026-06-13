@@ -1,0 +1,102 @@
+{
+  "case_id": "case_paraphrase_017",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "paraphrase_trec2022",
+  "category": "participation_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT01160536",
+    "NCT02860975",
+    "NCT03876652",
+    "NCT04064957",
+    "NCT04530149"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. What would I actually need to do if I joined this study?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.\n\n[Passage 2 | doc=NCT03876652 | section=summary]\nVasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.\n\n[Passage 3 | doc=NCT02860975 | section=detailed_description]\nSample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.\n\n[Passage 4 | doc=NCT04530149 | section=detailed_description]\nSlow Vital Capacity (SVC) Measurement 1. SVC will be performed using spirometer that has been internally validated 2. SVC will be performed by physicians trained by the respiratory therapy department and who have demonstrated validation compared to respiratory therapist obtained SVC values 3. The patient will be sitting up when performing SVC and a script will be followed as to how to educate and coach the patient on performing appropriate incentive spirometry technique. 4. At least 3 SVC measurements within 150mL of each other are required to qualify for an accurate measurement. 5. The maximum of these 3 SVC values and a corresponding % predicted SVC will be obtained and considered the maximum % predicted SVC. 6. % Predicted SVC will be obtained based on the National Health and Nutrition Examination Survey (NHANES III) calculator through the CDC. E. Pain scores 1. Subjects will be asked to rate their maximum pain score from 0-10 with resting breathing and with deep breaths. Design: A. Potential study patients will be identified through review of the emergency department (ED) electronic board, and ED physicians will also screen for potential study patients.\n\n[Passage 5 | doc=NCT01160536 | section=eligibility]\nExclusion criteria: A child is not eligible to participate I this study if he/she is - Not biologically related to his/her eligible parent, - Not between ages 13-to 23 years old, - Not tested as a minor, - Not aware of his/her HCM risk status or not at-risk status for at least 3 months, - Is cognitive impaired, or - Does not speak English. Note that children who have HCM will not be excluded from the study.\n\n[Passage 6 | doc=NCT04064957 | section=detailed_description]\nThe subject will be monitored for a minimum of 2 hours In-Person Visits The subject will return to the Clinical Trial Network CTN site for In-Person visits to occur at Screening, Baseline and Week twelve (12), twenty-six (26) and at Week fifty-two (52). Week 52 visit will serve as the End of Study visit. The end of study (EOS) visit will include an MRI of the c-spine as well as all of the study procedures for Follow-up Visits without Infusion. A written summary of the results of the treatment, including adverse events will be submitted to the FDA after completion of the last follow-up visit. Visits without infusion will include: 1. Interval H&P and concomitant medications update. 2. QOL and Disability (SCIM self eval) surveys will be completed by the subject with the assistance of the primary caregiver. 3. Vital signs monitoring will be initiated (Heart Rate, BP, Resp., Temp., SpO2), 4. A Physical and Neuro Exam (Asia Impairment Scale) will be completed 5. A blood sample for clinical labs (CBC with Platelets, CMP, PT, PTT, TNFa, IL6, CRP) will be drawn. 6. Video documentation of patient condition. 7. Assessment for infusion related AEs/SAEs 8. Weight",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 226.78849986727892,
+      "cross_score": -4.5487003,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03876652::summary::0",
+      "doc_id": "NCT03876652",
+      "section": "summary",
+      "passage_text": "Vasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 227.28589018412467,
+      "cross_score": -5.948446,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02860975::detailed_description::3",
+      "doc_id": "NCT02860975",
+      "section": "detailed_description",
+      "passage_text": "Sample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.",
+      "title": "Prolonged Hypoxic Breathing in Healthy Volunteers: a Safety Study",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 232.72583359827735,
+      "cross_score": -6.0870533,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04530149::detailed_description::2",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "Slow Vital Capacity (SVC) Measurement 1. SVC will be performed using spirometer that has been internally validated 2. SVC will be performed by physicians trained by the respiratory therapy department and who have demonstrated validation compared to respiratory therapist obtained SVC values 3. The patient will be sitting up when performing SVC and a script will be followed as to how to educate and coach the patient on performing appropriate incentive spirometry technique. 4. At least 3 SVC measurements within 150mL of each other are required to qualify for an accurate measurement. 5. The maximum of these 3 SVC values and a corresponding % predicted SVC will be obtained and considered the maximum % predicted SVC. 6. % Predicted SVC will be obtained based on the National Health and Nutrition Examination Survey (NHANES III) calculator through the CDC. E. Pain scores 1. Subjects will be asked to rate their maximum pain score from 0-10 with resting breathing and with deep breaths. Design: A. Potential study patients will be identified through review of the emergency department (ED) electronic board, and ED physicians will also screen for potential study patients.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 226.78849986727892,
+      "cross_score": -6.131777,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01160536::eligibility::1",
+      "doc_id": "NCT01160536",
+      "section": "eligibility",
+      "passage_text": "Exclusion criteria: A child is not eligible to participate I this study if he/she is - Not biologically related to his/her eligible parent, - Not between ages 13-to 23 years old, - Not tested as a minor, - Not aware of his/her HCM risk status or not at-risk status for at least 3 months, - Is cognitive impaired, or - Does not speak English. Note that children who have HCM will not be excluded from the study.",
+      "title": "The Perceived Impact of Children s Risk Status for Hypertrophic Cardiomyopathy on Families: an Exploratory Study",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 226.3684109985412,
+      "cross_score": -6.143165,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04064957::detailed_description::1",
+      "doc_id": "NCT04064957",
+      "section": "detailed_description",
+      "passage_text": "The subject will be monitored for a minimum of 2 hours In-Person Visits The subject will return to the Clinical Trial Network CTN site for In-Person visits to occur at Screening, Baseline and Week twelve (12), twenty-six (26) and at Week fifty-two (52). Week 52 visit will serve as the End of Study visit. The end of study (EOS) visit will include an MRI of the c-spine as well as all of the study procedures for Follow-up Visits without Infusion. A written summary of the results of the treatment, including adverse events will be submitted to the FDA after completion of the last follow-up visit. Visits without infusion will include: 1. Interval H&P and concomitant medications update. 2. QOL and Disability (SCIM self eval) surveys will be completed by the subject with the assistance of the primary caregiver. 3. Vital signs monitoring will be initiated (Heart Rate, BP, Resp., Temp., SpO2), 4. A Physical and Neuro Exam (Asia Impairment Scale) will be completed 5. A blood sample for clinical labs (CBC with Platelets, CMP, PT, PTT, TNFa, IL6, CRP) will be drawn. 6. Video documentation of patient condition. 7. Assessment for infusion related AEs/SAEs 8. Weight",
+      "title": "Individual Patient Expanded Access IND of Hope Biosciences Autologous Adipose-derived Mesenchymal Stem Cells for Chronic Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 225.91092797051832,
+      "cross_score": -6.1817613,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems this clinical trial is not suitable for you. The trial focuses on rib fractures and does not align with your current health situation involving syncope.\",\n  \"supported_patient_facts\": [\"A 23-year-old man came to the emergency department following an episode of syncope.\", \"He has had 3 other episodes of light-headedness over the last year, all happening during physical activity.\", \"He has no other medical conditions.\", \"His father died suddenly at age 35.\"],\n  \"missing_patient_facts\": [\"It is not specified if the patient has a history of syncope or if the syncope episodes were due to neurally mediated causes.\", \"The echocardiography findings of asymmetric interventricular septal hypertrophy are not directly relevant to the study design.\"],\n  \"unresolved_study_requirements\": [\"The study design does not mention any specific eligibility criteria for syncope or neurally mediated syncope.\", \"The patient's echocardiography findings are not directly linked to the study's objectives.\"],\n  \"reasoning_summary\": \"The patient's condition involves syncope, which is not aligned with the study's focus on rib fractures. The patient's echocardiography findings suggest a heart condition, but the study does not address this condition.\",\n  \"safety_note\": \"The patient should consult with their healthcare provider about the risks and benefits of participating in this study.\"\n  \"also return\": {\n    \"support_passages\": {\n      \"patient_facing_answer\": [2, 6],\n      \"reasoning_summary\": [2, 6]\n    }\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 12.922
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "case_trec2022_030",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04146649",
+  "reference_trial": "NCT04146649",
+  "evidence_trials": [
+    "NCT04146649"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 47-year-old woman comes to the office complaining of pain in the calf and knee when she bends down. The pain limits her activity. Her medical history is significant for osteoarthritis, for which she uses nonsteroidal anti-inflammatory drugs (NSAIDs) for the past two years. She is living with her husband and has 3 children. She doesn't smoke but drinks alcohol occasionally. Her vital signs are normal. On physical examination, there is a small effusion in the right knee. The effusion grew a little larger and she developed a tender swelling in the popliteal fossa and calf. Both the pain and swelling worsened as she bent and straightened her knee. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04146649 | section=summary]\nThis will be prospective study of patients with knee effusion associated with degenerative osteoarthritis or symptomatic primary total knee arthroplasty that undergo therapeutic joint arthrocentesis. The diagnosis of knee osteoarthritis will be based on knee radiographs (including AP, Rosenburg view, lateral and Merchant views) read and interpreted by one of our clinical providers (PA, Fellow or Surgeon). Patients with at least Grade II Outerbridge changes or higher will be included in the osteoarthritis group. Patients in the arthroplasty group must have had a primary total knee arthroplasty without infection (as determined by knee aspirate) to be included. Patients will be clinically evaluated at the time of their visit for presence of a knee effusion using a bulge test and graded on a 4-point scale (none, mild, moderate, severe) which has shown good interobserver reliability (reliability coefficient = 0.97)23. Patients with a moderate or severe effusion will be included in the study. Patients with no or only mild effusion will not be included due to the increased risk for a dry tap or minimally effective fluid volume reduction with arthrocentesis. Patients having significant pain associated with their effusion will be offered a therapeutic arthrocentesis as part of their treatment plan discussion.",
+  "passages": [
+    {
+      "passage_id": "NCT04146649::summary::0",
+      "doc_id": "NCT04146649",
+      "section": "summary",
+      "passage_text": "This will be prospective study of patients with knee effusion associated with degenerative osteoarthritis or symptomatic primary total knee arthroplasty that undergo therapeutic joint arthrocentesis. The diagnosis of knee osteoarthritis will be based on knee radiographs (including AP, Rosenburg view, lateral and Merchant views) read and interpreted by one of our clinical providers (PA, Fellow or Surgeon). Patients with at least Grade II Outerbridge changes or higher will be included in the osteoarthritis group. Patients in the arthroplasty group must have had a primary total knee arthroplasty without infection (as determined by knee aspirate) to be included. Patients will be clinically evaluated at the time of their visit for presence of a knee effusion using a bulge test and graded on a 4-point scale (none, mild, moderate, severe) which has shown good interobserver reliability (reliability coefficient = 0.97)23. Patients with a moderate or severe effusion will be included in the study. Patients with no or only mild effusion will not be included due to the increased risk for a dry tap or minimally effective fluid volume reduction with arthrocentesis. Patients having significant pain associated with their effusion will be offered a therapeutic arthrocentesis as part of their treatment plan discussion.",
+      "title": "Effect of Therapeutic Joint Arthrocentesis on Pain and Quadriceps Function in Patients With Knee Osteoarthritis",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 311.7832017164097,
+      "cross_score": -4.557958,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"Pain in the calf and knee when bending down\", \"Living with osteoarthritis for two years\", \"No smoking habit\"],\n  \"missing_patient_facts\": [\"Presence of a moderate or severe knee effusion\", \"Grade of knee osteoarthritis on radiographs\", \"Results of knee aspirate if applicable\"],\n  \"unresolved_study_requirements\": [\"Confirmation of knee radiographs showing at least Grade II Outerbridge changes or higher\", \"Assessment of knee effusion severity using the 4-point scale\"],\n  \"reasoning_summary\": \"The patient's symptoms and medical history suggest potential eligibility, but key diagnostic criteria such as the grade of knee osteoarthritis and the severity of the knee effusion need to be confirmed through further evaluation.\",\n  \"safety_note\": \"It is important to ensure that all study requirements are met before proceeding with enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "Pain in the calf and knee when bending down",
+      "Living with osteoarthritis for two years",
+      "No smoking habit"
+    ],
+    "missing_patient_facts": [
+      "Presence of a moderate or severe knee effusion",
+      "Grade of knee osteoarthritis on radiographs",
+      "Results of knee aspirate if applicable"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of knee radiographs showing at least Grade II Outerbridge changes or higher",
+      "Assessment of knee effusion severity using the 4-point scale"
+    ],
+    "reasoning_summary": "The patient's symptoms and medical history suggest potential eligibility, but key diagnostic criteria such as the grade of knee osteoarthritis and the severity of the knee effusion need to be confirmed through further evaluation.",
+    "safety_note": "It is important to ensure that all study requirements are met before proceeding with enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "Presence of a moderate or severe knee effusion",
+    "Grade of knee osteoarthritis on radiographs",
+    "Results of knee aspirate if applicable"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of knee radiographs showing at least Grade II Outerbridge changes or higher",
+    "Assessment of knee effusion severity using the 4-point scale"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 17.811
+}

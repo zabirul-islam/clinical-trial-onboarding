@@ -1,0 +1,60 @@
+{
+  "case_id": "case_12",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "consent_understanding",
+  "gold_nct": "",
+  "selected_doc": "NCT04471363",
+  "reference_trial": "NCT04471363",
+  "evidence_trials": [
+    "NCT04471363"
+  ],
+  "question": "What would the study team still need to confirm before saying I am eligible?",
+  "evidence": "[Passage 1 | doc=NCT04471363 | section=eligibility]\nIn order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+  "passages": [
+    {
+      "passage_id": "NCT04471363::eligibility::0",
+      "doc_id": "NCT04471363",
+      "section": "eligibility",
+      "passage_text": "In order to be eligible, individuals must answer \"Yes\" to all of the following statements: - I am a cancer survivor OR I am the romantic partner of a cancer survivor - I am not currently undergoing chemotherapy, radiation or surgery nor do I have plans to undergo chemotherapy, radiation or a cancer-related surgery in the next 6 months - I am in a committed, romantic relationship - I have access to a computer or tablet with internet - I have an email address that I am willing to share with the study team - I am at least 18 years of age and less than 90 years of age",
+      "title": "Cancer Survivors and Their Romantic Partners' Preferences for a Couples-based Physical Activity",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 38.63945902649888,
+      "cross_score": 3.1622124,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study team still needs to confirm if you meet all the eligibility criteria listed.\",\n  \"supported_patient_facts\": [\"I am a cancer survivor\", \"I am the romantic partner of a cancer survivor\", \"I am not currently undergoing chemotherapy, radiation or surgery\", \"I am in a committed, romantic relationship\", \"I have access to a computer or tablet with internet\", \"I have an email address that I am willing to share with the study team\", \"I am at least 18 years of age and less than 90 years of age\"],\n  \"missing_patient_facts\": [],\n  \"unresolved_study_requirements\": [\"I have access to a computer or tablet with internet\", \"I have an email address that I am willing to share with the study team\"],\n  \"reasoning_summary\": \"While you seem to meet most of the eligibility criteria, there are two unresolved requirements regarding internet access and sharing an email address. These need to be confirmed by the study team.\",\n  \"safety_note\": \"Please continue to follow any safety guidelines provided by your healthcare provider.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study team still needs to confirm if you meet all the eligibility criteria listed.",
+    "supported_patient_facts": [
+      "I am a cancer survivor",
+      "I am the romantic partner of a cancer survivor",
+      "I am not currently undergoing chemotherapy, radiation or surgery",
+      "I am in a committed, romantic relationship",
+      "I have access to a computer or tablet with internet",
+      "I have an email address that I am willing to share with the study team",
+      "I am at least 18 years of age and less than 90 years of age"
+    ],
+    "missing_patient_facts": [],
+    "unresolved_study_requirements": [
+      "I have access to a computer or tablet with internet",
+      "I have an email address that I am willing to share with the study team"
+    ],
+    "reasoning_summary": "While you seem to meet most of the eligibility criteria, there are two unresolved requirements regarding internet access and sharing an email address. These need to be confirmed by the study team.",
+    "safety_note": "Please continue to follow any safety guidelines provided by your healthcare provider."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study team still needs to confirm if you meet all the eligibility criteria listed.",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [
+    "I have access to a computer or tablet with internet",
+    "I have an email address that I am willing to share with the study team"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.636
+}

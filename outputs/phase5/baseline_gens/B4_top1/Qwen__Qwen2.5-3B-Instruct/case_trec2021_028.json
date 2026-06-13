@@ -1,0 +1,79 @@
+{
+  "case_id": "case_trec2021_028",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00000568",
+  "selected_doc": "NCT04342520",
+  "reference_trial": "NCT04342520",
+  "evidence_trials": [
+    "NCT04342520"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 60-year-old Spanish man presenting with shortness of breath about a day before. The symptoms began acutely and progressively worsened. He is a known case of COPD since 2 years ago. The spirometry revealed post-bronchodilator FEV1/FVC = 60% of predicted values. He smokes 20 cigarette per day. His past medical history is remarkable for BPH and he is using Flomax for that. His family history is positive for HTN in his brother. His medication includes Duo-Neb inhaled q4 hr PRN, Vit D3 1000 units per day and Flomax for his PBH. He is an obese man who is acutely ill but oriented and conscious. The vital signs are as bellow: BP: 135/80 RR: 25/min HR: 75 bpm BMI: 40 O2sat: 90% Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04342520 | section=summary]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.\n\n[Passage 2 | doc=NCT04342520 | section=detailed_description]\nImproving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.",
+  "passages": [
+    {
+      "passage_id": "NCT04342520::summary::0",
+      "doc_id": "NCT04342520",
+      "section": "summary",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation. On the other hand, other studies show that symptoms such as anxiety, psychic distress and depression remain stable, or even decrease slightly after the announcement of the diagnosis, in patients and their relatives. However, the literature is questionable because the majority of the studies are retrospective, mono-centric, and the patient numbers are low. While the first reactions of patients may be negative after the announcement, some report resignation experiences, or form of relief, because they have finally found a clinical explanation for the symptoms encountered. While doubt or diagnostic uncertainty, as well as the feeling of not knowing the truth, seem to have a more damaging psychological impact on the patient and those around him, increasing anxiety and confusion. The primary objective is to study if the level of anxiety 2 months after the announcement of the diagnosis of Alzheimer's disease or a related disease is not superior to the level of anxiety before the announcement with patient / caregiver. This present study aim to explore the feasibility with 14 patients.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 285.8394512809899,
+      "cross_score": -6.82862,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04342520::detailed_description::0",
+      "doc_id": "NCT04342520",
+      "section": "detailed_description",
+      "passage_text": "Improving the diagnosis of neurocognitive disorders is a major public health challenge. This diagnosis occurs too late in the majority of cases, or is even sometimes non-existent for some despite the presence of clinical signs and symptoms. However, the etiological diagnosis of a TNC is crucial for the patient and his family to understand the most appropriate decisions for the future, to plan the organization of his life as long as he is able to do so, to access the clinical research, to promote dialogue between patients and their caregivers. On the contrary, a late diagnosis may be responsible for the fact that the patient and his / her family are less able to benefit from certain psychosocial interventions, services and treatments. But the diagnostic announcement is retained. One of the negative and dreaded effects of such an announcement is the negative psychological impact. Some studies show that the diagnostic announcement would worsen the level of anxiety or depressed mood and the risk of social isolation.",
+      "title": "Anxiety Related to the Diagnosis of Alzheimer's Disease or Related Diseases",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 285.8394512809899,
+      "cross_score": -7.226877,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information provided, you are not eligible for this clinical trial. The trial focuses on improving the diagnosis of neurocognitive disorders, which does not align with your current symptoms of shortness of breath and chronic obstructive pulmonary disease (COPD).\",\n  \"supported_patient_facts\": [\"The patient is a 60-year-old Spanish man with a known history of COPD for 2 years.\", \"He has been diagnosed with shortness of breath that started acutely and has progressively worsened.\", \"His spirometry results show a post-bronchodilator FEV1/FVC ratio of 60% of predicted values.\", \"He is currently smoking 20 cigarettes per day.\", \"He has a history of benign prostatic hyperplasia (BPH) and is using Flomax for it.\", \"His family history includes hypertension in his brother.\", \"He is taking Duo-Neb inhaled q4 hr PRN, Vitamin D3 1000 units per day, and Flomax for his BPH.\", \"He is obese and acutely ill but oriented and conscious.\"],\n  \"missing_patient_facts\": [\"The patient's cognitive function and mental status have not been evaluated.\", \"There is no mention of the patient's level of anxiety or depression.\", \"The patient's current treatment plan and response to previous treatments are not specified.\"],\n  \"unresolved_study_requirements\": [\"The study aims to explore the feasibility with 14 patients, but the patient's specific eligibility criteria are not detailed in the provided information.\"],\n  \"reasoning_summary\": \"The patient's condition and symptoms do not align with the primary focus of the clinical trial, which is improving the diagnosis of neurocognitive disorders. The trial requires a different set of criteria and patient characteristics than what is described here.\",\n  \"safety_note\": \"Given the patient's acute respiratory symptoms and COPD, further evaluation by a healthcare provider is recommended before considering participation in any clinical trial.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information provided, you are not eligible for this clinical trial. The trial focuses on improving the diagnosis of neurocognitive disorders, which does not align with your current symptoms of shortness of breath and chronic obstructive pulmonary disease (COPD).",
+    "supported_patient_facts": [
+      "The patient is a 60-year-old Spanish man with a known history of COPD for 2 years.",
+      "He has been diagnosed with shortness of breath that started acutely and has progressively worsened.",
+      "His spirometry results show a post-bronchodilator FEV1/FVC ratio of 60% of predicted values.",
+      "He is currently smoking 20 cigarettes per day.",
+      "He has a history of benign prostatic hyperplasia (BPH) and is using Flomax for it.",
+      "His family history includes hypertension in his brother.",
+      "He is taking Duo-Neb inhaled q4 hr PRN, Vitamin D3 1000 units per day, and Flomax for his BPH.",
+      "He is obese and acutely ill but oriented and conscious."
+    ],
+    "missing_patient_facts": [
+      "The patient's cognitive function and mental status have not been evaluated.",
+      "There is no mention of the patient's level of anxiety or depression.",
+      "The patient's current treatment plan and response to previous treatments are not specified."
+    ],
+    "unresolved_study_requirements": [
+      "The study aims to explore the feasibility with 14 patients, but the patient's specific eligibility criteria are not detailed in the provided information."
+    ],
+    "reasoning_summary": "The patient's condition and symptoms do not align with the primary focus of the clinical trial, which is improving the diagnosis of neurocognitive disorders. The trial requires a different set of criteria and patient characteristics than what is described here.",
+    "safety_note": "Given the patient's acute respiratory symptoms and COPD, further evaluation by a healthcare provider is recommended before considering participation in any clinical trial."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information provided, you are not eligible for this clinical trial. The trial focuses on improving the diagnosis of neurocognitive disorders, which does not align with your current symptoms of shortness of breath and chronic obstructive pulmonary disease (COPD).",
+  "missing_patient_facts": [
+    "The patient's cognitive function and mental status have not been evaluated.",
+    "There is no mention of the patient's level of anxiety or depression.",
+    "The patient's current treatment plan and response to previous treatments are not specified."
+  ],
+  "unresolved_study_requirements": [
+    "The study aims to explore the feasibility with 14 patients, but the patient's specific eligibility criteria are not detailed in the provided information."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.381
+}

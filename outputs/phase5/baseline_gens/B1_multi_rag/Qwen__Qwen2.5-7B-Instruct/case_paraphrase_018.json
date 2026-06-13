@@ -1,0 +1,121 @@
+{
+  "case_id": "case_paraphrase_018",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "paraphrase_trec2022",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT04530149",
+  "reference_trial": "NCT04530149",
+  "evidence_trials": [
+    "NCT00603746",
+    "NCT02860975",
+    "NCT03103009",
+    "NCT03876652",
+    "NCT04064957",
+    "NCT04530149"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 23-year-old man comes to the emergency department following an episode of syncope. He was working out when he felt dizzy and passed out without head injury. He has had 3 other episodes of light-headedness over the last year, all happening during physical activity. He never had this experience while resting. He has no other medical conditions. The patient does not use tobacco, alcohol, or illicit drugs. His father died suddenly at age 35. Vital signs are within normal limits. On physical examination, the patient has a harsh systolic murmur. The lungs are clear with no peripheral edema. Echocardiography shows asymmetric interventricular septal hypertrophy. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT04530149 | section=detailed_description]\nSTUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.\n\n[Passage 2 | doc=NCT03103009 | section=eligibility]\nIs not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.\n\n[Passage 3 | doc=NCT03876652 | section=summary]\nVasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.\n\n[Passage 4 | doc=NCT02860975 | section=detailed_description]\nSample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.\n\n[Passage 5 | doc=NCT04064957 | section=detailed_description]\nThe subject will be monitored for a minimum of 2 hours In-Person Visits The subject will return to the Clinical Trial Network CTN site for In-Person visits to occur at Screening, Baseline and Week twelve (12), twenty-six (26) and at Week fifty-two (52). Week 52 visit will serve as the End of Study visit. The end of study (EOS) visit will include an MRI of the c-spine as well as all of the study procedures for Follow-up Visits without Infusion. A written summary of the results of the treatment, including adverse events will be submitted to the FDA after completion of the last follow-up visit. Visits without infusion will include: 1. Interval H&P and concomitant medications update. 2. QOL and Disability (SCIM self eval) surveys will be completed by the subject with the assistance of the primary caregiver. 3. Vital signs monitoring will be initiated (Heart Rate, BP, Resp., Temp., SpO2), 4. A Physical and Neuro Exam (Asia Impairment Scale) will be completed 5. A blood sample for clinical labs (CBC with Platelets, CMP, PT, PTT, TNFa, IL6, CRP) will be drawn. 6. Video documentation of patient condition. 7. Assessment for infusion related AEs/SAEs 8. Weight\n\n[Passage 6 | doc=NCT00603746 | section=eligibility]\nThe list of additional excluded conditions/diseases includes, but is not limited to the following: congestive heart failure, clinically significant coronary artery disease, stroke within 3 months of Visit 1, poorly controlled peptic ulcer, immunologic compromise, tuberculosis (current or untreated), Addison's disease, uncontrolled thyroid disorder, known aortic aneurysm, clinically significant cardiac arrhythmia, uncontrolled hypertension, hematological, hepatic, or renal disease, current malignancy, cushings disease, uncontrolled diabetes mellitus, recent history of drug or alcohol abuse. - Oropharyngeal Examination: A subject will not be eligible for the run-in if he/she has clinical visual evidence of oral candidiasis at Visit 1. - Investigational Medications: A subject must not have participated in a study or used any investigational drug within 30 days prior to Visit 1. - Drug Allergy: Any adverse reaction including immediate or delayed hypersensitivity to any beta2-agonist, sympathomimetic drug, or any intranasal, inhaled, or systemic corticosteroid therapy.",
+  "passages": [
+    {
+      "passage_id": "NCT04530149::detailed_description::0",
+      "doc_id": "NCT04530149",
+      "section": "detailed_description",
+      "passage_text": "STUDY DESIGN This is a single center prospective, randomized, blinded clinical trial with a convenience sample that will be conducted in the Emergency Department of an urban level I trauma center. A. Identify and enroll all patients coming in to the ED patient with presumed or clinically apparent 2 or more unilateral rib fractures between T3 to T9, with a resting pain score of \u22655. All patients meeting exclusion criteria will be excluded. B. Randomization procedure: 1. Pharmacy will dispense 30mL of injectate which will be randomized in block of 10 to either the SAPB group (30mL of 0.25% bupivacaine with epinephrine) or sham group (30mL of normal saline). C. Injection 1. Patient consent will be obtained and time out will be performed on all patients. 2. Patients will be placed on cardiac monitor and placed in lateral decubitus or if unable to turn, they will be supine. 3. Under the usual sterile technique, the serratus anterior muscle overlying the 5th rib at the mid-axillary line will be identified with ultrasound. 4.",
+      "title": "Vital Capacity in Ultrasound Guided Serratus Plane Block in ED Patients With Multiple Rib Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 255.15820255023183,
+      "cross_score": -4.4246593,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03103009::eligibility::1",
+      "doc_id": "NCT03103009",
+      "section": "eligibility",
+      "passage_text": "Is not eligible for participation in any of the IMP's ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (e.g., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: Patients eligible for this Treatment Plan must not meet any of the following criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide LAR or s.c. formulations. 2. Patients with abnormal coagulation (PT or aPTT elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.",
+      "title": "Treatment Plan for an Individual Patient With Pasireotide for Hyperinsulinemic Hypoglycemia",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 254.94551766479995,
+      "cross_score": -5.7870812,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03876652::summary::0",
+      "doc_id": "NCT03876652",
+      "section": "summary",
+      "passage_text": "Vasovagal syncope is an entity frequently in the emergency services, its treatment includes pharmacological and non-pharmacological measures, and in some severe cases, requires the implantation of cardiac stimulation devices, specifically, those pacemakers that have closed-loop sensors (CLS). This research is an intervention study, multi-institutional, randomized and double blind that will be carried out in patients older than 18 years, with a diagnosis of neurally mediated type 1, 2A or 2B syncope documented in a tilting table test, who have had at least 2 syncope in the last year and that significantly affects the quality of life despite the use of pharmacological and non-pharmacological non-interventionist therapy. This study aims to evaluate the effect of cardiac pacing therapy with CLS pacemakers on quality of life, recurrence of syncope and pre-syncopal symptoms in patients with a diagnosis of neurally mediated syncope in this group of patients.",
+      "title": "Pacemaker Effect With Closed Loop Sensor in Neuromodulated Syncope Refractory to Medical Therapy",
+      "condition": NaN,
+      "doc_rank_bm25": 8,
+      "doc_score_bm25": 256.53788758873014,
+      "cross_score": -5.9214897,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02860975::detailed_description::3",
+      "doc_id": "NCT02860975",
+      "section": "detailed_description",
+      "passage_text": "Sample size calculation: This is an intra-hospital safety trial with the purpose of testing methods to re-create a safe hypoxic environment for possible future studies in patients with mitochondrial dysfunction. While 2 or 3 subjects would likely be sufficient to test our methods to reliably delivery humidified nitrogen (N2) and (O2) in predetermined concentrations, this method will be tested in 12 healthy subjects to reproduce our methods and obtain feedback from the volunteers. To account for possible dropouts, up to 18 healthy volunteers will be enrolled. Risk and discomforts 1. Complications of surgical and non-surgical procedures, etc. Participants in the study will undergo 3 procedures during the study: hypoxic gas administration, phlebotomy, and echocardiography. - Facemask. 1. Claustrophobia is one of the exclusion criteria. If a subject develops claustrophobia, he/she may leave the trial at any point. 2. The most common side effects of facemask are pressure related, such as redness, irritation over the mask's borders.",
+      "title": "Prolonged Hypoxic Breathing in Healthy Volunteers: a Safety Study",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 267.4539291777436,
+      "cross_score": -6.120502,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04064957::detailed_description::1",
+      "doc_id": "NCT04064957",
+      "section": "detailed_description",
+      "passage_text": "The subject will be monitored for a minimum of 2 hours In-Person Visits The subject will return to the Clinical Trial Network CTN site for In-Person visits to occur at Screening, Baseline and Week twelve (12), twenty-six (26) and at Week fifty-two (52). Week 52 visit will serve as the End of Study visit. The end of study (EOS) visit will include an MRI of the c-spine as well as all of the study procedures for Follow-up Visits without Infusion. A written summary of the results of the treatment, including adverse events will be submitted to the FDA after completion of the last follow-up visit. Visits without infusion will include: 1. Interval H&P and concomitant medications update. 2. QOL and Disability (SCIM self eval) surveys will be completed by the subject with the assistance of the primary caregiver. 3. Vital signs monitoring will be initiated (Heart Rate, BP, Resp., Temp., SpO2), 4. A Physical and Neuro Exam (Asia Impairment Scale) will be completed 5. A blood sample for clinical labs (CBC with Platelets, CMP, PT, PTT, TNFa, IL6, CRP) will be drawn. 6. Video documentation of patient condition. 7. Assessment for infusion related AEs/SAEs 8. Weight",
+      "title": "Individual Patient Expanded Access IND of Hope Biosciences Autologous Adipose-derived Mesenchymal Stem Cells for Chronic Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 253.03366525058493,
+      "cross_score": -6.1386647,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00603746::eligibility::7",
+      "doc_id": "NCT00603746",
+      "section": "eligibility",
+      "passage_text": "The list of additional excluded conditions/diseases includes, but is not limited to the following: congestive heart failure, clinically significant coronary artery disease, stroke within 3 months of Visit 1, poorly controlled peptic ulcer, immunologic compromise, tuberculosis (current or untreated), Addison's disease, uncontrolled thyroid disorder, known aortic aneurysm, clinically significant cardiac arrhythmia, uncontrolled hypertension, hematological, hepatic, or renal disease, current malignancy, cushings disease, uncontrolled diabetes mellitus, recent history of drug or alcohol abuse. - Oropharyngeal Examination: A subject will not be eligible for the run-in if he/she has clinical visual evidence of oral candidiasis at Visit 1. - Investigational Medications: A subject must not have participated in a study or used any investigational drug within 30 days prior to Visit 1. - Drug Allergy: Any adverse reaction including immediate or delayed hypersensitivity to any beta2-agonist, sympathomimetic drug, or any intranasal, inhaled, or systemic corticosteroid therapy.",
+      "title": "A Randomized Study To Evaluate The Efficacy And Safety Of An Investigational Drug In Adolescent And Adult Subjects With Asthma Uncontrolled on Moderate-Dose ICS Therapy.",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 251.3831132732776,
+      "cross_score": -6.198303,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"unlikely_match\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems unlikely that you would be eligible for the clinical trials described in the evidence passages. However, further details and a thorough evaluation by the study team are required to make a definitive determination.\",\n  \"supported_patient_facts\": [],\n  \"missing_patient_facts\": [\n    \"Number of syncope episodes\",\n    \"Type of syncope (neurally mediated type 1, 2A, or 2B)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Specific clinical trial to which the patient is applying\"\n  ],\n  \"reasoning_summary\": \"The patient's history of syncope and physical findings do not align with the specific inclusion criteria of the clinical trials mentioned. The number of syncope episodes and the type of syncope are unclear, and the specific trial to which the patient is applying is not specified.\",\n  \"safety_note\": \"It is important to note that the patient's condition, particularly the harsh systolic murmur and asymmetric interventricular septal hypertrophy, may pose safety concerns for certain types of interventions, such as those involving cardiac pacing or surgical procedures.\"\n}",
+  "parsed": {
+    "decision": "unlikely_match",
+    "patient_facing_answer": "Based on the information you provided, it seems unlikely that you would be eligible for the clinical trials described in the evidence passages. However, further details and a thorough evaluation by the study team are required to make a definitive determination.",
+    "supported_patient_facts": [],
+    "missing_patient_facts": [
+      "Number of syncope episodes",
+      "Type of syncope (neurally mediated type 1, 2A, or 2B)"
+    ],
+    "unresolved_study_requirements": [
+      "Specific clinical trial to which the patient is applying"
+    ],
+    "reasoning_summary": "The patient's history of syncope and physical findings do not align with the specific inclusion criteria of the clinical trials mentioned. The number of syncope episodes and the type of syncope are unclear, and the specific trial to which the patient is applying is not specified.",
+    "safety_note": "It is important to note that the patient's condition, particularly the harsh systolic murmur and asymmetric interventricular septal hypertrophy, may pose safety concerns for certain types of interventions, such as those involving cardiac pacing or surgical procedures."
+  },
+  "parse_ok": true,
+  "decision": "unlikely_match",
+  "patient_facing_answer": "Based on the information you provided, it seems unlikely that you would be eligible for the clinical trials described in the evidence passages. However, further details and a thorough evaluation by the study team are required to make a definitive determination.",
+  "missing_patient_facts": [
+    "Number of syncope episodes",
+    "Type of syncope (neurally mediated type 1, 2A, or 2B)"
+  ],
+  "unresolved_study_requirements": [
+    "Specific clinical trial to which the patient is applying"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 19.663
+}

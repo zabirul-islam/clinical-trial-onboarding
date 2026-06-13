@@ -1,0 +1,131 @@
+{
+  "case_id": "case_11",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "handcrafted",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02830828",
+  "reference_trial": "NCT02830828",
+  "evidence_trials": [
+    "NCT02268539",
+    "NCT02772861",
+    "NCT02830828",
+    "NCT02842996",
+    "NCT03619434",
+    "NCT03653741"
+  ],
+  "question": "What risks or burdens are described for participants in this study?",
+  "evidence": "[Passage 1 | doc=NCT02830828 | section=detailed_description]\nFor example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.\n\n[Passage 2 | doc=NCT02268539 | section=detailed_description]\nThey will have the kind of AF that comes and goes and will be troubled symptomatically by it. This research study has been constructed around a patients' normal care pathway, minimising the need for additional visits or activities. Risks, burdens and benefits Potential risks and burden of participation in the study centre on the use of the ILR for rhythm recording both before and after the ablation procedure. This device is small and implantation is a minor day case procedure done under local anaesthetic. The risk of implantation is very small. Its use in the follow up after AF ablation is endorsed by international clinical guidelines and backed up by scientific data. The use of the ILR after AF ablation is becoming more commonplace and if anything is constrained by financial issues in the NHS rather than any ethical considerations about the risks or burdens of implantation. Potential benefit to the participant also involves the ILR. By having a continuous monitor of heart rhythm after ablation the consultant has information that can guide clinical management decision making after the ablation occurs.\n\n[Passage 3 | doc=NCT03619434 | section=detailed_description]\nAll staff involved in the study have appropriate training in how to judge capacity. For those with capacity, they will read the patient information sheet first. The patient information sheet contains in layman's terms full details for potential research participants, covering issues from why the researchers are doing the study, what the researchers expect from them, the possibility of adverse effects and anonymity and confidentiality. If patients are still interested after that they will receive a consent form to be signed by them. They will be given a copy of the signed consent form to keep. Risks, burdens and benefits Risks are explained in the patient information sheet so patients have a fully informed decision about whether to take part in the study. From the investigators point of view it is important to note these patients for this study are indicated for corneal transplant surgery - that is it is felt the benefits of a conventional surgery outweighs the normal risks of corneal transplant surgery. Femtolaser keratoplasty is not known to add any risks that is not present in conventional keratoplasty.\n\n[Passage 4 | doc=NCT02842996 | section=detailed_description]\nAn informal capacity/consent process will be used by a trained member of the research team. Written and verbal information will be provided about the study, using a suitable style and format for the participant. The researcher will ask the participant to recall study information to check understanding; this together with the clinical teams view will be used to assess capacity to consent. Consent will be sought for: - Accessing medical records for the purpose of collecting relevant patient outcomes and patient health service use. - Participating in a face to face interview following hospital discharge. If a patient is deemed to not have capacity they will not be included in the study. Risks, burdens and benefits: There is a small risk of distress for the patient and/or their carer during the interview when describing their memories and experiences. There may also be a time-burden to patients and their carers by taking part in the interview. To minimise these factors we will ensure that interviews are conducted on a day and time convenient to the patient and their carer. They will be able to stop the interview at any time and take a break if they require.\n\n[Passage 5 | doc=NCT02772861 | section=detailed_description]\nIf permitted, advertisements will be posted for this study on University College London (UCL) electronic news sites, disseminated via UCL staff and student emails, with fliers to be posted on physical notice boards at UCL. Direct invitations from the researchers may also be attempted. 3. Healthy volunteers will be offered \u00a37.85/hour for their participation in this study. Consent Written informed consent will be obtained before any study-specific procedures are carried out. All participants will be free to withdraw from the study at any time. Risk, burdens and benefits Apart from the small risks associated with venous access the study is expected to be without important hazard. The agents to be administered are essentially constituents of the normal diet. There is no expectation that participants will benefit from being in this study. Confidentiality All data provided to the sponsor or designee will be identified only by subject number or initials, thereby ensuring that the subject's identity remains unknown. What will happen at the end of the study? Participants will be given a summary of the key results and the opportunity for further discussion on request.\n\n[Passage 6 | doc=NCT03653741 | section=detailed_description]\nHowever, the study physician will be available should participants experience unexpected side effects due to the study. The investigators, physicians, or sponsors may stop the study or take participants out of the study at any time should they judge that it is in participants' best interest to do so. For instance, they may take participants out of the study if they experience a study-related injury or if they are unable to undergo testing. They may remove participants from the study for various other administrative and medical reasons. They can do this without consent. For trials of drugs, there may be risks. The research doctor will discuss the full extent of diagnostic, procedural, and drug risks with participants. There may be risks which are currently unforeseeable. As with all medications, side effects may occur and there may be additional side effects, including long term effects, which are at present unknown. Therefore, it is important that participants report any adverse reactions to the study doctor immediately.",
+  "passages": [
+    {
+      "passage_id": "NCT02830828::detailed_description::10",
+      "doc_id": "NCT02830828",
+      "section": "detailed_description",
+      "passage_text": "For example, if a researcher performs the \"pinch-grip\" test, it is fair to assume that researcher will become aware that the patient has a diagnosis of CTS. Patients will have been consented for this. The burden of patients being requested to attend three subsequent follow-up appointments is acknowledged, however the above benefits patients may feel in contributing to this study will encourage them to attend. The study sponsor (UHB) will be updated throughout, with special emphasis placed on drawing attention to any risks or burdens that emerge after the start of the study. The above risks are all conveyed in the Participant Information Sheet. CONFIDENTIALITY Confidentiality Principles Principle 1: The purposes of obtaining patient information are outlined above. Principle 2 and 3: Person-identifiable data will not be collected. Participants will be identified by UHB Patient Number. Principle 4: Access to person-identifiable data will be limited to members of the treating clinical team only. If non-clinical collaborators perform the precision pinch-grip test in clinic, they will not have access to patient-identifiable clinical details, during the test or afterwards during analysis.",
+      "title": "Studying Finger-thumb Grip in Patients With Carpal Tunnel Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 45.81935384771241,
+      "cross_score": 4.127476,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02268539::detailed_description::3",
+      "doc_id": "NCT02268539",
+      "section": "detailed_description",
+      "passage_text": "They will have the kind of AF that comes and goes and will be troubled symptomatically by it. This research study has been constructed around a patients' normal care pathway, minimising the need for additional visits or activities. Risks, burdens and benefits Potential risks and burden of participation in the study centre on the use of the ILR for rhythm recording both before and after the ablation procedure. This device is small and implantation is a minor day case procedure done under local anaesthetic. The risk of implantation is very small. Its use in the follow up after AF ablation is endorsed by international clinical guidelines and backed up by scientific data. The use of the ILR after AF ablation is becoming more commonplace and if anything is constrained by financial issues in the NHS rather than any ethical considerations about the risks or burdens of implantation. Potential benefit to the participant also involves the ILR. By having a continuous monitor of heart rhythm after ablation the consultant has information that can guide clinical management decision making after the ablation occurs.",
+      "title": "Efficacy, Safety and Efficiency of the nMARQ Pulmonary Vein Isolation System in Paroxysmal Atrial Fibrillation",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 48.0662030425568,
+      "cross_score": 3.7099638,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03619434::detailed_description::3",
+      "doc_id": "NCT03619434",
+      "section": "detailed_description",
+      "passage_text": "All staff involved in the study have appropriate training in how to judge capacity. For those with capacity, they will read the patient information sheet first. The patient information sheet contains in layman's terms full details for potential research participants, covering issues from why the researchers are doing the study, what the researchers expect from them, the possibility of adverse effects and anonymity and confidentiality. If patients are still interested after that they will receive a consent form to be signed by them. They will be given a copy of the signed consent form to keep. Risks, burdens and benefits Risks are explained in the patient information sheet so patients have a fully informed decision about whether to take part in the study. From the investigators point of view it is important to note these patients for this study are indicated for corneal transplant surgery - that is it is felt the benefits of a conventional surgery outweighs the normal risks of corneal transplant surgery. Femtolaser keratoplasty is not known to add any risks that is not present in conventional keratoplasty.",
+      "title": "Femtolaser Assisted Keratoplasty Versus Conventional Keratoplasty",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 47.70859890501787,
+      "cross_score": 3.540666,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02842996::detailed_description::4",
+      "doc_id": "NCT02842996",
+      "section": "detailed_description",
+      "passage_text": "An informal capacity/consent process will be used by a trained member of the research team. Written and verbal information will be provided about the study, using a suitable style and format for the participant. The researcher will ask the participant to recall study information to check understanding; this together with the clinical teams view will be used to assess capacity to consent. Consent will be sought for: - Accessing medical records for the purpose of collecting relevant patient outcomes and patient health service use. - Participating in a face to face interview following hospital discharge. If a patient is deemed to not have capacity they will not be included in the study. Risks, burdens and benefits: There is a small risk of distress for the patient and/or their carer during the interview when describing their memories and experiences. There may also be a time-burden to patients and their carers by taking part in the interview. To minimise these factors we will ensure that interviews are conducted on a day and time convenient to the patient and their carer. They will be able to stop the interview at any time and take a break if they require.",
+      "title": "Patient Reported Experience Measures Following Hip Fracture Surgery in the Elderly",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 46.09035266833408,
+      "cross_score": 3.357561,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02772861::detailed_description::1",
+      "doc_id": "NCT02772861",
+      "section": "detailed_description",
+      "passage_text": "If permitted, advertisements will be posted for this study on University College London (UCL) electronic news sites, disseminated via UCL staff and student emails, with fliers to be posted on physical notice boards at UCL. Direct invitations from the researchers may also be attempted. 3. Healthy volunteers will be offered \u00a37.85/hour for their participation in this study. Consent Written informed consent will be obtained before any study-specific procedures are carried out. All participants will be free to withdraw from the study at any time. Risk, burdens and benefits Apart from the small risks associated with venous access the study is expected to be without important hazard. The agents to be administered are essentially constituents of the normal diet. There is no expectation that participants will benefit from being in this study. Confidentiality All data provided to the sponsor or designee will be identified only by subject number or initials, thereby ensuring that the subject's identity remains unknown. What will happen at the end of the study? Participants will be given a summary of the key results and the opportunity for further discussion on request.",
+      "title": "Citrulline Challenge Study for Healthy Subjects in the United Kingdom",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 47.51853762710876,
+      "cross_score": 2.915925,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03653741::detailed_description::3",
+      "doc_id": "NCT03653741",
+      "section": "detailed_description",
+      "passage_text": "However, the study physician will be available should participants experience unexpected side effects due to the study. The investigators, physicians, or sponsors may stop the study or take participants out of the study at any time should they judge that it is in participants' best interest to do so. For instance, they may take participants out of the study if they experience a study-related injury or if they are unable to undergo testing. They may remove participants from the study for various other administrative and medical reasons. They can do this without consent. For trials of drugs, there may be risks. The research doctor will discuss the full extent of diagnostic, procedural, and drug risks with participants. There may be risks which are currently unforeseeable. As with all medications, side effects may occur and there may be additional side effects, including long term effects, which are at present unknown. Therefore, it is important that participants report any adverse reactions to the study doctor immediately.",
+      "title": "Effects of Perampanel on Neurophysiology Test Perimeters",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 48.49100484366872,
+      "cross_score": 2.598105,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"The study involves potential risks such as the use of an ILR device for rhythm recording, which carries a very small risk of implantation. There is also a small risk of distress during interviews and a time-burden for participants. However, the study aims to minimize additional visits and activities for participants.\",\n  \"supported_patient_facts\": [\"The study involves potential risks such as the use of an ILR device for rhythm recording, which carries a very small risk of implantation.\", \"There is also a small risk of distress during interviews and a time-burden for participants.\"],\n  \"missing_patient_facts\": [\"The exact nature of the risks associated with the ILR device and the precise time-burden of the interviews are not clearly stated in the retrieved evidence.\"],\n  \"unresolved_study_requirements\": [\"not clearly stated in the retrieved evidence\"],\n  \"reasoning_summary\": \"The evidence suggests that the study involves potential risks such as the use of an ILR device and a small risk of distress during interviews. However, the exact nature of these risks and the precise time-burden of the interviews are not clearly stated in the retrieved evidence. Additionally, there are no unresolved study-side requirements mentioned in the provided evidence.\",\n  \"safety_note\": \"Participants should be aware of the potential risks and burdens associated with the study, including the use of an ILR device and the time required for interviews.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [2],\n    \"reasoning_summary\": [2, 4]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "The study involves potential risks such as the use of an ILR device for rhythm recording, which carries a very small risk of implantation. There is also a small risk of distress during interviews and a time-burden for participants. However, the study aims to minimize additional visits and activities for participants.",
+    "supported_patient_facts": [
+      "The study involves potential risks such as the use of an ILR device for rhythm recording, which carries a very small risk of implantation.",
+      "There is also a small risk of distress during interviews and a time-burden for participants."
+    ],
+    "missing_patient_facts": [
+      "The exact nature of the risks associated with the ILR device and the precise time-burden of the interviews are not clearly stated in the retrieved evidence."
+    ],
+    "unresolved_study_requirements": [
+      "not clearly stated in the retrieved evidence"
+    ],
+    "reasoning_summary": "The evidence suggests that the study involves potential risks such as the use of an ILR device and a small risk of distress during interviews. However, the exact nature of these risks and the precise time-burden of the interviews are not clearly stated in the retrieved evidence. Additionally, there are no unresolved study-side requirements mentioned in the provided evidence.",
+    "safety_note": "Participants should be aware of the potential risks and burdens associated with the study, including the use of an ILR device and the time required for interviews.",
+    "support_passages": {
+      "patient_facing_answer": [
+        2
+      ],
+      "reasoning_summary": [
+        2,
+        4
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "The study involves potential risks such as the use of an ILR device for rhythm recording, which carries a very small risk of implantation. There is also a small risk of distress during interviews and a time-burden for participants. However, the study aims to minimize additional visits and activities for participants.",
+  "missing_patient_facts": [
+    "The exact nature of the risks associated with the ILR device and the precise time-burden of the interviews are not clearly stated in the retrieved evidence."
+  ],
+  "unresolved_study_requirements": [
+    "not clearly stated in the retrieved evidence"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 26.629
+}

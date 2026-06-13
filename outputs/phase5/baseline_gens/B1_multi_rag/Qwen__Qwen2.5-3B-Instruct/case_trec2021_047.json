@@ -1,0 +1,137 @@
+{
+  "case_id": "case_trec2021_047",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00004727",
+  "selected_doc": "NCT02651272",
+  "reference_trial": "NCT02651272",
+  "evidence_trials": [
+    "NCT00564096",
+    "NCT01591096",
+    "NCT01722578",
+    "NCT02651272",
+    "NCT03434093",
+    "NCT03902262"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 62-year-old African-American man presented with left upper and lower extremity weakness, associated with dark visual spot in right eye, right facial numbness, facial drop and slurred speech. He denied dyspnea, headache, palpitations, chest pain, fever, dizziness, bowel or urinary incontinence, loss of consciousness. His medical history was significant for hypertension, hyperlipidemia and hypothyroidism. He smokes cigarette 1 pack per day for 40 years and alcohol consumption of 5 to 6 beers per week. He is not aware about his family history. He is using Levothyroxine, Atorvastatin and HTCZ. His vital signs were stable in the primary evaluation. Left-sided facial droop, dysarthria, and left-sided hemiplegia were seen in the physical exam. His National Institutes of Health Stroke Scale (NIHSS) score was calculated as 7. Initial CT angiogram of head and neck reported no acute intracranial findings. Intravenous recombinant tissue plasminogen activator (t-PA) was administered as well as high-dose statin therapy. The patient was admitted to the intensive care unit to be monitored for 24 hours. MRI of the head revealed an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02651272 | section=detailed_description]\nBackground and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.\n\n[Passage 2 | doc=NCT03902262 | section=detailed_description]\nCASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.\n\n[Passage 3 | doc=NCT01722578 | section=detailed_description]\nDuration of hospitalization was lower in LOLA group compared to placebo (p=0.025). No side effects were observed in either group. 3. Adverse effects of LOLA L-ornithine- L-aspartate is usually well tolerated (18-25). No serious adverse events have been reported so far in clinical trials. The various adverse events reported in about 14% patients treated with LOLA include: 1. Nausea 2. Vomiting 3. Fatigue B. Materials and Methods 1. Study design and setting: This will be a prospective, randomized, double blind, placebo controlled interventional study. The study will be conducted on patients of cirrhosis admitted with overt HE in the Department of Gastroenterology, Dayanand Medical College and Hospital, Ludhiana and Department of Hepatology, GB Pant Hospital, New Delhi. Informed consent shall be taken from the nearest relative of the patient for enrollment in the trial. The study shall be presented for approval to the Institutional Ethics Committee prior to the enrollment of patients into the study. It shall be registered with Clinical Trial Registry, India and the ClinicalTrials.gov registry. 2. Study population: Inclusion and exclusion criteria have been mentioned elsewhere. 3.\n\n[Passage 4 | doc=NCT03434093 | section=eligibility]\n- is not able to lie comfortably on the back for up to 2 hours has hearing loss. --is pregnant. - Self-reported consumption of >14 alcoholic drinks/week for a man and >7 alcoholic drinks/week for a woman. - History of or current brain tumor, stroke, head trauma with loss of consciousness, epilepsy or seizures. - Taking medications that act directly on the central nervous system such as anti-epileptics, anti-histamines, anti-parkinsonian medication, medication for insomnia, anti-depressants, anti-anxiety medication.\n\n[Passage 5 | doc=NCT01591096 | section=eligibility]\nTo be eligible for TIPS, a patient must meet the following Inclusion Criteria: 1. Age 2 to 17 years inclusive. 2. Clinical presentation consisting of clearly defined acute onset of neurological deficit in a pattern consistent with arterial territory ischemia. 3. Clinically significant deficit as defined by a PedNIHSS score of \u2265 6 and \u2264 24 felt to be due to acute stroke that is not improving at the time of initiation of tPA administration 4. Time of symptom onset within 4.5 hours of initiation of treatment for IV tPA. Time of symptom onset is defined as time the patient was last seen awake and at neurological baseline. 5.\n\n[Passage 6 | doc=NCT00564096 | section=eligibility]\nInclusion Criteria: - Patients will fulfill DSM-IV-TR diagnostic criteria for schizophrenia - Patients reporting auditory hallucinations on average at least 5 times per day based on prospective assessment using a diary or handheld counter. - Patients are maintained on their psychotropic medication at steady dosages for at least 4 weeks before study entry and for the duration of the trial.",
+  "passages": [
+    {
+      "passage_id": "NCT02651272::detailed_description::0",
+      "doc_id": "NCT02651272",
+      "section": "detailed_description",
+      "passage_text": "Background and Rationale: Sickle cell disease (SCD) affects 250,000 births per year worldwide, with 70-80,000 patients currently residing in the US. Although classically thought of as a genetic hemoglobinopathy, most of the clinical complications are vascular in etiology and pulmonary manifestations are the primary cause of morbidity and mortality. Pulmonary hypertension (PH), one such pulmonary complication, occurs in 6-10.5% of SCD adults and is associated with a 60% four-year survival. No specific therapy for PH in SCD exists representing an area of intense clinical need in this field. Clinical trials of pulmonary vasodilator medications in PH of SCD have been problematic. There have been no randomized placebo controlled trials of any traditional pulmonary arterial hypertension (PAH) medication completed in this population to date. Three randomized placebo-controlled trials have been undertaken previously.",
+      "title": "Macitentan in Pulmonary Hypertension of Sickle Cell Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 382.2681577199368,
+      "cross_score": -6.9914913,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03902262::detailed_description::0",
+      "doc_id": "NCT03902262",
+      "section": "detailed_description",
+      "passage_text": "CASE PRESENTATION Case 1 An 8 year-old male started 48 hrs prior to admission with abdominal pain in the right lower quadrant associated with vomiting and fever. The physical examination revealed discrete bilateral conjunctival hiperemia, right cervical adenomegaly, and severe abdominal pain in the right lower quadrant with a positive McBurney sign. Laboratory tests showed CBC: Hb 14.1 g/dl, WBC 13,800, NT 81%, LT 3%, Plt 383,000/\u03bcl. C-reactive protein 230.9 mg/dl, BNP 106.4 pg/ml (0-99). Abdominal ultrasound confirmed the diagnosis of appendicitis. A laparoscopic appendectomy was performed, and appendiceal distal enlargement with fibrinopurulent tissue was found. Twelve hours after surgery, the patient presented increased conjunctival hyperaemia, generalized rash as well as upper extremities edema and desquamation, meeting criteria for Kawasaki disease. Cardiological evaluation showed mild pericardial effusion (3mm), normal coronary arteries. Intravenous immunoglobulins (IVIG), aspirin and steroids were started with resolution of the fever, rash and the conjunctival erythema. Case 2. A 6-year-old male started 15 days prior to admission with fever.",
+      "title": "Acute Abdomen in Kawasaki Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 385.0137595019058,
+      "cross_score": -7.0995693,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01722578::detailed_description::8",
+      "doc_id": "NCT01722578",
+      "section": "detailed_description",
+      "passage_text": "Duration of hospitalization was lower in LOLA group compared to placebo (p=0.025). No side effects were observed in either group. 3. Adverse effects of LOLA L-ornithine- L-aspartate is usually well tolerated (18-25). No serious adverse events have been reported so far in clinical trials. The various adverse events reported in about 14% patients treated with LOLA include: 1. Nausea 2. Vomiting 3. Fatigue B. Materials and Methods 1. Study design and setting: This will be a prospective, randomized, double blind, placebo controlled interventional study. The study will be conducted on patients of cirrhosis admitted with overt HE in the Department of Gastroenterology, Dayanand Medical College and Hospital, Ludhiana and Department of Hepatology, GB Pant Hospital, New Delhi. Informed consent shall be taken from the nearest relative of the patient for enrollment in the trial. The study shall be presented for approval to the Institutional Ethics Committee prior to the enrollment of patients into the study. It shall be registered with Clinical Trial Registry, India and the ClinicalTrials.gov registry. 2. Study population: Inclusion and exclusion criteria have been mentioned elsewhere. 3.",
+      "title": "L-ornithine L-aspartate in Overt Hepatic Encephalopathy",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 383.1554606093375,
+      "cross_score": -7.31586,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03434093::eligibility::1",
+      "doc_id": "NCT03434093",
+      "section": "eligibility",
+      "passage_text": "- is not able to lie comfortably on the back for up to 2 hours has hearing loss. --is pregnant. - Self-reported consumption of >14 alcoholic drinks/week for a man and >7 alcoholic drinks/week for a woman. - History of or current brain tumor, stroke, head trauma with loss of consciousness, epilepsy or seizures. - Taking medications that act directly on the central nervous system such as anti-epileptics, anti-histamines, anti-parkinsonian medication, medication for insomnia, anti-depressants, anti-anxiety medication.",
+      "title": "Modulation of the Parieto-frontal Communication",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 389.1201522728009,
+      "cross_score": -7.4121094,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT01591096::eligibility::0",
+      "doc_id": "NCT01591096",
+      "section": "eligibility",
+      "passage_text": "To be eligible for TIPS, a patient must meet the following Inclusion Criteria: 1. Age 2 to 17 years inclusive. 2. Clinical presentation consisting of clearly defined acute onset of neurological deficit in a pattern consistent with arterial territory ischemia. 3. Clinically significant deficit as defined by a PedNIHSS score of \u2265 6 and \u2264 24 felt to be due to acute stroke that is not improving at the time of initiation of tPA administration 4. Time of symptom onset within 4.5 hours of initiation of treatment for IV tPA. Time of symptom onset is defined as time the patient was last seen awake and at neurological baseline. 5.",
+      "title": "Thrombolysis in Pediatric Stroke (TIPS)",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 381.8745873592836,
+      "cross_score": -7.5031385,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00564096::eligibility::0",
+      "doc_id": "NCT00564096",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patients will fulfill DSM-IV-TR diagnostic criteria for schizophrenia - Patients reporting auditory hallucinations on average at least 5 times per day based on prospective assessment using a diary or handheld counter. - Patients are maintained on their psychotropic medication at steady dosages for at least 4 weeks before study entry and for the duration of the trial.",
+      "title": "Transcranial Magnetic Stimulation (TMS) in Schizophrenia",
+      "condition": NaN,
+      "doc_rank_bm25": 5,
+      "doc_score_bm25": 394.45655125804313,
+      "cross_score": -7.5192943,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you do not seem to fully meet the eligibility criteria for this clinical trial. However, we need more details to confirm if you are eligible.\",\n  \"supported_patient_facts\": [\"62-year-old African-American man\", \"left upper and lower extremity weakness\", \"dark visual spot in right eye\", \"right facial numbness\", \"facial drop and slurred speech\", \"history of hypertension, hyperlipidemia, and hypothyroidism\", \"smokes 1 pack of cigarettes per day for 40 years\", \"drinks 5 to 6 beers per week\", \"using Levothyroxine, Atorvastatin, and HTCZ\", \"stable vital signs in primary evaluation\", \"left-sided facial droop, dysarthria, and left-sided hemiplegia in physical exam\", \"National Institutes of Health Stroke Scale (NIHSS) score of 7\", \"MRI of the head showing an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia\"],\n  \"missing_patient_facts\": [\"family history\", \"diagnosis of sickle cell disease\", \"current medications that act directly on the central nervous system\"],\n  \"unresolved_study_requirements\": [\"no specific information about the trial's inclusion criteria related to your symptoms and medical history\"],\n  \"reasoning_summary\": \"The patient has symptoms consistent with a stroke, which aligns with the inclusion criteria of the trial. However, the patient's medical history and current medications need further clarification to determine full eligibility. Additionally, the trial does not specify whether it includes patients with sickle cell disease, which is a key factor in the provided evidence.\",\n  \"safety_note\": \"Given the patient's condition, including the stroke-like symptoms and recent administration of thrombolytic therapy, close monitoring and safety precautions are necessary during participation in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you do not seem to fully meet the eligibility criteria for this clinical trial. However, we need more details to confirm if you are eligible.",
+    "supported_patient_facts": [
+      "62-year-old African-American man",
+      "left upper and lower extremity weakness",
+      "dark visual spot in right eye",
+      "right facial numbness",
+      "facial drop and slurred speech",
+      "history of hypertension, hyperlipidemia, and hypothyroidism",
+      "smokes 1 pack of cigarettes per day for 40 years",
+      "drinks 5 to 6 beers per week",
+      "using Levothyroxine, Atorvastatin, and HTCZ",
+      "stable vital signs in primary evaluation",
+      "left-sided facial droop, dysarthria, and left-sided hemiplegia in physical exam",
+      "National Institutes of Health Stroke Scale (NIHSS) score of 7",
+      "MRI of the head showing an acute 1.7-cm infarct of the right periventricular white matter and posterior right basal ganglia"
+    ],
+    "missing_patient_facts": [
+      "family history",
+      "diagnosis of sickle cell disease",
+      "current medications that act directly on the central nervous system"
+    ],
+    "unresolved_study_requirements": [
+      "no specific information about the trial's inclusion criteria related to your symptoms and medical history"
+    ],
+    "reasoning_summary": "The patient has symptoms consistent with a stroke, which aligns with the inclusion criteria of the trial. However, the patient's medical history and current medications need further clarification to determine full eligibility. Additionally, the trial does not specify whether it includes patients with sickle cell disease, which is a key factor in the provided evidence.",
+    "safety_note": "Given the patient's condition, including the stroke-like symptoms and recent administration of thrombolytic therapy, close monitoring and safety precautions are necessary during participation in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you do not seem to fully meet the eligibility criteria for this clinical trial. However, we need more details to confirm if you are eligible.",
+  "missing_patient_facts": [
+    "family history",
+    "diagnosis of sickle cell disease",
+    "current medications that act directly on the central nervous system"
+  ],
+  "unresolved_study_requirements": [
+    "no specific information about the trial's inclusion criteria related to your symptoms and medical history"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.238
+}

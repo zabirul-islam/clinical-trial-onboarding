@@ -1,0 +1,144 @@
+{
+  "case_id": "case_trec2022_047",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00945373",
+  "reference_trial": "NCT00945373",
+  "evidence_trials": [
+    "NCT00945373",
+    "NCT01311102",
+    "NCT02120924",
+    "NCT02289352",
+    "NCT03529955"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 41-year-old woman comes to the dermatology clinic complaining of facial redness, especially on her forehead and cheeks. She noticed that the redness gets worse in the summer and after sun exposure. She is otherwise healthy. On physical examination, she has multiple papules and pustules present on her forehead, cheeks, and nose on a background of erythema and telangiectasias. There are no other lesions or nodules. The patient is married and has 2 children who are 5 and 9 years old. She has IUD and doesn't wish to have more kids. She does not smoke or drink alcohol. Her vital signs are normal, and BMI is 21. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00945373 | section=eligibility]\nHave participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.\n\n[Passage 2 | doc=NCT02289352 | section=eligibility]\nTubal ligation will not be considered a surgically sterile method. Female patients of childbearing potential are defined as: - Women without prior hysterectomy, or who have had any evidence of menses in the past 12 months. - Females who have been amenorrhea for \u2265 12 months, but the amenorrhea is possibly due to other causes, including prior chemotherapy, anti-estrogens, or ovarian suppression. 4. Have a clinical diagnosis of facial rosacea and fewer than 3 inflammatory lesions on the face at Screening and at Randomization (before drug application on Day 1). 5. Have moderate to severe facial erythema according to both CEA and PSA (i.e., an erythema score of 3 or more for each of the CEA and PSA) at Screening and at Randomization (before drug application on Day 1). 6. Free from any systemic or dermatologic disorder (other than rosacea) that, in the opinion of the Investigator, will interfere with the study evaluations or increase the risk of AEs. 7. Willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit. 8.\n\n[Passage 3 | doc=NCT03529955 | section=detailed_description]\nHer muscle weakness lagged behind and she noticed improvement after 9 months of being on apremilast with normalization of her aldolase and CK. The patient was able to wean off all immunosuppressive agents and prednisone. She was in remission for over 2 years and off all medications. She experienced a mild flare of skin disease recently and she resumed apremilast only and cleared immediately and continues on apremilast as a monotherapy. Patient experienced mild nausea and diarrhea with apremilast that improved four weeks into the treatment. She was able to discontinue insulin, lose weight and she has continued to be clear of both skin and muscle symptoms for over 1.5 years. This case was accepted as a poster presentation at the 2018 Annual Meeting of the American Academy of Dermatology \"Poster #: 6672 - Apremilast: a Potential Treatment for Dermatomyositis.\" Following this successful outcome, the investigators initiated apremilast in 3 other patients with recalcitrant dermatomyositis. Two patients had recalcitrant cutaneous disease and responded to add on therapy of apremilast in 2 months with significant improvement of their skin disease.\n\n[Passage 4 | doc=NCT03529955 | section=detailed_description]\nTulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.\n\n[Passage 5 | doc=NCT02120924 | section=eligibility]\nInclusion Criteria: - Healthy male or non-pregnant female \u226518 years-of-age with a clinical diagnosis of moderate facial rosacea. - Patient must have at least eight and not more than fifty inflammatory facial lesions (i.e., papules/pustules) and \u22642 nodules on the face. For the purposes of study treatment and evaluation, these lesions should be limited to the facial treatment area including those present on the nose. Lesions involving the eyes, and scalp should be excluded from the count. - Patients must have persistent erythema on the face with moderate (Definite redness, easily recognized) to Severe (Marked erythema; fiery red). - Patients must have a mild to moderate score for telangiectasia on the face - Patients must have a definite clinical diagnosis of moderate facial rosacea as per the IGE - Patient must be willing to minimize external factors that might trigger rosacea flare-ups (e.g., spicy foods, thermally hot foods and drinks, hot environments, prolonged sun exposure, strong winds and alcoholic beverages). - Patient must be in general good health and free from any clinically significant disease other than rosacea, that might interfere with the study evaluations.\n\n[Passage 6 | doc=NCT01311102 | section=eligibility]\nInclusion Criteria: - Women eligible for IUD insertion - Willing to give consent Exclusion Criteria: - Allergy to lidocaine - Contraindications to IUD use",
+  "passages": [
+    {
+      "passage_id": "NCT00945373::eligibility::2",
+      "doc_id": "NCT00945373",
+      "section": "eligibility",
+      "passage_text": "Have participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.",
+      "title": "Combination Therapy for the Treatment of Rosacea",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 303.4169675257088,
+      "cross_score": -3.3783598,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02289352::eligibility::1",
+      "doc_id": "NCT02289352",
+      "section": "eligibility",
+      "passage_text": "Tubal ligation will not be considered a surgically sterile method. Female patients of childbearing potential are defined as: - Women without prior hysterectomy, or who have had any evidence of menses in the past 12 months. - Females who have been amenorrhea for \u2265 12 months, but the amenorrhea is possibly due to other causes, including prior chemotherapy, anti-estrogens, or ovarian suppression. 4. Have a clinical diagnosis of facial rosacea and fewer than 3 inflammatory lesions on the face at Screening and at Randomization (before drug application on Day 1). 5. Have moderate to severe facial erythema according to both CEA and PSA (i.e., an erythema score of 3 or more for each of the CEA and PSA) at Screening and at Randomization (before drug application on Day 1). 6. Free from any systemic or dermatologic disorder (other than rosacea) that, in the opinion of the Investigator, will interfere with the study evaluations or increase the risk of AEs. 7. Willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit. 8.",
+      "title": "Randomized, Double-blind, Multiple-site, Placebo-controlled, Parallel-design Study in Patients With Moderate to Severe Facial Erythema Associated With Rosacea",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 305.4457529461449,
+      "cross_score": -3.926261,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::2",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Her muscle weakness lagged behind and she noticed improvement after 9 months of being on apremilast with normalization of her aldolase and CK. The patient was able to wean off all immunosuppressive agents and prednisone. She was in remission for over 2 years and off all medications. She experienced a mild flare of skin disease recently and she resumed apremilast only and cleared immediately and continues on apremilast as a monotherapy. Patient experienced mild nausea and diarrhea with apremilast that improved four weeks into the treatment. She was able to discontinue insulin, lose weight and she has continued to be clear of both skin and muscle symptoms for over 1.5 years. This case was accepted as a poster presentation at the 2018 Annual Meeting of the American Academy of Dermatology \"Poster #: 6672 - Apremilast: a Potential Treatment for Dermatomyositis.\" Following this successful outcome, the investigators initiated apremilast in 3 other patients with recalcitrant dermatomyositis. Two patients had recalcitrant cutaneous disease and responded to add on therapy of apremilast in 2 months with significant improvement of their skin disease.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 299.5344713482023,
+      "cross_score": -4.055338,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03529955::detailed_description::1",
+      "doc_id": "NCT03529955",
+      "section": "detailed_description",
+      "passage_text": "Tulane University is a referral center for recalcitrant dermatomyositis cases.The investigators present the case of a 57 y.o female patient with multidrug recalcitrant dermatomyositis showing complete remission of her skin disease with apremilast and improvement of her muscle disease. This patient was diagnosed with dermatomyositis. Over a 6-year period, she was treated with adequate trials of multiple immunosuppressive agents, including hydroxychloroquine, mycophenolate mofetil, azathioprine, methotrexate, soriatane, Intravenous immunoglobulin (IVIG), tacrolimus, chlorambucil, infliximab and rituximab. For the last four years, physicians were unable to lower corticosteroids below 40 mg per day. Her disease continued to flare despite these therapies. Chronic steroid use resulted in insulin dependent diabetes mellitus as well as other steroids associated side effects. While on stable doses of mycophenolate mofetil, prednisone and rituximab, the patient developed arthritis and was started on apremilast 30 mg twice a day. Two months into her treatment she noticed significant improvement of her skin disease and then nearly complete clearance of the skin.",
+      "title": "Evaluating Safety & Efficacy of Apremilast in the Treatment of Cutaneous Disease in Patients With Recalcitrant Dermatomyositis",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 299.5344713482023,
+      "cross_score": -4.1793303,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02120924::eligibility::0",
+      "doc_id": "NCT02120924",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Healthy male or non-pregnant female \u226518 years-of-age with a clinical diagnosis of moderate facial rosacea. - Patient must have at least eight and not more than fifty inflammatory facial lesions (i.e., papules/pustules) and \u22642 nodules on the face. For the purposes of study treatment and evaluation, these lesions should be limited to the facial treatment area including those present on the nose. Lesions involving the eyes, and scalp should be excluded from the count. - Patients must have persistent erythema on the face with moderate (Definite redness, easily recognized) to Severe (Marked erythema; fiery red). - Patients must have a mild to moderate score for telangiectasia on the face - Patients must have a definite clinical diagnosis of moderate facial rosacea as per the IGE - Patient must be willing to minimize external factors that might trigger rosacea flare-ups (e.g., spicy foods, thermally hot foods and drinks, hot environments, prolonged sun exposure, strong winds and alcoholic beverages). - Patient must be in general good health and free from any clinically significant disease other than rosacea, that might interfere with the study evaluations.",
+      "title": "A Study to Evaluate the Safety and Clinical Study of Azelaic Acid Gel 15% in Patients With Moderate Facial Rosacea",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 301.14990913174177,
+      "cross_score": -4.371242,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01311102::eligibility::0",
+      "doc_id": "NCT01311102",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Women eligible for IUD insertion - Willing to give consent Exclusion Criteria: - Allergy to lidocaine - Contraindications to IUD use",
+      "title": "The Impact of Pain Scores on Intrauterine Lidocaine Versus Normal Saline Infusion at the Time of IUD Placement",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 299.7387659735504,
+      "cross_score": -4.3864765,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial. However, there are some details that are unclear or missing, so we need to check further.\",\n  \"supported_patient_facts\": [\"You are a 41-year-old woman with facial redness, especially on your forehead and cheeks.\", \"You have papules and pustules on your forehead, cheeks, and nose, along with erythema and telangiectasias.\", \"You do not smoke or drink alcohol.\", \"Your vital signs are normal, and your BMI is 21.\", \"You are married and have two children, aged 5 and 9.\", \"You are otherwise healthy.\", \"You are not currently taking any immunosuppressive agents or prednisone.\", \"You are not allergic to lidocaine.\", \"You are not contraindicated for IUD insertion.\"],\n  \"missing_patient_facts\": [\"You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.\", \"The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).\", \"Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.\", \"Whether you have a mild to moderate score for telangiectasia on the face.\", \"Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit.\"],\n  \"unresolved_study_requirements\": [\"You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.\", \"The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).\", \"Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.\", \"Whether you have a mild to moderate score for telangiectasia on the face.\", \"Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit.\"],\n  \"reasoning_summary\": \"While you meet some key criteria for the clinical trial, such as having facial redness consistent with rosacea, the exact number of lesions, the clinical diagnosis, and willingness to minimize triggers are not fully confirmed. We need to verify these details before making a final decision.\",\n  \"safety_note\": \"It's important to note that while you seem eligible based on the available information, we need to ensure that you meet all safety criteria before enrolling you in the trial.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial. However, there are some details that are unclear or missing, so we need to check further.",
+    "supported_patient_facts": [
+      "You are a 41-year-old woman with facial redness, especially on your forehead and cheeks.",
+      "You have papules and pustules on your forehead, cheeks, and nose, along with erythema and telangiectasias.",
+      "You do not smoke or drink alcohol.",
+      "Your vital signs are normal, and your BMI is 21.",
+      "You are married and have two children, aged 5 and 9.",
+      "You are otherwise healthy.",
+      "You are not currently taking any immunosuppressive agents or prednisone.",
+      "You are not allergic to lidocaine.",
+      "You are not contraindicated for IUD insertion."
+    ],
+    "missing_patient_facts": [
+      "You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.",
+      "The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).",
+      "Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.",
+      "Whether you have a mild to moderate score for telangiectasia on the face.",
+      "Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit."
+    ],
+    "unresolved_study_requirements": [
+      "You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.",
+      "The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).",
+      "Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.",
+      "Whether you have a mild to moderate score for telangiectasia on the face.",
+      "Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit."
+    ],
+    "reasoning_summary": "While you meet some key criteria for the clinical trial, such as having facial redness consistent with rosacea, the exact number of lesions, the clinical diagnosis, and willingness to minimize triggers are not fully confirmed. We need to verify these details before making a final decision.",
+    "safety_note": "It's important to note that while you seem eligible based on the available information, we need to ensure that you meet all safety criteria before enrolling you in the trial."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you seem to meet some of the eligibility criteria for the clinical trial. However, there are some details that are unclear or missing, so we need to check further.",
+  "missing_patient_facts": [
+    "You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.",
+    "The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).",
+    "Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.",
+    "Whether you have a mild to moderate score for telangiectasia on the face.",
+    "Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit."
+  ],
+  "unresolved_study_requirements": [
+    "You have not participated in any clinical trial involving an investigational drug or cosmetic product or procedure within the past 30 days.",
+    "The number of inflammatory lesions on your face at Screening and at Randomization (before drug application on Day 1).",
+    "Whether you have a clinical diagnosis of moderate facial rosacea based on the IGE criteria.",
+    "Whether you have a mild to moderate score for telangiectasia on the face.",
+    "Whether you are willing to minimize external factors that might trigger rosacea flare-ups (e.g., hot environments, prolonged sun exposure, strong winds and emotional stress) within 24 hours of the Screening and Randomization visit."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 21.717
+}

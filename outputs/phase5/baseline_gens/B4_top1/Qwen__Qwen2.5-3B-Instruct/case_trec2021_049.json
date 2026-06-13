@@ -1,0 +1,61 @@
+{
+  "case_id": "case_trec2021_049",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001253",
+  "selected_doc": "NCT00191113",
+  "reference_trial": "NCT00191113",
+  "evidence_trials": [
+    "NCT00191113"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 12 year old girl came to the clinic with her mother, complaining of short stature, delayed in puberty and developmental delay. Her karyotype study revealed 45X and confirmed the diagnosis of Turner syndrome. She is treating with GH since 6 months ago without estrogen therapy to avoid menarche and reach the ideal height. She is an obese, mentally retarded girl in the physical exam. Her breast bulb were in stage 1 with no course hair in the pubic or axillary. Her TSH was 3 and FBS was 75 in the latest lab study. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00191113 | section=summary]\nA randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.",
+  "passages": [
+    {
+      "passage_id": "NCT00191113::summary::0",
+      "doc_id": "NCT00191113",
+      "section": "summary",
+      "passage_text": "A randomized, controlled trial in girls with Turner syndrome at least 7 years old and younger than 13 at study entry, to determine the efficacy and safety of Humatrope (somatropin) treatment in promoting linear growth to final height.",
+      "title": "Somatropin Treatment to Final Height in Turner Syndrome",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 264.48884218672515,
+      "cross_score": -2.8297424,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm.\",\n  \"supported_patient_facts\": [\"The patient is a 12-year-old girl with Turner syndrome\", \"She has been treated with GH for 6 months without estrogen therapy\"],\n  \"missing_patient_facts\": [\"Her Tanner breast stage and pubic hair development\", \"Her TSH and FBS levels\"],\n  \"unresolved_study_requirements\": [\"Tanner breast stage and pubic hair development\", \"TSH and FBS levels\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has been treated with GH as per the trial's protocol. However, we need to know if she has reached Tanner stage 2 or higher for breast development and pubic hair, and if her thyroid function tests are within normal limits.\",\n  \"safety_note\": \"It's important to ensure that the patient's thyroid function is stable before starting any new treatment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm.",
+    "supported_patient_facts": [
+      "The patient is a 12-year-old girl with Turner syndrome",
+      "She has been treated with GH for 6 months without estrogen therapy"
+    ],
+    "missing_patient_facts": [
+      "Her Tanner breast stage and pubic hair development",
+      "Her TSH and FBS levels"
+    ],
+    "unresolved_study_requirements": [
+      "Tanner breast stage and pubic hair development",
+      "TSH and FBS levels"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has been treated with GH as per the trial's protocol. However, we need to know if she has reached Tanner stage 2 or higher for breast development and pubic hair, and if her thyroid function tests are within normal limits.",
+    "safety_note": "It's important to ensure that the patient's thyroid function is stable before starting any new treatment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it seems like you might be eligible for the clinical trial, but we need more details to confirm.",
+  "missing_patient_facts": [
+    "Her Tanner breast stage and pubic hair development",
+    "Her TSH and FBS levels"
+  ],
+  "unresolved_study_requirements": [
+    "Tanner breast stage and pubic hair development",
+    "TSH and FBS levels"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.11
+}

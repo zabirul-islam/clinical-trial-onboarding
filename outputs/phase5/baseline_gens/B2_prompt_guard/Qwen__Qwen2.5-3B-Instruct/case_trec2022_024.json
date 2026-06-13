@@ -1,0 +1,126 @@
+{
+  "case_id": "case_trec2022_024",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B2_prompt_guard",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT00135811",
+  "reference_trial": "NCT00135811",
+  "evidence_trials": [
+    "NCT00135811",
+    "NCT02200263",
+    "NCT02258763",
+    "NCT03501966",
+    "NCT04538911",
+    "NCT04804215"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 4-year-old boy comes to the office for the follow up of his confirmed oculocutaneous albinism. The patient was born at 38 weeks gestation with no complications. Vital signs are normal. Weight and height are at the 50th percentile. On examination, iris transillumination is present, and there are no apparent foveae on funduscopic examination. Optic nerves are small and gray. All the hairs including eyebrows and lashes are white. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00135811 | section=eligibility]\nIn addition, the participant must not have had a complete remission of proteinuria (Up/c < 0.2 or dipstick urine protein 0/trace) subsequent to the latest qualifying 4-week course demonstrating steroid resistance. - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. - Participants may be taking ACEI, ARB, Vitamin E, or lipid lowering therapy. Exclusion Criteria: - Secondary FSGS - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran) - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days - Lactation, pregnancy, or refusal of birth control in women of child bearing potential - Participation in another therapeutic trial concurrently or 30 days prior to randomization - Active/serious infection (including, but not limited to Hepatitis B, C, or HIV) - Malignancy - Blood pressure > 140/95 or > 95th percentile for age/height. - Participant is receiving 4 or more antihypertensive agents for the primary purpose of controlling blood pressure.\n\n[Passage 2 | doc=NCT03501966 | section=summary]\nRandomized trial of adults (\u226518 years old) with idiopathic intracranial hypertension and moderate to severe visual loss without substantial recent treatment who are randomly assigned to (1) medical therapy, (2) medical therapy plus ONSF, or (3) medical therapy plus VPS. The primary outcome is visual field mean deviation change at first of Month 6 (26 weeks) or time of treatment failure of the eligible eye(s), followed by a continuation study to assess time to treatment failure. The determination of eligible eye(s) is based on meeting the eligibility criteria at baseline.\n\n[Passage 3 | doc=NCT04538911 | section=eligibility]\nI (and/or guardian) can comply with the requirements of the clinical trial protocol to participate in the follow-up. Exclusion Criteria: 1. Suffering from acute infectious diseases (such as measles, pertussis, influenza, pneumonia, etc.), acute ophthalmic membranitis, acute otitis media, extensive skin diseases and allergic constitution(A history of allergy to two or more drugs or foods, or a known allergy and scar constitution to this drug component). 2. People have any serious disease, such as: tumor, progressive atherosclerosis or diabetes with complications, chronic obstructive pulmonary disease requiring oxygen therapy, acute or progressive liver or kidney disease, congestive heart failure, etc. 3. Convulsion, epilepsy, history of mental illness and/or family history of mental illness. 4. Patients with known or suspected (or high-risk) immune function impairment or abnormality,For example, patients receiving immunosuppressive or immunobooster therapy, patients receiving glucocorticoids, immunoglobulin preparations or blood products or plasma extracts outside the gastrointestinal tract within 3 months, human immunodeficiency virus infection or related diseases. 5.\n\n[Passage 4 | doc=NCT02200263 | section=eligibility]\nInclusion Criteria: - Age of 12 years old and older - Clinical and/or genetic diagnosis of ocular or oculocutaneous albinism - Ocular media allowing acceptable visualization of the retina. - Ocular media allowing acceptable quality of the ocular coherence tomography (OCT) and/or fundus autofluorescence (FAF) scans. - At least one reliable central macular pigment optical density (MPOD) measurement captured on the enrollment visit in at least one eligible eye - Best corrected visual acuity of 20/200 or better in one or both eligible eyes (eyes that confirmed to be eligible by the MPOD testing).\n\n[Passage 5 | doc=NCT02258763 | section=detailed_description]\nThe other looked at CAP but without the use of structured questionnaires[9] Methodology Randomized, Double Blind, Placebo Controlled Trial Children aged 3 months till <5 years old Admitted to University Malaya Medical Centre (UMMC) hospital with a severe community acquired pneumonia Eligibility Ages Eligible for Study: 3 Months to 59 Months Genders Eligible for Study: Both Inclusion Criteria: Children admitted with severe pneumonia as defined by the presence of all the following as defined as below: - 3 months to 59 months old - History of cough and/or shortness of breath Unwell for <= 7 days - Increased respiratory rate ( \u2265 50/min if \u226412 months old, \u2265 40/min) - Any of the following signs/symptoms are present at examination that would necessitate admission: chest retractions, cyanosis, saturation< 92% on air, poor feeding or lethargy - Documented fever (axillary /central temp \u2265 38/38.5\u00b0C) within 24 hrs of admission - Abnormal chest radio graph(CXR) with presence of alveolar infiltrates - Responds to IV antibiotics by the first 72 hrs and able to go home with oral antibiotics i.e.\n\n[Passage 6 | doc=NCT04804215 | section=detailed_description]\nTarget registration and randomization method Subjects who agreed to voluntarily participate in the trial after hearing the explanation about this clinical trial will be given a subject identification code in the order in which they signed the consent form at the screening visit.In this clinical trial, the comparability of the treatment group is maximized and the treatment group's Randomization is performed to ensure the scientific validity of the clinical trial by not involving the subjectivity of the investigator in the assignment. Block randomization is performed to divide the patients who satisfy the selection/exclusion criteria and agree to participate in the clinical trial into 2 groups and allocate them at a 1:1 ratio. For randomization, a statistical expert independent from this clinical trial generates a random assignment number using SAS ver.9.4 (SAS Institute Inc, NC, Cary, USA) or higher for Microsoft Windows and assigns it sequentially. 3.",
+  "passages": [
+    {
+      "passage_id": "NCT00135811::eligibility::1",
+      "doc_id": "NCT00135811",
+      "section": "eligibility",
+      "passage_text": "In addition, the participant must not have had a complete remission of proteinuria (Up/c < 0.2 or dipstick urine protein 0/trace) subsequent to the latest qualifying 4-week course demonstrating steroid resistance. - Willingness to follow the clinical trial protocol, including medications, and baseline and follow-up visits and procedures. - Participants may be taking ACEI, ARB, Vitamin E, or lipid lowering therapy. Exclusion Criteria: - Secondary FSGS - Prior therapy with sirolimus, CSA, tacrolimus, MMF, or azathioprin (Imuran) - Treated with cytoxan, chlorambucil, levamisole, methotrexate, or nitrogen mustard in the last 30 days - Lactation, pregnancy, or refusal of birth control in women of child bearing potential - Participation in another therapeutic trial concurrently or 30 days prior to randomization - Active/serious infection (including, but not limited to Hepatitis B, C, or HIV) - Malignancy - Blood pressure > 140/95 or > 95th percentile for age/height. - Participant is receiving 4 or more antihypertensive agents for the primary purpose of controlling blood pressure.",
+      "title": "Focal Segmental Glomerulosclerosis Clinical Trial (FSGS-CT)",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 193.21611581648864,
+      "cross_score": -5.5082836,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03501966::summary::0",
+      "doc_id": "NCT03501966",
+      "section": "summary",
+      "passage_text": "Randomized trial of adults (\u226518 years old) with idiopathic intracranial hypertension and moderate to severe visual loss without substantial recent treatment who are randomly assigned to (1) medical therapy, (2) medical therapy plus ONSF, or (3) medical therapy plus VPS. The primary outcome is visual field mean deviation change at first of Month 6 (26 weeks) or time of treatment failure of the eligible eye(s), followed by a continuation study to assess time to treatment failure. The determination of eligible eye(s) is based on meeting the eligibility criteria at baseline.",
+      "title": "Surgical Idiopathic Intracranial Hypertension Treatment Trial",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 192.6811204405384,
+      "cross_score": -5.835086,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04538911::eligibility::1",
+      "doc_id": "NCT04538911",
+      "section": "eligibility",
+      "passage_text": "I (and/or guardian) can comply with the requirements of the clinical trial protocol to participate in the follow-up. Exclusion Criteria: 1. Suffering from acute infectious diseases (such as measles, pertussis, influenza, pneumonia, etc.), acute ophthalmic membranitis, acute otitis media, extensive skin diseases and allergic constitution(A history of allergy to two or more drugs or foods, or a known allergy and scar constitution to this drug component). 2. People have any serious disease, such as: tumor, progressive atherosclerosis or diabetes with complications, chronic obstructive pulmonary disease requiring oxygen therapy, acute or progressive liver or kidney disease, congestive heart failure, etc. 3. Convulsion, epilepsy, history of mental illness and/or family history of mental illness. 4. Patients with known or suspected (or high-risk) immune function impairment or abnormality,For example, patients receiving immunosuppressive or immunobooster therapy, patients receiving glucocorticoids, immunoglobulin preparations or blood products or plasma extracts outside the gastrointestinal tract within 3 months, human immunodeficiency virus infection or related diseases. 5.",
+      "title": "Phase I Clinical Protocol for Pre-evaluation of the Safety of BCG-PPD in Tuberculosis Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 192.89275564455588,
+      "cross_score": -5.891094,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02200263::eligibility::0",
+      "doc_id": "NCT02200263",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Age of 12 years old and older - Clinical and/or genetic diagnosis of ocular or oculocutaneous albinism - Ocular media allowing acceptable visualization of the retina. - Ocular media allowing acceptable quality of the ocular coherence tomography (OCT) and/or fundus autofluorescence (FAF) scans. - At least one reliable central macular pigment optical density (MPOD) measurement captured on the enrollment visit in at least one eligible eye - Best corrected visual acuity of 20/200 or better in one or both eligible eyes (eyes that confirmed to be eligible by the MPOD testing).",
+      "title": "The Effects of Lutein and Zeaxanthin Supplementation on Vision in Patients With Albinism",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 209.55665781445927,
+      "cross_score": -6.283044,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02258763::detailed_description::4",
+      "doc_id": "NCT02258763",
+      "section": "detailed_description",
+      "passage_text": "The other looked at CAP but without the use of structured questionnaires[9] Methodology Randomized, Double Blind, Placebo Controlled Trial Children aged 3 months till <5 years old Admitted to University Malaya Medical Centre (UMMC) hospital with a severe community acquired pneumonia Eligibility Ages Eligible for Study: 3 Months to 59 Months Genders Eligible for Study: Both Inclusion Criteria: Children admitted with severe pneumonia as defined by the presence of all the following as defined as below: - 3 months to 59 months old - History of cough and/or shortness of breath Unwell for <= 7 days - Increased respiratory rate ( \u2265 50/min if \u226412 months old, \u2265 40/min) - Any of the following signs/symptoms are present at examination that would necessitate admission: chest retractions, cyanosis, saturation< 92% on air, poor feeding or lethargy - Documented fever (axillary /central temp \u2265 38/38.5\u00b0C) within 24 hrs of admission - Abnormal chest radio graph(CXR) with presence of alveolar infiltrates - Responds to IV antibiotics by the first 72 hrs and able to go home with oral antibiotics i.e.",
+      "title": "Trial on the Ideal Duration of Oral Antibiotics in Children With Pneumonia",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 192.4283350293161,
+      "cross_score": -6.3308225,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT04804215::detailed_description::3",
+      "doc_id": "NCT04804215",
+      "section": "detailed_description",
+      "passage_text": "Target registration and randomization method Subjects who agreed to voluntarily participate in the trial after hearing the explanation about this clinical trial will be given a subject identification code in the order in which they signed the consent form at the screening visit.In this clinical trial, the comparability of the treatment group is maximized and the treatment group's Randomization is performed to ensure the scientific validity of the clinical trial by not involving the subjectivity of the investigator in the assignment. Block randomization is performed to divide the patients who satisfy the selection/exclusion criteria and agree to participate in the clinical trial into 2 groups and allocate them at a 1:1 ratio. For randomization, a statistical expert independent from this clinical trial generates a random assignment number using SAS ver.9.4 (SAS Institute Inc, NC, Cary, USA) or higher for Microsoft Windows and assigns it sequentially. 3.",
+      "title": "Intraductal Transanastomotic Stent in Duct-to-duct Biliary Reconstruction in Liver Transplantation",
+      "condition": NaN,
+      "doc_rank_bm25": 14,
+      "doc_score_bm25": 192.58747707119903,
+      "cross_score": -6.8954973,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, your child does not seem to meet the eligibility criteria for the clinical trials listed. He has confirmed oculocutaneous albinism, which is mentioned in Passage 4, but the other trials do not include this condition as an inclusion criterion.\",\n  \"supported_patient_facts\": [\"Your child has confirmed oculocutaneous albinism.\", \"He is 4 years old.\"],\n  \"missing_patient_facts\": [\"The specific inclusion criteria for each trial are not fully clear.\", \"There is no mention of age range or other conditions that might affect eligibility.\"],\n  \"unresolved_study_requirements\": [\"The exact inclusion criteria for each trial are not fully specified.\", \"The patient's condition is not explicitly stated as an inclusion criterion in any of the trials.\"],\n  \"reasoning_summary\": \"While your child meets the age requirement and has a confirmed diagnosis of oculocutaneous albinism, the other trials do not list this condition as an inclusion criterion. Further clarification is needed regarding the eligibility criteria for each trial.\",\n  \"safety_note\": \"No safety concerns are noted in the provided information.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, your child does not seem to meet the eligibility criteria for the clinical trials listed. He has confirmed oculocutaneous albinism, which is mentioned in Passage 4, but the other trials do not include this condition as an inclusion criterion.",
+    "supported_patient_facts": [
+      "Your child has confirmed oculocutaneous albinism.",
+      "He is 4 years old."
+    ],
+    "missing_patient_facts": [
+      "The specific inclusion criteria for each trial are not fully clear.",
+      "There is no mention of age range or other conditions that might affect eligibility."
+    ],
+    "unresolved_study_requirements": [
+      "The exact inclusion criteria for each trial are not fully specified.",
+      "The patient's condition is not explicitly stated as an inclusion criterion in any of the trials."
+    ],
+    "reasoning_summary": "While your child meets the age requirement and has a confirmed diagnosis of oculocutaneous albinism, the other trials do not list this condition as an inclusion criterion. Further clarification is needed regarding the eligibility criteria for each trial.",
+    "safety_note": "No safety concerns are noted in the provided information."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, your child does not seem to meet the eligibility criteria for the clinical trials listed. He has confirmed oculocutaneous albinism, which is mentioned in Passage 4, but the other trials do not include this condition as an inclusion criterion.",
+  "missing_patient_facts": [
+    "The specific inclusion criteria for each trial are not fully clear.",
+    "There is no mention of age range or other conditions that might affect eligibility."
+  ],
+  "unresolved_study_requirements": [
+    "The exact inclusion criteria for each trial are not fully specified.",
+    "The patient's condition is not explicitly stated as an inclusion criterion in any of the trials."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.457
+}

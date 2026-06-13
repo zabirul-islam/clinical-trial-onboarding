@@ -1,0 +1,129 @@
+{
+  "case_id": "case_14",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "handcrafted",
+  "category": "teachback_style",
+  "gold_nct": "",
+  "selected_doc": "NCT00816998",
+  "reference_trial": "NCT00816998",
+  "evidence_trials": [
+    "NCT00816998",
+    "NCT01605656",
+    "NCT01710072",
+    "NCT03187951",
+    "NCT04166539"
+  ],
+  "question": "Can you help me understand what kind of fracture evidence this study seems to require?",
+  "evidence": "[Passage 1 | doc=NCT00816998 | section=eligibility]\nInclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.\n\n[Passage 2 | doc=NCT00816998 | section=detailed_description]\nYou are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.\n\n[Passage 3 | doc=NCT01710072 | section=detailed_description]\nWill I Receive New Information About the Study while Participating? If we obtain any new information during this study that might affect your willingness to continue participating in the study, we'll promptly provide you with that information. Can Someone Else End my Participation in this Study? Under certain circumstances, the researchers might decide to end your participation in this research study earlier than planned. This might happen if your aneurysm ruptures or becomes symptomatic. WHAT IF I HAVE QUESTIONS? We encourage you to ask questions. If you have any questions about the research study itself, please contact: David Hasan, MD, 319-331-1459. If you experience a research-related injury, please contact: David Hasan MD, 319-331-1459. If you have questions, concerns, or complaints about your rights as a research subject or about research related injury, please contact the Human Subjects Office, 105 Hardin Library for the Health Sciences, 600 Newton Rd, The University of Iowa, Iowa City, IA 52242-1098, (319) 335-6564, or e-mail irb@uiowa.edu.\n\n[Passage 4 | doc=NCT04166539 | section=summary]\nThe purpose of this research is to understand whether patients who previously had total hip or total knee replacement experience memory, thinking or heart problems. This study will help us determine if and how often these problems occur.\n\n[Passage 5 | doc=NCT03187951 | section=eligibility]\nInclusion Criteria: 1. Pancreatic cancer of any type, biopsy-proven 2. Scheduled to receive preoperative therapy (chemotherapy, radiation or chemoradiation) either on- or off-protocol. 3. Anticipated to undergo pancreatectomy in >/= 6 weeks from enrollment 4. Able to understand the description of the study and willing to participate 5. Able to understand the exercise program 6. Able to maintain daily exercise logs 7. Telephone or email access and agreement to engage with the research personnel via phone or email 8. Meet all screening requirements. Exclusion Criteria: 1. Non-English speaking 2. Unable to complete the baseline assessment questionnaires or functional assessments 3. Underlying unstable cardiac or pulmonary disease or symptomatic cardiac disease (New York Heart Association functional class III or IV) 4. Recent fracture or acute musculoskeletal injury that precludes the ability to weight bear fully on all 4 limbs in order to participate in an exercise intervention 5. Numeric pain rating scale of >/= 7 out of 10 6. Myopathic or rheumatologic disease that impacts physical function 7. Recurrent cancer following prior resection 8. Neuroendocrine cancer 9.\n\n[Passage 6 | doc=NCT01605656 | section=detailed_description]\nCognitive Interviews: If you agree to take part in this study, you will be take part in a cognitive interview. A cognitive interview is a process that helps researchers test out questions on a few people so the questions can improved. During the interview, a research staff member will use a questionnaire to ask you about many different health and social topics. As the questions are read to you, please answer them, but also tell the research staff member what you're thinking. Please try to think out loud and say everything that comes to mind, whether it seems important or not. You will be asked how you came up with your answers and how you understood the questions. If any question seems unclear or hard to answer, please tell the research staff member. A member of the research staff will be taking notes during the interview. The cognitive interview should take up to 45 minutes to complete. Length of Study: Your participation in this study will be over after you complete the cognitive interview. This is an investigational study. Up to 10 participants will be enrolled in this part of the study. All will take part at Thomas Street Health Center.",
+  "passages": [
+    {
+      "passage_id": "NCT00816998::eligibility::0",
+      "doc_id": "NCT00816998",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: The following criteria must be met to be enrolled: 1. Have a closed unstable distal radius fracture 2. Have a fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture 3. Be a male or non-pregnant female at least 18 years of age. 4. Understand the requirements of the study and able to provide a written informed consent and comply with the study protocol 5. Have the ability to understand and provide written authorization for use and disclosure of personal health information Exclusion Criteria: Participants are excluded if they: 1. Have any of the following conditions 1. Concomitant contralateral or ipsilateral upper extremity fractures 2. Ipsilateral ulna (excluding styloid) fracture 3. Open, multi-fragmentary fracture 4. Artery or Nerve injury secondary to fracture 2. Have had a previous ipsilateral distal radius fracture in the 2 years prior to enrollment 3. Are currently on chemotherapy or radiation therapy 4. A history of a metabolic disorder affecting the skeletal system other than osteoarthritis or osteoporosis 5. A history of uncontrolled diabetes 6. Are unable to provide consent for the study 7.",
+      "title": "Range of Motion and Patients With Distal Radius Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 47.68673055889992,
+      "cross_score": -1.9370208,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00816998::detailed_description::0",
+      "doc_id": "NCT00816998",
+      "section": "detailed_description",
+      "passage_text": "You are scheduled for surgery of your broken wrist. Treatment of broken bones of the wrist, such as distal radius fractures, may require different types of treatment. For this study this type of fracture will be treated by surgery to place a plate with screws to the broken bone and then a plaster splint will be applied. After surgery, physical therapy will be started. Following surgery you will be assigned to one of four groups by the type of wrist fracture (broken bone) you have. Each person will by chance (the flip of a coin) be put in either the Early or Delayed Range of Motion groups. Those in the Early Range of Motion groups will begin exercises for motion starting 7 days after surgery. Those in the Delayed Range of Motion, will begin exercises for motion starting about five weeks after surgery. Once you begin the exercises to help you get back normal use of your wrist, you will have measurements of how much motion and strength you have in the wrist and hand that was fractured. The measurements will take about five minutes to complete. All participants will have an x-ray of the wrist at 2, & 6 weeks following surgery and if needed at other appointments.",
+      "title": "Range of Motion and Patients With Distal Radius Fractures",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 47.68673055889992,
+      "cross_score": -3.830285,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01710072::detailed_description::9",
+      "doc_id": "NCT01710072",
+      "section": "detailed_description",
+      "passage_text": "Will I Receive New Information About the Study while Participating? If we obtain any new information during this study that might affect your willingness to continue participating in the study, we'll promptly provide you with that information. Can Someone Else End my Participation in this Study? Under certain circumstances, the researchers might decide to end your participation in this research study earlier than planned. This might happen if your aneurysm ruptures or becomes symptomatic. WHAT IF I HAVE QUESTIONS? We encourage you to ask questions. If you have any questions about the research study itself, please contact: David Hasan, MD, 319-331-1459. If you experience a research-related injury, please contact: David Hasan MD, 319-331-1459. If you have questions, concerns, or complaints about your rights as a research subject or about research related injury, please contact the Human Subjects Office, 105 Hardin Library for the Health Sciences, 600 Newton Rd, The University of Iowa, Iowa City, IA 52242-1098, (319) 335-6564, or e-mail irb@uiowa.edu.",
+      "title": "Aspirin Attenuates Inflammation in Human Cerebral Aneurysms",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 45.49546334389303,
+      "cross_score": -6.63401,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT04166539::summary::0",
+      "doc_id": "NCT04166539",
+      "section": "summary",
+      "passage_text": "The purpose of this research is to understand whether patients who previously had total hip or total knee replacement experience memory, thinking or heart problems. This study will help us determine if and how often these problems occur.",
+      "title": "Neurotoxicity and Cardiotoxicity in Total Joint Arthroplasty",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 46.3115574437215,
+      "cross_score": -7.0978007,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03187951::eligibility::0",
+      "doc_id": "NCT03187951",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Pancreatic cancer of any type, biopsy-proven 2. Scheduled to receive preoperative therapy (chemotherapy, radiation or chemoradiation) either on- or off-protocol. 3. Anticipated to undergo pancreatectomy in >/= 6 weeks from enrollment 4. Able to understand the description of the study and willing to participate 5. Able to understand the exercise program 6. Able to maintain daily exercise logs 7. Telephone or email access and agreement to engage with the research personnel via phone or email 8. Meet all screening requirements. Exclusion Criteria: 1. Non-English speaking 2. Unable to complete the baseline assessment questionnaires or functional assessments 3. Underlying unstable cardiac or pulmonary disease or symptomatic cardiac disease (New York Heart Association functional class III or IV) 4. Recent fracture or acute musculoskeletal injury that precludes the ability to weight bear fully on all 4 limbs in order to participate in an exercise intervention 5. Numeric pain rating scale of >/= 7 out of 10 6. Myopathic or rheumatologic disease that impacts physical function 7. Recurrent cancer following prior resection 8. Neuroendocrine cancer 9.",
+      "title": "PancFit: Multimodal Exercise During Preoperative Therapy for Pancreatic Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 47.86940297413708,
+      "cross_score": -7.313571,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT01605656::detailed_description::0",
+      "doc_id": "NCT01605656",
+      "section": "detailed_description",
+      "passage_text": "Cognitive Interviews: If you agree to take part in this study, you will be take part in a cognitive interview. A cognitive interview is a process that helps researchers test out questions on a few people so the questions can improved. During the interview, a research staff member will use a questionnaire to ask you about many different health and social topics. As the questions are read to you, please answer them, but also tell the research staff member what you're thinking. Please try to think out loud and say everything that comes to mind, whether it seems important or not. You will be asked how you came up with your answers and how you understood the questions. If any question seems unclear or hard to answer, please tell the research staff member. A member of the research staff will be taking notes during the interview. The cognitive interview should take up to 45 minutes to complete. Length of Study: Your participation in this study will be over after you complete the cognitive interview. This is an investigational study. Up to 10 participants will be enrolled in this part of the study. All will take part at Thomas Street Health Center.",
+      "title": "A Mixed-Methods Approach to Understanding Factors Associated With Cervical Cancer Screening Utilization Among Low-Income, HIV-Positive Women",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 49.18846294291418,
+      "cross_score": -7.7976155,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"This study requires a specific type of fracture for enrollment. You need to have a closed unstable distal radius fracture, which is classified as an AO Type A or C fracture, with or without an ulnar styloid fracture.\",\n  \"supported_patient_facts\": [\"have a closed unstable distal radius fracture\", \"fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture\"],\n  \"missing_patient_facts\": [\"whether the fracture is closed and unstable\", \"specific AO classification of the fracture\", \"presence or absence of an ulnar styloid fracture\"],\n  \"unresolved_study_requirements\": [],\n  \"reasoning_summary\": \"The study requires a specific type of fracture, namely a closed unstable distal radius fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture. However, the evidence does not provide clear information on whether the patient's fracture meets these criteria.\",\n  \"safety_note\": \"not clearly stated in the retrieved evidence\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"doc=NCT00816998 | section=eligibility\"],\n    \"reasoning_summary\": [\"doc=NCT00816998 | section=eligibility\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "have a closed unstable distal radius fracture",
+      "fracture classified as an AO Type A or C fracture, with or without an ulnar styloid fracture"
+    ],
+    "missing_patient_facts": [
+      "whether the fracture is closed and unstable",
+      "specific AO classification of the fracture",
+      "presence or absence of an ulnar styloid fracture"
+    ],
+    "unresolved_study_requirements": [],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "not clearly stated in the retrieved evidence",
+    "support_passages": {
+      "patient_facing_answer": [
+        "doc=NCT00816998 | section=eligibility"
+      ],
+      "reasoning_summary": [
+        "doc=NCT00816998 | section=eligibility"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "whether the fracture is closed and unstable",
+    "specific AO classification of the fracture",
+    "presence or absence of an ulnar styloid fracture"
+  ],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 22.613
+}

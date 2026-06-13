@@ -1,0 +1,61 @@
+{
+  "case_id": "case_trec2021_015",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00003049",
+  "selected_doc": "NCT03358576",
+  "reference_trial": "NCT03358576",
+  "evidence_trials": [
+    "NCT03358576"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 70 year-old woman with a history of CAD recently noted abdominal mass who presents with fevers/rigors and bandemia. Over the last few weeks leading up to admission, she has been experiencing mid-abdominal pain, radiating to the left flank. It lasts throughout the day is not increased by eating though there is associated vomiting and is worsened with coughing. CT abdomen without contrast was then performed on [**4-20**] showing a large 9.5 x 7.5 x 6.0-cm heterogeneous left upper abdominal mass. Patient underwent a EUS with biopsy. The results of the biopsy were consistent with pancreatic adenocarcinoma at the head of pancreas. Splenic flecture/pancreatic tail mass was also seen on CT, likely diverticular abscess given the patients recent likely history of diverticulitis this was thought to be an infected fluid collection or abscess. She was treated with IV antibiotics (Zosyn, then ceftriaxone and flagyl) and will continue on them until seen by ID as an outpatient. Past Medical History: 1. Coronary artery disease with history of angioplasty in [**State 108**] one year ago 2. Mitral valve prolapse 3. Atrial fibrillation 4. Hyperlipemia 5. Hypertension 6. Chronic kidney disease (SCr 2.1 in [**3-17**]) 7. Hypothyroidism? (TSH 10 in [**3-17**]) 8. Anemia (HCT 30.7 in [**3-17**]) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03358576 | section=eligibility]\nPre-operative enrollment where one of the following surgical procedures are planned within 24 hours prior to the first dose of study drug: i. Open laparotomy, percutaneous drainage of an intra-abdominal abscess, or laparoscopic surgery. 4. Evidence of systemic inflammatory indicators, with at least one of the following: i. Fever (defined as body temperature >38\u00b0C) or hypothermia with a core body temperature <35\u00b0C ii. Elevated white blood cell count (>12,000 cells/mm3) iii. Drop in blood pressure (systolic BP must be <90 mmHg without pressor support) iv. Increased heart rate (>90 bpm) and respiratory rate (>20 breaths/min) v. Hypoxia (oxygen saturation \u226490 percent on room air) 5. Physical findings or symptoms consistent with intra-abdominal infection, with at least one of the following: i. Abdominal pain and/or tenderness, with or without rebound ii. Localized or diffuse abdominal wall rigidity iii. Abdominal mass iv. Nausea/vomiting v. Altered Mental Status 6. Specimen/s from the surgical intervention were sent for culture. Exclusion Criteria: 1.",
+  "passages": [
+    {
+      "passage_id": "NCT03358576::eligibility::1",
+      "doc_id": "NCT03358576",
+      "section": "eligibility",
+      "passage_text": "Pre-operative enrollment where one of the following surgical procedures are planned within 24 hours prior to the first dose of study drug: i. Open laparotomy, percutaneous drainage of an intra-abdominal abscess, or laparoscopic surgery. 4. Evidence of systemic inflammatory indicators, with at least one of the following: i. Fever (defined as body temperature >38\u00b0C) or hypothermia with a core body temperature <35\u00b0C ii. Elevated white blood cell count (>12,000 cells/mm3) iii. Drop in blood pressure (systolic BP must be <90 mmHg without pressor support) iv. Increased heart rate (>90 bpm) and respiratory rate (>20 breaths/min) v. Hypoxia (oxygen saturation \u226490 percent on room air) 5. Physical findings or symptoms consistent with intra-abdominal infection, with at least one of the following: i. Abdominal pain and/or tenderness, with or without rebound ii. Localized or diffuse abdominal wall rigidity iii. Abdominal mass iv. Nausea/vomiting v. Altered Mental Status 6. Specimen/s from the surgical intervention were sent for culture. Exclusion Criteria: 1.",
+      "title": "Sulopenem Versus Ertapenem for Complicated Intra-abdominal Infection (cIAI)",
+      "condition": NaN,
+      "doc_rank_bm25": 6,
+      "doc_score_bm25": 471.7219954354018,
+      "cross_score": -4.53413,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, it looks like you might be eligible for the trial, but we need more details to confirm. Please let us know if you have any additional medical records or test results.\",\n  \"supported_patient_facts\": [\n    \"You have a history of coronary artery disease with a recent angioplasty.\",\n    \"You have a recent abdominal mass that was found during a CT scan.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The exact date of your most recent CT scan and biopsy results.\",\n    \"Your current white blood cell count and oxygen saturation levels.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"We need to know if you had a surgical procedure within 24 hours of starting the study drug.\",\n    \"We need to confirm if you meet the criteria for fever, elevated white blood cell count, drop in blood pressure, increased heart rate, or respiratory rate.\"\n  ],\n  \"reasoning_summary\": \"While you have a history of coronary artery disease and a recent abdominal mass, we need more specific information about your current health status and recent medical history to determine full eligibility.\",\n  \"safety_note\": \"Please inform us immediately if you experience any new symptoms or worsening of existing ones.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, it looks like you might be eligible for the trial, but we need more details to confirm. Please let us know if you have any additional medical records or test results.",
+    "supported_patient_facts": [
+      "You have a history of coronary artery disease with a recent angioplasty.",
+      "You have a recent abdominal mass that was found during a CT scan."
+    ],
+    "missing_patient_facts": [
+      "The exact date of your most recent CT scan and biopsy results.",
+      "Your current white blood cell count and oxygen saturation levels."
+    ],
+    "unresolved_study_requirements": [
+      "We need to know if you had a surgical procedure within 24 hours of starting the study drug.",
+      "We need to confirm if you meet the criteria for fever, elevated white blood cell count, drop in blood pressure, increased heart rate, or respiratory rate."
+    ],
+    "reasoning_summary": "While you have a history of coronary artery disease and a recent abdominal mass, we need more specific information about your current health status and recent medical history to determine full eligibility.",
+    "safety_note": "Please inform us immediately if you experience any new symptoms or worsening of existing ones."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, it looks like you might be eligible for the trial, but we need more details to confirm. Please let us know if you have any additional medical records or test results.",
+  "missing_patient_facts": [
+    "The exact date of your most recent CT scan and biopsy results.",
+    "Your current white blood cell count and oxygen saturation levels."
+  ],
+  "unresolved_study_requirements": [
+    "We need to know if you had a surgical procedure within 24 hours of starting the study drug.",
+    "We need to confirm if you meet the criteria for fever, elevated white blood cell count, drop in blood pressure, increased heart rate, or respiratory rate."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 9.937
+}

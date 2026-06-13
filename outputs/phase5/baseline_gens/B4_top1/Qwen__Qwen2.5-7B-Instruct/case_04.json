@@ -1,0 +1,73 @@
+{
+  "case_id": "case_04",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "handcrafted",
+  "category": "cannot_determine",
+  "gold_nct": "",
+  "selected_doc": "NCT00800644",
+  "reference_trial": "NCT00800644",
+  "evidence_trials": [
+    "NCT00800644"
+  ],
+  "question": "I had some fractures years ago and my doctor once mentioned weak bones. Could I join this study?",
+  "evidence": "[Passage 1 | doc=NCT00800644 | section=detailed_description]\n- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.\n\n[Passage 2 | doc=NCT00800644 | section=detailed_description]\nIf you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).",
+  "passages": [
+    {
+      "passage_id": "NCT00800644::detailed_description::1",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "- Researchers will collect information from your medical record. This information will include your medical history, your ethnicity, if you have had any bone fractures, if you have a history of bone fractures in your family, and your use of tobacco and/or alcohol. At 4 weeks after start of radiation therapy, blood (about 2 to 3 teaspoons) will be drawn to test for bone turnover. At 3 months, 1 year, and 2 years after you complete radiation: - You will have a bone mineral density test. - You may have either an MRI or CT scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 2 tablespoons) will be drawn for tests to measure the level of vitamin D and to test for bone turnover. Length of Study: You will be off study 2 years after you complete radiation. After 2 years and for up to 5 years, results of bone density tests or scans of the pelvis that you have outside of this study will be collected. This is an investigational study.",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.65017606094012,
+      "cross_score": -2.487113,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00800644::detailed_description::0",
+      "doc_id": "NCT00800644",
+      "section": "detailed_description",
+      "passage_text": "If you agree to take part in this study, the following tests and procedures will be performed before radiation therapy: - You will have a bone mineral density test. A bone mineral density test measures bone loss over time, identifies osteoporosis (a disease of the bones that causes them to be weak and easily breakable) or the risk for developing osteoporosis, and checks your risk for fractures. During the test, you will lie on a cushioned table while a mechanical arm-like device will pass over your body. This device will not touch you. - During your routine visits, you may have either a magnetic resonance imaging (MRI) scan or a computed tomography (CT) scan of the pelvis as part of your standard of care. A PET scan may be done if your doctor thinks it is necessary. These scans will be reviewed by the research staff of this study to determine your response to therapy, determine if your cancer has returned, and to look for broken bones. - Blood (about 1 tablespoon) will be drawn to test for bone turnover. - Blood (about 2 to 3 teaspoons) will be drawn for tests to measure the level of vitamin D, calcium, phosphorus, and parathyroid hormone (PTH).",
+      "title": "Pelvic Fractures and Radiation Therapy for Cervical Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 51.65017606094012,
+      "cross_score": -4.215286,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you might be eligible to join the study, but we need more details to confirm. Please consult with your healthcare provider.\",\n  \"supported_patient_facts\": [\"had fractures in the past\", \"weak bones mentioned by doctor\"],\n  \"missing_patient_facts\": [\"current bone mineral density status\", \"family history of bone fractures\", \"use of tobacco and/or alcohol\"],\n  \"unresolved_study_requirements\": [\"results of bone density tests or scans of the pelvis that you have outside of this study will be collected after 2 years\"],\n  \"reasoning_summary\": \"The patient has a history of fractures and was told they have weak bones, which aligns with the study's interest in bone health. However, additional information such as current bone mineral density, family history, and lifestyle factors are required to fully assess eligibility. Furthermore, the study collects external bone density test results after 2 years, which is yet to be determined.\",\n  \"safety_note\": \"It is important to ensure all safety requirements are met before enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you might be eligible to join the study, but we need more details to confirm. Please consult with your healthcare provider.",
+    "supported_patient_facts": [
+      "had fractures in the past",
+      "weak bones mentioned by doctor"
+    ],
+    "missing_patient_facts": [
+      "current bone mineral density status",
+      "family history of bone fractures",
+      "use of tobacco and/or alcohol"
+    ],
+    "unresolved_study_requirements": [
+      "results of bone density tests or scans of the pelvis that you have outside of this study will be collected after 2 years"
+    ],
+    "reasoning_summary": "The patient has a history of fractures and was told they have weak bones, which aligns with the study's interest in bone health. However, additional information such as current bone mineral density, family history, and lifestyle factors are required to fully assess eligibility. Furthermore, the study collects external bone density test results after 2 years, which is yet to be determined.",
+    "safety_note": "It is important to ensure all safety requirements are met before enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you might be eligible to join the study, but we need more details to confirm. Please consult with your healthcare provider.",
+  "missing_patient_facts": [
+    "current bone mineral density status",
+    "family history of bone fractures",
+    "use of tobacco and/or alcohol"
+  ],
+  "unresolved_study_requirements": [
+    "results of bone density tests or scans of the pelvis that you have outside of this study will be collected after 2 years"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 18.305
+}

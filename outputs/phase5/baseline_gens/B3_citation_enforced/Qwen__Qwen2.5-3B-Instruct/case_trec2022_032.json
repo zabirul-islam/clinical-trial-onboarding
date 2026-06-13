@@ -1,0 +1,102 @@
+{
+  "case_id": "case_trec2022_032",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03570359",
+  "reference_trial": "NCT03570359",
+  "evidence_trials": [
+    "NCT00642148",
+    "NCT00883584",
+    "NCT02835131",
+    "NCT03570359",
+    "NCT03597347"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 30-year-old man who is a computer scientist came to the clinic with the lab result stating azoospermia. The patient is sexually active with his wife and does not use any contraception methods. They have been trying to conceive for the past year with no success. The patient has a past medical history of recurrent pneumonia, shortness of breath, and persistent cough that produces large amounts of thick sputum. The patient had multiple lung infections during childhood. He does not smoke, use illicit drugs or alcohol. The patient has no history of other medical conditions including allergies or any kind of surgery. On physical examination, the digits show clubbing. An ultrasound shows bilateral absence of the vas deferens, and FEV1 was 75% on the respiratory function test. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.\n\n[Passage 2 | doc=NCT00883584 | section=eligibility]\ng the last 12 months, or newly diagnosed arrhythmia within the previous 3 months, Hospitalisation within the previous 12 months for heart failure functional classes III (marked limitation of activity and only comfortable at rest) and IV (need of complete rest, confinement to bed or chair, discomfort at any physical activity and presence of symptoms at rest) as per the New York Heart Association - Patients with any other serious or uncontrolled physical or mental dysfunction at the discretion of the Investigator, which could place the patient at higher risk derived from his/her participation in the study, could confound the results of the trial, or is likely to prevent the patient from complying with the requirements of the trial or completing the trial period - Patients who are not able to perform reproducible spirometry attempts at the screening visit or during the repeat at baseline - Clinically relevant abnormalities in the results of laboratory, ECG parameters (QTc > 470 milliseconds), or physical examination at the screening evaluation if the abnormality defines a disease state listed as an exclusion criterion, except for those related to COPD - Patients with a history of drug\n\n[Passage 3 | doc=NCT03597347 | section=eligibility]\nGroup 2: Subject with chronic pulmonary MAC or MABSC infection who has stopped a multidrug NTM guideline-based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance. Group 3: Subjects with chronic pulmonary MAC or MABSC infection not meeting recommendations for treatment with a multidrug NTM guideline-based antimycobacterial regimen based on failure to meet ATS/IDSA criteria for NTM pulmonary disease (i.e. absence of radiologic findings and clinical symptoms beyond what is expected from underlying CF). 5. Ability to produce sputum or be willing to undergo an induction protocol that produces sputum for clinical evaluation. 6. An additional sputum culture performed by the central laboratory, which is positive for the same species (MAC) or subspecies (MABSC) of NTM as before the trial within 10 weeks of Baseline. 7. CF which in the Investigator's opinion is clinically stable and not expected to require lung transplantation within the next year. 8. FEV1 \u2265 30% of predicted at screening that is normalized for age, gender, race, and height, using the Global Lung Function Initiative (GLI) equation. 9.\n\n[Passage 4 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.\n\n[Passage 5 | doc=NCT02835131 | section=eligibility]\nIs not eligible for participation in any of the investigators ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (for example., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide long acting release (LAR) or subcutaneous. formulations. 2. Patients with abnormal coagulation (prothrombin time or activated partial thromboplastin time elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.\n\n[Passage 6 | doc=NCT00642148 | section=eligibility]\n- Subjects with any clinically relevant abnormality detected by the assessments at Visit 1 - An unwillingness of male subjects to abstain from sexual intercourse with pregnant or lactating women; or unwillingness of the male subject to use a condom/spermicide in addition to having their female partner use another form of contraception such as an intra-uterine devices, diaphragm with spermicide, oral contraceptives, injectable progesterone, subdermal implants or a tubal ligation if the woman could become pregnant from the time of the first dose of investigational product for the duration of the study (i.e., through the follow-up phase). - Subjects who have had a close household contact treated for active tuberculosis within the past 12 months, or who in the judgement of the investigator are at high risk for developing active tuberculosis, shall be excluded from the study. - A subject will not be eligible for randomisation at the end of the run-in period if either of the following criteria applies: - Subjects who have experienced an exacerbation during the run-in period requiring treatment with oral corticosteroids and/or antibiotics and/or hospitalisation.",
+  "passages": [
+    {
+      "passage_id": "NCT03570359::eligibility::10",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -6.6254754,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00883584::eligibility::3",
+      "doc_id": "NCT00883584",
+      "section": "eligibility",
+      "passage_text": "g the last 12 months, or newly diagnosed arrhythmia within the previous 3 months, Hospitalisation within the previous 12 months for heart failure functional classes III (marked limitation of activity and only comfortable at rest) and IV (need of complete rest, confinement to bed or chair, discomfort at any physical activity and presence of symptoms at rest) as per the New York Heart Association - Patients with any other serious or uncontrolled physical or mental dysfunction at the discretion of the Investigator, which could place the patient at higher risk derived from his/her participation in the study, could confound the results of the trial, or is likely to prevent the patient from complying with the requirements of the trial or completing the trial period - Patients who are not able to perform reproducible spirometry attempts at the screening visit or during the repeat at baseline - Clinically relevant abnormalities in the results of laboratory, ECG parameters (QTc > 470 milliseconds), or physical examination at the screening evaluation if the abnormality defines a disease state listed as an exclusion criterion, except for those related to COPD - Patients with a history of drug",
+      "title": "IMD-1041 Chronic Obstructive Pulmonary Disease: Proof of Concept (POC) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 316.40698244950306,
+      "cross_score": -6.7301497,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT03597347::eligibility::1",
+      "doc_id": "NCT03597347",
+      "section": "eligibility",
+      "passage_text": "Group 2: Subject with chronic pulmonary MAC or MABSC infection who has stopped a multidrug NTM guideline-based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance. Group 3: Subjects with chronic pulmonary MAC or MABSC infection not meeting recommendations for treatment with a multidrug NTM guideline-based antimycobacterial regimen based on failure to meet ATS/IDSA criteria for NTM pulmonary disease (i.e. absence of radiologic findings and clinical symptoms beyond what is expected from underlying CF). 5. Ability to produce sputum or be willing to undergo an induction protocol that produces sputum for clinical evaluation. 6. An additional sputum culture performed by the central laboratory, which is positive for the same species (MAC) or subspecies (MABSC) of NTM as before the trial within 10 weeks of Baseline. 7. CF which in the Investigator's opinion is clinically stable and not expected to require lung transplantation within the next year. 8. FEV1 \u2265 30% of predicted at screening that is normalized for age, gender, race, and height, using the Global Lung Function Initiative (GLI) equation. 9.",
+      "title": "Trial of Inhaled Molgramostim in CF Subjects With NTM Infection",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 318.04912828748206,
+      "cross_score": -6.8850975,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03570359::eligibility::7",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -7.016696,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02835131::eligibility::1",
+      "doc_id": "NCT02835131",
+      "section": "eligibility",
+      "passage_text": "Is not eligible for participation in any of the investigators ongoing clinical trials or has recently completed a clinical trial that has been terminated and, after considering other options (for example., trial extensions, amendments, etc.), the clinical team has determined that treatment is necessary and there are no other feasible alternatives for the patient 11. There are meaningful human clinical data to support an assessment that the potential benefits to patient outweigh risks. 12. Meets any other relevant medical criteria for compassionate use of the investigational product 13. Is not being transferred from an ongoing clinical trial for which they are still eligible Exclusion Criteria: 1. Patients with a known hypersensitivity to somatostatin analogs or any component of the pasireotide long acting release (LAR) or subcutaneous. formulations. 2. Patients with abnormal coagulation (prothrombin time or activated partial thromboplastin time elevated by 30% above normal limits). 3. Patients on continuous anticoagulation therapy.",
+      "title": "Compassionate Use of SOM230 for Hyperinsulinemic/Hypoglycemia",
+      "condition": NaN,
+      "doc_rank_bm25": 19,
+      "doc_score_bm25": 313.89251954025883,
+      "cross_score": -7.0738244,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00642148::eligibility::7",
+      "doc_id": "NCT00642148",
+      "section": "eligibility",
+      "passage_text": "- Subjects with any clinically relevant abnormality detected by the assessments at Visit 1 - An unwillingness of male subjects to abstain from sexual intercourse with pregnant or lactating women; or unwillingness of the male subject to use a condom/spermicide in addition to having their female partner use another form of contraception such as an intra-uterine devices, diaphragm with spermicide, oral contraceptives, injectable progesterone, subdermal implants or a tubal ligation if the woman could become pregnant from the time of the first dose of investigational product for the duration of the study (i.e., through the follow-up phase). - Subjects who have had a close household contact treated for active tuberculosis within the past 12 months, or who in the judgement of the investigator are at high risk for developing active tuberculosis, shall be excluded from the study. - A subject will not be eligible for randomisation at the end of the run-in period if either of the following criteria applies: - Subjects who have experienced an exacerbation during the run-in period requiring treatment with oral corticosteroids and/or antibiotics and/or hospitalisation.",
+      "title": "A 12 Week Study To Assess Efficacy And Safety Of GW856553 In Subjects With Chronic Obstructive Pulmonary Disease (COPD)",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 315.2261429610631,
+      "cross_score": -7.21368,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems you may be eligible for the clinical trial, but we need more details to confirm.\",\n  \"supported_patient_facts\": [\n    \"The patient is a 30-year-old man who is sexually active with his wife and does not use any contraception methods.\",\n    \"The patient has a past medical history of recurrent pneumonia, shortness of breath, and persistent cough that produces large amounts of thick sputum.\",\n    \"The patient has a past history of significant chronic asthma.\"\n  ],\n  \"missing_patient_facts\": [\n    \"The patient\u2019s current smoking status.\",\n    \"The patient\u2019s history of allergies or surgeries.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"It is unclear if the patient has a history of significant chronic asthma.\",\n    \"The patient\u2019s current smoking status is unknown.\"\n  ],\n  \"reasoning_summary\": \"The patient meets several eligibility criteria, but the presence of significant chronic asthma and smoking status are not confirmed. Further investigation is needed to determine full eligibility.\",\n  \"safety_note\": \"The patient has a history of recurrent pneumonia and significant chronic asthma, which could impact the interpretation of results. Additional safety measures should be considered.\"\n  \"support_passages\": {\n    \"patient_facing_answer\": [1, 2],\n    \"reasoning_summary\": [1, 2, 6]\n  }\n}",
+  "parsed": {},
+  "parse_ok": false,
+  "decision": "parse_fail",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [],
+  "unresolved_study_requirements": [],
+  "narrow_leak_n": 0,
+  "latency_sec": 11.229
+}

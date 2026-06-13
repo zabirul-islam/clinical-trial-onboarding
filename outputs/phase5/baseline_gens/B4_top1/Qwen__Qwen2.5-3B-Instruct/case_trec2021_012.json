@@ -1,0 +1,61 @@
+{
+  "case_id": "case_trec2021_012",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001314",
+  "selected_doc": "NCT03975998",
+  "reference_trial": "NCT03975998",
+  "evidence_trials": [
+    "NCT03975998"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03975998 | section=summary]\nRationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.",
+  "passages": [
+    {
+      "passage_id": "NCT03975998::summary::0",
+      "doc_id": "NCT03975998",
+      "section": "summary",
+      "passage_text": "Rationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 229.18460305293576,
+      "cross_score": -2.863675,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you may be eligible for the clinical trial, but we need to check a few things first.\",\n  \"supported_patient_facts\": [\n    \"34-year-old woman with Marfan's syndrome and severe mitral valve prolapse with regurgitation\",\n    \"EF of 65% on TTE\"\n  ],\n  \"missing_patient_facts\": [\n    \"Past medical history details like gestational diabetes mellitus, hypertension, obesity, c-sections, and surgeries\",\n    \"Whether you have been lost to follow-up for your planned MV repair surgery\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Whether you meet the age requirement of 18-75 years old\",\n    \"Whether you have an indication for MV surgery\"\n  ],\n  \"reasoning_summary\": \"Your condition matches the study's focus on severe organic mitral valve regurgitation with preserved left ventricular function. However, we need to confirm your age and whether you have had any indications for MV surgery, as well as gather more details about your past medical history.\",\n  \"safety_note\": \"Please note that while you seem to fit the general profile, there are unresolved safety concerns related to your specific health conditions and surgical history.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you may be eligible for the clinical trial, but we need to check a few things first.",
+    "supported_patient_facts": [
+      "34-year-old woman with Marfan's syndrome and severe mitral valve prolapse with regurgitation",
+      "EF of 65% on TTE"
+    ],
+    "missing_patient_facts": [
+      "Past medical history details like gestational diabetes mellitus, hypertension, obesity, c-sections, and surgeries",
+      "Whether you have been lost to follow-up for your planned MV repair surgery"
+    ],
+    "unresolved_study_requirements": [
+      "Whether you meet the age requirement of 18-75 years old",
+      "Whether you have an indication for MV surgery"
+    ],
+    "reasoning_summary": "Your condition matches the study's focus on severe organic mitral valve regurgitation with preserved left ventricular function. However, we need to confirm your age and whether you have had any indications for MV surgery, as well as gather more details about your past medical history.",
+    "safety_note": "Please note that while you seem to fit the general profile, there are unresolved safety concerns related to your specific health conditions and surgical history."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you may be eligible for the clinical trial, but we need to check a few things first.",
+  "missing_patient_facts": [
+    "Past medical history details like gestational diabetes mellitus, hypertension, obesity, c-sections, and surgeries",
+    "Whether you have been lost to follow-up for your planned MV repair surgery"
+  ],
+  "unresolved_study_requirements": [
+    "Whether you meet the age requirement of 18-75 years old",
+    "Whether you have an indication for MV surgery"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.087
+}

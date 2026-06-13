@@ -1,0 +1,150 @@
+{
+  "case_id": "case_trec2021_070",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00042562",
+  "selected_doc": "NCT00922233",
+  "reference_trial": "NCT00922233",
+  "evidence_trials": [
+    "NCT00006180",
+    "NCT00799214",
+    "NCT00922233",
+    "NCT01553318",
+    "NCT02769962"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 46-year-old Asian woman with MDD complains of persistent feelings of sadness and loss of interest in daily activities. She states that her mood is still depressed most of the days. She complains of loss of energy and feelings of worthlessness nearly every day. She is on anti-depressants for the past 6 months, but the symptoms are still present. She does not drink alcohol or smoke. She used to exercise every day for at least 30 min., but she doesn't have enough energy to do so for the past 3 weeks. She also has some digestive issues recently. She is married and has 4 children. She is menopausal. Her husband was diagnosed with colon cancer a year ago and is undergoing chemotherapy. Her past medical history is unremarkable. Her family history is negative for any psychologic problems. Her HAM-D score is 20. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT00922233 | section=eligibility]\n- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.\n\n[Passage 2 | doc=NCT02769962 | section=title]\nTrial of EP0057, a Nanoparticle Camptothecin With Olaparib in People With Relapsed/Refractory Small Cell Lung Cancer\n\n[Passage 3 | doc=NCT01553318 | section=detailed_description]\nApproximately 46 subjects will be participating in this research. Each subject will be randomized (like flipping a coin) to one of two groups; approximately 23 volunteers will be randomized to receive the active medication and 23 will receive the placebo. Both groups will be \"blinded\" (will not know) to which group they have been assigned. The study will be conducted at the Indiana University Clinical Research Center for Pain (CRCP), located on the IUPUI campus in the National Institute of Fitness and Sport building,at 250 University Blvd.,Suite 118 Indianapolis, Indiana, 46202. To summarize: The subject will be asked to visit the CRCP on four separate occasions: Initial Screening, Week 1, Week 2, and Week 10. This study also includes, answering questionnaires, taking study medication, maintaining a written medication diary and agreeing to remain in weekly contact with the study team to answer a short side effect questionnaire. The side effect questionnaire will be conducted from week 1-4 and then once every 2 weeks from week 4-10. Study Overview: Week 0 (clinic visit 1): 1. Informed consent and initial screening questionnaire, 2. Review of all current medications 3.\n\n[Passage 4 | doc=NCT00006180 | section=eligibility]\n- INCLUSION CRITERIA - DEPRESSED WOMEN: The patient is a woman 21 to 45 years old on the date of the initial screening. The patient is not postmenopausal. She must be willing to practice an acceptable method of birth control, as appropriate (IUD, oral contraceptives, diaphragm, condoms, hormonal implants/injection, with the exception of subdermal levonorgestrel, sterilization) and have a negative serum pregnancy test at screening. Women currently on estrogen/progestin contraceptive therapy must have been on a stable regimen of estrogen/progestin for at least 6 months prior to enter the study. The patient understands the procedures and the risks of the study and has been informed that, alternatively, she may freely elect to be treated with the currently available treatments by her physician. The patient voluntarily agrees to participate in the study. INCLUSION CRITERIA RELATED TO THE PSYCHIATRIC STATUS: The patient had at least one episode of major depression within the last 3 years (DSM-IV). In addition, the subject has a past history (prior to the last 3 years) of at least one major depressive episode lasting more than 2 weeks.\n\n[Passage 5 | doc=NCT00799214 | section=summary]\nBacterial vaginosis (BV), the world's most common vaginal infection, continues to cost patients time, energy, comfort and money. BV is associated with increased incidence of sexually transmitted infections (including HIV), spontaneous abortion, pre-term labour, post-surgical infections, and endometritis. Current treatment for those women symptomatic for BV includes both oral and intravaginal antibiotics, such as metronidazole, which have success rates of 70-80 % at 1 month after treatment. These treatments also have high recurrence rates (49-66 % at one year after treatment) and side effects (10-20 % of women) that include secondary vaginal infection with candida. Intravaginal boric acid has been used for >100 years for the treatment of vaginal infections and is quite commonly prescribed today as a treatment for BV. It is cheap, easily accessible, easy to use, and is an effective treatment of other vaginal infections, such as candida. To date, there are no clinical trials studying the effectiveness of boric acid in the treatment of BV. The objective of this study was to determine whether intravaginal BA is comparable to standard treatment, metronidazole, for the cure of BV in symptomatic women. Our research question is: Among women 16-50 years old symptomatic with BV is intravaginal treatment with BA non-inferior to metronidazole to achieve a Nugent score <7 (cure) by day 17. Hypothesis: H0: BA proportion of women cured < metronidazole proportion of women cured - 10%.\n\n[Passage 6 | doc=NCT00006180 | section=detailed_description]\nThis is a five-year study on the natural history of bone turn-over in depressed premenopausal women, ages 21 to 45 years, with normal bone mass, and the response to treatment with alendronate in depressed premenopausal women, ages 21 to 45 with low bone mass (as indicated by a bone mineral density (BMD) of negative 1.5 SD below peak bone mass at the spine and/or hip). Osteopenia is defined as a BMD at the spine and/or hip that is between negative 1.5 and negative 2.5 SD; osteoporosis is defined as a BMD that is below negative 2.5 SD at the spine and/or hip. During the initial screening, the women are evaluated for depression. Women who meet DSM-IV diagnostic criteria for Major Depressive Disorder as indicated by a structured psychiatric interview (SCID-IV and HAM-D), will then undergo a DEXA scan to determine BMD. Participants will be divided into four subcategories based on BMD results. Premenopausal depressed women with normal BMD (less than negative 1 SD below the average peak bone mass at the spine and/or hip) (Group B) will be matched by age, race, and body mass index to a control group of healthy, premenopausal, non-depressed women with normal bone mass (Group A).",
+  "passages": [
+    {
+      "passage_id": "NCT00922233::eligibility::2",
+      "doc_id": "NCT00922233",
+      "section": "eligibility",
+      "passage_text": "- She currently has known contraindications to progestin-only pills, specifically including the following conditions: - Unexplained abnormal vaginal bleeding - Deep venous thrombosis or pulmonary embolus - Active viral hepatitis - Decompensated cirrhosis - Liver tumor - History of breast cancer within the past 5 years. - Has a breast mass on examination. - Has a personal or family history suggestive of predisposition to thrombosis. - Has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide). - Taking drugs that are known to interact with progestins (such as rifampicin or anticonvulsant medications). - Has previously participated in this study. - Currently participating in another medical research study. - The site investigator or designee perceives another reason to exclude her from the trial.",
+      "title": "Pericoital Oral Contraception With Levonorgestrel",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 375.1046031110072,
+      "cross_score": -4.857968,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02769962::title::0",
+      "doc_id": "NCT02769962",
+      "section": "title",
+      "passage_text": "Trial of EP0057, a Nanoparticle Camptothecin With Olaparib in People With Relapsed/Refractory Small Cell Lung Cancer",
+      "title": "Trial of EP0057, a Nanoparticle Camptothecin With Olaparib in People With Relapsed/Refractory Small Cell Lung Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 11,
+      "doc_score_bm25": 379.15809847547047,
+      "cross_score": -5.0069766,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT01553318::detailed_description::0",
+      "doc_id": "NCT01553318",
+      "section": "detailed_description",
+      "passage_text": "Approximately 46 subjects will be participating in this research. Each subject will be randomized (like flipping a coin) to one of two groups; approximately 23 volunteers will be randomized to receive the active medication and 23 will receive the placebo. Both groups will be \"blinded\" (will not know) to which group they have been assigned. The study will be conducted at the Indiana University Clinical Research Center for Pain (CRCP), located on the IUPUI campus in the National Institute of Fitness and Sport building,at 250 University Blvd.,Suite 118 Indianapolis, Indiana, 46202. To summarize: The subject will be asked to visit the CRCP on four separate occasions: Initial Screening, Week 1, Week 2, and Week 10. This study also includes, answering questionnaires, taking study medication, maintaining a written medication diary and agreeing to remain in weekly contact with the study team to answer a short side effect questionnaire. The side effect questionnaire will be conducted from week 1-4 and then once every 2 weeks from week 4-10. Study Overview: Week 0 (clinic visit 1): 1. Informed consent and initial screening questionnaire, 2. Review of all current medications 3.",
+      "title": "Novel Use of (Oral) Ketotifen for the Treatment of Fibromyalgia: A Pilot Study",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 377.88222916579895,
+      "cross_score": -5.1723495,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00006180::eligibility::0",
+      "doc_id": "NCT00006180",
+      "section": "eligibility",
+      "passage_text": "- INCLUSION CRITERIA - DEPRESSED WOMEN: The patient is a woman 21 to 45 years old on the date of the initial screening. The patient is not postmenopausal. She must be willing to practice an acceptable method of birth control, as appropriate (IUD, oral contraceptives, diaphragm, condoms, hormonal implants/injection, with the exception of subdermal levonorgestrel, sterilization) and have a negative serum pregnancy test at screening. Women currently on estrogen/progestin contraceptive therapy must have been on a stable regimen of estrogen/progestin for at least 6 months prior to enter the study. The patient understands the procedures and the risks of the study and has been informed that, alternatively, she may freely elect to be treated with the currently available treatments by her physician. The patient voluntarily agrees to participate in the study. INCLUSION CRITERIA RELATED TO THE PSYCHIATRIC STATUS: The patient had at least one episode of major depression within the last 3 years (DSM-IV). In addition, the subject has a past history (prior to the last 3 years) of at least one major depressive episode lasting more than 2 weeks.",
+      "title": "Bone Loss in Premenopausal Women With Depression",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 373.48381469007217,
+      "cross_score": -5.1901712,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT00799214::summary::0",
+      "doc_id": "NCT00799214",
+      "section": "summary",
+      "passage_text": "Bacterial vaginosis (BV), the world's most common vaginal infection, continues to cost patients time, energy, comfort and money. BV is associated with increased incidence of sexually transmitted infections (including HIV), spontaneous abortion, pre-term labour, post-surgical infections, and endometritis. Current treatment for those women symptomatic for BV includes both oral and intravaginal antibiotics, such as metronidazole, which have success rates of 70-80 % at 1 month after treatment. These treatments also have high recurrence rates (49-66 % at one year after treatment) and side effects (10-20 % of women) that include secondary vaginal infection with candida. Intravaginal boric acid has been used for >100 years for the treatment of vaginal infections and is quite commonly prescribed today as a treatment for BV. It is cheap, easily accessible, easy to use, and is an effective treatment of other vaginal infections, such as candida. To date, there are no clinical trials studying the effectiveness of boric acid in the treatment of BV. The objective of this study was to determine whether intravaginal BA is comparable to standard treatment, metronidazole, for the cure of BV in symptomatic women. Our research question is: Among women 16-50 years old symptomatic with BV is intravaginal treatment with BA non-inferior to metronidazole to achieve a Nugent score <7 (cure) by day 17. Hypothesis: H0: BA proportion of women cured < metronidazole proportion of women cured - 10%.",
+      "title": "BASIC (Boric Acid, Alternate Solution for Intravaginal Colonization) Study",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 390.1695006142522,
+      "cross_score": -5.239007,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00006180::detailed_description::0",
+      "doc_id": "NCT00006180",
+      "section": "detailed_description",
+      "passage_text": "This is a five-year study on the natural history of bone turn-over in depressed premenopausal women, ages 21 to 45 years, with normal bone mass, and the response to treatment with alendronate in depressed premenopausal women, ages 21 to 45 with low bone mass (as indicated by a bone mineral density (BMD) of negative 1.5 SD below peak bone mass at the spine and/or hip). Osteopenia is defined as a BMD at the spine and/or hip that is between negative 1.5 and negative 2.5 SD; osteoporosis is defined as a BMD that is below negative 2.5 SD at the spine and/or hip. During the initial screening, the women are evaluated for depression. Women who meet DSM-IV diagnostic criteria for Major Depressive Disorder as indicated by a structured psychiatric interview (SCID-IV and HAM-D), will then undergo a DEXA scan to determine BMD. Participants will be divided into four subcategories based on BMD results. Premenopausal depressed women with normal BMD (less than negative 1 SD below the average peak bone mass at the spine and/or hip) (Group B) will be matched by age, race, and body mass index to a control group of healthy, premenopausal, non-depressed women with normal bone mass (Group A).",
+      "title": "Bone Loss in Premenopausal Women With Depression",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 373.48381469007217,
+      "cross_score": -5.364516,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like you might be eligible for the clinical trial, but we need to check a few things.\",\n  \"supported_patient_facts\": [\n    \"She is a 46-year-old Asian woman with Major Depressive Disorder (MDD).\",\n    \"She has been on anti-depressants for the past 6 months, but her symptoms persist.\",\n    \"She has a history of colon cancer in her husband, which she mentions.\",\n    \"She is post-menopausal.\",\n    \"She has persistent feelings of sadness and loss of interest in daily activities.\",\n    \"She experiences fatigue and feelings of worthlessness.\",\n    \"She has digestive issues recently.\",\n    \"She is married and has 4 children.\",\n    \"She is willing to practice an acceptable method of birth control.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Her current level of physical activity.\",\n    \"The specific details of her digestive issues.\",\n    \"Whether she has a history of deep venous thrombosis or pulmonary embolus.\",\n    \"Whether she has a history of breast cancer within the past 5 years.\",\n    \"Whether she has a personal or family history suggestive of predisposition to thrombosis.\",\n    \"Whether she has a serious contraindication to pregnancy.\",\n    \"Whether she is currently participating in another medical research study.\",\n    \"Whether she has previously participated in this study.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"The site investigator or designee\u2019s perception regarding her eligibility.\",\n    \"Whether she has a known contraindication to progestin-only pills.\",\n    \"Whether she has a history of breast mass on examination.\",\n    \"Whether she has a personal or family history suggestive of predisposition to thrombosis.\",\n    \"Whether she has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide).\"\n  ],\n  \"reasoning_summary\": \"The patient meets the inclusion criteria for being a depressed woman aged 21 to 45 years old, willing to practice an acceptable method of birth control, and having a history of major depression. However, several key pieces of information are missing or require further clarification, such as her current level of physical activity, digestive issues specifics, and potential contraindications to certain medications.\",\n  \"safety_note\": \"It is important to note that while the patient appears eligible based on the provided information, there are unresolved safety concerns related to her potential contraindications to certain medications and her history of colon cancer. These factors should be thoroughly reviewed before enrollment.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "She is a 46-year-old Asian woman with Major Depressive Disorder (MDD).",
+      "She has been on anti-depressants for the past 6 months, but her symptoms persist.",
+      "She has a history of colon cancer in her husband, which she mentions.",
+      "She is post-menopausal.",
+      "She has persistent feelings of sadness and loss of interest in daily activities.",
+      "She experiences fatigue and feelings of worthlessness.",
+      "She has digestive issues recently.",
+      "She is married and has 4 children.",
+      "She is willing to practice an acceptable method of birth control."
+    ],
+    "missing_patient_facts": [
+      "Her current level of physical activity.",
+      "The specific details of her digestive issues.",
+      "Whether she has a history of deep venous thrombosis or pulmonary embolus.",
+      "Whether she has a history of breast cancer within the past 5 years.",
+      "Whether she has a personal or family history suggestive of predisposition to thrombosis.",
+      "Whether she has a serious contraindication to pregnancy.",
+      "Whether she is currently participating in another medical research study.",
+      "Whether she has previously participated in this study."
+    ],
+    "unresolved_study_requirements": [
+      "The site investigator or designee\u2019s perception regarding her eligibility.",
+      "Whether she has a known contraindication to progestin-only pills.",
+      "Whether she has a history of breast mass on examination.",
+      "Whether she has a personal or family history suggestive of predisposition to thrombosis.",
+      "Whether she has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide)."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to note that while the patient appears eligible based on the provided information, there are unresolved safety concerns related to her potential contraindications to certain medications and her history of colon cancer. These factors should be thoroughly reviewed before enrollment."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "Her current level of physical activity.",
+    "The specific details of her digestive issues.",
+    "Whether she has a history of deep venous thrombosis or pulmonary embolus.",
+    "Whether she has a history of breast cancer within the past 5 years.",
+    "Whether she has a personal or family history suggestive of predisposition to thrombosis.",
+    "Whether she has a serious contraindication to pregnancy.",
+    "Whether she is currently participating in another medical research study.",
+    "Whether she has previously participated in this study."
+  ],
+  "unresolved_study_requirements": [
+    "The site investigator or designee\u2019s perception regarding her eligibility.",
+    "Whether she has a known contraindication to progestin-only pills.",
+    "Whether she has a history of breast mass on examination.",
+    "Whether she has a personal or family history suggestive of predisposition to thrombosis.",
+    "Whether she has a serious contraindication to pregnancy (medical condition or use of chronic medication such as isotretinoin or thalidomide)."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 20.569
+}

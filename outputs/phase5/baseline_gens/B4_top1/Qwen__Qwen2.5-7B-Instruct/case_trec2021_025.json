@@ -1,0 +1,62 @@
+{
+  "case_id": "case_trec2021_025",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001250",
+  "selected_doc": "NCT02515110",
+  "reference_trial": "NCT02515110",
+  "evidence_trials": [
+    "NCT02515110"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 42 year-old postmenopausal woman who had a screening sonogram which revealed an abnormality in the right breast. She had no palpable masses on breast exam. Core biopsy was done and revealed a 1.8 cm infiltrating ductal breast carcinoma in the left upper outer quadrant. Lumpectomy was done and the surgical margins were clear. The tumor was HER2-positive and ER/PR negative. Axillary sampling revealed 1 positive lymph node out of 12 sampled. CXR was unremarkable. She is using \u201cwell women\u201d multivitamins daily and no other medication. She smokes frequently and consumes alcohol occasionally. She is in a relation with only one partner and has a history of 3 pregnancies and live births. She breastfed all three children. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02515110 | section=detailed_description]\nThe HeNRIetta Trial is a phase 2 non-randomized clinical trial to evaluate the safety and effectiveness of hypofractionated RNI for women with resected node-positive breast cancer. The study hypothesis is that a 3-4 week hypofractionated course of post-lumpectomy or postmastectomy EBRT is as safe and effective as the biologically equivalent dose given in conventional fractionation over 5-7 weeks. Eligible patients are women \u2265 40 years old who have undergone definitive surgery for node-positive breast cancer. Surgery may have been lumpectomy, mastectomy without reconstruction, or mastectomy with reconstruction. Nodal staging may have been performed by only sentinel lymph node (SLN) or by axillary lymph node (ALN) dissection. Patients may have received neoadjuvant or adjuvant chemotherapy at the discretion of the treating medical oncologist. Breast and RNI will be administered to 42.56 Gy in 16 fractions.",
+  "passages": [
+    {
+      "passage_id": "NCT02515110::detailed_description::0",
+      "doc_id": "NCT02515110",
+      "section": "detailed_description",
+      "passage_text": "The HeNRIetta Trial is a phase 2 non-randomized clinical trial to evaluate the safety and effectiveness of hypofractionated RNI for women with resected node-positive breast cancer. The study hypothesis is that a 3-4 week hypofractionated course of post-lumpectomy or postmastectomy EBRT is as safe and effective as the biologically equivalent dose given in conventional fractionation over 5-7 weeks. Eligible patients are women \u2265 40 years old who have undergone definitive surgery for node-positive breast cancer. Surgery may have been lumpectomy, mastectomy without reconstruction, or mastectomy with reconstruction. Nodal staging may have been performed by only sentinel lymph node (SLN) or by axillary lymph node (ALN) dissection. Patients may have received neoadjuvant or adjuvant chemotherapy at the discretion of the treating medical oncologist. Breast and RNI will be administered to 42.56 Gy in 16 fractions.",
+      "title": "Hypofractionated Regional Nodal Irradiation Clinical Trial for Women With Breast Cancer",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 318.2036971091409,
+      "cross_score": -1.2103786,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Your eligibility for this clinical trial is uncertain based on the information provided. We need more details to make a final determination.\",\n  \"supported_patient_facts\": [\"42 years old\", \"node-positive breast cancer\", \"underwent lumpectomy with clear margins\"],\n  \"missing_patient_facts\": [\"HER2-positive status\", \"ER/PR-negative status\", \"number of positive lymph nodes in axillary sampling\"],\n  \"unresolved_study_requirements\": [\"no randomization involved in the study design\"],\n  \"reasoning_summary\": \"The patient meets the age requirement and has node-positive breast cancer with clear surgical margins. However, the exact number of positive lymph nodes and HER2 and hormone receptor statuses are unclear. Additionally, the study is non-randomized, which might affect her eligibility.\",\n  \"safety_note\": \"The patient's smoking and alcohol consumption habits should be reviewed for potential safety concerns.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Your eligibility for this clinical trial is uncertain based on the information provided. We need more details to make a final determination.",
+    "supported_patient_facts": [
+      "42 years old",
+      "node-positive breast cancer",
+      "underwent lumpectomy with clear margins"
+    ],
+    "missing_patient_facts": [
+      "HER2-positive status",
+      "ER/PR-negative status",
+      "number of positive lymph nodes in axillary sampling"
+    ],
+    "unresolved_study_requirements": [
+      "no randomization involved in the study design"
+    ],
+    "reasoning_summary": "The patient meets the age requirement and has node-positive breast cancer with clear surgical margins. However, the exact number of positive lymph nodes and HER2 and hormone receptor statuses are unclear. Additionally, the study is non-randomized, which might affect her eligibility.",
+    "safety_note": "The patient's smoking and alcohol consumption habits should be reviewed for potential safety concerns."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Your eligibility for this clinical trial is uncertain based on the information provided. We need more details to make a final determination.",
+  "missing_patient_facts": [
+    "HER2-positive status",
+    "ER/PR-negative status",
+    "number of positive lymph nodes in axillary sampling"
+  ],
+  "unresolved_study_requirements": [
+    "no randomization involved in the study design"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.729
+}

@@ -1,0 +1,127 @@
+{
+  "case_id": "case_paraphrase_023",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02629549",
+  "reference_trial": "NCT02629549",
+  "evidence_trials": [
+    "NCT00921609",
+    "NCT00993356",
+    "NCT02629549",
+    "NCT02952885",
+    "NCT03548415",
+    "NCT04066569"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.\n\n[Passage 2 | doc=NCT04066569 | section=eligibility]\nInclusion Criteria: - Acromegalic subjects - Men or women, adults \u2264 85 years, with hypersecretion of GH proven by the following criteria: - High IGF-I compared to age and sex standards (Variety study, Chanson et al., 2016) - and basal GH concentrations > 0.4 \u03bcg / L (Katznelson, et al., 2014) and somatotropic pituitary adenoma operated on or planned to be operated on. It may be patients whose acromegaly has just been discovered and not yet treated (de novo patients) for whom a surgical treatment is envisaged within 6 months after inclusion or acromegalic patients already operated on a pituitary adenoma whose acromegaly is not controlled by surgery. A histological confirmation of a somatotropic pituitary adenoma will be obtained either before inclusion in the study (subjects already operated) or after inclusion (\"de novo\" subjects) in order to have a sufficient level of proof of the diagnosis of acromegaly, especially in the \"intermediate\" forms. - Medically treated patients who decide to discontinue treatment (in order to reassess the progression of the disease, or at the time of a change), will be eligible after more than 3 months of discontinuation of the drug treatment.\n\n[Passage 3 | doc=NCT00921609 | section=summary]\nAcromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.\n\n[Passage 4 | doc=NCT03548415 | section=eligibility]\nInclusion Criteria: 1. Males or females with documented diagnosis of Acromegaly, aged 18-75 years old (inclusive) at the time of informed consent 2. Patients must be on stable maximum or maximally tolerated dose of SRL (Lanreotide Autogel or Octreotide LAR, per treating physician judgment) every 28 days for a minimum of 3 months prior to screening and will be required to continue their stable dose of SRL throughout the study. Prior use of other medications for treating acromegaly is allowed but not within 6 weeks of screening. 3. At Screening, serum IGF-1 (performed at central lab) between 1.3 to 5 x ULN, inclusive, adjusted for age and sex 4. Females must be non-pregnant and non-lactating, and either surgically sterile, post-menopausal, abstinent, or using 1 highly effective method of birth control Exclusion Criteria: 1. Patients who received surgery for pituitary adenoma within the last 6 months before the trial, or planning to receive surgery during the trial 2. Patients who received radiotherapy for pituitary adenoma within the last 3 years before the trial, and/or planning to receive radiotherapy during the trial 3.\n\n[Passage 5 | doc=NCT02952885 | section=eligibility]\nInclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.\n\n[Passage 6 | doc=NCT00993356 | section=detailed_description]\nAcromegaly is a rare disease, caused by a growth hormone (GH)-secreting adenoma and in even more seldom instances (about 1%) due to excessive growth hormone-releasing hormone (GHRH) secretion, usually by a carcinoid tumor of the lung or gastrointestinal tract. The incidence of acromegaly is about 3-4 per 1 million per year and the prevalence is 60-70 per 1 million, without geographical or sex differences. Clinical features of acromegaly include acral enlargement, prognathism, jaw malocclusion, arthropathy, carpal tunnel syndrome, hyperhydrosis, sleep apnea, and visceromegaly. Transsphenoidal neurosurgery, allowing selective removal of the pituitary adenoma, is the current first treatment for acromegaly in the majority of patients. Its effects on GH and insulin-like growth factor I (IGF-I) secretion are rapid and operations have a low morbidity and very low mortality. However, surgery for macroadenomas causing acromegaly has a much lower surgical success rate than that for microadenomas. In experienced hands, microadenomas can be expected to be cured in around 90%, whereas with macroadenomas the figure is around 50%.",
+  "passages": [
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 311.9921577109649,
+      "cross_score": -2.7769966,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT04066569::eligibility::0",
+      "doc_id": "NCT04066569",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Acromegalic subjects - Men or women, adults \u2264 85 years, with hypersecretion of GH proven by the following criteria: - High IGF-I compared to age and sex standards (Variety study, Chanson et al., 2016) - and basal GH concentrations > 0.4 \u03bcg / L (Katznelson, et al., 2014) and somatotropic pituitary adenoma operated on or planned to be operated on. It may be patients whose acromegaly has just been discovered and not yet treated (de novo patients) for whom a surgical treatment is envisaged within 6 months after inclusion or acromegalic patients already operated on a pituitary adenoma whose acromegaly is not controlled by surgery. A histological confirmation of a somatotropic pituitary adenoma will be obtained either before inclusion in the study (subjects already operated) or after inclusion (\"de novo\" subjects) in order to have a sufficient level of proof of the diagnosis of acromegaly, especially in the \"intermediate\" forms. - Medically treated patients who decide to discontinue treatment (in order to reassess the progression of the disease, or at the time of a change), will be eligible after more than 3 months of discontinuation of the drug treatment.",
+      "title": "Reproducibility and Utility of OGTT in Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 306.2631190284061,
+      "cross_score": -3.0533051,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00921609::summary::0",
+      "doc_id": "NCT00921609",
+      "section": "summary",
+      "passage_text": "Acromegaly is a rare disorder characterized by excessive production of growth hormone most often by a pituitary adenoma. A pituitary adenoma is a tumor, almost always benign or non-cancerous, that grows on the pituitary, a small gland located at the base of the brain. Treatment of acromegaly usually involves surgery, medication, or radiation, but can involve a combination of these three treatments. Subjects for this study will be recruited if they are: 1. Adults, male or female, between the ages of 18-90. 2. Have been diagnosed with acromegaly, based on elevated levels of growth hormone, IGF-I (a hormone made in response to growth hormone), and a pituitary adenoma visualized on an MRI. 3. Patients would have already agreed to have their acromegaly treated with surgery prior to study entry. Subjects will have measurements of growth hormone using an oral glucose tolerance test (OGTT), IGF-I, free IGF-I and levels of IGF binding proteins at four time points after their pituitary surgery: Day 1, Day 42 (6 weeks), Day 84 (12 weeks), and day 365 (1 year). Subjects will also have an MRI of the pituitary done at 12 weeks and 1 year. OGTT and IGF-I are routinely measured to assess whether or not a person is cured of their acromegaly. An MRI of the pituitary is routinely done at 12 weeks and 1 year after surgery to assess the results of surgery. Free IGF-I and IGF binding proteins are not routinely measured after surgery, but are being done to see if they relate more strongly to disease activity than IGF-I and growth hormone. OGTT and the IGF-I binding proteins are not routinely measured on the day after surgery, but are being done to examine the predictive ability of these tests at a very early time after surgery. Data obtained from these tests will be compared to the data gathered at the 1 year time point. IGF-I and growth hormone will be measured by a commercial clinical lab, Quest Diagnostics, for clinical decision-making at the time of service. IGF-I and growth hormone will also be measured using other methods to attempt to investigate the variability of these hormones when different assays are used.",
+      "title": "Peri-operative Dynamics of the Growth Hormone Axis in Subjects With Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 343.7188954339996,
+      "cross_score": -3.2382607,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03548415::eligibility::0",
+      "doc_id": "NCT03548415",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Males or females with documented diagnosis of Acromegaly, aged 18-75 years old (inclusive) at the time of informed consent 2. Patients must be on stable maximum or maximally tolerated dose of SRL (Lanreotide Autogel or Octreotide LAR, per treating physician judgment) every 28 days for a minimum of 3 months prior to screening and will be required to continue their stable dose of SRL throughout the study. Prior use of other medications for treating acromegaly is allowed but not within 6 weeks of screening. 3. At Screening, serum IGF-1 (performed at central lab) between 1.3 to 5 x ULN, inclusive, adjusted for age and sex 4. Females must be non-pregnant and non-lactating, and either surgically sterile, post-menopausal, abstinent, or using 1 highly effective method of birth control Exclusion Criteria: 1. Patients who received surgery for pituitary adenoma within the last 6 months before the trial, or planning to receive surgery during the trial 2. Patients who received radiotherapy for pituitary adenoma within the last 3 years before the trial, and/or planning to receive radiotherapy during the trial 3.",
+      "title": "Safety, Tolerability, and Efficacy of IONIS-GHR-LRx in Patients With Acromegaly Being Treated With Long-acting Somatostatin Receptor Ligands",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 302.8462389836988,
+      "cross_score": -3.2822585,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02952885::eligibility::0",
+      "doc_id": "NCT02952885",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Adult patients (at least 18 years old) with confirmed acromegaly whose IGF-I levels are persistently but modestly (1.0 ULN < [IGF-1 serum level] < 1.5 ULN) elevated following medical therapy such as SSA, PEGV, cabergoline alone or in combination. Exclusion Criteria: 1. Progressive or recent visual field loss or optic chiasmal compression, or pituitary tumors within 2mm from the chiasm. Patients whose visual field loss, optic chiasmal compression or pituitary tumor has been stable for at least a year will be eligible. 2. Cranial nerve palsies or intracranial hypertension requiring tumour decompression surgery 3. Clinically significant hepatic disease and/or elevated liver enzymes (ALT, AST > 3 x ULN) 4. Patients who have received pituitary surgery within one year prior to screening visit 5. Patients who have received radiation therapy within one year prior to screening visit 6. History of hypersensitivity to any components of Pegvisomant 7. Inability to fully comprehend the nature of the study or cooperate with study procedures 8. Pregnant / lactating women and subjects refusing to use adequate contraception to prevent pregnancy during the study. 9.",
+      "title": "Strict IGF-1 Control in Acromegaly",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 306.7274302086924,
+      "cross_score": -3.7922263,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00993356::detailed_description::0",
+      "doc_id": "NCT00993356",
+      "section": "detailed_description",
+      "passage_text": "Acromegaly is a rare disease, caused by a growth hormone (GH)-secreting adenoma and in even more seldom instances (about 1%) due to excessive growth hormone-releasing hormone (GHRH) secretion, usually by a carcinoid tumor of the lung or gastrointestinal tract. The incidence of acromegaly is about 3-4 per 1 million per year and the prevalence is 60-70 per 1 million, without geographical or sex differences. Clinical features of acromegaly include acral enlargement, prognathism, jaw malocclusion, arthropathy, carpal tunnel syndrome, hyperhydrosis, sleep apnea, and visceromegaly. Transsphenoidal neurosurgery, allowing selective removal of the pituitary adenoma, is the current first treatment for acromegaly in the majority of patients. Its effects on GH and insulin-like growth factor I (IGF-I) secretion are rapid and operations have a low morbidity and very low mortality. However, surgery for macroadenomas causing acromegaly has a much lower surgical success rate than that for microadenomas. In experienced hands, microadenomas can be expected to be cured in around 90%, whereas with macroadenomas the figure is around 50%.",
+      "title": "Preoperative Lanreotide Treatment in Acromegalic Patients With Macroadenomas",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 324.2956215903216,
+      "cross_score": -3.9632416,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you may be eligible for certain clinical trials related to acromegaly. However, there are some unresolved requirements and missing details that need to be confirmed.\",\n  \"supported_patient_facts\": [\n    \"Age: 41 years old\",\n    \"Diagnosis of acromegaly due to pituitary adenoma\",\n    \"Underwent transsphenoidal surgery 4 months ago\"\n  ],\n  \"missing_patient_facts\": [\n    \"IGF-1 level adjusted for age and sex (within the range of 1.3 to 5 x ULN)\",\n    \"Random GH level (must be > 0.4 \u03bcg/L)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"Confirmation of residual pituitary tumor via MRI\",\n    \"No recent pituitary surgery (within the last 6 months)\"\n  ],\n  \"reasoning_summary\": \"The patient meets the age and diagnosis criteria for several clinical trials. However, the IGF-1 and GH levels need to be confirmed, and there are unresolved requirements regarding the residual tumor and recent surgery history.\",\n  \"safety_note\": \"Be aware that the risks and side effects of participating in a clinical trial can vary depending on the specific study. Common risks include potential adverse reactions to investigational drugs, additional diagnostic procedures, and the possibility of not receiving the standard of care.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you may be eligible for certain clinical trials related to acromegaly. However, there are some unresolved requirements and missing details that need to be confirmed.",
+    "supported_patient_facts": [
+      "Age: 41 years old",
+      "Diagnosis of acromegaly due to pituitary adenoma",
+      "Underwent transsphenoidal surgery 4 months ago"
+    ],
+    "missing_patient_facts": [
+      "IGF-1 level adjusted for age and sex (within the range of 1.3 to 5 x ULN)",
+      "Random GH level (must be > 0.4 \u03bcg/L)"
+    ],
+    "unresolved_study_requirements": [
+      "Confirmation of residual pituitary tumor via MRI",
+      "No recent pituitary surgery (within the last 6 months)"
+    ],
+    "reasoning_summary": "The patient meets the age and diagnosis criteria for several clinical trials. However, the IGF-1 and GH levels need to be confirmed, and there are unresolved requirements regarding the residual tumor and recent surgery history.",
+    "safety_note": "Be aware that the risks and side effects of participating in a clinical trial can vary depending on the specific study. Common risks include potential adverse reactions to investigational drugs, additional diagnostic procedures, and the possibility of not receiving the standard of care."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you may be eligible for certain clinical trials related to acromegaly. However, there are some unresolved requirements and missing details that need to be confirmed.",
+  "missing_patient_facts": [
+    "IGF-1 level adjusted for age and sex (within the range of 1.3 to 5 x ULN)",
+    "Random GH level (must be > 0.4 \u03bcg/L)"
+  ],
+  "unresolved_study_requirements": [
+    "Confirmation of residual pituitary tumor via MRI",
+    "No recent pituitary surgery (within the last 6 months)"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 24.418
+}

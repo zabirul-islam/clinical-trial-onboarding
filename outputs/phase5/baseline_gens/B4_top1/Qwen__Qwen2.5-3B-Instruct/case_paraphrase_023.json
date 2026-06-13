@@ -1,0 +1,67 @@
+{
+  "case_id": "case_paraphrase_023",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "paraphrase_trec2021",
+  "category": "risk_request",
+  "gold_nct": "",
+  "selected_doc": "NCT02629549",
+  "reference_trial": "NCT02629549",
+  "evidence_trials": [
+    "NCT02629549"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: The patient is a 41-year-old man and a known case of Acromegaly who underwent transsphenoidal surgery 4 months ago. He came to the clinic for the follow up lab studies after his primary resection surgery. His lab study shows the IGF-1 level of 4.5 ULN adjusted by sex and age. His random GH level is 4 ug/L. The recent brain MRI confirmed the residual pituitary tumor. His past medical history is only significant for acromegaly due to pituitary adenoma and the recent surgery. After his surgery he takes only vitamin D and multivitamins. What are the risks or side-effects I should be aware of in this study?",
+  "evidence": "[Passage 1 | doc=NCT02629549 | section=detailed_description]\nPituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+  "passages": [
+    {
+      "passage_id": "NCT02629549::detailed_description::0",
+      "doc_id": "NCT02629549",
+      "section": "detailed_description",
+      "passage_text": "Pituitary adenomas have an estimated prevalence in the population of approximately 10%, and although they are predominantly benign tumors, they can cause significant disability from mass effect (visual field deficits and cranial nerve deficits) and from hypersecretory syndromes (Cushing's disease, acromegaly, hyperprolactinemia). Approximately 30% of all pituitary adenomas are nonfunctioning or endocrinologically silent, and despite the lack of hormonal overexpression they represent the great majority of patients of who undergo surgery given the threat of apoplexy and compression of adjacent neural structures. Surgical resection via transsphenoidal surgery remains the primary treatment modality for almost all pituitary adenomas except prolactinomas. Residual tumor, however, is quite common after surgical resection and is seen in up to 20% of surgical cases. By ensuring a negative margin through imaging during surgery, it would be possible to minimize the need for postoperative radiation therapy and/or radiosurgery and subsequent surgery as well.",
+      "title": "Intraoperative Imaging of Pituitary Adenomas by OTL",
+      "condition": NaN,
+      "doc_rank_bm25": 10,
+      "doc_score_bm25": 311.9921577109649,
+      "cross_score": -2.7769966,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on your information, you seem to be a good candidate for this clinical trial. However, we still need to check a few things before we can confirm your eligibility.\",\n  \"supported_patient_facts\": [\"The patient is a 41-year-old man with a history of Acromegaly due to a pituitary adenoma.\", \"He underwent transsphenoidal surgery 4 months ago.\", \"His recent brain MRI confirms the presence of a residual pituitary tumor.\", \"His IGF-1 level is within normal limits adjusted by sex and age.\", \"His GH level is slightly elevated at 4 ug/L.\", \"He is currently taking only vitamin D and multivitamins after surgery.\"],\n  \"missing_patient_facts\": [\"The patient's current hormone levels, specifically growth hormone (GH) and insulin-like growth factor 1 (IGF-1), may need to be checked again to ensure they are stable post-surgery.\", \"The patient's response to the current treatment regimen, including vitamin D and multivitamins, needs to be evaluated.\", \"Further imaging or additional tests might be required to assess the status of the residual pituitary tumor.\"],\n  \"unresolved_study_requirements\": [\"We need to confirm that the patient has no contraindications to participation in the study based on their medical history and current medications.\", \"We also need to ensure that the patient has completed all necessary pre-study evaluations and has no active health conditions that could interfere with the study protocol.\"],\n  \"reasoning_summary\": \"While the patient meets many of the criteria for the study, there are some uncertainties regarding their current hormone levels and the need for further imaging. These factors require additional checks to finalize the patient's eligibility.\",\n  \"safety_note\": \"Please note that while you seem to be a suitable candidate for this study, there are still some safety considerations and potential side effects that you should be aware of. Your doctor will provide more detailed information about these once you are enrolled.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on your information, you seem to be a good candidate for this clinical trial. However, we still need to check a few things before we can confirm your eligibility.",
+    "supported_patient_facts": [
+      "The patient is a 41-year-old man with a history of Acromegaly due to a pituitary adenoma.",
+      "He underwent transsphenoidal surgery 4 months ago.",
+      "His recent brain MRI confirms the presence of a residual pituitary tumor.",
+      "His IGF-1 level is within normal limits adjusted by sex and age.",
+      "His GH level is slightly elevated at 4 ug/L.",
+      "He is currently taking only vitamin D and multivitamins after surgery."
+    ],
+    "missing_patient_facts": [
+      "The patient's current hormone levels, specifically growth hormone (GH) and insulin-like growth factor 1 (IGF-1), may need to be checked again to ensure they are stable post-surgery.",
+      "The patient's response to the current treatment regimen, including vitamin D and multivitamins, needs to be evaluated.",
+      "Further imaging or additional tests might be required to assess the status of the residual pituitary tumor."
+    ],
+    "unresolved_study_requirements": [
+      "We need to confirm that the patient has no contraindications to participation in the study based on their medical history and current medications.",
+      "We also need to ensure that the patient has completed all necessary pre-study evaluations and has no active health conditions that could interfere with the study protocol."
+    ],
+    "reasoning_summary": "While the patient meets many of the criteria for the study, there are some uncertainties regarding their current hormone levels and the need for further imaging. These factors require additional checks to finalize the patient's eligibility.",
+    "safety_note": "Please note that while you seem to be a suitable candidate for this study, there are still some safety considerations and potential side effects that you should be aware of. Your doctor will provide more detailed information about these once you are enrolled."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on your information, you seem to be a good candidate for this clinical trial. However, we still need to check a few things before we can confirm your eligibility.",
+  "missing_patient_facts": [
+    "The patient's current hormone levels, specifically growth hormone (GH) and insulin-like growth factor 1 (IGF-1), may need to be checked again to ensure they are stable post-surgery.",
+    "The patient's response to the current treatment regimen, including vitamin D and multivitamins, needs to be evaluated.",
+    "Further imaging or additional tests might be required to assess the status of the residual pituitary tumor."
+  ],
+  "unresolved_study_requirements": [
+    "We need to confirm that the patient has no contraindications to participation in the study based on their medical history and current medications.",
+    "We also need to ensure that the patient has completed all necessary pre-study evaluations and has no active health conditions that could interfere with the study protocol."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 15.451
+}

@@ -1,0 +1,123 @@
+{
+  "case_id": "case_trec2021_013",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B1_multi_rag",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00005985",
+  "selected_doc": "NCT03187795",
+  "reference_trial": "NCT03187795",
+  "evidence_trials": [
+    "NCT02021032",
+    "NCT02591901",
+    "NCT03187795",
+    "NCT03499964"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 62 yo male with hx of CVA, neurogenic bladder with indwelling suprapubic catheter with multiple prior admissions for UTIs, altered mental status, and urosepsis presents to the hospital in urosepsis now resolved after treatment with vanc/meropenem. Per CT there is a non-obstructing stone in the L ureter, no evidence of urethral strictures. Significant leaking around suprapubic cath site. Started on ditropan changed over to detrol. Urologist not concerned with leaking and will f/u with pt next week. s/p CVA Neurogenic bladder s/p suprapubic cath Recurrent UTIs with Klebsiella/Pseudomonas Non-hodgkins Marginal Zone Lymphoma of the left orbit Dx in 03 (s/p R-CHOP x 6 cycles) Bells Palsy BPH Hypertension Partial Bowel obstruction s/p colostomy Hepatitis C Cryoglobulinemia SLE with transverse myelitis, anti-dsDNA Ab+ Insulin Dependant Diabetic Fungal Esophagitis Stage IV? Urinary Tract Infections-pseudomonas & enterococcus Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03187795 | section=eligibility]\nInclusion Criteria: - The subject has a neurological impairment secondary to a traumatic spinal cord injury that occurred at least twelve (12) months prior to the screening visit. - The injury is classified as complete or incomplete (AIS grade A-D) and the neurological level of the injury is above T12. - The subject's method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic). - There is urodynamic documentation of neurogenic detrusor overactivity (NDO). - The subject is on a stable dose of oxybutynin IR three times daily. - The subject is able and willing to comply with the study protocol, including availability for all scheduled clinic visits and locomotor training sessions. - The subject is able to and has voluntarily given informed consent prior to the performance of any study-specific procedures. Exclusion Criteria: - The subject has taken mirabegron within one month of the Screening Visit. - The subject has received a botulinum toxin injection to the bladder within one year of the Screening Visit. - The subject is allergic to mirabegron.\n\n[Passage 2 | doc=NCT02591901 | section=detailed_description]\nBefore investigating the effects of this promising new vaccine in patients with neurogenic bladder dysfunction, two crucial issues will need to be clarified. First, consensus must be reached on how to measure a symptomatic UTI in this group of patients. Second, the feasibility of carrying out a larger, definitive randomised controlled trial on the prevention of symptomatic UTI in patients with neurogenic bladder dysfunction must be established. The central aim of the proposed mixed method study is to clarify these two key methodological and feasibility issues. In the first stage of this study is to carry out qualitative interviews to explore patient experiences and views of symptoms and signs associated with a UTI. These results, combined with findings from a literature review, will enable the design of a quantitative patient survey which will be distributed by four service user organisations to people with neurogenic bladder dysfunction. Finally, taking the results from all preceding stages, a final definition, or algorithm, will be discussed before and during a consensus meeting.\n\n[Passage 3 | doc=NCT02591901 | section=detailed_description]\nIn the second stage of this study, a small-scale parallel, double-blinded, randomised, placebo-controlled, multicentre trial will be conducted to investigate the feasibility of carrying out a larger well-powered study on the prevention of symptomatic UTI in patients with neurogenic bladder dysfunction. Forty-eight patients will be randomly assigned treatment with Uro-Vaxom\u00ae, or placebo, for 3 months and followed-up for a further 3 months. This is to expose any pitfalls or areas requiring re-designing, such as logistics, recruitment and compliance rates, in order to refine the protocol of a definitive clinical trial.\n\n[Passage 4 | doc=NCT02021032 | section=eligibility]\n- Subject with previous pelvic irradiation or radial pelvic surgery - Subject having large, obstructive middle lobe - Previous rectal surgery (other than hemorrhoidectomy) or history of rectal disease. - Subject with urethral stricture and/or bladder stones - Active urinary tract infection. - Subject with neurogenic bladder and/or sphincter abnormalities due to Parkinson's, multiple sclerosis, cerebrovascular accident (CVA), diabetes, or other disease process. - Residual bladder volume >250 mL measured by ultrasound. - Compromised renal function (i.e., serum creatinine levels above 1.8 mg/dL). - Cardiac pacemaker or metallic implants or staples, etc. in the pelvic or femoral area. - Concomitant medicating of the following: 1. Bladder antispasmodics (Ditropan or Detrol) within one week of treatment, unless there is documented evidence that the subject has been on the same drug dose for at least three months with a stable voiding pattern. The drug dose will not be altered or discontinued for the entrance into or throughout the study. 2. 5-alpha reductase inhibitors and gonadotropin releasing hormonal analog. 3. Alpha blockers, antidepressants, androgens, within one week of treatment.\n\n[Passage 5 | doc=NCT03187795 | section=detailed_description]\nNeurogenic detrusor overactivity or \"NDO\" is common in people with spinal cord injury (SCI) and is a medical condition characterized by involuntary urinary bladder contractions. These bladder contractions can cause episodes of urinary incontinence (involuntary urine leakage) and/or high bladder pressures that can lead to poor drainage from the kidneys and urinary tract infections (UTIs). Neurogenic detrusor overactivity is most commonly treated with a medication called oxybutynin (Ditropan); however, this medication is associated with side effects such as dry mouth and constipation. Mirabegron (Myrbetriq) is a newer medication approved by the Food and Drug Administration for the treatment of overactive bladder that does not cause dry mouth or constipation; however, its use in persons with SCI is investigational. The purpose of this research study is to determine the effectiveness and safety of mirabegron compared to oxybutynin chloride immediate release (oxybutynin IR) for neurogenic detrusor overactivity in individuals with SCI.\n\n[Passage 6 | doc=NCT03499964 | section=eligibility]\nDiagnosis of carcinoma of the urethra, bladder or prostate within the last two (2) years 12. Active kidney, bladder, urethral or ureteral stone passage in the last six (6) weeks or concern of stone passage in the next 6 weeks at the discretion of the investigator. 13. Diagnosis of chronic renal failure and treatment with hemodialysis 14. New diagnosis of OAB (overactive bladder) within the last six (6) months 15. Use of alpha blockers, beta blockers, OAB (Overactive Bladder) medication, anticonvulsants (drugs that prevent or reduce the severity and frequency of seizures), and antispasmodics where the dose is not stable. (Stable dose is defined as having the same medication and dose in the last six months.) 16. Dependence on Botox (onabotulinumtoxinA) in urinary system 17. Presence of an artificial urinary sphincter, slings, or stent(s) in the urethra or prostate 18. Known neurogenic bladder, sphincter abnormalities, or poor detrusor muscle function 19. Diagnosed with Lichen Sclerosus, or stricture due to balanitis xerotica obliterans (BXO) 20. Previous hypospadias repair 21.",
+  "passages": [
+    {
+      "passage_id": "NCT03187795::eligibility::0",
+      "doc_id": "NCT03187795",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - The subject has a neurological impairment secondary to a traumatic spinal cord injury that occurred at least twelve (12) months prior to the screening visit. - The injury is classified as complete or incomplete (AIS grade A-D) and the neurological level of the injury is above T12. - The subject's method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic). - There is urodynamic documentation of neurogenic detrusor overactivity (NDO). - The subject is on a stable dose of oxybutynin IR three times daily. - The subject is able and willing to comply with the study protocol, including availability for all scheduled clinic visits and locomotor training sessions. - The subject is able to and has voluntarily given informed consent prior to the performance of any study-specific procedures. Exclusion Criteria: - The subject has taken mirabegron within one month of the Screening Visit. - The subject has received a botulinum toxin injection to the bladder within one year of the Screening Visit. - The subject is allergic to mirabegron.",
+      "title": "Mirabegron and Oxybutynin Safety and Efficacy Trial in Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 296.9700883448082,
+      "cross_score": -5.142822,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT02591901::detailed_description::2",
+      "doc_id": "NCT02591901",
+      "section": "detailed_description",
+      "passage_text": "Before investigating the effects of this promising new vaccine in patients with neurogenic bladder dysfunction, two crucial issues will need to be clarified. First, consensus must be reached on how to measure a symptomatic UTI in this group of patients. Second, the feasibility of carrying out a larger, definitive randomised controlled trial on the prevention of symptomatic UTI in patients with neurogenic bladder dysfunction must be established. The central aim of the proposed mixed method study is to clarify these two key methodological and feasibility issues. In the first stage of this study is to carry out qualitative interviews to explore patient experiences and views of symptoms and signs associated with a UTI. These results, combined with findings from a literature review, will enable the design of a quantitative patient survey which will be distributed by four service user organisations to people with neurogenic bladder dysfunction. Finally, taking the results from all preceding stages, a final definition, or algorithm, will be discussed before and during a consensus meeting.",
+      "title": "Preventing UTIs in Chronic Neurogenic Bladder Dysfunction (Mix Methods)",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 302.81829551673104,
+      "cross_score": -5.2993937,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT02591901::detailed_description::3",
+      "doc_id": "NCT02591901",
+      "section": "detailed_description",
+      "passage_text": "In the second stage of this study, a small-scale parallel, double-blinded, randomised, placebo-controlled, multicentre trial will be conducted to investigate the feasibility of carrying out a larger well-powered study on the prevention of symptomatic UTI in patients with neurogenic bladder dysfunction. Forty-eight patients will be randomly assigned treatment with Uro-Vaxom\u00ae, or placebo, for 3 months and followed-up for a further 3 months. This is to expose any pitfalls or areas requiring re-designing, such as logistics, recruitment and compliance rates, in order to refine the protocol of a definitive clinical trial.",
+      "title": "Preventing UTIs in Chronic Neurogenic Bladder Dysfunction (Mix Methods)",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 302.81829551673104,
+      "cross_score": -5.342211,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT02021032::eligibility::1",
+      "doc_id": "NCT02021032",
+      "section": "eligibility",
+      "passage_text": "- Subject with previous pelvic irradiation or radial pelvic surgery - Subject having large, obstructive middle lobe - Previous rectal surgery (other than hemorrhoidectomy) or history of rectal disease. - Subject with urethral stricture and/or bladder stones - Active urinary tract infection. - Subject with neurogenic bladder and/or sphincter abnormalities due to Parkinson's, multiple sclerosis, cerebrovascular accident (CVA), diabetes, or other disease process. - Residual bladder volume >250 mL measured by ultrasound. - Compromised renal function (i.e., serum creatinine levels above 1.8 mg/dL). - Cardiac pacemaker or metallic implants or staples, etc. in the pelvic or femoral area. - Concomitant medicating of the following: 1. Bladder antispasmodics (Ditropan or Detrol) within one week of treatment, unless there is documented evidence that the subject has been on the same drug dose for at least three months with a stable voiding pattern. The drug dose will not be altered or discontinued for the entrance into or throughout the study. 2. 5-alpha reductase inhibitors and gonadotropin releasing hormonal analog. 3. Alpha blockers, antidepressants, androgens, within one week of treatment.",
+      "title": "Post-Marketing Study Using PROLIEVE\u00ae for the Treatment of Benign Prostatic Hyperplasia (BPH)",
+      "condition": NaN,
+      "doc_rank_bm25": 16,
+      "doc_score_bm25": 275.7995056424956,
+      "cross_score": -5.3986845,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT03187795::detailed_description::0",
+      "doc_id": "NCT03187795",
+      "section": "detailed_description",
+      "passage_text": "Neurogenic detrusor overactivity or \"NDO\" is common in people with spinal cord injury (SCI) and is a medical condition characterized by involuntary urinary bladder contractions. These bladder contractions can cause episodes of urinary incontinence (involuntary urine leakage) and/or high bladder pressures that can lead to poor drainage from the kidneys and urinary tract infections (UTIs). Neurogenic detrusor overactivity is most commonly treated with a medication called oxybutynin (Ditropan); however, this medication is associated with side effects such as dry mouth and constipation. Mirabegron (Myrbetriq) is a newer medication approved by the Food and Drug Administration for the treatment of overactive bladder that does not cause dry mouth or constipation; however, its use in persons with SCI is investigational. The purpose of this research study is to determine the effectiveness and safety of mirabegron compared to oxybutynin chloride immediate release (oxybutynin IR) for neurogenic detrusor overactivity in individuals with SCI.",
+      "title": "Mirabegron and Oxybutynin Safety and Efficacy Trial in Spinal Cord Injury",
+      "condition": NaN,
+      "doc_rank_bm25": 3,
+      "doc_score_bm25": 296.9700883448082,
+      "cross_score": -5.7408867,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT03499964::eligibility::2",
+      "doc_id": "NCT03499964",
+      "section": "eligibility",
+      "passage_text": "Diagnosis of carcinoma of the urethra, bladder or prostate within the last two (2) years 12. Active kidney, bladder, urethral or ureteral stone passage in the last six (6) weeks or concern of stone passage in the next 6 weeks at the discretion of the investigator. 13. Diagnosis of chronic renal failure and treatment with hemodialysis 14. New diagnosis of OAB (overactive bladder) within the last six (6) months 15. Use of alpha blockers, beta blockers, OAB (Overactive Bladder) medication, anticonvulsants (drugs that prevent or reduce the severity and frequency of seizures), and antispasmodics where the dose is not stable. (Stable dose is defined as having the same medication and dose in the last six months.) 16. Dependence on Botox (onabotulinumtoxinA) in urinary system 17. Presence of an artificial urinary sphincter, slings, or stent(s) in the urethra or prostate 18. Known neurogenic bladder, sphincter abnormalities, or poor detrusor muscle function 19. Diagnosed with Lichen Sclerosus, or stricture due to balanitis xerotica obliterans (BXO) 20. Previous hypospadias repair 21.",
+      "title": "ROBUST III- Re-Establishing Flow Via Drug Coated Balloon For The Treatment Of Urethral Stricture Disease",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 286.11403867991214,
+      "cross_score": -5.851763,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facts\": [\n    \"62 yo male with hx of CVA\",\n    \"neurogenic bladder with indwelling suprapubic catheter\"\n  ],\n  \"missing_patient_facts\": [\n    \"stable dose of oxybutynin IR three times daily\",\n    \"method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"urodynamic documentation of neurogenic detrusor overactivity (NDO)\",\n    \"stability of detrusor muscle function\"\n  ],\n  \"reasoning_summary\": \"The patient meets the basic criteria for neurogenic detrusor overactivity, but lacks specific details about the stability of oxybutynin dosage and urodynamic testing. Further verification is needed.\",\n  \"safety_note\": \"The patient has a history of recurrent UTIs and urosepsis, which may impact eligibility based on exclusion criteria related to active UTI or compromised renal function.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facts": [
+      "62 yo male with hx of CVA",
+      "neurogenic bladder with indwelling suprapubic catheter"
+    ],
+    "missing_patient_facts": [
+      "stable dose of oxybutynin IR three times daily",
+      "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)"
+    ],
+    "unresolved_study_requirements": [
+      "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+      "stability of detrusor muscle function"
+    ],
+    "reasoning_summary": "The patient meets the basic criteria for neurogenic detrusor overactivity, but lacks specific details about the stability of oxybutynin dosage and urodynamic testing. Further verification is needed.",
+    "safety_note": "The patient has a history of recurrent UTIs and urosepsis, which may impact eligibility based on exclusion criteria related to active UTI or compromised renal function."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "",
+  "missing_patient_facts": [
+    "stable dose of oxybutynin IR three times daily",
+    "method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic)"
+  ],
+  "unresolved_study_requirements": [
+    "urodynamic documentation of neurogenic detrusor overactivity (NDO)",
+    "stability of detrusor muscle function"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 8.548
+}

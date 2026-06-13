@@ -1,0 +1,134 @@
+{
+  "case_id": "case_trec2021_012",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2021",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "NCT00001314",
+  "selected_doc": "NCT03975998",
+  "reference_trial": "NCT03975998",
+  "evidence_trials": [
+    "NCT01852149",
+    "NCT02604745",
+    "NCT03012178",
+    "NCT03975998",
+    "NCT04518709"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: 34 year old woman with Marfan's syndrome and known severe mitral valve prolapse with regurgitation, who was planned for a MV repair but was lost to follow-up. She remains symptomatic and is now prepared to undergo mitral valve repair/replacement surgery. EF of 65% on TTE. Past Medical History: Marfans Syndrome MVP with severe mitral regurgitation Gastric reflux disease History of gestational diabetes mellitus Hypertension with pregnancy Obesity c-section x 2 laser eye surgery cataract surgery foot surgery (shorten bone length) Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03975998 | section=summary]\nRationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.\n\n[Passage 2 | doc=NCT01852149 | section=eligibility]\nInclusion Criteria: - Patient with chronic functional mitral regurgitation. - Patient is greater than 18 years old. - Documented symptoms of CHF - NYHA II-IV. - Left ventricular ejection fraction between 30 and 60 percent. - Acceptable candidate for cardiac surgery and/or blood transfusion. - Patient or legal guardian understands the study requirements and the treatment procedures and provides written Informed Consent before any study- specific tests or procedures are performed. - Willing to comply with all specified follow-up evaluations. - Mitral regurgitation grade 2. - Patient has a mitral plane to apex dimension 5 cm. - Structurally normal mitral valve. Exclusion Criteria: - Patient with significant organic mitral valve pathology such as myxomatous degeneration, mitral valve prolapse or flail leaflets moderate or severe valve calcifications, ruptured papillary muscles or ruptured chordae tendinae. - Previous mitral valve repair or mitral valve replacement. - Patient with mitral stenosis. - Patient with moderate or severe aortic stenosis and or moderate or severe aortic regurgitation. - Patient with endocarditis. - MI within 30 days prior to the index procedure.\n\n[Passage 3 | doc=NCT04518709 | section=eligibility]\nInclusion Criteria: 1. Patients with mitral regurgitation heart disease. 2. Patients with an age range of 1 day - 18 years 3. Patients with mitral regurgitation heart disease with atrial septal defects 4. Mitral valve repair surgery performed by single surgeon (Budi Rahmat, MD) Exclusion Criteria: 1. Patients refuse to participate in the study. 2. Having additional cardiac abnormalities other than atrial septal defects that change the surgery plan. 3. Reoperation mitral valve surgery. 4. History of abnormalities in the central nervous system / preoperative stroke. 5. Patients with severe pulmonary hypertension 6. Patients with small left ventricles (LV smallish) 7. History of pulmonary resuscitation (CPR) before surgery. Dropout Criteria 1. The patient fails to complete the entire examination procedure. 2. Mitral regurgitation patients who are decided to do mitral valve replacement intra-operatively. 3. Using extracorporeal life support (ECMO) device after surgery. 4. History of intra-operative CPR.\n\n[Passage 4 | doc=NCT03012178 | section=detailed_description]\nMitral regurgitation is a common disease which can lead to heart failure and death if left untreated. The only known therapy for mitral regurgitation is correction of the mitral valve, most commonly performed by surgical repair or replacement. According the STS database, there were 15,748 lone mitral valve surgeries in 2014. The number of mitral valve surgeries has been increasing with a 23% increase between the years 2010 and 2014. Based on the ACC/AHA guidelines for the management of mitral valve disease, quantifying the severity of mitral regurgitation is central to determining which patients are appropriate for correction of their mitral valve by surgery. Specifically, once the diagnosis of severe MR is made, patients are considered appropriate for mitral valve surgery in almost all clinical circumstances. However, there is a significant mortality and morbidity associated with mitral valve surgery. In the STS database, 30 day mortality was ~2% for repair and ~5% for replacement. This data does not take into account long-term mortality and morbidity from re-operation and life-long anti-coagulation as well as changes in quality of life.\n\n[Passage 5 | doc=NCT02604745 | section=eligibility]\nInclusion Criteria: 1. Prior surgery for degenerative mitral regurgitation (DMR) at Northwestern Memorial Hospital performed by a single surgeon. 2. Male and female \u2265 65 years of age at time of index procedure. 3. Mitral Valve surgery performed > 6 months and <36 months at the time of consent. Concomitant procedures at time of index procedure may include incidental CAB, MAZE and tricuspid valve surgery. 4. STS (Society of Thoracic Surgeons) mortality risk score of \u2265 2 and < 6 for mitral valve repair or \u2265 2 and < 8 for mitral valve replacement at time of index procedure. 5. Able to speak, read, and understand English Exclusion Criteria: 1. Pre-operative tricuspid regurgitation of 4+ (severe) at time of index procedure. 2. Severe RV Dysfunction. 3. Contraindication to exercise testing (i.e., Uncontrolled cardiac arrhythmias causing symptoms or hemodynamic compromise, symptomatic severe aortic stenosis, uncontrolled symptomatic heart failure, etc.). 4. Unable to perform an exercise test due to clinical criteria such oxygen dependency, neuromuscular limitations, NYHA class 4, unstable angina, and postural hypotension. 5.\n\n[Passage 6 | doc=NCT02604745 | section=detailed_description]\nSevere mitral regurgitation is associated with significant morbidity and mortality. Mitral valve surgical repair has proven to be an effective and durable option in the treatment of symptomatic degenerative mitral regurgitation (MR). Echocardiography remains a cornerstone in the evaluation of patients with degenerative (Type II) mitral regurgitation allowing for assessment of mitral anatomy, quantification of regurgitant severity, assessment of biventricular function, non-invasive measurement of pulmonary artery systolic pressures and identifying the presence of other valvular disease. The AHA/ACC Valvular Heart Disease Guidelines recommend the use of exercise echocardiography in the setting of mitral regurgitation to determine the degree of mitral regurgitation and pulmonary artery systolic pressures pre and post exercise in addition to an objective determination of the symptoms and exercise capacity. Echocardiography (both resting and exercise modalities) is helpful in the post-mitral valve repair period in the assessment of the mitral valve gradient and recurrent mitral regurgitation.",
+  "passages": [
+    {
+      "passage_id": "NCT03975998::summary::0",
+      "doc_id": "NCT03975998",
+      "section": "summary",
+      "passage_text": "Rationale: Severe asymptomatic organic Mitral Valve (MV) regurgitation with preserved left ventricular (LV) function is a challenging clinical entity as data on the recommended treatment strategy for these patients are scarce and conflicting, which is reflected in current guidelines. European guidelines advocate a more conservative strategy i.e. watchful waiting, with yearly echocardiography, whilst American guidelines are more in favour of early surgery to reconstruct the MV, i.e. MV repair (in contrast to MV replacement) in order to prevent future LV dysfunction and complaints. A number of non-randomised trials show a favourable outcome of early surgery: in the study of Enriquez-Sarano et al. for instance, the early surgery strategy has shown to be associated with improved long-term survival, decreased cardiac mortality, and decreased morbidity compared with the conservative management [1]. On the other hand, non-randomised trials describe also that a conservative strategy (i.e. watchful waiting) can be safely accomplished. If facilitated surgery is performed in this population (50% at 10 years follow-up according to Rosenhek et al [2]), it has proven to be eventually associated with good perioperative and postoperative outcome when careful follow-up is being carried out [2]. Objective: To compare early MV repair versus watchful waiting in asymptomatic patients with severe organic mitral valve regurgitation and preserved left ventricular function. Study design: Multicenter, registry trial. Study population: 250 Asymptomatic patients (18-75 years old) with severe organic MV regurgitation and preserved left ventricular function. The current European Society of Cardiology (ESC) guidelines on Valvular Heart Disease will be applied [3]. These guidelines are also used in the Netherlands. Accordingly, patients with an indication for MV surgery will not be included. Intervention: Intervention will be early MV repair compared to a watchful waiting strategy.",
+      "title": "Dutch-AMR: Early Mitral Valve Repair Versus Watchful Waiting in Asymptomatic Patients With Severe Mitral Regurgitation",
+      "condition": NaN,
+      "doc_rank_bm25": 2,
+      "doc_score_bm25": 229.18460305293576,
+      "cross_score": -2.863675,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT01852149::eligibility::0",
+      "doc_id": "NCT01852149",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: - Patient with chronic functional mitral regurgitation. - Patient is greater than 18 years old. - Documented symptoms of CHF - NYHA II-IV. - Left ventricular ejection fraction between 30 and 60 percent. - Acceptable candidate for cardiac surgery and/or blood transfusion. - Patient or legal guardian understands the study requirements and the treatment procedures and provides written Informed Consent before any study- specific tests or procedures are performed. - Willing to comply with all specified follow-up evaluations. - Mitral regurgitation grade 2. - Patient has a mitral plane to apex dimension 5 cm. - Structurally normal mitral valve. Exclusion Criteria: - Patient with significant organic mitral valve pathology such as myxomatous degeneration, mitral valve prolapse or flail leaflets moderate or severe valve calcifications, ruptured papillary muscles or ruptured chordae tendinae. - Previous mitral valve repair or mitral valve replacement. - Patient with mitral stenosis. - Patient with moderate or severe aortic stenosis and or moderate or severe aortic regurgitation. - Patient with endocarditis. - MI within 30 days prior to the index procedure.",
+      "title": "Mitralign Percutaneous Annuloplasty First in Man Study",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 214.9112820334848,
+      "cross_score": -3.7908845,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT04518709::eligibility::0",
+      "doc_id": "NCT04518709",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Patients with mitral regurgitation heart disease. 2. Patients with an age range of 1 day - 18 years 3. Patients with mitral regurgitation heart disease with atrial septal defects 4. Mitral valve repair surgery performed by single surgeon (Budi Rahmat, MD) Exclusion Criteria: 1. Patients refuse to participate in the study. 2. Having additional cardiac abnormalities other than atrial septal defects that change the surgery plan. 3. Reoperation mitral valve surgery. 4. History of abnormalities in the central nervous system / preoperative stroke. 5. Patients with severe pulmonary hypertension 6. Patients with small left ventricles (LV smallish) 7. History of pulmonary resuscitation (CPR) before surgery. Dropout Criteria 1. The patient fails to complete the entire examination procedure. 2. Mitral regurgitation patients who are decided to do mitral valve replacement intra-operatively. 3. Using extracorporeal life support (ECMO) device after surgery. 4. History of intra-operative CPR.",
+      "title": "The Effect of Posterior Annulus Elevation Technique in Reducing Residual Regurgitation During Mitral Valve Repair in Children",
+      "condition": NaN,
+      "doc_rank_bm25": 7,
+      "doc_score_bm25": 219.97685855493975,
+      "cross_score": -3.813846,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT03012178::detailed_description::0",
+      "doc_id": "NCT03012178",
+      "section": "detailed_description",
+      "passage_text": "Mitral regurgitation is a common disease which can lead to heart failure and death if left untreated. The only known therapy for mitral regurgitation is correction of the mitral valve, most commonly performed by surgical repair or replacement. According the STS database, there were 15,748 lone mitral valve surgeries in 2014. The number of mitral valve surgeries has been increasing with a 23% increase between the years 2010 and 2014. Based on the ACC/AHA guidelines for the management of mitral valve disease, quantifying the severity of mitral regurgitation is central to determining which patients are appropriate for correction of their mitral valve by surgery. Specifically, once the diagnosis of severe MR is made, patients are considered appropriate for mitral valve surgery in almost all clinical circumstances. However, there is a significant mortality and morbidity associated with mitral valve surgery. In the STS database, 30 day mortality was ~2% for repair and ~5% for replacement. This data does not take into account long-term mortality and morbidity from re-operation and life-long anti-coagulation as well as changes in quality of life.",
+      "title": "MRI as a Predictor of Outcomes in Patients Undergoing Mitral Valve Surgery",
+      "condition": NaN,
+      "doc_rank_bm25": 15,
+      "doc_score_bm25": 216.8846960165222,
+      "cross_score": -3.941276,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT02604745::eligibility::0",
+      "doc_id": "NCT02604745",
+      "section": "eligibility",
+      "passage_text": "Inclusion Criteria: 1. Prior surgery for degenerative mitral regurgitation (DMR) at Northwestern Memorial Hospital performed by a single surgeon. 2. Male and female \u2265 65 years of age at time of index procedure. 3. Mitral Valve surgery performed > 6 months and <36 months at the time of consent. Concomitant procedures at time of index procedure may include incidental CAB, MAZE and tricuspid valve surgery. 4. STS (Society of Thoracic Surgeons) mortality risk score of \u2265 2 and < 6 for mitral valve repair or \u2265 2 and < 8 for mitral valve replacement at time of index procedure. 5. Able to speak, read, and understand English Exclusion Criteria: 1. Pre-operative tricuspid regurgitation of 4+ (severe) at time of index procedure. 2. Severe RV Dysfunction. 3. Contraindication to exercise testing (i.e., Uncontrolled cardiac arrhythmias causing symptoms or hemodynamic compromise, symptomatic severe aortic stenosis, uncontrolled symptomatic heart failure, etc.). 4. Unable to perform an exercise test due to clinical criteria such oxygen dependency, neuromuscular limitations, NYHA class 4, unstable angina, and postural hypotension. 5.",
+      "title": "Degenerative Mitral Regurgitation in Intermediate Risk Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 217.96210874881285,
+      "cross_score": -4.2043247,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT02604745::detailed_description::0",
+      "doc_id": "NCT02604745",
+      "section": "detailed_description",
+      "passage_text": "Severe mitral regurgitation is associated with significant morbidity and mortality. Mitral valve surgical repair has proven to be an effective and durable option in the treatment of symptomatic degenerative mitral regurgitation (MR). Echocardiography remains a cornerstone in the evaluation of patients with degenerative (Type II) mitral regurgitation allowing for assessment of mitral anatomy, quantification of regurgitant severity, assessment of biventricular function, non-invasive measurement of pulmonary artery systolic pressures and identifying the presence of other valvular disease. The AHA/ACC Valvular Heart Disease Guidelines recommend the use of exercise echocardiography in the setting of mitral regurgitation to determine the degree of mitral regurgitation and pulmonary artery systolic pressures pre and post exercise in addition to an objective determination of the symptoms and exercise capacity. Echocardiography (both resting and exercise modalities) is helpful in the post-mitral valve repair period in the assessment of the mitral valve gradient and recurrent mitral regurgitation.",
+      "title": "Degenerative Mitral Regurgitation in Intermediate Risk Patients",
+      "condition": NaN,
+      "doc_rank_bm25": 13,
+      "doc_score_bm25": 217.96210874881285,
+      "cross_score": -4.3581376,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you might be eligible for the clinical trial, but further details need to be confirmed.\",\n  \"supported_patient_facts\": [\"mitral valve repair/replacement surgery planned\", \"EF of 65%\", \"symptomatic and prepared for surgery\"],\n  \"missing_patient_facts\": [\"exact mitral regurgitation grade\", \"mitral plane to apex dimension\"],\n  \"unresolved_study_requirements\": [\"specific study to which this response applies is not clear\"],\n  \"reasoning_summary\": \"The patient has severe mitral valve prolapse with regurgitation and is planned for mitral valve repair/replacement surgery, which aligns with the inclusion criteria of several studies. However, the exact mitral regurgitation grade and mitral plane to apex dimension are required to confirm eligibility. Additionally, the specific clinical trial to which this response applies is not clear.\",\n  \"safety_note\": \"It is important to ensure that the patient meets all safety and study-specific requirements before enrollment.\",\n  \"support_passages\": {\n    \"patient_facing_answer\": [\"NCT01852149\", \"NCT03975998\"],\n    \"reasoning_summary\": [\"NCT01852149\", \"NCT03975998\"]\n  }\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "mitral valve repair/replacement surgery planned",
+      "EF of 65%",
+      "symptomatic and prepared for surgery"
+    ],
+    "missing_patient_facts": [
+      "exact mitral regurgitation grade",
+      "mitral plane to apex dimension"
+    ],
+    "unresolved_study_requirements": [
+      "specific study to which this response applies is not clear"
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "It is important to ensure that the patient meets all safety and study-specific requirements before enrollment.",
+    "support_passages": {
+      "patient_facing_answer": [
+        "NCT01852149",
+        "NCT03975998"
+      ],
+      "reasoning_summary": [
+        "NCT01852149",
+        "NCT03975998"
+      ]
+    }
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "exact mitral regurgitation grade",
+    "mitral plane to apex dimension"
+  ],
+  "unresolved_study_requirements": [
+    "specific study to which this response applies is not clear"
+  ],
+  "narrow_leak_n": 1,
+  "latency_sec": 23.521
+}

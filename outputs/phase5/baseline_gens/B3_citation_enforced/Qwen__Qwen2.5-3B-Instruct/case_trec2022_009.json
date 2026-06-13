@@ -1,0 +1,142 @@
+{
+  "case_id": "case_trec2022_009",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B3_citation_enforced",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT04793035",
+  "reference_trial": "NCT04793035",
+  "evidence_trials": [
+    "NCT00084617",
+    "NCT00376506",
+    "NCT00603382",
+    "NCT04425252",
+    "NCT04793035"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 67-year-old woman comes to the clinic due to recent episode of choking, dysphagia, and cough. Her other medical problems include hypertension, dyslipidemia, and osteoarthritis. She does not smoke or use alcohol. She lives with her husband and she is able to do her own daily activities. She used to teach elementary school. Blood pressure is 135/80 mm Hg. The patient's breath smells bad. Other physical examinations are normal. A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT04793035 | section=detailed_description]\nThe study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.\n\n[Passage 2 | doc=NCT00084617 | section=eligibility]\neks earlier - Patients may not be receiving any other investigational agents - Patients with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events; patients should have no greater than grade 2 neuropathy - History of allergic reactions attributed to compounds of similar chemical or biologic composition to oxaliplatin, irinotecan and capecitabine - Patients with NYHA classification III or IV heart disease are ineligible - Patients must not have a known hypersensitivity to 5-fluorouracil - Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements - Pregnant women are excluded from this study because the study drugs have the potential to cause teratogenic or abortifacient effects; because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the\n\n[Passage 3 | doc=NCT00376506 | section=detailed_description]\nObjective: To determine if an implanted neuroprosthesis improves airway protection for swallowing in chronic pharyngeal dysphagia to a greater degree than sensory training. The implanted neuroprosthesis will provide intramuscular stimulation to as many as 8 hyo-laryngeal muscles. Stimulation will be coincident with a button press initiation under patient control while eating or at regular intervals for saliva swallows during the day and/or at night. Sensory training will include vibrotactile stimulation to the neck coincident with swallowing under patient control to assist with swallowing while eating or for saliva swallows during the day. Study population: Persons with chronic (greater than 6 months) dysphagia with risk of aspiration secondary to neurological injury, stroke or chronic neurological disease who currently require enteric feeding or severe dietary restrictions because of risk of aspiration. Design: A Phase 2 clinical trial with random assignment between two treatment groups with blinded assessment of treatment outcome. Both treatment groups will undergo 2 weeks of device training with a speech pathologist.\n\n[Passage 4 | doc=NCT00376506 | section=eligibility]\nSuch patients would be at much greater risk of an infection with implantation of a device. Participation would more likely lead to the need an explanation and a second surgery. - Patients with a pacemaker, deep brain stimulator or other indwelling electrical device. - History of rapidly progressive neurodegenerative disorders, such as progressive supranuclear palsy, dementia, peripheral neuropathy, multiple systems atrophy or amyotrophic lateral sclerosis. - Severe oral phase swallowing deficits, due to loss of tongue control, that prevent bolus retention in the oral cavity. - No aspiration or risk for aspiration in previous assessment or during preliminary studies. - An esophageal motility disorder preventing food or liquid from adequately moving through the esophagus into the stomach. - Pregnant women will be excluded from participation because the study involves radiation exposure. - Current psychiatric disorder other than depression. Examples of psychiatric disorders to be excluded are: somatoform disorders, conversion disorders, schizophrenia or bipolar disorder. - Inability to coordinate button press with swallow (as determined during screening).\n\n[Passage 5 | doc=NCT04425252 | section=eligibility]\nMen and women treated or enrolled on this protocol must also agree to use adequate contraception for the duration of study participation and for 90 days after completion of brequinar administration. 7. Male subjects must agree to refrain from sperm donation from initial study drug administration until 90 days after the last dose of brequinar. 8. \u2264 10 days since first COVID-19 symptom as determined by treating clinician. 9. Able to swallow capsules. 10. At least one COVID-19 symptom including but not limited to fever, cough, sore throat, malaise, headache, muscle pain, gastrointestinal symptoms, shortness of breath, dyspnea, dysgeusia, or other symptom commonly associated with COVID-19. Exclusion Criteria: 1. Any physical examination findings and/or history of any illness that, in the opinion of the study investigator, might confound the results of the study or pose an additional risk to the patient. 2. Active malignancy other than squamous cell carcinoma; anticancer treatment such as chemotherapy or radiation therapy within the past month. 3. Nursing women or women of childbearing potential (WOCBP) with a positive pregnancy test. 4.\n\n[Passage 6 | doc=NCT00603382 | section=eligibility]\n- Clinical Laboratory Abnormalities: Clinically significant abnormal laboratory tests during Visit 1 which are still abnormal upon repeat analysis and are not believed to be due to disease(s) present. Each Investigator will use his/her own discretion in determining the clinical significance of the abnormality. When in doubt, GlaxoSmithKline, or designee, should be notified so that a joint decision can be made. - Changes in asthma medication (excluding albuterol/salbutamol inhalation aerosol provided at Visit 1). - Occurrence of an culture-documented or suspected bacterial or viral infection of the upper or lower respiratory tract, sinus or middle ear during the run-in period that led to a change in asthma management, or in the opinion of the Investigator is expected to affect the subject's asthma status or the subject's ability to participate in the study. - Asthma exacerbation, defined as any worsening of asthma requiring any treatment other than rescue albuterol/salbutamol or regular inhaled corticosteroid use. This includes requiring the use of systemic corticosteroids and / or emergency room visit or hospitalization or a change in subject's regular inhaled corticosteroid dose.",
+  "passages": [
+    {
+      "passage_id": "NCT04793035::detailed_description::3",
+      "doc_id": "NCT04793035",
+      "section": "detailed_description",
+      "passage_text": "The study will follow the standard clinical trial practices of Informed Consent (including HIPAA authorization), screening, Safety Measurements, Adverse Events and reporting, follow-up assessments at discharge, 2-4 weeks, 2, 3, 6, 9, and 12 months minimum post-procedure visits. Depending on the follow-up period, predetermined items will be performed and recorded. These include a chest/abdominal X-ray to ensure the device remains correctly placed, any adverse events, completing the GERD-HRQL form and 24-hr pH profile with the subject discontinued any PPI therapy or anti-reflux medication for at least 10 days, manometry, endoscopy, barium esophagram, and health history. Because of the small sample size, there are no statistically derived endpoints for this feasibility study. The primary safety parameter will be the rate of all adverse events at various time points. The effectiveness endpoint of this study will be based on normalization of pH (with normalization defined as pH <4 for no more than 4.5% of monitoring time) or reduction of at least 50% in total time that pH <4, relative to baseline.",
+      "title": "Omega Cuff for GERD Feasibility Study",
+      "condition": NaN,
+      "doc_rank_bm25": 20,
+      "doc_score_bm25": 287.15536760520547,
+      "cross_score": -4.113312,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT00084617::eligibility::3",
+      "doc_id": "NCT00084617",
+      "section": "eligibility",
+      "passage_text": "eks earlier - Patients may not be receiving any other investigational agents - Patients with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events; patients should have no greater than grade 2 neuropathy - History of allergic reactions attributed to compounds of similar chemical or biologic composition to oxaliplatin, irinotecan and capecitabine - Patients with NYHA classification III or IV heart disease are ineligible - Patients must not have a known hypersensitivity to 5-fluorouracil - Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements - Pregnant women are excluded from this study because the study drugs have the potential to cause teratogenic or abortifacient effects; because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the",
+      "title": "Phase II Study of Oxaliplatin, Irinotecan, and Capecitabine in Advanced Gastric/Gastroesophageal Junction Carcinoma",
+      "condition": NaN,
+      "doc_rank_bm25": 17,
+      "doc_score_bm25": 288.14403729365,
+      "cross_score": -4.173083,
+      "passage_rank": 2
+    },
+    {
+      "passage_id": "NCT00376506::detailed_description::0",
+      "doc_id": "NCT00376506",
+      "section": "detailed_description",
+      "passage_text": "Objective: To determine if an implanted neuroprosthesis improves airway protection for swallowing in chronic pharyngeal dysphagia to a greater degree than sensory training. The implanted neuroprosthesis will provide intramuscular stimulation to as many as 8 hyo-laryngeal muscles. Stimulation will be coincident with a button press initiation under patient control while eating or at regular intervals for saliva swallows during the day and/or at night. Sensory training will include vibrotactile stimulation to the neck coincident with swallowing under patient control to assist with swallowing while eating or for saliva swallows during the day. Study population: Persons with chronic (greater than 6 months) dysphagia with risk of aspiration secondary to neurological injury, stroke or chronic neurological disease who currently require enteric feeding or severe dietary restrictions because of risk of aspiration. Design: A Phase 2 clinical trial with random assignment between two treatment groups with blinded assessment of treatment outcome. Both treatment groups will undergo 2 weeks of device training with a speech pathologist.",
+      "title": "A Comparison of an Implanted Neuroprosthesis With Sensory Training for Improving Airway Protection in Chronic Dysphagia",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 287.655817553391,
+      "cross_score": -5.5531926,
+      "passage_rank": 3
+    },
+    {
+      "passage_id": "NCT00376506::eligibility::4",
+      "doc_id": "NCT00376506",
+      "section": "eligibility",
+      "passage_text": "Such patients would be at much greater risk of an infection with implantation of a device. Participation would more likely lead to the need an explanation and a second surgery. - Patients with a pacemaker, deep brain stimulator or other indwelling electrical device. - History of rapidly progressive neurodegenerative disorders, such as progressive supranuclear palsy, dementia, peripheral neuropathy, multiple systems atrophy or amyotrophic lateral sclerosis. - Severe oral phase swallowing deficits, due to loss of tongue control, that prevent bolus retention in the oral cavity. - No aspiration or risk for aspiration in previous assessment or during preliminary studies. - An esophageal motility disorder preventing food or liquid from adequately moving through the esophagus into the stomach. - Pregnant women will be excluded from participation because the study involves radiation exposure. - Current psychiatric disorder other than depression. Examples of psychiatric disorders to be excluded are: somatoform disorders, conversion disorders, schizophrenia or bipolar disorder. - Inability to coordinate button press with swallow (as determined during screening).",
+      "title": "A Comparison of an Implanted Neuroprosthesis With Sensory Training for Improving Airway Protection in Chronic Dysphagia",
+      "condition": NaN,
+      "doc_rank_bm25": 18,
+      "doc_score_bm25": 287.655817553391,
+      "cross_score": -5.6929464,
+      "passage_rank": 4
+    },
+    {
+      "passage_id": "NCT04425252::eligibility::1",
+      "doc_id": "NCT04425252",
+      "section": "eligibility",
+      "passage_text": "Men and women treated or enrolled on this protocol must also agree to use adequate contraception for the duration of study participation and for 90 days after completion of brequinar administration. 7. Male subjects must agree to refrain from sperm donation from initial study drug administration until 90 days after the last dose of brequinar. 8. \u2264 10 days since first COVID-19 symptom as determined by treating clinician. 9. Able to swallow capsules. 10. At least one COVID-19 symptom including but not limited to fever, cough, sore throat, malaise, headache, muscle pain, gastrointestinal symptoms, shortness of breath, dyspnea, dysgeusia, or other symptom commonly associated with COVID-19. Exclusion Criteria: 1. Any physical examination findings and/or history of any illness that, in the opinion of the study investigator, might confound the results of the study or pose an additional risk to the patient. 2. Active malignancy other than squamous cell carcinoma; anticancer treatment such as chemotherapy or radiation therapy within the past month. 3. Nursing women or women of childbearing potential (WOCBP) with a positive pregnancy test. 4.",
+      "title": "Safety and Anti-coronavirus Response of Suppression of Host Nucleotide Synthesis in Patients With COVID-19",
+      "condition": NaN,
+      "doc_rank_bm25": 9,
+      "doc_score_bm25": 290.6656326724514,
+      "cross_score": -5.836405,
+      "passage_rank": 5
+    },
+    {
+      "passage_id": "NCT00603382::eligibility::10",
+      "doc_id": "NCT00603382",
+      "section": "eligibility",
+      "passage_text": "- Clinical Laboratory Abnormalities: Clinically significant abnormal laboratory tests during Visit 1 which are still abnormal upon repeat analysis and are not believed to be due to disease(s) present. Each Investigator will use his/her own discretion in determining the clinical significance of the abnormality. When in doubt, GlaxoSmithKline, or designee, should be notified so that a joint decision can be made. - Changes in asthma medication (excluding albuterol/salbutamol inhalation aerosol provided at Visit 1). - Occurrence of an culture-documented or suspected bacterial or viral infection of the upper or lower respiratory tract, sinus or middle ear during the run-in period that led to a change in asthma management, or in the opinion of the Investigator is expected to affect the subject's asthma status or the subject's ability to participate in the study. - Asthma exacerbation, defined as any worsening of asthma requiring any treatment other than rescue albuterol/salbutamol or regular inhaled corticosteroid use. This includes requiring the use of systemic corticosteroids and / or emergency room visit or hospitalization or a change in subject's regular inhaled corticosteroid dose.",
+      "title": "A Randomized Study To Evaluate The Efficacy And Safety Of An Investigational Drug In Adolescent And Adult Subjects With Asthma Uncontrolled on Non-steroidal Therapy.",
+      "condition": NaN,
+      "doc_rank_bm25": 4,
+      "doc_score_bm25": 293.1085617512087,
+      "cross_score": -5.8820987,
+      "passage_rank": 6
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, it seems like your patient may be eligible for the clinical trial. However, we need to check a few more details.\",\n  \"supported_patient_facts\": [\n    \"A 67-year-old woman comes to the clinic due to recent episode of choking, dysphagia, and cough.\",\n    \"She has hypertension, dyslipidemia, and osteoarthritis.\",\n    \"She does not smoke or use alcohol.\",\n    \"She lives with her husband and is able to do her own daily activities.\",\n    \"She used to teach elementary school.\"\n  ],\n  \"missing_patient_facts\": [\n    \"Her blood pressure is 135/80 mm Hg.\",\n    \"The patient's breath smells bad.\",\n    \"Other physical examinations are normal.\",\n    \"A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus.\"\n  ],\n  \"unresolved_study_requirements\": [\n    \"It is not clear if the patient has a known brain metastases.\",\n    \"It is not specified if the patient has a pacemaker, deep brain stimulator, or other indwelling electrical device.\",\n    \"It is not clear if the patient has a history of allergic reactions attributed to compounds of similar chemical or biologic composition to oxaliplatin, irinotecan, and capecitabine.\",\n    \"It is not clear if the patient has NYHA classification III or IV heart disease.\",\n    \"It is not clear if the patient has a known hypersensitivity to 5-fluorouracil.\",\n    \"It is not clear if the patient has uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\",\n    \"It is not clear if the patient is pregnant.\"\n  ],\n  \"reasoning_summary\": \"The patient meets some eligibility criteria, but several key pieces of information are missing or unresolved, particularly regarding her medical history and current health status.\",\n  \"safety_note\": \"The patient needs to be checked for certain medical conditions that could impact the safety of the trial, such as brain metastases, pacemakers, and allergies to specific medications.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "not clearly stated in the retrieved evidence",
+    "supported_patient_facts": [
+      "A 67-year-old woman comes to the clinic due to recent episode of choking, dysphagia, and cough.",
+      "She has hypertension, dyslipidemia, and osteoarthritis.",
+      "She does not smoke or use alcohol.",
+      "She lives with her husband and is able to do her own daily activities.",
+      "She used to teach elementary school."
+    ],
+    "missing_patient_facts": [
+      "Her blood pressure is 135/80 mm Hg.",
+      "The patient's breath smells bad.",
+      "Other physical examinations are normal.",
+      "A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus."
+    ],
+    "unresolved_study_requirements": [
+      "It is not clear if the patient has a known brain metastases.",
+      "It is not specified if the patient has a pacemaker, deep brain stimulator, or other indwelling electrical device.",
+      "It is not clear if the patient has a history of allergic reactions attributed to compounds of similar chemical or biologic composition to oxaliplatin, irinotecan, and capecitabine.",
+      "It is not clear if the patient has NYHA classification III or IV heart disease.",
+      "It is not clear if the patient has a known hypersensitivity to 5-fluorouracil.",
+      "It is not clear if the patient has uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "It is not clear if the patient is pregnant."
+    ],
+    "reasoning_summary": "not clearly stated in the retrieved evidence",
+    "safety_note": "The patient needs to be checked for certain medical conditions that could impact the safety of the trial, such as brain metastases, pacemakers, and allergies to specific medications."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "not clearly stated in the retrieved evidence",
+  "missing_patient_facts": [
+    "Her blood pressure is 135/80 mm Hg.",
+    "The patient's breath smells bad.",
+    "Other physical examinations are normal.",
+    "A barium swallow study reveals an abnormality in the upper esophagus with an outpouching at the junction of the lower part of the throat and the upper portion of the esophagus."
+  ],
+  "unresolved_study_requirements": [
+    "It is not clear if the patient has a known brain metastases.",
+    "It is not specified if the patient has a pacemaker, deep brain stimulator, or other indwelling electrical device.",
+    "It is not clear if the patient has a history of allergic reactions attributed to compounds of similar chemical or biologic composition to oxaliplatin, irinotecan, and capecitabine.",
+    "It is not clear if the patient has NYHA classification III or IV heart disease.",
+    "It is not clear if the patient has a known hypersensitivity to 5-fluorouracil.",
+    "It is not clear if the patient has uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.",
+    "It is not clear if the patient is pregnant."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 18.961
+}

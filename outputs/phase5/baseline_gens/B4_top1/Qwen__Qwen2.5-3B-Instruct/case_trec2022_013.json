@@ -1,0 +1,59 @@
+{
+  "case_id": "case_trec2022_013",
+  "backbone": "Qwen/Qwen2.5-3B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT02414295",
+  "reference_trial": "NCT02414295",
+  "evidence_trials": [
+    "NCT02414295"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 24-year-old man comes to the office complaining of infertility. He and his wife have been trying to conceive for the last 18 months. Medical records of his wife showed no abnormalities. The patient doesn't smoke and takes no medications. Height is 185 cm and weight is 77 kg. Heart and lung sounds are normal. There is bilateral gynecomastia and bilateral descended firm testes. The lower extremities appear abnormally long. His karyotype evaluation shows 47, XXY consistent with Klinefelter syndrome. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT02414295 | section=summary]\nKlinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .",
+  "passages": [
+    {
+      "passage_id": "NCT02414295::summary::0",
+      "doc_id": "NCT02414295",
+      "section": "summary",
+      "passage_text": "Klinefelter syndrome KS is caused by an additional X chromosome in males (47,XXY). Clinical findings are nonspecific during childhood; thus, the diagnosis commonly is made during adolescence or adulthood in males who have small testes with hypergonadotropic hypogonadism and gynecomastia. Virtually all men with Klinefelter syndrome are infertile. Approximately one in 1,000 boys is born with an additional X chromosome-47,XXY, the karyotype that causes Klinefelter syndrome. This karyotype is detected at or before birth in 10 percent of affected boys, and it is found during adulthood in 25 percent of affected men. Almost all men with a 47,XXY karyotype will be infertile; Klinefelter syndrome accounts for 3 percent of male infertility. Klinefelter syndrome is common in infertile men with oligospermia or azoospermia (5 to 10 percent). Infertility in men with Klinefelter syndrome is caused by a precipitous drop in sperm count. If sperm are present, cryopreservation is useful for future family planning with intracytoplasmic sperm injection, and if not, testicular sperm extraction may be pursued. Although there have been multiple reports of successful fertilization by men with Klinefelter syndrome. Mesenchymal stem cell injection in testicular tubules and intra testicular artery using surgical microscope. The period for follow up last from three months to twelve months including semen analysis to detect sperm and hormonal profile .",
+      "title": "Sperm Production in Kleinfelter Syndrome Patients After Mesenchymal Stem Cell Injection",
+      "condition": NaN,
+      "doc_rank_bm25": 1,
+      "doc_score_bm25": 232.7487822247041,
+      "cross_score": -3.723616,
+      "passage_rank": 1
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information you provided, you seem to meet some key criteria for this clinical trial, but we need more details to confirm your eligibility.\",\n  \"supported_patient_facts\": [\"The patient has Klinefelter syndrome (47,XXY), which is known to cause infertility.\", \"The patient is 24 years old and has been trying to conceive for 18 months without success.\"],\n  \"missing_patient_facts\": [\"We do not have information about the patient's medical history related to infertility, such as previous treatments or conditions.\", \"There is no mention of the patient's response to any fertility treatments or his current hormonal status.\"],\n  \"unresolved_study_requirements\": [\"It is unclear if the patient has already undergone semen analysis or if he is currently undergoing any fertility treatments.\"],\n  \"reasoning_summary\": \"The patient meets the requirement of being infertile due to Klinefelter syndrome, which is a key inclusion criterion for this trial. However, we need more information to ensure he is a good candidate for the specific procedures being studied, such as whether he has had semen analysis or is currently undergoing fertility treatments.\",\n  \"safety_note\": \"Before proceeding, we need to ensure that the patient's health status is stable and that he is a suitable candidate for the study procedures.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information you provided, you seem to meet some key criteria for this clinical trial, but we need more details to confirm your eligibility.",
+    "supported_patient_facts": [
+      "The patient has Klinefelter syndrome (47,XXY), which is known to cause infertility.",
+      "The patient is 24 years old and has been trying to conceive for 18 months without success."
+    ],
+    "missing_patient_facts": [
+      "We do not have information about the patient's medical history related to infertility, such as previous treatments or conditions.",
+      "There is no mention of the patient's response to any fertility treatments or his current hormonal status."
+    ],
+    "unresolved_study_requirements": [
+      "It is unclear if the patient has already undergone semen analysis or if he is currently undergoing any fertility treatments."
+    ],
+    "reasoning_summary": "The patient meets the requirement of being infertile due to Klinefelter syndrome, which is a key inclusion criterion for this trial. However, we need more information to ensure he is a good candidate for the specific procedures being studied, such as whether he has had semen analysis or is currently undergoing fertility treatments.",
+    "safety_note": "Before proceeding, we need to ensure that the patient's health status is stable and that he is a suitable candidate for the study procedures."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information you provided, you seem to meet some key criteria for this clinical trial, but we need more details to confirm your eligibility.",
+  "missing_patient_facts": [
+    "We do not have information about the patient's medical history related to infertility, such as previous treatments or conditions.",
+    "There is no mention of the patient's response to any fertility treatments or his current hormonal status."
+  ],
+  "unresolved_study_requirements": [
+    "It is unclear if the patient has already undergone semen analysis or if he is currently undergoing any fertility treatments."
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 10.462
+}

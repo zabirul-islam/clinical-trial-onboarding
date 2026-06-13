@@ -1,0 +1,74 @@
+{
+  "case_id": "case_trec2022_032",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "baseline_id": "B4_top1",
+  "source": "trec2022",
+  "category": "possible_match_insufficient_evidence",
+  "gold_nct": "",
+  "selected_doc": "NCT03570359",
+  "reference_trial": "NCT03570359",
+  "evidence_trials": [
+    "NCT03570359"
+  ],
+  "question": "I am considering a clinical trial. Here is my situation: A 30-year-old man who is a computer scientist came to the clinic with the lab result stating azoospermia. The patient is sexually active with his wife and does not use any contraception methods. They have been trying to conceive for the past year with no success. The patient has a past medical history of recurrent pneumonia, shortness of breath, and persistent cough that produces large amounts of thick sputum. The patient had multiple lung infections during childhood. He does not smoke, use illicit drugs or alcohol. The patient has no history of other medical conditions including allergies or any kind of surgery. On physical examination, the digits show clubbing. An ultrasound shows bilateral absence of the vas deferens, and FEV1 was 75% on the respiratory function test. Am I eligible?",
+  "evidence": "[Passage 1 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.\n\n[Passage 2 | doc=NCT03570359 | section=eligibility]\nCurrent or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+  "passages": [
+    {
+      "passage_id": "NCT03570359::eligibility::10",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an IMP containing small molecules within 30 days or 5 half-lives (whichever is longer) prior to entry into this study or containing biologicals within 3 months prior to entry into this study. 9. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 10. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 11. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 12. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -6.6254754,
+      "passage_rank": 1
+    },
+    {
+      "passage_id": "NCT03570359::eligibility::7",
+      "doc_id": "NCT03570359",
+      "section": "eligibility",
+      "passage_text": "Current or previous participation in another clinical trial where the patient has received a dose of an investigational medicinal product (IMP) containing small molecules within 12 weeks prior to entry into this study or containing biologicals within 12 months prior to entry into this study. 7. Active interstitial lung disease or past history of lung cancer not considered cured, significant bronchiectasis, cystic fibrosis, alpha-1 antitrypsin deficiency or a history of significant chronic asthma. 8. Patients who currently have, or have had within the past 3 months, any significant underlying medical condition(s) that could impact the interpretation of results (e.g. non respiratory infections, haematological disease, malignancy, renal disease, hepatic disease, coronary heart disease or other cardiovascular disease [including arrhythmias], endocrine or gastrointestinal disease). 9. History of hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. 10. Significant history of depressive disorder or suicidal ideation. Specifically, individuals with current severe depression (i.e.",
+      "title": "A Study to Test a Potential New Treatment for COPD Patients Suffering From the Common Cold or Influenza",
+      "condition": NaN,
+      "doc_rank_bm25": 12,
+      "doc_score_bm25": 315.41497588093625,
+      "cross_score": -7.016696,
+      "passage_rank": 2
+    }
+  ],
+  "raw_generation": "{\n  \"decision\": \"possible_match_insufficient_evidence\",\n  \"patient_facing_answer\": \"Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.\",\n  \"supported_patient_facts\": [\"azoospermia\", \"bilateral absence of the vas deferens\", \"FEV1 was 75% on the respiratory function test\"],\n  \"missing_patient_facts\": [\"history of depressive disorder or suicidal ideation\", \"participation in another clinical trial within the specified timeframes\"],\n  \"unresolved_study_requirements\": [\"presence of significant underlying medical conditions that could impact the interpretation of results\", \"hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation\"],\n  \"reasoning_summary\": \"The patient's history of recurrent pneumonia, shortness of breath, and persistent cough with clubbing, along with the bilateral absence of the vas deferens and FEV1 of 75%, suggest potential underlying medical conditions that could impact the interpretation of results. Additionally, the presence of clubbing and the history of multiple lung infections indicate a need for further evaluation of interstitial lung disease or other significant underlying medical conditions. The patient's history of recurrent pneumonia also raises concerns about hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. Furthermore, the patient's history of azoospermia and the absence of vas deferens may require additional evaluation to ensure they do not impact the study's objectives.\",\n  \"safety_note\": \"Given the patient's history of recurrent lung infections and the presence of clubbing, it is important to rule out any significant underlying medical conditions that could impact the interpretation of results before proceeding.\"\n}",
+  "parsed": {
+    "decision": "possible_match_insufficient_evidence",
+    "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+    "supported_patient_facts": [
+      "azoospermia",
+      "bilateral absence of the vas deferens",
+      "FEV1 was 75% on the respiratory function test"
+    ],
+    "missing_patient_facts": [
+      "history of depressive disorder or suicidal ideation",
+      "participation in another clinical trial within the specified timeframes"
+    ],
+    "unresolved_study_requirements": [
+      "presence of significant underlying medical conditions that could impact the interpretation of results",
+      "hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation"
+    ],
+    "reasoning_summary": "The patient's history of recurrent pneumonia, shortness of breath, and persistent cough with clubbing, along with the bilateral absence of the vas deferens and FEV1 of 75%, suggest potential underlying medical conditions that could impact the interpretation of results. Additionally, the presence of clubbing and the history of multiple lung infections indicate a need for further evaluation of interstitial lung disease or other significant underlying medical conditions. The patient's history of recurrent pneumonia also raises concerns about hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation. Furthermore, the patient's history of azoospermia and the absence of vas deferens may require additional evaluation to ensure they do not impact the study's objectives.",
+    "safety_note": "Given the patient's history of recurrent lung infections and the presence of clubbing, it is important to rule out any significant underlying medical conditions that could impact the interpretation of results before proceeding."
+  },
+  "parse_ok": true,
+  "decision": "possible_match_insufficient_evidence",
+  "patient_facing_answer": "Based on the information provided, you may be eligible for the clinical trial, but there are some unresolved requirements and missing facts that need to be confirmed.",
+  "missing_patient_facts": [
+    "history of depressive disorder or suicidal ideation",
+    "participation in another clinical trial within the specified timeframes"
+  ],
+  "unresolved_study_requirements": [
+    "presence of significant underlying medical conditions that could impact the interpretation of results",
+    "hypersensitivity to natural or recombinant IFN-\u03b2 or to any of the excipients in the drug preparation"
+  ],
+  "narrow_leak_n": 0,
+  "latency_sec": 28.698
+}
