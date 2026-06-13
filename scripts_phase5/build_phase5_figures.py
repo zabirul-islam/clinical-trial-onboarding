@@ -95,12 +95,19 @@ def _rubric_overall(jsonl: Path) -> float | None:
     return float(np.mean(vals)) if vals else None
 
 
+def _rubric_pooled(baseline_dir: Path) -> float | None:
+    """Dual-judge pooled overall: average the per-judge overall means when both exist."""
+    judges = [_rubric_overall(baseline_dir / f"judge_{j}.jsonl") for j in ("sonnet", "gpt4o")]
+    judges = [u for u in judges if u is not None]
+    return float(np.mean(judges)) if judges else None
+
+
 def fig_frontier():
     t = pd.read_csv(P5 / "leak_taxonomy_master.csv").set_index("system")
     pts = []
-    # baselines: GPT-4o rubric overall from phase-5 rubric_judge
+    # baselines: dual-judge pooled rubric overall (falls back to whichever judge exists)
     for b in ["B1_multi_rag", "B2_prompt_guard", "B3_citation_enforced", "B4_top1"]:
-        u = _rubric_overall(P5 / "rubric_judge" / b / "judge_gpt4o.jsonl")
+        u = _rubric_pooled(P5 / "rubric_judge" / b)
         if u is not None:
             pts.append((b, u, float(t.loc[b, "semantic_consensus"])))
     # V-final: existing phase-4 judge-pooled overall
@@ -119,8 +126,8 @@ def fig_frontier():
         ax.scatter(u, leak, s=120, zorder=3)
         ax.annotate(SYS_LABEL[name].replace("\n", " "), (u, leak),
                     textcoords="offset points", xytext=(8, 4), fontsize=8)
-    ax.set_xlabel("Utility — GPT-4o rubric overall mean (1–5)")
-    ax.set_ylabel("Semantic cross-trial leak rate (GPT-4o)")
+    ax.set_xlabel("Utility — dual-judge rubric overall mean (1–5)")
+    ax.set_ylabel("Semantic cross-trial leak rate (dual-judge consensus)")
     ax.set_title("Safety–utility: single-trial control reaches low leakage\nwithout sacrificing utility")
     ax.grid(alpha=0.3)
     plt.tight_layout()

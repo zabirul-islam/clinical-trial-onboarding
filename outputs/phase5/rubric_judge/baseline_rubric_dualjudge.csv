@@ -1,0 +1,5 @@
+baseline,gpt4o_overall,sonnet_overall,pooled_overall
+B1_multi_rag,4.008,2.19,3.099
+B2_prompt_guard,3.971,2.275,3.123
+B3_citation_enforced,3.673,2.081,2.877
+B4_top1,4.21,2.721,3.465
