@@ -167,8 +167,120 @@ def main() -> int:
         print("[selftest] PASS — split, drop, fallback, skip-fallback all correct")
         return 0
 
-    print("[info] --calibrate / --apply require the real NLI checkpoint on GPU.")
-    print("[info] implemented in Task 6 Steps 6.3/6.4 on the DGX server.")
+    # ---- real model paths (server GPU) ----
+    import csv
+    import yaml
+    cfg = yaml.safe_load((REPO / "configs" / "phase5_baselines.yaml").read_text())
+    checkpoint = cfg["nli"]["checkpoint"]
+
+    DEV_DIR = REPO / "outputs/phase4/15case_audit/15case_audit_gens/V-final"
+    FROZEN_ROOTS = [
+        REPO / "outputs/backbone_gens",
+        REPO / "outputs/phase4/n100_expansion/gens",
+        REPO / "outputs/phase4/zeroshot_baseline/gens",
+    ]
+    BASELINE_ROOT = REPO / "outputs/phase5/baseline_gens"
+    NLI_OUT = REPO / "outputs/phase5/nli"
+    NLI_OUT.mkdir(parents=True, exist_ok=True)
+
+    def load_dir_recs(root: Path):
+        for fp in sorted(root.rglob("*.json")):
+            try:
+                yield fp, json.loads(fp.read_text())
+            except Exception:
+                continue
+
+    if args.calibrate:
+        scorer = _load_real_scorer(checkpoint)
+        # benign-drop rate per threshold on the dev pool (design-before-results:
+        # objective fixed in config — choose highest T with benign-drop <= 0.10)
+        ents = []
+        for fp, rec in load_dir_recs(DEV_DIR):
+            passages = [str(p.get("passage_text", "")) for p in (rec.get("passages") or [])] \
+                or [str(rec.get("evidence", ""))]
+            chunks = chunk_premise(passages)
+            for field in PATIENT_FIELDS:
+                src = rec.get(field) or (rec.get("parsed") or {}).get(field) or ""
+                if str(src).strip().lower() in SKIP_SENTENCES:
+                    continue
+                for sent in split_sentences(str(src)):
+                    ents.append(sentence_entailment(scorer, chunks, sent))
+        ents = sorted(ents)
+        n = len(ents)
+        rows, chosen = [], None
+        for T in [x / 100 for x in range(50, 100, 5)]:
+            drop = sum(1 for e in ents if e < T) / n if n else 0.0
+            rows.append({"threshold": T, "benign_drop_rate": round(drop, 4), "n_dev_sentences": n})
+            if drop <= 0.10:
+                chosen = T  # highest T satisfying the ceiling (loop ascends)
+        # highest T with drop<=0.10: re-scan descending
+        chosen = max((r["threshold"] for r in rows if r["benign_drop_rate"] <= 0.10),
+                     default=0.5)
+        with (NLI_OUT / "calibration.csv").open("w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["threshold", "benign_drop_rate", "n_dev_sentences"])
+            w.writeheader(); w.writerows(rows)
+        cfg["nli"]["calibration"]["chosen_threshold"] = float(chosen)
+        (REPO / "configs" / "phase5_baselines.yaml").write_text(yaml.safe_dump(cfg, sort_keys=False))
+        print(f"[calibrate] n_dev_sentences={n}; chosen_threshold={chosen}")
+        print("\n".join(f"  T={r['threshold']:.2f} drop={r['benign_drop_rate']:.3f}" for r in rows))
+        return 0
+
+    if args.apply:
+        T = cfg["nli"]["calibration"].get("chosen_threshold")
+        if T is None:
+            print("[FATAL] run --calibrate first (chosen_threshold is null)")
+            return 1
+        scorer = _load_real_scorer(checkpoint)
+
+        # consensus semantic-flagged cases (both phase-4 judges agree leak=1)
+        def consensus_keys() -> set:
+            import collections
+            cnt = collections.Counter()
+            for j in ("sonnet", "gpt4o"):
+                p = REPO / "outputs/phase4/reviewer_fixes" / f"semantic_leak_judge_{j}.jsonl"
+                if not p.exists():
+                    continue
+                for line in p.read_text().splitlines():
+                    if not line.strip():
+                        continue
+                    d = json.loads(line)
+                    if d.get("semantic_leak") == 1:
+                        cnt[f"{d.get('case_id')}|{d.get('backbone')}"] += 1
+            return {k for k, v in cnt.items() if v >= 2}
+
+        consensus = consensus_keys()
+        roots = FROZEN_ROOTS if args.apply == 684 else [BASELINE_ROOT]
+        rows = []
+        for root in roots:
+            for fp, rec in load_dir_recs(root):
+                out = redact_record(rec, scorer, T)
+                key = f"{rec.get('case_id')}|{rec.get('backbone')}"
+                rows.append({
+                    "path": str(fp.relative_to(REPO)),
+                    "case_id": rec.get("case_id"), "backbone": rec.get("backbone"),
+                    "baseline_id": rec.get("baseline_id", "V-final"),
+                    "n_dropped": out["nli_n_dropped"],
+                    "is_consensus_flagged": key in consensus,
+                })
+                # persist redacted copy alongside
+                rfp = fp.with_suffix(".nli_redacted.json")
+                rfp.write_text(json.dumps(out, indent=2, default=str))
+        import pandas as pd
+        df = pd.DataFrame(rows)
+        tag = str(args.apply)
+        df.to_csv(NLI_OUT / f"redaction_{tag}.csv", index=False)
+        total = len(df); any_drop = int((df["n_dropped"] > 0).sum())
+        cons = df[df["is_consensus_flagged"]]
+        print(f"[apply {tag}] gens={total}; with>=1 drop={any_drop} ({any_drop/total:.3f}); "
+              f"total sentences dropped={int(df['n_dropped'].sum())}")
+        if len(cons):
+            print(f"  consensus-flagged gens={len(cons)}; "
+                  f"redacted (>=1 drop)={int((cons['n_dropped']>0).sum())}/{len(cons)}")
+        print(f"  benign collateral (non-consensus gens with a drop)="
+              f"{int((df[~df['is_consensus_flagged']]['n_dropped']>0).sum())}/{total-len(cons)}")
+        return 0
+
+    print("[info] pass --selftest, --calibrate, or --apply {684|912}")
     return 0
 
 
