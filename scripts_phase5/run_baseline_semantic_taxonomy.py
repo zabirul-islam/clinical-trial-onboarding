@@ -80,10 +80,11 @@ Generic clinical English that fits any trial is NOT a leak and is "none".
 """
 
 TAX_VALUES = {"T1", "T2", "T3", "none"}
+_ORIG_PARSE = slj.parse_judge_json  # capture before monkeypatch to avoid recursion
 
 
 def parse_tax(txt: str, judge: str) -> Dict[str, Any]:
-    obj = slj.parse_judge_json(txt, judge)  # validates semantic_leak + base keys
+    obj = _ORIG_PARSE(txt, judge)  # validates semantic_leak + base keys
     tax = obj.get("taxonomy")
     if tax not in TAX_VALUES:
         tax = "none" if obj.get("semantic_leak", 0) == 0 else "T1"
