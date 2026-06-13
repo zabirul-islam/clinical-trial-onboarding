@@ -1,0 +1,5 @@
+baseline_id,n,leaks,rate
+B1_multi_rag,228,167,0.732
+B2_prompt_guard,228,157,0.689
+B3_citation_enforced,228,184,0.807
+B4_top1,228,5,0.022
