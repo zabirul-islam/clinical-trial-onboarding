@@ -170,7 +170,7 @@ def main() -> int:
     # ---- real model paths (server GPU) ----
     import csv
     import yaml
-    cfg = yaml.safe_load((REPO / "configs" / "phase5_baselines.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "configs" / "phase5_baselines.yaml").read_text())
     checkpoint = cfg["nli"]["checkpoint"]
 
     DEV_DIR = REPO / "outputs/phase4/15case_audit/15case_audit_gens/V-final"
@@ -220,7 +220,7 @@ def main() -> int:
             w = csv.DictWriter(f, fieldnames=["threshold", "benign_drop_rate", "n_dev_sentences"])
             w.writeheader(); w.writerows(rows)
         cfg["nli"]["calibration"]["chosen_threshold"] = float(chosen)
-        (REPO / "configs" / "phase5_baselines.yaml").write_text(yaml.safe_dump(cfg, sort_keys=False))
+        (ROOT / "configs" / "phase5_baselines.yaml").write_text(yaml.safe_dump(cfg, sort_keys=False))
         print(f"[calibrate] n_dev_sentences={n}; chosen_threshold={chosen}")
         print("\n".join(f"  T={r['threshold']:.2f} drop={r['benign_drop_rate']:.3f}" for r in rows))
         return 0
@@ -256,7 +256,7 @@ def main() -> int:
                 out = redact_record(rec, scorer, T)
                 key = f"{rec.get('case_id')}|{rec.get('backbone')}"
                 rows.append({
-                    "path": str(fp.relative_to(REPO)),
+                    "path": str(fp.relative_to(ROOT)),
                     "case_id": rec.get("case_id"), "backbone": rec.get("backbone"),
                     "baseline_id": rec.get("baseline_id", "V-final"),
                     "n_dropped": out["nli_n_dropped"],
