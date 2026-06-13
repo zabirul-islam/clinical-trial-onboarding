@@ -1,0 +1,10 @@
+metric,value
+nli_checkpoint,DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+chosen_threshold,0.95
+dev_benign_drop_at_T,0.088
+n_dev_claims,68
+consensus_leaks_total,12
+consensus_leaks_redacted,8
+consensus_not_redacted,"4 (= 2 mixed-attribution + 2 judge-over-flag, correctly retained)"
+frozen_gens_with_drop,314/684
+baseline_gens_with_drop,570/912

@@ -54,3 +54,4 @@ outputs/paper_v2/*.OLD.*
 .playwright-mcp/
 texput.log
 outputs/expert_review/blind_key.csv
+*.nli_redacted.json
