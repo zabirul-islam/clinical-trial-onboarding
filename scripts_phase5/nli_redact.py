@@ -35,8 +35,14 @@ from typing import Callable
 
 ROOT = Path(__file__).resolve().parents[1]
 FALLBACK = "not clearly stated in the retrieved evidence"
-PATIENT_FIELDS = ("patient_facing_answer", "reasoning_summary")
-# fallback strings and structured non-prose fields are never NLI-filtered
+# Claim-level verification targets the CONCRETE asserted facts, not the generic
+# guarded summary. The patient_facing_answer is an intentionally vague hedge
+# ("you seem to meet most criteria, but we need more info"), which entails nothing
+# specific by construction (NLI ~0) — so calibrating on it is meaningless and it
+# is NOT a factual claim to verify. The leaks live in the specific supported facts
+# (e.g. "T-score -2.0 to -4.0", "HER2-positive"), which are concrete enough that
+# genuine grounded facts entail E* (~0.99) and cross-trial/fabricated facts do not.
+CLAIM_LIST_FIELDS = ("supported_patient_facts",)
 SKIP_SENTENCES = {FALLBACK.lower(), ""}
 
 _SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9])")
@@ -70,8 +76,22 @@ def sentence_entailment(scorer: Scorer, premise_chunks: list[str], sent: str) ->
     return max((scorer(c, sent) for c in premise_chunks), default=0.0)
 
 
+def claim_strings(rec: dict) -> list[tuple[str, int, str]]:
+    """Yield (field, index, claim_text) for every concrete asserted claim."""
+    parsed = rec.get("parsed") or {}
+    items = []
+    for field in CLAIM_LIST_FIELDS:
+        lst = rec.get(field) or parsed.get(field) or []
+        if isinstance(lst, list):
+            for i, c in enumerate(lst):
+                s = str(c).strip()
+                if s and s.lower() not in SKIP_SENTENCES:
+                    items.append((field, i, s))
+    return items
+
+
 def redact_record(rec: dict, scorer: Scorer, threshold: float) -> dict:
-    """Returns a copy with low-entailment sentences dropped + an audit log."""
+    """Drop concrete asserted claims (supported_patient_facts) not entailed by E*."""
     passages = [str(p.get("passage_text", "")) for p in (rec.get("passages") or [])]
     if not passages:
         passages = [str(rec.get("evidence", ""))]
@@ -80,22 +100,20 @@ def redact_record(rec: dict, scorer: Scorer, threshold: float) -> dict:
     out = json.loads(json.dumps(rec, default=str))  # deep copy
     parsed = out.get("parsed") or {}
     dropped = []
-    for field in PATIENT_FIELDS:
-        src = out.get(field) or parsed.get(field) or ""
-        if str(src).strip().lower() in SKIP_SENTENCES:
-            continue
-        kept = []
-        for sent in split_sentences(str(src)):
-            ent = sentence_entailment(scorer, chunks, sent)
-            if ent >= threshold:
-                kept.append(sent)
-            else:
-                dropped.append({"field": field, "sentence": sent, "entailment": round(ent, 4)})
-        new_text = " ".join(kept) if kept else FALLBACK
-        if field in out:
-            out[field] = new_text
-        if field in parsed:
-            parsed[field] = new_text
+    kept_by_field: dict[str, list] = {}
+    for field, _idx, claim in claim_strings(out):
+        ent = sentence_entailment(scorer, chunks, claim)
+        if ent >= threshold:
+            kept_by_field.setdefault(field, []).append(claim)
+        else:
+            dropped.append({"field": field, "claim": claim, "entailment": round(ent, 4)})
+    for field in CLAIM_LIST_FIELDS:
+        if field in out or field in parsed:
+            kept = kept_by_field.get(field, [])
+            if field in out:
+                out[field] = kept
+            if field in parsed:
+                parsed[field] = kept
     out["parsed"] = parsed
     out["nli_dropped"] = dropped
     out["nli_threshold"] = threshold
@@ -144,27 +162,34 @@ def main() -> int:
             h_has = any(k in hyp.lower() for k in kws)
             return 0.95 if (p_has and h_has) else 0.10
 
+        # claim-level: one grounded fact (kept) + one cross-trial fact (dropped)
         rec = {
             "passages": [{"passage_text": "Inclusion: postmenopausal women with osteoporosis and a vertebral fracture; raloxifene arm."}],
-            "patient_facing_answer": "You may qualify based on osteoporosis. The study also enrolls pediatric leukemia patients.",
-            "parsed": {"patient_facing_answer": "You may qualify based on osteoporosis. The study also enrolls pediatric leukemia patients."},
+            "parsed": {"supported_patient_facts": [
+                "patient has osteoporosis with a vertebral fracture",   # entailed -> keep
+                "patient is enrolled for pediatric leukemia immunotherapy",  # not -> drop
+            ]},
+            "supported_patient_facts": [
+                "patient has osteoporosis with a vertebral fracture",
+                "patient is enrolled for pediatric leukemia immunotherapy",
+            ],
         }
         out = redact_record(rec, stub, threshold=0.5)
         assert out["nli_n_dropped"] == 1, out["nli_dropped"]
-        assert "pediatric leukemia" not in out["patient_facing_answer"]
-        assert "osteoporosis" in out["patient_facing_answer"]
-        # all-dropped -> fallback
+        assert out["supported_patient_facts"] == ["patient has osteoporosis with a vertebral fracture"]
+        assert out["parsed"]["supported_patient_facts"] == ["patient has osteoporosis with a vertebral fracture"]
+        # all-dropped -> empty list
         rec2 = {"passages": [{"passage_text": "osteoporosis raloxifene"}],
-                "patient_facing_answer": "This trial studies pediatric leukemia immunotherapy."}
+                "parsed": {"supported_patient_facts": ["this trial studies pediatric leukemia immunotherapy"]}}
         out2 = redact_record(rec2, stub, threshold=0.5)
-        assert out2["patient_facing_answer"] == FALLBACK, out2["patient_facing_answer"]
-        # fallback string is never filtered
-        rec3 = {"passages": [{"passage_text": "x"}], "patient_facing_answer": FALLBACK}
+        assert out2["parsed"]["supported_patient_facts"] == [], out2["parsed"]["supported_patient_facts"]
+        assert out2["nli_n_dropped"] == 1
+        # no claims -> nothing dropped
+        rec3 = {"passages": [{"passage_text": "x"}], "parsed": {"supported_patient_facts": []}}
         out3 = redact_record(rec3, stub, threshold=0.5)
         assert out3["nli_n_dropped"] == 0
-        # sentence splitter
         assert len(split_sentences("A b c. D e f! G h?")) == 3
-        print("[selftest] PASS — split, drop, fallback, skip-fallback all correct")
+        print("[selftest] PASS — claim-level drop/keep, empty-list, no-claims all correct")
         return 0
 
     # ---- real model paths (server GPU) ----
@@ -199,12 +224,8 @@ def main() -> int:
             passages = [str(p.get("passage_text", "")) for p in (rec.get("passages") or [])] \
                 or [str(rec.get("evidence", ""))]
             chunks = chunk_premise(passages)
-            for field in PATIENT_FIELDS:
-                src = rec.get(field) or (rec.get("parsed") or {}).get(field) or ""
-                if str(src).strip().lower() in SKIP_SENTENCES:
-                    continue
-                for sent in split_sentences(str(src)):
-                    ents.append(sentence_entailment(scorer, chunks, sent))
+            for _field, _idx, claim in claim_strings(rec):
+                ents.append(sentence_entailment(scorer, chunks, claim))
         ents = sorted(ents)
         n = len(ents)
         rows, chosen = [], None
