@@ -52,3 +52,21 @@ Local-only remainder (35) = LaTeX build artifacts (`.aux/.bbl/...`), `.pytest_ca
 3. Every analysis/figure/paper number reads from the synced **local** copy.
 4. Re-run `sync_manifest.py` + `sync_diff.py` after each major output batch.
 5. iCloud caveat: this local Desktop is iCloud-synced; large local file hashing can stall on evicted placeholders — keep big data server-side (already policy).
+
+---
+
+## Phase 5 completion (2026-06-13)
+
+All phase-5 work committed and three-way synced (local = origin = server = `5f5abc2`).
+
+**Delivered (advisor's six items):**
+1. Stronger baselines — B1 multi-RAG, B2 prompt-guard, B3 citation-enforced, B4 top-1; 912 gens, full lexical+semantic audit.
+2. Clinical-expert review — 30 blinded dossiers + instrument + analyzer (`outputs/expert_review/`); recruitment pending.
+3. Failure taxonomy — T1/T2/T3 defined + measured; structural control eliminates T1.
+4. Claim-level NLI verification — removes 8/12 genuine consensus leaks at 15.1% per-claim cost.
+5. Safety–utility — cost-of-abstention (22% missed / 78% correct) + Pareto frontier figure.
+6. Claim moderation — "zero detected lexical leakage under audited conditions" throughout; both PDFs compile clean, forbidden-string sweep clean.
+
+**Headline contrast (dual-judge consensus semantic leak):** B1 58.3%, B2 50.9%, B3 59.0% vs B4 top-1 1.3%, V-final 1.8%. Pipeline validated: V-final consensus 1.8% ≈ published 1.75%.
+
+**Deferred:** dual-judge rubric consensus (GPT-4o rubric complete; Sonnet rubric not run — would need ~$20 more Anthropic credit). Expert-review results to be integrated when collaborators return scores.
