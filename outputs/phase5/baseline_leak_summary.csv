@@ -1,0 +1,9 @@
+baseline_id,backbone,n,parse_ok_rate,narrow_leak_rate,narrow_ci95,wide_leak_rate,wide_ci95
+B1_multi_rag,Qwen/Qwen2.5-3B-Instruct,114,1.0,0.0,"(0.0, 0.0318)",0.0175,"(0.0021, 0.0619)"
+B1_multi_rag,Qwen/Qwen2.5-7B-Instruct,114,1.0,0.0263,"(0.0055, 0.075)",0.0263,"(0.0055, 0.075)"
+B2_prompt_guard,Qwen/Qwen2.5-3B-Instruct,114,0.974,0.0175,"(0.0021, 0.0619)",0.0175,"(0.0021, 0.0619)"
+B2_prompt_guard,Qwen/Qwen2.5-7B-Instruct,114,1.0,0.0789,"(0.0367, 0.1446)",0.0877,"(0.0429, 0.1554)"
+B3_citation_enforced,Qwen/Qwen2.5-3B-Instruct,114,0.184,0.0,"(0.0, 0.0318)",0.0088,"(0.0002, 0.0479)"
+B3_citation_enforced,Qwen/Qwen2.5-7B-Instruct,114,1.0,0.4123,"(0.3209, 0.5083)",0.4123,"(0.3209, 0.5083)"
+B4_top1,Qwen/Qwen2.5-3B-Instruct,114,1.0,0.0,"(0.0, 0.0318)",0.0,"(0.0, 0.0318)"
+B4_top1,Qwen/Qwen2.5-7B-Instruct,114,1.0,0.0,"(0.0, 0.0318)",0.0,"(0.0, 0.0318)"

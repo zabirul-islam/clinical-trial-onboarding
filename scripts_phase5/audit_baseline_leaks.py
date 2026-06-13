@@ -83,8 +83,15 @@ def load_vocab() -> dict[str, list[str]]:
     return build_vocab()
 
 
-def detect(text_blob: str, reference_trial: str, vocab: dict[str, list[str]]) -> tuple[int, int]:
-    """Returns (narrow, wide) for a model-emitted text blob (lower-cased)."""
+def detect(text_blob: str, reference_trial: str, vocab: dict[str, list[str]],
+           pool_trials: list[str] | None = None) -> tuple[int, int]:
+    """Returns (narrow, wide) for a model-emitted text blob (lower-cased).
+
+    Wide leak = a distinctive token unique to a NON-reference trial *in this
+    case's retrieval pool* appears in the answer. Restricting to the case pool
+    (pool_trials = evidence_trials) matches the paper's definition and avoids
+    scanning the whole 370k-trial corpus per generation.
+    """
     tb = text_blob.lower()
     ref = (reference_trial or "").upper()
     nct_hits = {m.group().replace(" ", "").upper() for m in NCT_RE.finditer(tb)}
@@ -92,11 +99,15 @@ def detect(text_blob: str, reference_trial: str, vocab: dict[str, list[str]]) ->
     narrow = int(len(nct_hits) > 0)
     wide = narrow
     if not narrow and reference_trial:
-        for doc, kws in vocab.items():
+        check = pool_trials if pool_trials is not None else list(vocab.keys())
+        for doc in check:
             if doc == reference_trial:
                 continue
-            if any(kw and len(kw) >= 5 and kw.lower() in tb for kw in kws):
-                wide = 1
+            for kw in vocab.get(doc, []):
+                if kw and len(kw) >= 5 and kw.lower() in tb:
+                    wide = 1
+                    break
+            if wide:
                 break
     return narrow, wide
 
@@ -118,7 +129,8 @@ def run_audit() -> pd.DataFrame:
             for fp in sorted(bb_dir.glob("*.json")):
                 rec = json.loads(fp.read_text())
                 ref = rec.get("reference_trial") or rec.get("selected_doc") or ""
-                narrow, wide = detect(emitted_blob(rec), ref, vocab)
+                pool = rec.get("evidence_trials")
+                narrow, wide = detect(emitted_blob(rec), ref, vocab, pool_trials=pool)
                 rows.append({
                     "baseline_id": baseline_dir.name,
                     "backbone": bb_dir.name.replace("__", "/"),
